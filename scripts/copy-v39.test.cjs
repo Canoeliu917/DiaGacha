@@ -40,7 +40,7 @@ test('显式文案覆盖不改777张身份、分值、收藏或羁绊字段，�
   assert.equal(JSON.stringify({ cards, essays }), once);
 });
 
-test('500张卡均能生成完整排演文本，旧五卡不补配角，输入顺序自由', () => {
+test('500张卡均能生成完整故事联想，旧五卡不补配角，输入顺序自由', () => {
   const cards = copy(rawCards), essays = copy(originalEssays);
   applyCopyOverridesV39(cards, essays);
   for (const card of cards) card.sourcePlayLabel = roleSources[card.id];
@@ -50,7 +50,7 @@ test('500张卡均能生成完整排演文本，旧五卡不补配角，输入�
   for (const card of active) {
     const drawn = base.map(item => item.dimension === card.dimension ? card : item);
     const paragraphs = talk.nn(drawn);
-    assert.equal(paragraphs.length, 4);
+    assert.equal(paragraphs.length, 5);
     assert.deepEqual(talk.nn([...drawn].reverse()), paragraphs);
     for (const role of drawn.filter(item => ['主演', '配角'].includes(item.dimension))) {
       assert.ok(role.sourcePlayLabel, role.id);
@@ -64,7 +64,7 @@ test('500张卡均能生成完整排演文本，旧五卡不补配角，输入�
   const legacy = base.filter(card => card.dimension !== '配角');
   assert.deepEqual(talk.fiveTalk(legacy), talk.nn(legacy));
   assert.doesNotMatch(talk.nn(legacy)[1], /配角/);
-  assert.match(talk.nn(legacy)[0], /独演/);
+  assert.match(talk.nn(legacy)[0], /独自/);
 });
 
 test('同名不同作品不编造原作关系，长句保留完整且不会用字数补套话', () => {

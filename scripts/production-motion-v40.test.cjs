@@ -94,6 +94,7 @@ function harness({ score = 75, legacy = false, spread = false, reduced = false, 
   screen.querySelectorAll = selector => ({
     '[data-production-cue]': buttons, '.cast-mini,.spread-card': minis, '.hex-corner': corners,
     '.is-cue-card': minis.filter(card => card.classes.has('is-cue-card')),
+    '.is-radar-card': minis.filter(card => card.classes.has('is-radar-card')),
   }[selector] || []);
   const tick = () => {
     const next = [...timers].map(([id, entry]) => ({ id, ...entry, type: timers })).concat([...frames].map(([id, entry]) => ({ id, ...entry, type: frames }))).sort((a, b) => a.at - b.at)[0];
@@ -101,7 +102,7 @@ function harness({ score = 75, legacy = false, spread = false, reduced = false, 
     next.type.delete(next.id); now = next.at; next.fn(now); return true;
   };
   const finish = () => { let count = 0; while (tick()) assert.ok(++count < 1000, '动画必须终止'); };
-  return { context, cards, result, cues, screen, scoreElement, status, row, minis, corners, values, svg, rays, dots, buttons, talk, heading, paragraph, hiddenParagraph, timers, frames, observers, seen, litAxes, litTimes, starTimes, radarPanel, intersectRadar, tick, finish };
+  return { context, cards, result, cues, screen, scoreElement, status, row, minis, corners, values, svg, rays, dots, buttons, talk, heading, paragraph, hiddenParagraph, timers, frames, observers, seen, litAxes, litTimes, starTimes, radarPanel, intersectRadar, tick, finish, currentTime:()=>now };
 }
 
 test('总览与演后谈按实际卡ID同时点亮，重排不串卡，重播不会重复加分', () => {
@@ -135,19 +136,27 @@ test('自动计分的每一帧都是整数，奖励封顶后仍点亮但不会�
   }
 });
 
-test('六张卡按实际ID逐角显出整数，每角间隔260ms，最后一角落定才合成星图', () => {
+test('卡与角按实际ID同步，一次仅一个维度，760ms呈现及180ms停顿后才轮到下一维', () => {
   const run=harness();run.context.enterProductionV40();
+  const rests=[];
   assert.ok(run.svg.classes.has('is-building'));
   assert.equal(run.corners.filter(node=>node.classes.has('is-lit')).length,0);
   while(!run.starTimes.length){
     assert.ok(run.tick());
     assert.ok(run.values.every(value=>/^\d+$/.test(value.textContent)));
     assert.equal(run.corners.filter(node=>node.classes.has('is-lit')).length,run.litAxes.length);
+    const activeCards=run.minis.filter(card=>card.classes.has('is-radar-card'));
+    const activeCorners=run.corners.filter(corner=>corner.classes.has('is-current'));
+    assert.ok(activeCards.length<=1&&activeCorners.length<=1,'不得两个维度重叠播放');
+    assert.deepEqual(activeCards.map(card=>card.dataset.id),activeCorners.map(corner=>corner.dataset.id),'同一帧卡与角必须匹配');
+    if(!activeCards.length&&!run.starTimes.length)rests.push(run.currentTime());
   }
-  assert.deepEqual(run.litTimes,[120,380,640,900,1160,1420]);
-  assert.equal(run.starTimes[0],1840);
+  assert.deepEqual(run.litTimes,[180,1120,2060,3000,3940,4880]);
+  assert.deepEqual(rests,[940,1880,2820,3760,4700,5640]);
+  assert.equal(run.starTimes[0],5820);
   assert.equal(run.minis.filter(card=>card.classes.has('is-cue-card')).length,0,'合图前不抢播奖励');
-  assert.ok(run.minis.every(card=>card.animations.some(animation=>animation.options.duration===420&&animation.frames[0].opacity===.55)));
+  assert.ok(run.minis.every(card=>card.animations.length===0),'卡面没有抢先播放的独立入场动画');
+  assert.ok(!run.screen.classes.has('is-radar-sequence'));
   assert.equal(run.frames.size,0,'角点使用CSS渐显，无遗留计数RAF');
   run.finish();
   assert.ok(!run.svg.classes.has('is-building'));
@@ -224,6 +233,8 @@ test('点击完成立即终止计分，展开及详情返回不会重新从基�
   run.screen.events.click();
   assert.equal(run.scoreElement.textContent, String(run.result.score));
   assert.equal(run.timers.size + run.frames.size, 0);
+  assert.equal(run.minis.filter(card=>card.classes.has('is-radar-card')).length,0);
+  assert.equal(run.corners.filter(corner=>corner.classes.has('is-current')).length,0);
   run.context.stopProductionV40(); run.context.enterProductionV40();
   assert.equal(run.scoreElement.textContent, String(run.result.score));
   assert.equal(run.timers.size + run.frames.size, 0);

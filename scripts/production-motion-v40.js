@@ -5,11 +5,17 @@ function productionCardsV40(){
   return Y.view==='result'?Y.drawn:Y.view==='pack'&&Y.booster?.phase==='spread'&&Y.pack==='mix'?Y.booster.cards:[];
 }
 function motionReducedV40(){return matchMedia('(prefers-reduced-motion: reduce)').matches;}
+function clearRadarCueV40(screen){
+  screen.classList.remove('is-radar-sequence');
+  screen.querySelectorAll('.is-radar-card').forEach(card=>card.classList.remove('is-radar-card'));
+  hexRest();
+}
 function stopProductionV40(){
   talkClear();
   if(!productionMotionV40)return;
   productionMotionV40.observer?.disconnect();
   productionMotionV40.radarObserver?.disconnect();
+  clearRadarCueV40(productionMotionV40.screen);
   productionMotionV40.animations.forEach(animation=>animation.cancel());
   if(productionMotionV40.frame)cancelAnimationFrame(productionMotionV40.frame);
   productionMotionV40=null;
@@ -55,7 +61,7 @@ function showProductionCueV40(cue,{replay=false}={}){
     if(animation)state.cueAnimations.push(animation);
   });
   const status=screen.querySelector('.production-cue-status');
-  if(status){status.textContent=`${cue.title} · ${cue.cardIds.map(id=>state.cards.find(card=>card.id===id).name).join(' × ')}${cue.points?' · +'+cue.points:''}`;status.style.setProperty('--cue-color',color);}
+  if(status){status.textContent=`${cue.title} · ${cue.cardIds.map(id=>state.cards.find(card=>card.id===id).name).join(' × ')}${screen.classList.contains('result-screen')&&cue.points?' · +'+cue.points:''}`;status.style.setProperty('--cue-color',color);}
   if(replay){
     const row=screen.querySelector('.cast-row,.pack-spread');
     if(row){const box=row.getBoundingClientRect();if(box.top<0||box.bottom>innerHeight)row.scrollIntoView({behavior:motionReducedV40()?'instant':'smooth',block:'center'});}
@@ -65,6 +71,7 @@ function finishProductionV40(){
   const state=productionMotionV40;if(!state)return;
   talkClear();
   state.radarObserver?.disconnect();
+  clearRadarCueV40(state.screen);
   if(state.frame)cancelAnimationFrame(state.frame);
   if(state.scoreElement)state.scoreElement.textContent=String(state.result.score);
   state.automatic=false;
@@ -112,24 +119,31 @@ function enterProductionV40(){
   screen.addEventListener('click',()=>{if(productionMotionV40?.automatic)finishProductionV40();},{once:true,capture:true});
   if(scoreElement)scoreElement.textContent=String(result.base);
   const minis=[...screen.querySelectorAll('.cast-mini,.spread-card')];
-  minis.forEach((card,index)=>animateProductionV40(card,[{opacity:.3,transform:'translateY(7px)'},{opacity:1,transform:'none'}],{duration:380,delay:index*70,fill:'backwards'}));
   const state=productionMotionV40;
   const radar=screen.querySelector('.hex-panel');
   if(radar)hexBuildStart(false);
+  else minis.forEach((card,index)=>animateProductionV40(card,[{opacity:.3,transform:'translateY(7px)'},{opacity:1,transform:'none'}],{duration:380,delay:index*70,fill:'backwards'}));
   const start=()=>{
     if(productionMotionV40!==state||!state.automatic||state.started||!screen.isConnected)return;
     state.started=true;
     state.radarObserver?.disconnect();
     let cueStart=520;
     if(radar){
+      screen.classList.add('is-radar-sequence');
       minis.forEach((card,index)=>talkLater(()=>{
+        if(productionMotionV40!==state||!state.automatic)return;
         const axis=[...screen.querySelectorAll('.hex-corner')].findIndex(node=>node.dataset.id===card.dataset.id);
         if(axis<0)return;
-        animateProductionV40(card,[{opacity:.55},{opacity:1}],{duration:420,easing:'ease-out'});
+        card.classList.add('is-radar-card');
         hexLight(axis);
-      },120+index*260));
-      const starAt=120+(minis.length-1)*260+420;
-      talkLater(hexStar,starAt);
+        talkLater(()=>{
+          if(productionMotionV40!==state)return;
+          card.classList.remove('is-radar-card');
+          hexRest();
+        },760);
+      },180+index*940));
+      const starAt=180+minis.length*940;
+      talkLater(()=>{clearRadarCueV40(screen);hexStar();},starAt);
       cueStart=starAt+560;
     }
     let current=result.base;
@@ -148,16 +162,19 @@ function enterProductionV40(){
 }
 function spreadReviewV40(cards){
   const result=productionScore(cards);
-  return `<div class="spread-review"><p class="spread-score-line">这台 <b class="spread-score" aria-label="本场分数">${result.score}</b></p>${scoreBreakdown(result,cards,true)}</div>`;
+  return `<div class="spread-review">${scoreBreakdown(result,cards,false)}</div>`;
 }
 function An(cards,open=false){
-  const paragraphs=nn(cards).map(text=>`<p data-talk-reveal>${K(text)}</p>`).join('');
+  const entries=nn(cards),education=entries.length===5?entries[4]:'';
+  const paragraphs=entries.map(text=>`<p data-talk-reveal>${K(text)}</p>`).join('');
   const sources=typeof talkSourcesV40==='function'?talkSourcesV40(cards):'';
+  const references=typeof talkReferencesV40==='function'?talkReferencesV40(cards):[];
   return `<section class="talk" aria-label="演后谈">
     <h2 data-talk-reveal>演后谈</h2>
-    <div class="talk-short"${open?' hidden':''}><p data-talk-reveal>${K(shortScene(cards))}</p></div>
+    <div class="talk-short"${open?' hidden':''}><p data-talk-reveal>${K(shortScene(cards))}</p>${education?`<p class="talk-education" data-talk-reveal>${K(education)}</p>`:''}</div>
     <div class="talk-full"${open?'':' hidden'}>${paragraphs}</div>
     <button type="button" class="text-btn talk-toggle" data-action="expand-talk" aria-expanded="${open}">${open?'收起全文':'展开这场戏'}</button>
     ${sources?`<p class="talk-sources" data-talk-reveal>${K(sources)}</p>`:''}
+    ${references.length?`<details class="talk-references"><summary>读剧参考</summary><ul>${references.map(ref=>`<li>${K(ref.kind)}：<a href="${K(ref.url)}" target="_blank" rel="noopener noreferrer">${K(ref.title)}</a></li>`).join('')}</ul></details>`:''}
   </section>`;
 }

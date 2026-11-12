@@ -41,6 +41,7 @@ test('每个星级的二至六卡都有独立戏剧短评与准确关联卡', ()
       assert.equal(cue.rarity, rarity);
       assert.deepEqual(plain(cue.cardIds), cards.slice(0, count).map(card => card.id));
       assert.ok(cue.description.includes(cards[0].name) && cue.description.includes(cards[1].name));
+      assert.doesNotMatch(cue.description,/一递一接|先搭起一个来回/);
       titles.add(cue.title);
       descriptions.add(cue.description);
       assertScore(result, cues);
@@ -55,6 +56,17 @@ test('每个星级的二至六卡都有独立戏剧短评与准确关联卡', ()
   }
   assert.equal(titles.size, 35);
   assert.equal(descriptions.size, 35);
+  assert.equal(new Set([...descriptions].map(text=>text.split('同台。')[1])).size,35,'每个星级与人数都有自己的场面，不用同一结尾补齐');
+});
+
+test('总览评语关闭分值时连无障碍名称也不报加分数，仍保留准确关联卡',()=>{
+  const cards=cast();cards.forEach((card,index)=>{card.rarity=index<2?'UC':'R';});
+  const result=production(cards),markup=scoreBreakdown(result,cards,false);
+  assert.doesNotMatch(markup,/cue-value|\+\d|加\d+分|本场分数|spread-score/);
+  assert.ok(markup.includes('data-cue-id="resonance-UC"'));
+  assert.ok(markup.includes('data-cue-id="resonance-R"'));
+  const withPoints=scoreBreakdown(result,cards,true);
+  assert.match(withPoints,/class="cue-value">\+\d/);
 });
 
 test('真实哈姆雷特卡组的四种同作羁绊与演法羁绊各有对应短评', () => {

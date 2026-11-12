@@ -18,8 +18,8 @@ function revealProfileV40(rarity, reduced = false) {
 }
 
 var revealTimersV40 = new Set(), revealCleanupV40 = null;
-function revealLinesMarkupV40(card,shown=false){
-  return preambleLines(card).map((line,i)=>`<p class="pre-line"${shown?'':' hidden'}><span class="reveal-line-label">${['这一张','看点','细读','再看一层'][i]}</span>${K(line)}</p>`).join('');
+function revealLinesMarkupV40(card){
+  return preambleLines(card).map(line=>`<p class="pre-line" hidden>${K(line)}</p>`).join('');
 }
 function restoreRevealIntroV40(){
   const booster=Y.booster,card=booster?.cards?.[booster.index];
@@ -30,8 +30,8 @@ function restoreRevealIntroV40(){
   flip.classList.add('reveal-v40',`rarity-${card.rarity}`,'no-anim');
   if(card.rarity==='LR')document.querySelector('.pull-screen')?.classList.add('reveal-black-stage','reveal-restored-v40');
   host.className='pack-preamble reveal-intro-v40';
-  host.hidden=!preambleLines(card).length;
-  host.innerHTML=revealLinesMarkupV40(card,true);
+  host.hidden=true;
+  host.innerHTML='';
   flip.appendChild(host);
 }
 function revealClearV40() {
@@ -65,6 +65,7 @@ function $() {
   let paper = null, effects = null;
   revealCleanupV40 = () => {
     paper?.remove(); effects?.remove();
+    if(host)host.hidden=true;
     flip.classList.remove('is-reveal-climax', 'is-charging');
     zone.classList.remove('is-preamble', 'is-waiting', `wait-${card.rarity}`);
     screen?.classList.remove('reveal-black-stage');
@@ -79,15 +80,15 @@ function $() {
     host.removeAttribute('data-rows');
     host.setAttribute('aria-label', `${card.name}，开场小注`);
     host.setAttribute('aria-live', 'polite');
+    host.style.setProperty('--reveal-lines', String(lines.length || 1));
     host.innerHTML = revealLinesMarkupV40(card);
     flip.appendChild(host);
-    host.hidden = !lines.length;
+    host.hidden = !lines.length || reduced || skip;
   }
   const showLine = i => {
     const line = host?.querySelectorAll('.pre-line')[i];
-    if (line) { line.hidden = false; line.classList.add('is-on'); }
+    if (line) { line.hidden = false; line.classList.remove('is-out');line.classList.add('is-on'); }
   };
-  const showAllLines = () => lines.forEach((_, i) => showLine(i));
   const finish = () => {
     booster.revealDone = true;
     if (!reduced && !skip) Oe(card.rarity);
@@ -103,7 +104,6 @@ function $() {
     flip.classList.add('no-anim');
     showCard();
     flip.classList.add('no-anim');
-    showAllLines();
     finish();
     return;
   }
@@ -121,6 +121,7 @@ function $() {
   paper.innerHTML = '<i class="reveal-sheet-left"></i><i class="reveal-sheet-right"></i>';
   flip.appendChild(paper);
   const climax = () => {
+    if(host)host.hidden=true;
     showCard();
     effects = document.createElement('div');
     effects.className = 'reveal-effects-v40';
@@ -129,19 +130,25 @@ function $() {
     effects.innerHTML = `<i class="reveal-flare-v40"></i><svg class="reveal-cracks-v40" viewBox="0 0 300 423" preserveAspectRatio="none">${cracks.slice(0, profile.level + 2).map((path, i) => `<path d="${path}" pathLength="1" style="--crack-delay:${i * 35}ms"/>`).join('')}</svg>${Array.from({ length: profile.waves }, (_, i) => `<i class="reveal-wave-v40" style="--wave-delay:${i * 180}ms"></i>`).join('')}`;
     flip.appendChild(effects);
     flip.classList.add('is-reveal-climax');
-    paper.classList.add('is-torn');
-    later(() => { paper.remove(); flip.classList.remove('is-reveal-climax'); }, 780);
+    later(() => paper.classList.add('is-torn'), 260);
+    later(() => { paper.remove(); flip.classList.remove('is-reveal-climax'); }, 1100);
     later(() => effects.remove(), 1550);
-    later(finish, 900);
+    later(finish, 1100);
   };
   let step = 0;
   const nextLine = () => {
     showLine(step);
-    paper.style.setProperty('--reveal-cut', `${Math.round((step + 1) / (lines.length + 1) * 76)}%`);
+    const line=host?.querySelectorAll('.pre-line')[step];
     step += 1;
     if (window.__dgHoldAfter != null && step >= window.__dgHoldAfter) return;
-    const readTime = Math.min(2400, Math.max(1500, lines[step - 1].length * 36));
-    later(step < lines.length ? nextLine : climax, readTime);
+    const readTime = Math.min(3200, Math.max(1800, lines[step - 1].length * 45));
+    later(()=>{
+      line?.classList.remove('is-on');line?.classList.add('is-out');
+      later(()=>{
+        if(line){line.hidden=true;line.classList.remove('is-out');}
+        if(step<lines.length)nextLine();else climax();
+      },420);
+    },readTime);
   };
   later(nextLine, 100);
 }

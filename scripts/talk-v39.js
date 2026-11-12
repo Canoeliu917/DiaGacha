@@ -15,7 +15,7 @@ function talkCardsV39(cards) {
   };
 }
 
-// These are rehearsal conflicts, not extra plot summaries or claimed original relationships.
+// Fictional story seeds inspired by the selected play, never claimed as original plot.
 // The explicit IDs keep a shared word such as "钱" or "罪" from choosing the story.
 const sceneArcsV40 = {
   'play-cherry': {
@@ -39,7 +39,7 @@ const sceneArcsV40 = {
     opening: '{a}邀请{b}看一段短戏，说只想请对方纠正几个细节，却把最刺痛人的一刻留到最后。',
     exchange: '{b}察觉自己被盯着，要求{a}也入戏；试探者只好亲手演出自己原本藏在台词后的指控。',
     reveal: '短戏还没结束，{b}先打断了它。{a}立刻把中断当成答案，{b}却要求重演，指出他删掉了最关键的一句话。',
-    ending: '两人交换观看与被观看的位置，同一段戏再开始。{a}这次没有立刻下判断，台上的停顿第一次比那句指控更难承受。',
+    ending: '{a}读完被删掉的那句话，发现它会使自己的指控失去把握。{b}带走了那份戏词，要求下次见面时，先拿出证据。',
     teaser: '{a}排了一段戏试探{b}，对方却要他也入戏；一次意外停演把试探翻了面，谁在隐藏，谁在逼人认罪，突然都不再清楚。',
   },
   'play-macbeth': {
@@ -47,13 +47,13 @@ const sceneArcsV40 = {
     opening: '{a}盯住那个还空着的位置，请{b}替自己确认：只要先坐下，其他人就会承认。',
     exchange: '{b}要求{a}说明原来坐在那里的人为何不再回来；{a}绕开这句问话，忙着把名牌摆正。',
     reveal: '位置终于归了{a}，他却不再容许{b}靠近。每一次脚步声都使他转身，刚才为他作证的人也成了需要防备的人。',
-    ending: '{b}停止保证安全，把那张名牌留在原处。{a}有了想要的位置，却必须不停站起来检查身后，整场在他无法安坐的动作里结束。',
+    ending: '{b}停止保证安全，把那张名牌留在原处。{a}有了想要的位置，却必须不停站起来检查身后，直到天亮，他也没能安心坐下来。',
     teaser: '{a}请{b}帮助确认一个席位，坐稳后却开始防备这位见证者；权位到手，安静先被赶了出去。',
   },
   'play-godot': {
     title: '说好离开，脚却没有动', premise: '等待一个始终未到的人、离开与留下互相抵消的处境', prop: '预留位置的标记',
     opening: '{a}替一个还没到的人留出位置，{b}问还要等多久；{a}提议先做一件小事，做完再决定。',
-    exchange: '小事做完，{b}准备离开，{a}却想起他们还没确认对方会从哪边来。两人交换位置，把刚才的话又问一遍。',
+    exchange: '小事做完，{b}准备离开，{a}却想起他们还没确认对方会从哪边来。他们把东西拿起又放下，始终没能约定一个离开的时刻。',
     reveal: '终于有了一个像是到来的动静，两人同时迎上去，发现只是自己先前留下的标记。等待没有获得答案，反倒添了一件必须收回的小东西。',
     ending: '{b}说这次真的走了，{a}也答应。两人整理好东西，仍替那个未到的人留着位置；最后一个动作，是把已经拿起的标记重新放下。',
     teaser: '{a}和{b}约定做完最后一件小事就走，新的动静却让他们重新站回原位；所等的人没有出现，离开的决定也没有向前一步。',
@@ -133,7 +133,7 @@ const sceneArcsV40 = {
   'play-xixiang': {
     title: '递出去的话被退了回来', premise: '私人的爱情愿望必须穿过家长规矩与传话障碍的处境', prop: '不能当众读出的信',
     opening: '{a}请{b}转交一封信，只许送到，不许打开；{b}先问，若被拦下，该替谁承担这一趟。',
-    exchange: '{a}急着说明信有多重要，{b}却一次次把信递回，让写信的人练习亲口说出那句话。',
+    exchange: '{a}急着说明信有多重要，{b}却一次次把信递回，坚持要写信的人亲口说明，这封信会使收信的人失去什么。',
     reveal: '交接终于成功，{b}却从另一边带回同一封信：收信的人要听见自己的名字被当面叫出，不肯再只靠传话决定未来。',
     ending: '{a}收起信，跟着{b}走向刚才不敢靠近的位置。最后一句没有写在纸上，两个人都必须留在现场听完。',
     teaser: '{a}请{b}转交一封不能公开的信，对方却把它一次次退回；当私语终于必须当面说出，传话的人也不再只是替别人多走一趟。',
@@ -175,177 +175,202 @@ const sceneArcsV40 = {
     opening: '{a}把行李交给{b}，请求再留一会儿；{b}以为只要允许这点时间，就已经尽到最后的体面。',
     exchange: '{a}逐件取出两人共同生活过的东西，{b}只肯讨论什么时候离开。一个人在清算被背弃的承诺，另一个人只想完成送行。',
     reveal: '{a}突然把行李全部打开，拒绝让过去被一次整齐的搬走遮住。{b}第一次意识到，给予期限并不能决定对方如何使用它。',
-    ending: '{b}停下催促，{a}却仍不能把手中的旧物放回去。排演在报复尚未实施的一刻收住，把下一步会伤及谁留成两人必须直视的选择。',
+    ending: '{b}停下催促，{a}却仍不能把手中的旧物放回去。报复的念头仍在，但那些共同用过的东西使这次送行再也无法被说成两不相欠。',
     teaser: '{a}请求{b}容许最后一点停留，得到的时间却被用来清算共同生活；整齐的送行被打断，体面的措辞再也藏不住驱逐。',
   },
 };
 
-function sceneTextV40(text, context) {
-  return text.replace(/\{(a|b|prop)\}/g, (_, key) => context[key]);
-}
+// These are new fictional encounters. Groups select a conflict, not a substitute synopsis.
+const storySeedsV40={
+  money:{title:'这笔钱究竟替谁说话',prop:'一本收支账簿',
+    opening:'{a}带着一笔钱来找{b}，想资助一件自己珍视的东西，却要求不要留下出资人的姓名。{b}答应保密，仍拿出账簿，请他写明这笔钱从哪里来。',
+    exchange:'{a}把数目一再加大，以为争执只是价钱没有谈拢。{b}却翻出另一笔尚未付清的欠款：受人称赞的慷慨，原来可以与别人迟迟拿不到的钱记在同一页上。',
+    reveal:'{a}终于承认，自己也曾靠这笔不愿说明来路的钱过日子。{b}原本只想替生意收款，此时却发现自己同样不能把责任全推给付钱的人。',
+    ending:'两人没有把账簿烧掉，也没有替彼此写下清白的结论。他们先把欠款列出来，再讨论剩下的钱能做什么；那件本来准备用来赢得称赞的好事，被推迟到债还清以后。',
+    teaser:'{a}想匿名出资，{b}却追问钱的来处。一本账簿把慷慨与欠债翻到同一页上，两人都无法只做审判别人的清白人。'},
+  secret:{title:'少掉的那一页是谁拿走的',prop:'缺了一页的记录',
+    opening:'{a}带来一份缺页的记录，请{b}证明自己没有说谎。{b}认得纸上的字，却声称不记得缺掉的那一页。',
+    exchange:'{a}逐项核对日期，发现{b}记得每一笔无关紧要的小事，偏偏把决定责任的那一天忘了。继续追问，可能毁掉两人仅存的信任；停止追问，又会让另一个无辜的人承担后果。',
+    reveal:'{b}终于拿出藏起的那一页。它证明{a}没有做过被指控的事，也证明他当时知道真相，却选择了沉默。',
+    ending:'{a}把散页装回记录，没有撕掉对自己不利的部分。{b}陪他把完整记录交出去，两人都不知道这能否换来原谅，至少下一个读到它的人不必再替他们补写谎话。',
+    teaser:'{a}请{b}用一份记录洗清嫌疑，缺失的那页却握在对方手中。真相能解除一项指控，也会揭开一次更难解释的沉默。'},
+  choice:{title:'替别人作出的决定被退回来了',prop:'已经写好的约定',
+    opening:'{a}拿着一份写好的约定来见{b}，说自己已经把未来安排妥当，只等对方同意。{b}发现上面没有一项是自己亲口提出的。',
+    exchange:'{a}把每一处安排解释成关心，{b}却问，如果自己拒绝，两人的关系还能不能继续。这个问题使原本顺利的谈话停了下来。',
+    reveal:'{b}划掉了约定中最优厚的条件，宁愿承担损失，也不愿让别人替自己决定。{a}第一次发现，付出的东西越多，并不意味着得到的答应越可靠。',
+    ending:'{a}把那份约定留给{b}修改，自己带走未被接受的礼物。第二天收到的回信很短，只有一项新条件：下一次，请先问我想要什么。',
+    teaser:'{a}为{b}写好了一份看似周全的未来。对方宁愿失去好处也不肯签字，让一次关心显出了支配的代价。'},
+  shelter:{title:'留下一个人，要付出多少',prop:'仅剩的一份储备',
+    opening:'{a}守着仅剩的一份储备，原本打算独自撑过今晚。{b}来请求分走一半，并说明自己已经没有别处可去。',
+    exchange:'{a}先问对方能拿什么交换，{b}翻遍随身的东西，只有一个暂时无法兑现的承诺。拒绝很容易，说完以后继续睡觉却并不容易。',
+    reveal:'外面的动静使两人明白，各守一份储备也未必能平安到天亮。{b}主动承担最危险的一件事，{a}才发现眼前的人并非只会伸手索取。',
+    ending:'他们没有许下永远互相照顾的话，只把这一夜要用的东西重新分了份。天亮时储备比从前更少，{a}却第一次不必独自确认门外是否安全。',
+    teaser:'{b}向{a}求一夜容身，拿不出可供交换的东西。危险逼近后，谁在施舍、谁在保护谁，变得不再那么容易分清。'},
+  identity:{title:'借来的名字还回去以后',prop:'写着另一个名字的名牌',
+    opening:'{a}借用一个更容易获得信任的名字来见{b}。事情起初十分顺利，直到{b}问起一段只有名字真正的主人才能回答的往事。',
+    exchange:'{a}编出的细节越多，{b}的疑问也越具体。他开始明白，自己借来的不只是名声，还有一份从未经历过、却必须负责的过去。',
+    reveal:'{b}说出了真正的名字，承认早就识破了伪装，只想知道{a}会在什么时候停止。最难堪的不是谎话被揭穿，而是那份自己以为赢来的尊重，从头到尾都建立在对方的等待上。',
+    ending:'{a}摘下名牌，重新介绍了自己。{b}没有保证仍给他同样的机会，却肯听他说完一个没有借用任何人经历的理由。',
+    teaser:'{a}靠一个借来的名字赢得{b}的信任，却被一段从未经历过的往事困住。摘掉名牌以后，他必须用真正的自己再争取一次机会。'},
+  waiting:{title:'等来的答复和想象的不一样',prop:'一封迟迟未拆的信',
+    opening:'{a}和{b}守着一封刚送到的信，谁都知道它可能结束漫长的等待，却都请对方先拆。',
+    exchange:'{a}已经为好消息安排好了今后的生活，{b}却偷偷准备了离开的东西。两人一边说无论结果怎样都能接受，一边只谈自己愿意听见的答案。',
+    reveal:'信里没有承诺，只解释了为何一直没有答复。{a}埋怨来信的人太迟，{b}却承认自己早已猜到，只是不愿先打破共同维持的希望。',
+    ending:'他们把信读完，没有再替寄信的人寻找新的借口。{b}拿起行李，{a}留下整理那些为未来准备的东西；这一次，离开和留下终于成了各自的选择。',
+    teaser:'{a}与{b}终于等到一封信，却迟迟不肯拆开。真正到来的并非好消息或坏消息，而是他们再也不能借等待推迟的选择。'},
+};
+const storyGroupsV40={
+  money:'play-sunrise play-baimao xplay-miser xplay-merchant xplay-camel xplay-lou xplay-liqiu yplay-threepenny yplay-mrswarren yplay-promotion yplay-wotu play-v21-majorbarbara play-v21-americandream',
+  secret:'play-doue play-yuanye play-orphan xplay-galileo xplay-cat xplay-longday yplay-agamemnon yplay-elms yplay-enemy yplay-ghosts yplay-inspector yplay-fifteen yplay-crossroads yplay-drunken play-v21-malentendu play-v21-twelveangry play-v21-betrayal v23-play-allmysons v23-play-copenhagen v23-play-equus v23-play-viewbridge',
+  choice:'play-palace play-beijing play-street play-butterfly xplay-figaro xplay-salome xplay-pygmalion xplay-dream xplay-romeo xplay-jia xplay-quyuan xplay-guantheplay yplay-bacchae yplay-lysistrata yplay-phedre yplay-cid yplay-intrigue yplay-tell yplay-jiang yplay-pipa yplay-redlantern play-v21-justes v23-play-springawake',
+  shelter:'play-peach xplay-dragon xplay-sang xplay-doggy xplay-shangyang xplay-caoyang yplay-prometheus yplay-trojan yplay-birds yplay-lower yplay-joan yplay-caiwenji yplay-eaves yplay-chenyi yplay-farewell yplay-locket play-v21-unburied v23-play-woyzeck v23-play-danton v23-play-livefield',
+  identity:'play-secret xplay-faust xplay-tartuffe xplay-caucasian xplay-rhino xplay-twelfth yplay-servant yplay-peer yplay-tempest yplay-richard yplay-caesar yplay-whitesnake play-v21-caligula play-v21-maids play-v21-balcony play-v21-sixcharacters play-v21-henryiv v23-play-art',
+  waiting:'play-sisters xplay-vanya xplay-bald xplay-chairs yplay-endgame yplay-krapp play-v21-noexit play-v21-happydays play-v21-heartbreak play-v21-zoostory v23-play-busstop v23-play-dreamlike v23-play-iceman',
+};
 
-function sceneArcV40(context) {
-  const { play, a, b } = context;
-  const arc = sceneArcsV40[play.id];
-  if (arc) return arc;
-  return {
-    title: '离场以前，把这句话说完', premise: '人物在行动中暴露彼此期待的排演线索', prop: '留在两人之间的一件物品',
-    opening: `这一场从《${play.name}》的动作起步：“${stageSentenceV39(play.stage || play.hook || '让一次准备好的见面被迟来的回答打断。')}”${a}先将这一步做给${b}看，期待对方接下去，${b}却停在原处。`,
-    exchange: `${a}要求把方才未完成的行动继续，${b}却提出交换位置，让发出要求的人先承受一次同样的等待。`,
-    reveal: `两人照原来的顺序重来，位置却已经互换。${a}刚才觉得轻易就能做到的事，轮到自己才迟迟做不下去；${b}终于得到一次不被打断的回应。`,
-    ending: `两人回到开场的位置，这次${a}等${b}先动。排练在那个原先被略过的停顿处结束，让《${play.name}》这条观察落在两人的距离里：“${copySentenceV39(play.observe || play.why || '同一个动作换了回应，就会显出不同的关系。')}”`,
-    teaser: `${a}要${b}接住《${play.name}》里的一次行动，对方却要求先交换位置重来；当要求落到自己身上，原本笃定的人终于停了下来。`,
-  };
+function sceneTextV40(text,context){return text.replace(/\{(a|b|prop)\}/g,(_,key)=>context[key]);}
+function sceneArcV40(context){
+  if(sceneArcsV40[context.play.id])return sceneArcsV40[context.play.id];
+  const kind=Object.keys(storyGroupsV40).find(key=>storyGroupsV40[key].split(' ').includes(context.play.id));
+  return storySeedsV40[kind||'secret'];
 }
-
-function actorEntryV40(card, other, support) {
-  const name = card.name;
-  const entries = {
-    'xrole-pozzo': `${name}先占住方便指挥的位置，要求${other}等自己坐好再谈；谁可以开口，也仿佛必须由他决定。`,
-    'role2-duncan': `${name}把周到的欢迎当作善意，毫无戒备地接受${other}的安排，先答应相信对方。`,
-    'role-oedipus': `${name}把询问的位置逐步移近${other}，每得到一个回答就追问下一句，不肯把任何停顿当作结束。`,
-    'role-nora': `${name}先顺着${other}习惯的口气应答，随后把自己的位置移到与对方同一高度，要求这次把话听完。`,
-    'role-hamlet': `${name}不急着向${other}说明意图，先把对方刚说过的话重复一遍，看哪一个字会让回应停住。`,
-    'role-macbeth': `${name}让${other}先靠近，自己却反复看向身后；越想显得镇定，越不肯交出决定下一步的权力。`,
-    'role-ladym': `${name}替${other}整理好外表，低声催对方把已经决定的事做完，不许动作泄露迟疑。`,
-    'role-anti': `${name}听完${other}的阻拦，仍把身体转向自己要完成的事，让请求逐渐变成已经开始的行动。`,
-    'role-lear': `${name}等着${other}先表明态度，把一个简单的停顿也听成了对自己的冷落。`,
-    'role-iago': `${name}把一句话说到一半便停下，等${other}主动追问，再把猜测伪装成不得不说的提醒。`,
-    'role-wang': `${name}先替${other}安排位置，尽力让双方都不难堪，自己的话却总被新的招呼打断。`,
-    'role-vladimir': `${name}向${other}核对刚才说过的约定，怕遗漏一个细节，反而把准备开始的动作又拖住了。`,
-    'role-gogo': `${name}暂时顾不上${other}提出的大问题，先停下照料疲惫的身体，让催促的人也不得不停一会儿。`,
-    'role2-creon': `${name}听完${other}的请求，再逐字重申自己的要求；他把让步听成了所有规矩都将失效。`,
-    'role2-banquo': `${name}记住${other}话里的承诺，却不急着附和，把一个尚未得到回答的问题留在两人之间。`,
-    'role2-kristine-linde': `${name}没有替${other}继续遮掩，先把那件迟早要说清的事放回两人眼前。`,
-  };
-  if (entries[card.id]) return entries[card.id];
-  const cue = stageSentenceV39(card.stage || card.hook || '先让对方把话说完，再决定是否靠近。');
-  return support
-    ? `${name}没有顺着${other}的节拍回答，而是做出自己的动作：“${cue}”${other}只好停下，等这个动作完成才有机会接话。`
-    : `${name}带着自己的行动习惯入场：“${cue}”这一步直接占去了${other}原本可以从容回应的时间。`;
-}
-
-function scenePlaceV40(context) {
-  const { place, a, b } = context;
-  if (place.id === 'place-v21-diningcar') return {
-    open: `把相遇放在行进中的餐车：${a}与${b}隔着一张窄餐桌，杯子随着车轮轻响，窗外景物不停后退，这顿饭却迟迟吃不完。`,
-    turn: '到站广播响起，邻桌开始收拾行李。这场谈话再拖下去，也不能让列车替他们停留。',
-    end: '列车再次开动，餐桌还在原处，刚才坐在桌边的人却已经不能按原来的关系继续用餐。',
-  };
-  if (place.id === 'place-road') return {
-    open: `在乡间小路上，${a}与${b}隔着一段可以随时走开的距离，却总在准备错身时停住。`,
-    turn: '远处传来脚步声，两人同时转向来路，又必须回过头面对尚未说完的话。',
-    end: '路仍然通向远处，刚才谁也不肯让出的那一步，最后留给观众看清。',
-  };
-  if (place.id === 'place-parlor') return {
-    open: `在娜拉的客厅里，${a}与${b}先照着熟悉的礼貌落座，门口就在视线以内，却不是谁都能轻易走过去。`,
-    turn: '门边传来动静。原本像私下商量的谈话，忽然有了随时会被打断的期限。',
-    end: '客厅的摆设没有变化，两人谁能留下、谁能走向门口，却要重新决定。',
-  };
-  const cue = stageSentenceV39(place.stage || place.hook || '让想离开的人必须从对方眼前经过。');
-  return {
-    open: `这次相遇发生在${place.name}，空间按这条动作线索组织：“${cue}”${a}先占住能发起谈话的位置，${b}要回应，就必须改变双方原有的距离。`,
-    turn: `刚才那次空间动作又发生了。${b}这次不再为${a}先让开，两人必须在${place.name}里重新安排谁先通过、谁留下回答。`,
-    end: `收场时回到${place.name}开场的距离，观众能看见同样的位置已经换了含义。`,
-  };
-}
-
-function sceneMethodV40(context) {
-  const { method, a, b, prop } = context;
-  const effects = {
-    'ydir-handkerchief': `小道具把争执变成可见的交接：${a}每说一次客气话，就把${prop}挪近自己；${b}伸手要接时，${a}却先把杯子递过去。等对方腾出手，关键物件已经到了另一边。`,
-    'dir-wall': `这一段按第四堵墙处理：${a}始终只向${b}解释，谁也不借观众的目光求助。观众看得见两人都避开的${prop}，他们却继续假装它不重要。`,
-    'dir-alien': `间离术落在一次具体中断上：${b}刚要答应，演员便暂时退出角色，复述${a}刚才省掉的条件；重新入戏后，那句答应已无法照原来的口气说出。`,
-    'dir-freeze': `${b}将要接过${prop}的一刻，全场定格。只有${a}把刚才的请求再说一次；同一句话面对伸出却还没接住的手，显出了命令的意味。`,
-    'dir-flashback': `倒叙先演两人已经无法照原来的方式说话的一刻，再退回见面以前。观众先看见关系变化，随后沿着${prop}的摆放与两人的停顿，追问${a}与${b}究竟在哪一步失去了原来的默契。`,
-    'dir-body': `形体无言取消了这一轮解释。${a}靠近${prop}，${b}便改变站位；让出一步并不等于答应，下一次伸手必须重新取得允许。`,
-    'dir-forum': `${b}快要作出答复时，论坛停演把动作停住，请观众提出另一种回应，再由演员重走同一段。${a}必须接住改变后的回答，不能照原来的结尾强行演下去。`,
-    'dir-multi': `一人分饰让同一位演员依次说出${a}的要求与${b}的回应。每次换到另一个位置，上一句留下的压力都不能重置，直到演员自己也无法把两边同时安抚好。`,
-  };
-  if (effects[method.id]) return effects[method.id];
-  return `两人的拉扯在“${method.name}”这一步被放大：“${stageSentenceV39(method.stage || method.hook || '把即将完成的动作停住，等一次回应再继续。')}”这次处理紧接着${a}的要求发生，${b}便把原本将要说出的答应收住，逼对方看清这一步造成的后果。`;
-}
-
-function sceneStyleV40(context) {
-  const { style, place, method, support, a, b, prop } = context;
-  if (style.id === 'ystyle-street') {
-    const publicScene = place.id === 'place-v21-diningcar'
-      ? `将餐车的一段过道向公共观看区敞开，${support ? '由演员扮作旅客' : '独演者换位模拟旅客的声音'}，以一次“请替我看住这件东西”的拦路请求聚拢视线。窄餐桌成了临时的街头戏台，来去的人都能看清交接`
-      : `把${place.name}的一段通道向公共观看区敞开，以一次“请替我看住这件东西”的拦路请求让经过的人停下；场内的相遇就此变成能够被围观的公共事件`;
-    const boundary = method.id === 'dir-wall'
-      ? '围观发生在戏外；进入这段对话后仍守住第四堵墙，演员不向观众索取回答，见证由观看完成'
-      : `让${support ? '扮作围观者的演员' : '换到围观位置的独演者'}复述：“刚才${prop}还在那一边。”${a}再也不能只对${b}低声解释，必须当着这些见证者把条件说完整`;
-    return `街头剧在这里有一个明确的转换：${publicScene}。${boundary}。`;
-  }
-  const forms = {
-    'style-absurd': `用荒诞派的重复把转折留下来：${a}与${b}再说一次开场的客气话，物件与站位却已改变；原本能维持谈话的句子，这次只暴露了两人再也接不上的关系。`,
-    'style-epic': `史诗剧场让这次变化公开可读：演员把${prop}先前的位置指出来，再回到此刻的站位。观众可以沿着两次交接判断局面如何形成，而不只等待谁先落泪。`,
-    'style-real': `现实主义把后果留在日常小事里：${b}仍要把刚才被打断的动作做完，${a}也无法用一段漂亮解释让双方立刻和好。沉默持续到其中一人真正改变动作。`,
-    'style-stan': `按斯坦尼体系，让${a}仍想得到原先要的答复，${b}却带着新发现重新听每一句话。相同的行动目标碰上变化后的对手，逼出演员新的节奏与选择。`,
-    'style-classic': `古典主义把这次翻转留在同一场相遇里：不另开一段往事替人解释，${a}与${b}都必须当场回应已经出现的后果，直到原来的要求得到一个新的回答。`,
-    'style-physical': `身体剧场让${a}重做开场的靠近，${b}却用刚才被迫采取的姿态回应。两副身体交换了承受的位置，观众先看见谁在退让，再听见下一句话。`,
-  };
-  if (forms[style.id]) return forms[style.id];
-  return `转折按“${style.name}”的方式重新落地：“${stageSentenceV39(style.stage || style.hook || '让同一个动作前后重复两次，第二次改变对方的回应。')}”把这一处理放回刚才的交锋，${a}重说原来的要求，${b}却不再给出原来的回应；变化从演法进入了两人的关系。`;
-}
-
-function sceneContextV40(cards) {
-  const context = talkCardsV39(cards);
-  context.a = context.lead.name;
-  context.b = context.support ? context.support.name : '另一种声音';
-  context.arc = sceneArcV40(context);
-  context.prop = context.arc.prop;
+function sceneContextV40(cards){
+  const context=talkCardsV39(cards);
+  context.a=context.lead.name;
+  context.b=context.support?.name;
+  context.arc=sceneArcV40(context);context.prop=context.arc.prop;
   return context;
 }
-
-function dramaticTitleV40(cards) {
-  const context = sceneContextV40(cards);
-  const title = `${context.place.name}｜${context.arc.title}`;
-  return title.length <= 35 ? title : context.arc.title;
+function storyPlaceV40({place,a,b}){
+  if(place.id==='place-v21-diningcar')return {open:`列车还没到站，${a}在餐车里等到了${b}。窄桌上放不下太多东西，这次见面也不能无限拖延。`,turn:'到站广播响起，邻桌的人开始收拾行李，他们必须在列车停下之前把事情说清。'};
+  if(place.id==='place-meixiang')return {open:`夜里的媚香楼仍有歌声，${a}和${b}却顾不上听。他们把谈话留在一间灯还亮着的屋里，希望楼下的人不要过问。`,turn:'楼下的歌声停了，屋里的争执突然传得很远。刚才还能压低声音掩饰的事，现在连窗外都可能听见。'};
+  if(/车|站|船|港|码头|机场/.test(place.name))return {open:`${a}赶到${place.name}时，${b}已经准备离开。错过这次见面，下一封回信不知还要等多久。`,turn:'远处响起催促启程的声音。两人都明白，这次不能再靠“以后再谈”搪塞过去。'};
+  if(/牢|监|审|法庭|刑/.test(place.name))return {open:`在${place.name}，${a}终于获准与${b}见面。能说话的时间不多，每一句都可能被门外的人听见。`,turn:'门外的人来催结束谈话。留下误会容易，补上解释的机会却未必还有。'};
+  if(/路|街|广场|市集|桥|庭院/.test(place.name))return {open:`${a}在${place.name}拦住了${b}。本想私下解决的事，因为来往的人不断停留，渐渐无法保密。`,turn:'有人停下来问发生了什么。两人原本只想说给对方听的话，不得不接受旁人的追问。'};
+  if(/家|厅|客厅|房|寓|宿舍/.test(place.name))return {open:`${a}来到${place.name}找${b}，门开着，却没人先说欢迎。屋里还留着日常生活的痕迹，使这次严肃的见面更加难以开口。`,turn:'门外传来钥匙碰响的声音，再拖下去，这件事就不再只由他们两个人知道。'};
+  return {open:`${a}与${b}约在${place.name}见面。附近没有可以代为传话的人，这次必须由他们自己把条件说清。`,turn:`${place.name}渐渐安静下来。${b}提醒${a}，今天总得带着一个明确的答复离开。`};
 }
 
-function talkSourcesV40(cards) {
-  const { lead, support } = talkCardsV39(cards);
-  return [lead, support].filter(Boolean).map(card => card.sourcePlayLabel
-    ? `${card.name}：${card.sourcePlayLabel}` : card.name).join('；');
+function storyMethodV40({method,a,b,prop}){
+  const name=method.name;
+  if(/形体|手势|身体|无言/.test(name))return `${a}不再解释，只伸手按住${prop}；${b}没有抢夺，却也不肯把手收回。事情还没谈妥，那件东西已经暴露了双方都不愿放弃的部分。`;
+  if(/小道具|道具易主|物件传递|道具延展/.test(name))return `${a}把${prop}悄悄挪到自己面前，以为这样就能抢先作主。${b}没有接过递来的杯子，反而要求把东西放回两人都碰得到的地方。`;
+  if(/录|文档|证词|字幕|读提示/.test(name))return `${b}找到先前留下的一段文字，当着${a}的面逐字读出。它与刚才的说法有一处对不上，两人都无法再声称只是记错了。`;
+  if(/倒叙|闪回|记忆|重演/.test(name))return `${b}提起两人第一次谈到此事的那个晚上。${a}记得的是一项已经得到同意的决定，${b}记得的却是一句根本没被听完的拒绝。`;
+  if(/光|黑场|暗转|烟雾|遮挡|幕/.test(name))return `光线忽然暗下去，${a}以为${b}已经离开，低声说出了方才不肯承认的担忧。回答从近处传来：对方一直没有走。`;
+  if(/声音|拟音|画外音|麦克风|旁唱|合唱|伴唱|齐唱|乐师|歌队/.test(name))return `一阵声音打断了争执。${a}停下后才听清，${b}已经把同一个问题问了三次；最响亮的那句辩解，始终没有回答它。`;
+  if(/分饰|互换|假面|变装/.test(name))return `${b}假定自己才是提出要求的人，请${a}当面作答。${a}立即说出了反对的理由，随后才意识到，那正是自己刚才不肯让对方说完的话。`;
+  if(/独白|潜台词|对白|同句|台词|旁白/.test(name))return `${a}终于把藏在客气话后面的要求说出口。${b}也不再回答那些礼貌的铺垫，直接说明自己最怕失去什么。`;
+  if(/停|定格|慢动作|沉默|冷场|对视/.test(name))return `${b}没有立刻答应。沉默里，${a}几次想催促，最后却先补出了自己一直省略的条件。`;
+  if(/观众|群众|群像|破墙|论坛|旁观|接力/.test(name))return `旁边有人复述了${a}刚才的承诺。${b}借着这句话要求说清条件，私下还能含混过去的说法，此刻已有第三个人记住。`;
+  if(/雨|水池|火/.test(name))return `外面的动静逼得两人先护住${prop}。${a}发现${b}也在保护同一件东西，才肯把方才的责备缓一缓，听对方解释。`;
+  return `${a}想尽快结束争执，${b}却指出${prop}还没有交代清楚。若只谈一时的输赢，明天还会有人为今天没有说完的话付出代价。`;
 }
 
-function shortScene(cards) {
-  const context = sceneContextV40(cards);
-  const { play, place, style, method, arc, support, a } = context;
-  const solo = support ? '' : `本局由${a}独演，对面的声音由同一演员换位试说。`;
-  const form = style.id === 'ystyle-street' && method.id === 'ydir-handkerchief'
-    ? '小道具的交接被街头剧放到众目睽睽之下，原本私下的条件，必须对每一个看见的人说清。'
-    : `以${method.name}让这次变化发生，再用${style.name}重演开场的动作，让改变后的关系显出来。`;
-  return `本局创作／排演设想：借《${play.name}》在${place.name}另写一场相遇。${solo}${sceneTextV40(arc.teaser, context)}${form}`;
+function storyStyleV40({style,a,b,prop}){
+  const name=style.name;
+  if(/广播|声音/.test(name))return `两人的声音隔着一道门传来，${a}起初把${b}的停顿听成同意。门打开以后，那句一直没说完的话终于清楚了：同情可以给，答应却还没有。`;
+  if(/街头|广场|社区|政治|史诗|文献|纪实|逐字|活报/.test(name))return `事情不再只有他们自己知道。有人问${a}准备怎样兑现承诺，也有人问${b}，除了责备对方，自己愿意承担哪一部分。`;
+  if(/荒诞|极简|黑色|小丑|闹剧|滑稽/.test(name))return `两人把客气话说得越来越周全，${prop}却仍夹在他们中间。${b}忽然笑了：再说十遍“都好商量”，也不能替任何人作出决定。`;
+  if(/书信/.test(name))return `${b}拿出一封没寄出的信，${a}才知道，今天这番争执早已在对方心里发生过许多次。信里没有当面的强硬，只有一个反复被划掉又写上的请求。`;
+  if(/悬疑|惊悚|法庭/.test(name))return `${a}问起一个先前忽略的细节，${b}的回答使双方都停了下来。原来他们一直以为对方知道的那件事，从未被真正说出口。`;
+  if(/默剧|身体|舞剧|手语|形象|视觉|剪影/.test(name))return `${b}不再争辩，把${prop}留给${a}检查。看清它以后，${a}那句准备好的指责没有再说出口。`;
+  if(/歌剧|音乐|喜歌|轻歌|诗剧|古典诗学/.test(name))return `${a}记起一句旧歌，本想借它把谈话说得轻松些。${b}却接出了被他省掉的下一句，歌里没有说完的遗憾，恰好是眼前尚未解决的事。`;
+  if(/魔幻|象征|表现|寓言|梦|科幻/.test(name))return `${a}一度觉得${prop}比刚才更沉，仿佛连没说出口的话也压在上面。${b}问他还要不要继续，他才意识到，自己不能把决定交给一个想象中的征兆。`;
+  if(/喜剧|即兴|双人|风俗|客厅/.test(name))return `两人都想给自己留些体面，解释却越说越露怯。${b}先承认了一件不光彩的小事，${a}忍不住笑出声，终于也说出了自己原本打算藏住的部分。`;
+  return `${a}本以为把理由说明白，${b}就该接受。直到听见对方讲起明天的打算，他才发现，这个决定改变的不只是一场谈话，还有别人接下来要过的日子。`;
 }
 
-function soloBlockingV40(text) {
-  return text.replaceAll('两人同时迎上去', '演员先后在两个位置迎上去')
-    .replaceAll('两人同时转向来路', '演员先从一个位置望向来路，再换到另一个位置重做')
-    .replaceAll('两人交换位置', '演员换到对面的站位')
-    .replaceAll('两人整理好东西', '演员依次整理两个位置的东西')
-    .replaceAll('两副身体交换了承受的位置', '同一副身体轮流承担双方的位置');
+function characterMotiveV40(card,other){
+  const a=card.name;
+  const motives={
+    'xrole-pozzo':`${a}惯于替别人发号施令，很难把${other}的迟疑当作平等的拒绝。`,
+    'role2-duncan':`${a}愿意先相信礼貌与善意，因此直到条件被说破，才察觉自己可能判断错了。`,
+    'role-hamlet':`${a}想得到一个可靠的答案，却又怀疑眼前每个看似自然的反应。`,
+    'role-oedipus':`${a}相信查清真相就能恢复秩序，暂时还没想过，真相也可能使自己失去立场。`,
+    'role-nora':`${a}不愿再把别人的周全安排当作自己的选择，这次尤其想亲自决定谈话的结果。`,
+    'role-macbeth':`${a}渴望得到承认，却把可能失去它的危险看得比眼前的承诺更真切。`,
+    'role-anti':`${a}愿意听完阻止自己的理由，却不愿以放弃责任换取安全。`,
+    'role-lear':`${a}盼望得到一句毫无保留的保证，很容易把${other}的保留误认成不爱自己。`,
+    'role-wang':`${a}先想保住生计与和气，自己的底线却也在一次次让步中逼近了。`,
+    'role-vladimir':`${a}急于确认双方是否记得同一件事，仿佛约定还算数，今天就仍有继续下去的理由。`,
+    'role-gogo':`${a}更在意眼下的疲惫与安顿，不愿让宏大的理由盖过此刻真实的难受。`,
+    'v23-role-serge':`${a}要的并不只是一次赞同，而是别人承认他有权作出自己的判断。`,
+    'role2-liu-siye':`${a}习惯把生意与家事都纳入自己能掌握的秩序，因此尤其不愿把决定权交出去。`,
+    'role2-creon':`${a}把个人的让步看作所有规矩松动的开端，这使他很难只把眼前的请求当作一件小事。`,
+  };
+  return motives[card.id]||'';
 }
 
-function nn(cards) {
-  const context = sceneContextV40(cards);
-  const { play, lead, support, a, b, arc } = context;
-  const space = scenePlaceV40(context);
-  const solo = support ? '' : `这副旧五卡没有配角：全场由${a}独演，“另一种声音”是同一演员换位试说的回答，不另添人物；双方动作按先后顺序在两个位置完成。`;
-  const counterpart = support
-    ? actorEntryV40(support, a, true)
-    : `${a}走到对面，替尚未得到的回应试说一句，随即回到原位；这场对话能否继续，必须由他自己承担。`;
+function warrenStoryV40(context){
+  const {a,b,place,style,lead,method}=context;
+  const sound=/广播|声音/.test(style.name);
+  const exchange=/形体|手势|身体|无言/.test(method.name)
+    ? `${a}按住账簿，指着几笔欠账；${b}伸手遮住那些名字，把话题转回展览。${a}没有接他递来的资助款，仍指着账上尚未付清的数目。`
+    : storyMethodV40(context);
+  const purpose=lead.id==='v23-role-serge'
+    ? `${a}带着自己珍爱的白画来到${place.name}，想办一次小展览，让别人认真看待自己的选择。${b}愿意负担费用，条件是展览必须挂他的名字。`
+    : `${a}带着一幅画来到${place.name}，想办一次小展览。${b}愿意负担费用，条件是展览必须挂他的名字。`;
   return [
-    `本局创作／排演设想：借《${play.name}》中${arc.premise}另写一场戏，以下动作与相遇均为本局改编。${solo}${space.open}${sceneTextV40(arc.opening, context)}${actorEntryV40(lead, b, false)}`,
-    `${counterpart}${sceneTextV40(arc.exchange, context)}${sceneMethodV40(context)}`,
-    `${space.turn}${sceneTextV40(arc.reveal, context)}${sceneStyleV40(context)}`,
-    `${sceneTextV40(arc.ending, context)}${space.end}`,
-  ].map(text => support ? text : soloBlockingV40(text));
+    `故事联想：取意于《华伦夫人的职业》，把不同作品中的人物放进一个虚构故事。${purpose}${a}起初觉得，这只是替对方留一点体面，至少终于有人肯为那幅画认真花钱。`,
+    `${a}随后发现，${b}的账簿里还压着几笔未付的工钱。他问这些人什么时候能拿到钱，${b}反问：展览不花这笔钱，你愿意自己补上吗？${exchange}`,
+    sound?`门外传来催账的声音。${a}起初只听见${b}笑着说“不会少你的”，随后听见脚步远去，笑声也立刻消失。他这才明白，自己盼望的资助，可能正是别人被一再拖延的报酬。`:`${a}终于承认，自己从前也曾接受同样来路的钱，只在轮到别人获利时才急着讲道德。${b}的讥讽击中了事实，却不能使那几笔拖欠的工钱自动消失。`,
+    `${a}把画带回去，决定先缩小展览规模。他没有因此变成一个毫无牵连的清白人：自己也曾把赞助当作别人应给的认可。${b}失去了挂名的机会，账上的欠款仍要偿还；两人各失去了一样想要的东西，却都不能再把代价推给门外等工钱的人。`,
+  ];
 }
 
-function fiveTalk(cards) { return nn(cards); }
-
-if (typeof module !== 'undefined' && module.exports) module.exports = {
-  copySentenceV39, stageSentenceV39, shortScene, nn, fiveTalk, dramaticTitleV40, talkSourcesV40,
-};
+function soloStoryV40(context){
+  const {play,lead,place}=context,a=lead.name;
+  return [
+    `故事联想：取意于《${play.name}》，以下为虚构的新故事。${a}独自留在${place.name}，等一封始终没有送到的回信。这一次，没有人能替他决定还要等多久。`,
+    `${a}把准备寄出的第二封信写了又改，发现自己要求对方解释的事，也从未在第一封信里坦白。${/光|暗|黑/.test(context.method.name)?'灯忽然熄了，他在黑暗中说出纸上不敢写的那句话。':/身体|形体|手势|无言/.test(context.method.name)?'他把信塞进信封，又抽出来撕开封口，双手反复的动作比任何解释都诚实。':'他没有继续添字，先把每一句请求后面省去的条件补写出来。'}`,
+    `天快亮时，${a}重新读完旧信，没有再把沉默解释成某种秘密的保证。${/声音|广播/.test(context.style.name)?'窗外的脚步几次使他误以为送信的人来了；听清声音渐渐远去，他才不再替每个动静编造一个好消息。':/荒诞|极简/.test(context.style.name)?'他写下“明天再说”，发现上一页、上上页也写着同样的话。这一次，他把日期写了上去。':'他把真正想问的问题写在纸上，第一次没有替收信的人预先写好答案。'}`,
+    `${a}带着新信离开${place.name}，原来的问题仍没有解决，但等待不再占去他的全部生活。下一次回信到来时，他希望自己已经能承受一个不同的回答。`,
+  ];
+}
+function theatreReadingV40(context){
+  const {play,style,method,arc}=context;
+  if(play.id==='yplay-mrswarren'){
+    const radio=/广播|声音/.test(style.name)?'广播剧让门外催账的声音进入故事：人物看不见那些劳动者，却无法再装作他们不存在。':`“${style.name}”影响的是这场争执被感受到的方式，核心仍是人物肯为自己的主张付出什么代价。`;
+    return `戏剧线索：《华伦夫人的职业》中，薇薇理解母亲早年的贫困处境，却不能接受她仍继续经营妓院获利，最终选择经济独立。作品把贫困如何限制选择、获利以后是否仍要负责，放进同一场母女争论。这则联想把问题转给接受赞助的人：拒绝一笔钱之后，能否承担自己的选择？${radio}`;
+  }
+  const theme=arc.premise?`《${play.name}》提供的联想入口，是${arc.premise}。`:`这则故事从《${play.name}》延伸出一个问题：当愿望需要别人付出代价时，谁有权决定？`;
+  const firstSentence=text=>copySentenceV39(String(text||'').match(/[^。！？]+[。！？]?/)?.[0]||'');
+  const note=firstSentence(style.note||style.blurb);
+  const methodNote=firstSentence(method.note||method.blurb);
+  return `戏剧线索：${theme}${note?`${style.name}：${note}`:''}${methodNote?`${method.name}的具体含义是：${methodNote}`:'人物是否改变决定，仍要从愿望、阻力和代价之间的关系来理解。'}`;
+}
+function nn(cards){
+  const context=sceneContextV40(cards),{play,arc,a,b}=context;
+  if(!context.support)return [...soloStoryV40(context),theatreReadingV40(context)];
+  if(play.id==='yplay-mrswarren')return [...warrenStoryV40(context),theatreReadingV40(context)];
+  const space=storyPlaceV40(context);
+  return [
+    `故事联想：取意于《${play.name}》，以下相遇与事件均为虚构。${space.open}${sceneTextV40(arc.opening,context)}${characterMotiveV40(context.lead,b)}`,
+    `${sceneTextV40(arc.exchange,context)}${characterMotiveV40(context.support,a)}${storyMethodV40(context)}`,
+    `${space.turn}${sceneTextV40(arc.reveal,context)}${storyStyleV40(context)}`,
+    sceneTextV40(arc.ending,context),
+    theatreReadingV40(context),
+  ];
+}
+function shortScene(cards){
+  const context=sceneContextV40(cards),{play,place,arc,support,a,b}=context;
+  if(!support)return `故事联想：取意于《${play.name}》。${a}独自在${place.name}等一封没有到来的回信，却在重读旧信时发现，自己也一直没有坦白真正的问题。等下去还是寄出另一封信，终于只能由他自己决定。`;
+  if(play.id==='yplay-mrswarren')return `故事联想：${a}想在${place.name}办一次画展，${b}愿意出资，却要把自己的名字挂上去。门外催讨工钱的人让这份慷慨变了意味：${a}若拒绝赞助，就得缩小自己的愿望；${b}也不能拿一次善举抵消拖欠。此为借《${play.name}》展开的虚构故事。`;
+  return `故事联想：取意于《${play.name}》，在${place.name}虚构一次相遇。${sceneTextV40(arc.teaser,context)}`;
+}
+function dramaticTitleV40(cards){const c=sceneContextV40(cards),title=`${c.place.name}｜${c.support?c.arc.title:'还没寄出的那封信'}`;return title.length<=35?title:c.arc.title;}
+function talkSourcesV40(cards){const {lead,support}=talkCardsV39(cards);return [lead,support].filter(Boolean).map(card=>card.sourcePlayLabel?`${card.name}：${card.sourcePlayLabel}`:card.name).join('；');}
+function talkReferencesV40(cards){
+  const ids=new Set(cards.flatMap(card=>[card.id,...(card.workIds||[])]));
+  const references=[
+    ['yplay-mrswarren','原作资料','萧伯纳《华伦夫人的职业》原文','https://www.gutenberg.org/files/1097/1097-h/1097-h.htm'],
+    ['v23-play-art','原作资料','Concord Theatricals：《艺术》剧情介绍','https://www.concordtheatricals.com/s/13005/art'],
+    ['xplay-camel','剧目资料','清华新清华学堂：《骆驼祥子》人物与演出介绍','https://www.hall.tsinghua.edu.cn/info/yc/2323'],
+    ['place-meixiang','剧目资料','清华新清华学堂：昆剧《桃花扇》演出介绍','https://www.hall.tsinghua.edu.cn/info/yc/3072'],
+  ].filter(([id])=>ids.has(id)).map(([,kind,title,url])=>({kind,title,url}));
+  references.push({kind:'写作方法',title:'Bush Theatre：愿望、冲突与改变局面的事件',url:'https://www.bushtheatre.co.uk/news/student-guide-to-playwriting-scenes/'});
+  return references;
+}
+function fiveTalk(cards){return nn(cards);}
+if(typeof module!=='undefined'&&module.exports)module.exports={copySentenceV39,stageSentenceV39,shortScene,nn,fiveTalk,dramaticTitleV40,talkSourcesV40,talkReferencesV40};

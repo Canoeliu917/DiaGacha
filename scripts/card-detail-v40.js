@@ -1,11 +1,18 @@
-function statDisclosureV40(card){
-  const review=statRationaleV40(card);
-  return `<details class="stat-rationale"><summary>评分依据 <span>为什么是这个分数</span></summary>
-    <p class="stat-summary">${K(review.summary)}</p>
-    ${['atk','def'].map(axis=>`<p class="stat-reason stat-${axis}"><b>${axis.toUpperCase()} ${K(review[axis].label)} · ${review[axis].value}</b>${K(review[axis].reason)}</p>`).join('')}
-    ${review.sources.length?`<p class="stat-sources">资料：${review.sources.map(source=>`<a href="${K(source.url)}" target="_blank" rel="noopener noreferrer">${K(source.title)}</a>`).join('；')}</p>`:''}
-    <p class="stat-note">${K(review.note)}</p>
-  </details>`;
+function statAxesMarkupV40(card){
+  const review=statRationaleV40(card),dimension=x.find(item=>item.key===card.dimension);
+  return `<div class="axes">${['atk','def'].map(axis=>{
+    const stat=review[axis],value=Math.max(0,Math.min(100,Number(stat.value)||0));
+    const hint=axis==='atk'?dimension?.atkHint:dimension?.defHint;
+    return `<details class="axis axis-${axis} stat-axis">
+      <summary><span class="axis-top"><span class="axis-ico">${axis==='atk'?sn:cn}</span><span class="axis-name">${axis.toUpperCase()} ${K(stat.label)}</span><b>${K(stat.value)}</b></span>
+        <span class="axis-track" aria-hidden="true"><i style="width:${value}%"></i></span>${hint?`<span class="axis-hint">${K(hint)}</span>`:''}
+      </summary>
+      <div class="stat-axis-reading"><p>${K(stat.reason)}</p>
+        ${review.sources.length?`<p class="stat-sources">资料：${review.sources.map(source=>`<a href="${K(source.url)}" target="_blank" rel="noopener noreferrer">${K(source.title)}</a>`).join('；')}</p>`:''}
+        <p class="stat-note">${K(review.note)}</p>
+      </div>
+    </details>`;
+  }).join('')}</div>`;
 }
 
 function xn(card){

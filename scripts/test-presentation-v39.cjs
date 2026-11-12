@@ -20,7 +20,7 @@ sandbox.window=sandbox;
 const context=vm.createContext(sandbox);
 const startup='Zn.addEventListener(`click`,Tr),Er()';
 assert.equal(html.split(startup).length,2);
-const script=html.replace(startup,'globalThis.testGame={e,activeCards,roleSourcesV39,roleSourceLine,ar,Wn,xn,Ct,T,Xt,An,hexRadar,scoreBreakdown,scoringHelp,clampTalk,cardEssays,cardReviewDetails,statDisclosureV40}');
+const script=html.replace(startup,'globalThis.testGame={e,activeCards,roleSourcesV39,roleSourceLine,ar,Wn,xn,Ct,T,Xt,An,hexRadar,scoreBreakdown,scoringHelp,clampTalk,cardEssays,cardReviewDetails,statAxesMarkupV40}');
 for(const [i,block] of [...script.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)].entries())vm.runInContext(block[1],context,{filename:`inline-${i}`,timeout:10000});
 const game=context.testGame;
 let passed=0;
@@ -67,7 +67,8 @@ check('500张释义保持完整句，没有旧补长残句或重复段落',()=>{
     assert(!essay.includes('把抽象的压力收回到'),card.id);
     assert.equal(game.cardReviewDetails(card),'');
     assert(!game.xn(card).includes('看懂这张卡'));
-    assert(game.statDisclosureV40(card).includes('<summary>评分依据'));
+    assert.equal((game.statAxesMarkupV40(card).match(/class="axis axis-(?:atk|def) stat-axis"/g)||[]).length,2);
+    assert(!game.statAxesMarkupV40(card).includes('评分依据'));
     if(['SSR','UR','LR'].includes(card.rarity))assert.equal((game.xn(card).match(/class="card-essay"/g)||[]).length,{SSR:1,UR:2,LR:3}[card.rarity]);
   }
 });
@@ -101,7 +102,8 @@ check('整场及奖励只显示整数，卡面教程集中到首页玩法',()=>{
   assert(help.includes('500')&&help.includes('777')&&help.includes('277'));
   assert(help.includes('草台班子'));
   const review=game.An(cards,true);
-  assert(review.includes('排演设想'));
+  assert(review.includes('故事联想'));
+  assert(review.includes('戏剧线索'));
   assert(!review.includes('不再独占')&&!review.includes('里的伦理分歧便会被简化'));
 });
 

@@ -27,155 +27,89 @@ function draw(ids) {
     return card;
   });
 }
-const examples = [
-  {
-    name: '用户组合：餐车里的庄园交接',
-    ids: ['play-cherry', 'ystyle-street', 'ydir-handkerchief', 'xrole-pozzo', 'role2-duncan', 'place-v21-diningcar'],
-  },
-  {
-    name: '原作人物吻合：安葬与禁令',
-    ids: ['play-antigone', 'style-classic', 'dir-body', 'role-anti', 'role2-creon', 'place-thebes'],
-  },
-  {
-    name: '旧五卡：一人排演未完成的离开',
-    ids: ['play-godot', 'style-absurd', 'dir-freeze', 'role-vladimir', 'place-road'],
-  },
+const examples=[
+ {name:'餐车里的庄园交接',ids:['play-cherry','ystyle-street','ydir-handkerchief','xrole-pozzo','role2-duncan','place-v21-diningcar']},
+ {name:'画展资助与拖欠工钱',ids:['yplay-mrswarren','style-v21-radiodrama','dir-body','v23-role-serge','role2-liu-siye','place-meixiang']},
+ {name:'没有补造配角的旧五卡',ids:['play-godot','style-absurd','dir-freeze','role-vladimir','place-road']},
 ];
-function checkComplete(drawn) {
-  const paragraphs = talk.nn(drawn);
-  assert.equal(paragraphs.length, 4);
-  assert.deepEqual(talk.nn([...drawn].reverse()), paragraphs);
-  assert.deepEqual(talk.fiveTalk(drawn), paragraphs);
-  assert.equal(talk.shortScene([...drawn].reverse()), talk.shortScene(drawn));
-  assert.match(paragraphs[0], /^本局创作／排演设想：/);
-  assert.match(paragraphs[0], /以下动作与相遇均为本局改编/);
-  for (const text of [...paragraphs, talk.shortScene(drawn)]) {
-    assert.ok(text.length > 30);
-    assert.match(text, /[。！？][”’」』"]?$/);
-    assert.doesNotMatch(text, /undefined|\[object Object\]|\{(?:a|b|prop)\}|。{2}|收回到。/);
-    assert.doesNotMatch(text, /^(底本 |主演 |配角 |空间 |演法 )/);
-    assert.doesNotMatch(text, /同作关系|原作羁绊|两人原本|两人本是/);
-  }
-  assert.ok(talk.dramaticTitleV40(drawn).length <= 35);
-  assert.ok(talk.talkSourcesV40(drawn));
+function checkComplete(drawn){
+ const paragraphs=talk.nn(drawn);
+ assert.equal(paragraphs.length,5);
+ assert.deepEqual(talk.nn([...drawn].reverse()),paragraphs);
+ assert.deepEqual(talk.fiveTalk(drawn),paragraphs);
+ assert.equal(talk.shortScene([...drawn].reverse()),talk.shortScene(drawn));
+ assert.match(paragraphs[0],/^故事联想：/);
+ assert.match(paragraphs[0],/虚构/);
+ assert.match(paragraphs[4],/^戏剧线索：/);
+ assert.ok(paragraphs[4].length<=300,'科普段不挤占完整故事');
+ for(const text of [...paragraphs,talk.shortScene(drawn)]){
+  assert.ok(text.length>30);
+  assert.match(text,/[。！？][”’」』"]?$/);
+  assert.doesNotMatch(text,/undefined|\[object Object\]|\{(?:a|b|prop)\}|。{2}|收回到。/);
+ }
+ for(const text of [...paragraphs.slice(0,4),talk.shortScene(drawn)]){
+  const prose=drawn.reduce((value,card)=>value.replaceAll(card.name,''),text);
+  assert.doesNotMatch(prose,/排演|排练|演员|观众|调度|谁先动|空间动作|先交换位置|按.{0,20}方式重新落地|把这一处理放回/);
+ }
+ assert.ok(talk.dramaticTitleV40(drawn).length<=35);
+ assert.ok(talk.talkSourcesV40(drawn));
 }
-
-test('用户组合围绕同一场庄园交接逐场推进，信任、道具和公共见证改变关系', () => {
-  const drawn = draw(examples[0].ids);
-  const [opening, encounter, reversal, ending] = talk.nn(drawn);
-  checkComplete(drawn);
-  assert.equal(talk.dramaticTitleV40(drawn), '餐车｜饭还没吃完，园子已经易主');
-  assert.match(opening, /庄园出售/);
-  assert.match(opening, /餐车.*餐桌/);
-  assert.match(opening, /波卓.*指挥.*邓肯等自己坐好/);
-  assert.match(opening, /邓肯把暂时代管的钥匙放在两人之间/);
-  assert.match(encounter, /邓肯把周到的欢迎当作善意/);
-  assert.match(encounter, /波卓.*庄园钥匙挪近自己/);
-  assert.match(encounter, /邓肯伸手要接时，波卓却先把杯子递过去/);
-  assert.match(reversal, /邓肯伸手要拿回钥匙，波卓却把它压在掌下/);
-  assert.match(reversal, /到站广播/);
-  assert.match(reversal, /餐车的一段过道向公共观看区敞开.*演员扮作旅客/);
-  assert.match(reversal, /拦路请求.*临时的街头戏台/);
-  assert.match(reversal, /见证者.*条件说完整/);
-  assert.match(ending, /钥匙给了你，留下的人怎么办/);
-  assert.doesNotMatch(talk.nn(drawn).join(''), /《等待戈多》|《麦克白》|主演 波卓|配角 邓肯/);
-  assert.equal(talk.talkSourcesV40(drawn), '波卓：《等待戈多》；邓肯：《麦克白》');
-  assert.match(talk.shortScene(drawn), /点头变成了让权.*钥匙易手/);
+test('餐车里的交接具有具体欲望、限制、事件与后果，不再夹入排练说明',()=>{
+ const drawn=draw(examples[0].ids),parts=talk.nn(drawn);
+ checkComplete(drawn);
+ assert.match(parts[0],/列车.*餐车.*庄园交接/);
+ assert.match(parts[1],/点头.*同意.*钥匙/);
+ assert.match(parts[2],/到站广播.*拿回钥匙.*压在掌下/);
+ assert.match(parts[3],/留下的人怎么办/);
+ assert.equal(talk.talkSourcesV40(drawn),'波卓：《等待戈多》；邓肯：《麦克白》');
 });
-
-test('原作人物吻合仍明确是本局排演，保留安葬与禁令，不把同作自动写成亲密羁绊', () => {
-  const drawn = draw(examples[1].ids);
-  const text = talk.nn(drawn).join('');
-  checkComplete(drawn);
-  assert.match(text, /安提戈涅捧着土，请克瑞翁让出一条路/);
-  assert.match(text, /克瑞翁.*逐字重申自己的要求/);
-  assert.match(text, /把土覆了下去/);
-  assert.match(text, /克瑞翁必须决定是否亲手抹去/);
-  assert.doesNotMatch(text, /买下|偿还|欠钱|相爱|结为|同作关系/);
-  const disguised = drawn.map(card => ({ ...card, workIds: ['same-work'] }));
-  assert.deepEqual(talk.nn(disguised), talk.nn(drawn));
+test('用户华伦夫人组合从展览资助推进到工钱责任，声音改变信息而非空泛换位',()=>{
+ const drawn=draw(examples[1].ids),parts=talk.nn(drawn);checkComplete(drawn);
+ assert.match(parts[0],/塞尔吉.*白画.*媚香楼.*认真看待自己的选择.*刘四爷.*挂他的名字/);
+ assert.match(parts[1],/未付的工钱.*自己补上/);
+ assert.match(parts[1],/塞尔吉按住账簿.*刘四爷伸手遮住那些名字/);
+ assert.doesNotMatch(parts[1],/不肯把手收回|暴露了双方都不愿放弃的部分/);
+ assert.match(parts[2],/催账的声音.*被一再拖延的报酬/);
+ assert.match(parts[3],/缩小展览规模.*挂名的机会.*欠款仍要偿还/);
+ assert.match(parts[4],/薇薇.*贫困.*继续经营妓院获利.*经济独立.*广播剧/);
+ assert.equal(talk.talkSourcesV40(drawn),'塞尔吉：《艺术》；刘四爷：《骆驼祥子》');
 });
-
-test('5卡旧链接保持独演，人物来源只含抽到的演员，任意顺序不影响故事', () => {
-  const drawn = draw(examples[2].ids);
-  checkComplete(drawn);
-  const text = talk.nn(drawn).join('');
-  assert.match(text, /全场由弗拉季米尔独演/);
-  assert.match(text, /同一演员换位试说的回答，不另添人物/);
-  assert.match(text, /弗拉季米尔走到对面.*随即回到原位/);
-  assert.doesNotMatch(text, /爱斯特拉冈|波卓|邓肯|配角 [^：]/);
-  assert.equal(talk.talkSourcesV40(drawn), '弗拉季米尔：《等待戈多》');
-  assert.doesNotMatch(text, /两人同时|两副身体/);
-  assert.match(text, /演员先后在两个位置迎上去/);
+test('5卡旧局是一个人的故事，不编造第二张人物或原作关系',()=>{
+ const drawn=draw(examples[2].ids);checkComplete(drawn);
+ assert.match(talk.nn(drawn)[0],/弗拉季米尔独自/);
+ assert.doesNotMatch(talk.nn(drawn).slice(0,4).join(''),/爱斯特拉冈|波卓|邓肯|同一演员|另一种声音/);
+ assert.equal(talk.talkSourcesV40(drawn),'弗拉季米尔：《等待戈多》');
 });
-
-test('777旧分享卡和500常驻卡均保留身份并能进入四场故事', () => {
-  assert.equal(cards.length, 777);
-  assert.equal(activeIds.size, 500);
-  assert.deepEqual(new Set(cards.map(card => card.id)), new Set(identities.map(card => card.id)));
-  const base = draw(examples[0].ids);
-  for (const card of cards) {
-    const drawn = base.map(item => item.dimension === card.dimension ? card : item);
-    checkComplete(drawn);
-    if (['主演', '配角'].includes(card.dimension)) {
-      assert.ok(card.sourcePlayLabel, card.id);
-      assert.ok(talk.talkSourcesV40(drawn).includes(`${card.name}：${card.sourcePlayLabel}`), card.id);
-    }
-  }
+test('777历史卡与500常驻均可生成完整故事，人物来源不丢失',()=>{
+ assert.equal(cards.length,777);assert.equal(activeIds.size,500);
+ assert.deepEqual(new Set(cards.map(card=>card.id)),new Set(identities.map(card=>card.id)));
+ const base=draw(examples[0].ids);
+ for(const card of cards){const drawn=base.map(item=>item.dimension===card.dimension?card:item);checkComplete(drawn);
+  if(['主演','配角'].includes(card.dimension))assert.ok(talk.talkSourcesV40(drawn).includes(`${card.name}：${card.sourcePlayLabel}`),card.id);
+ }
 });
-
-test('交叉抽样覆盖不同结构的组合、顺序与5卡，不改输入数据', () => {
-  let seed = 0x40d1a;
-  const randomIndex = size => {
-    seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
-    return seed % size;
-  };
-  const before = JSON.stringify(cards);
-  for (let index = 0; index < 1200; index++) {
-    let drawn = pools.map(pool => pool[randomIndex(pool.length)]);
-    if (index % 3 === 0) drawn = drawn.filter(card => card.dimension !== '配角');
-    checkComplete(drawn);
-  }
-  assert.equal(JSON.stringify(cards), before);
+test('1200组交叉抽样不变更数据，不把卡片排练字段抄进故事',()=>{
+ let seed=0x40d1a;const random=size=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed%size;};
+ const before=JSON.stringify(cards);
+ for(let i=0;i<1200;i++){let drawn=pools.map(pool=>pool[random(pool.length)]);if(i%3===0)drawn=drawn.filter(c=>c.dimension!=='配角');checkComplete(drawn);}
+ assert.equal(JSON.stringify(cards),before);
+ const base=draw(examples[0].ids),changed=base.map(c=>({...c,stage:'让演员重新交换位置，给观众看一次调度。',hook:'排练重来。'}));
+ assert.deepEqual(talk.nn(changed),talk.nn(base));
 });
-
-test('六张卡都改变排演；未单独映射的卡沿用完整编辑动作，没有关键词分类或截断补句', () => {
-  const base = draw(examples[0].ids);
-  const baseline = talk.nn(base).join('');
-  for (let index = 0; index < dimensions.length; index++) {
-    const substitute = pools[index].find(card => card.id !== base[index].id);
-    const drawn = base.map((card, position) => position === index ? substitute : card);
-    assert.notEqual(talk.nn(drawn).join(''), baseline, substitute.id);
-  }
-  const synthetic = base.map(card => ({ ...card, id: `unmapped-${card.dimension}`, stage: `请把这张${card.dimension}卡的动作完整做完，再等对方回应。` }));
-  const text = talk.nn(synthetic).join('');
-  for (const card of synthetic) assert.ok(text.includes(card.stage), card.dimension);
-  const longSentence = '这个决定需要等对方把话说完再作回答'.repeat(30) + '。';
-  synthetic[3].stage = longSentence;
-  assert.ok(talk.nn(synthetic).join('').includes(longSentence));
-  assert.equal(talk.copySentenceV39(longSentence), longSentence);
-  assert.equal(talk.stageSentenceV39('排演时，让演员先坐下。'), '让演员先坐下。');
-  const innocent = synthetic.map(card => ({ ...card, note: '钱财罪责王位背叛', tags: ['复仇', '欠债'] }));
-  assert.deepEqual(talk.nn(innocent), talk.nn(synthetic));
+test('六维改变故事或专业解读，单人故事同样接纳演法与手段',()=>{
+ const base=draw(examples[0].ids),text=talk.nn(base).join('');
+ for(let i=0;i<dimensions.length;i++){const other=pools[i].find(c=>c.id!==base[i].id),changed=base.map((c,j)=>j===i?other:c);assert.notEqual(talk.nn(changed).join(''),text,other.id);}
+ const solo=draw(examples[2].ids),alternate=solo.map(c=>c.dimension==='导演手法'?cards.find(c=>c.id==='dir-body'):c);
+ assert.notEqual(talk.nn(alternate)[1],talk.nn(solo)[1]);
 });
-
-test('街头剧与第四堵墙同时抽到时明确内外层，不要求演员一边破墙一边不承认观众', () => {
-  const drawn = draw(examples[0].ids.map(id => id === 'ydir-handkerchief' ? 'dir-wall' : id));
-  assert.match(talk.nn(drawn)[2], /围观发生在戏外.*第四堵墙.*演员不向观众索取回答/);
+test('原作与写作方法参考明确分开，只列已核实且与抽卡有关的资料',()=>{
+ const refs=talk.talkReferencesV40(draw(examples[1].ids));
+ assert.equal(refs.length,5);
+ assert.ok(refs.some(r=>r.kind==='原作资料'&&r.url.includes('/1097/')));
+ assert.ok(refs.some(r=>r.title.includes('骆驼祥子')));
+ assert.ok(refs.some(r=>r.kind==='写作方法'));
+ const unrelated=talk.talkReferencesV40(draw(examples[0].ids));
+ assert.equal(unrelated.length,1);
+ assert.equal(unrelated[0].kind,'写作方法');
 });
-
-test('倒叙回看关系变化，不把其他主题硬写成争夺道具成功', () => {
-  const drawn = draw(['play-doll', 'style-real', 'dir-flashback', 'role-nora', 'role2-kristine-linde', 'place-parlor']);
-  const text = talk.nn(drawn).join('');
-  assert.match(text, /倒叙先演两人已经无法照原来的方式说话/);
-  assert.doesNotMatch(text, /娜拉得手|行李已经易手/);
-  const cherry = draw(examples[0].ids.map(id => id === 'ydir-handkerchief' ? 'dir-body' : id));
-  assert.doesNotMatch(talk.nn(cherry)[2], /放下杯子/);
-});
-
-if (process.argv.includes('--samples')) {
-  for (const example of examples) {
-    const drawn = draw(example.ids);
-    console.log(`\n${example.name}\n${talk.dramaticTitleV40(drawn)}\n${talk.shortScene(drawn)}\n\n${talk.nn(drawn).join('\n\n')}\n人物来源：${talk.talkSourcesV40(drawn)}\n`);
-  }
-}
+if(process.argv.includes('--samples'))for(const example of examples){const drawn=draw(example.ids);console.log('\n'+example.name+'\n'+talk.nn(drawn).join('\n\n')+'\n人物来源：'+talk.talkSourcesV40(drawn));}

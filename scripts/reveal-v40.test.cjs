@@ -84,18 +84,30 @@ function runReveal(rarity, { reduced = false, skip = false, last = false } = {})
   return { context, zone, flip, host, screen, timers, tick, finish, soundCount: () => soundCount, elapsed: () => now };
 }
 
-test('介绍逐句自上而下保留，高潮波纹为一二三圈，所有计时完成后释放', () => {
+test('卡面均分后一次只显一句，前句淡出才显后句，最后裂开并露出完整卡面', () => {
   for (const [rarity, waves] of [['SSR', 1], ['UR', 2], ['LR', 3]]) {
     const run = runReveal(rarity);
-    for (let i = 0; i < waves + 1; i++) {
-      run.tick();
-      assert.equal(run.host.lines.filter(line => !line.hidden).length, i + 1);
-      assert.ok(run.host.lines.slice(0, i + 1).every(line => line.classes.has('is-on')));
-    }
+    const paper=run.flip.children.find(child=>child.className==='reveal-paper-v40');
+    assert.equal(run.host.attributes['--reveal-lines'],String(waves+1));
     run.tick();
+    for (let i = 0; i < waves + 1; i++) {
+      assert.equal(run.host.lines.filter(line => !line.hidden).length, 1);
+      assert.ok(run.host.lines[i].classes.has('is-on'));
+      assert.ok(!paper.classes.has('is-torn'),'全部句子读完前不泄露卡面');
+      run.tick();
+      assert.ok(run.host.lines[i].classes.has('is-out'));
+      assert.equal(run.host.lines.filter(line => !line.hidden).length, 1);
+      run.tick();
+      assert.ok(run.host.lines[i].hidden);
+    }
+    assert.equal(run.host.hidden,true);
+    assert.equal(run.host.lines.filter(line=>!line.hidden).length,0);
     const effects = run.flip.children.find(child => child.className === 'reveal-effects-v40');
     assert.equal((effects.innerHTML.match(/class="reveal-wave-v40"/g) || []).length, waves);
     assert.ok(run.flip.classes.has('is-reveal-climax'));
+    assert.ok(!paper.classes.has('is-torn'),'先显裂纹再拉开幕片');
+    run.tick();
+    assert.ok(paper.classes.has('is-torn'));
     run.finish();
     assert.ok(run.context.Y.booster.revealDone);
     assert.equal(run.context.revealTimersV40.size, 0);
@@ -105,11 +117,12 @@ test('介绍逐句自上而下保留，高潮波纹为一二三圈，所有计�
   }
 });
 
-test('减少动态或跳过时立即完整显示，无震动裂缝波纹也无等待计时', () => {
+test('减少动态或跳过时立即露出完整卡面，无文字遮挡或等待计时', () => {
   for (const option of [{ reduced: true }, { skip: true }]) {
     const run = runReveal('LR', option);
     assert.ok(run.context.Y.booster.revealDone);
-    assert.equal(run.host.lines.filter(line => !line.hidden).length, 4);
+    assert.equal(run.host.hidden,true);
+    assert.equal(run.host.lines.filter(line => !line.hidden).length, 0);
     assert.deepEqual(run.flip.children,[run.host]);
     assert.equal(run.timers.size, 0);
     assert.ok(!run.flip.classes.has('is-reveal-climax'));
@@ -124,6 +137,7 @@ test('下一张关闭或重绘均可清理计时，旧回调不改变新一张�
   run.context.revealClearV40();
   assert.equal(run.timers.size, 0);
   assert.equal(run.context.revealTimersV40.size, 0);
+  assert.ok(run.host.hidden);
   assert.ok(run.flip.children.filter(child=>child!==run.host).every(child => child.removed));
   assert.equal(run.context.Y.booster.revealDone, false);
   const stale = runReveal('LR');
@@ -133,7 +147,7 @@ test('下一张关闭或重绘均可清理计时，旧回调不改变新一张�
   assert.equal(stale.soundCount(), 0);
 });
 
-test('三星四星快速完成，介绍不再复用格位或限制高度', () => {
+test('三星四星快速完成，高星句子在卡内均分区域且无面板底色', () => {
   for (const rarity of ['R', 'SR']) {
     const run = runReveal(rarity);
     run.finish();
@@ -141,9 +155,10 @@ test('三星四星快速完成，介绍不再复用格位或限制高度', () =>
     assert.ok(run.elapsed() < 700);
     assert.equal(run.host.lines.length, 0);
   }
-  assert.match(css, /position: absolute; inset: auto auto 16px 50%/);
+  assert.match(css, /position: absolute; inset: 12px/);
   assert.match(css, /pointer-events: none/);
-  assert.match(css, /width: calc\(100% \+ 36px\)/);
+  assert.match(css, /grid-template-rows: repeat\(var\(--reveal-lines\),minmax\(0,1fr\)\)/);
+  assert.match(css, /background: transparent/);
   assert.match(css, /max-height: none/);
   assert.match(css, /-webkit-line-clamp: unset/);
   assert.match(css, /prefers-reduced-motion/);
@@ -151,14 +166,13 @@ test('三星四星快速完成，介绍不再复用格位或限制高度', () =>
   assert.doesNotMatch(source, /gridRow|maxHeight|layoutPre/);
 });
 
-test('完成揭晓后打开详情再返回，恢复全部小注而不重播或重建计时', () => {
+test('完成揭晓后详情返回只显示卡面，不恢复遮挡文字或重播', () => {
   const run = runReveal('LR');run.finish();
   run.context.Y.view='pack';
   run.host.innerHTML='';run.host.hidden=true;
   run.context.restoreRevealIntroV40();
-  assert.equal(run.host.hidden,false);
-  assert.equal(run.host.lines.length,4);
-  assert.ok(run.host.lines.every(line=>!line.hidden&&!line.classes.has('is-on')));
+  assert.equal(run.host.hidden,true);
+  assert.equal(run.host.lines.length,0);
   assert.equal(run.host.parent,run.flip);
   assert.equal(run.timers.size,0);
   assert.equal(run.soundCount(),1);
@@ -166,11 +180,12 @@ test('完成揭晓后打开详情再返回，恢复全部小注而不重播或�
   assert.ok(run.screen.classes.has('reveal-restored-v40'));
 });
 
-test('最后一张高星跳过或减动时全文停留在卡面，交给现有下一步按钮继续',()=>{
+test('最后一张高星跳过或减动后卡面停留，交给现有下一步按钮继续',()=>{
   for(const options of [{reduced:true,last:true},{skip:true,last:true}]){
     const run=runReveal('LR',options);
     assert.equal(run.host.parent,run.flip);
-    assert.equal(run.host.lines.filter(line=>!line.hidden).length,4);
+    assert.equal(run.host.hidden,true);
+    assert.equal(run.host.lines.filter(line=>!line.hidden).length,0);
     assert.equal(run.context.Y.booster.revealDone,true);
     assert.equal(run.timers.size,0);
   }

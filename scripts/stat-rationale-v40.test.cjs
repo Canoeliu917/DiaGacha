@@ -54,6 +54,37 @@ test('不足以支持历史低分时保留不确定，不编造作品结构缺�
   assert.match(statRationaleV40(get('play-godot')).def.reason, /开放结局不等于结构未完成/);
 });
 
+test('9张一星卡都有针对自身功能的解释，限制与原作价值分开说明', () => {
+  const common = cards.filter(card => activeIds.has(card.id) && card.rarity === 'C');
+  assert.equal(common.length, 9);
+  for (const card of common) {
+    const result = statRationaleV40(card);
+    for (const axis of ['atk', 'def']) {
+      assert.doesNotMatch(result[axis].reason, /现有卡片写到：|卡片给出的排演示例是：|因为.*一星/, card.id);
+    }
+  }
+  assert.match(statRationaleV40(get('xplace-carriage')).def.reason, /座位、过道.*走位.*余地较小/);
+  assert.match(statRationaleV40(get('style-v21-epistolary')).atk.reason, /收信者可能始终缺席.*转述与等待/);
+  assert.match(statRationaleV40(get('dir-v21-endingloop')).atk.reason, /重新解释已经发生的行动.*不一定创造新的事件/);
+  const silent = statRationaleV40(get('v23-role-silentman'));
+  assert.match(silent.atk.reason, /先于其他人步行.*不能支持.*因为沉默所以行动弱.*复核/);
+  const warren = statRationaleV40(get('yplay-mrswarren'));
+  assert.match(warren.atk.reason, /财富的来源.*要求独立.*无法说明/);
+  assert.match(warren.def.reason, /两句简介不足以断言结构薄弱/);
+});
+
+test('低星手法解释适用条件与限制，金枝和凯瑟琳分别保留具体处境', () => {
+  assert.match(statRationaleV40(get('xstyle-walk')).def.reason, /跟上.*视听条件.*信息缺失/);
+  assert.match(statRationaleV40(get('ydir-jijifeng')).def.reason, /听清信息.*辨认因果.*吞掉关键回应/);
+  assert.match(statRationaleV40(get('ydir-rankou')).def.reason, /灯光、观看距离.*化妆不能代替步态/);
+  assert.match(statRationaleV40(get('ystyle-budaixi')).def.reason, /不直接规定怎样说话、行动.*自己的处境与愿望/);
+  const jinzhi = statRationaleV40(get('v23-role-jinzhi'));
+  const catherine = statRationaleV40(get('v23-sup-catherine'));
+  assert.match(jinzhi.atk.reason, /身体、生育和屈辱.*不能把受苦直接当成行动弱/);
+  assert.match(catherine.atk.reason, /工作、恋爱与独立.*迫使埃迪回应/);
+  assert.notEqual(jinzhi.atk.reason, catherine.atk.reason);
+});
+
 test('32张锚点只展示已有且能算回当前分值的子项，来源逐项复用记录', () => {
   for (const anchor of anchors.cards) {
     const card = get(anchor.id);
