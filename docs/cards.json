@@ -12449,7 +12449,7 @@
 },
 {
 "id": "yrole-hamm",
-"name": "汉姆（终局）",
+"name": "汉姆",
 "dimension": "主演",
 "rarity": "LR",
 "atk": 93,
@@ -15236,7 +15236,7 @@
 },
 {
 "id": "role2-andrei-three-sisters",
-"name": "安德烈（三姐妹）",
+"name": "安德烈",
 "dimension": "配角",
 "rarity": "SSR",
 "atk": 78,
@@ -15425,7 +15425,7 @@
 },
 {
 "id": "role2-mayor-inspector",
-"name": "市长（钦差大臣）",
+"name": "市长",
 "dimension": "配角",
 "rarity": "UR",
 "atk": 85,
@@ -15502,7 +15502,7 @@
 },
 {
 "id": "role2-boris-storm",
-"name": "鲍里斯（大雷雨）",
+"name": "鲍里斯",
 "dimension": "配角",
 "rarity": "R",
 "atk": 72,
@@ -15689,7 +15689,7 @@
 },
 {
 "id": "role2-jean-rhinoceros",
-"name": "让（犀牛）",
+"name": "让",
 "dimension": "配角",
 "rarity": "UR",
 "atk": 86,
@@ -15743,7 +15743,7 @@
 },
 {
 "id": "role2-claire-maids",
-"name": "克莱尔（女仆）",
+"name": "克莱尔",
 "dimension": "配角",
 "rarity": "LR",
 "atk": 93,
@@ -16553,7 +16553,7 @@
 },
 {
 "id": "role2-heizi-signal",
-"name": "黑子（绝对信号）",
+"name": "黑子",
 "dimension": "配角",
 "rarity": "UR",
 "atk": 87,
@@ -18445,7 +18445,7 @@
 },
 {
 "id": "role-v21-margueritecamellia",
-"name": "玛格丽特（茶花女）",
+"name": "玛格丽特",
 "dimension": "主演",
 "rarity": "UR",
 "atk": 84,
@@ -18628,7 +18628,7 @@
 },
 {
 "id": "role-v21-tomglass",
-"name": "汤姆（玻璃动物园）",
+"name": "汤姆",
 "dimension": "主演",
 "rarity": "R",
 "atk": 70,
@@ -18682,7 +18682,7 @@
 },
 {
 "id": "role-v21-jimglass",
-"name": "吉姆（玻璃动物园）",
+"name": "吉姆",
 "dimension": "主演",
 "rarity": "R",
 "atk": 65,
@@ -20372,7 +20372,7 @@
 },
 {
 "id": "v23-role-alan",
-"name": "艾伦（恋马狂）",
+"name": "艾伦",
 "dimension": "主演",
 "rarity": "SR",
 "atk": 72,
@@ -20426,7 +20426,7 @@
 },
 {
 "id": "v23-role-jinzhi",
-"name": "金枝（生死场）",
+"name": "金枝",
 "dimension": "主演",
 "rarity": "R",
 "atk": 72,
@@ -20561,7 +20561,7 @@
 },
 {
 "id": "v23-sup-marie",
-"name": "玛丽（沃伊采克）",
+"name": "玛丽",
 "dimension": "配角",
 "rarity": "SR",
 "atk": 74,
@@ -20615,7 +20615,7 @@
 },
 {
 "id": "v23-sup-catherine",
-"name": "凯瑟琳（桥头眺望）",
+"name": "凯瑟琳",
 "dimension": "配角",
 "rarity": "R",
 "atk": 72,
@@ -20669,7 +20669,7 @@
 },
 {
 "id": "v23-sup-nurse",
-"name": "护士（恋马狂）",
+"name": "护士",
 "dimension": "配角",
 "rarity": "C",
 "atk": 57,
@@ -20723,7 +20723,7 @@
 },
 {
 "id": "v23-sup-zhaosan",
-"name": "赵三（生死场）",
+"name": "赵三",
 "dimension": "配角",
 "rarity": "UC",
 "atk": 63,
@@ -20750,7 +20750,7 @@
 },
 {
 "id": "v23-sup-stationmaster",
-"name": "马主任（车站）",
+"name": "马主任",
 "dimension": "配角",
 "rarity": "R",
 "atk": 71,
@@ -20804,7 +20804,7 @@
 },
 {
 "id": "v23-sup-marc",
-"name": "马克（艺术）",
+"name": "马克",
 "dimension": "配角",
 "rarity": "SR",
 "atk": 78,

@@ -1362,7 +1362,7 @@
     },
     {
       "id": "yrole-hamm",
-      "name": "汉姆（终局）",
+      "name": "汉姆",
       "dimension": "主演",
       "sourcePlayLabel": "《终局》",
       "sourcePlayIds": [
@@ -2275,7 +2275,7 @@
     },
     {
       "id": "role2-andrei-three-sisters",
-      "name": "安德烈（三姐妹）",
+      "name": "安德烈",
       "dimension": "配角",
       "sourcePlayLabel": "《三姐妹》",
       "sourcePlayIds": [
@@ -2380,7 +2380,7 @@
     },
     {
       "id": "role2-mayor-inspector",
-      "name": "市长（钦差大臣）",
+      "name": "市长",
       "dimension": "配角",
       "sourcePlayLabel": "《钦差大臣》",
       "sourcePlayIds": [
@@ -2421,7 +2421,7 @@
     },
     {
       "id": "role2-boris-storm",
-      "name": "鲍里斯（大雷雨）",
+      "name": "鲍里斯",
       "dimension": "配角",
       "sourcePlayLabel": "《大雷雨》",
       "sourcePlayIds": [],
@@ -2524,7 +2524,7 @@
     },
     {
       "id": "role2-jean-rhinoceros",
-      "name": "让（犀牛）",
+      "name": "让",
       "dimension": "配角",
       "sourcePlayLabel": "《犀牛》",
       "sourcePlayIds": [
@@ -2554,7 +2554,7 @@
     },
     {
       "id": "role2-claire-maids",
-      "name": "克莱尔（女仆）",
+      "name": "克莱尔",
       "dimension": "配角",
       "sourcePlayLabel": "《女仆》",
       "sourcePlayIds": [
@@ -3004,7 +3004,7 @@
     },
     {
       "id": "role2-heizi-signal",
-      "name": "黑子（绝对信号）",
+      "name": "黑子",
       "dimension": "配角",
       "sourcePlayLabel": "《绝对信号》",
       "sourcePlayIds": [],
@@ -3318,7 +3318,7 @@
     },
     {
       "id": "role-v21-margueritecamellia",
-      "name": "玛格丽特（茶花女）",
+      "name": "玛格丽特",
       "dimension": "主演",
       "sourcePlayLabel": "《茶花女》",
       "sourcePlayIds": [],
@@ -3417,7 +3417,7 @@
     },
     {
       "id": "role-v21-tomglass",
-      "name": "汤姆（玻璃动物园）",
+      "name": "汤姆",
       "dimension": "主演",
       "sourcePlayLabel": "《玻璃动物园》",
       "sourcePlayIds": [
@@ -3447,7 +3447,7 @@
     },
     {
       "id": "role-v21-jimglass",
-      "name": "吉姆（玻璃动物园）",
+      "name": "吉姆",
       "dimension": "主演",
       "sourcePlayLabel": "《玻璃动物园》",
       "sourcePlayIds": [
@@ -3567,7 +3567,7 @@
     },
     {
       "id": "v23-role-alan",
-      "name": "艾伦（恋马狂）",
+      "name": "艾伦",
       "dimension": "主演",
       "sourcePlayLabel": "《恋马狂》",
       "sourcePlayIds": [
@@ -3597,7 +3597,7 @@
     },
     {
       "id": "v23-role-jinzhi",
-      "name": "金枝（生死场）",
+      "name": "金枝",
       "dimension": "主演",
       "sourcePlayLabel": "《生死场》",
       "sourcePlayIds": [
@@ -3672,7 +3672,7 @@
     },
     {
       "id": "v23-sup-marie",
-      "name": "玛丽（沃伊采克）",
+      "name": "玛丽",
       "dimension": "配角",
       "sourcePlayLabel": "《沃伊采克》",
       "sourcePlayIds": [
@@ -3702,7 +3702,7 @@
     },
     {
       "id": "v23-sup-catherine",
-      "name": "凯瑟琳（桥头眺望）",
+      "name": "凯瑟琳",
       "dimension": "配角",
       "sourcePlayLabel": "《桥头眺望》",
       "sourcePlayIds": [
@@ -3732,7 +3732,7 @@
     },
     {
       "id": "v23-sup-nurse",
-      "name": "护士（恋马狂）",
+      "name": "护士",
       "dimension": "配角",
       "sourcePlayLabel": "《恋马狂》",
       "sourcePlayIds": [
@@ -3762,7 +3762,7 @@
     },
     {
       "id": "v23-sup-zhaosan",
-      "name": "赵三（生死场）",
+      "name": "赵三",
       "dimension": "配角",
       "sourcePlayLabel": "《生死场》",
       "sourcePlayIds": [
@@ -3777,7 +3777,7 @@
     },
     {
       "id": "v23-sup-stationmaster",
-      "name": "马主任（车站）",
+      "name": "马主任",
       "dimension": "配角",
       "sourcePlayLabel": "《车站》",
       "sourcePlayIds": [
@@ -3807,7 +3807,7 @@
     },
     {
       "id": "v23-sup-marc",
-      "name": "马克（艺术）",
+      "name": "马克",
       "dimension": "配角",
       "sourcePlayLabel": "《艺术》",
       "sourcePlayIds": [

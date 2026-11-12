@@ -913,7 +913,7 @@
         },
         {
           "roleId": "role-v21-tomglass",
-          "name": "汤姆（玻璃动物园）"
+          "name": "汤姆"
         }
       ],
       "staging": "triangle",
@@ -6021,7 +6021,7 @@
         },
         {
           "roleId": "role2-jean-rhinoceros",
-          "name": "让（犀牛）"
+          "name": "让"
         }
       ],
       "staging": "surround",
@@ -11674,7 +11674,7 @@
       "cast": [
         {
           "roleId": "yrole-hamm",
-          "name": "汉姆（终局）"
+          "name": "汉姆"
         },
         {
           "roleId": "role2-clov",
@@ -11928,7 +11928,7 @@
         },
         {
           "roleId": "role2-mayor-inspector",
-          "name": "市长（钦差大臣）"
+          "name": "市长"
         }
       ],
       "staging": "duel",
@@ -16951,7 +16951,7 @@
     },
     {
       "id": "yrole-hamm",
-      "name": "汉姆（终局）",
+      "name": "汉姆",
       "dimension": "主演",
       "kind": "role",
       "wash": "#f4eee2",
@@ -20710,7 +20710,7 @@
     },
     {
       "id": "role2-andrei-three-sisters",
-      "name": "安德烈（三姐妹）",
+      "name": "安德烈",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",
@@ -20980,7 +20980,7 @@
     },
     {
       "id": "role2-mayor-inspector",
-      "name": "市长（钦差大臣）",
+      "name": "市长",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",
@@ -21090,7 +21090,7 @@
     },
     {
       "id": "role2-boris-storm",
-      "name": "鲍里斯（大雷雨）",
+      "name": "鲍里斯",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",
@@ -21356,7 +21356,7 @@
     },
     {
       "id": "role2-jean-rhinoceros",
-      "name": "让（犀牛）",
+      "name": "让",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",
@@ -21433,7 +21433,7 @@
     },
     {
       "id": "role2-claire-maids",
-      "name": "克莱尔（女仆）",
+      "name": "克莱尔",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",
@@ -22586,7 +22586,7 @@
     },
     {
       "id": "role2-heizi-signal",
-      "name": "黑子（绝对信号）",
+      "name": "黑子",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",
@@ -23520,7 +23520,7 @@
       "cast": [
         {
           "roleId": "role2-claire-maids",
-          "name": "克莱尔（女仆）"
+          "name": "克莱尔"
         },
         {
           "roleId": "role2-solange",
@@ -25446,7 +25446,7 @@
     },
     {
       "id": "role-v21-margueritecamellia",
-      "name": "玛格丽特（茶花女）",
+      "name": "玛格丽特",
       "dimension": "主演",
       "kind": "role",
       "wash": "#f4eee2",
@@ -25708,7 +25708,7 @@
     },
     {
       "id": "role-v21-tomglass",
-      "name": "汤姆（玻璃动物园）",
+      "name": "汤姆",
       "dimension": "主演",
       "kind": "role",
       "wash": "#f4eee2",
@@ -25784,7 +25784,7 @@
     },
     {
       "id": "role-v21-jimglass",
-      "name": "吉姆（玻璃动物园）",
+      "name": "吉姆",
       "dimension": "主演",
       "kind": "role",
       "wash": "#f4eee2",
@@ -26703,7 +26703,7 @@
         },
         {
           "roleId": "v23-sup-marie",
-          "name": "玛丽（沃伊采克）"
+          "name": "玛丽"
         }
       ],
       "staging": "barrier",
@@ -26791,11 +26791,11 @@
       "cast": [
         {
           "roleId": "v23-role-alan",
-          "name": "艾伦（恋马狂）"
+          "name": "艾伦"
         },
         {
           "roleId": "v23-sup-nurse",
-          "name": "护士（恋马狂）"
+          "name": "护士"
         }
       ],
       "staging": "barrier",
@@ -26843,7 +26843,7 @@
         },
         {
           "roleId": "v23-sup-marc",
-          "name": "马克（艺术）"
+          "name": "马克"
         },
         {
           "name": "伊凡",
@@ -26902,7 +26902,7 @@
         },
         {
           "roleId": "v23-sup-stationmaster",
-          "name": "马主任（车站）"
+          "name": "马主任"
         }
       ],
       "staging": "exit",
@@ -26999,11 +26999,11 @@
       "cast": [
         {
           "roleId": "v23-role-jinzhi",
-          "name": "金枝（生死场）"
+          "name": "金枝"
         },
         {
           "roleId": "v23-sup-zhaosan",
-          "name": "赵三（生死场）"
+          "name": "赵三"
         }
       ],
       "staging": "tableau",
@@ -27141,7 +27141,7 @@
         },
         {
           "roleId": "v23-sup-catherine",
-          "name": "凯瑟琳（桥头眺望）"
+          "name": "凯瑟琳"
         }
       ],
       "staging": "barrier",
@@ -28235,7 +28235,7 @@
     },
     {
       "id": "v23-role-alan",
-      "name": "艾伦（恋马狂）",
+      "name": "艾伦",
       "dimension": "主演",
       "kind": "role",
       "wash": "#f4eee2",
@@ -28312,7 +28312,7 @@
     },
     {
       "id": "v23-role-jinzhi",
-      "name": "金枝（生死场）",
+      "name": "金枝",
       "dimension": "主演",
       "kind": "role",
       "wash": "#f4eee2",
@@ -28506,7 +28506,7 @@
     },
     {
       "id": "v23-sup-marie",
-      "name": "玛丽（沃伊采克）",
+      "name": "玛丽",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",
@@ -28582,7 +28582,7 @@
     },
     {
       "id": "v23-sup-catherine",
-      "name": "凯瑟琳（桥头眺望）",
+      "name": "凯瑟琳",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",
@@ -28659,7 +28659,7 @@
     },
     {
       "id": "v23-sup-nurse",
-      "name": "护士（恋马狂）",
+      "name": "护士",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",
@@ -28736,7 +28736,7 @@
     },
     {
       "id": "v23-sup-zhaosan",
-      "name": "赵三（生死场）",
+      "name": "赵三",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",
@@ -28775,7 +28775,7 @@
     },
     {
       "id": "v23-sup-stationmaster",
-      "name": "马主任（车站）",
+      "name": "马主任",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",
@@ -28853,7 +28853,7 @@
     },
     {
       "id": "v23-sup-marc",
-      "name": "马克（艺术）",
+      "name": "马克",
       "dimension": "配角",
       "kind": "role",
       "wash": "#f4eee2",

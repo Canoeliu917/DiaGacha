@@ -326,7 +326,7 @@ ROLE_SPEC = """
 侯方域|changshan|cap|fan|hold|formal|bloodfan
 桃丽娜|laozuo|bun|none|guard|work|mask
 麦克希思|xizhuang|sidepart|dagger|hold|formal|coin
-汉姆（终局）|zuozi|bald|staff|guard|worn|window
+汉姆|zuozi|bald|staff|guard|worn|window
 琳达|changqun|bun|towel|fold|plain|suitcase
 斯坦利|gongzhuang|short|bottle|guard|work|bulb
 布鲁图斯|pizhe|laurel|dagger|fold|formal|column
@@ -387,26 +387,26 @@ ROLE_SPEC = """
 图森巴赫|zhifu|short|none|hold|formal|clock
 索列尼|zhifu|short|sword|guard|formal|clock
 韦尔希宁|zhifu|sidepart|none|reach|formal|clock
-安德烈（三姐妹）|xizhuang|sidepart|violin|hold|worn|clock
+安德烈|xizhuang|sidepart|violin|hold|worn|clock
 特里波列夫|xizhuang|short|book|guard|plain|bird
 阿尔卡季娜|changqun|wave|fan|raise|formal|stage
 尼娜|tongqun|braid|bird|reach|plain|lake
 特里戈林|xizhuang|sidepart|book|hold|formal|bird
 路加|goulou|white|staff|hold|worn|lamp
 佩佩尔|gongzhuang|short|none|guard|worn|cellar
-市长（钦差大臣）|zhifu|short|letter|fold|formal|coin
+市长|zhifu|short|letter|fold|formal|coin
 卡巴诺娃|jinpao|hood|none|guard|formal|door
 吉洪|dayi|short|none|bow|formal|door
-鲍里斯（大雷雨）|dayi|sidepart|letter|fold|formal|storm
+鲍里斯|dayi|sidepart|letter|fold|formal|storm
 希波吕托斯|duanda|short|sword|guard|plain|horse
 俄诺涅|jinpao|hood|none|fold|plain|palace
 忒修斯|jiazhou|circlet|sword|raise|royal|palace
 克洛夫|goulou|short|ladder|step|worn|window
 纳格|zuozi|white|none|fold|worn|trash
 奈尔|zuozi|hood|none|hold|worn|trash
-让（犀牛）|xizhuang|short|none|guard|formal|rhino
+让|xizhuang|short|none|guard|formal|rhino
 消防队长|zhifu|helmet|bell|raise|work|clock
-克莱尔（女仆）|laozuo|bun|mirror|hold|work|mask
+克莱尔|laozuo|bun|mirror|hold|work|mask
 索朗日|laozuo|hood|cup|guard|work|mask
 鲁大海|gongzhuang|short|none|guard|work|gear
 鲁贵|magua|cap|cup|fold|worn|coin
@@ -436,7 +436,7 @@ ROLE_SPEC = """
 修鼎新|changshan|cap|book|fold|formal|tray
 夏教授|changshan|short|book|fold|plain|cup
 时教授|xizhuang|sidepart|book|hold|formal|cup
-黑子（绝对信号）|gongzhuang|short|none|guard|worn|train
+黑子|gongzhuang|short|none|guard|worn|train
 蜜蜂|tongqun|braid|none|reach|plain|train
 车长|zhifu|cap|lantern|raise|work|train
 信使|duanda|short|letter|step|plain|road
@@ -462,16 +462,16 @@ ROLE_SPEC = """
 贝兰杰|xizhuang|short|none|guard|worn|rhino
 卡捷琳娜|changqun|braid|none|raise|plain|storm
 费德尔|pizhe|circlet|none|fold|royal|flame
-玛格丽特（茶花女）|changqun|wave|flower|hold|formal|letter
+玛格丽特|changqun|wave|flower|hold|formal|letter
 安东尼|jiazhou|laurel|sword|fold|royal|ship
 伏伦妮娅|pizhe|white|none|raise|formal|crown
 卡利古拉|pizhe|laurel|mirror|hold|royal|moon
 玛丽·泰隆|changqun|white|none|fold|plain|bottle
 埃德蒙·泰隆|dayi|short|book|hold|worn|window
 阿曼达|changqun|bun|flower|hold|formal|unicorn
-汤姆（玻璃动物园）|dayi|short|book|step|worn|unicorn
+汤姆|dayi|short|book|step|worn|unicorn
 温妮|zuozi|widehat|bag|hold|formal|mound
-吉姆（玻璃动物园）|xizhuang|sidepart|unicorn|hold|formal|lamp
+吉姆|xizhuang|sidepart|unicorn|hold|formal|lamp
 乔·凯勒|gongzhuang|short|none|fold|work|gear
 海森堡|xizhuang|sidepart|book|hold|formal|atom
 沃伊采克|zhifu|short|blade|bow|worn|barracks
@@ -479,23 +479,23 @@ ROLE_SPEC = """
 埃迪·卡伯恩|gongzhuang|short|none|guard|work|bridge
 希基|xizhuang|sidepart|case|raise|formal|bottle
 梅尔希奥|duanda|short|book|hold|plain|classroom
-艾伦（恋马狂）|duanda|short|none|guard|plain|horse
+艾伦|duanda|short|none|guard|plain|horse
 如梦之梦的医生|baiyi|short|book|hold|work|water
-金枝（生死场）|laozuo|braid|bundle|hold|worn|grain
+金枝|laozuo|braid|bundle|hold|worn|grain
 沉默的人|dayi|short|none|fold|plain|station
 塞尔吉|xizhuang|sidepart|none|hold|formal|whitecanvas
 凯特·凯勒|changqun|bun|none|fold|plain|tree
 玻尔|dayi|white|book|raise|formal|atom
-玛丽（沃伊采克）|changqun|bun|bundle|hold|worn|barracks
+玛丽|changqun|bun|bundle|hold|worn|barracks
 罗伯斯庇尔|lifu|white|scroll|raise|formal|guillotine
-凯瑟琳（桥头眺望）|tongqun|wave|none|reach|plain|bridge
+凯瑟琳|tongqun|wave|none|reach|plain|bridge
 安·迪弗|changqun|wave|letter|hold|plain|gear
-护士（恋马狂）|baiyi|bun|book|hold|work|horse
+护士|baiyi|bun|book|hold|work|horse
 莫里茨|duanda|wild|book|bow|worn|classroom
-赵三（生死场）|gongzhuang|cap|dirt|guard|worn|grain
-马主任（车站）|xizhuang|sidepart|book|guard|formal|station
+赵三|gongzhuang|cap|dirt|guard|worn|grain
+马主任|xizhuang|sidepart|book|guard|formal|station
 哈里·霍普|zuozi|white|cup|fold|worn|bottle
-马克（艺术）|xizhuang|short|none|guard|plain|whitecanvas
+马克|xizhuang|short|none|guard|plain|whitecanvas
 """
 role_specs = {a: dict(zip(("fig", "head", "prop", "pose", "costume", "symbol"), rest)) for a, *rest in (line.split("|") for line in ROLE_SPEC.strip().splitlines())}
 assert set(role_specs) == {c["name"] for c in pool if c["dimension"] in ("主演", "配角")}
@@ -904,7 +904,7 @@ FIG_DRESS = {"lipao":"robe", "changqun":"gown", "duanda":"doublet", "jiazhou":"a
 ERA_LABELS = {"greek":"古希腊题材的披衣与柱廊", "roman":"古罗马题材的披衣与军服", "china-old":"中国古代题材的袍衫与发髻", "china-modern":"近现代中国题材的长衫、旗袍或劳动装", "america20":"二十世纪美国的西装与日常服", "america19":"十九世纪美国的日常服", "europe19":"十九世纪欧洲的长裙与外套", "europe1900":"世纪之交欧洲的礼服与工作服", "russia19":"十九世纪俄国服装语汇", "russia1900":"世纪之交俄国的长裙、西装与军服", "renaissance":"文艺复兴题材的短上衣、披风与长裙", "medieval":"中世纪题材的甲胄、披风与长袍", "europe17":"十七世纪欧洲的袍服与劳动装", "europe18":"十八世纪欧洲的外套与长裙", "europe20":"二十世纪欧洲的西装与日常服", "puritan":"十七世纪新英格兰的朴素长衣与劳动装", "classical":"古典题材的披衣与宫廷符号", "biblical":"圣经题材的袍服与宫廷符号", "timeless":"不指定写实年代；保持作品的简约舞台形象", "parable":"寓言性场景；不冒充地域民族志", "contemporary":"当代日常服与空间"}
 PALETTES = {"royal":"#85552e", "formal":"#36485b", "work":"#786044", "worn":"#756751", "mourning":"#3b3944", "layered":"#5c496a", "plain":"#526b62"}
 SPECIAL_COLORS = {"哈姆雷特":"#272932", "麦克白":"#506056", "麦克白夫人":"#702d3d", "奥菲利娅":"#c7b99b", "繁漪":"#623850", "窦娥":"#eee5ce", "喜儿":"#e9e4d6", "苔丝狄蒙娜":"#e9e1d3", "李香君":"#ad606b", "朱丽叶":"#ac736b", "普罗克托":"#685743", "阿比盖尔":"#565150", "诸葛亮":"#a4a78c"}
-SPECIAL_FACES = {"俄狄浦斯":"blood", "提瑞西阿斯":"blind", "格洛斯特":"blind", "哈姆雷特":"pale", "李尔":"tired", "麦克白":"beard", "麦克白夫人":"tired", "繁漪":"storm", "娜拉":"resolve", "王利发":"tired", "威利·洛曼":"tired", "爱斯特拉冈":"tired", "弗拉季米尔":"tired", "汉姆（终局）":"blind", "阿巴贡":"frown", "伽利略":"beard", "曹操":"beard"}
+SPECIAL_FACES = {"俄狄浦斯":"blood", "提瑞西阿斯":"blind", "格洛斯特":"blind", "哈姆雷特":"pale", "李尔":"tired", "麦克白":"beard", "麦克白夫人":"tired", "繁漪":"storm", "娜拉":"resolve", "王利发":"tired", "威利·洛曼":"tired", "爱斯特拉冈":"tired", "弗拉季米尔":"tired", "汉姆":"blind", "阿巴贡":"frown", "伽利略":"beard", "曹操":"beard"}
 
 # Cast selection and stage relationship are written per work. No first-available-role
 # choice, random position, shared-author lookup or historical-ID inference is used.
@@ -925,7 +925,7 @@ PLAY_CAST = """
 日出|triangle|陈白露,潘月亭,黄省三|镜前女子、掌握金钱的人与低头求助者占据三个高度不同的位置。
 原野|procession|仇虎,金子,焦母|逃亡者一前一后穿过黑林，拄杖的焦母留在后方的家族阴影里。
 恋爱的犀牛|barrier|马路,明明|马路向明明伸手，栏杆与犀牛留在二人之间，使爱意表现为距离。
-玻璃动物园|triangle|劳拉,阿曼达,汤姆（玻璃动物园）|劳拉护住玻璃小兽，母亲朝向她，兄长的步子转向门外。
+玻璃动物园|triangle|劳拉,阿曼达,汤姆|劳拉护住玻璃小兽，母亲朝向她，兄长的步子转向门外。
 李尔王|surround|李尔,考狄利娅,弄人|破冠老人站在风暴中央，诚实的女儿和弄人在两旁保留照料与讽谏的关系。
 奥赛罗|duel|奥赛罗,伊阿古,苔丝狄蒙娜|手帕从旗官一侧进入将领的猜疑，白衣女子被隔在另一空间。
 安提戈涅|barrier|安提戈涅,克瑞翁|带土的女子朝坟墓行动，持法令的国王从门口阻止她。
@@ -936,7 +936,7 @@ PLAY_CAST = """
 北京人|exit|愫方,曾文清,曾皓|照料他人的女子带包走向门，文清守着鸟笼，长辈坐在旧家中心。
 白毛女|solitary|喜儿|白发女子从山洞阴影中向外伸手，绳索和雪地保留被压迫的痕迹。
 欲望号街车|barrier|布兰奇,斯坦利|布兰奇护住柔光，斯坦利从另一侧逼近；窄小公寓使距离无法维持。
-三姐妹|tableau|奥尔加,伊里娜,安德烈（三姐妹）|人物分处三扇窗，书本、钟与乐器并置，离去愿望没有变成出发。
+三姐妹|tableau|奥尔加,伊里娜,安德烈|人物分处三扇窗，书本、钟与乐器并置，离去愿望没有变成出发。
 海达·高布乐|triangle|海达,洛夫伯格,泰斯曼|海达持枪居中，失落的手稿与两位持书男子形成互相牵制的三角。
 浮士德|duel|梅菲斯特|诱惑者向一位求知者展开书本，书房与火焰构成交易的两端。
 海鸥|triangle|尼娜,特里波列夫,特里戈林|年轻演员、青年作者与成名作家围绕剧本和海鸥形成不对称关系。
@@ -946,7 +946,7 @@ PLAY_CAST = """
 费加罗的婚礼|procession|费加罗|机敏的仆人携信穿越连通房门，婚戒留在路线中间。
 伽利略传|elevated|伽利略|学者抬望远镜面对上方天体，脚边书本使发现与知识传播连在一起。
 高加索灰阑记|barrier|沈黛|此项另用原作人物资料，不借用四川好人的角色。
-犀牛|surround|贝兰杰,让（犀牛）|仍是人的贝兰杰抵住同伴变形与城市兽群，身体和群体运动相对。
+犀牛|surround|贝兰杰,让|仍是人的贝兰杰抵住同伴变形与城市兽群，身体和群体运动相对。
 秃头歌女|tableau|消防队长|来访的消防队长站在两组客厅座席之间，断裂对话围着失常时钟回转。
 进入黑夜的漫长旅程|split|玛丽·泰隆,埃德蒙·泰隆|母亲与儿子分在长窗明暗两端，酒瓶与时钟使家庭伤痛延续到夜间。
 皮格马利翁|duel|伊莉莎|卖花姑娘带花走向语言课堂，阶层门槛不是只换上礼服就能跨过。
@@ -964,10 +964,10 @@ PLAY_CAST = """
 阿伽门农|reveal|阿伽门农,克吕泰涅斯特拉,卡珊德拉|归来的统帅进入门，持斧者留在门内，预言者在另一侧示警。
 费德尔|triangle|费德尔,希波吕托斯,俄诺涅|王后、青年与乳母形成不能直说的三角，宫门与火焰暗示压抑欲望。
 三毛钱歌剧|solitary|麦克希思|衣着体面的强盗持刀站在街头，钱币与绞索相伴而不把他画成贵族英雄。
-终局|barrier|汉姆（终局）,克洛夫,纳格|坐着的汉姆与离不开的克洛夫相对，垃圾桶和高窗限定家庭的终局空间。
+终局|barrier|汉姆,克洛夫,纳格|坐着的汉姆与离不开的克洛夫相对，垃圾桶和高窗限定家庭的终局空间。
 人民公敌|surround|斯多克芒|医生举资料面对公共场所，水源在他和听众的位置之间。
 培尔·金特|solitary|索尔维格|等待的女子站在林中屋旁，远山与空路为缺席的人留下位置。
-钦差大臣|duel|赫列斯达可夫,市长（钦差大臣）|冒牌钦差与急于奉承的市长相对，信件与钱币在权力误认中流动。
+钦差大臣|duel|赫列斯达可夫,市长|冒牌钦差与急于奉承的市长相对，信件与钱币在权力误认中流动。
 暴风雨|triangle|普洛斯彼罗,爱丽儿,凯列班|持杖者处高位，精灵与岛民分处两侧，岛上的支配关系通过高差呈现。
 理查三世|solitary|理查三世|弯曲的身体护住剑和王冠，城堡阶梯把攫取权力变成向上的动作。
 裘力斯·凯撒|duel|布鲁图斯|持匕首的披衣者朝向空王座，公共理想与刺杀行动留在同一个空间。
@@ -981,20 +981,20 @@ PLAY_CAST = """
 谁害怕弗吉尼亚·伍尔夫|duel|玛莎,乔治,霍尼|夫妻隔酒瓶互相攻防，客人退在侧边见证，破杯留在谈话中心。
 卡利古拉|solitary|卡利古拉|皇帝持镜面对自己和不可得到的月亮，空王座放大绝对权力的孤立。
 误会|barrier|玛尔塔|旅馆经营者守住钥匙与门口，来客的位置留给尚未说出的亲属身份。
-女仆|mirror|克莱尔（女仆）,索朗日|两名女仆面对镜子交换姿态，衣服与杯子介于模仿主人和实际行动之间。
+女仆|mirror|克莱尔,索朗日|两名女仆面对镜子交换姿态，衣服与杯子介于模仿主人和实际行动之间。
 快乐的日子|solitary|温妮|女子被土丘固定仍举包说话，物件虽近、身体却无法离开。
 都是我的儿子|triangle|乔·凯勒,凯特·凯勒,安·迪弗|父亲守在院内，母亲等待归子，带信的来客使航空零件的责任进入家庭。
 哥本哈根|circle|海森堡,玻尔|两位科学家沿环形空间相向，原子图与书本表现无法单凭公式化解的重访。
-沃伊采克|barrier|沃伊采克,玛丽（沃伊采克）|受役使的士兵与抱婴女子隔着军营的边界，刀置于不对等生活的压力下。
+沃伊采克|barrier|沃伊采克,玛丽|受役使的士兵与抱婴女子隔着军营的边界，刀置于不对等生活的压力下。
 丹东之死|duel|丹东,罗伯斯庇尔|厌倦流血者和举法令的纯洁论者对置，断头台远在背后成为共同后果。
-恋马狂|barrier|艾伦（恋马狂）,护士（恋马狂）|青年与引见来访者的护士分在诊疗边界两侧，马的形象占据他的感知中心。
-艺术|triangle|塞尔吉,马克（艺术）|买画者与反对者指向同一幅白画，第三个观看位置暂留空位，使友情分歧可见。
-车站|exit|沉默的人,马主任（车站）|沉默的人迈步离开等待队列，另一人仍守着时刻表与站牌。
+恋马狂|barrier|艾伦,护士|青年与引见来访者的护士分在诊疗边界两侧，马的形象占据他的感知中心。
+艺术|triangle|塞尔吉,马克|买画者与反对者指向同一幅白画，第三个观看位置暂留空位，使友情分歧可见。
+车站|exit|沉默的人,马主任|沉默的人迈步离开等待队列，另一人仍守着时刻表与站牌。
 如梦之梦|circle|如梦之梦的医生|女医生在环形水边倾听，空着的病人位置让生命故事沿圆环展开。
-生死场|tableau|金枝（生死场）,赵三（生死场）|母亲护着襁褓，农人守着土地，劳作与生育位于同一片冻土上。
+生死场|tableau|金枝,赵三|母亲护着襁褓，农人守着土地，劳作与生育位于同一片冻土上。
 送冰的人来了|duel|希基,哈里·霍普|来访推销员向酒吧老板说话，一人站立、一人久坐，酒杯困住所谓明天。
 春醒|duet|梅尔希奥,莫里茨|两个少年面对同一册知识，举书与低头的姿态显示理解和困惑的差距。
-桥头眺望|barrier|埃迪·卡伯恩,凯瑟琳（桥头眺望）|码头工人挡在家门前，年轻女子朝外面的桥伸展，控制与离开的方向相反。
+桥头眺望|barrier|埃迪·卡伯恩,凯瑟琳|码头工人挡在家门前，年轻女子朝外面的桥伸展，控制与离开的方向相反。
 """
 play_cast = {a:{"staging":b,"castNames":c.split(","),"rationale":d} for a,b,c,d in (line.split("|") for line in PLAY_CAST.strip().splitlines())}
 # Reserve-only work has no verified character card; do not borrow another play's person.
@@ -1017,9 +1017,9 @@ for c in pool:
         if name in MULTI_TRADITION: era = "greek"
         if name in ("福斯塔夫", "安东尼", "伏伦妮娅", "克莉奥佩特拉"): era = "renaissance" if name == "福斯塔夫" else "roman"
         if name == "诸葛亮": era = "china-old"
-        if name in ("卡捷琳娜", "卡巴诺娃", "吉洪", "鲍里斯（大雷雨）"): era = "russia19"
-        if name in ("杜瓦先生", "玛格丽特（茶花女）"): era = "europe19"
-        if name in ("黑子（绝对信号）", "蜜蜂", "车长"): era = "china-modern"
+        if name in ("卡捷琳娜", "卡巴诺娃", "吉洪", "鲍里斯"): era = "russia19"
+        if name in ("杜瓦先生", "玛格丽特"): era = "europe19"
+        if name in ("黑子", "蜜蜂", "车长"): era = "china-modern"
         if name in GENERIC: era = "timeless"
         base["era"] = era
         base["dress"] = FIG_DRESS[base["fig"]]
