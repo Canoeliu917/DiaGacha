@@ -46,6 +46,26 @@ test('68/95两张剧目分别用具体剧情解释冲突与结构的差别，不
   assert.notEqual(dinner.atk.reason, krapp.atk.reason);
 });
 
+test('桑树坪纪事以简短专属理由说明群像冲突与结构，五星正文补充人物、事件和来源', () => {
+  const card = get('xplay-sang'), result = statRationaleV40(card);
+  assert.equal(card.rarity, 'SSR');
+  assert.equal(result.atk.value, 88);
+  assert.equal(result.def.value, 89);
+  assert.match(result.atk.reason, /婚姻交易.*宗族排斥/);
+  assert.match(result.def.reason, /事件相互映照.*歌队/);
+  for (const axis of ['atk', 'def']) {
+    assert.ok(result[axis].reason.length < 60);
+    for (const text of [card.note, card.observe, card.stage]) assert.ok(!result[axis].reason.includes(text));
+  }
+  const essays = JSON.parse(fs.readFileSync(path.join(__dirname, 'high-star-plays-v40.json'), 'utf8'));
+  const sources = JSON.parse(fs.readFileSync(path.join(__dirname, 'high-star-plays-sources-v40.json'), 'utf8'));
+  const essay = essays[card.id].join('');
+  for (const name of ['福林', '青女', '月娃', '李金斗', '王志科', '豁子', '徐晓钟', '歌队']) assert.ok(essay.includes(name), name);
+  assert.ok(essay.length > 250);
+  assert.equal(sources[card.id].length, 2);
+  assert.ok(sources[card.id].every(source => /^https:\/\//.test(source.url) && source.title));
+});
+
 test('高低悬殊的风格、手法、人物和空间均有各自解释', () => {
   const wall = statRationaleV40(get('dir-wall'));
   assert.equal(wall.atk.value, 30);
@@ -100,7 +120,8 @@ test('低星手法解释适用条件与限制，金枝和凯瑟琳分别保留�
   assert.notEqual(jinzhi.atk.reason, catherine.atk.reason);
 });
 
-test('32张锚点只展示已有且能算回当前分值的子项，来源逐项复用记录', () => {
+test('33张锚点只展示已有且能算回当前分值的子项，来源逐项复用记录', () => {
+  assert.equal(anchors.cards.length, 33);
   for (const anchor of anchors.cards) {
     const card = get(anchor.id);
     const result = statRationaleV40(card);
@@ -118,11 +139,37 @@ test('32张锚点只展示已有且能算回当前分值的子项，来源逐项
   assert.match(salesman.reviewReason, /奖.*具体冲突.*仍是编辑初评.*未完成逐场文本复核/);
 });
 
+test('阿伽门农剧目按六项复评为94，不将剧本锚点或理由误套给同名配角', () => {
+  const original = get('yplay-agamemnon'), role = get('role2-agamemnon');
+  const before = JSON.stringify([original, role]);
+  const anchor = anchors.cards.find(card => card.id === original.id);
+  assert.deepEqual(anchor.atkRubric, [4, 4, 3]);
+  assert.deepEqual(anchor.defRubric, [4, 4, 3]);
+  assert.equal(anchor.reference, 88);
+  assert.ok(!anchors.cards.some(card => card.id === role.id));
+  const reviewed = { ...original, atk: 50 + 4 * anchor.atkRubric.reduce((a, b) => a + b, 0), def: 50 + 4 * anchor.defRubric.reduce((a, b) => a + b, 0), review: { ...anchor, status: '有来源的编辑复评' } };
+  const result = statRationaleV40(reviewed);
+  assert.equal(result.basisMode, 'documented-rubric');
+  assert.equal(result.atk.value, 94);
+  assert.equal(result.def.value, 94);
+  const total = Math.round((result.atk.value + result.def.value) / 2);
+  assert.equal(total, 94);
+  assert.ok(Number.isInteger(total));
+  assert.match(result.atk.reason, /祭女的旧债.*谋杀/);
+  assert.match(result.def.reason, /报捷、预言与杀戮.*行动已经成形/);
+  for (const axis of ['atk', 'def']) assert.deepEqual(result[axis].criteria.map(item => item.score), [4, 4, 3]);
+  assert.deepEqual(result.sources.map(source => source.id), ['S19', 'S20', 'S21']);
+  assert.equal(role.dimension, '配角');
+  assert.equal(role.atk, 91);
+  assert.equal(role.def, 87);
+  assert.notEqual(statRationaleV40(role).atk.reason, result.atk.reason);
+  assert.equal(JSON.stringify([original, role]), before);
+});
+
 test('500活跃及777全部旧卡都有完整依据，输出不修改任何卡字段', () => {
   assert.equal(cards.length, 777);
   assert.equal(cards.filter(card => activeIds.has(card.id)).length, 500);
   const before = JSON.stringify(cards);
-  const reasons = new Set();
   for (const card of cards) {
     const result = statRationaleV40(card);
     assert.equal(result.atk.value, card.atk);
@@ -130,31 +177,35 @@ test('500活跃及777全部旧卡都有完整依据，输出不修改任何卡�
     for (const axis of ['atk', 'def']) {
       assert.equal(result[axis].label, card[`${axis}_axis`], card.id);
       assert.match(result[axis].reason, /[。！？][”’」』"]?$/, card.id);
-      assert.doesNotMatch(result[axis].reason, /undefined|\[object Object\]|。{2}|因为.*[一二三四五六七]星|稀有度.*所以/, card.id);
+      assert.doesNotMatch(result[axis].reason, /undefined|\[object Object\]|。{2}|因为.*[一二三四五六七]星|稀有度.*所以|现有卡片写到：|卡片给出的排演示例是：/, card.id);
       assert.ok(result[axis].evidence, card.id);
     }
-    reasons.add(result.atk.reason);
     if (card.review.status === '历史编辑初评') {
       assert.equal(result.needsReview, true, card.id);
       assert.deepEqual(result.atk.criteria, [], card.id);
       assert.deepEqual(result.def.criteria, [], card.id);
     }
   }
-  assert.ok(reasons.size >= 750, `distinct concrete readings: ${reasons.size}`);
   assert.equal(JSON.stringify(cards), before);
 });
 
-test('普通卡保留完整文案并明确把stage标作排演示例，不把改编动作写成原作事实', () => {
+test('普通卡的轴解释不再复述小注、看点或排演文案，证据仍完整保留', () => {
   const card = get('role2-neighbor');
   const result = statRationaleV40(card);
-  assert.ok(result.atk.reason.includes(card.observe));
-  assert.ok(result.def.reason.includes(card.stage));
-  assert.match(result.def.reason, /卡片给出的排演示例是/);
+  for (const axis of ['atk', 'def']) {
+    for (const text of [card.note, card.observe, card.stage]) assert.ok(!result[axis].reason.includes(text));
+  }
+  assert.ok(result.atk.evidence.includes(card.observe));
   const long = '需要在这一场中等对方把话完整说完再决定是否离开'.repeat(30) + '。';
   const synthetic = { id: 'unknown', name: '未知', dimension: '配角', atk: 60, def: 70, note: long, stage: long, tags: ['对手戏'] };
   const explanation = statRationaleV40(synthetic);
-  assert.ok(explanation.atk.reason.includes(long));
-  assert.ok(explanation.def.reason.includes(long));
+  assert.ok(!explanation.atk.reason.includes(long));
+  assert.ok(!explanation.def.reason.includes(long));
+  assert.equal(explanation.atk.evidence, long);
+  assert.equal(explanation.def.evidence, long);
+  const stageOnly = statRationaleV40({ ...synthetic, note: '' });
+  assert.equal(stageOnly.atk.evidenceLabel, '卡片排演示例（非原作事实）');
+  assert.equal(stageOnly.def.evidenceLabel, '卡片排演示例（非原作事实）');
 });
 
 test('不依赖星级、参考分、攻防反推的子项或无依据的来源数量', () => {

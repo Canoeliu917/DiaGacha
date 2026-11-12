@@ -39,7 +39,7 @@ test('500常驻中的189高星全覆盖，正文按五星六星七星逐层增�
     counts[card.rarity]++;
     lengths[card.rarity].push(paragraphs.join('').length);
   }
-  assert.deepEqual(counts, { SSR: 106, UR: 56, LR: 27 });
+  assert.deepEqual(counts, { SSR: 105, UR: 56, LR: 28 });
   const mean = tier => lengths[tier].reduce((sum, value) => sum + value, 0) / lengths[tier].length;
   assert.ok(mean('UR') > mean('SSR'));
   assert.ok(mean('LR') > mean('UR'));
@@ -57,6 +57,24 @@ test('额外段落不复读note或observe，不靠跨卡相同套句填充', () 
       seen.set(sentence, card.id);
     }
   }
+});
+
+test('阿伽门农剧目以七星三段介绍紫毯、卡珊德拉和开放结尾，来源与同名角色分开', () => {
+  const card = high.find(card => card.id === 'yplay-agamemnon');
+  assert.ok(card);
+  assert.equal(card.dimension, '剧目');
+  assert.equal(card.rarity, 'LR');
+  const paragraphs = highStarNotesV40(card), text = paragraphs.join('');
+  assert.equal(paragraphs.length, 3);
+  assert.ok(highStarSentencesV40(text).length >= 7);
+  for (const phrase of ['烽火报捷', '紫色织物', '卡珊德拉', '戏剧反讽', '歌队', '开放结尾']) assert.ok(text.includes(phrase), phrase);
+  const sources = highStarSourcesV40(card);
+  assert.equal(sources.length, 3);
+  assert.ok(sources.some(source => source.url === 'https://classics.mit.edu/Aeschylus/agamemnon.html'));
+  assert.ok(sources.some(source => source.url.startsWith('https://people.duke.edu/')));
+  const role = high.find(card => card.id === 'role2-agamemnon');
+  assert.ok(role);
+  assert.notDeepEqual(highStarNotesV40(role), paragraphs);
 });
 
 test('艾尔西诺明确城垛内室厅堂的可见性，并区别现实Kronborg', () => {

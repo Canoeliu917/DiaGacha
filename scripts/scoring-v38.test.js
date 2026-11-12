@@ -133,7 +133,9 @@ test('卡片不再渲染评分教程，结果显示整数且首页折叠表与�
   const cards = cast(80);
   cards[0].atk = cards[0].def = 81;
   const markup = context.scoreBreakdown(production(cards), cards);
-  assert.match(markup, /production-crew-title/);
+  assert.match(markup, /production-review/);
+  assert.ok(markup.includes(production(cards).crew.description));
+  assert.doesNotMatch(markup, /production-crew-title/);
   assert.doesNotMatch(markup, /本场评价|剧组称号|基础\s*\d+\s*分/);
   assert.doesNotMatch(markup, /\d+\.\d+|ATK|DEF|贡献|四舍五入/);
   const help = context.scoringHelp({ poolSize: 777 });

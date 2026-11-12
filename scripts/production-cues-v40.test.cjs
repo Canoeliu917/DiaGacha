@@ -49,12 +49,13 @@ test('每个星级的二至六卡都有独立戏剧短评与准确关联卡', ()
       assertScore(result, cues);
       assert.equal(JSON.stringify({ result, cards }), before);
       const markup = scoreBreakdown(result, cards);
-      assert.match(markup, new RegExp(`class="production-crew rarity-${rarity}"`));
+      assert.match(markup, new RegExp(`class="production-cue rarity-${rarity}"`));
       assert.ok(markup.includes(`data-rarity="${rarity}"`));
       assert.ok(markup.includes(`data-card-ids="${escapeHtml(JSON.stringify(cue.cardIds))}"`));
-      assert.ok(markup.includes('同星合演，回看关联卡牌'));
+      assert.ok(markup.includes('同星合演，')&&markup.includes('回看关联卡牌'));
       assert.ok(markup.includes(`关联卡牌：${cards.slice(0, count).map(card => card.name).join('、')}。`));
-      assert.equal(markup.split(result.crew.title).length - 1, 2, '称号正文一次，另一次为无障碍名称');
+      assert.equal(markup.split(result.crew.title).length - 1, 0, '不再重复展示剧组大称号');
+      assert.equal((markup.match(/data-production-cue=/g)||[]).length,1);
     }
   }
   assert.equal(titles.size, 35);
@@ -67,6 +68,8 @@ test('总览评语关闭分值时连无障碍名称也不报加分数，仍保�
   assert.doesNotMatch(markup,/cue-value|\+\d|加\d+分|本场分数|spread-score/);
   assert.ok(markup.includes('data-cue-id="resonance-UC"'));
   assert.ok(markup.includes('data-cue-id="resonance-R"'));
+  assert.doesNotMatch(markup,/production-crew|<h2|小剧场班底/);
+  assert.equal((markup.match(/data-production-cue=/g)||[]).length,2);
   const withPoints=scoreBreakdown(result,cards,true);
   assert.match(withPoints,/class="cue-value">\+\d/);
 });
@@ -130,12 +133,13 @@ test('长卡名不挤占单行短评，十五种羁绊文案均完整简短', ()
   assert.equal(descriptions.size, 15);
 });
 
-test('无奖励的混搭只保留称号与短评，不重复总分或显示规则', () => {
+test('无奖励的混搭只保留普通短评，不显示大称号或重复总分', () => {
   const cards = cast();
   const result = production(cards);
   assert.deepEqual(plain(productionCuesV40(result, cards)), []);
   const markup = scoreBreakdown(result, cards);
-  assert.ok(markup.includes('跨界剧组') && markup.includes('各有一招，一起开场。'));
+  assert.ok(markup.includes('各有一招，一起开场。'));
+  assert.doesNotMatch(markup,/跨界剧组|production-crew|<h2/);
   assert.doesNotMatch(markup, /data-production-cue|<ul|<button|暂无|暂未|扣分|缺少|不足/);
   assert.doesNotMatch(markup, /本场评价|剧组称号：|基础|组队奖励|加分方式|<details|75|100/);
 });
@@ -154,14 +158,16 @@ test('五卡旧局只回看存在的卡，不虚构配角事件', () => {
   assert.doesNotMatch(markup, /配角|\+\d|基础|星\s*\d\s*人组|组队奖励|加分方式|data-points/);
 });
 
-test('称号选中引擎最大组，文本与事件属性均转义', () => {
+test('每组只有一个加分词条，文本与事件属性均转义', () => {
   const cards = cast();
   cards.forEach((card, index) => { card.rarity = ['C', 'C', 'UC', 'UC', 'LR', 'LR'][index]; });
   cards[0].id = 'card-"<&';
   cards[0].name = '<img src=x onerror=alert(1)>';
   const result = production(cards);
   const markup = scoreBreakdown(result, cards);
-  assert.match(markup, /class="production-crew rarity-LR"[^>]+data-cue-id="resonance-LR"/);
+  assert.match(markup, /class="production-cue rarity-LR"[^>]+data-cue-id="resonance-LR"/);
+  assert.equal((markup.match(/data-production-cue=/g)||[]).length,3);
+  assert.doesNotMatch(markup,/production-crew/);
   assert.ok(markup.includes('&lt;img src=x onerror=alert(1)&gt;'));
   assert.ok(markup.includes(escapeHtml(JSON.stringify([cards[0].id, cards[1].id]))));
   assert.doesNotMatch(markup, /<img|\+\d|本场评价|基础|组队奖励|data-points/);

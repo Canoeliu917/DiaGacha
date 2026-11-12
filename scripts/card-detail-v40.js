@@ -7,12 +7,12 @@ function statAxesMarkupV40(card){
       <summary><span class="axis-top"><span class="axis-ico">${axis==='atk'?sn:cn}</span><span class="axis-name">${axis.toUpperCase()} ${K(stat.label)}</span><b>${K(stat.value)}</b></span>
         <span class="axis-track" aria-hidden="true"><i style="width:${value}%"></i></span>${hint?`<span class="axis-hint">${K(hint)}</span>`:''}
       </summary>
-      <div class="stat-axis-reading"><p>${K(stat.reason)}</p>
-        ${review.sources.length?`<p class="stat-sources">资料：${review.sources.map(source=>`<a href="${K(source.url)}" target="_blank" rel="noopener noreferrer">${K(source.title)}</a>`).join('；')}</p>`:''}
-        <p class="stat-note">${K(review.note)}</p>
-      </div>
+      <div class="stat-axis-reading"><p>${K(stat.reason)}</p></div>
     </details>`;
-  }).join('')}</div>`;
+  }).join('')}<div class="stat-axis-context">
+    ${review.sources.length?`<p class="stat-sources">资料：${review.sources.map(source=>`<a href="${K(source.url)}" target="_blank" rel="noopener noreferrer">${K(source.title)}</a>`).join('；')}</p>`:''}
+    <p class="stat-note">${K(review.note)}</p>
+  </div></div>`;
 }
 
 function xn(card){

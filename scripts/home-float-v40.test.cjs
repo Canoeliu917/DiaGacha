@@ -17,7 +17,10 @@ function target(){
 function fixture(){
   const hero=target(),window=target(),document=target(),reduced=target(),frames=new Map();
   let nextId=0,writes=0;
+  let logoTransform='';
+  const logo={style:{get transform(){return logoTransform;},set transform(value){logoTransform=value;writes++;}}};
   hero.getBoundingClientRect=()=>({left:0,top:0,width:600,height:500});
+  hero.querySelector=selector=>selector==='.wordmark'?logo:null;
   document.hidden=false;reduced.matches=false;
   const figures=Array.from({length:10},(_,i)=>{
     let transform='';
@@ -32,25 +35,26 @@ function fixture(){
   });
   vm.runInContext(source,context);
   context.startHomeFloatV40();
-  return {context,state,hero,window,document,reduced,frames,figures,
-    writes:()=>writes,poses:()=>figures.map(figure=>figure.body.style.transform),
+  return {context,state,hero,window,document,reduced,frames,figures,logo,
+    writes:()=>writes,poses:()=>[...figures.map(figure=>figure.body.style.transform),logo.style.transform],
     flush(){const pending=[...frames.values()];frames.clear();pending.forEach(fn=>fn());},
     move(){hero.emit('pointermove',{clientX:490,clientY:280,pointerType:'mouse'});},
     listenerCount(){return [hero,window,document,reduced].reduce((total,item)=>total+item.listenerCount(),0);},
   };
 }
 
-test('快速鼠标移动合并到一帧，使用最新位置且十人有不同响应',()=>{
+test('快速鼠标移动合并到一帧，Logo与十人一起响应且使用最新位置',()=>{
   const run=fixture();
   for(let i=0;i<20;i++)run.hero.emit('pointermove',{clientX:i*10,clientY:20});
   run.move();
   assert.equal(run.frames.size,1);assert.equal(run.writes(),0);
   run.flush();
-  assert.equal(run.writes(),10);assert.equal(run.frames.size,0);
+  assert.equal(run.writes(),11);assert.equal(run.frames.size,0);
   assert.ok(run.poses().every(pose=>pose&&!/NaN|Infinity/.test(pose)));
   assert.ok(new Set(run.poses()).size>1);
   const latest=fixture();latest.move();latest.flush();
   assert.deepEqual(run.poses(),latest.poses());
+  assert.equal(run.logo.style.transform,'translate(3.80px,0.48px) rotate(0.76deg)');
 });
 
 test('移出、触摸松开和取消都归位；减动及隐藏时不启动帧',()=>{

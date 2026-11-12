@@ -79,14 +79,16 @@ check('字数限制只省略完整句，不截断句子也不插入垫话',()=>{
   assert.equal(game.clampTalk('句子很短。',200,300),'句子很短。');
 });
 
-check('六芒星尖角与分数线性对应，有明确0到100的共同尺度',()=>{
+check('六芒星以统一尺度放大分差，角分保持原值且没有刻度数字',()=>{
   const dims=['剧目','风格体系','导演手法','主演','配角','环境'];
   const scores=[0,20,40,60,80,100];
   const cards=dims.map((dimension,i)=>({...game.activeCards.find(c=>c.dimension===dimension),atk:scores[i],def:scores[i]}));
   const chart=game.hexRadar(cards);
   const points=chart.match(/data-base-points="([^"]+)"/)[1].split(' ').map(v=>v.split(',').map(Number));
-  points.forEach(([x,y],i)=>assert(Math.abs(Math.hypot(x-170,y-128)-92*scores[i]/100)<0.00001));
-  assert(chart.includes('中心 0，外圈 100'));
+  const lengths=[0,.06,.12,.35,.75,1].map(value=>92*value);
+  points.forEach(([x,y],i)=>assert(Math.abs(Math.hypot(x-170,y-128)-lengths[i])<0.00001));
+  assert(chart.includes('形状放大分差，数字为原分'));
+  assert.deepEqual([...chart.matchAll(/data-final="(\d+)"/g)].map(match=>Number(match[1])),scores);
   assert.equal((chart.match(/class="hex-scale"/g)||[]).length,0);
   assert.equal((chart.match(/data-final="\d+"/g)||[]).length,6);
 });

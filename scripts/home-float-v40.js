@@ -4,7 +4,9 @@ function startHomeFloatV40(){
   stopHomeFloatV40();
   if(Y.view!=='home'||Y.sheet)return;
   const hero=document.querySelector('.home-hero'),figures=[...document.querySelectorAll('.parade-fig')];
-  if(!hero||!figures.length)return;
+  if(!hero)return;
+  const logo=hero.querySelector('.wordmark');
+  if(!figures.length&&!logo)return;
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
   const actors=figures.map(figure=>({figure,body:figure.querySelector('.parade-motion')})).filter(actor=>actor.body);
   let frame=0,point=null;
@@ -12,6 +14,7 @@ function startHomeFloatV40(){
     if(frame)cancelAnimationFrame(frame);
     frame=0;point=null;
     actors.forEach(({body})=>{body.style.transform='';});
+    if(logo)logo.style.transform='';
   };
   const paint=()=>{
     frame=0;
@@ -26,6 +29,7 @@ function startHomeFloatV40(){
       return `translate(${(x*10*depth*scale).toFixed(2)}px,${((y*7*depth-proximity*4)*scale).toFixed(2)}px) rotate(${(x*4*(index%2?1:-1)).toFixed(2)}deg)`;
     });
     actors.forEach(({body},index)=>{body.style.transform=poses[index];});
+    if(logo)logo.style.transform=`translate(${(x*6).toFixed(2)}px,${(y*4).toFixed(2)}px) rotate(${(x*1.2).toFixed(2)}deg)`;
   };
   const move=event=>{
     if(reduced.matches||document.hidden)return;

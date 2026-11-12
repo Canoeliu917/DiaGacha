@@ -8285,24 +8285,37 @@
 "id": "yplay-agamemnon",
 "name": "阿伽门农",
 "dimension": "剧目",
-"rarity": "SSR",
-"atk": 78,
-"def": 71,
+"rarity": "LR",
+"atk": 94,
+"def": 94,
 "fame": 96,
 "old": [
 "R",
 78,
 71
 ],
-"score": 75,
+"score": 94,
 "review": {
-"status": "历史编辑初评",
 "reference": 88,
-"rationale": "撤销旧版升档造成的攻防抬升；沿用提档前编辑数值，尚未逐项文献复核。",
-"sourceIds": [],
-"atkRubric": null,
-"defRubric": null,
-"curation": 80.2
+"rationale": "原剧与分场资料支持凯旋、祭女旧债和夫妻权力的牵制，先前选择持续产生后果；报捷、预言、遇害和公开争辩形成结构照应。推进与开放收束按较强作用记3，不因歌队篇幅或三联剧尚未结束扣分，也不以悲剧史地位自动给满。94/94为本游戏分项编辑复评，非来源网站评分；保留reference88，不由原五星倒推攻防。",
+"sourceIds": [
+"S19",
+"S20",
+"S21"
+],
+"atkRubric": [
+4,
+4,
+3
+],
+"defRubric": [
+4,
+4,
+3
+],
+"status": "有来源的编辑复评",
+"author": "埃斯库罗斯；《俄瑞斯忒亚》第一部《阿伽门农》",
+"curation": 91.6
 },
 "workIds": [
 "yplay-agamemnon"

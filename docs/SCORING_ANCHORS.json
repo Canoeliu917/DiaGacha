@@ -1,5 +1,5 @@
 {
-  "note": "32张有来源的游戏编辑锚点。机构来源支持事实和判断背景，不提供这些数值；全777张未逐条文献审定。每轴=50+4×三个0–4子项之和；reference为0–100策展参考编辑分。首批24张覆盖六维各4张，另补8张原作与非线性叙事锚点。",
+  "note": "33张有来源的游戏编辑锚点。机构来源支持事实和判断背景，不提供这些数值；全777张未逐条文献审定。每轴=50+4×三个0–4子项之和；reference为0–100策展参考编辑分。首批24张覆盖六维各4张，另补8张原作与非线性叙事锚点，本次增加《阿伽门农》单卡复评。",
   "sources": {
     "S01": {
       "title": "中央戏剧学院：2026 年《雷雨》创排、文本身体空间与蒙太奇",
@@ -60,9 +60,31 @@
     "S18": {
       "title": "Royal Shakespeare Company：The Cherry Orchard 剧情与洛巴辛",
       "url": "https://www.rsc.org.uk/the-cherry-orchard"
+    },
+    "S19": {
+      "title": "MIT Internet Classics Archive：埃斯库罗斯《Agamemnon》原作英译",
+      "url": "https://classics.mit.edu/Aeschylus/agamemnon.html"
+    },
+    "S20": {
+      "title": "杜克大学古典学课程：《Agamemnon》分场概要",
+      "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
+    },
+    "S21": {
+      "title": "BYU托管：《Agamemnon》的结构与戏剧策略教学资料",
+      "url": "https://ogcma.byu.edu/AgamemnonANCIENT_AeschylusSvendsen.pdf"
     }
   },
   "cards": [
+    {
+      "id": "yplay-agamemnon",
+      "name": "阿伽门农",
+      "atkRubric": [4, 4, 3],
+      "defRubric": [4, 4, 3],
+      "reference": 88,
+      "sourceIds": ["S19", "S20", "S21"],
+      "author": "埃斯库罗斯；《俄瑞斯忒亚》第一部《阿伽门农》",
+      "rationale": "原剧与分场资料支持凯旋、祭女旧债和夫妻权力的牵制，先前选择持续产生后果；报捷、预言、遇害和公开争辩形成结构照应。推进与开放收束按较强作用记3，不因歌队篇幅或三联剧尚未结束扣分，也不以悲剧史地位自动给满。94/94为本游戏分项编辑复评，非来源网站评分；保留reference88，不由原五星倒推攻防。"
+    },
     {
       "id": "play-thunder",
       "name": "雷雨",

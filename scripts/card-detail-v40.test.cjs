@@ -26,11 +26,12 @@ test('ATK与DEF各自作为原生展开入口，分数条和概念提示始终�
   assert.doesNotMatch(markup,/评分依据|为什么是这个分数|stat-rationale|<details[^>]* open/);
 });
 
-test('轴解释保留来源和编辑判断说明，内容转义且不改写原分数',()=>{
+test('两个轴共享一次来源和编辑说明，内容转义且不改写原分数',()=>{
   const card=cards.find(card=>card.id==='play-hamlet'),before=JSON.stringify(card);
   const markup=context.statAxesMarkupV40(card),review=statRationaleV40(card);
-  for(const source of review.sources)assert.ok(markup.includes(K(source.url)));
-  assert.ok(markup.includes(K(review.note)));
+  for(const source of review.sources)assert.equal(markup.split(K(source.url)).length-1,1);
+  assert.equal(markup.split(K(review.note)).length-1,1);
+  assert.match(markup,/<\/details><div class="stat-axis-context">/);
   assert.equal(JSON.stringify(card),before);
   const injected={...card,id:'new-card',note:'<img src=x onerror=alert(1)>。',observe:'<script>不好</script>。',review:{}};
   assert.doesNotMatch(context.statAxesMarkupV40(injected),/<img|<script>/);

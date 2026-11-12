@@ -99,16 +99,10 @@ function productionCuesV40(result, cards) {
 
 function scoreBreakdown(result, cards, showPoints = false) {
   const cues = productionCuesV40(result, cards);
-  const crewCue = cues.find(cue => cue.kind === 'resonance' && cue.rarity === result.crew.rarity);
   const attributes = cue => `data-action="production-cue" data-cue-id="${K(cue.id)}" data-production-cue="${K(cue.id)}" data-card-ids="${K(JSON.stringify(cue.cardIds))}" data-rarity="${K(cue.rarity || '')}"`;
   const participants = cue => cue.cardIds.map(id => cards.find(card => card.id === id).name).join('、');
-  const title = crewCue
-    ? `<button type="button" class="production-crew rarity-${K(crewCue.rarity)}" ${attributes(crewCue)} aria-label="${K(result.crew.title)}，同星合演，回看关联卡牌">${K(result.crew.title)}</button>`
-    : K(result.crew.title);
   return `<section class="score-explanation production-review" aria-label="演后短评">
-    <h2 class="production-crew-title">${title}</h2>
-    <p class="production-crew-description">${K(result.crew.description)}</p>
-    ${cues.length ? `<ul class="production-cues">${cues.map(cue => `<li><button type="button" class="production-cue${cue.rarity ? ` rarity-${K(cue.rarity)}` : ''}" ${attributes(cue)} aria-label="${K(cue.title)}，${cue.kind === 'resonance' ? '同星合演' : '戏剧羁绊'}，${showPoints && cue.points ? `加${cue.points}分，` : ''}${K(cue.description)} 关联卡牌：${K(participants(cue))}。回看关联卡牌"><strong>${K(cue.title)}${showPoints && cue.points ? `<b class="cue-value">+${cue.points}</b>` : ''}</strong><span>${K(cue.description)}</span></button></li>`).join('')}</ul><p class="production-cue-status" role="status" aria-live="polite">点选评语，看看是哪几张卡在呼应。</p>` : ''}
+    ${cues.length ? `<ul class="production-cues">${cues.map(cue => `<li><button type="button" class="production-cue${cue.rarity ? ` rarity-${K(cue.rarity)}` : ''}" ${attributes(cue)} aria-label="${K(cue.title)}，${cue.kind === 'resonance' ? '同星合演' : '戏剧羁绊'}，${showPoints && cue.points ? `加${cue.points}分，` : ''}${K(cue.description)} 关联卡牌：${K(participants(cue))}。回看关联卡牌"><strong>${K(cue.title)}${showPoints && cue.points ? `<b class="cue-value">+${cue.points}</b>` : ''}</strong><span>${K(cue.description)}</span></button></li>`).join('')}</ul><p class="production-cue-status" role="status" aria-live="polite">点选评语，看看是哪几张卡在呼应。</p>` : `<p>${K(result.crew.description)}</p>`}
   </section>`;
 }
 
@@ -121,7 +115,7 @@ function scoringHelp(state) {
     <p>整场表现由六张卡共同决定，加上组队奖励，最高 100 分。所有得分都是整数；混搭也能好看，没有羁绊不扣分。</p>
     <details><summary>查看同星加分表</summary>
       <table><thead><tr><th>星级</th><th>2 张</th><th>3 张</th><th>4 张</th><th>5 张</th><th>6 张</th></tr></thead><tbody>${bonuses.map((row, i) => `<tr><th>${i + 1} 星</th>${row.map(points => `<td>+${points}</td>`).join('')}</tr>`).join('')}</tbody></table>
-      <p>不同同星组可以一起加分，总共最多 +7。剧组称号看人数最多的一组，同人数取高星；整场评价看总分。</p>
+      <p>不同同星组可以一起加分，总共最多 +7。每组同星与原作羁绊各有短评，点词条可回看参与卡牌。</p>
     </details>
     <details><summary>抽取与保存</summary>
       ${ratesHelpV40(activeCards)}

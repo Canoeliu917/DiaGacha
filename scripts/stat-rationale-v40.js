@@ -59,6 +59,18 @@ const statSourcesV40 = {
   "S18": {
     "title": "Royal Shakespeare Company：The Cherry Orchard 剧情与洛巴辛",
     "url": "https://www.rsc.org.uk/the-cherry-orchard"
+  },
+  "S19": {
+    "title": "MIT Internet Classics Archive：埃斯库罗斯《Agamemnon》原作英译",
+    "url": "https://classics.mit.edu/Aeschylus/agamemnon.html"
+  },
+  "S20": {
+    "title": "杜克大学古典学课程：《Agamemnon》分场概要",
+    "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
+  },
+  "S21": {
+    "title": "BYU托管：《Agamemnon》的结构与戏剧策略教学资料",
+    "url": "https://ogcma.byu.edu/AgamemnonANCIENT_AeschylusSvendsen.pdf"
   }
 };
 
@@ -76,6 +88,16 @@ const statAxesV40 = {
 // [A one-line reading of the contrast, ATK reading, DEF reading]. These explain
 // the card's function, not a new score or an institution's evaluation.
 const statReadingsV40 = {
+  'yplay-agamemnon': [
+    '归来的胜利被家内旧债反转，当前行动完成，复仇争议仍向后延伸。',
+    '凯旋的荣耀与祭女的旧债正面冲撞，迎接一步步变为无法逃脱的谋杀。',
+    '报捷、预言与杀戮前后呼应；家族复仇未完，归来遇害这一段行动已经成形。',
+  ],
+  'xplay-sang': [
+    '婚嫁、生计与宗族规矩彼此牵制，多个村民的遭遇共同构成一幅乡村群像。',
+    '婚姻交易和宗族排斥把生存压力变成人与人的伤害，冲突不依赖单一主角。',
+    '多组事件相互映照，歌队串联叙述与评论，分散的人物线仍指向共同主题。',
+  ],
   'dir-solo': [
     '独白把观众带进人物的内心冲突，86／90 是对推动作用和表达清晰度的高评价。',
     '人物把原本隐藏的判断直接交给观众，改变观众对他和其他人物的理解。《哈姆雷特》的独白让疑惧、反驳与抉择成为可听见的冲突，因此推动作用得 86 分。思考和迟疑也属于行动；但一次独白能否进一步促成决定、改变场内关系，仍取决于具体文本与前后事件，不因面向观众就自动满分。',
@@ -391,9 +413,7 @@ function statRationaleV40(card) {
     const evidenceLabel = evidence === rehearsal && !facts && !observation ? '卡片排演示例（非原作事实）' : axis === 'atk' && observation ? '卡片观察' : '卡片说明';
     let reason = reading ? reading[index + 1] : '';
     if (!reason && hasEvidence) {
-      const lead = axis === 'atk' ? observation || facts : rehearsal || facts || observation;
-      const prefix = axis === 'def' && rehearsal ? '卡片给出的排演示例是：' : '现有卡片写到：';
-      reason = `${prefix}${lead}${lens ? lens[index + 1] : fallback[index]}`;
+      reason = lens ? lens[index + 1] : fallback[index];
     }
     if (!hasEvidence) reason = '现有卡片未附足以解释这一项的剧情、观察或排演资料，暂不根据数值补写理由。';
     result[axis] = {
