@@ -2,8 +2,10 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
+const crypto = require('node:crypto');
 const vm = require('node:vm');
 const { DiaRatesV40, effectiveRatesV40 } = require('./rates-v40.js');
+const { cardScore, rarityForScore } = require('./scoring-v38.js');
 const root = path.resolve(__dirname, '..');
 const previous = { C: 22, UC: 26, R: 26, SR: 15, SSR: 7, UR: 3, LR: 1 };
 const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
@@ -23,11 +25,13 @@ const context = vm.createContext(sandbox);
 const expose = 'globalThis.fixture={activeCards,C,Cboosted,ee,drawMixPack,emptyLoop,Y,v,x,copyDimension,setBase(table){y=table}}';
 for (const block of html.replace(startup, expose).matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)) vm.runInContext(block[1], context, { timeout: 10000 });
 const game = context.fixture;
+// Run the real draw functions against the approved score-derived tiers, even before embedding the migration.
+for (const card of game.activeCards) card.rarity = rarityForScore(cardScore(card));
 const ranks = Array.from(game.v), dimensions = Array.from(game.x, item => item.key);
 const pool = Array.from(game.activeCards), activeIds = new Set(pool.map(card => card.id));
 const poolBefore = JSON.stringify(pool);
 const round = value => Number(value.toFixed(4));
-const rateReport = { standardBefore: previous, standardAfter: DiaRatesV40.standard, giftUnchanged: DiaRatesV40.gift, activeCards: pool.length, seed: 20261112, packsPerMode: 20000 };
+const rateReport = { version: 'V43', htmlSha256: crypto.createHash('sha256').update(html).digest('hex'), standardBefore: previous, standardAfter: DiaRatesV40.standard, giftUnchanged: DiaRatesV40.gift, activeCards: pool.length, seed: 20261112, packsPerMode: 20000 };
 const effective = table => Object.fromEntries(dimensions.map(dimension => [dimension, effectiveRatesV40(pool, dimension, table, game.ee)]));
 function reset(table = DiaRatesV40.standard) { game.setBase(table); game.Y.loop = game.emptyLoop(); }
 function seeded(seed) {
@@ -67,17 +71,17 @@ test('实际每维出率使用真实缺档回退，五星六星均存在，不�
     for (const table of Object.values(DiaRatesV40)) {
       const actual = effectiveRatesV40(pool, dimension, table, game.ee);
       assert.equal(Object.values(actual).reduce((sum, chance) => sum + chance, 0), 100);
-      assert.equal(actual.SSR, table.SSR);
-      assert.equal(actual.UR, table.UR + (dimension === '导演手法' ? table.LR : 0));
-      assert.equal(actual.LR, dimension === '导演手法' ? 0 : table.LR);
+      assert.ok(subset.some(card => card.rarity === 'SSR'));
+      assert.ok(subset.some(card => card.rarity === 'UR'));
+      assert.ok(subset.some(card => card.rarity === 'LR'));
+      for (const rarity of ['SSR', 'UR', 'LR']) assert.equal(actual[rarity], table[rarity]);
     }
   }
-  assert.deepEqual(missing, [{ dimension: '剧目', requested: 'C', actual: 'UC' }, { dimension: '导演手法', requested: 'LR', actual: 'UR' }]);
   const rates = effective(DiaRatesV40.standard);
-  assert.equal(rates.剧目.C, 0);
-  assert.equal(rates.剧目.UC, 44);
-  assert.equal(rates.导演手法.UR, 6);
-  assert.equal(effective(DiaRatesV40.gift).导演手法.UR, 13);
+  for (const { dimension, requested, actual } of missing) {
+    assert.equal(rates[dimension][requested], 0);
+    assert.ok(rates[dimension][actual] >= DiaRatesV40.standard[actual] + DiaRatesV40.standard[requested]);
+  }
   rateReport.missingTiers = missing;
   rateReport.effectiveStandardPercent = rates;
   rateReport.effectiveGiftPercent = effective(DiaRatesV40.gift);
@@ -118,6 +122,14 @@ test('帮助表直接复用抽率配置与真实fallback，各维普通和赠礼
   const markup = ui.ratesHelpV40(pool);
   assert.ok(markup.includes('20%、24%、25%、15%、10%、5%、1%'));
   assert.ok(markup.includes('8%、12%、25%、24%、18%、9%、4%'));
+  for (const dimension of dimensions) {
+    const subset = pool.filter(card => card.dimension === dimension);
+    for (const rarity of ranks) if (!subset.some(card => card.rarity === rarity)) {
+      const actual = game.ee(subset, rarity)[0].rarity;
+      assert.ok(markup.includes(`${game.copyDimension(dimension)}没有 ${ranks.indexOf(rarity) + 1} 星，转入 ${ranks.indexOf(actual) + 1} 星`));
+    }
+  }
+  assert.ok(!markup.includes('手段没有 7 星'));
   const rows = [...markup.matchAll(/<tr><th scope="row">([^<]+)<\/th>(.*?)<\/tr>/g)];
   assert.equal(rows.length, 12);
   for (const [kindIndex, table] of Object.values(DiaRatesV40).entries()) {
@@ -128,6 +140,14 @@ test('帮助表直接复用抽率配置与真实fallback，各维普通和赠礼
       assert.deepEqual(shown, Object.values(effectiveRatesV40(pool, dimension, table, game.ee)));
     }
   }
+});
+
+test('缺档始终选最近星级，同距离取较低档，说明与抽卡使用同一解析', () => {
+  const subset = ['C', 'R', 'SSR', 'LR'].map((rarity, index) => ({ id: `missing-${index}`, dimension: dimensions[0], rarity }));
+  assert.equal(game.ee(subset, 'UC')[0].rarity, 'C');
+  assert.equal(game.ee(subset, 'SR')[0].rarity, 'R');
+  assert.equal(game.ee(subset, 'UR')[0].rarity, 'SSR');
+  assert.deepEqual(effectiveRatesV40(subset, dimensions[0], DiaRatesV40.standard, game.ee), { C: 44, UC: 0, R: 40, SR: 0, SSR: 15, UR: 0, LR: 1 });
 });
 
 test('每模式两万包真实抽卡模拟符合理论，五星六星命中显著提升', () => {

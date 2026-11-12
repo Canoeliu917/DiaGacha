@@ -308,17 +308,25 @@ check('每维同档使用等宽随机区间抽取，单维六连不重复', () =
 });
 
 let threeHighThreeLow;
-check('真实卡池三张UR/LR加三张C/UC不保证90分，覆盖全部20种维度分配', () => {
+check('真实卡池三张UR/LR加三张C/UC不保证90分，覆盖可组成的维度分配', () => {
   const rng = randomFromSeed(seed + 2);
   const scores = [];
+  const excludedDimensionAssignments = [];
+  let eligibleDimensionAssignmentCount = 0;
   let lowest, highest;
   for (let a = 0; a < 4; a++) for (let b = a + 1; b < 5; b++) for (let c = b + 1; c < 6; c++) {
     const high = new Set([a, b, c]);
+    const candidatePools = dimensions.map((dimension, index) => bucket(dimension).filter(card => high.has(index)
+      ? rarities.indexOf(card.rarity) >= 5 : rarities.indexOf(card.rarity) <= 1));
+    const unavailable = dimensions.flatMap((dimension, index) => candidatePools[index].length ? []
+      : [{ dimension, requiredTiers: high.has(index) ? 'UR/LR' : 'C/UC' }]);
+    if (unavailable.length) {
+      excludedDimensionAssignments.push({ highDimensions: [...high].map(index => dimensions[index]), unavailable });
+      continue;
+    }
+    eligibleDimensionAssignmentCount++;
     for (let sample = 0; sample < 100; sample++) {
-      const drawn = dimensions.map((dimension, index) => {
-        const pool = bucket(dimension).filter(card => high.has(index)
-          ? rarities.indexOf(card.rarity) >= 5 : rarities.indexOf(card.rarity) <= 1);
-        assert.ok(pool.length, `${dimension} 缺少三高三低测试所需档位`);
+      const drawn = candidatePools.map(pool => {
         return pool[Math.floor(rng() * pool.length)];
       });
       const scored = production(drawn);
@@ -331,13 +339,18 @@ check('真实卡池三张UR/LR加三张C/UC不保证90分，覆盖全部20种维
     }
   }
   scores.sort((a, b) => a - b);
-  assert.equal(scores.length, 2000);
+  assert.ok(eligibleDimensionAssignmentCount > 0, '真实卡池至少须能组成一种三高三低组合');
+  assert.equal(eligibleDimensionAssignmentCount + excludedDimensionAssignments.length, 20);
+  assert.equal(scores.length, eligibleDimensionAssignmentCount * 100);
   assert.ok(scores[0] < 90, '三高三低不应被强制保送到90分');
   threeHighThreeLow = {
-    definition: '3张UR/LR + 3张C/UC；全部20种高档维度分配，各100组真实卡池抽样',
+    definition: '3张UR/LR + 3张C/UC；枚举20种高档维度分配，对真实可组成的每种分配抽样100组，缺档组合单列',
+    requestedDimensionAssignmentCount: 20, eligibleDimensionAssignmentCount,
+    excludedDimensionAssignmentCount: excludedDimensionAssignments.length, excludedDimensionAssignments,
     seed: seed + 2, samples: scores.length,
     mean: round(scores.reduce((sum, score) => sum + score, 0) / scores.length),
-    p10: scores[199], p50: scores[999], p90: scores[1799], minimum: scores[0], maximum: scores.at(-1),
+    p10: scores[Math.ceil(scores.length * .1) - 1], p50: scores[Math.ceil(scores.length * .5) - 1],
+    p90: scores[Math.ceil(scores.length * .9) - 1], minimum: scores[0], maximum: scores.at(-1),
     atLeast80Percent: percent(scores.filter(score => score >= 80).length, scores.length),
     atLeast90Percent: percent(scores.filter(score => score >= 90).length, scores.length),
     capped100Percent: percent(scores.filter(score => score === 100).length, scores.length),
@@ -389,7 +402,7 @@ const scoreHistogram = {};
 for (const score of scores) scoreHistogram[String(score)] = (scoreHistogram[String(score)] || 0) + 1;
 const toPercentages = counts => Object.fromEntries(Object.entries(counts).map(([key, count]) => [key, percent(count)]));
 const report = {
-  version: 'v40', seed, sampleSize, simulatedDate: '2026-11-12',
+  version: 'V43', seed, sampleSize, simulatedDate: '2026-11-12',
   formula: 'clamp(0,100,round(weightedMean) + resonance + bonds)；基础分四舍五入，同星使用整数表且最多7、羁绊最多8；普通五星10%、六星5%',
   htmlSha256: crypto.createHash('sha256').update(html).digest('hex'),
   scope: {

@@ -28,6 +28,13 @@ const DiaScoring = (() => {
     return Math.round(0.5 * card.atk + 0.5 * card.def);
   }
 
+  function rarityForScore(score) {
+    if (!Number.isInteger(score) || score < 0 || score > 100) {
+      throw new RangeError('星级档位需要 0–100 的整数综合分');
+    }
+    return ['C', 'UC', 'R', 'SR', 'SSR', 'UR', 'LR'][[60, 66, 72, 78, 84, 90].filter(threshold => score >= threshold).length];
+  }
+
   function grade(score) {
     return score >= 90 ? '绝佳' : score >= 80 ? '出彩' : score >= 70 ? '成台' : score >= 60 ? '初成' : '待磨';
   }
@@ -109,7 +116,7 @@ const DiaScoring = (() => {
     return { score, base, weightedMean, resonance, bonds, grade: grade(score), crew, contributions, resonanceDetails, bondDetails };
   }
 
-  return { cardScore, production };
+  return { cardScore, rarityForScore, production };
 })();
 
 if (typeof module !== 'undefined' && module.exports) module.exports = DiaScoring;

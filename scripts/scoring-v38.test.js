@@ -127,7 +127,7 @@ test('卡片不再渲染评分教程，结果显示整数且首页折叠表与�
   const fs = require('node:fs');
   const vm = require('node:vm');
   const ranks = [...rarities, 'LR'];
-  const context = vm.createContext({ K: String, fn: Object.fromEntries(ranks.map((rank, i) => [rank, i + 1])), v: ranks, activeCards: [], ratesHelpV40: () => '' });
+  const context = vm.createContext({ DiaScoring: require('./scoring-v38.js'), K: String, fn: Object.fromEntries(ranks.map((rank, i) => [rank, i + 1])), v: ranks, activeCards: [], ratesHelpV40: () => '' });
   vm.runInContext(fs.readFileSync(require('node:path').join(__dirname, 'scoring-ui-v38.js'), 'utf8'), context);
   assert.equal(context.cardReviewDetails({ review: { sourceIds: ['unknown'] } }), '');
   const cards = cast(80);

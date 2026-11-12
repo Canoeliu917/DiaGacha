@@ -110,9 +110,19 @@ function cardReviewDetails() { return ''; }
 
 function scoringHelp(state) {
   const bonuses = [[1, 2, 3, 4, 5], [1, 2, 3, 4, 5], [2, 3, 4, 5, 6], [2, 3, 4, 5, 6], [3, 4, 5, 6, 7], [3, 4, 5, 6, 7], [4, 5, 6, 7, 7]];
+  const colors = ['白色','绿色','蓝色','紫色','橙色','彩虹粉','炫光黑'];
+  const scoreBands = v.map((rarity, index) => {
+    const values = Array.from({length:101}, (_, score) => score).filter(score => DiaScoring.rarityForScore(score) === rarity);
+    return `<tr><th scope="row">${index + 1} 星</th><td>${values[0]}–${values.at(-1)} 分</td><td>${rarity}</td><td>${colors[index]}</td></tr>`;
+  }).join('');
   return `<h2 id="sheet-title">怎么玩</h2>
     <ol><li>开一包，集齐剧本、演法、手段、主角、配角、空间，排成一台戏。</li><li>两张同星就加分，1 星也能组「草台班子」；同星越多，奖励越多，最多 +7。</li><li>同一原作的人物与空间、合拍的演法与手段，还能触发羁绊，最多 +8。</li></ol>
     <p>整场表现由六张卡共同决定，加上组队奖励，最高 100 分。所有得分都是整数；混搭也能好看，没有羁绊不扣分。</p>
+    <details><summary>单卡分数与星级</summary>
+      <p>单卡综合分是 ATK 与 DEF 的平均值，四舍五入为整数；这个分数直接决定星级、稀有度和颜色。文化参考资料不额外加分，同星与羁绊只影响整场表现。</p>
+      <table class="score-bands"><thead><tr><th>星级</th><th>综合分</th><th>稀有度</th><th>卡色</th></tr></thead><tbody>${scoreBands}</tbody></table>
+      <p>例如综合 75 分是四星，88 分是六星，94 分是七星。修改资料介绍不会改变星级；攻防复评后，星级随新综合分更新。</p>
+    </details>
     <details><summary>查看同星加分表</summary>
       <table><thead><tr><th>星级</th><th>2 张</th><th>3 张</th><th>4 张</th><th>5 张</th><th>6 张</th></tr></thead><tbody>${bonuses.map((row, i) => `<tr><th>${i + 1} 星</th>${row.map(points => `<td>+${points}</td>`).join('')}</tr>`).join('')}</tbody></table>
       <p>不同同星组可以一起加分，总共最多 +7。每组同星与原作羁绊各有短评，点词条可回看参与卡牌。</p>

@@ -26,17 +26,21 @@ engine = engine.split("if (typeof module")[0]
 ui = (ROOT / 'scripts/scoring-ui-v38.js').read_text(encoding='utf-8')
 sources = json.loads((ROOT / 'docs/SCORING_ANCHORS.json').read_text(encoding='utf-8'))['sources']
 block = '// SCORING_V38_START\n' + engine + '\nconst SCORING_SOURCES = ' + json.dumps(sources, ensure_ascii=False) + ';\n' + ui + '\n// SCORING_V38_END\n'
+score_hint = 'function ae(){return "单卡综合分＝ATK与DEF的整数平均分，综合分直接决定星级；点击ATK或DEF可看具体理由。";}'
+tier_hint = 'function me(){return "星级与稀有度由单卡综合分统一判档，历史文化备注不参与计分或判星。";}'
 if '// SCORING_V38_START' in html:
     a = html.index('// SCORING_V38_START')
     b = html.index('// SCORING_V38_END', a) + len('// SCORING_V38_END\n')
     html = html[:a] + block + html[b:]
+    replace_function('function ae()', 'var oe=', score_hint)
+    replace_function('function me()', 'function he(', tier_hint)
     path.write_text(html, encoding='utf-8')
     print('Refreshed embedded v38 engine, sources and UI.')
     raise SystemExit
 
 replace_function('var ie={C:55,UC:64,R:73,SR:82,SSR:90,UR:96,LR:100};function T(e)', 'function ae()', block + 'function T(e){return DiaScoring.cardScore(e)}')
-replace_function('function ae()', 'var oe=', 'function ae(){return "综合分＝ATK与DEF各占50%；星级和稀有度不重复计分。具体依据可展开查看。";}')
-replace_function('function me()', 'function he(', 'function me(){return "星级与稀有度表示策展收藏档位，不直接抬高攻防。";}')
+replace_function('function ae()', 'var oe=', score_hint)
+replace_function('function me()', 'function he(', tier_hint)
 replace_function('function Xt(cards)', 'function pickScoredCard', '''function Xt(cards) {
   const scoring = productionScore(cards);
   const flags = new Set(scoring.bondDetails.map(item => item.id === 'style-method' ? 'unity' : 'home'));

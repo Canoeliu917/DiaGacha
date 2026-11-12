@@ -1,78 +1,5 @@
-// Source metadata copied from docs/SCORING_ANCHORS.json; no new web verification is implied.
-const statSourcesV40 = {
-  "S01": {
-    "title": "中央戏剧学院：2026 年《雷雨》创排、文本身体空间与蒙太奇",
-    "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/25324.html"
-  },
-  "S02": {
-    "title": "北京人民艺术剧院：老舍与《茶馆》创演",
-    "url": "https://www.bjry.com/actor/html/2015/06/2015060515.html"
-  },
-  "S03": {
-    "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
-    "url": "https://www.rsc.org.uk/hamlet/"
-  },
-  "S04": {
-    "title": "Royal Shakespeare Company：Hamlet 人物关系",
-    "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
-  },
-  "S05": {
-    "title": "The Pulitzer Prizes：1949 年戏剧奖《推销员之死》",
-    "url": "https://www.pulitzer.org/winners/arthur-miller"
-  },
-  "S07": {
-    "title": "RADA：MA Theatre Lab Programme Specification（2024）",
-    "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
-  },
-  "S08": {
-    "title": "Shakespeare’s Globe：Globe Theatre 空间、观众与历史",
-    "url": "https://www.shakespearesglobe.com/discover/about-us/globe-theatre/"
-  },
-  "S11": {
-    "title": "Royal Shakespeare Company：Hamlet 的艾尔西诺城堡与舞台环境",
-    "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/staging/setting"
-  },
-  "S12": {
-    "title": "国家大剧院 2019 秋季演出季手册：《茶馆》人物与裕泰茶馆",
-    "url": "https://www.chncpa.org/ycgp_220/jmcxz/201607/P020190902597561079651.pdf"
-  },
-  "S13": {
-    "title": "中央戏剧学院：2024 年《雷雨》教学演出、周朴园与周公馆剧情",
-    "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/22315.html"
-  },
-  "S14": {
-    "title": "MIT Internet Classics Archive：Sophocles《Oedipus the King》原作英译",
-    "url": "https://classics.mit.edu/Sophocles/oedipus.html"
-  },
-  "S15": {
-    "title": "UCLA：Waiting for Godot 的教学、循环结构与身体幽默",
-    "url": "https://newsroom.ucla.edu/stories/ucla-students-benefit-from-professional-theater-production-of-becketts-waiting-for-godot"
-  },
-  "S16": {
-    "title": "英国国家剧院档案：1987年《Waiting for Godot》制作与角色",
-    "url": "https://catalogue.nationaltheatre.org.uk/calmview/Record.aspx?id=937&src=CalmView.Performance"
-  },
-  "S17": {
-    "title": "MIT OpenCourseWare：Script Analysis，《The Cherry Orchard》结构讨论",
-    "url": "https://ocw.mit.edu/courses/21m-710-script-analysis-fall-2005/pages/calendar/"
-  },
-  "S18": {
-    "title": "Royal Shakespeare Company：The Cherry Orchard 剧情与洛巴辛",
-    "url": "https://www.rsc.org.uk/the-cherry-orchard"
-  },
-  "S19": {
-    "title": "MIT Internet Classics Archive：埃斯库罗斯《Agamemnon》原作英译",
-    "url": "https://classics.mit.edu/Aeschylus/agamemnon.html"
-  },
-  "S20": {
-    "title": "杜克大学古典学课程：《Agamemnon》分场概要",
-    "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
-  },
-  "S21": {
-    "title": "BYU托管：《Agamemnon》的结构与戏剧策略教学资料",
-    "url": "https://ogcma.byu.edu/AgamemnonANCIENT_AeschylusSvendsen.pdf"
-  }
-};
+// Use the same source catalogue as the scoring records in browser and tests.
+const statSourcesV40 = typeof SCORING_SOURCES !== 'undefined' ? SCORING_SOURCES : typeof module !== 'undefined' && module.exports ? require('../docs/SCORING_ANCHORS.json').sources : {};
 
 // Explanations use the current edited card text and the documented six-axis rubric.
 // Historical scores are not reverse-engineered into invented rubric subscores.
@@ -164,9 +91,9 @@ const statReadingsV40 = {
     '人物不同的生活线都与回莫斯科的愿望相照应，驻军来去与日常延续组织时间。日常化、群像式的推进并不妨碍整体联系。',
   ],
   'xplay-faust': [
-    '赌约、追求与代价已经可见，但58／59的历史低分缺少逐项解释。',
-    '简介说明浮士德不断追求新经验，也让他人付出代价，已有明确的欲望和后果；不能仅凭现有资料推导出58这个低值。',
-    '从爱情到社会事业的跨度需要结合完整文本判断组织方式。现有卡面不足以证明59的具体由来，保留旧分并标记待复核。',
+    '追求的尺度由爱情扩向社会事业，代价与责任也随之扩大；两部由赌约和救赎相互回应。',
+    '追求不断扩大，受伤害的人也越来越多；赌约、爱情与占有之间的矛盾使理想必须面对具体代价。',
+    '两部以追求与责任贯穿，赌约和格蕾琴在终场得到回应；神话与现实场景的跳接有母题组织，并非松散拼贴。',
   ],
   'xplay-bald': [
     '交流逐渐失效可形成强烈场面压力，回到开头则是它自己的结构规则。',
@@ -411,7 +338,7 @@ function statRationaleV40(card) {
       && value === 50 + 4 * rubric.reduce((sum, part) => sum + part, 0);
     const evidence = axis === 'atk' ? observation || facts || rehearsal : facts || observation || rehearsal;
     const evidenceLabel = evidence === rehearsal && !facts && !observation ? '卡片排演示例（非原作事实）' : axis === 'atk' && observation ? '卡片观察' : '卡片说明';
-    let reason = reading ? reading[index + 1] : '';
+    let reason = typeof review[`${axis}Reason`] === 'string' ? review[`${axis}Reason`] : reading ? reading[index + 1] : '';
     if (!reason && hasEvidence) {
       reason = lens ? lens[index + 1] : fallback[index];
     }

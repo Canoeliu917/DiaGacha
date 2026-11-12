@@ -1,0 +1,663 @@
+{
+  "version": "V43",
+  "note": "本文件为独立编辑复评提案。来源支持文本事实和分析背景，全部数值由游戏既定六项量表评定，不是机构提供的作品排名；reference保持现有值。",
+  "sources": {
+    "P43_ROMEO": {
+      "title": "RSC：Romeo and Juliet 分场剧情",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/story/scene-by-scene"
+    },
+    "P43_IBSEN8": {
+      "title": "易卜生《人民公敌》《野鸭》原作英译，Collected Works 第8卷",
+      "url": "https://www.gutenberg.org/cache/epub/70577/pg70577-images.html"
+    },
+    "P43_PEER": {
+      "title": "易卜生《培尔·金特》原作英译，Collected Works 第4卷",
+      "url": "https://www.gutenberg.org/files/66239/66239-h/66239-h.htm"
+    },
+    "P43_HEDDA": {
+      "title": "易卜生《海达·高布乐》原作英译，Collected Works 第10卷",
+      "url": "https://www.gutenberg.org/files/74237/74237-h/74237-h.htm"
+    },
+    "P43_PROMETHEUS": {
+      "title": "MIT Internet Classics Archive：《被缚的普罗米修斯》原作英译",
+      "url": "https://classics.mit.edu/Aeschylus/prometheus.html"
+    },
+    "P43_PYGMALION": {
+      "title": "萧伯纳《皮格马利翁》原作",
+      "url": "https://www.gutenberg.org/cache/epub/3825/pg3825-images.html"
+    },
+    "P43_WARREN": {
+      "title": "萧伯纳《华伦夫人的职业》原作",
+      "url": "https://www.gutenberg.org/cache/epub/1097/pg1097-images.html"
+    },
+    "P43_SEAGULL": {
+      "title": "契诃夫《海鸥》原作英译",
+      "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
+    },
+    "P43_VANYA": {
+      "title": "契诃夫《万尼亚舅舅》原作英译",
+      "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+    },
+    "P43_SISTERS": {
+      "title": "契诃夫《三姐妹》原作，Constance Garnett 英译",
+      "url": "https://www.ibiblio.org/eldritch/ac/sisters.htm"
+    },
+    "P43_TARTUFFE": {
+      "title": "莫里哀《伪君子》原作英译",
+      "url": "https://www.gutenberg.org/cache/epub/2027/pg2027-images.html"
+    },
+    "P43_GLASS": {
+      "title": "A Noise Within：《玻璃动物园》2019 观众手册",
+      "url": "https://www.anoisewithin.org/wp-content/uploads/2019/01/AGSpring_18-19-TheGlassMenagerie_FINAL2.pdf"
+    },
+    "P43_ALBEE": {
+      "title": "Edward Albee Society：《谁害怕弗吉尼亚·伍尔夫》剧情及文本分析",
+      "url": "https://edwardalbeesociety.org/works/whos-afraid-of-virginia-woolf/"
+    },
+    "P43_COURAGE": {
+      "title": "UMass DEFA Film Library：Ralf Remshardt 研究《大胆妈妈》的文本与原版演出",
+      "url": "https://www.umass.edu/defa/sites/default/files/Mother%20Courage%20and%20Her%20Children%20on%20Stage%20and%20Screen_by%20Ralf%20Remshardt/index.pdf"
+    },
+    "P43_GALILEO": {
+      "title": "Northwestern University：Life of Galileo 演出与科学冲突",
+      "url": "https://www.mccormick.northwestern.edu/etopia/past-performances/life-of-galileo.html"
+    },
+    "P43_GALILEO_EDU": {
+      "title": "St Leonard’s College 教学资料：Life of Galileo 的冲突与后果（Engage Education）",
+      "url": "https://cpb-ap-se2.wpmucdn.com/learn.stleonards.vic.edu.au/dist/7/135/files/2016/03/Life-of-Galileo-Encountering-Conflict.pdf"
+    },
+    "P43_QUYUAN": {
+      "title": "重庆中国三峡博物馆：郭沫若修改手迹本《屈原》",
+      "url": "https://www.3gmuseum.cn/web/article/1430010528247287808/web/content_1430010528247287808.html"
+    },
+    "P43_CNCOURSE": {
+      "title": "大庆师范学院《中国话剧名作鉴赏》公开课程说明",
+      "url": "https://www.chinaooc.com.cn/course/68003e14b836e5522a7564e1"
+    },
+    "P43_DOGGY": {
+      "title": "林伟瑜：从写意到意境，狗儿爷涅槃的剧本及演出分析，《戏剧研究》37期",
+      "url": "https://theatre.ntu.edu.tw/journal/text/pdf/37/37-2.pdf"
+    },
+    "P43_BEIJING": {
+      "title": "文化和旅游部：央华《北京人》演出剧情",
+      "url": "https://www.mct.gov.cn/ggfw/zyjzzt/yanchu/yanchuwqhg/202211/t20221101_937099.html"
+    },
+    "P43_SUNRISE": {
+      "title": "国家大剧院2026年2—3月剧目展：话剧《日出》剧情",
+      "url": "https://www.chncpa.org/cgylx/yszl/zlsj/syzl/202602/t20260205_286250.shtml"
+    }
+  },
+  "cards": [
+    {
+      "id": "xplay-quyuan",
+      "name": "屈原",
+      "author": "郭沫若",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        3
+      ],
+      "reference": 82,
+      "sourceIds": [
+        "P43_QUYUAN",
+        "P43_CNCOURSE"
+      ],
+      "rationale": "联齐抗秦的主张遭宫廷诬陷压制，政治选择直接改变人物处境；诗剧的抒情推进不能按事件数量折算。现有资料足以否定58/59的弱作用判断，但不据知名度补成六项满档。",
+      "atkReason": "政治主张与宫廷权谋正面相撞，拒绝屈从让囚禁与出走成为必须承担的后果。",
+      "defReason": "诗性语言与政治冲突互相支撑；本卡按历史剧的组织判断，不把诗人真实生平当作剧中全部情节。",
+      "atk": 90,
+      "def": 86
+    },
+    {
+      "id": "yplay-mrswarren",
+      "name": "华伦夫人的职业",
+      "author": "萧伯纳",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 68,
+      "sourceIds": [
+        "P43_WARREN"
+      ],
+      "rationale": "第二幕的生计辩护与末幕仍在经营的揭露，使女儿的理解转为拒绝。经济来源、教育与母女感情相互制约，不能因以辩论为主而判为低行动。",
+      "atkReason": "母亲用供养要求理解，女儿用独立拒绝交易；每次辩护都改变母女还能否共同生活。",
+      "defReason": "从追问收入来源到退回生活费，金钱线索贯穿始终，结尾把原则落实为失去亲情庇护的选择。",
+      "atk": 90,
+      "def": 90
+    },
+    {
+      "id": "yplay-prometheus",
+      "name": "被缚的普罗米修斯",
+      "author": "传统归于埃斯库罗斯",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "P43_PROMETHEUS"
+      ],
+      "rationale": "原作的锁链限制移动，却不能消除拒绝透露秘密的行动。来访、预言与赫尔墨斯的最后威胁逐层加压；结尾实现威胁但没有解决宙斯权力的全部问题，故不将收束子项打满。",
+      "atkReason": "身体被缚仍可拒绝交出秘密；威胁越重，他的坚持越使惩罚成为可见的代价。",
+      "defReason": "来访与预言围绕抗命组织，末场灾变回应最后通牒；它完成本剧冲突，却保留未来的未决关系。",
+      "atk": 90,
+      "def": 90
+    },
+    {
+      "id": "yplay-redlantern",
+      "name": "谁害怕弗吉尼亚·伍尔夫",
+      "author": "爱德华·阿尔比",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 82,
+      "sourceIds": [
+        "P43_ALBEE"
+      ],
+      "rationale": "三幕酒局通过公开羞辱、攻击宾客与虚构儿子的死亡不断改变四人联盟。末幕拆掉前文共同维持的幻象，情感关系与形式组织都不支持60/61的旧分。",
+      "atkReason": "酒局中的揭短会立即改变联盟，虚构儿子的秘密一旦越界，报复便伤到婚姻赖以维系的核心。",
+      "defReason": "三幕游戏由试探升级到幻象破裂，年轻夫妇形成镜像；结尾的脆弱相依回应整夜的争夺。",
+      "atk": 94,
+      "def": 94
+    },
+    {
+      "id": "yplay-peer",
+      "name": "培尔·金特",
+      "author": "易卜生",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        3
+      ],
+      "reference": 82,
+      "sourceIds": [
+        "P43_PEER"
+      ],
+      "rationale": "原剧用多地旅程反复追问自我，纽扣匠的审问把早年的逃避转成终局问题；索尔维格的回答与屋后仍在的声音并置。片段跳跃有统领母题，但不是每一段都采用同等紧密的即时因果。",
+      "atkReason": "培尔不断靠改换身份摆脱眼前难题，晚年的审问却使这些逃避累积成无法绕开的自我危机。",
+      "defReason": "旅程由自我问题串联，归来回应出走；结尾既有接纳也有未完的追问，开放不等于散乱。",
+      "atk": 86,
+      "def": 90
+    },
+    {
+      "id": "yplay-farewell",
+      "name": "大胆妈妈",
+      "author": "贝托尔特·布莱希特",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "P43_COURAGE"
+      ],
+      "rationale": "对原剧和布莱希特演出的研究指出，战争生意与保护孩子形成持续矛盾；瑞士奶酪的赎价、卡特琳的鼓声与末场继续拉车构成不同选择的对照。分场式结构让观众比较后果，不能因缺少单一高潮低估完整性。",
+      "atkReason": "战争既提供生意又夺走孩子；讨价还价与救人的时间冲突，使谋生策略不断暴露代价。",
+      "defReason": "各场把相似生存难题置于不同选择中，末场继续拉车回应开场；人物没有醒悟正是观众需要判断的结构。",
+      "atk": 94,
+      "def": 94
+    },
+    {
+      "id": "play-glass",
+      "name": "玻璃动物园",
+      "author": "田纳西·威廉斯",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 82,
+      "sourceIds": [
+        "P43_GLASS"
+      ],
+      "rationale": "剧院手册明确汤姆的供养压力、劳拉的退学、吉姆来访失败与汤姆离去后的记忆。外部场面不喧闹不等于缺少牵制，记忆框架对结尾的组织尤其鲜明。",
+      "atkReason": "汤姆想离开却是家中经济支柱，来客带来的希望又反过来逼紧责任；逃离并不能免除情感后果。",
+      "defReason": "汤姆既经历又回忆这段往事，玻璃、灯光与告别连成记忆结构，离去后的无法忘却回应开场。",
+      "atk": 90,
+      "def": 94
+    },
+    {
+      "id": "xplay-romeo",
+      "name": "罗密欧与朱丽叶",
+      "author": "莎士比亚",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        4
+      ],
+      "reference": 94,
+      "sourceIds": [
+        "P43_ROMEO"
+      ],
+      "rationale": "RSC分场资料显示秘密婚姻、决斗、流放、逼婚与错失消息形成连续后果，墓地结局回到家族仇怨。事件中有偶然因素，但它们作用于已被人物选择和社会禁令封紧的局面，不支持旧DEF57。",
+      "atkReason": "相爱必须对抗家族仇怨，秘密婚姻与决斗接连缩小退路；每次补救都可能触发新的不可逆后果。",
+      "defReason": "婚礼、流放、假死与墓地相互衔接，双重死亡让家族回看开场的仇怨，偶然失信并未切断因果。",
+      "atk": 94,
+      "def": 94
+    },
+    {
+      "id": "xplay-galileo",
+      "name": "伽利略传",
+      "author": "贝托尔特·布莱希特",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "P43_GALILEO",
+        "P43_GALILEO_EDU"
+      ],
+      "rationale": "演出与教学资料共同支持发现、权力压制、撤回主张及秘密著作的后果。人物的求知欲与自保相互抵牾，传授知识的师生关系在结尾被重新检验；评分针对戏剧人物，不冒充历史人物评价。",
+      "atkReason": "坚持公开发现会危及安全，撤回主张又伤害学生的信任；求真与自保的冲突把观念变成行动代价。",
+      "defReason": "开场的知识传授与后来的师生重逢相互照应，著作得以流传仍不能抹去退让留下的责任问题。",
+      "atk": 90,
+      "def": 90
+    },
+    {
+      "id": "xplay-doggy",
+      "name": "狗儿爷涅槃",
+      "author": "锦云",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        3
+      ],
+      "reference": 68,
+      "sourceIds": [
+        "P43_DOGGY",
+        "P43_CNCOURSE"
+      ],
+      "rationale": "文本分析指出烧门楼构成首尾框架，回忆串起土地欲望与父子分歧，不能按时空跳跃判散乱。不同文本及演出版的末场处理有差别，结局并不等同于唯一确定的自杀或重生，故保留解释边界。",
+      "atkReason": "土地既是活路又成为执念，儿子对土地的新打算把时代变化压进父子关系，最终逼出毁掉门楼的行动。",
+      "defReason": "烧门楼的当下包住一生回忆，物件与欲望形成首尾照应；末场去向保持开放，不能硬说已经获得新生。",
+      "atk": 86,
+      "def": 90
+    },
+    {
+      "id": "xplay-pygmalion",
+      "name": "皮格马利翁",
+      "author": "萧伯纳",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "P43_PYGMALION"
+      ],
+      "rationale": "原作把发音实验的成功转成伊莉莎生活出路与尊严的危机，末幕争执明确拒绝把她当作制成品。没有常规爱情团圆不构成结构缺陷；旧DEF55抹掉了实验与人格独立的呼应。",
+      "atkReason": "改造口音能跨过社交门槛，却不能解决尊重与生计；伊莉莎拒绝继续被安排，改变了实验者的优势。",
+      "defReason": "从被评判的声音到自主表达的要求，语言训练始终牵着阶级与人格；结尾追问实验成功之后谁负责。",
+      "atk": 90,
+      "def": 90
+    },
+    {
+      "id": "xplay-tartuffe",
+      "name": "伪君子",
+      "author": "莫里哀",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        2
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "P43_TARTUFFE"
+      ],
+      "rationale": "奥尔贡的信任使婚姻与财产面临现实危机，桌下偷听把真假争论转成可见证据；末场主要由君主识破骗局并派人介入，内在行动的收束不及前文充分，DEF第三项保留2。",
+      "atkReason": "伪善借家长的信任进入婚姻与财产分配，家人越想揭穿，越可能先被主人逐出家门。",
+      "defReason": "隐藏、偷听与揭穿层次清楚；最终脱险依靠外部王权介入，故结局回应项低于前面的结构组织。",
+      "atk": 90,
+      "def": 86
+    },
+    {
+      "id": "yplay-enemy",
+      "name": "人民公敌",
+      "author": "易卜生",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 82,
+      "sourceIds": [
+        "P43_IBSEN8"
+      ],
+      "rationale": "污染发现牵动公共健康、城镇收入、报纸与家庭，支持者的倒戈及公开会议把冲突从兄弟扩至社会。结尾坚持留下使发现者面对实际代价；不以是否赞同医生全部言论来加减分。",
+      "atkReason": "公开污染会触动全镇利益，原先的支持者因此倒戈；医生坚持发言必须承担职业与家庭的损失。",
+      "defReason": "浴场调查逐步扩成公共争论，失去支持后的留下回应最初的救城愿望，人物的激烈言辞也保留争议。",
+      "atk": 94,
+      "def": 90
+    },
+    {
+      "id": "yplay-whitesnake",
+      "name": "野鸭",
+      "author": "易卜生",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 82,
+      "sourceIds": [
+        "P43_IBSEN8"
+      ],
+      "rationale": "原作把揭开家庭隐情的理想与海德薇的具体处境对置，枪、阁楼和野鸭均参与后果。末场对牺牲意义的争论拒绝轻率和解；真相带来的伤害正是结构核心，不应被旧DEF77弱化。",
+      "atkReason": "格雷格斯坚持说出真相，却使孩子承受大人关系破裂的后果；善意与伤害相互牵制，难有无代价的出口。",
+      "defReason": "阁楼、野鸭与枪在家庭日常中预先出现，结尾把这些线索集中收回，同时质疑所谓牺牲能否救人。",
+      "atk": 94,
+      "def": 94
+    },
+    {
+      "id": "play-sisters",
+      "name": "三姐妹",
+      "author": "契诃夫",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "P43_SISTERS"
+      ],
+      "rationale": "返回莫斯科的愿望在家宅变化、婚姻和军队离去中不断失去条件，末幕决斗消息与继续工作的选择并置。无望的延宕具有后果，不应因未遂愿望把ATK压至58。",
+      "atkReason": "回莫斯科的盼望不断遭生活挤压，等待期间家宅与感情都在变化；迟迟不能成行本身就积累损失。",
+      "defReason": "四幕用时间流逝串起愿望、工作与离别，终场继续生活的决定回应开场的期待，留下有组织的未竟感。",
+      "atk": 86,
+      "def": 94
+    },
+    {
+      "id": "xplay-vanya",
+      "name": "万尼亚舅舅",
+      "author": "契诃夫",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "P43_VANYA"
+      ],
+      "rationale": "卖庄园建议将多年劳动的归属突然推到眼前，未击中的枪与归还吗啡都产生具体关系后果。结尾重新记账照应此前生活，不是冲突从未发生，旧ATK62忽略了这种失败行动。",
+      "atkReason": "卖庄园的提议让多年奉献失去保障，万尼亚的反抗虽失败，却迫使所有人面对被消耗的人生。",
+      "defReason": "来访打乱日常，离去又恢复账本与工作；相似的生活承载了不同的认识，循环收尾保留冲突的伤痕。",
+      "atk": 90,
+      "def": 94
+    },
+    {
+      "id": "play-butterfly",
+      "name": "海达·高布乐",
+      "author": "易卜生",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 82,
+      "sourceIds": [
+        "P43_HEDDA"
+      ],
+      "rationale": "手稿的失落与烧毁、赠枪及布拉克的知情相继缩小海达的退路，控制他人的愿望最终转成受制。原作的物件因果与讽刺反转鲜明，不能沿用缺少逐项依据的旧72/80。",
+      "atkReason": "海达想左右别人的命运，烧稿与赠枪却留下可被追究的后果；控制欲最终把她推到受制的位置。",
+      "defReason": "手稿与手枪连接人物关系和关键转折，布拉克掌握秘密后形成方向倒转，结局回应她对丑闻与依附的恐惧。",
+      "atk": 94,
+      "def": 94
+    },
+    {
+      "id": "xplay-seagull",
+      "name": "海鸥",
+      "author": "契诃夫",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "P43_SEAGULL"
+      ],
+      "rationale": "湖边演出、被杀海鸥与末幕重逢连接爱情失衡和艺术理想，妮娜与特里普列夫的选择形成对照。叙事通过时间间隔让后果显现，不能只看当场动作数量。",
+      "atkReason": "爱情与创作都在争取承认，拒绝和忽视改变人物去向；同样受挫的人作出不同选择，后果因而格外鲜明。",
+      "defReason": "开场演出与末幕重逢互相照应，海鸥意象在转述中改变含义，日常谈笑与场外枪声形成残酷对照。",
+      "atk": 90,
+      "def": 94
+    },
+    {
+      "id": "play-beijing",
+      "name": "北京人",
+      "author": "曹禺",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "P43_BEIJING",
+        "P43_CNCOURSE"
+      ],
+      "rationale": "机构剧情资料中的债务、婚配、棺材与离家互相牵动，课程说明其开放而完整的组织。缓慢衰落并非弱冲突；选择ATK86而非满档，承认它主要以生活侵蚀而非密集爆发推进。",
+      "atkReason": "婚姻、债务与家长权威一起消磨人的出路；人物的忍让和离开逐步改变这个家庭还能维持的关系。",
+      "defReason": "三代人的困局围绕衰败家宅展开，守住旧生活与走出家门形成对照，结尾让离开成为此前迟疑的回应。",
+      "atk": 86,
+      "def": 94
+    },
+    {
+      "id": "play-sunrise",
+      "name": "日出",
+      "author": "曹禺",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "P43_SUNRISE"
+      ],
+      "rationale": "剧院剧情显示陈白露依赖的金钱、救助小东西的失败与银行倒闭彼此牵连。人物跨阶层的遭遇共同呈现社会压力，不能要求所有场面只服务一个英雄的单线行动。",
+      "atkReason": "陈白露想救人却受制于供养她的社会关系，小东西的遭遇与银行倒闭把看似体面的生活逼到绝境。",
+      "defReason": "旅馆与底层人物的遭遇从不同侧面照见同一套金钱秩序，终场死亡与向日出而去的选择形成回应。",
+      "atk": 90,
+      "def": 90
+    }
+  ],
+  "reviewedUnchanged": [
+    {
+      "id": "play-oedipus",
+      "reason": "本轮检查既有六项锚点，不重复改分；沿用SCORING_ANCHORS.json的原有证据与数值。",
+      "scope": "锚点一致性检查"
+    },
+    {
+      "id": "play-thunder",
+      "reason": "本轮检查既有六项锚点，不重复改分；沿用SCORING_ANCHORS.json的原有证据与数值。",
+      "scope": "锚点一致性检查"
+    },
+    {
+      "id": "play-hamlet",
+      "reason": "本轮检查既有六项锚点，不重复改分；沿用SCORING_ANCHORS.json的原有证据与数值。",
+      "scope": "锚点一致性检查"
+    },
+    {
+      "id": "play-cherry",
+      "reason": "本轮检查既有六项锚点，不重复改分；沿用SCORING_ANCHORS.json的原有证据与数值。",
+      "scope": "锚点一致性检查"
+    },
+    {
+      "id": "play-godot",
+      "reason": "本轮检查既有六项锚点，不重复改分；沿用SCORING_ANCHORS.json的原有证据与数值。",
+      "scope": "锚点一致性检查"
+    },
+    {
+      "id": "play-teahouse",
+      "reason": "本轮检查既有六项锚点，不重复改分；沿用SCORING_ANCHORS.json的原有证据与数值。",
+      "scope": "锚点一致性检查"
+    },
+    {
+      "id": "play-salesman",
+      "reason": "本轮检查既有六项锚点，不重复改分；沿用SCORING_ANCHORS.json的原有证据与数值。",
+      "scope": "锚点一致性检查"
+    },
+    {
+      "id": "yplay-agamemnon",
+      "reason": "本轮检查既有六项锚点，不重复改分；沿用SCORING_ANCHORS.json的原有证据与数值。",
+      "scope": "锚点一致性检查"
+    },
+    {
+      "id": "xplay-faust",
+      "reason": "本扫描保留旧58/59并标记两部整体需复核；其后已由独立 REVIEW_FAUST_V43.json 补充原作两部复评，以该补充记录为准。",
+      "scope": "转交独立补充复评，已解决"
+    }
+  ],
+  "selection": {
+    "activePlayCount": 100,
+    "revisedCount": 20,
+    "anchorConsistencyCheckedCount": 8,
+    "fullyReassessedAllActivePlays": false,
+    "method": "扫描全部100张常驻剧本的既有攻防、剧注及锚点状态；选择低分与具体行动／结构证据差距最大的20张做本轮文献复评。扫描不等于逐条通读原作。未列入复评的72张保留原值。",
+    "deferredCandidates": [
+      {
+        "id": "xplay-faust",
+        "oldAtk": 58,
+        "oldDef": 59,
+        "issue": "已由独立 REVIEW_FAUST_V43.json 核对第一、二部并完成补充复评，不计入本文件20张。"
+      },
+      {
+        "id": "xplay-longday",
+        "oldAtk": 82,
+        "oldDef": 67,
+        "issue": "家庭回忆与一日结构疑似被低估，尚未完成可靠文本对照。"
+      },
+      {
+        "id": "xplay-camel",
+        "oldAtk": 62,
+        "oldDef": 87,
+        "issue": "须明确卡牌对应的话剧改编版本，小说梗概不能代替改编剧本。"
+      },
+      {
+        "id": "play-xixiang",
+        "oldAtk": 67,
+        "oldDef": 82,
+        "issue": "须核对王实甫原作结构及现卡版本范围。"
+      },
+      {
+        "id": "play-yuanye",
+        "oldAtk": 89,
+        "oldDef": 63,
+        "issue": "复仇、内心幻觉与结尾的结构需要原剧专题核验。"
+      }
+    ],
+    "evidenceLimits": "《狗儿爷涅槃》明确区分文本与演出版结尾；《伽利略传》以教学文本及演出资料交叉核对，未声称完成所有版本校勘；《大胆妈妈》资料首次全文获取成功，后续重开部分返回403，以同文已取内容和检索中对应段落核验。"
+  }
+}

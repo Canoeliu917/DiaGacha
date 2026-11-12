@@ -1,10 +1,10 @@
 {
-  "version": "v40",
+  "version": "V43",
   "seed": 20261112,
   "sampleSize": 100000,
   "simulatedDate": "2026-11-12",
   "formula": "clamp(0,100,round(weightedMean) + resonance + bonds)；基础分四舍五入，同星使用整数表且最多7、羁绊最多8；普通五星10%、六星5%",
-  "htmlSha256": "54dbd4a979c3109a29a396abfe9287f15a111ca85d95f39daf32ba2ffc788fde",
+  "htmlSha256": "2f5fa144217ec1e5cada93971d2543520186b3eae818ae68b25cfcd8ccd4f4b0",
   "scope": {
     "source": "实际 index.html 内嵌闭包；仅替换末尾 UI 启动为测试导出",
     "generator": "drawMixPack(activeCards, seededRandom)",
@@ -13,7 +13,7 @@
     "includesDailyGift": false,
     "includesCollectionRewardChoice": false,
     "simulationOnly": true,
-    "elapsedSeconds": 11.68
+    "elapsedSeconds": 10.96
   },
   "checks": {
     "passed": 11,
@@ -28,75 +28,75 @@
       "旧收藏 ID 存档保持可读，新增收藏不清空旧收藏",
       "真实综合包在连续未出货30/60包阈值触发保底，自然高档重置计数",
       "每维同档使用等宽随机区间抽取，单维六连不重复",
-      "真实卡池三张UR/LR加三张C/UC不保证90分，覆盖全部20种维度分配"
+      "真实卡池三张UR/LR加三张C/UC不保证90分，覆盖可组成的维度分配"
     ]
   },
   "cardCount": 777,
   "activeCardCount": 500,
   "reserveCardCount": 277,
   "activeRarityCounts": {
-    "C": 9,
-    "UC": 61,
-    "R": 106,
-    "SR": 135,
-    "SSR": 106,
-    "UR": 56,
-    "LR": 27
+    "C": 2,
+    "UC": 6,
+    "R": 59,
+    "SR": 82,
+    "SSR": 116,
+    "UR": 147,
+    "LR": 88
   },
   "activeDimensionCounts": {
     "剧目": {
       "C": 0,
-      "UC": 2,
-      "R": 13,
-      "SR": 27,
-      "SSR": 33,
-      "UR": 15,
-      "LR": 10
+      "UC": 0,
+      "R": 6,
+      "SR": 15,
+      "SSR": 22,
+      "UR": 27,
+      "LR": 30
     },
     "风格体系": {
-      "C": 1,
-      "UC": 14,
-      "R": 17,
-      "SR": 26,
-      "SSR": 13,
-      "UR": 3,
-      "LR": 1
+      "C": 0,
+      "UC": 1,
+      "R": 12,
+      "SR": 10,
+      "SSR": 23,
+      "UR": 19,
+      "LR": 10
     },
     "导演手法": {
-      "C": 3,
-      "UC": 24,
-      "R": 25,
-      "SR": 16,
-      "SSR": 4,
-      "UR": 3,
-      "LR": 0
+      "C": 0,
+      "UC": 1,
+      "R": 19,
+      "SR": 11,
+      "SSR": 22,
+      "UR": 17,
+      "LR": 5
     },
     "主演": {
       "C": 1,
-      "UC": 2,
-      "R": 12,
-      "SR": 29,
-      "SSR": 27,
-      "UR": 17,
-      "LR": 12
+      "UC": 0,
+      "R": 15,
+      "SR": 13,
+      "SSR": 25,
+      "UR": 24,
+      "LR": 22
     },
     "配角": {
       "C": 1,
-      "UC": 3,
-      "R": 16,
-      "SR": 21,
-      "SSR": 27,
-      "UR": 15,
-      "LR": 2
+      "UC": 1,
+      "R": 5,
+      "SR": 14,
+      "SSR": 13,
+      "UR": 42,
+      "LR": 9
     },
     "环境": {
-      "C": 3,
-      "UC": 16,
-      "R": 23,
-      "SR": 16,
-      "SSR": 2,
-      "UR": 3,
-      "LR": 2
+      "C": 0,
+      "UC": 3,
+      "R": 2,
+      "SR": 19,
+      "SSR": 11,
+      "UR": 18,
+      "LR": 12
     }
   },
   "requestedBaseRatesPercent": {
@@ -112,18 +112,51 @@
     {
       "dimension": "剧目",
       "requested": "C",
+      "actual": "R",
+      "probabilityPercent": 20
+    },
+    {
+      "dimension": "剧目",
+      "requested": "UC",
+      "actual": "R",
+      "probabilityPercent": 24
+    },
+    {
+      "dimension": "风格体系",
+      "requested": "C",
       "actual": "UC",
       "probabilityPercent": 20
     },
     {
       "dimension": "导演手法",
-      "requested": "LR",
-      "actual": "UR",
-      "probabilityPercent": 1
+      "requested": "C",
+      "actual": "UC",
+      "probabilityPercent": 20
+    },
+    {
+      "dimension": "主演",
+      "requested": "UC",
+      "actual": "C",
+      "probabilityPercent": 24
+    },
+    {
+      "dimension": "环境",
+      "requested": "C",
+      "actual": "UC",
+      "probabilityPercent": 20
     }
   ],
   "effectiveBaseRatesPercent": {
     "剧目": {
+      "C": 0,
+      "UC": 0,
+      "R": 69,
+      "SR": 15,
+      "SSR": 10,
+      "UR": 5,
+      "LR": 1
+    },
+    "风格体系": {
       "C": 0,
       "UC": 44,
       "R": 25,
@@ -132,27 +165,18 @@
       "UR": 5,
       "LR": 1
     },
-    "风格体系": {
-      "C": 20,
-      "UC": 24,
+    "导演手法": {
+      "C": 0,
+      "UC": 44,
       "R": 25,
       "SR": 15,
       "SSR": 10,
       "UR": 5,
       "LR": 1
     },
-    "导演手法": {
-      "C": 20,
-      "UC": 24,
-      "R": 25,
-      "SR": 15,
-      "SSR": 10,
-      "UR": 6,
-      "LR": 0
-    },
     "主演": {
-      "C": 20,
-      "UC": 24,
+      "C": 44,
+      "UC": 0,
       "R": 25,
       "SR": 15,
       "SSR": 10,
@@ -169,8 +193,8 @@
       "LR": 1
     },
     "环境": {
-      "C": 20,
-      "UC": 24,
+      "C": 0,
+      "UC": 44,
       "R": 25,
       "SR": 15,
       "SSR": 10,
@@ -179,69 +203,62 @@
     }
   },
   "score": {
-    "mean": 76.6066,
-    "p10": 71,
-    "p50": 76,
-    "p90": 82,
-    "atLeast80Percent": 24.048,
-    "atLeast90Percent": 0.23,
+    "mean": 73.6517,
+    "p10": 69,
+    "p50": 73,
+    "p90": 78,
+    "atLeast80Percent": 6.212,
+    "atLeast90Percent": 0.007,
     "capped100Percent": 0,
-    "minimum": 64,
-    "maximum": 96,
+    "minimum": 66,
+    "maximum": 91,
     "histogram": {
-      "64": 10,
-      "65": 58,
-      "66": 168,
-      "67": 423,
-      "68": 890,
-      "69": 1736,
-      "70": 3002,
-      "71": 4471,
-      "72": 6054,
-      "73": 7326,
-      "74": 8378,
-      "75": 9058,
-      "76": 9428,
-      "77": 9128,
-      "78": 8462,
-      "79": 7360,
-      "80": 6345,
-      "81": 4945,
-      "82": 3862,
-      "83": 3061,
-      "84": 2101,
-      "85": 1419,
-      "86": 958,
-      "87": 570,
-      "88": 341,
-      "89": 216,
-      "90": 125,
-      "91": 66,
-      "92": 24,
-      "93": 8,
-      "94": 4,
-      "95": 2,
-      "96": 1
+      "66": 705,
+      "67": 1373,
+      "68": 3500,
+      "69": 5843,
+      "70": 8736,
+      "71": 9580,
+      "72": 10148,
+      "73": 11162,
+      "74": 10682,
+      "75": 9978,
+      "76": 8041,
+      "77": 6122,
+      "78": 4486,
+      "79": 3432,
+      "80": 2378,
+      "81": 1485,
+      "82": 1009,
+      "83": 631,
+      "84": 329,
+      "85": 193,
+      "86": 87,
+      "87": 53,
+      "88": 23,
+      "89": 17,
+      "90": 5,
+      "91": 2
     }
   },
   "packRarity": {
     "atLeastSSRPercent": 64.817,
     "atLeastURPercent": 30.98,
-    "atLeastLRPercent": 4.968
+    "atLeastLRPercent": 5.965
   },
   "actualRarityCountsByDimension": {
     "剧目": {
       "C": 0,
-      "UC": 44162,
-      "R": 25097,
+      "UC": 0,
+      "R": 69259,
       "SR": 14769,
       "SSR": 9845,
       "UR": 5153,
       "LR": 974
     },
     "风格体系": {
-      "C": 19904,
-      "UC": 24287,
+      "C": 0,
+      "UC": 44191,
       "R": 24927,
       "SR": 15009,
       "SSR": 9969,
@@ -249,17 +266,17 @@
       "LR": 1002
     },
     "导演手法": {
-      "C": 19997,
-      "UC": 23902,
+      "C": 0,
+      "UC": 43899,
       "R": 24872,
       "SR": 15107,
       "SSR": 10043,
-      "UR": 6079,
-      "LR": 0
+      "UR": 5036,
+      "LR": 1043
     },
     "主演": {
-      "C": 19774,
-      "UC": 24134,
+      "C": 43908,
+      "UC": 0,
       "R": 25103,
       "SR": 15078,
       "SSR": 9883,
@@ -276,8 +293,8 @@
       "LR": 994
     },
     "环境": {
-      "C": 20073,
-      "UC": 23882,
+      "C": 0,
+      "UC": 43955,
       "R": 24879,
       "SR": 15025,
       "SSR": 10191,
@@ -288,16 +305,16 @@
   "actualRarityPercentByDimension": {
     "剧目": {
       "C": 0,
-      "UC": 44.162,
-      "R": 25.097,
+      "UC": 0,
+      "R": 69.259,
       "SR": 14.769,
       "SSR": 9.845,
       "UR": 5.153,
       "LR": 0.974
     },
     "风格体系": {
-      "C": 19.904,
-      "UC": 24.287,
+      "C": 0,
+      "UC": 44.191,
       "R": 24.927,
       "SR": 15.009,
       "SSR": 9.969,
@@ -305,17 +322,17 @@
       "LR": 1.002
     },
     "导演手法": {
-      "C": 19.997,
-      "UC": 23.902,
+      "C": 0,
+      "UC": 43.899,
       "R": 24.872,
       "SR": 15.107,
       "SSR": 10.043,
-      "UR": 6.079,
-      "LR": 0
+      "UR": 5.036,
+      "LR": 1.043
     },
     "主演": {
-      "C": 19.774,
-      "UC": 24.134,
+      "C": 43.908,
+      "UC": 0,
       "R": 25.103,
       "SR": 15.078,
       "SSR": 9.883,
@@ -332,8 +349,8 @@
       "LR": 0.994
     },
     "环境": {
-      "C": 20.073,
-      "UC": 23.882,
+      "C": 0,
+      "UC": 43.955,
       "R": 24.879,
       "SR": 15.025,
       "SSR": 10.191,
@@ -342,25 +359,25 @@
     }
   },
   "bonuses": {
-    "withBondsPercent": 5.368,
-    "meanBonds": 0.0862,
+    "withBondsPercent": 9.74,
+    "meanBonds": 0.2283,
     "bondTriggerPercent": {
-      "lead-support": 3.322,
-      "play-lead": 1.192,
-      "play-support": 0.749,
-      "style-method": 0.173,
-      "play-place": 0.054
+      "play-support": 1.777,
+      "play-lead": 5.386,
+      "lead-support": 2.989,
+      "play-place": 0.115,
+      "style-method": 0.01
     },
-    "withResonancePercent": 99.132,
-    "meanResonance": 3.2282,
+    "withResonancePercent": 99.116,
+    "meanResonance": 3.4027,
     "resonanceTriggerPercent": {
-      "C": 26.169,
-      "UC": 52.464,
-      "R": 46.554,
+      "C": 8.825,
+      "UC": 51.091,
+      "R": 63.764,
       "SR": 22.455,
       "SSR": 11.309,
-      "UR": 3.562,
-      "LR": 0.081
+      "UR": 3.37,
+      "LR": 0.127
     }
   },
   "fixtures": {
@@ -393,8 +410,8 @@
       ],
       "scoring": {
         "score": 100,
-        "base": 87,
-        "weightedMean": 87.08,
+        "base": 91,
+        "weightedMean": 90.6,
         "resonance": 6,
         "bonds": 7,
         "grade": "绝佳",
@@ -422,9 +439,9 @@
           {
             "cardId": "dir-wall",
             "dimension": "导演手法",
-            "score": 64,
+            "score": 86,
             "weight": 0.16,
-            "contribution": 10.24
+            "contribution": 13.76
           },
           {
             "cardId": "role-oedipus",
@@ -540,8 +557,8 @@
       ],
       "scoring": {
         "score": 100,
-        "base": 87,
-        "weightedMean": 86.56,
+        "base": 90,
+        "weightedMean": 90.08,
         "resonance": 7,
         "bonds": 8,
         "grade": "绝佳",
@@ -569,9 +586,9 @@
           {
             "cardId": "dir-wall",
             "dimension": "导演手法",
-            "score": 64,
+            "score": 86,
             "weight": 0.16,
-            "contribution": 10.24
+            "contribution": 13.76
           },
           {
             "cardId": "role-hamlet",
@@ -598,9 +615,10 @@
         "resonanceDetails": [
           {
             "rarity": "UR",
-            "count": 2,
-            "points": 3,
+            "count": 3,
+            "points": 4,
             "cardIds": [
+              "dir-wall",
               "role2-laertes",
               "place-elsinore"
             ]
@@ -680,88 +698,88 @@
     },
     "sameColor": [
       {
-        "rarity": "UC",
-        "cardIds": [
-          "yplay-mrswarren",
-          "xstyle-yuju",
-          "dir-convention",
-          "v23-role-jinzhi",
-          "v23-sup-catherine",
-          "place-baihua"
-        ],
-        "resonance": 5,
-        "score": 73
-      },
-      {
         "rarity": "R",
         "cardIds": [
-          "play-glass",
-          "style-black",
-          "dir-ritual",
-          "xrole-chunxiang",
-          "role2-malcolm",
-          "place-parlor"
+          "play-rhino",
+          "xstyle-yuju",
+          "dir-convention",
+          "role-bailu",
+          "role2-nell",
+          "place-baihua"
         ],
         "resonance": 6,
-        "score": 77
+        "score": 76
       },
       {
         "rarity": "SR",
         "cardIds": [
-          "play-rhino",
-          "style-kabuki",
-          "dir-wall",
-          "role-bailu",
+          "play-xixiang",
+          "style-absurd",
+          "xdir-toplight",
+          "xrole-sifeng",
           "role2-ismene",
-          "place-dunsinane"
+          "place-sichuan"
         ],
         "resonance": 6,
-        "score": 78
+        "score": 82
       },
       {
         "rarity": "SSR",
         "cardIds": [
           "play-peony",
-          "style-absurd",
-          "dir-body",
-          "role-liniang",
-          "role2-juliet-nurse",
-          "place-exec"
+          "style-poor",
+          "dir-alien",
+          "role-shiping",
+          "role2-duncan",
+          "place-dunsinane"
         ],
         "resonance": 7,
-        "score": 92
+        "score": 88
       },
       {
         "rarity": "UR",
         "cardIds": [
-          "play-doue",
+          "play-doll",
           "style-epic",
-          "dir-alien",
-          "role-ladym",
-          "role2-mercutio",
+          "dir-wall",
+          "role-nora",
+          "role2-juliet-nurse",
           "place-elsinore"
         ],
         "resonance": 7,
-        "score": 94
+        "score": 97
+      },
+      {
+        "rarity": "LR",
+        "cardIds": [
+          "play-oedipus",
+          "style-stan",
+          "ydir-diaomao",
+          "role-oedipus",
+          "role2-creon",
+          "place-tea"
+        ],
+        "resonance": 7,
+        "score": 100
       }
     ],
     "pity": {
       "pack30": [
         {
-          "id": "yplay-mrswarren",
+          "id": "play-rhino",
+          "rarity": "R"
+        },
+        {
+          "id": "style-v21-epistolary",
           "rarity": "UC"
         },
         {
-          "id": "style-stan",
+          "id": "dir-v21-endingloop",
+          "rarity": "UC"
+        },
+        {
+          "id": "role-oedipus",
           "rarity": "LR"
-        },
-        {
-          "id": "ydir-handkerchief",
-          "rarity": "C"
-        },
-        {
-          "id": "v23-role-silentman",
-          "rarity": "C"
         },
         {
           "id": "v23-sup-nurse",
@@ -769,25 +787,25 @@
         },
         {
           "id": "xplace-carriage",
-          "rarity": "C"
+          "rarity": "UC"
         }
       ],
       "pack60": [
         {
-          "id": "yplay-mrswarren",
+          "id": "play-rhino",
+          "rarity": "R"
+        },
+        {
+          "id": "style-v21-epistolary",
           "rarity": "UC"
         },
         {
-          "id": "style-stan",
+          "id": "dir-v21-endingloop",
+          "rarity": "UC"
+        },
+        {
+          "id": "role-oedipus",
           "rarity": "LR"
-        },
-        {
-          "id": "ydir-handkerchief",
-          "rarity": "C"
-        },
-        {
-          "id": "v23-role-silentman",
-          "rarity": "C"
         },
         {
           "id": "v23-sup-nurse",
@@ -795,91 +813,235 @@
         },
         {
           "id": "xplace-carriage",
-          "rarity": "C"
+          "rarity": "UC"
         }
       ]
     }
   },
   "uniformSampling": {
-    "verifiedBuckets": 40,
+    "verifiedBuckets": 36,
     "verifiedCardIntervals": 500,
     "randomSample": {
-      "dimension": "剧目",
-      "rarity": "SSR",
-      "cards": 33,
+      "dimension": "配角",
+      "rarity": "UR",
+      "cards": 42,
       "draws": 100000,
-      "expectedPerCard": 3030.303,
-      "minimumCount": 2908,
-      "maximumCount": 3142,
-      "chiSquare": 35.4126,
-      "degreesOfFreedom": 32,
+      "expectedPerCard": 2380.9524,
+      "minimumCount": 2255,
+      "maximumCount": 2489,
+      "chiSquare": 49.2004,
+      "degreesOfFreedom": 41,
       "counts": {
-        "play-peony": 3031,
-        "play-goodperson": 3142,
-        "play-xixiang": 3059,
-        "play-sunrise": 3120,
-        "play-yuanye": 3094,
-        "play-secret": 2990,
-        "play-beijing": 3078,
-        "play-baimao": 3038,
-        "play-sisters": 2971,
-        "play-butterfly": 2994,
-        "xplay-seagull": 2908,
-        "xplay-vanya": 3077,
-        "xplay-tartuffe": 3093,
-        "xplay-bald": 2945,
-        "xplay-longday": 2966,
-        "xplay-jia": 3040,
-        "xplay-guantheplay": 3076,
-        "xplay-camel": 2965,
-        "xplay-sang": 3062,
-        "xplay-shangyang": 3090,
-        "yplay-agamemnon": 3061,
-        "yplay-inspector": 3051,
-        "yplay-tempest": 3039,
-        "yplay-caiwenji": 3023,
-        "yplay-eaves": 3012,
-        "yplay-wotu": 3038,
-        "yplay-pipa": 3026,
-        "yplay-drunken": 3051,
-        "play-v21-justes": 2968,
-        "play-v21-caligula": 2937,
-        "play-v21-malentendu": 2921,
-        "v23-play-woyzeck": 3062,
-        "v23-play-dreamlike": 3072
+        "role2-juliet-nurse": 2392,
+        "role2-mercutio": 2489,
+        "role2-banquo": 2359,
+        "role2-macduff": 2436,
+        "role2-laertes": 2449,
+        "role2-polonius": 2422,
+        "role2-gertrude": 2341,
+        "role2-goneril": 2409,
+        "role2-regan": 2460,
+        "role2-kent": 2366,
+        "role2-fool-lear": 2334,
+        "role2-gloucester": 2337,
+        "role2-edgar": 2321,
+        "role2-malcolm": 2310,
+        "role2-agamemnon": 2405,
+        "role2-martha-misunderstanding": 2423,
+        "role2-kristine-linde": 2446,
+        "role2-krogstad": 2263,
+        "role2-varya": 2326,
+        "role2-trofimov": 2426,
+        "role2-sonya": 2404,
+        "role2-yelena": 2338,
+        "role2-vershinin": 2358,
+        "role2-treplev": 2410,
+        "role2-arkadina": 2448,
+        "role2-trigorin": 2377,
+        "role2-mayor-inspector": 2406,
+        "role2-hippolytus": 2396,
+        "role2-oenone": 2391,
+        "role2-theseus": 2373,
+        "role2-jean-rhinoceros": 2400,
+        "role2-solange": 2375,
+        "role2-li-shiqing": 2336,
+        "role2-jiao-daxing": 2406,
+        "role2-zeng-siyi": 2385,
+        "role2-zeng-hao": 2390,
+        "role2-kang-shunzi": 2328,
+        "role2-liu-siye": 2255,
+        "role2-kuang-fu": 2337,
+        "role2-yang-caiyu": 2294,
+        "role2-qi-yongnian": 2461,
+        "v23-sup-bohr": 2418
       }
     }
   },
   "threeHighThreeLow": {
-    "definition": "3张UR/LR + 3张C/UC；全部20种高档维度分配，各100组真实卡池抽样",
+    "definition": "3张UR/LR + 3张C/UC；枚举20种高档维度分配，对真实可组成的每种分配抽样100组，缺档组合单列",
+    "requestedDimensionAssignmentCount": 20,
+    "eligibleDimensionAssignmentCount": 10,
+    "excludedDimensionAssignmentCount": 10,
+    "excludedDimensionAssignments": [
+      {
+        "highDimensions": [
+          "风格体系",
+          "导演手法",
+          "主演"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "风格体系",
+          "导演手法",
+          "配角"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "风格体系",
+          "导演手法",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "风格体系",
+          "主演",
+          "配角"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "风格体系",
+          "主演",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "风格体系",
+          "配角",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "导演手法",
+          "主演",
+          "配角"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "导演手法",
+          "主演",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "导演手法",
+          "配角",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "主演",
+          "配角",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      }
+    ],
     "seed": 20261114,
-    "samples": 2000,
-    "mean": 83.334,
-    "p10": 80,
-    "p50": 83,
-    "p90": 87,
-    "minimum": 75,
-    "maximum": 92,
-    "atLeast80Percent": 92.35,
-    "atLeast90Percent": 0.6,
+    "samples": 1000,
+    "mean": 81.054,
+    "p10": 78,
+    "p50": 81,
+    "p90": 84,
+    "minimum": 76,
+    "maximum": 91,
+    "atLeast80Percent": 69.2,
+    "atLeast90Percent": 0.1,
     "capped100Percent": 0,
     "lowestFixture": {
-      "score": 75,
+      "score": 76,
       "cards": [
         {
-          "id": "yplay-mrswarren",
-          "rarity": "UC",
-          "score": 61
-        },
-        {
-          "id": "style-stan",
+          "id": "yplay-prometheus",
           "rarity": "LR",
           "score": 90
         },
         {
-          "id": "dir-alien",
+          "id": "ystyle-waterpuppet",
           "rarity": "UR",
-          "score": 82
+          "score": 84
+        },
+        {
+          "id": "dir-v21-endingloop",
+          "rarity": "UC",
+          "score": 65
         },
         {
           "id": "v23-role-silentman",
@@ -892,44 +1054,44 @@
           "score": 55
         },
         {
-          "id": "yplace-globe",
-          "rarity": "LR",
-          "score": 90
+          "id": "place-proscenium",
+          "rarity": "UR",
+          "score": 84
         }
       ]
     },
     "highestFixture": {
-      "score": 92,
+      "score": 91,
       "cards": [
         {
-          "id": "play-godot",
+          "id": "play-macbeth",
           "rarity": "LR",
-          "score": 92
+          "score": 91
         },
         {
-          "id": "ystyle-errenzhuan",
+          "id": "style-v21-epistolary",
           "rarity": "UC",
-          "score": 67
+          "score": 65
         },
         {
-          "id": "xdir-drum",
+          "id": "dir-v21-endingloop",
           "rarity": "UC",
-          "score": 71
+          "score": 65
         },
         {
-          "id": "role-gogo",
+          "id": "role-ladym",
           "rarity": "LR",
-          "score": 90
+          "score": 94
         },
         {
-          "id": "role2-clov",
-          "rarity": "UR",
-          "score": 92
+          "id": "role2-cassandra",
+          "rarity": "LR",
+          "score": 93
         },
         {
-          "id": "yplace-chengmen",
+          "id": "yplace-gongtang",
           "rarity": "UC",
-          "score": 74
+          "score": 62
         }
       ]
     }

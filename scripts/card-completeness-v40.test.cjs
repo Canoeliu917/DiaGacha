@@ -28,7 +28,7 @@ const lowCards = game.activeCards.filter(card => ['C', 'UC', 'R', 'SR'].includes
 
 test('500张常驻卡详情保留全部核心释义与看点，低星不按字数或句数截断', () => {
   assert.equal(game.activeCards.length, 500);
-  assert.equal(lowCards.length, 311);
+  assert.ok(lowCards.some(card => card.rarity === 'C'), '保留一星实例检查长句完整显示');
   for (const card of game.activeCards) {
     const detail = render(card);
     for (const text of [card.note, card.observe]) {

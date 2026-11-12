@@ -46,9 +46,9 @@ test('68/95两张剧目分别用具体剧情解释冲突与结构的差别，不
   assert.notEqual(dinner.atk.reason, krapp.atk.reason);
 });
 
-test('桑树坪纪事以简短专属理由说明群像冲突与结构，五星正文补充人物、事件和来源', () => {
+test('桑树坪纪事以简短专属理由说明群像冲突与结构，正文保留人物、事件和来源', () => {
   const card = get('xplay-sang'), result = statRationaleV40(card);
-  assert.equal(card.rarity, 'SSR');
+  assert.equal(card.rarity, 'UR');
   assert.equal(result.atk.value, 88);
   assert.equal(result.def.value, 89);
   assert.match(result.atk.reason, /婚姻交易.*宗族排斥/);
@@ -68,30 +68,31 @@ test('桑树坪纪事以简短专属理由说明群像冲突与结构，五星�
 
 test('高低悬殊的风格、手法、人物和空间均有各自解释', () => {
   const wall = statRationaleV40(get('dir-wall'));
-  assert.equal(wall.atk.value, 30);
-  assert.equal(wall.def.value, 98);
-  assert.match(wall.atk.reason, /不直接承认观众.*稳定场内关系/);
-  assert.match(wall.def.reason, /明确约定.*假想边界/);
+  assert.equal(wall.atk.value, 82);
+  assert.equal(wall.def.value, 90);
+  assert.match(wall.atk.reason, /注意力交给屋内关系.*时间和结构.*较有限/);
+  assert.match(wall.def.reason, /所在环境与观看边界.*反复执行/);
   assert.match(statRationaleV40(get('style-classic')).def.reason, /时间、地点与行动的集中/);
   assert.match(statRationaleV40(get('role-laura')).atk.reason, /接近、迟疑与退缩/);
   assert.match(statRationaleV40(get('role-laura')).def.reason, /玻璃小兽/);
-  assert.match(statRationaleV40(get('place-proscenium')).def.reason, /画框.*遮挡与出入/);
+  assert.match(statRationaleV40(get('place-proscenium')).def.reason, /观看方向与表演区边界明确.*场馆与布景/);
   assert.match(statRationaleV40(get('xdir-enter')).def.reason, /不同观众.*不一定.*相同/);
 });
 
 test('不足以支持历史低分时保留不确定，不编造作品结构缺陷', () => {
   const faust = statRationaleV40(get('xplay-faust'));
-  assert.match(faust.atk.reason, /不能.*推导出58/);
-  assert.match(faust.def.reason, /不足以证明59.*待复核/);
+  assert.equal(faust.basisMode, 'documented-rubric');
+  assert.match(faust.atk.reason, /追求不断扩大.*具体代价/);
+  assert.match(faust.def.reason, /两部.*赌约和格蕾琴.*终场/);
   const bald = statRationaleV40(get('xplay-bald'));
   assert.match(bald.def.reason, /不能因缺少线性情节断言结构不完整/);
   assert.match(statRationaleV40(get('play-godot')).atk.reason, /有意义的延宕/);
   assert.match(statRationaleV40(get('play-godot')).def.reason, /开放结局不等于结构未完成/);
 });
 
-test('9张一星卡都有针对自身功能的解释，限制与原作价值分开说明', () => {
+test('新档位的一星卡保留自身功能解释，不以星级倒推低分', () => {
   const common = cards.filter(card => activeIds.has(card.id) && card.rarity === 'C');
-  assert.equal(common.length, 9);
+  assert.equal(common.length, 2);
   for (const card of common) {
     const result = statRationaleV40(card);
     for (const axis of ['atk', 'def']) {
@@ -104,12 +105,12 @@ test('9张一星卡都有针对自身功能的解释，限制与原作价值分�
   const silent = statRationaleV40(get('v23-role-silentman'));
   assert.match(silent.atk.reason, /先于其他人步行.*不能支持.*因为沉默所以行动弱.*复核/);
   const warren = statRationaleV40(get('yplay-mrswarren'));
-  assert.match(warren.atk.reason, /财富的来源.*要求独立.*无法说明/);
-  assert.match(warren.def.reason, /两句简介不足以断言结构薄弱/);
+  assert.match(warren.atk.reason, /母亲.*供养.*女儿.*独立.*共同生活/);
+  assert.match(warren.def.reason, /收入来源.*金钱线索.*选择/);
 });
 
 test('低星手法解释适用条件与限制，金枝和凯瑟琳分别保留具体处境', () => {
-  assert.match(statRationaleV40(get('xstyle-walk')).def.reason, /跟上.*视听条件.*信息缺失/);
+  assert.match(statRationaleV40(get('xstyle-walk')).def.reason, /移动速度、可达性及视听条件.*稳定呈现/);
   assert.match(statRationaleV40(get('ydir-jijifeng')).def.reason, /听清信息.*辨认因果.*吞掉关键回应/);
   assert.match(statRationaleV40(get('ydir-rankou')).def.reason, /灯光、观看距离.*化妆不能代替步态/);
   assert.match(statRationaleV40(get('ystyle-budaixi')).def.reason, /不直接规定怎样说话、行动.*自己的处境与愿望/);
@@ -120,8 +121,8 @@ test('低星手法解释适用条件与限制，金枝和凯瑟琳分别保留�
   assert.notEqual(jinzhi.atk.reason, catherine.atk.reason);
 });
 
-test('33张锚点只展示已有且能算回当前分值的子项，来源逐项复用记录', () => {
-  assert.equal(anchors.cards.length, 33);
+test('全部已复核锚点只展示能算回当前分值的子项，来源逐项复用记录', () => {
+  assert.equal(anchors.cards.length, 74);
   for (const anchor of anchors.cards) {
     const card = get(anchor.id);
     const result = statRationaleV40(card);
@@ -221,7 +222,7 @@ test('不依赖星级、参考分、攻防反推的子项或无依据的来源�
 });
 
 test('低于新量表范围的旧分与99原样保留，缺资料或缺数值时不补写事实', () => {
-  assert.equal(statRationaleV40(get('place-proscenium')).atk.value, 28);
+  assert.equal(statRationaleV40(get('place-proscenium')).atk.value, 78);
   assert.equal(statRationaleV40(get('place-table')).def.value, 99);
   const unknown = { id: 'not-known', dimension: '主演', atk: 0, def: 99 };
   const empty = statRationaleV40(unknown);

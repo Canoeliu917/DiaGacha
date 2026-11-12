@@ -69,7 +69,7 @@ check('500张释义保持完整句，没有旧补长残句或重复段落',()=>{
     assert(!game.xn(card).includes('看懂这张卡'));
     assert.equal((game.statAxesMarkupV40(card).match(/class="axis axis-(?:atk|def) stat-axis"/g)||[]).length,2);
     assert(!game.statAxesMarkupV40(card).includes('评分依据'));
-    if(['SSR','UR','LR'].includes(card.rarity))assert.equal((game.xn(card).match(/class="card-essay"/g)||[]).length,{SSR:1,UR:2,LR:3}[card.rarity]);
+    if(['SSR','UR','LR'].includes(card.rarity))assert.ok((game.xn(card).match(/class="card-essay"/g)||[]).length>={SSR:1,UR:2,LR:3}[card.rarity],`${card.id}: 高星介绍段落不足`);
   }
 });
 

@@ -26,14 +26,23 @@ const fixture = liveCards();
 const copyContext = vm.createContext({ cardEssays: fixture.cardEssays, highStarNotesV40: fixture.highStarNotesV40 });
 vm.runInContext(source, copyContext);
 
-test('全部777张兼容卡的四至七星分别提供三至六句完整实卡介绍', () => {
+test('500张常驻四至七星分别提供三至六句介绍，277张预留兼容卡完整保留已有实卡句', () => {
   const counts = { SR: 3, SSR: 4, UR: 5, LR: 6 };
+  const activeIds = new Set(fixture.activeCards.map(card => card.id));
+  assert.equal(activeIds.size, 500);
+  assert.equal(fixture.e.length - activeIds.size, 277);
   let checked = 0;
   for (const card of fixture.e) {
     const lines = copyContext.preambleLines(card);
-    assert.equal(lines.length, counts[card.rarity] || 0, card.id);
+    const expected = counts[card.rarity] || 0;
+    if (activeIds.has(card.id) || !expected) assert.equal(lines.length, expected, card.id);
+    else assert.ok(lines.length >= 3 && lines.length <= expected, card.id);
     assert.equal(new Set(lines).size, lines.length, card.id);
     const original = [card.note, card.observe, ...fixture.highStarNotesV40(card), card.stage, card.blurb, fixture.cardEssays[card.id]].join('\n');
+    if (expected && lines.length < expected) {
+      const available = (original.match(/[^。！？!?\n]+[。！？!?]+[”’」』）)]*/g) || []).map(line => line.trim()).filter(line => line.length >= 6);
+      for (const line of available) assert.ok(lines.includes(line), `${card.id}: 预留卡已有完整句被省略 ${line}`);
+    }
     for (const line of lines) {
       assert.ok(line.length >= 6, `${card.id}: ${line}`);
       assert.match(line, /[。！？!?][”’」』）)]*$/);
