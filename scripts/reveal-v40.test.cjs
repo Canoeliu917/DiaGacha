@@ -61,14 +61,14 @@ class Element {
   remove() { this.removed = true; }
   insertAdjacentElement(position, element) { this.after = element; }
 }
-function runReveal(rarity, { reduced = false, skip = false } = {}) {
-  const card = fixture.e.find(card => card.rarity === rarity), zone = new Element(), flip = new Element(), host = new Element();
+function runReveal(rarity, { reduced = false, skip = false, last = false } = {}) {
+  const card = fixture.e.find(card => card.rarity === rarity), zone = new Element(), flip = new Element(), host = new Element(), screen = new Element();
   zone.querySelector = () => flip;
   const timers = new Map(); let timerId = 0, now = 0, soundCount = 0;
   const context = vm.createContext({
-    X: 0, J: reduced, Y: { booster: { cards: [card, card], index: 0, phase: 'card', revealDone: false, skipPreamble: skip } },
+    X: 0, J: reduced, Y: { booster: { cards: [card, card], index: last?1:0, phase: 'card', revealDone: false, skipPreamble: skip } },
     K: String, cardEssays: fixture.cardEssays, De() {}, Oe() { soundCount++; }, enterSpread() {},
-    document: { querySelector: selector => selector === '.pack-zone' ? zone : host, createElement: () => new Element() },
+    document: { querySelector: selector => selector === '.pack-zone' ? zone : selector === '.pull-screen' ? screen : host, createElement: () => new Element() },
     matchMedia: () => ({ matches: reduced }),
     setTimeout(fn, delay) { const id = ++timerId; timers.set(id, { fn, at: now + delay }); return id; },
     clearTimeout(id) { timers.delete(id); },
@@ -81,7 +81,7 @@ function runReveal(rarity, { reduced = false, skip = false } = {}) {
     timers.delete(id); now = timer.at; timer.fn();
   };
   const finish = () => { for (let i = 0; timers.size && i < 30; i++) tick(); assert.equal(timers.size, 0); };
-  return { context, zone, flip, host, timers, tick, finish, soundCount: () => soundCount, elapsed: () => now };
+  return { context, zone, flip, host, screen, timers, tick, finish, soundCount: () => soundCount, elapsed: () => now };
 }
 
 test('介绍逐句自上而下保留，高潮波纹为一二三圈，所有计时完成后释放', () => {
@@ -99,7 +99,8 @@ test('介绍逐句自上而下保留，高潮波纹为一二三圈，所有计�
     run.finish();
     assert.ok(run.context.Y.booster.revealDone);
     assert.equal(run.context.revealTimersV40.size, 0);
-    assert.ok(run.flip.children.every(child => child.removed));
+    assert.ok(run.flip.children.filter(child=>child!==run.host).every(child => child.removed));
+    assert.equal(run.host.parent,run.flip);
     assert.equal(run.soundCount(), 1);
   }
 });
@@ -109,7 +110,7 @@ test('减少动态或跳过时立即完整显示，无震动裂缝波纹也无�
     const run = runReveal('LR', option);
     assert.ok(run.context.Y.booster.revealDone);
     assert.equal(run.host.lines.filter(line => !line.hidden).length, 4);
-    assert.equal(run.flip.children.length, 0);
+    assert.deepEqual(run.flip.children,[run.host]);
     assert.equal(run.timers.size, 0);
     assert.ok(!run.flip.classes.has('is-reveal-climax'));
     if (option.reduced) assert.equal(run.soundCount(), 0, '旧音效包含震动，降低动态时不调用');
@@ -123,7 +124,7 @@ test('下一张关闭或重绘均可清理计时，旧回调不改变新一张�
   run.context.revealClearV40();
   assert.equal(run.timers.size, 0);
   assert.equal(run.context.revealTimersV40.size, 0);
-  assert.ok(run.flip.children.every(child => child.removed));
+  assert.ok(run.flip.children.filter(child=>child!==run.host).every(child => child.removed));
   assert.equal(run.context.Y.booster.revealDone, false);
   const stale = runReveal('LR');
   stale.context.X++;
@@ -140,7 +141,9 @@ test('三星四星快速完成，介绍不再复用格位或限制高度', () =>
     assert.ok(run.elapsed() < 700);
     assert.equal(run.host.lines.length, 0);
   }
-  assert.match(css, /position: static/);
+  assert.match(css, /position: absolute; inset: auto auto 16px 50%/);
+  assert.match(css, /pointer-events: none/);
+  assert.match(css, /width: calc\(100% \+ 36px\)/);
   assert.match(css, /max-height: none/);
   assert.match(css, /-webkit-line-clamp: unset/);
   assert.match(css, /prefers-reduced-motion/);
@@ -156,7 +159,30 @@ test('完成揭晓后打开详情再返回，恢复全部小注而不重播或�
   assert.equal(run.host.hidden,false);
   assert.equal(run.host.lines.length,4);
   assert.ok(run.host.lines.every(line=>!line.hidden&&!line.classes.has('is-on')));
-  assert.equal(run.zone.after,run.host);
+  assert.equal(run.host.parent,run.flip);
   assert.equal(run.timers.size,0);
   assert.equal(run.soundCount(),1);
+  assert.ok(run.flip.classes.has('reveal-v40'));
+  assert.ok(run.screen.classes.has('reveal-restored-v40'));
+});
+
+test('最后一张高星跳过或减动时全文停留在卡面，交给现有下一步按钮继续',()=>{
+  for(const options of [{reduced:true,last:true},{skip:true,last:true}]){
+    const run=runReveal('LR',options);
+    assert.equal(run.host.parent,run.flip);
+    assert.equal(run.host.lines.filter(line=>!line.hidden).length,4);
+    assert.equal(run.context.Y.booster.revealDone,true);
+    assert.equal(run.timers.size,0);
+  }
+});
+
+test('只有七星启用暗场，切卡清理，详情返回恢复',()=>{
+  const ordinary=runReveal('UR');
+  assert.ok(!ordinary.screen.classes.has('reveal-black-stage'));
+  const run=runReveal('LR');
+  assert.ok(run.screen.classes.has('reveal-black-stage'));
+  run.finish();run.context.revealClearV40();
+  assert.ok(!run.screen.classes.has('reveal-black-stage'));
+  run.context.Y.view='pack';run.context.restoreRevealIntroV40();
+  assert.ok(run.screen.classes.has('reveal-black-stage'));
 });

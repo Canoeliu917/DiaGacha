@@ -24,12 +24,15 @@ function revealLinesMarkupV40(card,shown=false){
 function restoreRevealIntroV40(){
   const booster=Y.booster,card=booster?.cards?.[booster.index];
   if(Y.view!=='pack'||booster?.phase!=='card'||!booster.revealDone||!card)return;
-  const host=document.querySelector('.pack-preamble'),zone=document.querySelector('.pack-zone');
-  if(!host||!zone)return;
+  const host=document.querySelector('.pack-preamble'),zone=document.querySelector('.pack-zone'),flip=zone?.querySelector('.flip');
+  if(!host||!flip)return;
+  zone.classList.add('reveal-zone-v40');
+  flip.classList.add('reveal-v40',`rarity-${card.rarity}`,'no-anim');
+  if(card.rarity==='LR')document.querySelector('.pull-screen')?.classList.add('reveal-black-stage','reveal-restored-v40');
   host.className='pack-preamble reveal-intro-v40';
   host.hidden=!preambleLines(card).length;
   host.innerHTML=revealLinesMarkupV40(card,true);
-  zone.insertAdjacentElement('afterend',host);
+  flip.appendChild(host);
 }
 function revealClearV40() {
   revealTimersV40.forEach(id => window.clearTimeout(id));
@@ -45,6 +48,7 @@ function $() {
   const run = X, index = booster.index;
   const zone = document.querySelector('.pack-zone'), flip = zone?.querySelector('.flip');
   const host = document.querySelector('.pack-preamble');
+  const screen = document.querySelector('.pull-screen');
   if (!zone || !flip) return;
   const reduced = J || window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const profile = revealProfileV40(card.rarity, reduced), lines = preambleLines(card);
@@ -63,7 +67,9 @@ function $() {
     paper?.remove(); effects?.remove();
     flip.classList.remove('is-reveal-climax', 'is-charging');
     zone.classList.remove('is-preamble', 'is-waiting', `wait-${card.rarity}`);
+    screen?.classList.remove('reveal-black-stage');
   };
+  if(card.rarity==='LR')screen?.classList.add('reveal-black-stage');
   zone.classList.add('reveal-zone-v40');
   flip.classList.add('reveal-v40', `rarity-${card.rarity}`);
   flip.style.setProperty('--reveal-strength', String(profile.level || 1));
@@ -74,7 +80,7 @@ function $() {
     host.setAttribute('aria-label', `${card.name}，开场小注`);
     host.setAttribute('aria-live', 'polite');
     host.innerHTML = revealLinesMarkupV40(card);
-    zone.insertAdjacentElement('afterend', host);
+    flip.appendChild(host);
     host.hidden = !lines.length;
   }
   const showLine = i => {
@@ -85,7 +91,7 @@ function $() {
   const finish = () => {
     booster.revealDone = true;
     if (!reduced && !skip) Oe(card.rarity);
-    if (booster.index >= booster.cards.length - 1) later(() => {
+    if (booster.index >= booster.cards.length - 1 && !(profile.level && (reduced || skip))) later(() => {
       if (!window.__dgNoSpread) enterSpread();
     }, reduced ? 120 : 1000);
   };

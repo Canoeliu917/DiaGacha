@@ -9,6 +9,7 @@ function stopProductionV40(){
   talkClear();
   if(!productionMotionV40)return;
   productionMotionV40.observer?.disconnect();
+  productionMotionV40.radarObserver?.disconnect();
   productionMotionV40.animations.forEach(animation=>animation.cancel());
   if(productionMotionV40.frame)cancelAnimationFrame(productionMotionV40.frame);
   productionMotionV40=null;
@@ -40,15 +41,18 @@ function clearCueV40(screen){
 }
 function showProductionCueV40(cue,{replay=false}={}){
   const state=productionMotionV40;if(!state)return;
+  state.cueAnimations?.forEach(animation=>animation.cancel());
+  state.cueAnimations=[];
   const screen=state.screen;clearCueV40(screen);
   const buttons=[...screen.querySelectorAll('[data-production-cue]')].filter(button=>button.dataset.productionCue===cue.id);
   const color=buttons.length?getComputedStyle(buttons[0]).getPropertyValue('--cue-color').trim()||'#9c2f2f':'#9c2f2f';
   buttons.forEach(button=>{button.classList.add('is-cue-active');button.setAttribute('aria-pressed','true');});
   const selected=[...screen.querySelectorAll('.cast-mini,.spread-card')].filter(card=>cue.cardIds.includes(card.dataset.id));
-  selected.forEach((card,index)=>{
+  selected.forEach(card=>{
     card.style.setProperty('--cue-color',color);
     card.classList.add('is-cue-card');card.classList.toggle('is-cue-bond',cue.kind==='bond');
-    animateProductionV40(card,[{transform:'translateY(0) scale(1)'},{transform:'translateY(-7px) scale(1.045)'},{transform:'translateY(-3px) scale(1.025)'}],{duration:560,delay:index*45,easing:'cubic-bezier(.16,1,.3,1)'});
+    const animation=animateProductionV40(card,[{transform:'translateX(0)'},{transform:'translateX(-1.5px)'},{transform:'translateX(1px)'},{transform:'translateX(-.5px)'},{transform:'translateX(0)'}],{duration:340,easing:'ease-in-out'});
+    if(animation)state.cueAnimations.push(animation);
   });
   const status=screen.querySelector('.production-cue-status');
   if(status){status.textContent=`${cue.title} · ${cue.cardIds.map(id=>state.cards.find(card=>card.id===id).name).join(' × ')}${cue.points?' · +'+cue.points:''}`;status.style.setProperty('--cue-color',color);}
@@ -60,6 +64,7 @@ function showProductionCueV40(cue,{replay=false}={}){
 function finishProductionV40(){
   const state=productionMotionV40;if(!state)return;
   talkClear();
+  state.radarObserver?.disconnect();
   if(state.frame)cancelAnimationFrame(state.frame);
   if(state.scoreElement)state.scoreElement.textContent=String(state.result.score);
   state.automatic=false;
@@ -102,24 +107,44 @@ function enterProductionV40(){
   screen.querySelectorAll('[data-production-cue]').forEach(button=>button.setAttribute('aria-pressed','false'));
   revealTalkV40(screen);
   const complete=Y.sheet||hasTalkSeen(key)||motionReducedV40();
-  if(complete){if(scoreElement)scoreElement.textContent=String(result.score);return;}
+  if(complete){if(scoreElement)scoreElement.textContent=String(result.score);if(screen.classList.contains('result-screen'))hexFinish();return;}
   productionMotionV40.automatic=true;
   screen.addEventListener('click',()=>{if(productionMotionV40?.automatic)finishProductionV40();},{once:true,capture:true});
   if(scoreElement)scoreElement.textContent=String(result.base);
   const minis=[...screen.querySelectorAll('.cast-mini,.spread-card')];
   minis.forEach((card,index)=>animateProductionV40(card,[{opacity:.3,transform:'translateY(7px)'},{opacity:1,transform:'none'}],{duration:380,delay:index*70,fill:'backwards'}));
-  if(screen.classList.contains('result-screen')){
-    hexBuildStart(false);
-    minis.forEach((card,index)=>talkLater(()=>{const axis=[...screen.querySelectorAll('.hex-corner')].findIndex(node=>node.dataset.id===card.dataset.id);hexLight(axis<0?index:axis);},index*70));
-    talkLater(hexStar,600);
-  }
-  let current=result.base;
   const state=productionMotionV40;
-  cues.forEach((cue,index)=>talkLater(()=>{
-    if(productionMotionV40!==state)return;
-    showProductionCueV40(cue);countProductionV40(current,current+cue.points);current+=cue.points;
-  },720+index*820));
-  talkLater(()=>{if(productionMotionV40===state){finishProductionV40();clearCueV40(screen);}},720+cues.length*820);
+  const radar=screen.querySelector('.hex-panel');
+  if(radar)hexBuildStart(false);
+  const start=()=>{
+    if(productionMotionV40!==state||!state.automatic||state.started||!screen.isConnected)return;
+    state.started=true;
+    state.radarObserver?.disconnect();
+    let cueStart=520;
+    if(radar){
+      minis.forEach((card,index)=>talkLater(()=>{
+        const axis=[...screen.querySelectorAll('.hex-corner')].findIndex(node=>node.dataset.id===card.dataset.id);
+        if(axis<0)return;
+        animateProductionV40(card,[{opacity:.55},{opacity:1}],{duration:420,easing:'ease-out'});
+        hexLight(axis);
+      },120+index*260));
+      const starAt=120+(minis.length-1)*260+420;
+      talkLater(hexStar,starAt);
+      cueStart=starAt+560;
+    }
+    let current=result.base;
+    cues.forEach((cue,index)=>talkLater(()=>{
+      if(productionMotionV40!==state)return;
+      showProductionCueV40(cue);countProductionV40(current,current+cue.points);current+=cue.points;
+    },cueStart+index*820));
+    talkLater(()=>{if(productionMotionV40===state){finishProductionV40();clearCueV40(screen);}},cueStart+cues.length*820);
+  };
+  if(radar&&typeof IntersectionObserver!=='undefined'){
+    state.radarObserver=new IntersectionObserver(entries=>{
+      if(entries.some(entry=>entry.isIntersecting&&entry.intersectionRatio>=.6))start();
+    },{threshold:.6});
+    state.radarObserver.observe(radar);
+  }else start();
 }
 function spreadReviewV40(cards){
   const result=productionScore(cards);

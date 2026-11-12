@@ -6,6 +6,7 @@ const vm = require('node:vm');
 const DiaScoring = require('./scoring-v38.js');
 const ui = fs.readFileSync(path.join(__dirname, 'scoring-ui-v38.js'), 'utf8');
 const motion = fs.readFileSync(path.join(__dirname, 'production-motion-v40.js'), 'utf8');
+const radarMotion = fs.readFileSync(path.join(__dirname, 'radar-motion-v40.js'), 'utf8');
 const dimensions = ['剧目', '风格体系', '导演手法', '主演', '配角', '环境'];
 const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 
@@ -40,16 +41,21 @@ function cardsFor(score = 75) {
   return dimensions.map((dimension, index) => ({ id: `card-${index}`, name: `${dimension}卡`, dimension, rarity: 'UC', atk: score, def: score, workIds: ['work-shared'] }));
 }
 
-function harness({ score = 75, legacy = false, spread = false, reduced = false, sheet = false } = {}) {
+function harness({ score = 75, legacy = false, spread = false, reduced = false, sheet = false, radarVisible = true, noObserver = false } = {}) {
   const cards = cardsFor(score).filter(card => !legacy || card.dimension !== '配角');
   const screen = new Element([spread ? 'is-spread' : 'result-screen']);
-  const scoreElement = new Element(), status = new Element(), row = new Element();
+  const scoreElement = new Element(), status = new Element(), row = new Element(), radarPanel = new Element(['hex-panel']);
   const minis = [...cards].reverse().map(card => new Element([spread ? 'spread-card' : 'cast-mini'], { id: card.id }));
   const corners = cards.map(card => new Element(['hex-corner'], { id: card.id }));
+  const values = cards.map(card => new Element(['hex-value'], { final: String(card.atk) }));
+  corners.forEach((corner,index)=>{corner.querySelector=selector=>selector==='.hex-value'?values[index]:null;});
+  const svg = new Element(), rays = cards.map((_,index)=>new Element(['hex-ray'],{axis:String(index)}));
+  const dots = cards.map((_,index)=>new Element(['hex-dot'],{axis:String(index)}));
+  svg.querySelectorAll=selector=>selector==='[data-axis]'?[...rays,...dots]:selector==='.hex-dot'?dots:selector==='.is-lit'?[...rays,...dots].filter(node=>node.classes.has('is-lit')):[...rays,...dots].filter(node=>selector===`[data-axis="${node.dataset.axis}"]`);
   const heading = new Element(), paragraph = new Element(), hiddenParagraph = new Element();
   heading.textContent = '演后谈'; paragraph.textContent = '先把钥匙放下。再听对方回答！'; hiddenParagraph.textContent = '展开后才出现。'; hiddenParagraph.hidden = true;
   const talk = new Element(); talk.querySelectorAll = selector => selector === '[data-talk-reveal]' ? [heading, paragraph, hiddenParagraph] : [];
-  const timers = new Map(), frames = new Map(), seen = new Set(), observers = [], litAxes = [];
+  const timers = new Map(), frames = new Map(), seen = new Set(), observers = [], litAxes = [], litTimes = [], starTimes = [];
   let now = 0, sequence = 0, cues = [], buttons = [];
   const context = vm.createContext({
     K: escapeHtml, DiaScoring, Wt: () => [{ id: 'compatible-system' }],
@@ -60,9 +66,9 @@ function harness({ score = 75, legacy = false, spread = false, reduced = false, 
     talkLater(fn, delay) { const id = ++sequence; timers.set(id, { fn, at: now + delay }); return id; },
     talkClear() { timers.clear(); },
     hasTalkSeen: key => seen.has(key), markTalkSeen: key => seen.add(key), w: cards => cards.map(card => card.id).join('.'),
-    paintRadar() {}, hexFinish() {}, hexBuildStart() {}, hexLight(index) { litAxes.push(index); }, hexStar() {},
+    paintRadar() { values.forEach(value=>{value.textContent=value.dataset.final;}); },
     getComputedStyle: element => ({ getPropertyValue: name => element.properties[name] || '#b45e29' }),
-    document: { querySelector: () => screen },
+    document: { querySelector: selector => selector==='.result-screen .hex-radar'?svg:screen,querySelectorAll:selector=>selector==='.result-screen .hex-corner'?corners:[] },
     IntersectionObserver: class {
       constructor(fn) { this.callback = fn; observers.push(this); }
       observe(target) { this.target = target; }
@@ -70,11 +76,21 @@ function harness({ score = 75, legacy = false, spread = false, reduced = false, 
       disconnect() { this.disconnected = true; }
     },
   });
-  vm.runInContext(ui + '\n' + motion, context);
+  if(noObserver)context.IntersectionObserver=undefined;
+  vm.runInContext(ui + '\n' + radarMotion + '\n' + motion, context);
+  const light=context.hexLight,star=context.hexStar;
+  context.hexLight=index=>{litAxes.push(index);litTimes.push(now);light(index);};
+  context.hexStar=()=>{starTimes.push(now);star();};
+  const enter=context.enterProductionV40;
+  const intersectRadar=(ratio=1)=>{
+    const observer=observers.find(item=>item.target===radarPanel);
+    observer?.callback([{target:radarPanel,isIntersecting:ratio>0,intersectionRatio:ratio}]);
+  };
+  context.enterProductionV40=()=>{enter();if(radarVisible)intersectRadar();};
   const result = context.productionScore(cards);
   cues = context.productionCuesV40(result, cards);
   buttons = cues.map(cue => new Element([], { productionCue: cue.id }));
-  screen.querySelector = selector => ({ '.show-score b,.spread-score': scoreElement, '.production-cue-status': status, '.cast-row,.pack-spread': row, '.talk': spread ? null : talk }[selector] || null);
+  screen.querySelector = selector => ({ '.show-score b,.spread-score': scoreElement, '.production-cue-status': status, '.cast-row,.pack-spread': row, '.talk': spread ? null : talk, '.hex-panel':spread?null:radarPanel }[selector] || null);
   screen.querySelectorAll = selector => ({
     '[data-production-cue]': buttons, '.cast-mini,.spread-card': minis, '.hex-corner': corners,
     '.is-cue-card': minis.filter(card => card.classes.has('is-cue-card')),
@@ -85,7 +101,7 @@ function harness({ score = 75, legacy = false, spread = false, reduced = false, 
     next.type.delete(next.id); now = next.at; next.fn(now); return true;
   };
   const finish = () => { let count = 0; while (tick()) assert.ok(++count < 1000, '动画必须终止'); };
-  return { context, cards, result, cues, screen, scoreElement, status, row, minis, corners, buttons, talk, heading, paragraph, hiddenParagraph, timers, frames, observers, seen, litAxes, tick, finish };
+  return { context, cards, result, cues, screen, scoreElement, status, row, minis, corners, values, svg, rays, dots, buttons, talk, heading, paragraph, hiddenParagraph, timers, frames, observers, seen, litAxes, litTimes, starTimes, radarPanel, intersectRadar, tick, finish };
 }
 
 test('总览与演后谈按实际卡ID同时点亮，重排不串卡，重播不会重复加分', () => {
@@ -117,6 +133,90 @@ test('自动计分的每一帧都是整数，奖励封顶后仍点亮但不会�
     assert.equal(run.timers.size + run.frames.size, 0);
     assert.equal(run.minis.filter(card => card.classes.has('is-cue-card')).length, 0);
   }
+});
+
+test('六张卡按实际ID逐角显出整数，每角间隔260ms，最后一角落定才合成星图', () => {
+  const run=harness();run.context.enterProductionV40();
+  assert.ok(run.svg.classes.has('is-building'));
+  assert.equal(run.corners.filter(node=>node.classes.has('is-lit')).length,0);
+  while(!run.starTimes.length){
+    assert.ok(run.tick());
+    assert.ok(run.values.every(value=>/^\d+$/.test(value.textContent)));
+    assert.equal(run.corners.filter(node=>node.classes.has('is-lit')).length,run.litAxes.length);
+  }
+  assert.deepEqual(run.litTimes,[120,380,640,900,1160,1420]);
+  assert.equal(run.starTimes[0],1840);
+  assert.equal(run.minis.filter(card=>card.classes.has('is-cue-card')).length,0,'合图前不抢播奖励');
+  assert.ok(run.minis.every(card=>card.animations.some(animation=>animation.options.duration===420&&animation.frames[0].opacity===.55)));
+  assert.equal(run.frames.size,0,'角点使用CSS渐显，无遗留计数RAF');
+  run.finish();
+  assert.ok(!run.svg.classes.has('is-building'));
+  assert.ok(run.svg.classes.has('is-star'));
+});
+
+test('图表进入视野才启动六角和计分，重复交叉通知不会重复播放', () => {
+  const run=harness({radarVisible:false});run.context.enterProductionV40();
+  const observer=run.observers.find(item=>item.target===run.radarPanel);
+  assert.ok(observer);
+  assert.equal(run.timers.size+run.frames.size,0);
+  assert.ok(run.svg.classes.has('is-building'));
+  assert.equal(run.corners.filter(node=>node.classes.has('is-lit')).length,0);
+  run.intersectRadar(0);run.intersectRadar(.2);run.intersectRadar(.59);
+  assert.equal(run.timers.size+run.frames.size,0);
+  run.intersectRadar(.6);
+  const scheduled=run.timers.size;
+  assert.ok(scheduled>0);
+  assert.ok(observer.disconnected);
+  run.intersectRadar(1);
+  assert.equal(run.timers.size,scheduled);
+  run.finish();
+  assert.equal(run.litAxes.length,6);
+  assert.equal(run.scoreElement.textContent,String(run.result.score));
+});
+
+test('图表尚未进入视野时离开或点击完成，旧观察回调不能重新启动动画', () => {
+  for(const action of ['stopProductionV40','finishProductionV40']){
+    const run=harness({radarVisible:false});run.context.enterProductionV40();
+    const observer=run.observers.find(item=>item.target===run.radarPanel);
+    run.context[action]();
+    assert.ok(observer.disconnected);
+    run.intersectRadar(1);
+    assert.equal(run.timers.size+run.frames.size,0);
+    assert.equal(run.litAxes.length,0);
+    if(action==='finishProductionV40'){
+      assert.equal(run.scoreElement.textContent,String(run.result.score));
+      assert.ok(!run.svg.classes.has('is-building'));
+    }
+  }
+});
+
+test('无IntersectionObserver时立即启动序列，减动及详情不等待可见性', () => {
+  const fallback=harness({noObserver:true,radarVisible:false});fallback.context.enterProductionV40();fallback.finish();
+  assert.equal(fallback.litAxes.length,6);
+  for(const option of [{reduced:true},{sheet:true}]){
+    const run=harness({...option,radarVisible:false});run.context.enterProductionV40();
+    assert.equal(run.observers.filter(observer=>observer.target===run.radarPanel).length,0);
+    assert.ok(!run.svg.classes.has('is-building'));
+    assert.equal(run.scoreElement.textContent,String(run.result.score));
+  }
+});
+
+test('加分卡面只作一次短促轻震，回到原位且连续点选不叠加震动', () => {
+  const run=harness({spread:true});run.context.enterProductionV40();run.finish();
+  run.context.replayProductionCueV40(run.cues[0].id);
+  const shakes=run.minis.flatMap(card=>card.animations).filter(animation=>animation.options.duration===340);
+  assert.ok(shakes.length);
+  for(const animation of shakes){
+    assert.equal(animation.frames[0].transform,'translateX(0)');
+    assert.equal(animation.frames.at(-1).transform,'translateX(0)');
+    assert.ok(animation.frames.every(frame=>Object.keys(frame).join()==='transform'&&!frame.transform.includes('scale')));
+    assert.equal(animation.options.delay,undefined,'相关卡同时回应');
+  }
+  run.context.replayProductionCueV40(run.cues.at(-1).id);
+  assert.ok(shakes.every(animation=>animation.cancelled));
+  const css=fs.readFileSync(path.join(__dirname,'production-v40.css'),'utf8');
+  const cueRule=css.match(/\.cast-mini\.is-cue-card,\.spread-card\.is-cue-card\{([^}]*)\}/)[1];
+  assert.doesNotMatch(cueRule,/scale|outline|translate/);
 });
 
 test('点击完成立即终止计分，展开及详情返回不会重新从基础分播放', () => {

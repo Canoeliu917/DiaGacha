@@ -1,23 +1,25 @@
-/* Paper opens from top to bottom. Notes stay in normal flow and remain readable. */
-.pull-screen:not(.is-sealed):not(.is-spread){height:auto;min-height:100svh;overflow:visible}
+/* Keep every reveal line on the card; extra text grows upward, never below it. */
+.pull-screen:not(.is-sealed):not(.is-spread){height:auto;min-height:100svh;overflow:visible;overflow-x:clip}
 .pull-screen:not(.is-sealed):not(.is-spread)>.narrow{flex:none;height:auto}
-.pull-screen:not(.is-sealed):not(.is-spread) .pack-tap{display:block;flex:none;height:auto;container-type:inline-size;--cw:min(300px,calc(100cqw - 60px))}
+.pull-screen:not(.is-sealed):not(.is-spread) .pack-tap{display:block;flex:none;height:auto;container-type:inline-size;--cw:min(300px,calc(100cqw - 24px))}
 .pull-screen:not(.is-sealed):not(.is-spread) .pack-zone{flex:none;height:auto;padding:16px 0;min-height:0}
-.pack-tap > .pack-preamble.reveal-intro-v40 {
-  position: static; inset: auto; transform: none; width: min(92%, 380px);
-  max-height: none; height: auto; overflow: visible; margin: 16px auto 8px;
-  display: grid; gap: 9px; padding: 0; background: none; border-radius: 0;
-  text-align: left; font-size: .92rem; font-weight: 400; letter-spacing: .02em; line-height: 1.75;
+.pack-zone .flip > .pack-preamble.reveal-intro-v40 {
+  position: absolute; inset: auto auto 16px 50%; transform: translateX(-50%);
+  width: calc(100% + 36px); max-width: calc(100vw - 28px); box-sizing: border-box;
+  max-height: none; height: auto; overflow: visible; margin: 0;
+  z-index: 7; pointer-events: none; display: grid; gap: 8px; padding: 12px 14px;
+  background: #fffcf8f0; border-radius: 0; box-shadow: 0 3px 14px #241c1614;
+  text-align: left; font-size: 14px; font-weight: 400; letter-spacing: 0; line-height: 1.6;
 }
-.pack-tap > .pack-preamble.reveal-intro-v40[hidden],
-.reveal-intro-v40 .pre-line[hidden] { display: none; }
+.pack-zone .flip > .pack-preamble.reveal-intro-v40[hidden] { display: none; }
+.reveal-intro-v40 .pre-line[hidden] { display: block; visibility: hidden; }
 .pack-preamble.reveal-intro-v40 .pre-line {
-  display: block; margin: 0; padding: 0 0 0 12px; border-left: 1px solid var(--line);
+  display: block; margin: 0; padding: 0; border: 0;
   max-height: none; overflow: visible; white-space: normal; -webkit-line-clamp: unset;
   -webkit-box-orient: initial; opacity: 1; text-wrap: pretty; overflow-wrap: anywhere;
 }
 .reveal-intro-v40 .pre-line.is-on { animation: reveal-words-v40 .7s ease-out both; }
-.reveal-line-label { display: block; margin-bottom: 2px; color: var(--ink-soft); font: 10px/1.5 var(--sans); letter-spacing: .14em; }
+.reveal-line-label { display: inline; margin-right: 8px; color: var(--ink-soft); font: 10px/1.6 var(--sans); letter-spacing: .06em; }
 .pack-zone.reveal-zone-v40 { overflow: visible; animation: none; }
 .pack-zone.reveal-zone-v40::before, .pack-zone .flip.reveal-v40::after { display: none; }
 .pack-zone .flip.reveal-v40,.pack-zone .flip.reveal-v40.is-flipped { animation: none; }
@@ -28,7 +30,17 @@
 .pack-zone .flip.reveal-v40 .stage-dust,
 .pack-zone .flip.reveal-v40 .art-wrap::before,
 .pack-zone .flip.reveal-v40 .art-wrap::after { opacity: 0; }
-.pack-zone .flip.reveal-v40.is-reveal-climax { animation: reveal-shake-v40 .48s ease-out both; }
+.pack-zone .flip.reveal-v40.is-reveal-climax { animation: reveal-shake-v40 .64s cubic-bezier(.2,.7,.2,1) both; }
+.pull-screen.reveal-black-stage { isolation: isolate; color: #f7f2e9; }
+.pull-screen.reveal-black-stage::before { content: ''; position: fixed; inset: 0; z-index: -1; background: #111116; pointer-events: none; animation: reveal-dark-stage-v40 .7s ease-out both; }
+.pull-screen.reveal-black-stage.reveal-restored-v40::before { animation: none; }
+.reveal-black-stage .pack-line,.reveal-black-stage .pack-progress { color: #c7c1cf; }
+.reveal-black-stage .dim-title,.reveal-black-stage .topbar .text-btn,.reveal-black-stage .topbar .icon-btn { color: #f7f2e9; }
+.reveal-black-stage .pack-zone .flip > .pack-preamble.reveal-intro-v40 { background: #17161ef5; color: #f7f2e9; box-shadow: 0 3px 14px #0003; }
+.reveal-black-stage .reveal-line-label { color: #c7c1cf; }
+.reveal-black-stage .reveal-paper-v40 i { background: linear-gradient(90deg,#111116,#24212c 45%,#16141c); }
+.reveal-black-stage .reveal-paper-v40.is-torn .reveal-sheet-left { transform: translateX(-105%); }
+.reveal-black-stage .reveal-paper-v40.is-torn .reveal-sheet-right { transform: translateX(105%); }
 .reveal-paper-v40 { position: absolute; inset: 0; z-index: 5; pointer-events: none; overflow: hidden; clip-path: inset(var(--reveal-cut, 0%) 0 0 0); transition: clip-path 1s cubic-bezier(.22,.7,.2,1); }
 .reveal-paper-v40 i { position: absolute; inset: -2px; background: #eee4d2; background-image: repeating-linear-gradient(-24deg, #f4ecdd55 0 7px, #d6c5a71a 7px 8px); transition: transform .72s cubic-bezier(.2,.7,.2,1), opacity .64s ease; }
 .reveal-sheet-left { clip-path: polygon(0 0, 45% 0, 52% 14%, 46% 27%, 53% 41%, 47% 55%, 54% 70%, 48% 84%, 54% 100%, 0 100%); }
@@ -41,7 +53,8 @@
 .reveal-cracks-v40 path { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: reveal-crack-v40 .42s var(--crack-delay) ease-out forwards; }
 .reveal-wave-v40 { position: absolute; inset: 34% 22%; border: 1px solid currentColor; border-radius: 50%; animation: reveal-wave-v40 1.15s var(--wave-delay) cubic-bezier(.15,.65,.25,1) both; }
 @keyframes reveal-words-v40 { from { clip-path: inset(0 0 100% 0); opacity: .15; } to { clip-path: inset(0); opacity: 1; } }
-@keyframes reveal-shake-v40 { 0%,100% { transform: none; } 18% { transform: translateX(calc(-1px * var(--reveal-strength))) rotate(-.35deg); } 38% { transform: translateX(calc(1.5px * var(--reveal-strength))) rotate(.35deg); } 62% { transform: translateX(calc(-.6px * var(--reveal-strength))); } 82% { transform: translateX(.5px); } }
+@keyframes reveal-dark-stage-v40 { from { opacity: 0; } to { opacity: 1; } }
+@keyframes reveal-shake-v40 { 0%,100% { transform: none; } 20% { transform: translateX(calc(-.5px * var(--reveal-strength))); } 42% { transform: translateX(calc(.7px * var(--reveal-strength))); } 66% { transform: translateX(calc(-.3px * var(--reveal-strength))); } 84% { transform: translateX(.3px); } }
 @keyframes reveal-crack-v40 { to { stroke-dashoffset: 0; } }
 @keyframes reveal-crack-fade-v40 { 0%,60% { opacity: .8; } 100% { opacity: 0; } }
 @keyframes reveal-wave-v40 { from { transform: scale(.3); opacity: .7; } to { transform: scale(3.25); opacity: 0; } }
@@ -51,4 +64,5 @@
   .pack-zone .flip.reveal-v40.is-reveal-climax { animation: none; }
   .reveal-paper-v40, .reveal-effects-v40 { display: none; }
   .pack-zone .flip.reveal-v40 .flip-inner { transition: none; }
+  .pull-screen.reveal-black-stage::before { animation: none; }
 }
