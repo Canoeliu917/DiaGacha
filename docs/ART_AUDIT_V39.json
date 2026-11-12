@@ -1,0 +1,768 @@
+{
+  "version": 39,
+  "indexSha256": "c951ebbb07f87da7b06ee26971769994a5048fcb09190094d830e71a2033001c",
+  "count": 500,
+  "method": "Render every active card with the integrated Ct(card); remove colors, IDs, labels and opacity, then compare deterministic SVG geometry. Core feature groups flag near cases for human review. This is not a perceptual image-similarity percentage.",
+  "normalizedDuplicateGroups": [],
+  "coreFeatureCollisionGroups": [],
+  "exactFeatureCollisionGroups": [],
+  "figureNearReview": {
+    "count": 185,
+    "fields": [
+      "fig",
+      "pose",
+      "costume",
+      "prop",
+      "head"
+    ],
+    "threshold": "At least 4 of 5 equal: a human review queue, not a perceptual similarity percentage. Pose/costume aliases are normalized by rendering all 21 families with fixed colors/head/no prop; ineffective metadata differences do not count.",
+    "effectiveVariants": {
+      "lipao": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "changqun": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "duanda": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "jiazhou": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "doupeng": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "xizhuang": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "laozuo": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "pizhe": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "poyi": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "dayi": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "lifu": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "zhifu": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "changshan": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "qipao": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "magua": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "gongzhuang": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "baiyi": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "jinpao": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "tongqun": {
+        "pose": {
+          "stand": "stand",
+          "step": "step",
+          "reach": "reach",
+          "raise": "raise",
+          "guard": "guard",
+          "hold": "hold",
+          "fold": "fold",
+          "bow": "bow"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "royal",
+          "formal": "formal",
+          "work": "work",
+          "worn": "worn",
+          "mourning": "mourning",
+          "layered": "layered",
+          "puritan": "puritan"
+        }
+      },
+      "zuozi": {
+        "pose": {
+          "stand": "stand",
+          "step": "stand",
+          "reach": "stand",
+          "raise": "stand",
+          "guard": "guard",
+          "hold": "stand",
+          "fold": "fold",
+          "bow": "stand"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "plain",
+          "formal": "plain",
+          "work": "plain",
+          "worn": "plain",
+          "mourning": "plain",
+          "layered": "plain",
+          "puritan": "plain"
+        }
+      },
+      "goulou": {
+        "pose": {
+          "stand": "stand",
+          "step": "stand",
+          "reach": "stand",
+          "raise": "stand",
+          "guard": "stand",
+          "hold": "stand",
+          "fold": "stand",
+          "bow": "stand"
+        },
+        "costume": {
+          "plain": "plain",
+          "royal": "plain",
+          "formal": "plain",
+          "work": "plain",
+          "worn": "plain",
+          "mourning": "plain",
+          "layered": "plain",
+          "puritan": "plain"
+        }
+      }
+    },
+    "pairs": []
+  },
+  "note": "A feature collision is a review queue, not proof that two differently posed or differently detailed pictures look identical.",
+  "svgValidation": {
+    "count": 500,
+    "xmlValid": 500,
+    "finiteCoordinates": 500,
+    "viewBox": "0 0 320 188",
+    "boundsMethod": "Exact transformed line/Bezier/ellipse bounds; conservative stroke expansion; text labels excluded. Visually accepted background edges are matched against their exact primitive bounds; new overflows remain a review queue.",
+    "overflowCards": [
+      {
+        "id": "role-v21-winnie",
+        "name": "温妮",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              99.02,
+              128.32,
+              220.98,
+              195.18
+            ],
+            "review": "intentional-background-extension",
+            "reason": "The mound continues through the lower frame; the visible head and upper body are complete."
+          }
+        ]
+      },
+      {
+        "id": "play-cherry",
+        "name": "樱桃园",
+        "findings": [
+          {
+            "tag": "circle",
+            "bounds": [
+              216.14,
+              -7.26,
+              281.46,
+              58.06
+            ],
+            "review": "intentional-background-extension",
+            "reason": "The orchard canopy intentionally continues above the frame."
+          }
+        ]
+      },
+      {
+        "id": "play-lear",
+        "name": "李尔王",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              54.11,
+              -8.49,
+              261.09,
+              136.09
+            ],
+            "review": "intentional-background-extension",
+            "reason": "A background wind line continues above the frame; all figures remain inside."
+          }
+        ]
+      },
+      {
+        "id": "play-v21-happydays",
+        "name": "快乐的日子",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              42.4,
+              70.26,
+              277.6,
+              199.2
+            ],
+            "review": "intentional-background-extension",
+            "reason": "The enclosing mound continues through the lower frame."
+          }
+        ]
+      },
+      {
+        "id": "yplay-jiang",
+        "name": "蒋公的面子",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              101.43,
+              139.73,
+              218.57,
+              199.87
+            ],
+            "review": "intentional-background-extension",
+            "reason": "Table legs continue below the frame; the tabletop and dramatic objects are complete."
+          }
+        ]
+      },
+      {
+        "id": "xplay-seagull",
+        "name": "海鸥",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              45.28,
+              89.88,
+              274.72,
+              210.12
+            ],
+            "review": "intentional-background-extension",
+            "reason": "Lake waves continue below the frame."
+          }
+        ]
+      },
+      {
+        "id": "play-yuanye",
+        "name": "原野",
+        "findings": [
+          {
+            "tag": "circle",
+            "bounds": [
+              216.14,
+              -7.26,
+              281.46,
+              58.06
+            ],
+            "review": "intentional-background-extension",
+            "reason": "The forest canopy intentionally continues above the frame."
+          }
+        ]
+      },
+      {
+        "id": "yplay-tempest",
+        "name": "暴风雨",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              54.11,
+              110.51,
+              265.89,
+              221.49
+            ],
+            "review": "intentional-background-extension",
+            "reason": "Sea waves continue below the frame."
+          }
+        ]
+      },
+      {
+        "id": "v23-play-viewbridge",
+        "name": "桥头眺望",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              71.76,
+              120.76,
+              248.24,
+              213.24
+            ],
+            "review": "intentional-background-extension",
+            "reason": "Water below the dock continues below the frame."
+          }
+        ]
+      },
+      {
+        "id": "ystyle-object",
+        "name": "物体剧场",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              82.93,
+              149.43,
+              237.07,
+              228.57
+            ],
+            "review": "intentional-background-extension",
+            "reason": "Table legs continue below the frame; the tabletop and objects are complete."
+          }
+        ]
+      },
+      {
+        "id": "ydir-handkerchief",
+        "name": "小道具",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              82.93,
+              149.43,
+              237.07,
+              228.57
+            ],
+            "review": "intentional-background-extension",
+            "reason": "Table legs continue below the frame; the tabletop and objects are complete."
+          }
+        ]
+      },
+      {
+        "id": "place-cherry",
+        "name": "樱桃园",
+        "findings": [
+          {
+            "tag": "circle",
+            "bounds": [
+              216.14,
+              -7.26,
+              281.46,
+              58.06
+            ],
+            "review": "intentional-background-extension",
+            "reason": "The orchard canopy intentionally continues above the frame."
+          }
+        ]
+      },
+      {
+        "id": "place-heath",
+        "name": "李尔的荒原",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              54.11,
+              -8.49,
+              261.09,
+              136.09
+            ],
+            "review": "intentional-background-extension",
+            "reason": "A background wind line continues above the frame."
+          }
+        ]
+      },
+      {
+        "id": "place-island",
+        "name": "普洛斯彼罗的岛",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              54.11,
+              110.51,
+              265.89,
+              221.49
+            ],
+            "review": "intentional-background-extension",
+            "reason": "Sea waves continue below the frame."
+          }
+        ]
+      },
+      {
+        "id": "xplace-dock",
+        "name": "码头",
+        "findings": [
+          {
+            "tag": "path",
+            "bounds": [
+              71.76,
+              120.76,
+              248.24,
+              213.24
+            ],
+            "review": "intentional-background-extension",
+            "reason": "Water below the dock continues below the frame."
+          }
+        ]
+      },
+      {
+        "id": "place-forest",
+        "name": "黑林子",
+        "findings": [
+          {
+            "tag": "circle",
+            "bounds": [
+              216.14,
+              -7.26,
+              281.46,
+              58.06
+            ],
+            "review": "intentional-background-extension",
+            "reason": "The forest canopy intentionally continues above the frame."
+          }
+        ]
+      }
+    ],
+    "unreviewedOverflowCards": []
+  }
+}

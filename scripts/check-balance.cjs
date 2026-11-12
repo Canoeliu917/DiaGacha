@@ -7,6 +7,7 @@ const vm = require('node:vm');
 const root = path.resolve(__dirname, '..');
 const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 const documentedCards = JSON.parse(fs.readFileSync(path.join(root, 'docs/cards.json'), 'utf8'));
+const activeManifest = JSON.parse(fs.readFileSync(path.join(root, 'docs/ACTIVE_CARDS_V39.json'), 'utf8'));
 const seed = 20261112;
 const sampleSize = 100000;
 const plain = value => JSON.parse(JSON.stringify(value));
@@ -53,7 +54,7 @@ function loadRuntime(ownedIds) {
   const startup = 'Zn.addEventListener(`click`,Tr),Er()';
   assert.equal(html.split(startup).length - 1, 1, '找不到唯一的应用启动点；请核对内嵌运行时');
   const instrumented = html.replace(startup,
-    'globalThis.__DG_TEST__={e,T,Xt,drawMixPack,vr,ne,re,w,Y,C,Cboosted,ee,te,ce,pickScoredCard,emptyLoop,v,x,y,Kt,readOwned:$n,remember:er,scoring:DiaScoring}');
+    'globalThis.__DG_TEST__={e,activeCards,T,Xt,drawMixPack,vr,ne,re,w,Y,C,Cboosted,ee,te,ce,pickScoredCard,emptyLoop,v,x,y,Kt,readOwned:$n,remember:er,scoring:DiaScoring}');
   const scripts = [...instrumented.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)];
   assert.ok(scripts.length, 'HTML 中没有内联脚本');
   for (const [index, script] of scripts.entries()) {
@@ -63,14 +64,16 @@ function loadRuntime(ownedIds) {
   return { runtime: context.__DG_TEST__, storage, simulationMath };
 }
 
-const originalOwned = documentedCards.slice(0, 3).map(card => card.id);
+const originalOwned = [...new Set([...documentedCards.slice(0, 2).map(card => card.id), activeManifest.reserveIds[0]])];
 const { runtime: game, storage, simulationMath } = loadRuntime(originalOwned);
 const cards = Array.from(game.e);
+const pool = Array.from(game.activeCards);
+const activeIds = new Set(pool.map(card => card.id));
 const rarities = Array.from(game.v);
 const dimensions = Array.from(game.x, dimension => dimension.key);
 const byId = new Map(cards.map(card => [card.id, card]));
 const blankRarities = () => Object.fromEntries(rarities.map(rarity => [rarity, 0]));
-const bucket = (dimension, rarity) => cards.filter(card => card.dimension === dimension && (!rarity || card.rarity === rarity));
+const bucket = (dimension, rarity) => pool.filter(card => card.dimension === dimension && (!rarity || card.rarity === rarity));
 const firstCast = () => dimensions.map(dimension => bucket(dimension)[0]);
 const checks = [];
 function check(name, verify) {
@@ -89,10 +92,12 @@ function production(drawn) {
   const result = game.Xt(drawn);
   assert.ok(result.scoring, 'Xt 必须暴露真实 scoring 明细');
   assert.equal(result.score, result.scoring.score, '结果页总分与明细不一致');
-  assert.equal(result.scoring.base, result.scoring.weightedMean, '基础分必须全额计入，不能预先扣掉奖励额度');
-  assert.equal(result.score, Math.round(Math.min(100, Math.max(0,
-    result.scoring.weightedMean + result.scoring.resonance + result.scoring.bonds)) * 10) / 10);
-  assert.ok(Number.isFinite(result.score) && result.score >= 0 && result.score <= 100);
+  assert.equal(result.scoring.base, Math.round(result.scoring.weightedMean), '基础分全额计入后四舍五入到整数');
+  assert.equal(result.score, Math.min(100, Math.max(0,
+    result.scoring.base + result.scoring.resonance + result.scoring.bonds)));
+  for (const field of ['score', 'base', 'resonance', 'bonds']) assert.ok(Number.isInteger(result.scoring[field]), `${field} 必须是整数`);
+  assert.ok(result.score >= 0 && result.score <= 100);
+  assert.ok(result.scoring.crew?.title, '必须给出独立的剧组称号');
   return result.scoring;
 }
 
@@ -112,6 +117,20 @@ check('777 张卡的 ID、编号唯一且 docs/cards.json 与运行时评分一�
   }
 });
 
+check('常驻500与预留277分开，完整777个ID仍可读取旧收藏和分享', () => {
+  assert.equal(pool.length, 500);
+  assert.equal(activeIds.size, 500);
+  assert.deepEqual([...activeIds].sort(), [...activeManifest.activeIds].sort());
+  assert.equal(activeManifest.reserveIds.length, 277);
+  assert.ok(activeManifest.reserveIds.every(id => byId.has(id) && !activeIds.has(id)));
+  assert.equal(new Set([...activeManifest.activeIds, ...activeManifest.reserveIds]).size, cards.length);
+  const reserved = byId.get(activeManifest.reserveIds[0]);
+  const lineup = firstCast().map(card => card.dimension === reserved.dimension ? reserved : card);
+  const decoded = game.re(game.e, game.ne(`#m=${game.w(lineup)}`, '').ids);
+  assert.deepEqual(Array.from(decoded, card => card.id), lineup.map(card => card.id));
+  production(decoded);
+});
+
 check('单卡不因稀有度或 fame 重复加分，且两轴提升单调不降', () => {
   for (const card of cards) {
     const baseline = game.T(card);
@@ -127,7 +146,7 @@ check('单卡不因稀有度或 fame 重复加分，且两轴提升单调不降'
 
 const rarityCounts = blankRarities();
 const dimensionCounts = Object.fromEntries(dimensions.map(dimension => [dimension, blankRarities()]));
-for (const card of cards) {
+for (const card of pool) {
   assert.ok(rarities.includes(card.rarity));
   rarityCounts[card.rarity]++;
   dimensionCounts[card.dimension][card.rarity]++;
@@ -196,12 +215,12 @@ check('真实俄狄浦斯主角同作，以及已确认的哈姆雷特配角和�
 
 const sameColorFixtures = [];
 check('实际卡池可组成的全同档六卡得到正确共鸣，重复卡不能刷分', () => {
-  const rates = { C: .3, UC: .45, R: .6, SR: .8, SSR: 1, UR: 1.2, LR: 1.4 };
+  const sixCardBonuses = { C: 5, UC: 5, R: 6, SR: 6, SSR: 7, UR: 7, LR: 7 };
   for (const rarity of rarities) {
     const drawn = dimensions.map(dimension => bucket(dimension, rarity)[0]);
     if (drawn.some(card => !card)) continue;
     const scored = production(drawn);
-    assert.equal(scored.resonance, round(5 * rates[rarity], 2));
+    assert.equal(scored.resonance, sixCardBonuses[rarity]);
     assert.equal(scored.resonanceDetails.length, 1);
     sameColorFixtures.push({ rarity, cardIds: drawn.map(card => card.id), resonance: scored.resonance, score: scored.score });
   }
@@ -226,7 +245,7 @@ const pityFixtures = {};
 check('真实综合包在连续未出货30/60包阈值触发保底，自然高档重置计数', () => {
   resetLoop();
   for (let pack = 1; pack <= 30; pack++) {
-    const drawn = game.drawMixPack(game.e, () => 0);
+    const drawn = game.drawMixPack(game.activeCards, () => 0);
     if (pack < 30) assert.ok(!rankedAtLeast(drawn, 'SSR'));
     if (pack === 30) {
       assert.ok(rankedAtLeast(drawn, 'SSR'));
@@ -236,16 +255,16 @@ check('真实综合包在连续未出货30/60包阈值触发保底，自然高�
   // SSR+ 保底也可能给出 UR/LR 并重置 UR 计数，因此独立构造合法的 58 包未出 UR 存档。
   resetLoop();
   game.Y.loop.pityUR = 58;
-  assert.ok(!rankedAtLeast(game.drawMixPack(game.e, () => 0), 'UR'));
+  assert.ok(!rankedAtLeast(game.drawMixPack(game.activeCards, () => 0), 'UR'));
   assert.equal(game.Y.loop.pityUR, 59);
-  const drawn60 = game.drawMixPack(game.e, () => 0);
+  const drawn60 = game.drawMixPack(game.activeCards, () => 0);
   assert.ok(rankedAtLeast(drawn60, 'UR'));
   assert.equal(game.Y.loop.pityUR, 0);
   assert.equal(game.Y.loop.pitySSR, 0);
   pityFixtures.pack60 = Array.from(drawn60, card => ({ id: card.id, rarity: card.rarity }));
   game.Y.loop.pitySSR = 17;
   game.Y.loop.pityUR = 35;
-  assert.ok(rankedAtLeast(game.drawMixPack(game.e, () => .999999), 'UR'));
+  assert.ok(rankedAtLeast(game.drawMixPack(game.activeCards, () => .999999), 'UR'));
   assert.equal(game.Y.loop.pitySSR, 0);
   assert.equal(game.Y.loop.pityUR, 0);
 });
@@ -343,9 +362,10 @@ let atLeastSSR = 0, atLeastUR = 0, atLeastLR = 0;
 process.stdout.write(`Simulating ${sampleSize.toLocaleString('en-US')} actual drawMixPack + Xt calls…\n`);
 const started = performance.now();
 for (let pack = 0; pack < sampleSize; pack++) {
-  const drawn = game.drawMixPack(game.e, rng);
+  const drawn = game.drawMixPack(game.activeCards, rng);
+  assert.ok(drawn.every(card => activeIds.has(card.id)), '预留卡不得进入常驻抽取');
   const scored = game.Xt(drawn).scoring;
-  assert.ok(scored && Number.isFinite(scored.score), `第 ${pack + 1} 包没有有效评分`);
+  assert.ok(scored && ['score', 'base', 'resonance', 'bonds'].every(field => Number.isInteger(scored[field])), `第 ${pack + 1} 包评分必须是整数`);
   scores.push(scored.score);
   total += scored.score;
   above80 += scored.score >= 80;
@@ -366,20 +386,21 @@ const elapsedSeconds = round((performance.now() - started) / 1000, 2);
 scores.sort((a, b) => a - b);
 const percentile = p => scores[Math.ceil(scores.length * p) - 1];
 const scoreHistogram = {};
-for (const score of scores) scoreHistogram[score.toFixed(1)] = (scoreHistogram[score.toFixed(1)] || 0) + 1;
+for (const score of scores) scoreHistogram[String(score)] = (scoreHistogram[String(score)] || 0) + 1;
 const toPercentages = counts => Object.fromEntries(Object.entries(counts).map(([key, count]) => [key, percent(count)]));
 const report = {
-  version: 'v38', seed, sampleSize, simulatedDate: '2026-11-12',
-  formula: 'round1(clamp(0,100,weightedMean + resonance + bonds))；基础分全额计入，同色最多7、羁绊最多8；保留原出率',
+  version: 'v39', seed, sampleSize, simulatedDate: '2026-11-12',
+  formula: 'clamp(0,100,round(weightedMean) + resonance + bonds)；基础分四舍五入，同星使用整数表且最多7、羁绊最多8；保留原出率',
   htmlSha256: crypto.createHash('sha256').update(html).digest('hex'),
   scope: {
     source: '实际 index.html 内嵌闭包；仅替换末尾 UI 启动为测试导出',
-    generator: 'drawMixPack(e, seededRandom)', scorer: 'Xt(cards).scoring',
+    generator: 'drawMixPack(activeCards, seededRandom)', scorer: 'Xt(cards).scoring',
     includesHardPity: true, includesDailyGift: false, includesCollectionRewardChoice: false,
     simulationOnly: true, elapsedSeconds,
   },
   checks: { passed: checks.length, names: checks },
-  cardCount: cards.length, rarityCounts, dimensionCounts,
+  cardCount: cards.length, activeCardCount: pool.length, reserveCardCount: cards.length - pool.length,
+  activeRarityCounts: rarityCounts, activeDimensionCounts: dimensionCounts,
   requestedBaseRatesPercent: plain(game.y), missingTiers, effectiveBaseRatesPercent: effectiveBaseRates,
   score: {
     mean: round(total / sampleSize), p10: percentile(.1), p50: percentile(.5), p90: percentile(.9),

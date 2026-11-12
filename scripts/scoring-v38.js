@@ -1,6 +1,19 @@
 const DiaScoring = (() => {
   const WEIGHTS = { 剧目: 22, 风格体系: 14, 导演手法: 16, 主演: 20, 配角: 16, 环境: 12 };
-  const RESONANCE = { C: 0.3, UC: 0.45, R: 0.6, SR: 0.8, SSR: 1, UR: 1.2, LR: 1.4 };
+  // Each row is the bonus for two through six distinct cards of the same rarity.
+  const RESONANCE = {
+    C: [1, 2, 3, 4, 5], UC: [1, 2, 3, 4, 5], R: [2, 3, 4, 5, 6], SR: [2, 3, 4, 5, 6],
+    SSR: [3, 4, 5, 6, 7], UR: [3, 4, 5, 6, 7], LR: [4, 5, 6, 7, 7],
+  };
+  const CREWS = {
+    C: ['草台班子', '一张桌、一盏灯，也能热热闹闹开场。'],
+    UC: ['街坊剧社', '街坊来搭把手，好戏就在家门口。'],
+    R: ['小剧场班底', '舞台虽小，每个人都有一束光。'],
+    SR: ['巡演剧团', '带上默契，把好戏演到下一站。'],
+    SSR: ['名角同台', '各有拿手好戏，也愿为彼此搭台。'],
+    UR: ['殿堂剧团', '把千锤百炼的功夫，放进今晚这一场。'],
+    LR: ['传奇剧组', '难得相逢，一起留下值得回味的一夜。'],
+  };
   const BOND_RULES = [
     ['play-lead', '剧目与主角同作', '剧目', '主演', 3],
     ['play-support', '剧目与配角同作', '剧目', '配角', 2],
@@ -62,16 +75,20 @@ const DiaScoring = (() => {
       const score = cardScore(card);
       return { cardId: card.id, dimension, score, weight, contribution: score * weight };
     });
-    const weightedMean = contributions.reduce((sum, item) => sum + item.contribution, 0);
-    const base = weightedMean;
+    const weightedMean = contributions.reduce((sum, item) => sum + item.score * WEIGHTS[item.dimension], 0) / weightTotal;
+    const base = Math.round(weightedMean);
 
-    const resonanceDetails = Object.entries(RESONANCE).flatMap(([rarity, rate]) => {
+    const resonanceDetails = Object.entries(RESONANCE).flatMap(([rarity, bonuses]) => {
       const cardIds = cards.filter(card => card.rarity === rarity).map(card => card.id);
       if (cardIds.length < 2) return [];
-      const points = Math.round((cardIds.length - 1) * rate * 100) / 100;
-      return [{ rarity, count: cardIds.length, rate, points, cardIds }];
+      const points = bonuses[cardIds.length - 2];
+      return [{ rarity, count: cardIds.length, points, cardIds }];
     });
-    const resonance = Math.min(7, Math.round(resonanceDetails.reduce((sum, item) => sum + item.points, 0) * 100) / 100);
+    const resonance = Math.min(7, resonanceDetails.reduce((sum, item) => sum + item.points, 0));
+    const largestGroup = resonanceDetails.reduce((best, group) => !best || group.count >= best.count ? group : best, null);
+    const crew = largestGroup
+      ? { title: CREWS[largestGroup.rarity][0], description: CREWS[largestGroup.rarity][1], rarity: largestGroup.rarity, count: largestGroup.count }
+      : { title: '跨界剧组', description: '各有一招，一起开场。', rarity: null, count: 0 };
 
     const bondDetails = [];
     for (const [id, label, first, second, points] of BOND_RULES) {
@@ -88,8 +105,8 @@ const DiaScoring = (() => {
       });
     }
     const bonds = Math.min(8, bondDetails.reduce((sum, item) => sum + item.points, 0));
-    const score = Math.round(Math.max(0, Math.min(100, base + resonance + bonds)) * 10) / 10;
-    return { score, base, weightedMean, resonance, bonds, grade: grade(score), contributions, resonanceDetails, bondDetails };
+    const score = Math.max(0, Math.min(100, base + resonance + bonds));
+    return { score, base, weightedMean, resonance, bonds, grade: grade(score), crew, contributions, resonanceDetails, bondDetails };
   }
 
   return { cardScore, production };

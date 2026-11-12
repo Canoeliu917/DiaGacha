@@ -11800,9 +11800,7 @@
 "defRubric": null,
 "curation": 85.6
 },
-"workIds": [
-"play-v21-henryiv"
-],
+"workIds": [],
 "no": 203
 },
 {
@@ -13823,7 +13821,10 @@
 "defRubric": null,
 "curation": 90.4
 },
-"workIds": [],
+"workIds": [
+"play-oedipus",
+"play-antigone"
+],
 "no": 39
 },
 {
@@ -14482,7 +14483,9 @@
 "defRubric": null,
 "curation": 83.8
 },
-"workIds": [],
+"workIds": [
+"yplay-trojan"
+],
 "no": 88
 },
 {
@@ -14508,7 +14511,9 @@
 "defRubric": null,
 "curation": 88.0
 },
-"workIds": [],
+"workIds": [
+"yplay-trojan"
+],
 "no": 43
 },
 {
@@ -14590,7 +14595,10 @@
 "defRubric": null,
 "curation": 88.6
 },
-"workIds": [],
+"workIds": [
+"yplay-crossroads",
+"yplay-drunken"
+],
 "no": 20
 },
 {
@@ -14616,7 +14624,9 @@
 "defRubric": null,
 "curation": 70.4
 },
-"workIds": [],
+"workIds": [
+"yplay-crossroads"
+],
 "no": 574
 },
 {
@@ -15379,7 +15389,9 @@
 "defRubric": null,
 "curation": 83.8
 },
-"workIds": [],
+"workIds": [
+"yplay-lower"
+],
 "no": 89
 },
 {
@@ -15405,7 +15417,9 @@
 "defRubric": null,
 "curation": 77.6
 },
-"workIds": [],
+"workIds": [
+"yplay-lower"
+],
 "no": 219
 },
 {
@@ -20653,7 +20667,9 @@
 "defRubric": null,
 "curation": 58.0
 },
-"workIds": [],
+"workIds": [
+"v23-play-busstop"
+],
 "no": 773
 },
 {
@@ -20707,7 +20723,9 @@
 "defRubric": null,
 "curation": 67.6
 },
-"workIds": [],
+"workIds": [
+"v23-play-allmysons"
+],
 "no": 534
 },
 {
@@ -20845,7 +20863,9 @@
 "defRubric": null,
 "curation": 64.6
 },
-"workIds": [],
+"workIds": [
+"v23-play-allmysons"
+],
 "no": 657
 },
 {
@@ -20983,7 +21003,9 @@
 "defRubric": null,
 "curation": 67.0
 },
-"workIds": [],
+"workIds": [
+"v23-play-iceman"
+],
 "no": 556
 },
 {

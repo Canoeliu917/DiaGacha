@@ -1,10 +1,14 @@
 # 修改记录总目
 
-现行完整版本为 **v38**。下面按版本列出已收集到的原始修改记录，文件均在 [`changelog/`](changelog/) 中，内容保持原样，便于后期整理。
+现行完整版本为 **v39**。下面按版本列出已收集到的修改记录，文件均在 [`changelog/`](changelog/) 中，旧版原文保持不变。
 
 书面修改记录主要从 v21 起保存。更早的工作目录（约 v2–v20）当时没有单独写成 changelog 文件，因此这里没有对应原文。
 
-## v38（现行）
+## v39（现行）
+
+- [CHANGELOG-v39.md](changelog/CHANGELOG-v39.md)
+
+## v38
 
 - [CHANGELOG-v38.md](changelog/CHANGELOG-v38.md)
 

@@ -1,0 +1,3824 @@
+{
+  "version": 39,
+  "count": 260,
+  "scope": "按当前姓名与剧情识别原作；没有剧目卡仍保留来源标题。通用角色不指定原作，跨剧神话人物列相关剧目而不宣称唯一出处。",
+  "corrections": [
+    {
+      "cardId": "yrole-falstaff",
+      "removeWorkIds": [
+        "play-v21-henryiv"
+      ],
+      "reason": "福斯塔夫属于莎士比亚的《亨利四世》，现有同名剧目卡是皮兰德娄作品。"
+    }
+  ],
+  "cards": [
+    {
+      "id": "role-oedipus",
+      "name": "俄狄浦斯",
+      "dimension": "主演",
+      "sourcePlayLabel": "《俄狄浦斯王》",
+      "sourcePlayIds": [
+        "play-oedipus"
+      ],
+      "sourceTitles": [
+        "俄狄浦斯王"
+      ],
+      "sourceKind": "work",
+      "basis": "索福克勒斯《俄狄浦斯王》中的忒拜国王。他追查导致城邦灾祸的旧案，最后发现自己正是所追查的人。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-nora",
+      "name": "娜拉",
+      "dimension": "主演",
+      "sourcePlayLabel": "《玩偶之家》",
+      "sourcePlayIds": [
+        "play-doll"
+      ],
+      "sourceTitles": [
+        "玩偶之家"
+      ],
+      "sourceKind": "work",
+      "basis": "易卜生《玩偶之家》中的人物。她曾秘密借债挽救丈夫的健康，危机使她认清婚姻中的不平等，决定离家。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-hamlet",
+      "name": "哈姆雷特",
+      "dimension": "主演",
+      "sourcePlayLabel": "《哈姆雷特》",
+      "sourcePlayIds": [
+        "play-hamlet"
+      ],
+      "sourceTitles": [
+        "哈姆雷特"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚同名悲剧中的丹麦王子。他追查父王死亡的真相，借装疯和戏中戏试探叔父，复仇不断牵连他人。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "role-fanyi",
+      "name": "繁漪",
+      "dimension": "主演",
+      "sourcePlayLabel": "《雷雨》",
+      "sourcePlayIds": [
+        "play-thunder"
+      ],
+      "sourceTitles": [
+        "雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "曹禺《雷雨》中周朴园的妻子。她与继子周萍有过情感关系，不甘接受周萍的离去，在家庭冲突中揭开秘密。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-macbeth",
+      "name": "麦克白",
+      "dimension": "主演",
+      "sourcePlayLabel": "《麦克白》",
+      "sourcePlayIds": [
+        "play-macbeth"
+      ],
+      "sourceTitles": [
+        "麦克白"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚同名悲剧中的苏格兰将领。他受预言诱惑并在妻子推动下弑君夺位，随后不断杀人以维持权力。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "role-doue",
+      "name": "窦娥",
+      "dimension": "主演",
+      "sourcePlayLabel": "《窦娥冤》",
+      "sourcePlayIds": [
+        "play-doue"
+      ],
+      "sourceTitles": [
+        "窦娥冤"
+      ],
+      "sourceKind": "work",
+      "basis": "关汉卿《窦娥冤》中的女子。她遭诬陷，为保护婆婆而认罪，临刑以三桩誓愿申诉冤屈。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-liniang",
+      "name": "普罗克托",
+      "dimension": "主演",
+      "sourcePlayLabel": "《萨勒姆的女巫》",
+      "sourcePlayIds": [
+        "play-peony"
+      ],
+      "sourceTitles": [
+        "萨勒姆的女巫"
+      ],
+      "sourceKind": "work",
+      "basis": "阿瑟·米勒《萨勒姆的女巫》中的农夫。他试图揭露猎巫指控的虚假，最后拒绝以签署假供词换取性命。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-ladym",
+      "name": "麦克白夫人",
+      "dimension": "主演",
+      "sourcePlayLabel": "《麦克白》",
+      "sourcePlayIds": [
+        "play-macbeth"
+      ],
+      "sourceTitles": [
+        "麦克白"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚《麦克白》中的人物。她推动丈夫弑君，后来在梦游中反复洗手，无法摆脱罪疚。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-wang",
+      "name": "王利发",
+      "dimension": "主演",
+      "sourcePlayLabel": "《茶馆》",
+      "sourcePlayIds": [
+        "play-teahouse"
+      ],
+      "sourceTitles": [
+        "茶馆"
+      ],
+      "sourceKind": "work",
+      "basis": "老舍《茶馆》中的裕泰茶馆掌柜。他不断调整生意与待人办法，仍无法在动荡时代保住茶馆和自己的生活。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-shen",
+      "name": "沈黛",
+      "dimension": "主演",
+      "sourcePlayLabel": "《四川好人》",
+      "sourcePlayIds": [
+        "play-goodperson"
+      ],
+      "sourceTitles": [
+        "四川好人"
+      ],
+      "sourceKind": "work",
+      "basis": "布莱希特《四川好人》中的人物。她得到神的资助后开店，难以拒绝他人索取，只好假扮表哥隋达保护生计。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-zhou",
+      "name": "周朴园",
+      "dimension": "主演",
+      "sourcePlayLabel": "《雷雨》",
+      "sourcePlayIds": [
+        "play-thunder"
+      ],
+      "sourceTitles": [
+        "雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "曹禺《雷雨》中的周家家长。他维护家庭秩序，保留对侍萍的旧日纪念，却在她真正出现时警惕地盘问。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-ming",
+      "name": "明明",
+      "dimension": "主演",
+      "sourcePlayLabel": "《恋爱的犀牛》",
+      "sourcePlayIds": [
+        "play-rhino"
+      ],
+      "sourceTitles": [
+        "恋爱的犀牛"
+      ],
+      "sourceKind": "work",
+      "basis": "廖一梅《恋爱的犀牛》中的人物。马路执着地爱着她，她却爱着别人，不愿接受马路为自己安排的爱情。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-willy",
+      "name": "威利·洛曼",
+      "dimension": "主演",
+      "sourcePlayLabel": "《推销员之死》",
+      "sourcePlayIds": [
+        "play-salesman"
+      ],
+      "sourceTitles": [
+        "推销员之死"
+      ],
+      "sourceKind": "work",
+      "basis": "阿瑟·米勒《推销员之死》中的年老推销员。他相信受人欢迎便能成功，现实困顿与回忆交错使他越来越难以承受生活。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-anti",
+      "name": "安提戈涅",
+      "dimension": "主演",
+      "sourcePlayLabel": "《安提戈涅》",
+      "sourcePlayIds": [
+        "play-antigone"
+      ],
+      "sourceTitles": [
+        "安提戈涅"
+      ],
+      "sourceKind": "work",
+      "basis": "索福克勒斯同名悲剧中的人物。她违抗克瑞翁的禁令，坚持为兄长波吕涅刻斯举行葬礼。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "role-bailu",
+      "name": "陈白露",
+      "dimension": "主演",
+      "sourcePlayLabel": "《日出》",
+      "sourcePlayIds": [
+        "play-sunrise"
+      ],
+      "sourceTitles": [
+        "日出"
+      ],
+      "sourceKind": "work",
+      "basis": "曹禺《日出》中的交际花。她看见都市生活的虚伪与剥削，却依赖这种生活，也无法挽救受难的小东西。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-gogo",
+      "name": "爱斯特拉冈",
+      "dimension": "主演",
+      "sourcePlayLabel": "《等待戈多》",
+      "sourcePlayIds": [
+        "play-godot"
+      ],
+      "sourceTitles": [
+        "等待戈多"
+      ],
+      "sourceKind": "work",
+      "basis": "贝克特《等待戈多》中的等待者。他关注饥饿、靴子和身体的疲惫，与弗拉季米尔相互依赖，反复提出离开。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-shiping",
+      "name": "鲁侍萍",
+      "dimension": "主演",
+      "sourcePlayLabel": "《雷雨》",
+      "sourcePlayIds": [
+        "play-thunder"
+      ],
+      "sourceTitles": [
+        "雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "曹禺《雷雨》中的人物。她曾被周家逐出，三十年后因女儿四凤重返周公馆，与周朴园相认，并试图阻止下一代的悲剧。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-xiangjun",
+      "name": "李香君",
+      "dimension": "主演",
+      "sourcePlayLabel": "《桃花扇》",
+      "sourcePlayIds": [
+        "play-peach"
+      ],
+      "sourceTitles": [
+        "桃花扇"
+      ],
+      "sourceKind": "work",
+      "basis": "孔尚任《桃花扇》中的秦淮女子。她与侯方域相爱，坚持自己的选择，拒绝权势安排的婚姻，染血的扇子成为见证。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-chengying",
+      "name": "程婴",
+      "dimension": "主演",
+      "sourcePlayLabel": "《赵氏孤儿》",
+      "sourcePlayIds": [
+        "play-orphan"
+      ],
+      "sourceTitles": [
+        "赵氏孤儿"
+      ],
+      "sourceKind": "work",
+      "basis": "纪君祥《赵氏孤儿》中的医生。他以牺牲亲子为代价保护赵氏遗孤，忍辱抚养孩子，等待揭露灭门真相。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-yuji",
+      "name": "卡特琳",
+      "dimension": "主演",
+      "sourcePlayLabel": "《大胆妈妈和她的孩子们》",
+      "sourcePlayIds": [
+        "yplay-farewell"
+      ],
+      "sourceTitles": [
+        "大胆妈妈和她的孩子们"
+      ],
+      "sourceKind": "work",
+      "basis": "布莱希特《大胆妈妈和她的孩子们》中的哑女。她关切受战争伤害的人，最终冒险击鼓，唤醒即将遭袭的城镇。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-medea",
+      "name": "美狄亚",
+      "dimension": "主演",
+      "sourcePlayLabel": "《美狄亚》",
+      "sourcePlayIds": [
+        "play-medea"
+      ],
+      "sourceTitles": [
+        "美狄亚"
+      ],
+      "sourceKind": "work",
+      "basis": "欧里庇得斯同名悲剧中的人物。遭伊阿宋抛弃并面临放逐后，她报复新婚夫妇，也杀死自己的两个孩子。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "role-lear",
+      "name": "李尔",
+      "dimension": "主演",
+      "sourcePlayLabel": "《李尔王》",
+      "sourcePlayIds": [
+        "play-lear"
+      ],
+      "sourceTitles": [
+        "李尔王"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚《李尔王》中的老国王。他按女儿的表白分配国土，放逐不肯奉承的考狄利娅，后来在失势与苦难中重新认识亲情。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-iago",
+      "name": "伊阿古",
+      "dimension": "主演",
+      "sourcePlayLabel": "《奥赛罗》",
+      "sourcePlayIds": [
+        "play-othello"
+      ],
+      "sourceTitles": [
+        "奥赛罗"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚《奥赛罗》中的旗官。他利用猜疑、谎言和伪证操纵奥赛罗，也指使或亲手实施暴力。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-courage",
+      "name": "大胆妈妈",
+      "dimension": "主演",
+      "sourcePlayLabel": "《大胆妈妈和她的孩子们》",
+      "sourcePlayIds": [
+        "yplay-farewell"
+      ],
+      "sourceTitles": [
+        "大胆妈妈和她的孩子们"
+      ],
+      "sourceKind": "work",
+      "basis": "布莱希特《大胆妈妈和她的孩子们》中的随军商贩。她靠战争做生意，企图养活家人，却在战争中接连失去孩子。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-jiang",
+      "name": "江滨柳",
+      "dimension": "主演",
+      "sourcePlayLabel": "《暗恋桃花源》",
+      "sourcePlayIds": [
+        "play-secret"
+      ],
+      "sourceTitles": [
+        "暗恋桃花源"
+      ],
+      "sourceKind": "work",
+      "basis": "赖声川《暗恋桃花源》中《暗恋》部分的人物。他在台湾病中寻找多年失散的恋人云之凡，重逢时两人各有漫长的人生。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-sufang",
+      "name": "愫方",
+      "dimension": "主演",
+      "sourcePlayLabel": "《北京人》",
+      "sourcePlayIds": [
+        "play-beijing"
+      ],
+      "sourceTitles": [
+        "北京人"
+      ],
+      "sourceKind": "work",
+      "basis": "曹禺《北京人》中的人物。她长期寄居曾家，默默照顾他人，最终与瑞贞一起离开衰败的家庭。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-blanche",
+      "name": "布兰奇",
+      "dimension": "主演",
+      "sourcePlayLabel": "《欲望号街车》",
+      "sourcePlayIds": [
+        "play-street"
+      ],
+      "sourceTitles": [
+        "欲望号街车"
+      ],
+      "sourceKind": "work",
+      "basis": "田纳西·威廉斯《欲望号街车》中的人物。她失去旧日生活后投靠妹妹，试图用讲述与外表保护自己，却遭到斯坦利的揭露和伤害。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-laura",
+      "name": "劳拉",
+      "dimension": "主演",
+      "sourcePlayLabel": "《玻璃动物园》",
+      "sourcePlayIds": [
+        "play-glass"
+      ],
+      "sourceTitles": [
+        "玻璃动物园"
+      ],
+      "sourceKind": "work",
+      "basis": "田纳西·威廉斯《玻璃动物园》中的人物。她羞怯退缩，以玻璃小兽为伴，与来访的吉姆短暂接近，随后仍需面对失落。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-mengmei",
+      "name": "阿比盖尔",
+      "dimension": "主演",
+      "sourcePlayLabel": "《萨勒姆的女巫》",
+      "sourcePlayIds": [
+        "play-peony"
+      ],
+      "sourceTitles": [
+        "萨勒姆的女巫"
+      ],
+      "sourceKind": "work",
+      "basis": "《萨勒姆的女巫》里，阿比盖尔在猎巫的戏里用喊叫把私怨变成全镇的证据，她比法庭更早掌握观众的恐惧。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-zhu",
+      "name": "洛夫伯格",
+      "dimension": "主演",
+      "sourcePlayLabel": "《海达·高布乐》",
+      "sourcePlayIds": [
+        "play-butterfly"
+      ],
+      "sourceTitles": [
+        "海达·高布乐"
+      ],
+      "sourceKind": "work",
+      "basis": "《海达·高布乐》里，洛夫伯格写了一部可能比别人都好的书，然后在一夜之间把它和自己一起失去。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-vladimir",
+      "name": "弗拉季米尔",
+      "dimension": "主演",
+      "sourcePlayLabel": "《等待戈多》",
+      "sourcePlayIds": [
+        "play-godot"
+      ],
+      "sourceTitles": [
+        "等待戈多"
+      ],
+      "sourceKind": "work",
+      "basis": "《等待戈多》里的弗拉季米尔比同伴更想把等待说成有意义，帽子、问题和明天都在，人却仍然不走。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-ophelia",
+      "name": "奥菲利娅",
+      "dimension": "主演",
+      "sourcePlayLabel": "《哈姆雷特》",
+      "sourcePlayIds": [
+        "play-hamlet"
+      ],
+      "sourceTitles": [
+        "哈姆雷特"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚《哈姆雷特》中的人物，波洛涅斯之女、哈姆雷特的恋人。父亲被哈姆雷特误杀后，她精神失常，后来溺亡。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-juliet",
+      "name": "朱丽叶",
+      "dimension": "主演",
+      "sourcePlayLabel": "《罗密欧与朱丽叶》",
+      "sourcePlayIds": [
+        "xplay-romeo"
+      ],
+      "sourceTitles": [
+        "罗密欧与朱丽叶"
+      ],
+      "sourceKind": "work",
+      "basis": "《罗密欧与朱丽叶》里，朱丽叶是凯普莱特家的女儿，在阳台上把两家的世仇说成可以违抗的东西。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-romeo",
+      "name": "罗密欧",
+      "dimension": "主演",
+      "sourcePlayLabel": "《罗密欧与朱丽叶》",
+      "sourcePlayIds": [
+        "xplay-romeo"
+      ],
+      "sourceTitles": [
+        "罗密欧与朱丽叶"
+      ],
+      "sourceKind": "work",
+      "basis": "《罗密欧与朱丽叶》里，罗密欧是蒙太古家的儿子，一场舞会就把爱从别人身上挪到朱丽叶身上。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-shylock",
+      "name": "夏洛克",
+      "dimension": "主演",
+      "sourcePlayLabel": "《威尼斯商人》",
+      "sourcePlayIds": [
+        "xplay-merchant"
+      ],
+      "sourceTitles": [
+        "威尼斯商人"
+      ],
+      "sourceKind": "work",
+      "basis": "《威尼斯商人》里，夏洛克是威尼斯的放贷人，用一磅肉的契约把受过的辱变成可以执行的条款。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-eliza",
+      "name": "伊莉莎",
+      "dimension": "主演",
+      "sourcePlayLabel": "《皮格马利翁》",
+      "sourcePlayIds": [
+        "xplay-pygmalion"
+      ],
+      "sourceTitles": [
+        "皮格马利翁"
+      ],
+      "sourceKind": "work",
+      "basis": "《皮格马利翁》里，伊莉莎是卖花女，被训练成贵妇之后反过来问老师：你要我变成什么样的人。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-hedda",
+      "name": "海达",
+      "dimension": "主演",
+      "sourcePlayLabel": "《海达·高布乐》",
+      "sourcePlayIds": [
+        "play-butterfly"
+      ],
+      "sourceTitles": [
+        "海达·高布乐"
+      ],
+      "sourceKind": "work",
+      "basis": "《海达·高布乐》里，海达是易卜生写的将军之女，不肯过平庸的婚姻，最后把别人的手稿也烧掉。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-galileo",
+      "name": "伽利略",
+      "dimension": "主演",
+      "sourcePlayLabel": "《伽利略传》",
+      "sourcePlayIds": [
+        "xplay-galileo"
+      ],
+      "sourceTitles": [
+        "伽利略传"
+      ],
+      "sourceKind": "work",
+      "basis": "《伽利略传》里，伽利略是那个看见了天体运行、又在法庭上改口的科学家。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-harpagon",
+      "name": "阿巴贡",
+      "dimension": "主演",
+      "sourcePlayLabel": "《吝啬鬼》",
+      "sourcePlayIds": [
+        "xplay-miser"
+      ],
+      "sourceTitles": [
+        "吝啬鬼"
+      ],
+      "sourceKind": "work",
+      "basis": "《吝啬鬼》里，阿巴贡是吝啬鬼本人，钱匣子比儿女更像他的亲人。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-tartuffe",
+      "name": "答尔丢夫",
+      "dimension": "主演",
+      "sourcePlayLabel": "《伪君子》",
+      "sourcePlayIds": [
+        "xplay-tartuffe"
+      ],
+      "sourceTitles": [
+        "伪君子"
+      ],
+      "sourceKind": "work",
+      "basis": "《伪君子》里，答尔丢夫是披着虔敬外衣的骗子，跪下的时候已经在算这家的产业。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-figaro",
+      "name": "费加罗",
+      "dimension": "主演",
+      "sourcePlayLabel": "《费加罗的婚礼》",
+      "sourcePlayIds": [
+        "xplay-figaro"
+      ],
+      "sourceTitles": [
+        "费加罗的婚礼"
+      ],
+      "sourceKind": "work",
+      "basis": "《费加罗的婚礼》里，费加罗是伯爵的仆人，用嘴和计谋把主人的特权挡在婚礼之外。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-mephisto",
+      "name": "梅菲斯特",
+      "dimension": "主演",
+      "sourcePlayLabel": "《浮士德》",
+      "sourcePlayIds": [
+        "xplay-faust"
+      ],
+      "sourceTitles": [
+        "浮士德"
+      ],
+      "sourceKind": "work",
+      "basis": "《浮士德》里，梅菲斯特是和浮士德签约的魔鬼，条件讲得很清楚，诱惑却像闲聊。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-cordelia",
+      "name": "考狄利娅",
+      "dimension": "主演",
+      "sourcePlayLabel": "《李尔王》",
+      "sourcePlayIds": [
+        "play-lear"
+      ],
+      "sourceTitles": [
+        "李尔王"
+      ],
+      "sourceKind": "work",
+      "basis": "《李尔王》里，考狄利娅是李尔的小女儿，不肯用夸张的话证明爱，因此先被放逐。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-desdemona",
+      "name": "苔丝狄蒙娜",
+      "dimension": "主演",
+      "sourcePlayLabel": "《奥赛罗》",
+      "sourcePlayIds": [
+        "play-othello"
+      ],
+      "sourceTitles": [
+        "奥赛罗"
+      ],
+      "sourceKind": "work",
+      "basis": "《奥赛罗》里，苔丝狄蒙娜是奥赛罗的妻子，一块手帕被说成罪证，辩白赶不上猜疑。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-pozzo",
+      "name": "波卓",
+      "dimension": "主演",
+      "sourcePlayLabel": "《等待戈多》",
+      "sourcePlayIds": [
+        "play-godot"
+      ],
+      "sourceTitles": [
+        "等待戈多"
+      ],
+      "sourceKind": "work",
+      "basis": "贝克特《等待戈多》中的人物。他用绳子牵着幸运儿同行，以主人的姿态要求周围人服从。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-lucky",
+      "name": "幸运儿",
+      "dimension": "主演",
+      "sourcePlayLabel": "《等待戈多》",
+      "sourcePlayIds": [
+        "play-godot"
+      ],
+      "sourceTitles": [
+        "等待戈多"
+      ],
+      "sourceKind": "work",
+      "basis": "《等待戈多》里，幸运儿是被波卓用绳子牵着的人，一旦被允许说话就会把长篇倒出来。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-chunxiang",
+      "name": "克里斯汀",
+      "dimension": "主演",
+      "sourcePlayLabel": "《朱莉小姐》",
+      "sourcePlayIds": [
+        "yplay-pipa"
+      ],
+      "sourceTitles": [
+        "朱莉小姐"
+      ],
+      "sourceKind": "work",
+      "basis": "克里斯汀是《朱莉小姐》里的厨娘，她看见越界，也知道天亮以后厨房仍要开火。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-hongniang",
+      "name": "红娘",
+      "dimension": "主演",
+      "sourcePlayLabel": "《西厢记》",
+      "sourcePlayIds": [
+        "play-xixiang"
+      ],
+      "sourceTitles": [
+        "西厢记"
+      ],
+      "sourceKind": "work",
+      "basis": "《西厢记》里，红娘是崔莺莺和张生之间传话的人，最后往往是她把两家的脸面都顾上。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-yingying",
+      "name": "崔莺莺",
+      "dimension": "主演",
+      "sourcePlayLabel": "《西厢记》",
+      "sourcePlayIds": [
+        "play-xixiang"
+      ],
+      "sourceTitles": [
+        "西厢记"
+      ],
+      "sourceKind": "work",
+      "basis": "《西厢记》里，崔莺莺是相国小姐，想爱又要顾门第，红娘比她自己更敢把话递出去。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-xiangzi",
+      "name": "祥子",
+      "dimension": "主演",
+      "sourcePlayLabel": "《骆驼祥子》",
+      "sourcePlayIds": [
+        "xplay-camel"
+      ],
+      "sourceTitles": [
+        "骆驼祥子"
+      ],
+      "sourceKind": "work",
+      "basis": "《骆驼祥子》里，祥子是想凭自己拉车在北平站住的人，车和身子后来都被这座城收走。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-huniu",
+      "name": "虎妞",
+      "dimension": "主演",
+      "sourcePlayLabel": "《骆驼祥子》",
+      "sourcePlayIds": [
+        "xplay-camel"
+      ],
+      "sourceTitles": [
+        "骆驼祥子"
+      ],
+      "sourceKind": "work",
+      "basis": "《骆驼祥子》里，虎妞是车厂主的女儿，自己挑了祥子，也把祥子的路改得更窄。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-chong",
+      "name": "周冲",
+      "dimension": "主演",
+      "sourcePlayLabel": "《雷雨》",
+      "sourcePlayIds": [
+        "play-thunder"
+      ],
+      "sourceTitles": [
+        "雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "《雷雨》里，周冲是周家最小的儿子，还相信爱情和公平，雷雨夜里这些话都还太亮。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-sifeng",
+      "name": "四凤",
+      "dimension": "主演",
+      "sourcePlayLabel": "《雷雨》",
+      "sourcePlayIds": [
+        "play-thunder"
+      ],
+      "sourceTitles": [
+        "雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "《雷雨》里，四凤是周家的丫鬟，爱着不该爱的人，自己还不知道这屋里的旧账。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-gold",
+      "name": "金子",
+      "dimension": "主演",
+      "sourcePlayLabel": "《原野》",
+      "sourcePlayIds": [
+        "play-yuanye"
+      ],
+      "sourceTitles": [
+        "原野"
+      ],
+      "sourceKind": "work",
+      "basis": "《原野》里，金子是原野里仇虎身边的女人，野，也比周围的人更早看见这条路没有回头。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-juexin",
+      "name": "觉新",
+      "dimension": "主演",
+      "sourcePlayLabel": "《家》",
+      "sourcePlayIds": [
+        "xplay-jia"
+      ],
+      "sourceTitles": [
+        "家"
+      ],
+      "sourceKind": "work",
+      "basis": "《家》里，觉新是高家的长房长孙，什么都懂，什么都先答应，人就在答应里空了。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-chanjuan",
+      "name": "婵娟",
+      "dimension": "主演",
+      "sourcePlayLabel": "《屈原》",
+      "sourcePlayIds": [
+        "xplay-quyuan"
+      ],
+      "sourceTitles": [
+        "屈原"
+      ],
+      "sourceKind": "work",
+      "basis": "郭沫若《屈原》中的侍女。她忠于屈原，在被囚禁的处境中误饮原本用来毒害屈原的酒而死。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-zhulian",
+      "name": "珠帘秀",
+      "dimension": "主演",
+      "sourcePlayLabel": "《关汉卿》",
+      "sourcePlayIds": [
+        "xplay-guantheplay"
+      ],
+      "sourceTitles": [
+        "关汉卿"
+      ],
+      "sourceKind": "work",
+      "basis": "《关汉卿》里，珠帘秀是关汉卿戏里的演员，敢把危险的词唱给权贵听。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-cao",
+      "name": "曹操",
+      "dimension": "主演",
+      "sourcePlayLabel": "《曹操与杨修》",
+      "sourcePlayIds": [
+        "xplay-caoyang"
+      ],
+      "sourceTitles": [
+        "曹操与杨修"
+      ],
+      "sourceKind": "work",
+      "basis": "《曹操与杨修》中的人物。他赏识杨修的才智，又忌惮对方看破自己的心思，信任与猜疑不断交替。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-yangxiu",
+      "name": "杨修",
+      "dimension": "主演",
+      "sourcePlayLabel": "《曹操与杨修》",
+      "sourcePlayIds": [
+        "xplay-caoyang"
+      ],
+      "sourceTitles": [
+        "曹操与杨修"
+      ],
+      "sourceKind": "work",
+      "basis": "《曹操与杨修》里，杨修是聪明到把曹操的意思说破，也因此把自己说到死地上。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-gouer",
+      "name": "狗儿爷",
+      "dimension": "主演",
+      "sourcePlayLabel": "《狗儿爷涅槃》",
+      "sourcePlayIds": [
+        "xplay-doggy"
+      ],
+      "sourceTitles": [
+        "狗儿爷涅槃"
+      ],
+      "sourceKind": "work",
+      "basis": "《狗儿爷涅槃》里，狗儿爷是和一个死去的地主对话的农民，地是他的命，也是他的病。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "xrole-shang",
+      "name": "商鞅",
+      "dimension": "主演",
+      "sourcePlayLabel": "《商鞅》",
+      "sourcePlayIds": [
+        "xplay-shangyang"
+      ],
+      "sourceTitles": [
+        "商鞅"
+      ],
+      "sourceKind": "work",
+      "basis": "《商鞅》里，商鞅是把秦国的法推上去的人，最后也被这套法带走。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-prometheus",
+      "name": "普罗米修斯",
+      "dimension": "主演",
+      "sourcePlayLabel": "《被缚的普罗米修斯》",
+      "sourcePlayIds": [
+        "yplay-prometheus"
+      ],
+      "sourceTitles": [
+        "被缚的普罗米修斯"
+      ],
+      "sourceKind": "work",
+      "basis": "《被缚的普罗米修斯》里，普罗米修斯是把火交给人之后被钉在崖上的神，仍旧不肯把秘密说给宙斯。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-clytemnestra",
+      "name": "克吕泰涅斯特拉",
+      "dimension": "主演",
+      "sourcePlayLabel": "《阿伽门农》",
+      "sourcePlayIds": [
+        "yplay-agamemnon"
+      ],
+      "sourceTitles": [
+        "阿伽门农"
+      ],
+      "sourceKind": "work",
+      "basis": "《阿伽门农》里，克吕泰涅斯特拉是阿伽门农的妻子，用一张网迎接凯旋的王，也清算女儿的死。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-witches",
+      "name": "三女巫",
+      "dimension": "主演",
+      "sourcePlayLabel": "《麦克白》",
+      "sourcePlayIds": [
+        "play-macbeth"
+      ],
+      "sourceTitles": [
+        "麦克白"
+      ],
+      "sourceKind": "work",
+      "basis": "《麦克白》中的三位神秘人物。她们向麦克白说出预言，他随后用自己的行动追逐王位。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-horatio",
+      "name": "霍拉旭",
+      "dimension": "主演",
+      "sourcePlayLabel": "《哈姆雷特》",
+      "sourcePlayIds": [
+        "play-hamlet"
+      ],
+      "sourceTitles": [
+        "哈姆雷特"
+      ],
+      "sourceKind": "work",
+      "basis": "《哈姆雷特》里，霍拉旭是哈姆雷特的朋友，活到最后，负责把这件事讲给还没听见的人。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-portia",
+      "name": "鲍西娅",
+      "dimension": "主演",
+      "sourcePlayLabel": "《威尼斯商人》",
+      "sourcePlayIds": [
+        "xplay-merchant"
+      ],
+      "sourceTitles": [
+        "威尼斯商人"
+      ],
+      "sourceKind": "work",
+      "basis": "《威尼斯商人》里，鲍西娅是扮成律师走进威尼斯的法庭，用一句不能流血的话解开一磅肉。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-prospero",
+      "name": "普洛斯彼罗",
+      "dimension": "主演",
+      "sourcePlayLabel": "《暴风雨》",
+      "sourcePlayIds": [
+        "yplay-tempest"
+      ],
+      "sourceTitles": [
+        "暴风雨"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚《暴风雨》中被放逐的米兰公爵。他用法术召来仇人，最终放弃报复，释放爱丽儿并准备归国。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-ariel",
+      "name": "爱丽儿",
+      "dimension": "主演",
+      "sourcePlayLabel": "《暴风雨》",
+      "sourcePlayIds": [
+        "yplay-tempest"
+      ],
+      "sourceTitles": [
+        "暴风雨"
+      ],
+      "sourceKind": "work",
+      "basis": "《暴风雨》里，爱丽儿是普洛斯彼罗的精灵，把风暴、歌声和幻象做成具体的差事。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-richardiii",
+      "name": "理查三世",
+      "dimension": "主演",
+      "sourcePlayLabel": "《理查三世》",
+      "sourcePlayIds": [
+        "yplay-richard"
+      ],
+      "sourceTitles": [
+        "理查三世"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚同名剧中的人物。他以阴谋和杀戮夺取王位，直接向观众透露计划，随后又向剧中人作出虚假的承诺。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "yrole-falstaff",
+      "name": "福斯塔夫",
+      "dimension": "主演",
+      "sourcePlayLabel": "《亨利四世》（莎士比亚）",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "亨利四世（莎士比亚）"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚《亨利四世》系列中的骑士。他嗜酒、爱夸口，与哈尔王子的酒馆生活相连，也不断用玩笑质疑英雄式的荣誉。",
+      "review": "同名异作已区分"
+    },
+    {
+      "id": "yrole-helmer",
+      "name": "海尔茂",
+      "dimension": "主演",
+      "sourcePlayLabel": "《玩偶之家》",
+      "sourcePlayIds": [
+        "play-doll"
+      ],
+      "sourceTitles": [
+        "玩偶之家"
+      ],
+      "sourceKind": "work",
+      "basis": "《玩偶之家》里，海尔茂是娜拉的丈夫，爱她的方式是把她留在玩偶的位置上。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-stockmann",
+      "name": "斯多克芒",
+      "dimension": "主演",
+      "sourcePlayLabel": "《人民公敌》",
+      "sourcePlayIds": [
+        "yplay-enemy"
+      ],
+      "sourceTitles": [
+        "人民公敌"
+      ],
+      "sourceKind": "work",
+      "basis": "《人民公敌》里，斯多克芒是发现浴场有毒、却被全镇叫做敌人的医生。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-khlestakov",
+      "name": "赫列斯达可夫",
+      "dimension": "主演",
+      "sourcePlayLabel": "《钦差大臣》",
+      "sourcePlayIds": [
+        "yplay-inspector"
+      ],
+      "sourceTitles": [
+        "钦差大臣"
+      ],
+      "sourceKind": "work",
+      "basis": "果戈理《钦差大臣》中的年轻小官。他在旅途中被误认成钦差，逐渐顺着众人的奉承编出夸大的履历。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-zhouping",
+      "name": "周萍",
+      "dimension": "主演",
+      "sourcePlayLabel": "《雷雨》",
+      "sourcePlayIds": [
+        "play-thunder"
+      ],
+      "sourceTitles": [
+        "雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "《雷雨》里，周萍是周家的长子，爱过不该爱的人，又想用另一段爱逃开。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-qiuhu",
+      "name": "仇虎",
+      "dimension": "主演",
+      "sourcePlayLabel": "《原野》",
+      "sourcePlayIds": [
+        "play-yuanye"
+      ],
+      "sourceTitles": [
+        "原野"
+      ],
+      "sourceKind": "work",
+      "basis": "曹禺《原野》中的归来者。他为旧日血仇寻找焦家，与金子相恋，复仇之后又被罪疚和恐惧追赶。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-juehui",
+      "name": "觉慧",
+      "dimension": "主演",
+      "sourcePlayLabel": "《家》",
+      "sourcePlayIds": [
+        "xplay-jia"
+      ],
+      "sourceTitles": [
+        "家"
+      ],
+      "sourceKind": "work",
+      "basis": "《家》里，觉慧是高家最年轻的那个，终于走到门边，不肯再把一生交给这座宅子。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-chang",
+      "name": "常四爷",
+      "dimension": "主演",
+      "sourcePlayLabel": "《茶馆》",
+      "sourcePlayIds": [
+        "play-teahouse"
+      ],
+      "sourceTitles": [
+        "茶馆"
+      ],
+      "sourceKind": "work",
+      "basis": "《茶馆》里，常四爷是裕泰茶馆里见过整个时代的旗人，仍旧把一身硬气留在茶座上。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-baisuzhen",
+      "name": "格莱格斯",
+      "dimension": "主演",
+      "sourcePlayLabel": "《野鸭》",
+      "sourcePlayIds": [
+        "yplay-whitesnake"
+      ],
+      "sourceTitles": [
+        "野鸭"
+      ],
+      "sourceKind": "work",
+      "basis": "《野鸭》里，格莱格斯坚信把真相说出来是在救人，于是把一束光打进别人赖以生活的阁楼。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-guifei",
+      "name": "厄勒克特拉",
+      "dimension": "主演",
+      "sourcePlayLabel": "《厄勒克特拉》",
+      "sourcePlayIds": [
+        "yplay-drunken"
+      ],
+      "sourceTitles": [
+        "厄勒克特拉"
+      ],
+      "sourceKind": "work",
+      "basis": "索福克勒斯同名悲剧中的人物。她在迈锡尼宫前坚持哀悼被杀的父亲，等待弟弟归来报仇。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "yrole-bawang",
+      "name": "埃利夫",
+      "dimension": "主演",
+      "sourcePlayLabel": "《大胆妈妈和她的孩子们》",
+      "sourcePlayIds": [
+        "yplay-farewell"
+      ],
+      "sourceTitles": [
+        "大胆妈妈和她的孩子们"
+      ],
+      "sourceKind": "work",
+      "basis": "布莱希特《大胆妈妈和她的孩子们》中的长子。他的劫掠行为在战时受到奖赏，却在短暂休战时因同类行为被处死。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-zhangsheng",
+      "name": "张生",
+      "dimension": "主演",
+      "sourcePlayLabel": "《西厢记》",
+      "sourcePlayIds": [
+        "play-xixiang"
+      ],
+      "sourceTitles": [
+        "西厢记"
+      ],
+      "sourceKind": "work",
+      "basis": "《西厢记》里，张生是为崔莺莺赴考、跳墙、听琴的书生，情急起来什么规矩都想绕。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-liangshanbo",
+      "name": "泰斯曼",
+      "dimension": "主演",
+      "sourcePlayLabel": "《海达·高布乐》",
+      "sourcePlayIds": [
+        "play-butterfly"
+      ],
+      "sourceTitles": [
+        "海达·高布乐"
+      ],
+      "sourceKind": "work",
+      "basis": "易卜生《海达·高布乐》中的学者、海达的丈夫。他希望获得职位，后来与泰娅尝试整理勒夫堡失去的著作。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-xier",
+      "name": "喜儿",
+      "dimension": "主演",
+      "sourcePlayLabel": "《白毛女》",
+      "sourcePlayIds": [
+        "play-baimao"
+      ],
+      "sourceTitles": [
+        "白毛女"
+      ],
+      "sourceKind": "work",
+      "basis": "《白毛女》里，喜儿是从黄世仁家逃进深山，头发白了再回来讨债的人。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-tietmei",
+      "name": "玛莎",
+      "dimension": "主演",
+      "sourcePlayLabel": "《谁害怕弗吉尼亚·伍尔夫》",
+      "sourcePlayIds": [
+        "yplay-redlantern"
+      ],
+      "sourceTitles": [
+        "谁害怕弗吉尼亚·伍尔夫"
+      ],
+      "sourceKind": "work",
+      "basis": "《谁害怕弗吉尼亚·伍尔夫》里，玛莎在阿尔比的一夜里用外号、酒和游戏攻击婚姻，声音最大的人往往最怕天亮。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-aqing",
+      "name": "乔治",
+      "dimension": "主演",
+      "sourcePlayLabel": "《谁害怕弗吉尼亚·伍尔夫》",
+      "sourcePlayIds": [
+        "yplay-redlantern"
+      ],
+      "sourceTitles": [
+        "谁害怕弗吉尼亚·伍尔夫"
+      ],
+      "sourceKind": "work",
+      "basis": "《谁害怕弗吉尼亚·伍尔夫》里，乔治用更慢、更冷的游戏回应玛莎，他知道有些谎一旦说破，这个家就没有别的故事可讲。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-zijirong",
+      "name": "霍尼",
+      "dimension": "主演",
+      "sourcePlayLabel": "《谁害怕弗吉尼亚·伍尔夫》",
+      "sourcePlayIds": [
+        "yplay-redlantern"
+      ],
+      "sourceTitles": [
+        "谁害怕弗吉尼亚·伍尔夫"
+      ],
+      "sourceKind": "work",
+      "basis": "《谁害怕弗吉尼亚·伍尔夫》里，霍尼是那对年轻客人里不断把话圆回去的一个，她的笑是为了不让这间屋子彻底裂开。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-malu",
+      "name": "马路",
+      "dimension": "主演",
+      "sourcePlayLabel": "《恋爱的犀牛》",
+      "sourcePlayIds": [
+        "play-rhino"
+      ],
+      "sourceTitles": [
+        "恋爱的犀牛"
+      ],
+      "sourceKind": "work",
+      "basis": "廖一梅《恋爱的犀牛》中的饲养员。他执着地爱着明明，却难以接受她另有所爱的选择。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-houfangyu",
+      "name": "侯方域",
+      "dimension": "主演",
+      "sourcePlayLabel": "《桃花扇》",
+      "sourcePlayIds": [
+        "play-peach"
+      ],
+      "sourceTitles": [
+        "桃花扇"
+      ],
+      "sourceKind": "work",
+      "basis": "孔尚任《桃花扇》中的复社文人，与李香君相爱。南明动荡中的离别与重逢，使两人的私情不断遇到时代的变局。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-dorine",
+      "name": "桃丽娜",
+      "dimension": "主演",
+      "sourcePlayLabel": "《伪君子》",
+      "sourcePlayIds": [
+        "xplay-tartuffe"
+      ],
+      "sourceTitles": [
+        "伪君子"
+      ],
+      "sourceKind": "work",
+      "basis": "莫里哀《伪君子》中奥尔贡家的女仆。她看穿答尔丢夫的伪善，敢于顶撞主人的糊涂，也帮助年轻人争取自己的婚事。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-mackheath",
+      "name": "麦克希思",
+      "dimension": "主演",
+      "sourcePlayLabel": "《三毛钱歌剧》",
+      "sourcePlayIds": [
+        "yplay-threepenny"
+      ],
+      "sourceTitles": [
+        "三毛钱歌剧"
+      ],
+      "sourceKind": "work",
+      "basis": "布莱希特与魏尔《三毛钱歌剧》中的匪首。他的婚事激起乞丐头目皮彻姆的不满，交易、追捕与刑罚不断打断他的盘算。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-hamm",
+      "name": "汉姆（终局）",
+      "dimension": "主演",
+      "sourcePlayLabel": "《终局》",
+      "sourcePlayIds": [
+        "yplay-endgame"
+      ],
+      "sourceTitles": [
+        "终局"
+      ],
+      "sourceKind": "work",
+      "basis": "汉姆是贝克特《终局》里坐在椅子上的盲人主人，看不见，仍要指挥整个房间。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-linda",
+      "name": "琳达",
+      "dimension": "主演",
+      "sourcePlayLabel": "《推销员之死》",
+      "sourcePlayIds": [
+        "play-salesman"
+      ],
+      "sourceTitles": [
+        "推销员之死"
+      ],
+      "sourceKind": "work",
+      "basis": "《推销员之死》里，琳达是威利·洛曼的妻子，知道这个家在碎，仍把晚饭和尊严维持到最后。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-stanley",
+      "name": "斯坦利",
+      "dimension": "主演",
+      "sourcePlayLabel": "《欲望号街车》",
+      "sourcePlayIds": [
+        "play-street"
+      ],
+      "sourceTitles": [
+        "欲望号街车"
+      ],
+      "sourceKind": "work",
+      "basis": "《欲望号街车》里，斯坦利是欲望号街车里的姐夫，用很具体的力把布兰奇的假象撕开。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-brutus",
+      "name": "布鲁图斯",
+      "dimension": "主演",
+      "sourcePlayLabel": "《裘力斯·凯撒》",
+      "sourcePlayIds": [
+        "yplay-caesar"
+      ],
+      "sourceTitles": [
+        "裘力斯·凯撒"
+      ],
+      "sourceKind": "work",
+      "basis": "《裘力斯·凯撒》里，布鲁图斯是刺死凯撒的人里那个相信自己是为罗马动手的人。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-cleo",
+      "name": "克莉奥佩特拉",
+      "dimension": "主演",
+      "sourcePlayLabel": "《安东尼与克莉奥佩特拉》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "安东尼与克莉奥佩特拉"
+      ],
+      "sourceKind": "work",
+      "basis": "《安东尼与克莉奥佩特拉》里，克莉奥佩特拉是把政治、爱情和一个国家的命运放进同一次出场的埃及女王。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-jason",
+      "name": "伊阿宋",
+      "dimension": "主演",
+      "sourcePlayLabel": "《美狄亚》",
+      "sourcePlayIds": [
+        "play-medea"
+      ],
+      "sourceTitles": [
+        "美狄亚"
+      ],
+      "sourceKind": "work",
+      "basis": "《美狄亚》里，伊阿宋是美狄亚的丈夫，把妻子的帮助换成一次有利的新婚姻。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-solveig",
+      "name": "索尔维格",
+      "dimension": "主演",
+      "sourcePlayLabel": "《培尔·金特》",
+      "sourcePlayIds": [
+        "yplay-peer"
+      ],
+      "sourceTitles": [
+        "培尔·金特"
+      ],
+      "sourceKind": "work",
+      "basis": "易卜生《培尔·金特》中的人物。她选择与培尔相爱，在他漫长的离去中等待，并在他归来时给予接纳。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-wukong",
+      "name": "凯列班",
+      "dimension": "主演",
+      "sourcePlayLabel": "《暴风雨》",
+      "sourcePlayIds": [
+        "yplay-tempest"
+      ],
+      "sourceTitles": [
+        "暴风雨"
+      ],
+      "sourceKind": "work",
+      "basis": "凯列班是《暴风雨》里被夺了岛的原住民，他骂得出最清楚的句子，也做着最不服的梦。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-zhugeliang",
+      "name": "诸葛亮",
+      "dimension": "主演",
+      "sourcePlayLabel": "《空城计》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "空城计"
+      ],
+      "sourceKind": "work",
+      "basis": "此处指《空城计》中的诸葛亮形象。他在兵力不足时打开城门，从容抚琴，以使对手疑惧的办法争取退敌。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "yrole-kuangzhong",
+      "name": "蒂兹尔",
+      "dimension": "主演",
+      "sourcePlayLabel": "《造谣学校》",
+      "sourcePlayIds": [
+        "yplay-fifteen"
+      ],
+      "sourceTitles": [
+        "造谣学校"
+      ],
+      "sourceKind": "work",
+      "basis": "谢立丹《造谣学校》中的彼得·蒂兹尔爵士。他与年轻妻子常有争执，一次屏风后的偷听使他看见社交场中的伪善。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-creon",
+      "name": "克瑞翁",
+      "dimension": "配角",
+      "sourcePlayLabel": "《安提戈涅》",
+      "sourcePlayIds": [
+        "play-antigone"
+      ],
+      "sourceTitles": [
+        "安提戈涅"
+      ],
+      "sourceKind": "work",
+      "basis": "《安提戈涅》中，克瑞翁把国王的命令置于家族与神律之上，直到惩罚回到自己的家中。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-ismene",
+      "name": "伊斯墨涅",
+      "dimension": "配角",
+      "sourcePlayLabel": "《安提戈涅》",
+      "sourcePlayIds": [
+        "play-antigone"
+      ],
+      "sourceTitles": [
+        "安提戈涅"
+      ],
+      "sourceKind": "work",
+      "basis": "《安提戈涅》中，伊斯墨涅先因畏惧王命拒绝协助姐姐，后来又愿与她共同承担罪责。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-tiresias",
+      "name": "提瑞西阿斯",
+      "dimension": "配角",
+      "sourcePlayLabel": "古希腊悲剧人物，见《俄狄浦斯王》、《安提戈涅》等",
+      "sourcePlayIds": [
+        "play-oedipus",
+        "play-antigone"
+      ],
+      "sourceTitles": [
+        "俄狄浦斯王",
+        "安提戈涅"
+      ],
+      "sourceKind": "tradition",
+      "basis": "提瑞西阿斯是希腊悲剧中的盲先知，他看见权力不愿承认的真相，却无法让真相及时被听见。",
+      "review": "依角色和剧情核对"
+    },
+    {
+      "id": "role2-juliet-nurse",
+      "name": "乳母（朱丽叶）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《罗密欧与朱丽叶》",
+      "sourcePlayIds": [
+        "xplay-romeo"
+      ],
+      "sourceTitles": [
+        "罗密欧与朱丽叶"
+      ],
+      "sourceKind": "work",
+      "basis": "《罗密欧与朱丽叶》中，乳母替朱丽叶传递恋人的消息，却在危机来临时劝她接受另一桩婚事。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-mercutio",
+      "name": "茂丘西奥",
+      "dimension": "配角",
+      "sourcePlayLabel": "《罗密欧与朱丽叶》",
+      "sourcePlayIds": [
+        "xplay-romeo"
+      ],
+      "sourceTitles": [
+        "罗密欧与朱丽叶"
+      ],
+      "sourceKind": "work",
+      "basis": "《罗密欧与朱丽叶》中，茂丘西奥以机锋和玩笑嘲弄爱情，却被两家的仇争卷入致命决斗。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-banquo",
+      "name": "班柯",
+      "dimension": "配角",
+      "sourcePlayLabel": "《麦克白》",
+      "sourcePlayIds": [
+        "play-macbeth"
+      ],
+      "sourceTitles": [
+        "麦克白"
+      ],
+      "sourceKind": "work",
+      "basis": "《麦克白》中，班柯同样听见女巫的预言，却没有像麦克白那样以谋杀催促它兑现。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-macduff",
+      "name": "麦克德夫",
+      "dimension": "配角",
+      "sourcePlayLabel": "《麦克白》",
+      "sourcePlayIds": [
+        "play-macbeth"
+      ],
+      "sourceTitles": [
+        "麦克白"
+      ],
+      "sourceKind": "work",
+      "basis": "《麦克白》中，麦克德夫反抗暴君，家人遭杀害后，公共正义与私人悲痛在他身上汇成同一场追讨。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-laertes",
+      "name": "莱尔提斯",
+      "dimension": "配角",
+      "sourcePlayLabel": "《哈姆雷特》",
+      "sourcePlayIds": [
+        "play-hamlet"
+      ],
+      "sourceTitles": [
+        "哈姆雷特"
+      ],
+      "sourceKind": "work",
+      "basis": "《哈姆雷特》中，莱尔提斯为父亲与妹妹的死归来复仇，急切的正义感被克劳狄斯引向一场设毒的决斗。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-polonius",
+      "name": "波洛涅斯",
+      "dimension": "配角",
+      "sourcePlayLabel": "《哈姆雷特》",
+      "sourcePlayIds": [
+        "play-hamlet"
+      ],
+      "sourceTitles": [
+        "哈姆雷特"
+      ],
+      "sourceKind": "work",
+      "basis": "《哈姆雷特》中，波洛涅斯以父亲和大臣的身份安排儿女，又靠窥探去揣测王子的秘密。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-gertrude",
+      "name": "乔特鲁德",
+      "dimension": "配角",
+      "sourcePlayLabel": "《哈姆雷特》",
+      "sourcePlayIds": [
+        "play-hamlet"
+      ],
+      "sourceTitles": [
+        "哈姆雷特"
+      ],
+      "sourceKind": "work",
+      "basis": "《哈姆雷特》中，乔特鲁德既是王后也是母亲，她的再婚成为儿子无法接受的伤口。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-claudius",
+      "name": "克劳狄斯",
+      "dimension": "配角",
+      "sourcePlayLabel": "《哈姆雷特》",
+      "sourcePlayIds": [
+        "play-hamlet"
+      ],
+      "sourceTitles": [
+        "哈姆雷特"
+      ],
+      "sourceKind": "work",
+      "basis": "《哈姆雷特》中，克劳狄斯弑兄夺位后维持着国王的体面，罪责却在祈祷与权术之间不断回来。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-emilia",
+      "name": "爱米利娅",
+      "dimension": "配角",
+      "sourcePlayLabel": "《奥赛罗》",
+      "sourcePlayIds": [
+        "play-othello"
+      ],
+      "sourceTitles": [
+        "奥赛罗"
+      ],
+      "sourceKind": "work",
+      "basis": "《奥赛罗》中，爱米利娅是伊阿古的妻子和苔丝狄蒙娜的侍女，最后以揭露手帕的真相反抗丈夫。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-cassio",
+      "name": "卡西奥",
+      "dimension": "配角",
+      "sourcePlayLabel": "《奥赛罗》",
+      "sourcePlayIds": [
+        "play-othello"
+      ],
+      "sourceTitles": [
+        "奥赛罗"
+      ],
+      "sourceKind": "work",
+      "basis": "《奥赛罗》中，卡西奥因醉酒失职而求助苔丝狄蒙娜，这份请求被伊阿古编成了不忠的证据。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-roderigo",
+      "name": "罗德利哥",
+      "dimension": "配角",
+      "sourcePlayLabel": "《奥赛罗》",
+      "sourcePlayIds": [
+        "play-othello"
+      ],
+      "sourceTitles": [
+        "奥赛罗"
+      ],
+      "sourceKind": "work",
+      "basis": "《奥赛罗》中，罗德利哥迷恋苔丝狄蒙娜，不断把钱和希望交给伊阿古，却始终离她更远。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-goneril",
+      "name": "高纳里尔",
+      "dimension": "配角",
+      "sourcePlayLabel": "《李尔王》",
+      "sourcePlayIds": [
+        "play-lear"
+      ],
+      "sourceTitles": [
+        "李尔王"
+      ],
+      "sourceKind": "work",
+      "basis": "《李尔王》中，高纳里尔用顺从的言辞取得土地，随后拒绝继续容纳父亲所要求的权力。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-regan",
+      "name": "里根",
+      "dimension": "配角",
+      "sourcePlayLabel": "《李尔王》",
+      "sourcePlayIds": [
+        "play-lear"
+      ],
+      "sourceTitles": [
+        "李尔王"
+      ],
+      "sourceKind": "work",
+      "basis": "《李尔王》中，里根与姐姐争夺父亲的让步，也在权力到手之后不断扩大残酷的尺度。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-edmund",
+      "name": "爱德蒙",
+      "dimension": "配角",
+      "sourcePlayLabel": "《李尔王》",
+      "sourcePlayIds": [
+        "play-lear"
+      ],
+      "sourceTitles": [
+        "李尔王"
+      ],
+      "sourceKind": "work",
+      "basis": "《李尔王》中，爱德蒙不甘私生子的身份，伪造书信陷害兄长，并把父亲的信任变成自己的道路。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-kent",
+      "name": "肯特",
+      "dimension": "配角",
+      "sourcePlayLabel": "《李尔王》",
+      "sourcePlayIds": [
+        "play-lear"
+      ],
+      "sourceTitles": [
+        "李尔王"
+      ],
+      "sourceKind": "work",
+      "basis": "《李尔王》中，肯特因直谏被放逐，仍改装归来服侍国王，以隐去自己的名字守住忠诚。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-fool-lear",
+      "name": "弄人",
+      "dimension": "配角",
+      "sourcePlayLabel": "《李尔王》",
+      "sourcePlayIds": [
+        "play-lear"
+      ],
+      "sourceTitles": [
+        "李尔王"
+      ],
+      "sourceKind": "work",
+      "basis": "《李尔王》中，弄人以笑话说出国王不愿听的事实，陪他走进失去权力之后的寒冷。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-gloucester",
+      "name": "格洛斯特",
+      "dimension": "配角",
+      "sourcePlayLabel": "《李尔王》",
+      "sourcePlayIds": [
+        "play-lear"
+      ],
+      "sourceTitles": [
+        "李尔王"
+      ],
+      "sourceKind": "work",
+      "basis": "《李尔王》中，格洛斯特误信爱德蒙而驱逐爱德伽，失去双眼以后才逐渐认识自己的过错。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-edgar",
+      "name": "爱德伽",
+      "dimension": "配角",
+      "sourcePlayLabel": "《李尔王》",
+      "sourcePlayIds": [
+        "play-lear"
+      ],
+      "sourceTitles": [
+        "李尔王"
+      ],
+      "sourceKind": "work",
+      "basis": "《李尔王》中，爱德伽被陷害后扮作疯乞丐求生，又在隐瞒身份的情况下陪伴失明的父亲。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-malcolm",
+      "name": "马尔科姆",
+      "dimension": "配角",
+      "sourcePlayLabel": "《麦克白》",
+      "sourcePlayIds": [
+        "play-macbeth"
+      ],
+      "sourceTitles": [
+        "麦克白"
+      ],
+      "sourceKind": "work",
+      "basis": "《麦克白》中，马尔科姆在父王被杀后逃离苏格兰，后来谨慎试探盟友并准备夺回王位。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-duncan",
+      "name": "邓肯",
+      "dimension": "配角",
+      "sourcePlayLabel": "《麦克白》",
+      "sourcePlayIds": [
+        "play-macbeth"
+      ],
+      "sourceTitles": [
+        "麦克白"
+      ],
+      "sourceKind": "work",
+      "basis": "《麦克白》中，邓肯把信任交给立功的将领，最终死在以宾客礼仪欢迎他的城堡里。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-cassandra",
+      "name": "卡珊德拉",
+      "dimension": "配角",
+      "sourcePlayLabel": "《阿伽门农》",
+      "sourcePlayIds": [
+        "yplay-agamemnon"
+      ],
+      "sourceTitles": [
+        "阿伽门农"
+      ],
+      "sourceKind": "work",
+      "basis": "《阿伽门农》中，卡珊德拉作为战俘抵达王宫，看见即将发生的死亡，却无法使众人相信她。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-andromache",
+      "name": "安德洛玛刻",
+      "dimension": "配角",
+      "sourcePlayLabel": "古希腊悲剧人物，见《特洛亚妇女》等",
+      "sourcePlayIds": [
+        "yplay-trojan"
+      ],
+      "sourceTitles": [
+        "特洛亚妇女"
+      ],
+      "sourceKind": "tradition",
+      "basis": "特洛伊题材的悲剧中，安德洛玛刻失去丈夫与城邦，仍试图为孩子保存一条活路。",
+      "review": "依角色和剧情核对"
+    },
+    {
+      "id": "role2-hecuba",
+      "name": "赫卡柏",
+      "dimension": "配角",
+      "sourcePlayLabel": "古希腊悲剧人物，见《特洛亚妇女》等",
+      "sourcePlayIds": [
+        "yplay-trojan"
+      ],
+      "sourceTitles": [
+        "特洛亚妇女"
+      ],
+      "sourceKind": "tradition",
+      "basis": "特洛伊悲剧中的赫卡柏从王后沦为俘虏，在不断传来的死讯中承受家族与城邦的崩塌。",
+      "review": "依角色和剧情核对"
+    },
+    {
+      "id": "role2-agamemnon",
+      "name": "阿伽门农",
+      "dimension": "配角",
+      "sourcePlayLabel": "《阿伽门农》",
+      "sourcePlayIds": [
+        "yplay-agamemnon"
+      ],
+      "sourceTitles": [
+        "阿伽门农"
+      ],
+      "sourceKind": "work",
+      "basis": "《阿伽门农》中，远征归来的君王带着胜利进入家门，却未能逃过战争与家族旧债的追索。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-aegisthus",
+      "name": "埃癸斯托斯",
+      "dimension": "配角",
+      "sourcePlayLabel": "《阿伽门农》",
+      "sourcePlayIds": [
+        "yplay-agamemnon"
+      ],
+      "sourceTitles": [
+        "阿伽门农"
+      ],
+      "sourceKind": "work",
+      "basis": "《阿伽门农》中，埃癸斯托斯以家族仇怨为名参与夺权，把旧日受害的记忆变成今日统治的理由。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-orestes",
+      "name": "俄瑞斯忒斯",
+      "dimension": "配角",
+      "sourcePlayLabel": "古希腊悲剧人物，见《奠酒人》、《厄勒克特拉》等",
+      "sourcePlayIds": [
+        "yplay-crossroads",
+        "yplay-drunken"
+      ],
+      "sourceTitles": [
+        "奠酒人",
+        "厄勒克特拉"
+      ],
+      "sourceKind": "tradition",
+      "basis": "俄瑞斯忒斯为父报仇而杀死母亲，随后被亲缘、神命与罪责的冲突追逐。",
+      "review": "依角色和剧情核对"
+    },
+    {
+      "id": "role2-pylades",
+      "name": "皮拉得斯",
+      "dimension": "配角",
+      "sourcePlayLabel": "古希腊悲剧人物，见《奠酒人》等",
+      "sourcePlayIds": [
+        "yplay-crossroads"
+      ],
+      "sourceTitles": [
+        "奠酒人"
+      ],
+      "sourceKind": "tradition",
+      "basis": "希腊悲剧中的皮拉得斯是俄瑞斯忒斯的朋友与同行者，在迟疑的关口提醒他未完成的使命。",
+      "review": "依角色和剧情核对"
+    },
+    {
+      "id": "role2-glauce",
+      "name": "格劳刻",
+      "dimension": "配角",
+      "sourcePlayLabel": "《美狄亚》",
+      "sourcePlayIds": [
+        "play-medea"
+      ],
+      "sourceTitles": [
+        "美狄亚"
+      ],
+      "sourceKind": "work",
+      "basis": "《美狄亚》中，格劳刻是伊阿宋的新婚妻子，她接受的婚礼赠礼成为报复进入王宫的途径。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-medea-nurse",
+      "name": "美狄亚的乳母",
+      "dimension": "配角",
+      "sourcePlayLabel": "《美狄亚》",
+      "sourcePlayIds": [
+        "play-medea"
+      ],
+      "sourceTitles": [
+        "美狄亚"
+      ],
+      "sourceKind": "work",
+      "basis": "《美狄亚》中，乳母熟知女主人的伤痛与性情，最早察觉愤怒将越过可以挽回的界限。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-aegeus",
+      "name": "埃勾斯",
+      "dimension": "配角",
+      "sourcePlayLabel": "《美狄亚》",
+      "sourcePlayIds": [
+        "play-medea"
+      ],
+      "sourceTitles": [
+        "美狄亚"
+      ],
+      "sourceKind": "work",
+      "basis": "《美狄亚》中，雅典国王埃勾斯承诺给美狄亚庇护，他的誓言为她留下了事后的去处。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-martha-misunderstanding",
+      "name": "玛尔塔",
+      "dimension": "配角",
+      "sourcePlayLabel": "《误会》",
+      "sourcePlayIds": [
+        "play-v21-malentendu"
+      ],
+      "sourceTitles": [
+        "误会"
+      ],
+      "sourceKind": "work",
+      "basis": "加缪《误会》中，玛尔塔与母亲经营旅店并谋财杀客，却未认出归来试图与家人相认的兄长。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-kristine-linde",
+      "name": "林丹太太",
+      "dimension": "配角",
+      "sourcePlayLabel": "《玩偶之家》",
+      "sourcePlayIds": [
+        "play-doll"
+      ],
+      "sourceTitles": [
+        "玩偶之家"
+      ],
+      "sourceKind": "work",
+      "basis": "《玩偶之家》中，林丹太太在经历谋生与丧失后重逢柯洛克斯泰，也拒绝再让娜拉的婚姻靠隐瞒维持。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-doctor-rank",
+      "name": "阮克医生",
+      "dimension": "配角",
+      "sourcePlayLabel": "《玩偶之家》",
+      "sourcePlayIds": [
+        "play-doll"
+      ],
+      "sourceTitles": [
+        "玩偶之家"
+      ],
+      "sourceKind": "work",
+      "basis": "《玩偶之家》中，阮克医生常来海尔茂家中，以礼貌掩住病痛，也向娜拉说出长期未明言的感情。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-krogstad",
+      "name": "柯洛克斯泰",
+      "dimension": "配角",
+      "sourcePlayLabel": "《玩偶之家》",
+      "sourcePlayIds": [
+        "play-doll"
+      ],
+      "sourceTitles": [
+        "玩偶之家"
+      ],
+      "sourceKind": "work",
+      "basis": "《玩偶之家》中，柯洛克斯泰握有娜拉伪造签名的秘密，试图借此保住工作与重新被社会接纳的机会。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-duval-father",
+      "name": "杜瓦先生",
+      "dimension": "配角",
+      "sourcePlayLabel": "《茶花女》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "茶花女"
+      ],
+      "sourceKind": "work",
+      "basis": "《茶花女》中，杜瓦先生以父亲和家庭名誉的身份请求玛格丽特离开阿尔芒，把牺牲交给更难获得体面的人。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-lopakhin",
+      "name": "洛巴辛",
+      "dimension": "配角",
+      "sourcePlayLabel": "《樱桃园》",
+      "sourcePlayIds": [
+        "play-cherry"
+      ],
+      "sourceTitles": [
+        "樱桃园"
+      ],
+      "sourceKind": "work",
+      "basis": "《樱桃园》中，洛巴辛提出把庄园分租为避暑地的办法，最终亲自拍下曾属于农奴主的土地。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-gayev",
+      "name": "加耶夫",
+      "dimension": "配角",
+      "sourcePlayLabel": "《樱桃园》",
+      "sourcePlayIds": [
+        "play-cherry"
+      ],
+      "sourceTitles": [
+        "樱桃园"
+      ],
+      "sourceKind": "work",
+      "basis": "《樱桃园》中，加耶夫依恋庄园与旧生活，常用演说和台球术语躲开已经逼近的现实。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-varya",
+      "name": "瓦里雅",
+      "dimension": "配角",
+      "sourcePlayLabel": "《樱桃园》",
+      "sourcePlayIds": [
+        "play-cherry"
+      ],
+      "sourceTitles": [
+        "樱桃园"
+      ],
+      "sourceKind": "work",
+      "basis": "《樱桃园》中，瓦里雅操持庄园日常，也等待洛巴辛说出始终没有说出的求婚。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-anya-cherry",
+      "name": "安妮娅",
+      "dimension": "配角",
+      "sourcePlayLabel": "《樱桃园》",
+      "sourcePlayIds": [
+        "play-cherry"
+      ],
+      "sourceTitles": [
+        "樱桃园"
+      ],
+      "sourceKind": "work",
+      "basis": "《樱桃园》中，安妮娅在庄园失去之际仍向往新的生活，以尚未耗尽的希望陪伴母亲。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-trofimov",
+      "name": "特罗费莫夫",
+      "dimension": "配角",
+      "sourcePlayLabel": "《樱桃园》",
+      "sourcePlayIds": [
+        "play-cherry"
+      ],
+      "sourceTitles": [
+        "樱桃园"
+      ],
+      "sourceKind": "work",
+      "basis": "《樱桃园》中，特罗费莫夫以永远的学生身份批判旧生活，向安妮娅讲述劳动与未来。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-serebryakov",
+      "name": "谢列布里亚科夫",
+      "dimension": "配角",
+      "sourcePlayLabel": "《万尼亚舅舅》",
+      "sourcePlayIds": [
+        "xplay-vanya"
+      ],
+      "sourceTitles": [
+        "万尼亚舅舅"
+      ],
+      "sourceKind": "work",
+      "basis": "《万尼亚舅舅》中，退休教授谢列布里亚科夫回到庄园，提出出售土地的打算，激起长期为他劳作的人的愤怒。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-sonya",
+      "name": "索尼娅",
+      "dimension": "配角",
+      "sourcePlayLabel": "《万尼亚舅舅》",
+      "sourcePlayIds": [
+        "xplay-vanya"
+      ],
+      "sourceTitles": [
+        "万尼亚舅舅"
+      ],
+      "sourceKind": "work",
+      "basis": "《万尼亚舅舅》中，索尼娅守着庄园的劳动，也承受阿斯特罗夫不曾回应的爱。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-yelena",
+      "name": "叶列娜",
+      "dimension": "配角",
+      "sourcePlayLabel": "《万尼亚舅舅》",
+      "sourcePlayIds": [
+        "xplay-vanya"
+      ],
+      "sourceTitles": [
+        "万尼亚舅舅"
+      ],
+      "sourceKind": "work",
+      "basis": "《万尼亚舅舅》中，叶列娜随年长的丈夫来到庄园，她的美与无所事事扰动了压抑已久的感情。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-olga",
+      "name": "奥尔加",
+      "dimension": "配角",
+      "sourcePlayLabel": "《三姐妹》",
+      "sourcePlayIds": [
+        "play-sisters"
+      ],
+      "sourceTitles": [
+        "三姐妹"
+      ],
+      "sourceKind": "work",
+      "basis": "《三姐妹》中，奥尔加承担教师的工作和长姐的责任，照料家人时也不断失去自己的时间。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-irina",
+      "name": "伊里娜",
+      "dimension": "配角",
+      "sourcePlayLabel": "《三姐妹》",
+      "sourcePlayIds": [
+        "play-sisters"
+      ],
+      "sourceTitles": [
+        "三姐妹"
+      ],
+      "sourceKind": "work",
+      "basis": "《三姐妹》中，伊里娜渴望工作与有意义的生活，却在现实劳动和未能实现的爱情中不断受挫。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-tuzenbach",
+      "name": "图森巴赫",
+      "dimension": "配角",
+      "sourcePlayLabel": "《三姐妹》",
+      "sourcePlayIds": [
+        "play-sisters"
+      ],
+      "sourceTitles": [
+        "三姐妹"
+      ],
+      "sourceKind": "work",
+      "basis": "《三姐妹》中，图森巴赫向往劳动，也爱着伊里娜，在即将开始新生活前死于决斗。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-solyony",
+      "name": "索列尼",
+      "dimension": "配角",
+      "sourcePlayLabel": "《三姐妹》",
+      "sourcePlayIds": [
+        "play-sisters"
+      ],
+      "sourceTitles": [
+        "三姐妹"
+      ],
+      "sourceKind": "work",
+      "basis": "《三姐妹》中，索列尼用冷僻的谈吐和挑衅包裹自己的感情，把无法得到的回应推向致命决斗。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-vershinin",
+      "name": "韦尔希宁",
+      "dimension": "配角",
+      "sourcePlayLabel": "《三姐妹》",
+      "sourcePlayIds": [
+        "play-sisters"
+      ],
+      "sourceTitles": [
+        "三姐妹"
+      ],
+      "sourceKind": "work",
+      "basis": "《三姐妹》中，韦尔希宁谈论遥远未来的幸福，也与玛莎相爱，却仍被现有家庭和军旅生活牵住。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-andrei-three-sisters",
+      "name": "安德烈（三姐妹）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《三姐妹》",
+      "sourcePlayIds": [
+        "play-sisters"
+      ],
+      "sourceTitles": [
+        "三姐妹"
+      ],
+      "sourceKind": "work",
+      "basis": "《三姐妹》中，安德烈曾寄托全家的学术期待，后来陷于婚姻、赌债和日益狭窄的生活。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-treplev",
+      "name": "特里波列夫",
+      "dimension": "配角",
+      "sourcePlayLabel": "《海鸥》",
+      "sourcePlayIds": [
+        "xplay-seagull"
+      ],
+      "sourceTitles": [
+        "海鸥"
+      ],
+      "sourceKind": "work",
+      "basis": "《海鸥》中，特里波列夫追求新的戏剧形式，也渴望母亲与尼娜承认他的爱和作品。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-arkadina",
+      "name": "阿尔卡季娜",
+      "dimension": "配角",
+      "sourcePlayLabel": "《海鸥》",
+      "sourcePlayIds": [
+        "xplay-seagull"
+      ],
+      "sourceTitles": [
+        "海鸥"
+      ],
+      "sourceKind": "work",
+      "basis": "《海鸥》中，阿尔卡季娜是一位成名演员，她珍惜舞台上的光，也害怕儿子与情人使自己的位置失去稳固。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-nina",
+      "name": "尼娜",
+      "dimension": "配角",
+      "sourcePlayLabel": "《海鸥》",
+      "sourcePlayIds": [
+        "xplay-seagull"
+      ],
+      "sourceTitles": [
+        "海鸥"
+      ],
+      "sourceKind": "work",
+      "basis": "《海鸥》中，尼娜怀着成名愿望离开家乡，经历爱情破裂与职业困顿后，仍选择继续做演员。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-trigorin",
+      "name": "特里戈林",
+      "dimension": "配角",
+      "sourcePlayLabel": "《海鸥》",
+      "sourcePlayIds": [
+        "xplay-seagull"
+      ],
+      "sourceTitles": [
+        "海鸥"
+      ],
+      "sourceKind": "work",
+      "basis": "《海鸥》中，特里戈林是成名作家，他不断把生活记录为素材，也把尼娜的爱卷进自己的犹疑。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-luka",
+      "name": "路加",
+      "dimension": "配角",
+      "sourcePlayLabel": "《底层》",
+      "sourcePlayIds": [
+        "yplay-lower"
+      ],
+      "sourceTitles": [
+        "底层"
+      ],
+      "sourceKind": "work",
+      "basis": "《底层》中，流浪老人路加以安慰回应穷困者的绝望，却也把真假难辨的希望留给他们。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-pepel",
+      "name": "佩佩尔",
+      "dimension": "配角",
+      "sourcePlayLabel": "《底层》",
+      "sourcePlayIds": [
+        "yplay-lower"
+      ],
+      "sourceTitles": [
+        "底层"
+      ],
+      "sourceKind": "work",
+      "basis": "《底层》中，佩佩尔在偷盗与贫困中生活，渴望与娜塔莎离开旧处境，却被暴力和纠葛重新拉住。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-mayor-inspector",
+      "name": "市长（钦差大臣）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《钦差大臣》",
+      "sourcePlayIds": [
+        "yplay-inspector"
+      ],
+      "sourceTitles": [
+        "钦差大臣"
+      ],
+      "sourceKind": "work",
+      "basis": "《钦差大臣》中，市长把一个普通旅客误认成上级密使，忙于行贿遮掩，却把自己的腐败逐件送到对方面前。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-kabanova",
+      "name": "卡巴诺娃",
+      "dimension": "配角",
+      "sourcePlayLabel": "《大雷雨》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "大雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "《大雷雨》中，卡巴诺娃以母亲与家法的名义支配儿子的家庭，把服从当作亲情必须呈现的形状。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-tikhon",
+      "name": "吉洪",
+      "dimension": "配角",
+      "sourcePlayLabel": "《大雷雨》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "大雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "《大雷雨》中，吉洪在母亲卡巴诺娃的权威下生活，对妻子的爱总被顺从截断。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-boris-storm",
+      "name": "鲍里斯（大雷雨）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《大雷雨》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "大雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "《大雷雨》中，鲍里斯与卡捷琳娜相爱，却仍受财产与长辈权力牵制。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-hippolytus",
+      "name": "希波吕托斯",
+      "dimension": "配角",
+      "sourcePlayLabel": "《费德尔》",
+      "sourcePlayIds": [
+        "yplay-phedre"
+      ],
+      "sourceTitles": [
+        "费德尔"
+      ],
+      "sourceKind": "work",
+      "basis": "拉辛《费德尔》中，希波吕托斯卷入继母的欲望与父亲的误判，清白没有使他免于毁灭。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-oenone",
+      "name": "俄诺涅",
+      "dimension": "配角",
+      "sourcePlayLabel": "《费德尔》",
+      "sourcePlayIds": [
+        "yplay-phedre"
+      ],
+      "sourceTitles": [
+        "费德尔"
+      ],
+      "sourceKind": "work",
+      "basis": "《费德尔》中，乳母俄诺涅为了保全女主人，替不能承认的欲望寻找说法。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-theseus",
+      "name": "忒修斯",
+      "dimension": "配角",
+      "sourcePlayLabel": "《费德尔》",
+      "sourcePlayIds": [
+        "yplay-phedre"
+      ],
+      "sourceTitles": [
+        "费德尔"
+      ],
+      "sourceKind": "work",
+      "basis": "《费德尔》中，归来的忒修斯听信指控，把父亲的愤怒变成对儿子的判决。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-clov",
+      "name": "克洛夫",
+      "dimension": "配角",
+      "sourcePlayLabel": "《终局》",
+      "sourcePlayIds": [
+        "yplay-endgame"
+      ],
+      "sourceTitles": [
+        "终局"
+      ],
+      "sourceKind": "work",
+      "basis": "贝克特《终局》中，克洛夫照料不能行动的汉姆，不断谈论离开，却始终受彼此的依赖牵制。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-nagg",
+      "name": "纳格",
+      "dimension": "配角",
+      "sourcePlayLabel": "《终局》",
+      "sourcePlayIds": [
+        "yplay-endgame"
+      ],
+      "sourceTitles": [
+        "终局"
+      ],
+      "sourceKind": "work",
+      "basis": "《终局》中，汉姆的父亲纳格困在垃圾桶里，用旧故事与索取维持和他人的联系。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-nell",
+      "name": "奈尔",
+      "dimension": "配角",
+      "sourcePlayLabel": "《终局》",
+      "sourcePlayIds": [
+        "yplay-endgame"
+      ],
+      "sourceTitles": [
+        "终局"
+      ],
+      "sourceKind": "work",
+      "basis": "《终局》中，奈尔与纳格隔着各自的垃圾桶回忆旧日，亲密仍在，身体却难以靠近。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-jean-rhinoceros",
+      "name": "让（犀牛）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《犀牛》",
+      "sourcePlayIds": [
+        "xplay-rhino"
+      ],
+      "sourceTitles": [
+        "犀牛"
+      ],
+      "sourceKind": "work",
+      "basis": "尤奈斯库《犀牛》中，让起初以规矩责备贝兰杰，后来自己也走向兽化。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-fire-chief",
+      "name": "消防队长",
+      "dimension": "配角",
+      "sourcePlayLabel": "《秃头歌女》",
+      "sourcePlayIds": [
+        "xplay-bald"
+      ],
+      "sourceTitles": [
+        "秃头歌女"
+      ],
+      "sourceKind": "work",
+      "basis": "《秃头歌女》中，消防队长进入史密斯家的谈话，以故事和公务加入失去逻辑的交际。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-claire-maids",
+      "name": "克莱尔（女仆）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《女仆》",
+      "sourcePlayIds": [
+        "play-v21-maids"
+      ],
+      "sourceTitles": [
+        "女仆"
+      ],
+      "sourceKind": "work",
+      "basis": "热内《女仆》中，克莱尔与索朗日扮演女主人与女仆，在模仿、憎恨和欲望中越陷越深。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-solange",
+      "name": "索朗日",
+      "dimension": "配角",
+      "sourcePlayLabel": "《女仆》",
+      "sourcePlayIds": [
+        "play-v21-maids"
+      ],
+      "sourceTitles": [
+        "女仆"
+      ],
+      "sourceKind": "work",
+      "basis": "《女仆》中，索朗日与妹妹克莱尔共同编织对女主人的反抗，照料与怨恨从未真正分开。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-lu-dahai",
+      "name": "鲁大海",
+      "dimension": "配角",
+      "sourcePlayLabel": "《雷雨》",
+      "sourcePlayIds": [
+        "play-thunder"
+      ],
+      "sourceTitles": [
+        "雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "《雷雨》中，工人鲁大海与周朴园当面对峙，劳资冲突背后还藏着未被他知晓的父子关系。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-lu-gui",
+      "name": "鲁贵",
+      "dimension": "配角",
+      "sourcePlayLabel": "《雷雨》",
+      "sourcePlayIds": [
+        "play-thunder"
+      ],
+      "sourceTitles": [
+        "雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "《雷雨》中，鲁贵依附周家谋生，也把身边人的隐私当作可以交换的筹码。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-pan-yueting",
+      "name": "潘月亭",
+      "dimension": "配角",
+      "sourcePlayLabel": "《日出》",
+      "sourcePlayIds": [
+        "play-sunrise"
+      ],
+      "sourceTitles": [
+        "日出"
+      ],
+      "sourceKind": "work",
+      "basis": "《日出》中，银行家潘月亭的阔绰依靠金钱运转，财富的危机也随时会拆掉他的体面。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-li-shiqing",
+      "name": "李石清",
+      "dimension": "配角",
+      "sourcePlayLabel": "《日出》",
+      "sourcePlayIds": [
+        "play-sunrise"
+      ],
+      "sourceTitles": [
+        "日出"
+      ],
+      "sourceKind": "work",
+      "basis": "《日出》中，李石清在银行的等级秩序里钻营，向上求位置，也向下施加自己受过的压力。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-huang-shengsan",
+      "name": "黄省三",
+      "dimension": "配角",
+      "sourcePlayLabel": "《日出》",
+      "sourcePlayIds": [
+        "play-sunrise"
+      ],
+      "sourceTitles": [
+        "日出"
+      ],
+      "sourceKind": "work",
+      "basis": "《日出》中，被银行辞退的黄省三为养活家人苦苦求情，生计的断裂把他逼向绝境。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-fang-dasheng",
+      "name": "方达生",
+      "dimension": "配角",
+      "sourcePlayLabel": "《日出》",
+      "sourcePlayIds": [
+        "play-sunrise"
+      ],
+      "sourceTitles": [
+        "日出"
+      ],
+      "sourceKind": "work",
+      "basis": "《日出》中，方达生想带陈白露离开她所处的生活，却难以真正抵达她承受的处境。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-cui-xi",
+      "name": "翠喜",
+      "dimension": "配角",
+      "sourcePlayLabel": "《日出》",
+      "sourcePlayIds": [
+        "play-sunrise"
+      ],
+      "sourceTitles": [
+        "日出"
+      ],
+      "sourceKind": "work",
+      "basis": "《日出》中，翠喜在受欺压的生活里仍护着更弱小的人，疲惫没有耗尽她的怜惜。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-jiao-mother",
+      "name": "焦母",
+      "dimension": "配角",
+      "sourcePlayLabel": "《原野》",
+      "sourcePlayIds": [
+        "play-yuanye"
+      ],
+      "sourceTitles": [
+        "原野"
+      ],
+      "sourceKind": "work",
+      "basis": "《原野》中，焦母以母亲与家长的身份守住焦家，对金子的控制与对家族命运的恐惧纠缠在一起。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-jiao-daxing",
+      "name": "焦大星",
+      "dimension": "配角",
+      "sourcePlayLabel": "《原野》",
+      "sourcePlayIds": [
+        "play-yuanye"
+      ],
+      "sourceTitles": [
+        "原野"
+      ],
+      "sourceKind": "work",
+      "basis": "《原野》中，焦大星夹在母亲、妻子与归来的仇虎之间，想守住关系却难以阻止旧仇进入家门。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-bai-shazi",
+      "name": "白傻子",
+      "dimension": "配角",
+      "sourcePlayLabel": "《原野》",
+      "sourcePlayIds": [
+        "play-yuanye"
+      ],
+      "sourceTitles": [
+        "原野"
+      ],
+      "sourceKind": "work",
+      "basis": "《原野》中，白傻子出现在复仇与恐惧的世界边缘，以异于常人的言行照见周围人的不安。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-zeng-wenqing",
+      "name": "曾文清",
+      "dimension": "配角",
+      "sourcePlayLabel": "《北京人》",
+      "sourcePlayIds": [
+        "play-beijing"
+      ],
+      "sourceTitles": [
+        "北京人"
+      ],
+      "sourceKind": "work",
+      "basis": "《北京人》中，曾文清被衰败的家庭养成迟缓而无力的人，想离开旧生活，却难以真正开始新的生活。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-zeng-siyi",
+      "name": "曾思懿",
+      "dimension": "配角",
+      "sourcePlayLabel": "《北京人》",
+      "sourcePlayIds": [
+        "play-beijing"
+      ],
+      "sourceTitles": [
+        "北京人"
+      ],
+      "sourceKind": "work",
+      "basis": "《北京人》中，曾思懿以能干和管束维持曾家的日常，也把这份维持变成对他人的控制。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-zeng-hao",
+      "name": "曾皓",
+      "dimension": "配角",
+      "sourcePlayLabel": "《北京人》",
+      "sourcePlayIds": [
+        "play-beijing"
+      ],
+      "sourceTitles": [
+        "北京人"
+      ],
+      "sourceKind": "work",
+      "basis": "《北京人》中，曾皓执守衰落家族的体面，把儿孙的生活与自己对死亡的准备一并纳入掌控。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-ruizhen",
+      "name": "瑞贞",
+      "dimension": "配角",
+      "sourcePlayLabel": "《北京人》",
+      "sourcePlayIds": [
+        "play-beijing"
+      ],
+      "sourceTitles": [
+        "北京人"
+      ],
+      "sourceKind": "work",
+      "basis": "《北京人》中，年轻的瑞贞在曾家的沉闷秩序里逐渐看清自己的处境，并尝试为生活寻找出口。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-qin-zhongyi",
+      "name": "秦仲义",
+      "dimension": "配角",
+      "sourcePlayLabel": "《茶馆》",
+      "sourcePlayIds": [
+        "play-teahouse"
+      ],
+      "sourceTitles": [
+        "茶馆"
+      ],
+      "sourceKind": "work",
+      "basis": "《茶馆》中，秦仲义抱着实业救国的愿望经营工厂，最终也被时代的力量夺去多年积累。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-song-erye",
+      "name": "松二爷",
+      "dimension": "配角",
+      "sourcePlayLabel": "《茶馆》",
+      "sourcePlayIds": [
+        "play-teahouse"
+      ],
+      "sourceTitles": [
+        "茶馆"
+      ],
+      "sourceKind": "work",
+      "basis": "《茶馆》中，松二爷依恋旧日体面与闲适，时代换了规矩，他却难以找到新的谋生方式。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-liu-mazi",
+      "name": "刘麻子",
+      "dimension": "配角",
+      "sourcePlayLabel": "《茶馆》",
+      "sourcePlayIds": [
+        "play-teahouse"
+      ],
+      "sourceTitles": [
+        "茶馆"
+      ],
+      "sourceKind": "work",
+      "basis": "《茶馆》中，刘麻子把人口与婚姻当成买卖，以中间人的口舌把苦难换成佣钱。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-kang-shunzi",
+      "name": "康顺子",
+      "dimension": "配角",
+      "sourcePlayLabel": "《茶馆》",
+      "sourcePlayIds": [
+        "play-teahouse"
+      ],
+      "sourceTitles": [
+        "茶馆"
+      ],
+      "sourceKind": "work",
+      "basis": "《茶馆》中，康顺子从被迫出卖的姑娘走到艰难谋生的母亲，个人命运穿过了茶馆见证的动荡年代。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-liu-siye",
+      "name": "刘四爷",
+      "dimension": "配角",
+      "sourcePlayLabel": "《骆驼祥子》",
+      "sourcePlayIds": [
+        "xplay-camel"
+      ],
+      "sourceTitles": [
+        "骆驼祥子"
+      ],
+      "sourceKind": "work",
+      "basis": "话剧《骆驼祥子》中的车厂主人刘四爷把生意、家产与女儿的婚事都看成自己应当掌握的秩序。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-xiao-fuzi",
+      "name": "小福子",
+      "dimension": "配角",
+      "sourcePlayLabel": "《骆驼祥子》",
+      "sourcePlayIds": [
+        "xplay-camel"
+      ],
+      "sourceTitles": [
+        "骆驼祥子"
+      ],
+      "sourceKind": "work",
+      "basis": "话剧《骆驼祥子》中，小福子在贫困与家庭负担中艰难求生，与祥子之间的希望也被生计层层逼窄。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-kuang-fu",
+      "name": "匡复",
+      "dimension": "配角",
+      "sourcePlayLabel": "《上海屋檐下》",
+      "sourcePlayIds": [
+        "yplay-eaves"
+      ],
+      "sourceTitles": [
+        "上海屋檐下"
+      ],
+      "sourceKind": "work",
+      "basis": "《上海屋檐下》中，出狱归来的匡复发现妻子杨彩玉已与好友林志成共同生活，团聚成了无人愿意伤害的难题。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-yang-caiyu",
+      "name": "杨彩玉",
+      "dimension": "配角",
+      "sourcePlayLabel": "《上海屋檐下》",
+      "sourcePlayIds": [
+        "yplay-eaves"
+      ],
+      "sourceTitles": [
+        "上海屋檐下"
+      ],
+      "sourceKind": "work",
+      "basis": "《上海屋檐下》中，杨彩玉在生计与等待中建立了新的家庭，匡复归来后，她必须面对两段都真实存在的关系。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-lin-zhicheng",
+      "name": "林志成",
+      "dimension": "配角",
+      "sourcePlayLabel": "《上海屋檐下》",
+      "sourcePlayIds": [
+        "yplay-eaves"
+      ],
+      "sourceTitles": [
+        "上海屋檐下"
+      ],
+      "sourceKind": "work",
+      "basis": "《上海屋檐下》中，林志成照顾好友留下的妻女并与杨彩玉成家，匡复归来后，友情与现有家庭同时向他提出要求。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-huang-jiamei",
+      "name": "黄家楣",
+      "dimension": "配角",
+      "sourcePlayLabel": "《上海屋檐下》",
+      "sourcePlayIds": [
+        "yplay-eaves"
+      ],
+      "sourceTitles": [
+        "上海屋檐下"
+      ],
+      "sourceKind": "work",
+      "basis": "《上海屋檐下》中，失业的大学毕业生黄家楣想在来探望的父亲面前维持生活安稳的样子。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-qi-yongnian",
+      "name": "祁永年",
+      "dimension": "配角",
+      "sourcePlayLabel": "《狗儿爷涅槃》",
+      "sourcePlayIds": [
+        "xplay-doggy"
+      ],
+      "sourceTitles": [
+        "狗儿爷涅槃"
+      ],
+      "sourceKind": "work",
+      "basis": "《狗儿爷涅槃》中，地主祁永年既是狗儿爷旧日的对头，也以挥之不去的形象盘踞在他的记忆里。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-xiu-dingxin",
+      "name": "修鼎新",
+      "dimension": "配角",
+      "sourcePlayLabel": "《天下第一楼》",
+      "sourcePlayIds": [
+        "xplay-lou"
+      ],
+      "sourceTitles": [
+        "天下第一楼"
+      ],
+      "sourceKind": "work",
+      "basis": "《天下第一楼》中，修鼎新熟悉旧京饮食与人情，清楚地看见福聚德的兴盛如何被各方私心消耗。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-xia-professor",
+      "name": "夏教授",
+      "dimension": "配角",
+      "sourcePlayLabel": "《蒋公的面子》",
+      "sourcePlayIds": [
+        "yplay-jiang"
+      ],
+      "sourceTitles": [
+        "蒋公的面子"
+      ],
+      "sourceKind": "work",
+      "basis": "《蒋公的面子》中，夏小山在赴宴之争里以饮食、麻将与日常趣味打断两位同事的道德较量。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-shi-professor",
+      "name": "时教授",
+      "dimension": "配角",
+      "sourcePlayLabel": "《蒋公的面子》",
+      "sourcePlayIds": [
+        "yplay-jiang"
+      ],
+      "sourceTitles": [
+        "蒋公的面子"
+      ],
+      "sourceKind": "work",
+      "basis": "《蒋公的面子》中，时任道把是否赴宴看成知识分子的立场问题，却也无法让个人处境退出这场判断。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-heizi-signal",
+      "name": "黑子（绝对信号）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《绝对信号》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "绝对信号"
+      ],
+      "sourceKind": "work",
+      "basis": "《绝对信号》中，待业青年黑子被车匪诱入险境，在旧友、爱人与责任的呼唤之间重新作出选择。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-mifeng",
+      "name": "蜜蜂",
+      "dimension": "配角",
+      "sourcePlayLabel": "《绝对信号》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "绝对信号"
+      ],
+      "sourceKind": "work",
+      "basis": "《绝对信号》中，蜜蜂与黑子相爱，她对他的担忧使车厢里的危险同时成为一段关系的考验。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-train-conductor",
+      "name": "车长",
+      "dimension": "配角",
+      "sourcePlayLabel": "《绝对信号》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "绝对信号"
+      ],
+      "sourceKind": "work",
+      "basis": "《绝对信号》中，老车长以经验守护列车安全，也在危机里辨认青年人的迷失与转圜。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role2-messenger",
+      "name": "信使",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "信使把远处已经发生的事带到眼前，自己未必能够决定消息将伤害谁。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-neighbor",
+      "name": "邻人",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "邻人知道一墙之隔的日常，也在介入与不愿惹事之间衡量自己的位置。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-witness",
+      "name": "见证者",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "见证者带着亲眼所见进入争执，却必须承担把看见的事说出来之后的后果。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-interrogator",
+      "name": "审问者",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "审问者控制问题的顺序，也可能把自己预先相信的答案藏进每一次追问。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-former-lover",
+      "name": "旧情人",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "旧情人带着共同生活留下的细节归来，使眼前的关系不能再假装过去从未发生。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-creditor",
+      "name": "债主",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "债主拿着一份尚未兑现的承诺，把过去的求助变成今天必须应答的期限。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-spy",
+      "name": "密探",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "密探在别人的信任里完成自己的任务，越像朋友，真实身份揭开时越难被原谅。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-clerk",
+      "name": "书记官",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "书记官把众人的话记成可以流传的文字，一次取舍也可能改变事情被记住的样子。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-landlord",
+      "name": "房东",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "房东握着一处居所的钥匙，把生活的安定与契约、期限和租金连在一起。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-rival-lover",
+      "name": "情敌",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "情敌并不只争夺一个人的爱，也迫使彼此看见自己曾经当作唯一的愿望。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-stepmother",
+      "name": "继母",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "继母进入一个已经有历史的家庭，新的亲近总要经过旧日称呼与忠诚的衡量。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-visitor",
+      "name": "来客",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "来客带着屋外的秩序进入一处熟悉的生活，主人必须重新决定什么可以被看见。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-deserter",
+      "name": "逃兵",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "逃兵离开了集体要求他守住的位置，带着求生、羞耻与无法轻易解释的决定寻找容身之处。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-news-child",
+      "name": "报讯的孩子",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "报讯的孩子替大人传递一件重要的事，却可能尚未理解消息在听者心中的重量。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-former-wife",
+      "name": "前妻",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "前妻拥有共同生活的记忆，却不再拥有原先的身份，重逢使新的界线与旧的熟悉同时显形。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-protector",
+      "name": "庇护人",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "庇护人替陷入危险的人留下容身之处，也必须承担把对方接进自己生活的风险。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role2-mourner",
+      "name": "送葬人",
+      "dimension": "配角",
+      "sourcePlayLabel": "角色类型，非特定原作",
+      "sourcePlayIds": [],
+      "sourceTitles": [],
+      "sourceKind": "generic",
+      "basis": "送葬人陪伴一个生命离开公共的世界，也在仪式中面对自己与死者尚未说完的关系。",
+      "review": "角色类型，非特定原作"
+    },
+    {
+      "id": "role-v21-othello",
+      "name": "奥赛罗",
+      "dimension": "主演",
+      "sourcePlayLabel": "《奥赛罗》",
+      "sourcePlayIds": [
+        "play-othello"
+      ],
+      "sourceTitles": [
+        "奥赛罗"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚笔下的奥赛罗是受人敬重的将领，却在伊阿古的诱导下把嫉妒误认作证据。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "role-v21-unclevanya",
+      "name": "瓦尼亚舅舅",
+      "dimension": "主演",
+      "sourcePlayLabel": "《万尼亚舅舅》",
+      "sourcePlayIds": [
+        "xplay-vanya"
+      ],
+      "sourceTitles": [
+        "万尼亚舅舅"
+      ],
+      "sourceKind": "work",
+      "basis": "契诃夫笔下的瓦尼亚把多年劳动交给他所崇敬的人，迟来的失望迫使他重新面对被耗去的人生。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "role-v21-astrov",
+      "name": "阿斯特罗夫",
+      "dimension": "主演",
+      "sourcePlayLabel": "《万尼亚舅舅》",
+      "sourcePlayIds": [
+        "xplay-vanya"
+      ],
+      "sourceTitles": [
+        "万尼亚舅舅"
+      ],
+      "sourceKind": "work",
+      "basis": "契诃夫《万尼亚舅舅》中的医生阿斯特罗夫在疲惫的日常里关切森林与未来，也渴望被眼前的人理解。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-v21-berenger",
+      "name": "贝兰杰",
+      "dimension": "主演",
+      "sourcePlayLabel": "《犀牛》",
+      "sourcePlayIds": [
+        "xplay-rhino"
+      ],
+      "sourceTitles": [
+        "犀牛"
+      ],
+      "sourceKind": "work",
+      "basis": "尤奈斯库《犀牛》中的贝兰杰看着周围的人陆续变成犀牛，在孤立中仍试图保留人的身份。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-v21-katerina",
+      "name": "卡捷琳娜",
+      "dimension": "主演",
+      "sourcePlayLabel": "《大雷雨》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "大雷雨"
+      ],
+      "sourceKind": "work",
+      "basis": "奥斯特洛夫斯基《大雷雨》中的卡捷琳娜在压抑的家庭秩序与爱情欲望之间挣扎，信仰又使秘密难以承受。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-v21-phedre",
+      "name": "费德尔",
+      "dimension": "主演",
+      "sourcePlayLabel": "《费德尔》",
+      "sourcePlayIds": [
+        "yplay-phedre"
+      ],
+      "sourceTitles": [
+        "费德尔"
+      ],
+      "sourceKind": "work",
+      "basis": "拉辛笔下的费德尔爱上丈夫之子希波吕托斯，在羞耻、欲望与权力之间把沉默推向灾难。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "role-v21-margueritecamellia",
+      "name": "玛格丽特（茶花女）",
+      "dimension": "主演",
+      "sourcePlayLabel": "《茶花女》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "茶花女"
+      ],
+      "sourceKind": "work",
+      "basis": "小仲马《茶花女》中的玛格丽特在爱情与社会偏见之间作出牺牲，却不能让自己的选择得到及时理解。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-v21-antony",
+      "name": "安东尼",
+      "dimension": "主演",
+      "sourcePlayLabel": "《安东尼与克莉奥佩特拉》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "安东尼与克莉奥佩特拉"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚《安东尼与克莉奥佩特拉》中的安东尼在政治责任、军事荣誉与爱情之间不断失去平衡。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-v21-volumnia",
+      "name": "伏伦妮娅",
+      "dimension": "主演",
+      "sourcePlayLabel": "《科利奥兰纳斯》",
+      "sourcePlayIds": [],
+      "sourceTitles": [
+        "科利奥兰纳斯"
+      ],
+      "sourceKind": "work",
+      "basis": "莎士比亚《科利奥兰纳斯》中的伏伦妮娅以母亲的权威塑造儿子的荣誉，也以母亲的恳求改变他的行动。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-v21-caligularole",
+      "name": "卡利古拉",
+      "dimension": "主演",
+      "sourcePlayLabel": "《卡利古拉》",
+      "sourcePlayIds": [
+        "play-v21-caligula"
+      ],
+      "sourceTitles": [
+        "卡利古拉"
+      ],
+      "sourceKind": "work",
+      "basis": "加缪笔下的卡利古拉把死亡带来的觉悟推成绝对意志，以皇帝的权力强迫别人参与他的荒诞实验。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "role-v21-marytyrone",
+      "name": "玛丽·泰隆",
+      "dimension": "主演",
+      "sourcePlayLabel": "《进入黑夜的漫长旅程》",
+      "sourcePlayIds": [
+        "xplay-longday"
+      ],
+      "sourceTitles": [
+        "进入黑夜的漫长旅程"
+      ],
+      "sourceKind": "work",
+      "basis": "奥尼尔《进入黑夜的漫长旅程》中的玛丽·泰隆在家庭往事与药物依赖中退回自己的记忆，亲人无法轻易把她唤回当下。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-v21-edmundtyrone",
+      "name": "埃德蒙·泰隆",
+      "dimension": "主演",
+      "sourcePlayLabel": "《进入黑夜的漫长旅程》",
+      "sourcePlayIds": [
+        "xplay-longday"
+      ],
+      "sourceTitles": [
+        "进入黑夜的漫长旅程"
+      ],
+      "sourceKind": "work",
+      "basis": "奥尼尔《进入黑夜的漫长旅程》中的埃德蒙·泰隆在疾病与家庭争执之间寻找理解，诗意的感受也使他显得孤独。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-v21-amanda",
+      "name": "阿曼达",
+      "dimension": "主演",
+      "sourcePlayLabel": "《玻璃动物园》",
+      "sourcePlayIds": [
+        "play-glass"
+      ],
+      "sourceTitles": [
+        "玻璃动物园"
+      ],
+      "sourceKind": "work",
+      "basis": "田纳西·威廉斯《玻璃动物园》中的阿曼达以过去的体面与母亲的焦虑规划儿女的生活，却难以真正接受他们的处境。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-v21-tomglass",
+      "name": "汤姆（玻璃动物园）",
+      "dimension": "主演",
+      "sourcePlayLabel": "《玻璃动物园》",
+      "sourcePlayIds": [
+        "play-glass"
+      ],
+      "sourceTitles": [
+        "玻璃动物园"
+      ],
+      "sourceKind": "work",
+      "basis": "田纳西·威廉斯《玻璃动物园》中的汤姆渴望逃离沉闷生活，离开家庭之后仍被对姐姐的牵挂追随。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-v21-winnie",
+      "name": "温妮",
+      "dimension": "主演",
+      "sourcePlayLabel": "《快乐的日子》",
+      "sourcePlayIds": [
+        "play-v21-happydays"
+      ],
+      "sourceTitles": [
+        "快乐的日子"
+      ],
+      "sourceKind": "work",
+      "basis": "贝克特《快乐的日子》中的温妮以日常用品与谈话维持生活秩序，在身体越来越受限时仍向另一个人发出呼唤。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "role-v21-jimglass",
+      "name": "吉姆（玻璃动物园）",
+      "dimension": "主演",
+      "sourcePlayLabel": "《玻璃动物园》",
+      "sourcePlayIds": [
+        "play-glass"
+      ],
+      "sourceTitles": [
+        "玻璃动物园"
+      ],
+      "sourceKind": "work",
+      "basis": "田纳西·威廉斯《玻璃动物园》中的吉姆短暂走进劳拉的世界，带来鼓励，也留下不能兑现的亲近。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "v23-role-joekeller",
+      "name": "乔·凯勒",
+      "dimension": "主演",
+      "sourcePlayLabel": "《都是我的儿子》",
+      "sourcePlayIds": [
+        "v23-play-allmysons"
+      ],
+      "sourceTitles": [
+        "都是我的儿子"
+      ],
+      "sourceKind": "work",
+      "basis": "表面上的好父亲和好邻居，用家庭幸福覆盖战时的零件交易，直到真相走到自家门口。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-role-heisenberg",
+      "name": "海森堡",
+      "dimension": "主演",
+      "sourcePlayLabel": "《哥本哈根》",
+      "sourcePlayIds": [
+        "v23-play-copenhagen"
+      ],
+      "sourceTitles": [
+        "哥本哈根"
+      ],
+      "sourceKind": "work",
+      "basis": "战时物理学家前往哥本哈根拜访旧日师友，想谈的话既关乎科学也关乎罪责，却在措辞里反复失踪。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-role-woyzeck",
+      "name": "沃伊采克",
+      "dimension": "主演",
+      "sourcePlayLabel": "《沃伊采克》",
+      "sourcePlayIds": [
+        "v23-play-woyzeck"
+      ],
+      "sourceTitles": [
+        "沃伊采克"
+      ],
+      "sourceKind": "work",
+      "basis": "被军官役使、被医生取样的士兵，收入微薄，思想被实验搅乱，仍想抓住玛丽作为自己的世界。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-role-danton",
+      "name": "丹东",
+      "dimension": "主演",
+      "sourcePlayLabel": "《丹东之死》",
+      "sourcePlayIds": [
+        "v23-play-danton"
+      ],
+      "sourceTitles": [
+        "丹东之死"
+      ],
+      "sourceKind": "work",
+      "basis": "革命的著名鼓动者开始厌倦清洗，试图用享乐和疲惫对抗纯洁政治，最终站上昨日同志的法庭。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-role-eddie",
+      "name": "埃迪·卡伯恩",
+      "dimension": "主演",
+      "sourcePlayLabel": "《桥头眺望》",
+      "sourcePlayIds": [
+        "v23-play-viewbridge"
+      ],
+      "sourceTitles": [
+        "桥头眺望"
+      ],
+      "sourceKind": "work",
+      "basis": "阿瑟·米勒《桥头眺望》中的布鲁克林码头工人。他与妻子抚养凯瑟琳，却难以接受她成长后的恋爱选择，保护逐渐显出占有欲。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "v23-role-hickey",
+      "name": "希基",
+      "dimension": "主演",
+      "sourcePlayLabel": "《送冰的人来了》",
+      "sourcePlayIds": [
+        "v23-play-iceman"
+      ],
+      "sourceTitles": [
+        "送冰的人来了"
+      ],
+      "sourceKind": "work",
+      "basis": "霍普旅馆里突然到来的推销员，带着戒酒的喜悦逼酒友放弃明天的谎言，自己却也走在崩溃的边缘。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-role-melchior",
+      "name": "梅尔希奥",
+      "dimension": "主演",
+      "sourcePlayLabel": "《春醒》",
+      "sourcePlayIds": [
+        "v23-play-springawake"
+      ],
+      "sourceTitles": [
+        "春醒"
+      ],
+      "sourceKind": "work",
+      "basis": "春醒里较早获得知识的少年，把书本里的答案分给同伴，却不能保护他们免于成人世界的惩罚。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-role-alan",
+      "name": "艾伦（恋马狂）",
+      "dimension": "主演",
+      "sourcePlayLabel": "《恋马狂》",
+      "sourcePlayIds": [
+        "v23-play-equus"
+      ],
+      "sourceTitles": [
+        "恋马狂"
+      ],
+      "sourceKind": "work",
+      "basis": "刺盲马匹的少年，用自创的仪式崇拜马的眼睛，也用同一双眼睛审判自己的欲望。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-role-dreamdoctor",
+      "name": "如梦之梦的医生",
+      "dimension": "主演",
+      "sourcePlayLabel": "《如梦之梦》",
+      "sourcePlayIds": [
+        "v23-play-dreamlike"
+      ],
+      "sourceTitles": [
+        "如梦之梦"
+      ],
+      "sourceKind": "work",
+      "basis": "赖声川《如梦之梦》中的年轻女医生。上班第一天接连失去病人后，她倾听五号病人的临终讲述，希望在无法治愈的时刻仍能陪伴一个人。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "v23-role-jinzhi",
+      "name": "金枝（生死场）",
+      "dimension": "主演",
+      "sourcePlayLabel": "《生死场》",
+      "sourcePlayIds": [
+        "v23-play-livefield"
+      ],
+      "sourceTitles": [
+        "生死场"
+      ],
+      "sourceKind": "work",
+      "basis": "村落里渴望活得像样一些的年轻女性，身体、生育与屈辱不断打断她对生活的想象。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-role-silentman",
+      "name": "沉默的人",
+      "dimension": "主演",
+      "sourcePlayLabel": "《车站》",
+      "sourcePlayIds": [
+        "v23-play-busstop"
+      ],
+      "sourceTitles": [
+        "车站"
+      ],
+      "sourceKind": "work",
+      "basis": "高行健《车站》中没有台词的候车者。车辆接连不停靠后，他先于其他人离开站牌，独自步行去城里。",
+      "review": "依角色和剧情核对"
+    },
+    {
+      "id": "v23-role-serge",
+      "name": "塞尔吉",
+      "dimension": "主演",
+      "sourcePlayLabel": "《艺术》",
+      "sourcePlayIds": [
+        "v23-play-art"
+      ],
+      "sourceTitles": [
+        "艺术"
+      ],
+      "sourceKind": "work",
+      "basis": "买下白画的朋友，坚持自己看见了别人拒绝看见的价值，并为此重新测量友情的边界。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-sup-kate",
+      "name": "凯特·凯勒",
+      "dimension": "配角",
+      "sourcePlayLabel": "《都是我的儿子》",
+      "sourcePlayIds": [
+        "v23-play-allmysons"
+      ],
+      "sourceTitles": [
+        "都是我的儿子"
+      ],
+      "sourceKind": "work",
+      "basis": "乔的妻子坚持相信出征的儿子仍会回家，这份坚持既维持着家庭，也替丈夫挡住追问。",
+      "review": "依角色和剧情核对"
+    },
+    {
+      "id": "v23-sup-bohr",
+      "name": "玻尔",
+      "dimension": "配角",
+      "sourcePlayLabel": "《哥本哈根》",
+      "sourcePlayIds": [
+        "v23-play-copenhagen"
+      ],
+      "sourceTitles": [
+        "哥本哈根"
+      ],
+      "sourceKind": "work",
+      "basis": "接待海森堡的老师与旧友，既要保护自己的记忆，也要质问对方到底为何而来。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-sup-marie",
+      "name": "玛丽（沃伊采克）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《沃伊采克》",
+      "sourcePlayIds": [
+        "v23-play-woyzeck"
+      ],
+      "sourceTitles": [
+        "沃伊采克"
+      ],
+      "sourceKind": "work",
+      "basis": "沃伊采克的情人，被贫穷和诱惑夹住，耳环与注视让她短暂感到自己还被选择。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-sup-robespierre",
+      "name": "罗伯斯庇尔",
+      "dimension": "配角",
+      "sourcePlayLabel": "《丹东之死》",
+      "sourcePlayIds": [
+        "v23-play-danton"
+      ],
+      "sourceTitles": [
+        "丹东之死"
+      ],
+      "sourceKind": "work",
+      "basis": "革命法庭上的坚定清洗者，把品德当成政治的唯一尺度，因而无法原谅丹东的松弛。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-sup-catherine",
+      "name": "凯瑟琳（桥头眺望）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《桥头眺望》",
+      "sourcePlayIds": [
+        "v23-play-viewbridge"
+      ],
+      "sourceTitles": [
+        "桥头眺望"
+      ],
+      "sourceKind": "work",
+      "basis": "阿瑟·米勒《桥头眺望》中由埃迪与妻子抚养的年轻女性。她希望工作、恋爱与独立，却不断被要求向埃迪证明这些愿望不是背叛。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "v23-sup-ann",
+      "name": "安·迪弗",
+      "dimension": "配角",
+      "sourcePlayLabel": "《都是我的儿子》",
+      "sourcePlayIds": [
+        "v23-play-allmysons"
+      ],
+      "sourceTitles": [
+        "都是我的儿子"
+      ],
+      "sourceKind": "work",
+      "basis": "阵亡飞行员的女友，也是凯勒家儿子的旧爱，带着未被说清的信件回到这个家庭。",
+      "review": "依角色和剧情核对"
+    },
+    {
+      "id": "v23-sup-nurse",
+      "name": "护士（恋马狂）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《恋马狂》",
+      "sourcePlayIds": [
+        "v23-play-equus"
+      ],
+      "sourceTitles": [
+        "恋马狂"
+      ],
+      "sourceKind": "work",
+      "basis": "彼得·谢弗《恋马狂》中的医院工作人员。她引见来访的海斯特法官，也把病房中的情况带给戴萨特医生。",
+      "review": "当前角色说明明示原作"
+    },
+    {
+      "id": "v23-sup-moritz",
+      "name": "莫里茨",
+      "dimension": "配角",
+      "sourcePlayLabel": "《春醒》",
+      "sourcePlayIds": [
+        "v23-play-springawake"
+      ],
+      "sourceTitles": [
+        "春醒"
+      ],
+      "sourceKind": "work",
+      "basis": "跟不上课程与身体变化的少年，向朋友索取答案，却在羞耻和失败里逐渐失去支撑。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-sup-zhaosan",
+      "name": "赵三（生死场）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《生死场》",
+      "sourcePlayIds": [
+        "v23-play-livefield"
+      ],
+      "sourceTitles": [
+        "生死场"
+      ],
+      "sourceKind": "work",
+      "basis": "屯子里一次次想挺直又一次次被按回去的汉子，复仇与活命在他心里轮流上台。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-sup-stationmaster",
+      "name": "马主任（车站）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《车站》",
+      "sourcePlayIds": [
+        "v23-play-busstop"
+      ],
+      "sourceTitles": [
+        "车站"
+      ],
+      "sourceKind": "work",
+      "basis": "对班车时刻胸有成竹的热心人，用解释维持秩序，直到解释本身比班车还不可靠。",
+      "review": "当前卡名、说明与原作关系核对"
+    },
+    {
+      "id": "v23-sup-harryhope",
+      "name": "哈里·霍普",
+      "dimension": "配角",
+      "sourcePlayLabel": "《送冰的人来了》",
+      "sourcePlayIds": [
+        "v23-play-iceman"
+      ],
+      "sourceTitles": [
+        "送冰的人来了"
+      ],
+      "sourceKind": "work",
+      "basis": "旅馆老板以昨天的小伤为借口多年不出门，为酒客提供避难所，也分享他们的推迟。",
+      "review": "依角色和剧情核对"
+    },
+    {
+      "id": "v23-sup-marc",
+      "name": "马克（艺术）",
+      "dimension": "配角",
+      "sourcePlayLabel": "《艺术》",
+      "sourcePlayIds": [
+        "v23-play-art"
+      ],
+      "sourceTitles": [
+        "艺术"
+      ],
+      "sourceKind": "work",
+      "basis": "无法接受好友买下白画的人，用刻薄保护自己对品味和友情的定义。",
+      "review": "当前卡名、说明与原作关系核对"
+    }
+  ]
+}

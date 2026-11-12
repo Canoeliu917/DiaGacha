@@ -2082,10 +2082,8 @@
     "basis": "当前 note/blurb 明确引用《理查三世》；按当前剧名或剧目说明中的明示全名匹配。"
   },
   "yrole-falstaff": {
-    "workIds": [
-      "play-v21-henryiv"
-    ],
-    "basis": "当前 note/blurb 明确引用《亨利四世》；按当前剧名或剧目说明中的明示全名匹配。"
+    "workIds": [],
+    "basis": "福斯塔夫出自莎士比亚《亨利四世》，现有同名剧目卡为皮兰德娄作品；同名异作不建立羁绊。"
   },
   "yrole-helmer": {
     "workIds": [
@@ -2444,8 +2442,11 @@
     "basis": "当前 note/blurb 明确引用《安提戈涅》；按当前剧名或剧目说明中的明示全名匹配。"
   },
   "role2-tiresias": {
-    "workIds": [],
-    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    "workIds": [
+      "play-oedipus",
+      "play-antigone"
+    ],
+    "basis": "古希腊悲剧人物，见《俄狄浦斯王》、《安提戈涅》等；按角色出处核对。"
   },
   "role2-juliet-nurse": {
     "workIds": [
@@ -2574,12 +2575,16 @@
     "basis": "当前 note/blurb 明确引用《阿伽门农》；按当前剧名或剧目说明中的明示全名匹配。"
   },
   "role2-andromache": {
-    "workIds": [],
-    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    "workIds": [
+      "yplay-trojan"
+    ],
+    "basis": "古希腊悲剧人物，见《特洛亚妇女》等；按角色出处核对。"
   },
   "role2-hecuba": {
-    "workIds": [],
-    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    "workIds": [
+      "yplay-trojan"
+    ],
+    "basis": "古希腊悲剧人物，见《特洛亚妇女》等；按角色出处核对。"
   },
   "role2-agamemnon": {
     "workIds": [
@@ -2594,12 +2599,17 @@
     "basis": "当前 note/blurb 明确引用《阿伽门农》；按当前剧名或剧目说明中的明示全名匹配。"
   },
   "role2-orestes": {
-    "workIds": [],
-    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    "workIds": [
+      "yplay-crossroads",
+      "yplay-drunken"
+    ],
+    "basis": "古希腊悲剧人物，见《奠酒人》、《厄勒克特拉》等；按角色出处核对。"
   },
   "role2-pylades": {
-    "workIds": [],
-    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    "workIds": [
+      "yplay-crossroads"
+    ],
+    "basis": "古希腊悲剧人物，见《奠酒人》等；按角色出处核对。"
   },
   "role2-glauce": {
     "workIds": [
@@ -2756,12 +2766,16 @@
     "basis": "当前 note/blurb 明确引用《海鸥》；按当前剧名或剧目说明中的明示全名匹配。"
   },
   "role2-luka": {
-    "workIds": [],
-    "basis": "说明引用的作品未与现有剧目名称精确匹配：《底层》；不按相近名称推定。"
+    "workIds": [
+      "yplay-lower"
+    ],
+    "basis": "《底层》；按角色出处核对。"
   },
   "role2-pepel": {
-    "workIds": [],
-    "basis": "说明引用的作品未与现有剧目名称精确匹配：《底层》；不按相近名称推定。"
+    "workIds": [
+      "yplay-lower"
+    ],
+    "basis": "《底层》；按角色出处核对。"
   },
   "role2-mayor-inspector": {
     "workIds": [
@@ -3718,8 +3732,10 @@
     "basis": "当前卡名括号明确限定原作，按现有剧目名精确匹配。"
   },
   "v23-role-silentman": {
-    "workIds": [],
-    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    "workIds": [
+      "v23-play-busstop"
+    ],
+    "basis": "《车站》；按角色出处核对。"
   },
   "v23-role-serge": {
     "workIds": [
@@ -3728,8 +3744,10 @@
     "basis": "逐项核对当前卡名及双向剧情证据：塞尔吉说明含“买下白画的朋友”；《艺术》说明含“塞尔吉买下一幅几乎全白的画”。"
   },
   "v23-sup-kate": {
-    "workIds": [],
-    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    "workIds": [
+      "v23-play-allmysons"
+    ],
+    "basis": "《都是我的儿子》；按角色出处核对。"
   },
   "v23-sup-bohr": {
     "workIds": [
@@ -3756,8 +3774,10 @@
     "basis": "当前卡名括号明确限定原作，按现有剧目名精确匹配。"
   },
   "v23-sup-ann": {
-    "workIds": [],
-    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    "workIds": [
+      "v23-play-allmysons"
+    ],
+    "basis": "《都是我的儿子》；按角色出处核对。"
   },
   "v23-sup-nurse": {
     "workIds": [
@@ -3784,8 +3804,10 @@
     "basis": "当前卡名括号明确限定原作，按现有剧目名精确匹配。"
   },
   "v23-sup-harryhope": {
-    "workIds": [],
-    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    "workIds": [
+      "v23-play-iceman"
+    ],
+    "basis": "《送冰的人来了》；按角色出处核对。"
   },
   "v23-sup-marc": {
     "workIds": [

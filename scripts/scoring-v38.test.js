@@ -51,18 +51,23 @@ test('各卡两轴提高时整台分单调不降', () => {
   }
 });
 
-test('同色覆盖每个等级的二至六张，孤张不加分', () => {
-  const rates = { C: .3, UC: .45, R: .6, SR: .8, SSR: 1, UR: 1.2, LR: 1.4 };
-  for (const [rarity, rate] of Object.entries(rates)) {
+test('同星覆盖每个等级的二至六张，低星两张至少一分，奖励按星级与人数单调不降', () => {
+  const table = { C: [1, 2, 3, 4, 5], UC: [1, 2, 3, 4, 5], R: [2, 3, 4, 5, 6], SR: [2, 3, 4, 5, 6], SSR: [3, 4, 5, 6, 7], UR: [3, 4, 5, 6, 7], LR: [4, 5, 6, 7, 7] };
+  const previousRank = [0, 0, 0, 0, 0];
+  for (const [rarity, bonuses] of Object.entries(table)) {
+    let previousCount = 0;
     for (let count = 2; count <= 6; count++) {
       const cards = cast();
-      const others = Object.keys(rates).filter(item => item !== rarity);
+      const others = Object.keys(table).filter(item => item !== rarity);
       cards.forEach((card, index) => { card.rarity = index < count ? rarity : others[index - count]; });
       const result = production(cards);
-      close(result.resonance, Math.round((count - 1) * rate * 100) / 100);
+      assert.equal(result.resonance, bonuses[count - 2]);
+      assert.ok(result.resonance >= Math.max(1, previousCount, previousRank[count - 2]));
+      previousCount = previousRank[count - 2] = result.resonance;
       assert.equal(result.resonanceDetails.length, 1);
       assert.equal(result.resonanceDetails[0].count, count);
       assert.equal(result.resonanceDetails[0].cardIds.length, count);
+      for (const field of ['score', 'base', 'resonance', 'bonds']) assert.ok(Number.isInteger(result[field]), field);
     }
   }
   assert.equal(production(cast()).resonance, 0);
@@ -72,9 +77,79 @@ test('多个同色组可累加，低星同色也有收益', () => {
   const cards = cast();
   cards.forEach((card, index) => { card.rarity = ['C', 'C', 'UC', 'UC', 'R', 'R'][index]; });
   const result = production(cards);
-  assert.equal(result.resonance, 1.35);
+  assert.equal(result.resonance, 4);
   assert.equal(result.resonanceDetails.length, 3);
-  assert.equal(result.score, 81.4);
+  assert.equal(result.score, 84);
+  cards.forEach((card, index) => { card.rarity = ['LR', 'LR', 'UR', 'UR', 'SSR', 'SSR'][index]; });
+  const capped = production(cards);
+  assert.equal(capped.resonanceDetails.reduce((sum, group) => sum + group.points, 0), 10);
+  assert.equal(capped.resonance, 7);
+  assert.equal(capped.score, 87);
+});
+
+test('基础分先四舍五入，半分边界及旧五卡都只给整数得分', () => {
+  const cards = cast(80);
+  cards[0].atk = cards[0].def = 81;
+  cards[1].atk = cards[1].def = 82;
+  assert.equal(production(cards).weightedMean, 80.5);
+  assert.equal(production(cards).base, 81);
+  cards[1].atk = cards[1].def = 81;
+  assert.equal(production(cards).weightedMean, 80.36);
+  assert.equal(production(cards).score, 80);
+  const legacy = production(cards.filter(card => card.dimension !== '配角'));
+  assert.ok(!Number.isInteger(legacy.weightedMean));
+  assert.equal(legacy.base, Math.round(legacy.weightedMean));
+  assert.ok(Number.isInteger(legacy.score));
+});
+
+test('剧组称号与整场评价分开，人数优先，同人数取高星且顺序不影响称号', () => {
+  const cards = cast(50);
+  cards.forEach(card => { card.rarity = 'C'; });
+  const low = production(cards);
+  assert.equal(low.crew.title, '草台班子');
+  assert.equal(low.crew.count, 6);
+  assert.equal(low.resonance, 5);
+  assert.equal(low.grade, '待磨');
+  assert.equal(production(cast()).crew.title, '跨界剧组');
+  cards.forEach((card, i) => { card.rarity = ['C', 'C', 'C', 'LR', 'LR', 'UC'][i]; });
+  assert.equal(production(cards).crew.title, '草台班子');
+  cards[2].rarity = 'UC';
+  assert.equal(production(cards).crew.title, '传奇剧组');
+  assert.deepEqual(production([...cards].reverse()).crew, production(cards).crew);
+  const titles = ['草台班子', '街坊剧社', '小剧场班底', '巡演剧团', '名角同台', '殿堂剧团', '传奇剧组'];
+  [...rarities, 'LR'].forEach((rarity, i) => {
+    cards.forEach(card => { card.rarity = rarity; });
+    assert.equal(production(cards).crew.title, titles[i]);
+  });
+});
+
+test('卡片不再渲染评分教程，结果显示整数且首页折叠表与引擎一致', () => {
+  const fs = require('node:fs');
+  const vm = require('node:vm');
+  const ranks = [...rarities, 'LR'];
+  const context = vm.createContext({ K: String, fn: Object.fromEntries(ranks.map((rank, i) => [rank, i + 1])), v: ranks, y: { C: 22, UC: 26, R: 26, SR: 15, SSR: 7, UR: 3, LR: 1 } });
+  vm.runInContext(fs.readFileSync(require('node:path').join(__dirname, 'scoring-ui-v38.js'), 'utf8'), context);
+  assert.equal(context.cardReviewDetails({ review: { sourceIds: ['unknown'] } }), '');
+  const cards = cast(80);
+  cards[0].atk = cards[0].def = 81;
+  const markup = context.scoreBreakdown(production(cards), cards);
+  assert.match(markup, /本场评价/);
+  assert.match(markup, /剧组称号/);
+  assert.doesNotMatch(markup, /\d+\.\d+|ATK|DEF|贡献|四舍五入/);
+  const help = context.scoringHelp({ poolSize: 777 });
+  const rows = [...help.matchAll(/<tr><th>(\d) 星<\/th>(.*?)<\/tr>/g)];
+  assert.equal(rows.length, 7);
+  rows.forEach(([_, star, cells]) => {
+    const shown = [...cells.matchAll(/<td>\+(\d)<\/td>/g)].map(match => Number(match[1]));
+    const expected = [];
+    for (let count = 2; count <= 6; count++) {
+      const others = ranks.filter(rank => rank !== ranks[Number(star) - 1]);
+      cards.forEach((card, i) => { card.rarity = i < count ? ranks[Number(star) - 1] : others[i - count]; });
+      expected.push(production(cards).resonance);
+    }
+    assert.deepEqual(shown, expected);
+  });
+  assert.ok(help.indexOf('<details>') < help.indexOf('<table>'), '加分表应折叠显示');
 });
 
 test('同名不同作或相似标签不能触发同作羁绊', () => {
