@@ -7,7 +7,7 @@
 .production-cues li{margin:0;padding:0;max-width:100%}
 .production-cue{--cue-color:#9c2f2f;color:var(--ink);background:transparent;border:1px solid #c9beae;border-radius:4px;font:inherit;line-height:1.5;padding:7px 12px;cursor:pointer;max-width:100%;transition:background .18s ease,border-color .18s ease}
 .production-cue strong{font-size:14px;font-weight:600;border-bottom:2px solid var(--cue-color);padding-bottom:2px}
-.production-cue>span:not(.cue-value){display:none;font-size:13px;line-height:1.65;margin-top:8px;max-width:36em}
+.production-cue>span:not(.cue-value){display:none;font-size:13px;line-height:1.65;margin-top:8px;white-space:nowrap}
 .production-cue.is-cue-active{background:var(--cue-wash,#f3e6de);border-color:var(--cue-color)}
 .production-cue.is-cue-active>span:not(.cue-value){display:block}
 .production-cue .cue-value{font-size:13px;margin-left:8px;color:var(--ink)}

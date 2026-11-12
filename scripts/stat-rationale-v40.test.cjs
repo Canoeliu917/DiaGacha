@@ -13,6 +13,21 @@ const activeIds = new Set(JSON.parse(fs.readFileSync(path.join(root, 'docs/ACTIV
 const anchors = JSON.parse(fs.readFileSync(path.join(root, 'docs/SCORING_ANCHORS.json'), 'utf8'));
 const get = id => { const card = cards.find(card => card.id === id); assert.ok(card, id); return card; };
 
+test('独白直给保留六星88分，分别说明内心行动与方法成熟，不把独白当成静止或自动满分', () => {
+  const card = get('dir-solo'), result = statRationaleV40(card);
+  assert.equal(card.rarity, 'UR');
+  assert.equal(result.atk.value, 86);
+  assert.equal(result.def.value, 90);
+  assert.equal(Math.round((card.atk + card.def) / 2), 88);
+  assert.match(result.atk.reason, /哈姆雷特.*思考和迟疑也属于行动/);
+  assert.match(result.atk.reason, /具体文本与前后事件.*不因面向观众就自动满分/);
+  assert.match(result.def.reason, /公开言行与内心想法的差距.*90 分/);
+  assert.match(result.def.reason, /方法成熟不等于每次演出都自然有效/);
+  assert.doesNotMatch(result.atk.reason + result.def.reason, /现有卡片写到：|卡片给出的排演示例是：/);
+  assert.ok(result.sources.some(source => source.url === 'https://www.rsc.org.uk/hamlet/'));
+  assert.equal(result.basisMode, 'documented-rubric');
+});
+
 test('68/95两张剧目分别用具体剧情解释冲突与结构的差别，不从星级倒推', () => {
   const krapp = statRationaleV40(get('yplay-krapp'));
   assert.equal(krapp.atk.value, 68);

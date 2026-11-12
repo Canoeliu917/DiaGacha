@@ -102,7 +102,7 @@ test('揭晓介绍可读新增正文，七星无需再用标签句填空', () =>
   vm.runInContext(fs.readFileSync(path.join(__dirname, 'reveal-v40.js'), 'utf8'), revealContext);
   for (const card of high) {
     const lines = revealContext.preambleLines(card);
-    assert.equal(lines.length, { SSR: 2, UR: 3, LR: 4 }[card.rarity]);
+    assert.equal(lines.length, { SSR: 4, UR: 5, LR: 6 }[card.rarity]);
     assert.ok(lines.every(line => !line.includes('排演关键词是')));
     assert.ok(lines.every(line => /[。！？!?][”’」』）)]*$/.test(line)));
   }

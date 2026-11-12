@@ -19,31 +19,38 @@ function liveCards() {
   };
   sandbox.window = sandbox;
   const context = vm.createContext(sandbox);
-  for (const block of html.replace(startup, 'globalThis.fixture={e,cardEssays}').matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)) vm.runInContext(block[1], context, { timeout: 10000 });
+  for (const block of html.replace(startup, 'globalThis.fixture={e,activeCards,cardEssays,highStarNotesV40}').matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)) vm.runInContext(block[1], context, { timeout: 10000 });
   return context.fixture;
 }
 const fixture = liveCards();
-const copyContext = vm.createContext({ cardEssays: fixture.cardEssays });
+const copyContext = vm.createContext({ cardEssays: fixture.cardEssays, highStarNotesV40: fixture.highStarNotesV40 });
 vm.runInContext(source, copyContext);
 
-test('真实卡池的五星六星七星分别提供两三四句完整的实卡介绍', () => {
-  const counts = { SSR: 2, UR: 3, LR: 4 };
+test('全部777张兼容卡的四至七星分别提供三至六句完整实卡介绍', () => {
+  const counts = { SR: 3, SSR: 4, UR: 5, LR: 6 };
   let checked = 0;
   for (const card of fixture.e) {
     const lines = copyContext.preambleLines(card);
     assert.equal(lines.length, counts[card.rarity] || 0, card.id);
     assert.equal(new Set(lines).size, lines.length, card.id);
-    const keywords = `${card.name}的排演关键词是${card.tags.map(tag => `「${tag}」`).join('、')}。`;
-    const original = [card.note, card.observe, card.stage, card.blurb, fixture.cardEssays[card.id], keywords].join('\n');
+    const original = [card.note, card.observe, ...fixture.highStarNotesV40(card), card.stage, card.blurb, fixture.cardEssays[card.id]].join('\n');
     for (const line of lines) {
       assert.ok(line.length >= 6, `${card.id}: ${line}`);
       assert.match(line, /[。！？!?][”’」』）)]*$/);
       assert.ok(original.includes(line), `${card.id}: 未使用实卡完整句 ${line}`);
-      assert.doesNotMatch(line, /先别忙着出声|这一张要走完整出|全场只等这一声|\.\.\.|…$/);
+      assert.doesNotMatch(line, /先别忙着出声|这一张要走完整出|全场只等这一声|排演关键词是|\.\.\.|…$/);
     }
     if (lines.length) checked++;
   }
   assert.ok(checked > 20);
+});
+
+test('跳过泛短句时仍保留有意义的简短看点，不拿类别占用介绍句数', () => {
+  const lines = copyContext.preambleLines({ rarity: 'SR', note: '一种演法。门槛还记得。',
+    observe: '人物离开后，留下的物件仍能提示曾经发生的事。', stage: '这处空间让过去与现在保留了联系。' });
+  assert.equal(lines.length, 3);
+  assert.ok(lines.includes('门槛还记得。'));
+  assert.ok(!lines.includes('一种演法。'));
 });
 
 class Element {
@@ -52,7 +59,7 @@ class Element {
     this.classList = { add: (...names) => names.forEach(name => this.classes.add(name)), remove: (...names) => names.forEach(name => this.classes.delete(name)), contains: name => this.classes.has(name) };
     this.style = { setProperty: (name, value) => { this.attributes[name] = value; } };
   }
-  set innerHTML(value) { this.markup = value; this.lines = [...value.matchAll(/<p class="pre-line"( hidden)?>/g)].map(match => { const line = new Element(); line.hidden = !!match[1]; return line; }); }
+  set innerHTML(value) { this.markup = value; this.lines = [...value.matchAll(/<p\b[^>]*class="[^"]*\bpre-line\b[^"]*"[^>]*>/g)].map(match => { const line = new Element(); line.hidden = /\bhidden\b/.test(match[0]); return line; }); }
   get innerHTML() { return this.markup || ''; }
   setAttribute(name, value) { this.attributes[name] = value; }
   removeAttribute(name) { delete this.attributes[name]; }
@@ -67,7 +74,7 @@ function runReveal(rarity, { reduced = false, skip = false, last = false } = {})
   const timers = new Map(); let timerId = 0, now = 0, soundCount = 0;
   const context = vm.createContext({
     X: 0, J: reduced, Y: { booster: { cards: [card, card], index: last?1:0, phase: 'card', revealDone: false, skipPreamble: skip } },
-    K: String, cardEssays: fixture.cardEssays, De() {}, Oe() { soundCount++; }, enterSpread() {},
+    K: String, cardEssays: fixture.cardEssays, highStarNotesV40: fixture.highStarNotesV40, De() {}, Oe() { soundCount++; }, enterSpread() {},
     document: { querySelector: selector => selector === '.pack-zone' ? zone : selector === '.pull-screen' ? screen : host, createElement: () => new Element() },
     matchMedia: () => ({ matches: reduced }),
     setTimeout(fn, delay) { const id = ++timerId; timers.set(id, { fn, at: now + delay }); return id; },
@@ -85,12 +92,12 @@ function runReveal(rarity, { reduced = false, skip = false, last = false } = {})
 }
 
 test('卡面均分后一次只显一句，前句淡出才显后句，最后裂开并露出完整卡面', () => {
-  for (const [rarity, waves] of [['SSR', 1], ['UR', 2], ['LR', 3]]) {
+  for (const [rarity, lines, waves] of [['SR', 3, 0], ['SSR', 4, 1], ['UR', 5, 2], ['LR', 6, 3]]) {
     const run = runReveal(rarity);
     const paper=run.flip.children.find(child=>child.className==='reveal-paper-v40');
-    assert.equal(run.host.attributes['--reveal-lines'],String(waves+1));
+    assert.equal(run.host.attributes['--reveal-lines'],String(lines));
     run.tick();
-    for (let i = 0; i < waves + 1; i++) {
+    for (let i = 0; i < lines; i++) {
       assert.equal(run.host.lines.filter(line => !line.hidden).length, 1);
       assert.ok(run.host.lines[i].classes.has('is-on'));
       assert.ok(!paper.classes.has('is-torn'),'全部句子读完前不泄露卡面');
@@ -128,7 +135,7 @@ test('减少动态或跳过时立即露出完整卡面，无文字遮挡或等�
     assert.ok(!run.flip.classes.has('is-reveal-climax'));
     if (option.reduced) assert.equal(run.soundCount(), 0, '旧音效包含震动，降低动态时不调用');
   }
-  assert.deepEqual(JSON.parse(JSON.stringify(copyContext.revealProfileV40('LR', true))), { level: 3, lines: 4, waves: 0, shake: false, charge: 0 });
+  assert.deepEqual(JSON.parse(JSON.stringify(copyContext.revealProfileV40('LR', true))), { level: 3, lines: 6, waves: 0, shake: false, charge: 0 });
 });
 
 test('下一张关闭或重绘均可清理计时，旧回调不改变新一张状态', () => {
@@ -147,23 +154,29 @@ test('下一张关闭或重绘均可清理计时，旧回调不改变新一张�
   assert.equal(stale.soundCount(), 0);
 });
 
-test('三星四星快速完成，高星句子在卡内均分区域且无面板底色', () => {
-  for (const rarity of ['R', 'SR']) {
+test('一至三星快速完成，四星起有完整介绍且保留跳过与减动', () => {
+  for (const rarity of ['C', 'UC', 'R']) {
     const run = runReveal(rarity);
     run.finish();
     assert.ok(run.context.Y.booster.revealDone);
     assert.ok(run.elapsed() < 700);
     assert.equal(run.host.lines.length, 0);
   }
-  assert.match(css, /position: absolute; inset: 12px/);
   assert.match(css, /pointer-events: none/);
-  assert.match(css, /grid-template-rows: repeat\(var\(--reveal-lines\),minmax\(0,1fr\)\)/);
   assert.match(css, /background: transparent/);
   assert.match(css, /max-height: none/);
   assert.match(css, /-webkit-line-clamp: unset/);
   assert.match(css, /prefers-reduced-motion/);
   assert.doesNotMatch(css, /infinite/);
-  assert.doesNotMatch(source, /gridRow|maxHeight|layoutPre/);
+  for (const rarity of ['SR', 'SSR', 'UR', 'LR']) {
+    assert.equal(copyContext.revealProfileV40(rarity).lines, { SR: 3, SSR: 4, UR: 5, LR: 6 }[rarity]);
+    for (const option of [{ reduced: true }, { skip: true }]) {
+      const run = runReveal(rarity, option);
+      assert.ok(run.context.Y.booster.revealDone);
+      assert.equal(run.host.hidden, true);
+      assert.equal(run.timers.size, 0);
+    }
+  }
 });
 
 test('完成揭晓后详情返回只显示卡面，不恢复遮挡文字或重播', () => {

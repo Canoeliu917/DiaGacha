@@ -1,25 +1,32 @@
 function preambleLines(card) {
-  const count = { SSR: 2, UR: 3, LR: 4 }[card?.rarity] || 0;
+  const count = { SR: 3, SSR: 4, UR: 5, LR: 6 }[card?.rarity] || 0;
   if (!count) return [];
   const sentences = text => (String(text || '').match(/[^。！？!?\n]+[。！？!?]+[”’」』）)]*|[^。！？!?\n]+$/g) || [])
     .map(line => line.trim()).filter(Boolean).map(line => /[。！？!?][”’」』）)]*$/.test(line) ? line : `${line}。`);
   const expanded = typeof highStarNotesV40 === 'function' ? highStarNotesV40(card) : [];
-  const sources = [card.note, card.observe, ...expanded, card.stage, card.blurb,
-    typeof cardEssays === 'undefined' ? '' : cardEssays[card.id]].map(sentences);
-  const ordered = [...sources.map(lines => lines[0]), ...sources.flatMap(lines => lines.slice(1))].filter(Boolean);
-  if (card.tags?.length) ordered.push(`${card.name}的排演关键词是${card.tags.map(tag => `「${tag}」`).join('、')}。`);
-  return [...new Set(ordered)].slice(0, count);
+  const explanations = [card.note, card.observe, ...expanded,
+    typeof cardEssays === 'undefined' ? '' : cardEssays[card.id]].flatMap(sentences);
+  const isExercise = line => /^(?:排演时|排练时|排演可试|不妨|试着)/.test(line);
+  const ordered = [...explanations.filter(line => !isExercise(line)),
+    ...explanations.filter(isExercise), ...sentences(card.stage), ...sentences(card.blurb)];
+  return [...new Set(ordered)].filter(line => line.length >= 6).slice(0, count);
 }
 
 function revealProfileV40(rarity, reduced = false) {
-  const level = { SSR: 1, UR: 2, LR: 3 }[rarity] || 0;
-  return { level, lines: level ? level + 1 : 0, waves: reduced ? 0 : level,
-    shake: !reduced && level > 0, charge: reduced ? 0 : ({ C: 0, UC: 40, R: 80, SR: 180 }[rarity] || 240) };
+  const level = { SR: 1, SSR: 1, UR: 2, LR: 3 }[rarity] || 0;
+  return { level, lines: { SR: 3, SSR: 4, UR: 5, LR: 6 }[rarity] || 0, waves: reduced || rarity === 'SR' ? 0 : level,
+    shake: !reduced && level > 0, charge: reduced ? 0 : ({ C: 0, UC: 40, R: 80, SR: 180 }[rarity] ?? 240) };
 }
 
 var revealTimersV40 = new Set(), revealCleanupV40 = null;
 function revealLinesMarkupV40(card){
-  return preambleLines(card).map(line=>`<p class="pre-line" hidden>${K(line)}</p>`).join('');
+  return preambleLines(card).map(line=>{
+    const opening=line.match(/^.{2,12}?[，：；、]/)?.[0];
+    const focus=opening || (line.includes(card.name)?card.name:line.match(/《[^》]{1,12}》/)?.[0]) || card.tags?.find(tag=>tag.length>1&&line.includes(tag));
+    if(!focus)return `<p class="pre-line" hidden><span class="reveal-words reveal-initial">${K(line)}</span></p>`;
+    const at=line.indexOf(focus);
+    return `<p class="pre-line" hidden><span class="reveal-words">${K(line.slice(0,at))}<strong class="reveal-emphasis">${K(focus)}</strong>${K(line.slice(at+focus.length))}</span></p>`;
+  }).join('');
 }
 function restoreRevealIntroV40(){
   const booster=Y.booster,card=booster?.cards?.[booster.index];
@@ -141,7 +148,7 @@ function $() {
     const line=host?.querySelectorAll('.pre-line')[step];
     step += 1;
     if (window.__dgHoldAfter != null && step >= window.__dgHoldAfter) return;
-    const readTime = Math.min(3200, Math.max(1800, lines[step - 1].length * 45));
+    const readTime = Math.min(5000, Math.max(2000, lines[step - 1].length * 60));
     later(()=>{
       line?.classList.remove('is-on');line?.classList.add('is-out');
       later(()=>{

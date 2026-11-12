@@ -1,5 +1,6 @@
 """Embed v40 card interactions, reveal sequences and theatre stories."""
 from pathlib import Path
+import base64
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,6 +28,7 @@ rates = '// V40_RATES_START\n' + (ROOT/'scripts/rates-v40.js').read_text(encodin
 html = html.replace('var v=[`C`,`UC`', rates + 'var v=[`C`,`UC`', 1)
 replace_once('y={C:22,UC:26,R:26,SR:15,SSR:7,UR:3,LR:1}', 'y=DiaRatesV40.standard')
 replace_once('let table={C:8,UC:12,R:25,SR:24,SSR:18,UR:9,LR:4}', 'let table=DiaRatesV40.gift')
+replace_once('function ue(e){return le.includes(e)}', 'function ue(e){return revealProfileV40(e).lines>0}')
 if 'function An(e,open=false)' in html:
     replace_function('function An(e,open=false)', 'function jn(', '')
 replace_function('function preambleLines(card)', 'var talkTimers=', (ROOT/'scripts/reveal-v40.js').read_text(encoding='utf-8'))
@@ -61,6 +63,11 @@ assert html.count(startup) == 1
 html = html.replace(startup, block + startup, 1)
 html = re.sub(r'\n*/\* V40_PRESENTATION_START \*/.*?/\* V40_PRESENTATION_END \*/\n*', '\n', html, flags=re.S)
 css = '\n/* V40_PRESENTATION_START */\n' + '\n'.join((ROOT/'scripts'/name).read_text(encoding='utf-8') for name in ['production-v40.css', 'reveal-v40.css', 'rarity-palette-v40.css','home-float-v40.css']) + '\n/* V40_PRESENTATION_END */\n'
+font = ROOT/'assets/fonts/reveal-wenkai.woff2'
+if font.exists():
+    license_text = (font.parent/'OFL-WenKai.txt').read_text(encoding='utf-8')
+    face = '/* ' + license_text + ' */\n@font-face{font-family:"Dia Reveal WenKai";font-style:normal;font-weight:400;font-display:swap;src:url(data:font/woff2;base64,' + base64.b64encode(font.read_bytes()).decode('ascii') + ') format("woff2")}\n'
+    css = css.replace('/* V40_PRESENTATION_START */\n', '/* V40_PRESENTATION_START */\n' + face)
 # Place after all incumbent style blocks so reveal overrides do not get undone.
 at = html.rindex('</style>')
 html = html[:at] + css + html[at:]
