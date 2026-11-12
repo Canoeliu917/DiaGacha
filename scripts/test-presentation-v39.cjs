@@ -20,7 +20,7 @@ sandbox.window=sandbox;
 const context=vm.createContext(sandbox);
 const startup='Zn.addEventListener(`click`,Tr),Er()';
 assert.equal(html.split(startup).length,2);
-const script=html.replace(startup,'globalThis.testGame={e,activeCards,roleSourcesV39,roleSourceLine,ar,Wn,xn,Ct,T,Xt,An,hexRadar,scoreBreakdown,scoringHelp,clampTalk,cardEssays,cardReviewDetails}');
+const script=html.replace(startup,'globalThis.testGame={e,activeCards,roleSourcesV39,roleSourceLine,ar,Wn,xn,Ct,T,Xt,An,hexRadar,scoreBreakdown,scoringHelp,clampTalk,cardEssays,cardReviewDetails,statDisclosureV40}');
 for(const [i,block] of [...script.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)].entries())vm.runInContext(block[1],context,{filename:`inline-${i}`,timeout:10000});
 const game=context.testGame;
 let passed=0;
@@ -66,6 +66,9 @@ check('500张释义保持完整句，没有旧补长残句或重复段落',()=>{
     assert.equal(new Set(sentences).size,sentences.length,card.id);
     assert(!essay.includes('把抽象的压力收回到'),card.id);
     assert.equal(game.cardReviewDetails(card),'');
+    assert(!game.xn(card).includes('看懂这张卡'));
+    assert(game.statDisclosureV40(card).includes('<summary>评分依据'));
+    if(['SSR','UR','LR'].includes(card.rarity))assert.equal((game.xn(card).match(/class="card-essay"/g)||[]).length,{SSR:1,UR:2,LR:3}[card.rarity]);
   }
 });
 
@@ -83,7 +86,7 @@ check('六芒星尖角与分数线性对应，有明确0到100的共同尺度',(
   const points=chart.match(/data-base-points="([^"]+)"/)[1].split(' ').map(v=>v.split(',').map(Number));
   points.forEach(([x,y],i)=>assert(Math.abs(Math.hypot(x-170,y-128)-92*scores[i]/100)<0.00001));
   assert(chart.includes('中心 0，外圈 100'));
-  assert.equal((chart.match(/class="hex-scale"/g)||[]).length,5);
+  assert.equal((chart.match(/class="hex-scale"/g)||[]).length,0);
   assert.equal((chart.match(/data-final="\d+"/g)||[]).length,6);
 });
 

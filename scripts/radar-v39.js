@@ -11,7 +11,6 @@ function hexRadar(cards){
       <svg class="hex-radar" viewBox="0 0 340 258" aria-hidden="true">
         ${[20,40,60,80,100].map(score=>`<path class="hex-grid${score===100?' hex-grid-max':''}" d="${path(ring(radius*score/100))}"/>`).join('')}
         ${labels.map((_,i)=>`<line class="hex-axis" x1="170" y1="128" x2="${point(i,radius)[0]}" y2="${point(i,radius)[1]}"/>`).join('')}
-        ${[20,40,60,80,100].map(score=>`<text class="hex-scale" x="${176+radius*score/100*.866}" y="${132-radius*score/100*.5}">${score}</text>`).join('')}
         <path class="hex-area" data-base-points="${values.map(p=>p.join(',')).join(' ')}" d="${path(values)}"/>
         ${six?[[0,2,4],[1,3,5]].map(indices=>`<path class="hex-star" d="${path(indices.map(i=>values[i]))}"/>`).join(''):`<path class="hex-star" d="${path([0,2,4,1,3].map(i=>values[i]))}"/>`}
         ${labels.map((_,i)=>`<line class="hex-ray" data-axis="${i}" pathLength="1" x1="170" y1="128" x2="${values[i][0]}" y2="${values[i][1]}"/>`).join('')}

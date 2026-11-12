@@ -127,14 +127,14 @@ test('卡片不再渲染评分教程，结果显示整数且首页折叠表与�
   const fs = require('node:fs');
   const vm = require('node:vm');
   const ranks = [...rarities, 'LR'];
-  const context = vm.createContext({ K: String, fn: Object.fromEntries(ranks.map((rank, i) => [rank, i + 1])), v: ranks, y: { C: 22, UC: 26, R: 26, SR: 15, SSR: 7, UR: 3, LR: 1 } });
+  const context = vm.createContext({ K: String, fn: Object.fromEntries(ranks.map((rank, i) => [rank, i + 1])), v: ranks, activeCards: [], ratesHelpV40: () => '' });
   vm.runInContext(fs.readFileSync(require('node:path').join(__dirname, 'scoring-ui-v38.js'), 'utf8'), context);
   assert.equal(context.cardReviewDetails({ review: { sourceIds: ['unknown'] } }), '');
   const cards = cast(80);
   cards[0].atk = cards[0].def = 81;
   const markup = context.scoreBreakdown(production(cards), cards);
-  assert.match(markup, /本场评价/);
-  assert.match(markup, /剧组称号/);
+  assert.match(markup, /production-crew-title/);
+  assert.doesNotMatch(markup, /本场评价|剧组称号|基础\s*\d+\s*分/);
   assert.doesNotMatch(markup, /\d+\.\d+|ATK|DEF|贡献|四舍五入/);
   const help = context.scoringHelp({ poolSize: 777 });
   const rows = [...help.matchAll(/<tr><th>(\d) 星<\/th>(.*?)<\/tr>/g)];

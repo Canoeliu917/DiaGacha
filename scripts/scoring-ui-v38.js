@@ -7,21 +7,64 @@ function productionScore(cards) {
 
 function scoreNumber(value) { return Math.round(value).toString(); }
 
-function scoreBreakdown(result, cards) {
-  const names = ids => ids.map(id => cards.find(card => card.id === id)?.name || id).join(' × ');
-  const groups = result.resonanceDetails.map(item =>
-    `<li>${fn[item.rarity]} 星 ${item.count} 张：+${item.points}</li>`);
-  const bonds = result.bondDetails.map(item =>
-    `<li>${K(item.label)}：${K(names(item.cardIds))}，+${item.points}</li>`);
-  return `<section class="score-explanation" aria-label="本场评价与组队奖励">
-    <h2>本场评价 · ${K(result.grade)} · ${result.score} 分</h2>
-    <p>剧组称号：<strong>${K(result.crew.title)}</strong>${result.crew.count ? ` · ${fn[result.crew.rarity]} 星 ${result.crew.count} 人组` : ''}</p>
-    <p>${K(result.crew.description)}</p>
-    <p>基础 ${result.base} 分 · 同星 +${result.resonance} · 羁绊 +${result.bonds}（总分最多 100）</p>
-    <details><summary>这次获得了哪些组队奖励</summary>
-      <ul>${groups.length ? groups.join('') : '<li>凑齐两张同星卡，就有同星奖励。</li>'}${bonds.length ? bonds.join('') : '<li>本场暂未遇到原作或演法搭档。</li>'}</ul>
-      <p>同星奖励合计最多 +7，羁绊最多 +8；剧组称号看人数最多的同星组，同人数取高星。</p>
-    </details>
+function productionCuesV40(result, cards) {
+  const byId = new Map(cards.map(card => [card.id, card]));
+  const groups = {
+    C: { titles: ['一桌搭戏', '接住这句', '板凳围台', '合力支台', '满台烟火'], scene: '借一张桌当舞台' },
+    UC: { titles: ['街角碰头', '邻里接戏', '巷口开场', '满院好戏', '街坊齐上阵'], scene: '街坊的板凳已经摆好' },
+    R: { titles: ['咫尺对戏', '三面来风', '四角生戏', '小台满座', '一屋入戏'], scene: '小剧场里连呼吸都听得见' },
+    SR: { titles: ['同行一站', '转场有伴', '四方走戏', '行囊成班', '带戏远行'], scene: '下一站的幕布就要升起' },
+    SSR: { titles: ['好戏相逢', '轮番亮相', '彼此搭台', '压轴相让', '满台绝活'], scene: '各自的拿手戏有了呼应' },
+    UR: { titles: ['知音对坐', '三声应和', '功夫相照', '五席成章', '满堂余韵'], scene: '把千百次练习藏进一次回身' },
+    LR: { titles: ['传奇碰面', '三章交响', '四幕相连', '今夜入史', '共赴谢幕'], scene: '各自的传奇在今夜交会' },
+  };
+  const ensemble = [
+    '一递一接，先搭起一个来回。',
+    '第三道声音加入，对手戏转了个弯。',
+    '四方接应，舞台的空处也有了回应。',
+    '五路戏意聚拢，一次转场便连成片。',
+    '全台互相托住，开场到谢幕都有照应。',
+  ];
+  const bondCopy = {
+    'play-lead': (play, lead) => ['主角归位', `${lead}走进《${play}》，人物的心事有了来处。`],
+    'play-support': (play, support) => ['侧幕来人', `${support}回到《${play}》，从侧面牵动这场戏。`],
+    'lead-support': (lead, support) => ['对手接招', `${lead}与${support}同出一作，彼此的话终于有人接。`],
+    'play-place': (play, place) => ['旧地开幕', `《${play}》落在${place}，脚下这片地方也在讲故事。`],
+    'style-method': (style, method) => ['演法落地', `${style}遇上${method}，台上的想法找到了做法。`],
+  };
+  const cues = result.resonanceDetails.map(item => {
+    const names = item.cardIds.slice(0, 2).map(id => byId.get(id).name).join('与');
+    const copy = groups[item.rarity];
+    return { id: `resonance-${item.rarity}`, kind: 'resonance', cardIds: [...item.cardIds], rarity: item.rarity,
+      title: copy.titles[item.count - 2], description: `${names}${item.count > 2 ? '等伙伴' : ''}，${copy.scene}；${ensemble[item.count - 2]}`, points: item.points };
+  });
+  for (const item of result.bondDetails) {
+    const [title, description] = bondCopy[item.id](...item.cardIds.map(id => byId.get(id).name));
+    cues.push({ id: `bond-${item.id}`, kind: 'bond', cardIds: [...item.cardIds], title, description, points: item.points });
+  }
+  // Animation increments use the engine's capped totals; every triggered cue still gets its moment.
+  const remaining = { resonance: result.resonance, bond: result.bonds };
+  let scoreRoom = Math.max(0, result.score - result.base);
+  for (const cue of cues) {
+    const capped = Math.min(cue.points, remaining[cue.kind]);
+    remaining[cue.kind] -= capped;
+    cue.points = Math.min(capped, scoreRoom);
+    scoreRoom -= cue.points;
+  }
+  return cues;
+}
+
+function scoreBreakdown(result, cards, showPoints = false) {
+  const cues = productionCuesV40(result, cards);
+  const crewCue = cues.find(cue => cue.kind === 'resonance' && cue.rarity === result.crew.rarity);
+  const attributes = cue => `data-action="production-cue" data-cue-id="${K(cue.id)}" data-production-cue="${K(cue.id)}" data-card-ids="${K(JSON.stringify(cue.cardIds))}" data-rarity="${K(cue.rarity || '')}"`;
+  const title = crewCue
+    ? `<button type="button" class="production-crew rarity-${K(crewCue.rarity)}" ${attributes(crewCue)} aria-label="${K(result.crew.title)}，同星合演，回看关联卡牌">${K(result.crew.title)}</button>`
+    : K(result.crew.title);
+  return `<section class="score-explanation production-review" aria-label="演后短评">
+    <h2 class="production-crew-title">${title}</h2>
+    <p class="production-crew-description">${K(result.crew.description)}</p>
+    ${cues.length ? `<ul class="production-cues">${cues.map(cue => `<li><button type="button" class="production-cue${cue.rarity ? ` rarity-${K(cue.rarity)}` : ''}" ${attributes(cue)} aria-label="${K(cue.title)}，${cue.kind === 'resonance' ? '同星合演' : '戏剧羁绊'}，${cue.points ? `加${cue.points}分，` : ''}${K(cue.description)} 回看关联卡牌"><strong>${K(cue.title)}${showPoints && cue.points ? `<b class="cue-value">+${cue.points}</b>` : ''}</strong><span>${K(cue.description)}</span></button></li>`).join('')}</ul><p class="production-cue-status" role="status" aria-live="polite">点选评语，看看是哪几张卡在呼应。</p>` : ''}
   </section>`;
 }
 
@@ -37,7 +80,8 @@ function scoringHelp(state) {
       <p>不同同星组可以一起加分，总共最多 +7。剧组称号看人数最多的一组，同人数取高星；整场评价看总分。</p>
     </details>
     <details><summary>抽取与保存</summary>
-      <p>1–7 星的普通档位出率依次为 ${v.map(rank => `${y[rank]}%`).join('、')}；缺档会落到相邻档位，同档内等概率。连续 30 包未出 5 星以上、60 包未出 6 星以上时，对应一包会保底。</p>
+      ${ratesHelpV40(activeCards)}
+      <p>连续 30 包未出 5 星以上、60 包未出 6 星以上时，对应一包会保底。</p>
       <p>收藏和保底保存在当前浏览器；旧五卡分享也能继续看。今日赠礼提高下次综合包的高星机会，单维包次数从任务领取。</p>
     </details>
     <details><summary>资料与评分参考</summary><p>资料用于核对作品背景；分数和星级是游戏的编辑判断。<a href="https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/docs/RUBRIC.md" target="_blank" rel="noopener noreferrer">查看参考标准与来源</a></p></details>

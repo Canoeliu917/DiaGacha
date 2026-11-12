@@ -1083,6 +1083,122 @@ svg text{font-family:"Noto Sans SC","PingFang SC","Hiragino Sans GB","Noto Sans 
 /* compact result (390x680): six corner labels stay inside the panel frame and off the chart's tip dots */
 @media (max-width:430px) and (max-height:760px){.hex-panel{padding:22px 4px 22px}.hex-chart{max-width:150px}.hex-chart>.hex-corner:nth-of-type(1){margin-top:-12px}.hex-chart>.hex-corner:nth-of-type(4){margin-top:10px}}
 /* ===== /v36 ===== */
+
+/* V40_PRESENTATION_START */
+/* Colour follows the card's rarity; text keeps readable ink on a tinted paper strip. */
+.production-review{--cue-color:#9c2f2f;border:0;padding:14px 0 18px;text-align:center}
+.production-review .rarity-C{--cue-color:#8b8175;--cue-wash:#eee8df}
+.production-review .rarity-UC{--cue-color:#b45e29;--cue-wash:#fae6d4}
+.production-review .rarity-R{--cue-color:#1f8a4c;--cue-wash:#e7f6ec}
+.production-review .rarity-SR{--cue-color:#2a6fdb;--cue-wash:#e7f0ff}
+.production-review .rarity-SSR{--cue-color:#7a3ff0;--cue-wash:#f3e9ff}
+.production-review .rarity-UR{--cue-color:#c6a15a;--cue-wash:#f8efd4}
+.production-review .rarity-LR{--cue-color:#ad5776;--cue-wash:#f7e8ed}
+.production-crew-title{margin:0 0 6px;font-size:clamp(23px,4.8vw,32px);font-family:var(--serif)}
+.production-crew{font:inherit;font-weight:700;color:var(--ink);background:var(--cue-wash);border:0;border-bottom:4px solid var(--cue-color);padding:4px 18px 7px;cursor:pointer;transition:transform .2s ease}
+.production-crew.rarity-LR{border-image:linear-gradient(90deg,#cd557f,#c6a15a,#638bb7) 1}
+.production-crew-description{margin:9px 0 14px;color:var(--ink-soft);font-size:14px;line-height:1.6}
+.production-cues{display:flex;justify-content:center;flex-wrap:wrap;gap:7px;list-style:none;padding:0;margin:0}
+.production-cues li{margin:0;padding:0;max-width:100%}
+.production-cue{--cue-color:#9c2f2f;color:var(--ink);background:transparent;border:1px solid #c9beae;border-radius:4px;font:inherit;line-height:1.5;padding:7px 12px;cursor:pointer;max-width:100%;transition:background .18s ease,border-color .18s ease}
+.production-cue strong{font-size:14px;font-weight:600;border-bottom:2px solid var(--cue-color);padding-bottom:2px}
+.production-cue>span:not(.cue-value){display:none;font-size:13px;line-height:1.65;margin-top:8px;max-width:36em}
+.production-cue.is-cue-active{background:var(--cue-wash,#f3e6de);border-color:var(--cue-color)}
+.production-cue.is-cue-active>span:not(.cue-value){display:block}
+.production-cue .cue-value{font-size:13px;margin-left:8px;color:var(--ink)}
+.production-crew:focus-visible,.production-cue:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+.production-cue-status{min-height:1.7em;margin:10px 0 0;color:var(--ink-soft);font-size:12px;line-height:1.7;text-align:center}
+.cast-row,.pack-spread{position:relative;isolation:isolate}
+.cast-mini.is-cue-card,.spread-card.is-cue-card{position:relative;z-index:3;outline:3px solid var(--cue-color);outline-offset:3px;animation:none!important;transform:translateY(-3px) scale(1.045);transition:outline-color .2s ease,transform .2s ease}
+.cast-mini.is-cue-bond,.spread-card.is-cue-bond{outline-style:double;outline-width:5px}
+.spread-review{padding:14px 0 4px}
+.spread-score-line{margin:0;text-align:center;font-size:14px;color:var(--ink-soft)}
+.spread-score{font-size:38px;font-family:var(--serif);font-variant-numeric:tabular-nums;font-weight:650;color:var(--ink);margin-left:6px}
+.spread-review .production-review{padding:4px 0 12px}.spread-review .production-crew-title{font-size:23px}.spread-review .production-crew-description{display:none}
+.spread-review .production-cues{margin-top:12px}
+.talk-full p,.talk-short p{line-height:1.95;text-wrap:pretty}.talk-beat{opacity:1}
+.talk-sources{font-size:12px!important;line-height:1.7!important;color:var(--ink-soft);margin-top:18px!important}
+.talk [hidden]{display:none!important}
+.talk-toggle{margin-top:12px}
+.result-screen .verdict{font-size:clamp(24px,5vw,34px);line-height:1.5;text-wrap:balance;margin:24px 0 18px}
+.result-screen .production-review{border-bottom:1px solid var(--line)}
+.poster-static .is-cue-card{outline:0!important;transform:none!important}
+.poster-static .production-cue>span:not(.cue-value){display:block}
+.poster-static .production-cue-status{display:none}
+.card.rarity-UC,.cast-card.rarity-UC{border-color:#b45e29}
+.cast-mini.rarity-UC,.trade-card.rarity-UC,.dealt-row button.rarity-UC{background:#fae6d4;border-color:#b45e29}
+.rarity-UC .art-badge,.art-grade.rarity-UC,.seal.rarity-UC{color:#7c3816;background:#fae6d4;border-color:#b45e29}
+.rarity-call.rarity-UC{color:#a24d1e}
+.flip.is-charging.rarity-UC{box-shadow:0 0 0 6px #b45e2940}
+.pack-zone .flip.rarity-UC{--stage-ink:#b45e29;--stage-wash:#b45e292e}
+.trade-card.rarity-UC .art-badge{color:#7c3816!important;background:#fae6d4!important}.trade-card.rarity-UC .seal-word{color:#7c3816}
+.score-explanation .production-crew-title{font-size:clamp(23px,4.8vw,32px);margin:0 0 6px}
+.score-explanation .production-cues{padding:0}
+.rates-table-scroll{overflow-x:auto}.rates-table-scroll table{min-width:480px}.rates-table-scroll caption{text-align:left;margin-bottom:8px}
+.stat-rationale{margin:16px 0 22px;padding:0 14px;border:1px solid var(--line);border-radius:4px}
+.stat-rationale summary{cursor:pointer;padding:12px 0;font-weight:600}.stat-rationale summary span{font-weight:400;color:var(--ink-soft);font-size:12px;margin-left:8px}
+.stat-rationale p{font-size:14px;line-height:1.75}.stat-reason b{display:block;margin-bottom:5px}.stat-atk b{color:#a32e30}.stat-def b{color:#087a78}
+.stat-rationale .stat-note,.stat-rationale .stat-sources{font-size:12px;color:var(--ink-soft)}.stat-sources a{color:inherit;text-underline-offset:3px}
+.official .card-sources{font-size:12px;line-height:1.6;color:var(--ink-soft)}.card-sources a{color:inherit;text-underline-offset:3px}
+@media(max-width:520px){.production-review{padding:10px 0 15px}.production-cue{padding:6px 9px}.production-cue-status{font-size:11px}.spread-review{padding-top:10px}}
+@media(prefers-reduced-motion:reduce){.cast-mini.is-cue-card,.spread-card.is-cue-card{transform:none;transition:none}.production-crew,.production-cue{transition:none}}
+
+/* Paper opens from top to bottom. Notes stay in normal flow and remain readable. */
+.pull-screen:not(.is-sealed):not(.is-spread){height:auto;min-height:100svh;overflow:visible}
+.pull-screen:not(.is-sealed):not(.is-spread)>.narrow{flex:none;height:auto}
+.pull-screen:not(.is-sealed):not(.is-spread) .pack-tap{display:block;flex:none;height:auto;container-type:inline-size;--cw:min(300px,calc(100cqw - 60px))}
+.pull-screen:not(.is-sealed):not(.is-spread) .pack-zone{flex:none;height:auto;padding:16px 0;min-height:0}
+.pack-tap > .pack-preamble.reveal-intro-v40 {
+  position: static; inset: auto; transform: none; width: min(92%, 380px);
+  max-height: none; height: auto; overflow: visible; margin: 16px auto 8px;
+  display: grid; gap: 9px; padding: 0; background: none; border-radius: 0;
+  text-align: left; font-size: .92rem; font-weight: 400; letter-spacing: .02em; line-height: 1.75;
+}
+.pack-tap > .pack-preamble.reveal-intro-v40[hidden],
+.reveal-intro-v40 .pre-line[hidden] { display: none; }
+.pack-preamble.reveal-intro-v40 .pre-line {
+  display: block; margin: 0; padding: 0 0 0 12px; border-left: 1px solid var(--line);
+  max-height: none; overflow: visible; white-space: normal; -webkit-line-clamp: unset;
+  -webkit-box-orient: initial; opacity: 1; text-wrap: pretty; overflow-wrap: anywhere;
+}
+.reveal-intro-v40 .pre-line.is-on { animation: reveal-words-v40 .7s ease-out both; }
+.reveal-line-label { display: block; margin-bottom: 2px; color: var(--ink-soft); font: 10px/1.5 var(--sans); letter-spacing: .14em; }
+.pack-zone.reveal-zone-v40 { overflow: visible; animation: none; }
+.pack-zone.reveal-zone-v40::before, .pack-zone .flip.reveal-v40::after { display: none; }
+.pack-zone .flip.reveal-v40,.pack-zone .flip.reveal-v40.is-flipped { animation: none; }
+.pack-zone .flip.reveal-v40 .halo,
+.pack-zone .flip.reveal-v40 .stage-dust i,
+.pack-zone .flip.reveal-v40 .art-wrap::before,
+.pack-zone .flip.reveal-v40 .art-wrap::after { animation: none !important; }
+.pack-zone .flip.reveal-v40 .stage-dust,
+.pack-zone .flip.reveal-v40 .art-wrap::before,
+.pack-zone .flip.reveal-v40 .art-wrap::after { opacity: 0; }
+.pack-zone .flip.reveal-v40.is-reveal-climax { animation: reveal-shake-v40 .48s ease-out both; }
+.reveal-paper-v40 { position: absolute; inset: 0; z-index: 5; pointer-events: none; overflow: hidden; clip-path: inset(var(--reveal-cut, 0%) 0 0 0); transition: clip-path 1s cubic-bezier(.22,.7,.2,1); }
+.reveal-paper-v40 i { position: absolute; inset: -2px; background: #eee4d2; background-image: repeating-linear-gradient(-24deg, #f4ecdd55 0 7px, #d6c5a71a 7px 8px); transition: transform .72s cubic-bezier(.2,.7,.2,1), opacity .64s ease; }
+.reveal-sheet-left { clip-path: polygon(0 0, 45% 0, 52% 14%, 46% 27%, 53% 41%, 47% 55%, 54% 70%, 48% 84%, 54% 100%, 0 100%); }
+.reveal-sheet-right { clip-path: polygon(45% 0, 100% 0, 100% 100%, 54% 100%, 48% 84%, 54% 70%, 47% 55%, 53% 41%, 46% 27%, 52% 14%); }
+.reveal-paper-v40.is-torn .reveal-sheet-left { transform: translate(-26%, 5%) rotate(-8deg); opacity: 0; }
+.reveal-paper-v40.is-torn .reveal-sheet-right { transform: translate(26%, -5%) rotate(8deg); opacity: 0; }
+.reveal-effects-v40 { position: absolute; inset: 0; z-index: 6; pointer-events: none; color: var(--stage-ink); }
+.reveal-flare-v40 { position: absolute; inset: 0; border: 1px solid currentColor; box-shadow: 0 0 calc(18px + 12px * var(--reveal-strength)) calc(2px * var(--reveal-strength)) var(--stage-wash); animation: reveal-flare-v40 1.2s ease-out both; }
+.reveal-cracks-v40 { width: 100%; height: 100%; overflow: visible; animation: reveal-crack-fade-v40 .85s ease-out both; }
+.reveal-cracks-v40 path { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: reveal-crack-v40 .42s var(--crack-delay) ease-out forwards; }
+.reveal-wave-v40 { position: absolute; inset: 34% 22%; border: 1px solid currentColor; border-radius: 50%; animation: reveal-wave-v40 1.15s var(--wave-delay) cubic-bezier(.15,.65,.25,1) both; }
+@keyframes reveal-words-v40 { from { clip-path: inset(0 0 100% 0); opacity: .15; } to { clip-path: inset(0); opacity: 1; } }
+@keyframes reveal-shake-v40 { 0%,100% { transform: none; } 18% { transform: translateX(calc(-1px * var(--reveal-strength))) rotate(-.35deg); } 38% { transform: translateX(calc(1.5px * var(--reveal-strength))) rotate(.35deg); } 62% { transform: translateX(calc(-.6px * var(--reveal-strength))); } 82% { transform: translateX(.5px); } }
+@keyframes reveal-crack-v40 { to { stroke-dashoffset: 0; } }
+@keyframes reveal-crack-fade-v40 { 0%,60% { opacity: .8; } 100% { opacity: 0; } }
+@keyframes reveal-wave-v40 { from { transform: scale(.3); opacity: .7; } to { transform: scale(3.25); opacity: 0; } }
+@keyframes reveal-flare-v40 { 0% { opacity: 0; } 25% { opacity: 1; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .reveal-intro-v40 .pre-line.is-on { animation: none; clip-path: none; opacity: 1; }
+  .pack-zone .flip.reveal-v40.is-reveal-climax { animation: none; }
+  .reveal-paper-v40, .reveal-effects-v40 { display: none; }
+  .pack-zone .flip.reveal-v40 .flip-inner { transition: none; }
+}
+
+/* V40_PRESENTATION_END */
 </style>
   </head>
   <body>
@@ -1387,7 +1503,34 @@ function fiveReview(cards,flags){
   return marks;
 }
 
-var v=[`C`,`UC`,`R`,`SR`,`SSR`,`UR`,`LR`],y={C:22,UC:26,R:26,SR:15,SSR:7,UR:3,LR:1},b={C:`龙套`,UC:`班底`,R:`当行`,SR:`头牌`,SSR:`压轴`,UR:`独步`,LR:`绝唱`},x=[{key:`剧目`,short:`剧本`,seal:`剧`,lead:`今晚演哪一出。`,atk:`冲突强度`,def:`叙事完整`,atkHint:`冲突强度：愿望和阻力顶得有多紧。`,defHint:`叙事完整：线索、转折与结果连接得多清楚。`,about:`冲突强度看人物和事件顶到什么程度。叙事完整看整出戏能否从头讲到尾。`},{key:`风格体系`,short:`演法`,seal:`风`,lead:`这场戏怎样表达。`,atk:`风格冲击`,def:`方法成规`,atkHint:`风格冲击：对观看习惯的改变有多明显。`,defHint:`方法成规：这套演法的组织方式有多鲜明。`,about:`风格冲击看演法把观众推开多远。方法成规看这套规矩能否换到另一出戏。`},{key:`导演手法`,short:`手段`,seal:`导`,lead:`哪一种舞台手段参与行动。`,atk:`调度新意`,def:`手法成法`,atkHint:`调度新意：对行动或观众注意的改变有多明显。`,defHint:`手法成法：这项手段的特征是否容易辨认。`,about:`调度新意看这一手是否改了看戏的习惯。手法成法看观众能否认出它。`},{key:`主演`,short:`主角`,seal:`角`,lead:`谁在这一局登场。`,atk:`人物行动`,def:`身份辨识`,atkHint:`人物行动：主动争取目标、推动事件的力度。`,defHint:`身份辨识：处境、愿望与原作身份有多鲜明。`,about:`人物行动看这个人是否自己做出选择。身份辨识看能否讲清他从哪出戏来。`},{key:`配角`,short:`配角`,seal:`配`,lead:`谁来对这一场戏。`,atk:`对戏力度`,def:`关系辨识`,atkHint:`对戏力度：把主角逼到必须应声的程度。`,defHint:`关系辨识：这段关系让人一眼能认出是谁与谁在对戏。`,about:`对戏力度看配角把冲突推到哪一步。关系辨识看这段关系能否被观众立刻认出来。`},{key:`环境`,short:`空间`,seal:`境`,lead:`戏放在哪里。`,atk:`空间错位`,def:`空间承载`,atkHint:`空间错位：场所条件可能带来多大的改编反差。`,defHint:`空间承载：能提供多少可用于表演的条件。`,about:`空间错位看场地是否故意和剧情拧着。空间承载看拿走情节后这地方还能不能托住戏。`}],S=Object.fromEntries(x.map(e=>[e.key,e]));function C(e=Math.random){let t=e()*100;for(let e of v)if(t-=y[e],t<0)return e;return v[0]}function ee(e,t){let n=e.filter(e=>e.rarity===t);if(n.length)return n;let r=v.indexOf(t);for(let t=1;t<v.length;t+=1){let n=r-t;if(n>=0){let t=e.filter(e=>e.rarity===v[n]);if(t.length)return t}let i=r+t;if(i<v.length){let t=e.filter(e=>e.rarity===v[i]);if(t.length)return t}}return e}function te(e,t,n=Math.random){let r=e.filter(e=>e.dimension===t);if(!r.length)throw Error(`empty pool: ${t}`);let i=ee(r,C(n));return pickScoredCard(i,n)}function ne(e=``,t=``){let n=new URLSearchParams(String(e).replace(/^#/,``)).get(`m`),r=new URLSearchParams(String(t)).get(`m`),i=n||r;if(i==null||i===``)return{kind:`none`};let a=i.split(`.`).map(e=>e.trim()).filter(Boolean);return (a.length===x.length||a.length===5)?{kind:`ids`,ids:a}:{kind:`bad`}}function re(e,t){if(!Array.isArray(t)||![5,6].includes(t.length))return null;const dims=t.length===5?x.filter(d=>d.key!==`配角`):x;let cards=t.map((id,i)=>e.find(c=>c.id===id&&c.dimension===dims[i].key));return cards.every(Boolean)?cards:null}function w(e){return e.map(e=>e.id).join(`.`)}// SCORING_V38_START
+// V40_RATES_START
+const DiaRatesV40 = {
+  standard: { C: 20, UC: 24, R: 25, SR: 15, SSR: 10, UR: 5, LR: 1 },
+  gift: { C: 8, UC: 12, R: 25, SR: 24, SSR: 18, UR: 9, LR: 4 },
+};
+
+function effectiveRatesV40(pool, dimension, table = DiaRatesV40.standard, resolveTier = ee) {
+  const cards = pool.filter(card => card.dimension === dimension);
+  const rates = Object.fromEntries(Object.keys(table).map(rarity => [rarity, 0]));
+  for (const [rarity, chance] of Object.entries(table)) rates[resolveTier(cards, rarity)[0].rarity] += chance;
+  return rates;
+}
+
+function ratesHelpV40(pool) {
+  const ranks = Object.keys(DiaRatesV40.standard);
+  const dimensions = x.map(dimension => dimension.key);
+  return `<p>普通包的 1–7 星档位概率依次为 ${Object.values(DiaRatesV40.standard).map(value => `${value}%`).join('、')}；今日赠礼的下一综合包依次为 ${Object.values(DiaRatesV40.gift).map(value => `${value}%`).join('、')}。</p>
+    <p>先抽星级，再在对应维度同档内等概率选卡。缺档时落到最近档位，同距离优先较低档：当前剧本没有 1 星，转入 2 星；手段没有 7 星，转入 6 星。</p>
+    <details><summary>查看各维实际出率</summary>${Object.entries(DiaRatesV40).map(([kind, table]) => `<div class="rates-table-scroll"><table><caption>${kind === 'standard' ? '普通包' : '今日赠礼包'} · 每张卡的实际星级概率</caption><thead><tr><th scope="col">维度</th>${ranks.map((_, i) => `<th scope="col">${i + 1} 星</th>`).join('')}</tr></thead><tbody>${dimensions.map(dimension => {
+      const actual = effectiveRatesV40(pool, dimension, table);
+      return `<tr><th scope="row">${K(copyDimension(dimension))}</th>${ranks.map(rarity => `<td>${actual[rarity]}%</td>`).join('')}</tr>`;
+    }).join('')}</tbody></table></div>`).join('')}</details>`;
+}
+
+if (typeof module !== 'undefined' && module.exports) module.exports = { DiaRatesV40, effectiveRatesV40 };
+
+// V40_RATES_END
+var v=[`C`,`UC`,`R`,`SR`,`SSR`,`UR`,`LR`],y=DiaRatesV40.standard,b={C:`龙套`,UC:`班底`,R:`当行`,SR:`头牌`,SSR:`压轴`,UR:`独步`,LR:`绝唱`},x=[{key:`剧目`,short:`剧本`,seal:`剧`,lead:`今晚演哪一出。`,atk:`冲突强度`,def:`叙事完整`,atkHint:`冲突强度：愿望和阻力顶得有多紧。`,defHint:`叙事完整：线索、转折与结果连接得多清楚。`,about:`冲突强度看人物和事件顶到什么程度。叙事完整看整出戏能否从头讲到尾。`},{key:`风格体系`,short:`演法`,seal:`风`,lead:`这场戏怎样表达。`,atk:`风格冲击`,def:`方法成规`,atkHint:`风格冲击：对观看习惯的改变有多明显。`,defHint:`方法成规：这套演法的组织方式有多鲜明。`,about:`风格冲击看演法把观众推开多远。方法成规看这套规矩能否换到另一出戏。`},{key:`导演手法`,short:`手段`,seal:`导`,lead:`哪一种舞台手段参与行动。`,atk:`调度新意`,def:`手法成法`,atkHint:`调度新意：对行动或观众注意的改变有多明显。`,defHint:`手法成法：这项手段的特征是否容易辨认。`,about:`调度新意看这一手是否改了看戏的习惯。手法成法看观众能否认出它。`},{key:`主演`,short:`主角`,seal:`角`,lead:`谁在这一局登场。`,atk:`人物行动`,def:`身份辨识`,atkHint:`人物行动：主动争取目标、推动事件的力度。`,defHint:`身份辨识：处境、愿望与原作身份有多鲜明。`,about:`人物行动看这个人是否自己做出选择。身份辨识看能否讲清他从哪出戏来。`},{key:`配角`,short:`配角`,seal:`配`,lead:`谁来对这一场戏。`,atk:`对戏力度`,def:`关系辨识`,atkHint:`对戏力度：把主角逼到必须应声的程度。`,defHint:`关系辨识：这段关系让人一眼能认出是谁与谁在对戏。`,about:`对戏力度看配角把冲突推到哪一步。关系辨识看这段关系能否被观众立刻认出来。`},{key:`环境`,short:`空间`,seal:`境`,lead:`戏放在哪里。`,atk:`空间错位`,def:`空间承载`,atkHint:`空间错位：场所条件可能带来多大的改编反差。`,defHint:`空间承载：能提供多少可用于表演的条件。`,about:`空间错位看场地是否故意和剧情拧着。空间承载看拿走情节后这地方还能不能托住戏。`}],S=Object.fromEntries(x.map(e=>[e.key,e]));function C(e=Math.random){let t=e()*100;for(let e of v)if(t-=y[e],t<0)return e;return v[0]}function ee(e,t){let n=e.filter(e=>e.rarity===t);if(n.length)return n;let r=v.indexOf(t);for(let t=1;t<v.length;t+=1){let n=r-t;if(n>=0){let t=e.filter(e=>e.rarity===v[n]);if(t.length)return t}let i=r+t;if(i<v.length){let t=e.filter(e=>e.rarity===v[i]);if(t.length)return t}}return e}function te(e,t,n=Math.random){let r=e.filter(e=>e.dimension===t);if(!r.length)throw Error(`empty pool: ${t}`);let i=ee(r,C(n));return pickScoredCard(i,n)}function ne(e=``,t=``){let n=new URLSearchParams(String(e).replace(/^#/,``)).get(`m`),r=new URLSearchParams(String(t)).get(`m`),i=n||r;if(i==null||i===``)return{kind:`none`};let a=i.split(`.`).map(e=>e.trim()).filter(Boolean);return (a.length===x.length||a.length===5)?{kind:`ids`,ids:a}:{kind:`bad`}}function re(e,t){if(!Array.isArray(t)||![5,6].includes(t.length))return null;const dims=t.length===5?x.filter(d=>d.key!==`配角`):x;let cards=t.map((id,i)=>e.find(c=>c.id===id&&c.dimension===dims[i].key));return cards.every(Boolean)?cards:null}function w(e){return e.map(e=>e.id).join(`.`)}// SCORING_V38_START
 const DiaScoring = (() => {
   const WEIGHTS = { 剧目: 22, 风格体系: 14, 导演手法: 16, 主演: 20, 配角: 16, 环境: 12 };
   // Each row is the bonus for two through six distinct cards of the same rarity.
@@ -1513,21 +1656,64 @@ function productionScore(cards) {
 
 function scoreNumber(value) { return Math.round(value).toString(); }
 
-function scoreBreakdown(result, cards) {
-  const names = ids => ids.map(id => cards.find(card => card.id === id)?.name || id).join(' × ');
-  const groups = result.resonanceDetails.map(item =>
-    `<li>${fn[item.rarity]} 星 ${item.count} 张：+${item.points}</li>`);
-  const bonds = result.bondDetails.map(item =>
-    `<li>${K(item.label)}：${K(names(item.cardIds))}，+${item.points}</li>`);
-  return `<section class="score-explanation" aria-label="本场评价与组队奖励">
-    <h2>本场评价 · ${K(result.grade)} · ${result.score} 分</h2>
-    <p>剧组称号：<strong>${K(result.crew.title)}</strong>${result.crew.count ? ` · ${fn[result.crew.rarity]} 星 ${result.crew.count} 人组` : ''}</p>
-    <p>${K(result.crew.description)}</p>
-    <p>基础 ${result.base} 分 · 同星 +${result.resonance} · 羁绊 +${result.bonds}（总分最多 100）</p>
-    <details><summary>这次获得了哪些组队奖励</summary>
-      <ul>${groups.length ? groups.join('') : '<li>凑齐两张同星卡，就有同星奖励。</li>'}${bonds.length ? bonds.join('') : '<li>本场暂未遇到原作或演法搭档。</li>'}</ul>
-      <p>同星奖励合计最多 +7，羁绊最多 +8；剧组称号看人数最多的同星组，同人数取高星。</p>
-    </details>
+function productionCuesV40(result, cards) {
+  const byId = new Map(cards.map(card => [card.id, card]));
+  const groups = {
+    C: { titles: ['一桌搭戏', '接住这句', '板凳围台', '合力支台', '满台烟火'], scene: '借一张桌当舞台' },
+    UC: { titles: ['街角碰头', '邻里接戏', '巷口开场', '满院好戏', '街坊齐上阵'], scene: '街坊的板凳已经摆好' },
+    R: { titles: ['咫尺对戏', '三面来风', '四角生戏', '小台满座', '一屋入戏'], scene: '小剧场里连呼吸都听得见' },
+    SR: { titles: ['同行一站', '转场有伴', '四方走戏', '行囊成班', '带戏远行'], scene: '下一站的幕布就要升起' },
+    SSR: { titles: ['好戏相逢', '轮番亮相', '彼此搭台', '压轴相让', '满台绝活'], scene: '各自的拿手戏有了呼应' },
+    UR: { titles: ['知音对坐', '三声应和', '功夫相照', '五席成章', '满堂余韵'], scene: '把千百次练习藏进一次回身' },
+    LR: { titles: ['传奇碰面', '三章交响', '四幕相连', '今夜入史', '共赴谢幕'], scene: '各自的传奇在今夜交会' },
+  };
+  const ensemble = [
+    '一递一接，先搭起一个来回。',
+    '第三道声音加入，对手戏转了个弯。',
+    '四方接应，舞台的空处也有了回应。',
+    '五路戏意聚拢，一次转场便连成片。',
+    '全台互相托住，开场到谢幕都有照应。',
+  ];
+  const bondCopy = {
+    'play-lead': (play, lead) => ['主角归位', `${lead}走进《${play}》，人物的心事有了来处。`],
+    'play-support': (play, support) => ['侧幕来人', `${support}回到《${play}》，从侧面牵动这场戏。`],
+    'lead-support': (lead, support) => ['对手接招', `${lead}与${support}同出一作，彼此的话终于有人接。`],
+    'play-place': (play, place) => ['旧地开幕', `《${play}》落在${place}，脚下这片地方也在讲故事。`],
+    'style-method': (style, method) => ['演法落地', `${style}遇上${method}，台上的想法找到了做法。`],
+  };
+  const cues = result.resonanceDetails.map(item => {
+    const names = item.cardIds.slice(0, 2).map(id => byId.get(id).name).join('与');
+    const copy = groups[item.rarity];
+    return { id: `resonance-${item.rarity}`, kind: 'resonance', cardIds: [...item.cardIds], rarity: item.rarity,
+      title: copy.titles[item.count - 2], description: `${names}${item.count > 2 ? '等伙伴' : ''}，${copy.scene}；${ensemble[item.count - 2]}`, points: item.points };
+  });
+  for (const item of result.bondDetails) {
+    const [title, description] = bondCopy[item.id](...item.cardIds.map(id => byId.get(id).name));
+    cues.push({ id: `bond-${item.id}`, kind: 'bond', cardIds: [...item.cardIds], title, description, points: item.points });
+  }
+  // Animation increments use the engine's capped totals; every triggered cue still gets its moment.
+  const remaining = { resonance: result.resonance, bond: result.bonds };
+  let scoreRoom = Math.max(0, result.score - result.base);
+  for (const cue of cues) {
+    const capped = Math.min(cue.points, remaining[cue.kind]);
+    remaining[cue.kind] -= capped;
+    cue.points = Math.min(capped, scoreRoom);
+    scoreRoom -= cue.points;
+  }
+  return cues;
+}
+
+function scoreBreakdown(result, cards, showPoints = false) {
+  const cues = productionCuesV40(result, cards);
+  const crewCue = cues.find(cue => cue.kind === 'resonance' && cue.rarity === result.crew.rarity);
+  const attributes = cue => `data-action="production-cue" data-cue-id="${K(cue.id)}" data-production-cue="${K(cue.id)}" data-card-ids="${K(JSON.stringify(cue.cardIds))}" data-rarity="${K(cue.rarity || '')}"`;
+  const title = crewCue
+    ? `<button type="button" class="production-crew rarity-${K(crewCue.rarity)}" ${attributes(crewCue)} aria-label="${K(result.crew.title)}，同星合演，回看关联卡牌">${K(result.crew.title)}</button>`
+    : K(result.crew.title);
+  return `<section class="score-explanation production-review" aria-label="演后短评">
+    <h2 class="production-crew-title">${title}</h2>
+    <p class="production-crew-description">${K(result.crew.description)}</p>
+    ${cues.length ? `<ul class="production-cues">${cues.map(cue => `<li><button type="button" class="production-cue${cue.rarity ? ` rarity-${K(cue.rarity)}` : ''}" ${attributes(cue)} aria-label="${K(cue.title)}，${cue.kind === 'resonance' ? '同星合演' : '戏剧羁绊'}，${cue.points ? `加${cue.points}分，` : ''}${K(cue.description)} 回看关联卡牌"><strong>${K(cue.title)}${showPoints && cue.points ? `<b class="cue-value">+${cue.points}</b>` : ''}</strong><span>${K(cue.description)}</span></button></li>`).join('')}</ul><p class="production-cue-status" role="status" aria-live="polite">点选评语，看看是哪几张卡在呼应。</p>` : ''}
   </section>`;
 }
 
@@ -1543,7 +1729,8 @@ function scoringHelp(state) {
       <p>不同同星组可以一起加分，总共最多 +7。剧组称号看人数最多的一组，同人数取高星；整场评价看总分。</p>
     </details>
     <details><summary>抽取与保存</summary>
-      <p>1–7 星的普通档位出率依次为 ${v.map(rank => `${y[rank]}%`).join('、')}；缺档会落到相邻档位，同档内等概率。连续 30 包未出 5 星以上、60 包未出 6 星以上时，对应一包会保底。</p>
+      ${ratesHelpV40(activeCards)}
+      <p>连续 30 包未出 5 星以上、60 包未出 6 星以上时，对应一包会保底。</p>
       <p>收藏和保底保存在当前浏览器；旧五卡分享也能继续看。今日赠礼提高下次综合包的高星机会，单维包次数从任务领取。</p>
     </details>
     <details><summary>资料与评分参考</summary><p>资料用于核对作品背景；分数和星级是游戏的编辑判断。<a href="https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/docs/RUBRIC.md" target="_blank" rel="noopener noreferrer">查看参考标准与来源</a></p></details>
@@ -2657,7 +2844,11 @@ async function sharePoster(button,mode=`long`){
   let poster;
   try{
     await document.fonts.ready;
-    poster=document.querySelector('.result-screen').cloneNode(true);
+    finishProductionV40();
+    const source=document.querySelector('.result-screen');
+    if(source)poster=source.cloneNode(true);
+    else{const template=document.createElement('template');template.innerHTML=Un({...ar(),drawn:productionCardsV40(),talkOpen:true});poster=template.content.firstElementChild;}
+    poster.classList.add('poster-static');
     poster.querySelector('.share-block')?.remove();
     poster.querySelector('.top-actions')?.remove();
     poster.querySelector('.try-own')?.remove();
@@ -2729,7 +2920,6 @@ function hexRadar(cards){
       <svg class="hex-radar" viewBox="0 0 340 258" aria-hidden="true">
         ${[20,40,60,80,100].map(score=>`<path class="hex-grid${score===100?' hex-grid-max':''}" d="${path(ring(radius*score/100))}"/>`).join('')}
         ${labels.map((_,i)=>`<line class="hex-axis" x1="170" y1="128" x2="${point(i,radius)[0]}" y2="${point(i,radius)[1]}"/>`).join('')}
-        ${[20,40,60,80,100].map(score=>`<text class="hex-scale" x="${176+radius*score/100*.866}" y="${132-radius*score/100*.5}">${score}</text>`).join('')}
         <path class="hex-area" data-base-points="${values.map(p=>p.join(',')).join(' ')}" d="${path(values)}"/>
         ${six?[[0,2,4],[1,3,5]].map(indices=>`<path class="hex-star" d="${path(indices.map(i=>values[i]))}"/>`).join(''):`<path class="hex-star" d="${path([0,2,4,1,3].map(i=>values[i]))}"/>`}
         ${labels.map((_,i)=>`<line class="hex-ray" data-axis="${i}" pathLength="1" x1="170" y1="128" x2="${values[i][0]}" y2="${values[i][1]}"/>`).join('')}
@@ -2760,19 +2950,7 @@ function pn(e){return `<span class="seal rarity-${K(e)}" title="${K(b[e])}，${'
       ${r?`<p class="axis-hint">${K(r)}</p>`:``}
     </div>`}function _n(e){let t=x.find(t=>t.key===e.dimension);return`<div class="axes">${gn(`ATK`,e.atk_axis,e.atk,t?.atkHint)}${gn(`DEF`,e.def_axis,e.def,t?.defHint)}</div>`}const cardEssays={"play-oedipus":"追问原是君主替城邦履行的责任，问到最后，却夺走了他作为君主、丈夫与儿子的全部凭据。每个证人只带来一小段过去，拼起来才成为无人能承受的现在。观众比人物更早听见答案，于是正直的坚持也会令人恐惧。悲剧的力量落在这里：他越不肯放过罪人，就越不能放过自己。","play-teahouse":"一间做生意的屋子容得下各色声音，却没有谁能替后来的人挡住门外的年月。闲谈、讨价与告别连在一起，历史便不再是一张年表，而成了熟客的空座位。","play-hamlet":"鬼魂带来的是命令，却无法替活人完成查证。王子把表演变成试探真相的工具，自己也逐渐困在真假难分的言行之中。戏中戏因此不只是聪明计策：它让观看本身卷进复仇，连沉默的观众也在等一个人露出破绽。","play-thunder":"这个家庭努力维持的秩序，恰恰靠不许旧人说完话来成立。过去以亲人、雇工和恋人的身份重返同一间屋子，称呼越亲密，彼此的位置反而越危险。观众等待的不是秘密有没有，而是谁会在错误的人面前说出它。雷雨把漫长的压抑收紧成一天，让家不再能替任何人遮风。","play-macbeth":"预言像一张尚未签字的契约，麦克白亲手把它变成血债。第一场谋杀似乎能解决前程，此后的每一次杀戮却只增添新的威胁。权位越稳固，睡眠、信任和未来越稀薄。戏剧把看似向上的夺位写成向内的坠落，胜利也因此带着败亡的声音。","play-godot":"","play-peony":"","play-doll":"客厅里的昵称和礼物看似温柔，也悄悄规定着谁可以像孩子一样被照料，谁有资格作出判断。秘密借债让娜拉早已承担成年人的责任，却没有换来同等的发言权。最后的谈话把婚姻从习惯变成问题：一个被爱着的人，是否也被当作完整的人看待。","play-salesman":"威利需要儿子的成功证明自己没有白活，儿子却必须否认这套梦想才能说出实情。回忆并不提供安慰，它不断把旧日许诺带回饭桌，让每次家常对话都像一次无法结清的账。","play-doue":"一份被迫认下的罪名，可以在公堂上变成不容怀疑的事实。誓愿却把判决之外的天地也请来作证，让弱者最后的话越过掌刑者的权限。人的申诉与制度的耳聋彼此顶住，冤案因此既是一个人的灾难，也是一场关于谁能证明真相的争夺。","play-goodperson":"","play-cherry":"","play-xixiang":"","play-visit":"镇民无需突然变成恶人，只须一次次替将来的富足找个正当理由。赊账与消费先于最后的裁决发生，公共语言却仍在谈公平。喜剧的可怕正在这种时差里：所有人都知道钱意味着什么，只有被买下的死亡还等着被命名。","play-sunrise":"","play-yuanye":"","play-rhino":"","play-glass":"","style-classic":"","style-stan":"","style-epic":"一个人的遭遇被放回工资、法律和身份织成的关系网，眼泪便有了需要追问的来处。叙述与行动之间的缝隙，容得下观众对角色说一声‘你还可以怎样’。人物仍会受伤，只是伤口不再被当作命运的全部答案。","style-cruel":"","style-absurd":"","style-real":"一次借钱、一次留客、一次没能说出口的拒绝，都可能带出维持日常生活的整套关系。人物越像身边人，他们习以为常的忍让与自辩就越难被观众轻易放过。","style-xieyi":"完整的屋子可以退去，门内与门外的区别却仍然坚硬：有的人得以进入，有的人只能等待。省下的生活外观交给观众补全，人物的一次迟疑便能撑起整段无人说明的距离。","style-express":"","style-natural":"","style-romantic":"","style-poor":"","style-symbol":"","style-psych":"","style-post":"","style-doc":"","style-aesth":"","dir-wall":"","dir-alien":"角色正在争取的东西，与他用来解释自己的话，可以同时交到观众手里接受比较。感动因而多了一层不安：我们既听见他的苦处，也看见他的选择怎样落到别人身上。","dir-chorus":"","dir-empty":"","dir-ritual":"共同的程序把‘我们’变成可见的群体，也给拒绝参加的人划出孤立的位置。一个人的愿望与所有人重复的动作相抵时，秩序不再只是背景，而成了有重量的对手。","dir-immerse":"","dir-montage":"","dir-multi":"","dir-flashback":"","dir-body":"","dir-forum":"","dir-jianchang":"","dir-freeze":"","dir-docread":"","dir-proj":"","dir-prologue":"","role-oedipus":"他把统治的正当性押在查清真相上，因此没有一条可以体面撤回的路。旁人的迟疑越深，他越把它当成必须突破的阻碍。这个人最可敬的能力，也正是把自己逼到绝境的力量。等到身份彻底翻转，他仍须承受那些以为属于别人的事实。","role-nora":"她早已偷偷做过一件需要勇气和计算的事，家人却仍习惯用轻巧的称呼解释她。秘密被揭开以后，危机从钱债转向了她能否自行判断人生。她要求的不是换一种宠爱，而是让自己的理解也成为这段关系必须面对的事实。","role-hamlet":"","role-fanyi":"她的欲望始终要借别人的允许才有容身之处，越想抓住一个人，越暴露自己的无路可退。周家的礼貌把拒绝包得整齐，却无法消去其中的羞辱。她终于说出的秘密既是反抗，也会伤及她想挽留的人，爱与毁坏因此无法分开。","role-macbeth":"他并非一开始就听不见良心，而是听见之后仍一次次行动。预言替野心提供了说辞，却没有替任何一刀承担责任。掌权以后，他还要不断证明自己值得拥有已经夺来的东西，于是未来只剩下必须先行消灭的敌人。","role-doue":"她替亲人承担痛苦的选择，被审判者拿来坐实她的罪。到了最后，能被剥夺的几乎都已被剥夺，唯独她对冤屈的命名还没有交出去。她的声音越过眼前刑场，把当下无人肯听的事留给更长的时间。","role-liniang":"活下去的条件被缩成一张纸，纸上的姓名却会让谎言拥有一个真实的作者。普罗克托的拒绝把法庭的胜利拆开来：它可以夺走身体，却不能因此获得他对判决的认同。","role-ladym":"她曾把犹豫视作可以用意志清除的障碍，后来身体却替她记住了不能承认的事情。洗手把一个日常动作变成无休止的审讯，醒着时说服别人的语言，到梦里再也不能说服自己。","role-wang":"","role-shen":"善意每次得到回应，往往带回更多需要她承担的人；另一个身份暂时替她守住店门，却也让她失去公开表达善意的自由。她的两副面孔迫使观众看见：道德的要求与生存的条件，未必允许同一个人同时满足。","role-zhou":"","role-ming":"","role-willy":"","role-anti":"她没有军队，也没有可以与法令对等的权柄，只有自己愿意履行的亲人义务。她的决定让死者重新成为不可被国家随意处置的亲人。面对禁令，她既不等待多数赞同，也不把代价推给旁人。冲突因此不能靠误会澄清：双方说的恰恰都是自己认定的秩序。","role-bailu":"","role-gogo":"","place-table":"","place-tea":"一张桌子可以先后坐下互不相识的人，昨天的谈资却会留给今天的耳朵。茶钱、体面和活路在同一间屋里交换，人物各说各的难处，合起来才听见时代的压力。茶馆的戏剧性正在这种来去之间：个人以为自己只是进来歇脚，历史已经把他安排进了别人的故事。","place-elsinore":"","place-zhou":"","place-road":"","place-garden":"荒草没有抹去旧路，反而让人看见这里曾经相信怎样的秩序。人在园中重逢时，争执的不只是眼前的一句话，也是过去是否还配拥有这片地方。","place-dunsinane":"","place-parlor":"","place-exec":"","place-sichuan":"","place-cherry":"","place-gullen":"","place-zoo":"","place-loman":"","place-forest":"","place-empty":"","play-lear":"父亲要求爱被说成可比较的份额，国土便成了检验语言的赌注。真话没有换来信任，漂亮的承诺却获得了支配他的力量。失去权位以后，亲情才终于不能再靠命令索取。整出戏把君主降回一个需要被接纳的人，让认识来得比权力更迟。","play-othello":"一件随身物品被剥离原来的来路，便能替一个不在场的人作出致命指控。伊阿古编排的不是完整谎言，而是让奥赛罗自己补齐缺口的线索。亲密关系越依赖相信，猜疑就越像对它的背叛。悲剧让观众清楚看见错误如何生成，却无法把已经知道的事实递给人物。","play-antigone":"葬礼在这里同时属于家庭与城邦，两套责任争夺的是同一具身体。争执越清楚，妥协越困难，因为退让会让每一方否认自己据以生活的原则。悲剧没有把对手缩成不讲道理的人，而是让各自完整的理由相撞。","play-medea":"被抛弃与被放逐叠在一起，使私人关系的破裂变成失去整个生活位置的危机。美狄亚有足够清晰的语言陈述伤害，也有令人战栗的能力把报复推到尽头。孩子既是亲密关系留下的纽带，又被卷进毁坏这段关系的行动。理解她的处境与拒绝她的所为，因而必须同时发生在观众心里。","play-orphan":"保存一个孩子的身份，需要周围的人长期活在错误的称呼之下。牺牲没有随着危机过去而结束，它被藏进养育的日常，一年年等待被理解。真相到来时也不只是替无辜者正名，它会改变孩子对全部亲情的认识。","play-peach":"扇子从私人的赠物变成伤痕的载体，情人之间的信物由此不能再与时代分开。爱情所受的逼迫与世道的败落落在同一件小物上，使兴亡有了能够握在手里的重量。","play-palace":"","play-secret":"","play-beijing":"","play-baimao":"","play-street":"布兰奇用往日的体面为自己争取栖身之地，公寓里的人却掌握着验证她过去的权力。真相在这里并非天然的救赎：揭开一个人的虚构，也可能同时摧毁她仅存的生活能力。","play-sisters":"","play-butterfly":"","style-xiqu":"","style-greek":"一个决定可以同时欠下亲族、城邦与神意三笔债，而人物往往没有一条能全部偿清的路。歌队的声音让私人灾难始终处在共同体的听闻之中。观众看见的既是一个人的承担，也是众人赖以生活的秩序如何显出裂纹。","style-commedia":"","style-noh":"","style-kabuki":"","style-chuanqi":"","style-opera":"","style-musical":"","style-environ":"","style-postdrama":"","style-black":"","style-physical":"","dir-mask":"","dir-light":"","dir-band":"","dir-solo":"","dir-blackout":"","dir-convention":"","dir-parallel":"","dir-slow":"","dir-puppet":"","dir-revolve":"","dir-call":"","dir-change":"","role-shiping":"","role-xiangjun":"她的拒绝使自己的身体不再只是可被安排的婚姻筹码。爱人的选择、权势的介入与个人尊严被挤到同一个决定里，没有一项能轻易抽走。那柄留下痕迹的扇子让拒绝拥有了记忆，不肯让它被后来人的说辞抹平。","role-chengying":"他要守护的真相不能立即公开，连最亲近的人也未必能够知道他的理由。每一天的养育都延续着当初的牺牲，同时加深他与孩子之间真实的感情。待到可以说出往事时，他面对的也不再只是一个任务，而是一个在隐瞒中长大的人。","role-yuji":"别人用交易和算计谈论如何活过战争，她把受伤的人当作眼前必须回应的人。不能说话并没有让她退出公共生活，反而使最后的发声必须以整个身体来承担。鼓声把一个常被忽略的人变成共同命运的呼喊者，声音的代价也变得格外具体。","role-medea":"她能够把遭受的背叛说得有理有据，却不因此获得停止伤害的能力。母亲、妻子与流亡者的身份在她身上彼此撕扯，没有一个称呼能够独自解释她。报复不是忽然落下的黑暗，而是在清醒中不断逼近的选择。观众因而无法只用同情或谴责完成对她的观看。","role-lear":"他最初习惯把被服从误认成被爱，直到一句话不再能为自己换来住处。失去的每一层权力，都暴露出原先不必承认的需要。一个拥有过国土的人开始学习如何听见别人的痛苦。迟来的清醒没有自动带来补偿，正因如此，它显得格外沉重。","role-iago":"他善于把自己放在消息与听者之间，让提醒听起来像忠诚，让保留听起来像难言的证据。真正完成伤害的往往是被他引导的人，他们以为自己正在独立判断。观众知道谋划的存在，于是每次成功说服都带着双重寒意。语言在他手里不只是描述现实，而是在替下一场暴力准备条件。","role-courage":"","role-jiang":"","role-sufang":"","role-blanche":"","role-laura":"","role-mengmei":"","role-zhu":"手稿把一个人的未来从身体中分离出来，成了别人可以保存、占有或毁去的东西。洛夫伯格的失控因此不只关乎名声，也暴露出才能一旦需要旁人的承认与照料，就不再完全属于自己。","role-vladimir":"","place-thebes":"","place-heath":"","place-meixiang":"","place-baihua":"","place-camp":"帐外属于战争，帐内暂时允许一个人还有姓名、恐惧和牵挂。战事越接近，私人告别越难说完，军令与人情便挤在同一段有限的夜里。","place-stella":"","place-nohstage":"","place-blackbox":"","place-proscenium":"","place-island":"","place-zeng":"","place-backstage":"","xplay-faust":"","xplay-seagull":"","xplay-vanya":"","xplay-tartuffe":"","xplay-miser":"","xplay-figaro":"婚礼本应确认两个人的关系，却被权势当成一次可以插手的分配。仆人必须比主人更准确地理解规则，才有可能借规则的漏洞守住自己的生活。笑声来自身份与能力的不相称，也来自被要求服从的人终于掌握了局面的消息。","xplay-galileo":"","xplay-caucasian":"孩子的归属被带到法庭上，血缘、名分与实际照料便要接受同一次考验。灰阑让争夺成为可以看见的动作，却把真正的判断放在谁肯停止争夺上。","xplay-rhino":"异变最先令人震惊，人数多起来以后，震惊本身反而成了需要解释的异常。一个人是否还要保留自己的样子，逐渐从性格问题变成了与整个世界相处的问题。","xplay-bald":"","xplay-chairs":"","xplay-cat":"","xplay-longday":"","xplay-salome":"","xplay-pygmalion":"","xplay-dream":"","xplay-merchant":"契约要求所有人服从字句，字句却不必照顾一个身体是否能够承受。法庭把金钱、友情和报复压进同一套合法语言，让慈悲也不得不在规则中寻找位置。戏剧的刺留在胜负之后：法律解决一场争端，并不保证消除制造争端的仇视。","xplay-romeo":"","xplay-twelfth":"传话的人把自己的感情藏在他人的情书后面，爱便沿着错误的身份不断流转。误认带来欢笑，也让人物暂时说出在正确姓名之下不敢承认的愿望。","xplay-jia":"","xplay-quyuan":"","xplay-guantheplay":"","xplay-camel":"","xplay-dragon":"","xplay-lou":"","xplay-sang":"婚嫁把个人愿望放进一家人的生计，也把生计放进村庄认可的秩序。每个人都带着自己的困境参与其中，受过伤的人仍可能继续伤害别人。群像的重量来自这种缠绕：苦难并不自动使人团结，活路有时恰恰从邻人的手里被拿走。","xplay-doggy":"","xplay-shangyang":"建立新秩序的人必须相信规则能够超越个人，否则所有改革都只是换一张发号施令的脸。等到这套秩序也成为威胁自身的力量，理想与代价才在同一个人身上完成相遇。","xplay-caoyang":"理解原本可以成为两个人相互依赖的理由，权力却把过于准确的理解变成了威胁。才智越接近对方的内心，关系越难维持安全的距离，于是知音的可能性始终与杀机相邻。","xplay-liqiu":"","xstyle-jingju":"","xstyle-kunqu":"","xstyle-yueju":"","xstyle-chuanju":"","xstyle-yuju":"","xstyle-huangmei":"一幕结束时没有解决的争执，会把债带进下一幕，即使房间和季节都已经改变。幕间空白容纳人物未被目睹的生活，也让重逢带上了时间的分量。观众因此能够比较：同一个承诺，经过几个月或几年，究竟还剩下多少。","xstyle-pingju":"","xstyle-shadow":"轮廓暂时抹平身份的细部，追赶、依偎和抗拒便以身体之间的距离先抵达观众。一个影子伸向另一个影子时，善意与威胁可能共享同一种外形，辨认本身也成了悬念。","xstyle-puppetry":"谁有权讲述，谁的损失便可能被放大或略过；叙述者的一句概括，能替人物省下多年，也可能剥夺他的辩白。观众同时听故事和听讲故事的人，两者不完全相合的地方会生出另一场冲突。","xstyle-mime":"","xstyle-forum":"","xstyle-playback":"","xstyle-verbatim":"","xstyle-site":"","xstyle-walk":"","xstyle-soundth":"","xstyle-political":"权力有时以宣言出现，有时只是某个人永远可以打断另一个人的话。公共制度落进一顿饭、一份名单或一道门槛，人物的私生活就显出它无法独自决定的部分。戏剧的锋利处，在于让抽象立场付出具体的人际代价。","xstyle-feminist":"","xstyle-comedy":"人物认真保护的体面，往往比他们愿意承认的欲望更容易露馅。笑声让观众短暂地站在局外，又可能在下一次掩饰里认出自己，轻快由此带上了刺。","xstyle-tragedy":"","xstyle-farce":"","xstyle-tragicom":"","xstyle-verse":"","xstyle-danceplay":"","xstyle-nanxi":"","xstyle-zaju":"一场戏可以在某个人占据上风时结束，下一场却从另一个人的损失开始。分场之间的空隙把连续生活切成可比较的局面，让观众看到一件事如何在不同关系里变换意义。谁进入新的一场，谁没有再出现，也都成为叙事的一部分。","xstyle-huaju":"","xstyle-lab":"当平常的观看规则失效，观众会开始察觉自己何时相信、何时等待、又何时替人物补上了因果。实验的戏剧性由此不仅属于故事，也属于一个人发现自己的观看习惯可以被改变的瞬间。","xstyle-bunraku":"操纵者、叙述与乐声把生命分给同一个偶，角色却能以一个完整的迟疑回应观众。可见的借力与被感到的自主并存，使命运、依赖和意志不必被解释，就已经写在身体的存在方式里。","xstyle-kathakali":"","xdir-follow":"","xdir-toplight":"","xdir-sidelight":"","xdir-spot":"","xdir-still":"","xdir-halt":"尚未完成的动作，把结果暂时扣在半途：观众知道有人想做什么，却还不知道他是否做得下去。身体停住，目的并未消失，等待反而使它变得更重。那一点未跨过的距离，可以容下悔意、抵抗或仍然有效的威胁。","xdir-eyes":"","xdir-backturn":"脸被收回之后，观众失去了一条熟悉的判断通道，必须从声音与身体的细小变化辨认态度。背向某个人也可能是保护、惩罚或不敢相认，同一个方向因关系不同而具有不同的伤害。","xdir-changeset":"旧房间在眼前拆开，新房间由同一批东西组成，生活的改变便露出可触摸的代价。观众记得一把椅子先前属于谁，后来坐下的人因此无法完全抹掉它携带的过去。","xdir-enter":"","xdir-repeat":"","xdir-cutin":"","xdir-chorus":"","xdir-bang":"","xdir-drum":"","xdir-pose":"","xdir-zoubian":"夜里不确定的不只是前方的路，还有自己的动静是否已经被别人听见。一个赶路的人同时可能是寻找者、逃离者或被等待的人，尚未碰面的关系先在黑暗中绷紧。夜行因而把行动与猜测叠在一起，让每次前进都带着没有证实的消息。","xdir-tangma":"","xdir-sleeve":"手既能请求，又能占有；相近的动作会因对象、时机与回应而改换意思。语言还在维持礼貌时，身体已经可能暴露更急切的要求，戏剧便生在这两种表态的分歧里。","xdir-facechange":"","xdir-fire":"","xdir-yuan":"","xdir-nian":"","xdir-split":"","xdir-mirror":"","xdir-group":"同一件事在不同人的生活里，会分别成为机会、灾祸或暂时无关的消息。注意力在众人之间流转，便能让一个人的胜利与另一个人的代价彼此照面。群体不必发出同一个声音，共处而不同意，正是它最丰厚的戏剧性。","xdir-silence":"","xdir-improvbit":"现场出现的偏差，使人物的意图必须经过一次没有预先完成的应答。观众感到的不只是新鲜，还包括同伴之间真正的倾听：一句话能否被相信，要在此刻由另一人重新决定。","xdir-voiceover":"看不见的声音可以越过墙与时间，把一个缺席者重新带进眼前的关系。身体不在场并不等于没有权力，远处的一句要求仍可能让屋里的人改变原本的决定。","xdir-aside":"","xrole-ophelia":"","xrole-juliet":"","xrole-romeo":"","xrole-shylock":"","xrole-eliza":"","xrole-hedda":"她无法忍受自己的生活被写成别人早已安排好的句子，却又很难替自己找到新的出口。别人的才华与软弱于是成为她可以施加影响的地方。控制给予她短暂的自由感，也不断缩小她与他人真实相处的余地。","xrole-galileo":"","xrole-harpagon":"他把每一种关系都换算成可能失去的钱，于是父亲的关心与占有的恐惧说着同一种语言。喜剧不断放大这种计算，直到家人必须与一个不会回应的钱匣子争夺自己的位置。","xrole-tartuffe":"他最有效的伪装并非说得毫无破绽，而是恰好满足主人愿意相信的那种虔诚。骗局因此有了共同的作者：骗子提供姿态，被骗者替姿态授予权威。","xrole-figaro":"","xrole-mephisto":"","xrole-cordelia":"","xrole-desdemona":"","xrole-pozzo":"","xrole-lucky":"","xrole-chunxiang":"","xrole-hongniang":"她往返于彼此不能直接见面的人之间，知道的消息比掌权者更多，能公开说的话却更少。传话于是成为判断时机、承受风险和重新分配主动权的行动。她替别人促成相遇，也让自己的机敏在等级秩序中获得无法忽视的位置。","xrole-yingying":"","xrole-xiangzi":"他把尊严寄托在一件可以靠劳动挣来的东西上，因此每一次失去都像是对勤恳本身的否定。车既让他在城市中移动，也把他牢牢系在城市为穷人划定的位置上。","xrole-huniu":"","xrole-chong":"","xrole-sifeng":"","xrole-gold":"","xrole-juexin":"","xrole-chanjuan":"","xrole-zhulian":"珠帘秀的台词先属于纸面，出口以后却变成她本人必须承担的行动。看客与权势听见的是同一句话，赋予它的后果却截然不同。她让表演显出一种无法由作者代劳的勇气：借来的声音，也要由自己的身体抵达别人。","xrole-cao":"","xrole-yangxiu":"他以为说中对方的心意是在证明亲近，却没有权力决定这种亲近是否被允许。聪明一旦越过身份划定的界限，答案越准确，提问的人就越无处藏身。","xrole-gouer":"死去的人仍占据着他的谈话，说明改变了的年月并没有完全改变他内心的土地关系。念叨使不同年代挤进同一个人的现在，愿望与创伤因而总在彼此续话。","xrole-shang":"","xplace-castle":"","xplace-courtroom":"","xplace-dock":"","xplace-attic":"","xplace-cellar":"","xplace-balcony":"栏杆划出一种微妙的许可：声音可以越过界线，身体却仍受家门约束。私人的示爱一旦被街上的人听见，也可能成为公开的立场。阳台因此把距离变成冲突，让近在眼前的人仍要回答自己有没有跨过去的资格。","xplace-palace":"","xplace-market":"讨价还价给每句话都添了另一种可能：是在谈价钱，还是在试探对方的秘密。流言没有固定的主人，人物一旦被众人叫出名字，就很难再把自己的故事收回私下。","xplace-factory":"机器规定共同的时间，工人的身体与愿望却各有自己的限度。私人感情在这里无法假装与生计无关，一次争执也可能牵出谁有权停下、谁必须继续的差别。","xplace-ancestral":"","xplace-stagebox":"","xplace-study":"","xplace-grave":"","xplace-shrine":"","xplace-hospital":"","xplace-classroom":"","xplace-ship":"航程给陌生人一段不得不共享的生活，海面则暂时撤走了陆地上的退路。乘客可能把这次出发当作新生，旧身份却仍藏在舱位、工作与相互称呼里。目的地尚未出现，共处的规矩已经足以让一场旅行变成审问。","xplace-carriage":"","xplace-rooftop":"楼下的城市仍按日常运转，屋顶上的两个人却可能觉得世界只剩眼前的决定。高度放大了承诺，也暴露了承诺的孤独：说得再响，远处的人未必听见。","xplace-ruin":"","xplace-hutong":"","xplace-siheyuan":"","xplace-tealounge":"","xplace-kitchen":"","xplace-prison":"","xplace-convent":"钟声把一天分成不能讨价还价的时刻，誓愿与戒律则先于人物的愿望，成为这出戏的规定情境。旧名字被留在门外，忏悔、禁闭与秘密会面却仍把旧生活带进来，沉默因此不是没有台词，而是有人决定谁能说、对谁说。戏剧里的修道院常像一处重写人的地方：一个人试图以新身份活下去，旧爱、旧债和未被允许的自我却在同一堵墙内等他回答。","xplace-bridgehead":"","xplace-snowfield":"雪原抹平地标，却把人的经过留下来，逃离与暴露成了同一个动作。人物越想证明自己没有来过，脚下的白越像一份不肯沉默的证词。","xplace-mine":"地面上的身份暂时退远，共同的呼吸与危险却把人重新连在一起。向下谋生的人仍受地面上的利益支配，矿井于是既是身体的困境，也是责任究竟由谁承担的追问。","xplace-circus":"","yplay-prometheus":"","yplay-agamemnon":"","yplay-trojan":"胜利者宣布战争结束，留下的人却刚刚开始失去家、亲属与自己的去处。等待分配把时间变成另一种暴力，每条消息都可能再拿走一部分生活。悲剧把英雄叙事移开，让那些没有参与决定的人承担决定的全部重量。","yplay-bacchae":"统治者试图把不能理解的力量排除在秩序之外，却又无法克服窥看它的欲望。理性的自信与仪式的狂热互相引诱，边界被越过时，观看者也失去了自己以为安全的位置。","yplay-lysistrata":"","yplay-birds":"","yplay-phedre":"欲望一旦说出口，就会改变家族中每个人原有的位置；不说，它又会借错误消息寻找出口。克制的语言并不减轻冲突，而是让每一句承认都带上不可撤回的重量。悲剧把人物困在羞耻、爱情与名分之间，使澄清真相也无法轻易修复已经发生的伤害。","yplay-cid":"两位恋人仍然相爱，却必须以彼此的敌人身份履行家族义务。对爱情忠诚与对亲人忠诚无法再用同一个动作表达，人物的每一步前进都因此同时构成失去。","yplay-servant":"","yplay-threepenny":"","yplay-endgame":"这间屋子的关系似乎早已耗尽，日常程序却仍要求每个人接着完成自己的部分。离开既像唯一的自由，也意味着割断最后的依赖。语言一遍遍宣布终结，生活一遍遍要求续上，观众便被留在这道迟迟闭不上的缝里。","yplay-krapp":"","yplay-elms":"","yplay-enemy":"","yplay-ghosts":"体面需要过去保持沉默，照料家人却要求那些过去终于被说清。阿尔文夫人想保护儿子的努力，因而不断撞上自己曾经参与维护的家庭形象。","yplay-peer":"","yplay-inspector":"","yplay-lower":"","yplay-joan":"一个人的确信能够鼓动共同的行动，却未必能被既有权威容纳。贞德帮助实现的胜利没有给她永久的解释权，信念一旦不再服从授权，就从力量变成了受审的理由。","yplay-mrswarren":"","yplay-tempest":"","yplay-richard":"理查让观众先听见自己的打算，再观看别人如何接受他的表情与承诺。笑意由这种知情产生，也把观看者带到危险的亲近处。等到恐惧反过来侵入谋划者的内心，熟练的表演才显露出它无法永远控制的代价。","yplay-caesar":"刺杀者可以共同决定一个人必须死，却未必能够共同决定他的死意味着什么。葬礼上的语言重新争夺行动的解释权，使一次以理想为名的暴力变成各方都无法独占的后果。","yplay-intrigue":"","yplay-tell":"","yplay-caiwenji":"归乡的方向是清楚的，亲情的方向却并不只有一条。承续父业把个人生命放回更长的文化记忆，也要求她承受无法由责任抵销的别离。历史剧在这里留下一个柔软而不肯消失的结：完成使命的人，仍可以为完成使命而悲伤。","yplay-eaves":"雨把几户人家暂时留在彼此听得见的距离里，门内的私事便不断溢到公共的屋檐下。群像不靠一次共同的壮举相连，而靠借来的东西、听见的消息和不能独自承受的一天。","yplay-promotion":"","yplay-chenyi":"","yplay-wotu":"同一座会馆里，别人的病、欠下的租和眼前的饭很难真正分开。互相挤兑的语言保存着人的锋芒，也遮不住彼此仍需搭一把手的事实。小人物的尊严因此不在于从未低头，而在于窘迫尚未夺走他们回应他人的能力。","yplay-jiang":"","yplay-pipa":"","yplay-whitesnake":"","yplay-fifteen":"流言把每个听者都变成潜在的作者，消息越走越远，责任却越来越难找到主人。屏风把听见与看见短暂分开，又让两者突然碰面，体面便在这一瞬间失去遮挡。","yplay-farewell":"","yplay-locket":"","yplay-crossroads":"","yplay-drunken":"她坚持让丧失留在公共的声音里，不肯把哀悼缩成一个人应当早日克服的私事。等待弟弟既维系着希望，也把今天束在尚未完成的复仇之上，使时间本身成为她拒绝和承受的东西。","yplay-redlantern":"","ystyle-qinqiang":"","ystyle-yueopera":"","ystyle-huju":"","ystyle-farcehu":"","ystyle-errenzhuan":"","ystyle-zangxi":"","ystyle-nuoxi":"","ystyle-budaixi":"","ystyle-marionette":"","ystyle-kyogen":"","ystyle-takarazuka":"演员能够让一个念头发生在角色身上，也能够让观众看见这个念头是怎样被拿出来展示的。两种关系之间并没有一道固定的墙，靠近与退开会不断改变观众的信任。最动人的时刻有时恰在两者交界：我们相信这个人的痛，又听得出他还在替自己编一套说法。演员的距离于是成为同情与判断可以同时存在的地方。","ystyle-wayang":"","ystyle-waterpuppet":"人群里谁需要让路，谁能够使别人靠近，常比一段自我介绍更早暴露权力。位置不是静止的图案；一段关系发生改变时，原来理所当然的距离也会忽然变得难以维持。","ystyle-wenmingxi":"","ystyle-livingnews":"报纸上的事件来到活人面前，日期和数字便重新连上会受伤、会争辩的身体。它带着消息尚未冷却的急迫，让观众与人物共享同一个未定的现在。短小的篇幅使选择格外显眼：哪一种声音被保留，哪一种处境被压缩。它的戏剧力量因此既在即时的相认，也在事实成为公共讲述时暴露的取舍。","ystyle-street":"","ystyle-mystery":"熟悉的神圣故事由普通人的身体承担，遥远的事件因此与眼前共同体发生联系。观众可能早已知道结局，却仍要看见信仰如何经过人的犹疑、劳作与相遇才成为可感的行动。","ystyle-morality":"","ystyle-passion":"观众知道受难将通向何处，观看的重量便落在每一步如何被承受。一个早已熟悉的名字重新成为会疲惫、会受伤的身体，信念也因此获得时间与肉身的尺度。结局的确定并没有取消戏剧性，反而使陪伴、背离与见证的选择逐一显露。共同知道将发生什么，仍不能替任何人承担眼前这一刻。","ystyle-operetta":"","ystyle-lightopera":"","ystyle-object":"","ystyle-video":"","ystyle-install":"","ystyle-clown":"","ystyle-maskplay":"","ystyle-edutheatre":"","ystyle-community":"","ystyle-oppressed":"","ystyle-image":"身体图像把一段关系留在众人面前，让权力不再只存在于抽象的名称里。一个人的倾斜、另一个人的支撑，能够显出话语里未被承认的负担。图像发生变化时，观众也能比较关系如何被重新分配。它把‘事情只能这样’变成一个可以共同观察、继续追问的姿态。","ystyle-invisible":"","ystyle-magicreal":"超常事件若不被宣布为例外，人物就得像面对欠债与婚事一样面对它的后果。奇异不负责解除现实的难处，反而可能让被习惯遮住的欲望、记忆和创伤获得一种无法轻易否认的存在。","ystyle-criticalreal":"","ystyle-poeticreal":"日常物件并未离开原来的用途，却会因谁在等待、谁已经离去而积起另一层重量。诗意不替生活抹平窘迫，而让那些难以直说的感情有了停留的地方。一场寻常的谈话，因反复回来的声音或迟迟未动的东西，显出人物不愿承认的时间。现实的坚硬与意象的余韵互相牵制，悲喜便不必急于成为结论。","ystyle-epicnarr":"","ystyle-ritualstyle":"反复出现的程序让一次行动带上以往许多次行动的回声，也让偏离显得格外清楚。人物的愿望碰到共同遵守的次序，戏剧便从‘发生了什么’延伸到‘谁有权改变我们一直如此的生活’。","ystyle-maskcomedy":"","ystyle-manner":"礼貌给欲望披上一层体面的外衣，也给攻击留下了不必承认的余地。人物越熟悉交际的规则，便越能用一句恰到好处的话改变别人在场的位置。笑声常在客套与真实意图之间响起，却未必让受伤的人得到补偿。门庭中的轻盈机锋，因此可以照出一整套沉重的身份秩序。","ystyle-drawingroom":"","ystyle-shinkoku":"","ystyle-sanskrit":"","ystyle-huagu":"","ydir-qiba":"","ydir-yunshou":"","ydir-orchid":"","ydir-lingzi":"","ydir-maochi":"","ydir-fanwork":"","ydir-handkerchief":"","ydir-dachushou":"","ydir-diaomao":"失去平衡会暂时撤去一个人维持身份的姿态，使观众看见体面之后仍然会疼的身体。周围的人是伸手、退开还是继续说话，立刻把关系变成了行动。跌倒也可能带有伪装，身体的失控未必意味着人物放弃了自己的目的。狼狈与算计在同一刻相遇，能够把一个小动作变成整场关系的转折。","ydir-jiangshi":"","ydir-woyu":"身体处在低处，并不自动意味着交出了决定权；拒绝起身的人也可能使整间屋子的等待围绕自己发生。高度与支配彼此错开时，观众会重新辨认谁真正需要谁的同意。","ydir-qiangbei":"","ydir-darkchange":"视觉中断把一段没有被目睹的时间交给观众，重见时的差异便成为证据。谁已经走了，什么东西不再原位，都可能比解释更早说明关系出了变化。黑暗并非空白，它承接上一刻尚未解决的期待。再度看见之后，观众必须用缺失的部分重新理解留下的人。","ydir-qieguang":"","ydir-backlight":"一个人可以先作为陌生的轮廓存在，再被认成亲人、来客或威胁，辨认因此有了过程。观众短暂拥有的无知，也让人物身上那些早被姓名遮住的可能性重新浮现。","ydir-gauze":"","ydir-liftstage":"上下层次能让同一空间容纳不同的可见性：有人被仰望，有人等待被看见。高度改变时，身体之间的依赖与威严也可能随之松动。装置带来的奇观若落到人的关系上，升起便不仅是到达，下降也不仅是离场。谁有权决定自己出现在哪一层，成为可以被观众切身感到的问题。","ydir-wagontage":"","ydir-longtao":"","ydir-sijitou":"","ydir-jijifeng":"","ydir-qiemo":"","ydir-shoujiu":"","ydir-yinchang":"","ydir-chujiang":"","ydir-inner":"","ydir-subtext":"","ydir-duetline":"一句话抵达对方，就不再只属于说话的人：它可能被误解、拒绝，或被用作另一种承诺。回应使意图不得不改变路线，人物的关系在彼此修正中逐渐显形。真正的交锋往往不靠声音更大，而在于谁有权命名眼前发生的事。观众听见的于是既是措辞，也是两个意志争夺共同现实的过程。","ydir-bansing":"","ydir-qichang":"统一的旋律把许多身体暂时连成一个发声的主体，也会使不能加入的人显得孤单。共同的歌声究竟承载自愿的认同还是必须履行的归属，要由唱者彼此的关系来回答。","ydir-coldstage":"","ydir-footlight":"面孔仍是那张面孔，熟悉的明暗关系却变了，观众的信任便会先于情节发生轻微动摇。人物的话没有换，话所依附的身体却多出一层难以确认的意味。这样的异样使表情不再只是情绪的说明，也成为观看本身的疑问。真实与人为的痕迹同处一张脸上，舞台因此显露它既让人相信、又始终由人造出的性质。","ydir-facelight":"","ydir-raincurtain":"天气把人物放进共同的困境，却不会抹平他们各自保护的东西。谁肯停留、谁急着离开，谁顾自己而谁先顾别人，能让漫长的降雨成为不断显露关系的时间。","ydir-smoke":"","ydir-skycloth":"人的争执总想占满此刻，身后的广大天色却提示还有一种不受他们支配的时间。一天会过去，承诺和犹豫未必因此获得答案。背景的缓慢变化与人物的停滞并置，便能让小小的私人处境显出尺度。天空并不替人解释命运，它只是让观众看到：世界仍在继续，而某个人尚未能离开这一刻。","ydir-legdrop":"","ydir-paoyuan":"","ydir-bazigong":"","ydir-rankou":"","ydir-qiaogong":"","ydir-flashcut":"","yrole-prometheus":"","yrole-clytemnestra":"","yrole-witches":"","yrole-horatio":"","yrole-portia":"","yrole-prospero":"","yrole-ariel":"他能改变旁人所见所闻，却仍须为自己的自由向另一个人请求。声音与幻象看似没有重量，在他身上却是一件件需要完成的劳作。精灵的轻盈因此藏着从属关系的负担。等到这些差事终于可以结束，消失反而可能是最完整的自主。","yrole-richardiii":"","yrole-falstaff":"他不断把庄严的名词拉回肚腹、酒杯和身体的需要，让宏大的理由接受活人的检验。笑话没有使死亡变轻，恰恰是他对不肯轻易赴死的坚持，让英雄语言显出了被遮住的代价。","yrole-helmer":"","yrole-stockmann":"他把诊断疾病的方法带进公共生活，以为证据一旦清楚，所有人就会愿意接受治疗。事实却同时触动生计、声望与共同利益，真相因此不再只是一道可以答对的题。支持者的退让让他发现，发言权也有社会条件。医生能够指出病处，却无法替整个城镇选择是否承认疼痛。","yrole-khlestakov":"","yrole-zhouping":"他希望新的感情能够使旧事自动失效，却无法决定别人的伤痛何时结束。每一次逃离都留下需要旁人收拾的关系，于是他想摆脱的纠葛反而越缠越紧。","yrole-qiuhu":"","yrole-juehui":"家宅给了他身份，也要求他用未来继续偿还这个身份。看见亲近的人如何被消耗，使离开的愿望不再只是少年的任性。跨出门槛并没有替留下的人解决一切，却打破了命运只能在屋内传递的假定。这个动作的力量，也在于它尚未知道门外生活的完整答案。","yrole-chang":"","yrole-baisuzhen":"","yrole-guifei":"","yrole-bawang":"","yrole-zhangsheng":"","yrole-liangshanbo":"","yrole-xier":"","yrole-tietmei":"","yrole-aqing":"","yrole-zijirong":"","yrole-malu":"他把感情当成不能由别人投票决定的事实，因此所有劝解都很容易被他听成背叛。执着能够抵抗轻易放弃，也可能拒绝承认对方独立的意愿。戏剧让这两种力量共用同一个身体，既有令人动摇的热度，也有使人不安的封闭。爱在这里没有替行动免除责任。","yrole-houfangyu":"","yrole-dorine":"她没有主人授予的权威，只能凭看得清和说得快，为身边的人争取一点清醒。直言把服侍者的位置倒转过来：最应当听命的人，反而最早开始阻止荒唐的命令。","yrole-mackheath":"","yrole-hamm":"他无法自行离开，却仍试图规定别人何时回应、何时靠近。命令维系着主人的身份，也暴露出他对听令者的依赖。屋里的关系越贫乏，他越需要语言证明自己仍是中心。权力在这里并未因衰弱消失，而是缩成一套不能停下的日常仪式。","yrole-linda":"","yrole-stanley":"他把空间、婚姻与日常规则当作自己有权维护的领地，外来者的脆弱于是也被他解释成一种侵犯。揭穿谎言给他的强势披上了事实的外衣，却不能消除这种胜利中的压迫。","yrole-brutus":"","yrole-cleo":"她既是被观看的爱人，也是必须决定如何被观看的统治者。亲密关系中的试探可以牵动公共秩序，政治的得失也会闯进最私人的言语。她不能把爱情暂时放在国家之外，国家同样无法替她完成爱的选择。人物的魅力由这种不可分割而生：一次示弱与一次展示权势，可能是同一个动作。","yrole-jason":"","yrole-solveig":"","yrole-wukong":"","yrole-zhugeliang":"","yrole-kuangzhong":"","yplace-crossroad":"","yplace-globe":"露天与围观让舞台不必冒充一间密不透风的屋子，人物说话时始终与一群活人共处。站席和看台上的目光各有位置，同一句话可能同时是秘密、辩解与对公众的试探。这里的戏剧空间保留了集会的性质，虚构越浓，台上台下共同度过的时间越真实。","yplace-hanamichi":"尚未抵达主台的人，已经进入了别人的注意，出场因此有了一段不能撤回的时间。观众先看见一个人怎样接近，再听见他给自己的身份命名，脚下的距离便成了期待与判断。","yplace-pit":"","yplace-changting":"","yplace-xiulou":"窗外可见的生活与楼内被安排的生活，常常不是同一种未来。一个目光越过窗框，未必只是爱情的开始，也可能是人物第一次承认自己还想拥有别的去处。绣楼让看见成为行动的前奏，欲望尚未出门，秩序已经感觉到了它。","yplace-xiyuan":"","yplace-inn":"","yplace-huafang":"","yplace-well":"每天取水的必要，让互不亲近的人也有相遇的理由。井口既供给生活也汇集议论，一件私事在这里被说出口，往往就有了全村共同参与的后果。","yplace-gongtang":"","yplace-jindian":"","yplace-lenggong":"","yplace-zhongjun":"地图把远处的伤亡化作可指点的位置，主将却不能因此免除决定的重量。帐内一句简短的命令会变成帐外许多人的命运，戏剧的裂缝就在这种语言的轻与后果的重之间。","yplace-wujiang":"","yplace-chibi":"","yplace-shikumen":"过道属于所有住户，却没有谁能完全决定谁在这里停留。家门可以关上，咳嗽、争吵与借物的声音仍会替屋里的人泄露生活。邻里既可能成为见证者也可能成为援手，人物的私事从一开始便带着别人听见的回声。","yplace-tingzijian":"房间越窄，一个人的抱负越难与吃饭、睡觉和欠账分开。这里的远方往往先以一句话、一封信或一项尚未兑现的打算出现，生活的局促便与精神的尺度相互拉扯。","yplace-tudimiao":"","yplace-chengmen":"","yplace-xiaochang":"本领在独处时可以属于自己，在校场上却必须接受他人的命名。勇敢、怯懦和资格被当众判断，失误因而不仅伤及身体，也会改变一个人此后的身份。公开的观看把较量变成社会关系，胜负之外还有谁有权宣布胜负。","yplace-fachang":"等待号令把所有剩余的时间都变成最后的时间，一句话因而可能同时是辩白、告别与遗言。行刑的秩序要求众人见证，围观者的沉默也就无法完全置身事外。","yplace-ward":"","yplace-cafe":"","yplace-platform":"时刻表不会因为两个人还没有说完而改变，交通的准确便显出情感的迟缓。来者、去者与留下的人面对同一列车，拥有的却是三种不同的未来。月台让离别具有公共的外壳，私人生活最难承受的决定仍得服从一次普通发车。","yplace-deck":"","yplace-lighthouse":"","yplace-cliff":"","yplace-altar":"祭品被举到众人共同看见的位置，个人的损失便被解释为集体所需的代价。人物是否认可这种解释，会使仪式显出敬畏、交换或暴力的不同面孔。","yplace-labyrinth":"","yplace-dungeon":"","yplace-greenhouse":"","yplace-stable":"服侍牲口的日常暂时削弱了厅堂里的体面，身份较低的人反而可能掌握更直接的消息。秘密在这里被说出，并不因为没有规矩，而是另一些劳作、信任与相互依赖的规矩正在起作用。","yplace-vineyard":"","yplace-ballroom":"","yplace-office":"文件把人的遭遇压成可以签字、退回或暂缓的事项，权力于是显得很少动情。门外等待的人却不能把自己的时间也暂停，一次拖延就可能耗尽某种希望。办公室里的冲突常藏在语气和程序中，最轻的一句答复也能改变谁有资格继续说话。","yplace-workshop":"共同劳动使人物不断相见，却不保证他们有机会真正听懂彼此。感情、秘密和怨恨只能在生产的连续时间里寻找空隙，未说完的话因而总带着下一次重逢的压力。","yplace-hashigakari":"","yplace-shangchang":"","yplace-jiulongkou":"舞台中央像一个暂时被众人承认的位置，站进去的人容易被期待作答或作决定。可见不等于有权，人物也可能恰恰因为无处躲藏而被推到这里。中心因此是一种关系：谁占据它，谁被排在外面，谁又拒绝接受这次安排。","yplace-caishikou":"买菜与看刑原本属于不同的生活经验，却在同一个地名里相遇。个人生命的终点被城市当作可以围观的事情，日常越平静，暴力留下的问题便越难绕开。","yplace-guifang":"","role2-creon":"他的权威并非只有暴怒，也有对城邦重陷混乱的恐惧。把服从当成共同生活的前提，便使每一个异议都像背叛。悲剧让政治语言与亲属称谓在同一个人口中相互伤害。等到他承认自己错了，承认已不能换回被命令夺走的人。","role2-ismene":"同样失去亲人的姐妹并不因此拥有同样的胆量，伊斯墨涅使生存的怯懦也成为一种难以轻判的处境。","role2-tiresias":"视觉与认识在他身上分开，失明的人反而知道众目睽睽之下被隐藏的事。预言的力量不在于替人消除选择，而在于说明选择已有后果。掌权者试图把不合意的知识降格为阴谋。于是对手戏的中心从事实是否真实，转成谁有资格说出事实。","role2-juliet-nurse":"乳母带来的身体记忆与日常笑谈，使爱情暂时有了一个可以依靠的家。可她把活下去放在忠于誓言之前，亲密便在同一句劝告里变成隔阂。","role2-mercutio":"他的语言总比局势轻快，仿佛任何严肃都能被拆成一个俏皮话。死亡却让机锋失去可以转身的余地。随着这个朋友倒下，爱情故事里原先尚可逃进笑声的通道也被封住。","role2-banquo":"相同的诱惑抵达两个人身上，却没有产生相同的行动。班柯因而使麦克白无法把罪责完全交给命运，也使一个空座位拥有比宾客更强的在场。","role2-macduff":"反抗者并不因为代表正义就能免于失去。麦克德夫的悲痛使国家灾难获得一个家庭的尺度。他的愤怒也因此不能只被看作英雄行动，它始终带着未能保护亲人的亏欠。","role2-laertes":"他的行动迅疾，映出了哈姆雷特的延宕，也照出另一种危险。复仇一旦只剩速度，手段便可能先于判断抵达，而悔悟只能追在伤口之后。","role2-polonius":"熟谙世故的人容易把亲情也看成一套需要管理的情报。波洛涅斯让关怀与控制难以分开，直到帷幕后那具身体揭开窥听所付的代价。","role2-gertrude":"她的处境使公共身份与私人欲望无法各自安稳。儿子要求她解释过去，王宫却要求她维持现在。这个人物的含混不应被轻易填成一份罪状，正是无法彻底说明的部分，使亲子相认变得艰难。","role2-claudius":"他的危险在于罪行并未使他失去处理事务的能力。礼貌、分寸和政治判断甚至可以帮助凶手维持秩序。忏悔则要求他交还最不愿失去的王冠与婚姻。说得出罪名却做不到放手，让这个对手同时拥有理性与深重的裂缝。","role2-emilia":"她熟悉婚姻中的轻慢，也知道女人如何被丈夫的叙述代替。起初只是替丈夫取得的一方手帕，后来成了她必须公开承担的事实。说出真相并不能挽回苔丝狄蒙娜。它仍能把沉默者从帮凶的位置上夺回，哪怕开口的人也因此付出生命。","role2-cassio":"名誉既是他珍重的身份，也是别人可以利用的弱处，一次合乎情理的求助因此被拖进了恶意的解释。","role2-roderigo":"","role2-goneril":"她让甜言与利益之间的距离变得可见。父亲把土地交出去时仍想保留命令，而她的拒绝暴露了赠与中从未说清的条件。","role2-regan":"比较和竞逐使她的选择从来不是孤立发生的。另一人的强硬像许可一样摆在眼前，残忍便在相互认可中获得了体面的外衣。","role2-edmund":"被排除在继承之外的人，对制度的不满并非毫无根据。爱德蒙却把这种正当愤怒变成了伤害亲人的许可证。观众因此既能听懂他的诉求，又不得不拒绝他的办法。反抗与篡夺在同一副面孔上相邻，让他的每次胜利都带着双重意义。","role2-kent":"忠诚在这里并不等于赞同一切。肯特宁可被主人误认，也不肯把劝阻换成顺从，使服侍成为一种带着反抗的坚持。","role2-fool-lear":"笑声是弱者获准说真话的一条窄路。弄人必须让痛苦看起来像玩笑，才不至于立刻被权力逐出门外。当国王再也无力惩罚他，笑话中的悲悯便比讽刺更清楚。","role2-gloucester":"他的灾难与李尔的灾难彼此照见，却有自己的父子裂痕。失明没有自动带来智慧，它迫使一个惯于判断别人的人先承认自己需要引路。","role2-edgar":"伪装先是逃生的方法，后来成为照料亲人的代价。他必须同时承受被误解的旧伤与不能相认的此刻。一个儿子借陌生人的身份扶住父亲，使重逢不再只是认出姓名那么简单。","role2-malcolm":"","role2-duncan":"","role2-cassandra":"预见并不使她拥有支配未来的权力。语言的清晰与听者的拒绝构成了比误会更冷酷的距离。作为被掳来的女人，她的身份又使证词更容易被当成疯话。观众明知她说得正确，却只能看着正确的知识与无力的身体一同走向结局。","role2-andromache":"战争的结局在胜利者那里是荣耀，在她这里却是每日必须继续承受的生活。母亲的请求把宏大的征服缩成一个孩子能否活下去的问题。她的哀求也因此不是软弱的装饰，而是对胜利本身提出的审问。","role2-hecuba":"她的身体像一份仍在增加的战争记录，失去的人不肯被合并成一个抽象数字。王后的称谓已经失效，母亲的责任却没有随王权一起结束。哀悼把没有力量改变结果的人暂时连在一起。观众看到的不是过去辉煌的残影，而是灾难之后仍要为死者作证的劳动。","role2-agamemnon":"胜利的公开叙述无法遮住它要求亲人付出的代价。阿伽门农进入的既是宫殿，也是他曾经离开而没有解决的关系。一个家门因此同时成为凯旋的终点和报复的入口。","role2-aegisthus":"继承伤痛并不保证继承正义，他使复仇与治理之间那道被故意省略的界限重新显现。","role2-orestes":"他的行动无法由一个干净的身份来承担，儿子与复仇者在同一刻互相否定。命令可以解释他为何动手，却不能让手上的血失去亲缘。悲剧因此不满足于判定谁先犯错。它追问的是，一个秩序怎样要求人以新的伤害来修复旧的伤害。","role2-pylades":"","role2-glauce":"","role2-medea-nurse":"长期照料积累的知识使她比旁人更早听见灾祸，但预感并没有给一个仆人足够的力量去阻止它。","role2-aegeus":"","role2-martha-misunderstanding":"长久受困的生活使远方成为她几乎唯一认可的价值。亲人没有及时说出的姓名，便在这种对未来的饥渴中失去了被认出的机会。","role2-kristine-linde":"她对生活的理解经过了劳动与照料，因而不把爱情想成免于承担的地方。她要求秘密被读见，也把一种可以共同面对事实的关系带到玩偶般的婚姻旁边。","role2-doctor-rank":"一句迟来的坦白改变了友谊中原本默认的边界，使善意也必须接受是否附带愿望的追问。","role2-krogstad":"威胁者并不是从故事外部来的纯粹恶意。失去名誉与谋生位置的人，熟悉社会怎样把一次过错变成永久身份。他伤害娜拉的办法仍然不可免责，却迫使观众看见体面秩序如何制造新的要挟。","role2-duval-father":"","role2-lopakhin":"财富改变了谁能拥有土地，却没有一并解开人在关系中的拘束。洛巴辛的喜悦携带着父辈受辱的记忆，因而不能被简化成一个商人的得意。樱桃树倒下的声音也不只代表进步或毁灭。它让一个人的翻身与另一群人的失所同时抵达观众。","role2-gayev":"语言在他这里既保存了情感，也替行动制造了柔软的拖延，怀念因此有了可笑而可怜的重量。","role2-varya":"她的劳动使旧家尚能运转，却不能保证自己在家中拥有位置。未说出口的婚事与即将失去的庄园互相映照，让能干的人也陷入无从安排的等待。","role2-anya-cherry":"年轻的希望既可能救人于绝望，也可能尚未懂得告别的重量，这种未完成的理解使安慰带着明亮的距离。","role2-trofimov":"他的言辞为庄园之外的世界打开了视野，也受到自身处境的反问。理想未必因此失去价值，但说理的人不能永远躲在尚未实现的未来里。","role2-serebryakov":"长期被奉为中心的人未必意识到他人的牺牲，体面的提议因此能够比公开的侮辱更深地伤人。","role2-sonya":"她的坚忍不是不知道失望，而是没有把失望变成停止照料的理由。那些关于将来可以安息的话，必须由眼前仍要继续的劳动来托住。安慰因而既温柔又沉重，因为说话的人并未获得比听者更轻的命运。","role2-yelena":"她既被当作欲望的对象，也被困在别人对她的想象中。无聊并非没有冲突，而是行动尚未找到可以承担后果的方向。","role2-olga":"责任使她成为家庭的支点，也让她的疲倦最容易被视作理所当然，一个家于是把温柔消耗成了日常秩序。","role2-irina":"愿意生活得有意义，与真正获得这种生活之间隔着漫长而琐碎的现实，年轻的热望因此不能替她省去失望。","role2-tuzenbach":"未被充分回报的爱没有使他完全放弃希望，因而死亡夺走的不只是一个人，也是尚未证明是否可能的生活。","role2-solyony":"自我想象中的孤独英雄需要他人的承认，一旦承认不能如愿，浪漫姿态便可能露出占有与暴力的底色。","role2-vershinin":"宏大的时间尺度使生活似乎可以被原谅，却不能替具体的人免除痛苦。他的理想与爱情都真诚，真诚也并不足以把相互冲突的责任合并。","role2-andrei-three-sisters":"一个人失去未来并不总有轰然倒塌的时刻，细小的退让能够逐日把原先宽阔的可能变成不能承认的窘境。","role2-treplev":"形式上的反叛与情感上的依赖并不互相排斥，反而让失败更难承受。他要创造一种不靠旧权威许可的艺术，却仍需要母亲相信他值得被爱。创作者与孩子在同一个身体里争夺发言的位置。","role2-arkadina":"明星的敏感使她善于捕捉关系中的变化，也使她格外难以忍受自己不再是被注视的人。母亲的身份要求倾听，演员的生存习惯却要求赢回观众。两种需要相撞时，亲密便带上了竞争的形状。","role2-nina":"起初，舞台像一扇通往光亮生活的门。后来，劳动、丧失与巡演中的孤独拆去了门上的幻象。她没有因此获得轻易的胜利，却学会把忍耐与工作从名声中分开。一个人重新命名自己时，艺术才从愿望变成需要亲身承担的生活。","role2-trigorin":"创作的观察力与生活中的责任没有天然的一致。特里戈林使观众看见，善于描写他人的人仍可能用一段好故事替自己逃开后果。","role2-luka":"谎言与慈悲在他身上没有被简单分开。对一个已经无法承受现实的人，真实未必总像援手那样到来。可安慰者离开以后，听者仍须独自面对许诺与生活之间的距离。","role2-pepel":"重新开始需要的不只是个人决心，也需要有人允许一个人不再等同于过去。佩佩尔的困境使希望带着社会关系的重量，而不是一句愿望就能完成的自我改变。","role2-mayor-inspector":"恐惧先替陌生人穿上了权力的衣服，事实才被迫跟着改装。这个人物的可笑来自治理经验与道德败坏的合谋，他并不愚笨，只是太熟悉自己应当害怕什么。","role2-kabanova":"家庭中的权力不必总以怒吼出现，它也能藏在一套人人熟悉的礼数里。卡巴诺娃把自己的恐惧说成祖传的道理，使年轻人的痛苦看起来像失礼。观众因而要分辨的，不只是母亲是否爱孩子，还有这种爱是否允许对方成为另一个人。","role2-tikhon":"他的迟疑让家庭暴力显出另一副面孔：不亲手施压的人，也可能替压迫守住门。","role2-boris-storm":"","role2-hippolytus":"他的克制本来是一种伦理，却在敌意的解释里变成了可疑的沉默。父子关系把爱情、名誉与继承挤到同一场审问之中。悲剧并非清白终于被发现，而是承认清白的人已经来不及挽回。","role2-oenone":"她熟悉费德尔的秘密，也因此握有改变秘密形状的权力。忠诚一旦只求主人活下去，就可能把无辜者推向无法辩解的位置。","role2-theseus":"英雄的权威不能保证一个父亲看清家中的关系。他对罪行的确信越坚决，真相迟到时留下的空缺就越无法填补。","role2-clov":"他拥有移动的身体，却没有因此获得彻底离开的自由。照料者与被照料者彼此厌倦，也彼此维持着生活最后的形状。命令使他们相连，反抗又使这段关系不断延长。终局的残酷正在于，谁也不能凭一句告别证明自己已经独立。","role2-nagg":"被安置在生活边缘的人仍要讲述过去，因为记忆是他尚未被收走的一点所有物。","role2-nell":"","role2-jean-rhinoceros":"他先把文明当成要求别人的标准，随后又用新的强力替自己的变化辩护。对手戏因此不是一个人输掉争论，而是争论赖以成立的共同语言被亲眼撤去。","role2-fire-chief":"","role2-claire-maids":"她模仿女主人，并不只是为了讥讽主人，而是在权力的外形里寻找另一种自己。姐妹间的角色互换使爱与敌意同时获得声音。扮演原本允许人暂时逃离现实，却也把现实中的屈辱带进每一次命令。她们越想越过身份的边界，就越难分清谁正在主宰这场游戏。","role2-solange":"索朗日把多年服侍积下的语言重新拿在手里，却仍摆脱不了主仆关系的语气。她对妹妹的保护可以突然变成斥责，反抗也会复制原来憎恨的秩序。两个人如此靠近，恰使彼此成为最难绕开的对手。","role2-lu-dahai":"他的愤怒有公开的理由，也被观众已知而人物未知的血缘重新照亮。同一句责问，对他是阶级对立，对周朴园却另有一层旧债。戏剧反讽没有削弱他的诉求，反而暴露了家族秩序与社会权力怎样互相遮护。","role2-lu-gui":"他的卑屈与算计共用一副面孔，使压迫在家庭内部找到了更细小也更日常的传递方式。","role2-pan-yueting":"围绕他的奉承像随时会散的宴席，谁先听出资金的裂缝，谁便先换一种称呼。","role2-li-shiqing":"他不是规则之外的恶人，而是十分明白规则怎样奖赏人的参与者。对手越贫弱，他越容易把伤害说成没有办法的公事。","role2-huang-shengsan":"他的语言一次次降低要求，却没有换来权力的让步。当一个人连最低限度的生活也要请求批准，所谓公事就显出无法推卸的人的后果。","role2-fang-dasheng":"他愿意救人，却也需要面对一个更难的问题：被救的人是否只能成为自己设想中的她。","role2-cui-xi":"她的善意不是脱离困境的光环，而是在知道代价以后仍不肯完全交出的那一点人情。","role2-jiao-mother":"失明没有使她退出权力，反而让听觉与猜疑成为统治家人的方式。她保护儿子的愿望与控制儿子生活的欲望无法分开。家在她手里既是必须守住的堡垒，也是把人困住的边界。与她对戏的人不仅要反抗命令，还要抵抗命令背后那份不能被轻易否认的母爱。","role2-jiao-daxing":"他不愿成为施害者，却出生在不能与过去切断的家庭里。亲密关系把历史的债推到他面前，使无辜与责任不再能够简单分列。","role2-bai-shazi":"","role2-zeng-wenqing":"家族曾替他安排一切，也逐渐收走了他为自己作决定的力量。他的温柔不等于救赎，反而让亲近的人更难承认等待没有尽头。一个人的衰败因此不是突然倒下，而是在许多尚可挽回的时刻没有行动。","role2-zeng-siyi":"她掌管着一家人的细小需要，于是也掌管着谁有资格谈论远处的生活。勤劳可以成为自我证明，辛苦也可能被拿来索取服从。她的对手最难拒绝的，恰是那些看起来确实替人着想的话。","role2-zeng-hao":"他要求后人延续家门，却不愿承认家门本身已经成了负担。对死亡的恐惧越具体，活着的人便越难获得自己的时间。","role2-ruizhen":"她的变化使衰败之家不再只有一条传给下一代的道路，年轻人的不合作也能成为历史的断点。","role2-qin-zhongyi":"他的命运让茶馆外那片看似更有作为的世界进入舞台，个人能干与时代出路之间的距离因此清晰可见。","role2-song-erye":"","role2-liu-mazi":"他的语言把人拆成价钱、条件与交付日期，也替施害者隔开了亲手买卖的难堪。中间人的圆滑由此显露出一种没有血迹却处处伤人的暴力。","role2-kang-shunzi":"她的经历使茶馆里的历史不只是政局与生意的更替，也包含一个人的身体曾被怎样定价。她继续生活的能力没有取消伤害，却让受害者不再只停留在被出售的那一刻。","role2-liu-siye":"他从谋生竞争里学会的强硬，被完整带回了家中。女儿越想取得自己的生活，他越把这件事听成对权威的挑战。父女之间因此既有割不断的熟悉，也有不能靠退让消失的利益冲突。","role2-xiao-fuzi":"她使爱情不能只停在两个人的愿望上，家人的饥饿与社会的冷酷也坐在他们之间。","role2-kuang-fu":"他的归来使每个人过去合理的选择同时陷入困境。旧关系没有因为岁月失效，新关系也不能被一句归还轻易取消。他面对的不是一个可以击败的情敌，而是三个人都无法重来的一段生活。","role2-yang-caiyu":"她曾经作出的选择首先是为了让生活继续，却在重逢时被迫重新接受评判。戏剧性来自那些不能互相否定的情感，而不是替她迅速判定谁对谁错。","role2-lin-zhicheng":"同情与自保在他身上并不分居两处，越真诚地为朋友着想，就越能听见自己将失去什么。","role2-huang-jiamei":"父子之间最难说出口的不是责备，而是双方都想替对方保住希望，因此连窘迫也要彼此隐瞒。","role2-qi-yongnian":"祁永年留下的不只是土地与门楼，还包括狗儿爷反复用来衡量自己的那套尺度。敌人化为记忆中的声音以后，反抗也必须进入人的内部才能继续。","role2-xiu-dingxin":"他的清醒让繁华有了旁观的刻度，笑谈仍在继续，宴席将散的声音却已先被听见。","role2-xia-professor":"他并不替争论提供标准答案，而是让一场关于风骨的辩论重新露出饥饿、爱好与生活的身体。","role2-shi-professor":"他的可看之处在于坚持并非没有代价，观众既能听见风骨，也能听见风骨背后人的迟疑与自我保护。","role2-heizi-signal":"他的犹疑使犯罪不再只是故事外部的一件坏事，而成为眼前可能发生也可能被拒绝的行动。旧识认得他曾经的样子，这份认识既让他羞愧，也保留了返回的可能。","role2-mifeng":"她的劝说有力量，是因为她所要求的并非抽象的正确，而是那个自己曾经认识的人仍然能够回来。","role2-train-conductor":"他知道规章的分量，却没有把规章当成不再理解别人的理由。这个人物使秩序同时具有防范与接纳的两种可能，安全因而不仅是一扇锁好的门。","role2-messenger":"","role2-neighbor":"","role2-witness":"见证不保证一个人无所畏惧；愿意在恐惧中仍说出自己所知，才让事实获得可以站立的声音。","role2-interrogator":"他与被问者的力量差不只在谁更响亮，还在谁能够决定什么算作回答。","role2-former-lover":"","role2-creditor":"债务让时间有了明确的主人，谁能准许再等一天，谁便暂时掌握了另一人的未来。","role2-spy":"秘密任务给亲近加上第二层目的，使每一次真心也可能被怀疑为精心准备的证据。","role2-clerk":"","role2-landlord":"","role2-rival-lover":"当两种真诚互相排斥，嫉妒便不能只被看成坏心，它也暴露了爱无法替所有人兑现的承诺。","role2-stepmother":"","role2-visitor":"","role2-deserter":"他的到来把勇敢与胆怯从整齐的口号里拆开，使每一个评判都不得不面对身体对死亡的真实恐惧。","role2-news-child":"","role2-former-wife":"","role2-protector":"庇护的戏剧性在于善意需要具体兑现，安全、名誉与信任都可能成为这间屋子必须支付的代价。","role2-mourner":"","play-v21-noexit":"房间没有刑具，判断却始终在场。每个人试图取得别人的承认，又拒绝交出自己解释过去的权利。坦白因此不能自动带来解脱，反而可能成为新的要挟。它把地狱缩成一段关系，使自由与自欺都失去藏身之处。","play-v21-justes":"理想许诺未来，行动却必须在此刻发生。一个被认为正当的目标，不能替执行者免去选择手段的责任。伙伴之间的分歧也不是勇敢与怯懦的简单对立。戏剧把确信推到生命面前，让每一句必要都接受追问。","play-v21-caligula":"皇帝可以把思想变成制度，也可以把荒谬强加给别人。对死亡的清醒没有使他更能爱人，反而成了无限索取的理由。臣属一面恐惧，一面仍须表现出赞同。哲学的问题因此获得肉身，绝对自由显出暴政的轮廓。","play-v21-malentendu":"相认本应终止陌生，这里却被人物自己延后。沉默不是空白，而是一连串决定共同造成的行动。家庭的悲剧从不能说出真实身份开始，使善意的试探也带上不可挽回的危险。","play-v21-maids":"服侍使人熟悉主人的每一个细节，却不能使人获得主人的位置。互相扮演让怨恨找到形式，也令姐妹之间的依存变得危险。戏中戏在此不是安全的假装，而是被压抑的欲望试图取得现实。","play-v21-balcony":"权威需要被看见，扮演也需要有人承认。这里的仪式越庄严，真实与仿造的边界便越不稳定。人物对形象的渴望使秩序显出舞台性，观众也无法完全置身观看的交易之外。","play-v21-happydays":"身体的局促没有消灭人与世界继续联系的需要。看似琐碎的言语因而成为生命抵抗沉没的细小证据。","play-v21-heartbreak":"客厅容许每个人锋利地理解别人，却不要求他们立即改变自己。语言的魅力与行动的空缺之间，积累出整座屋子的疲倦。","play-v21-majorbarbara":"父女争论的不只是金钱是否干净，也是谁真正有能力改变他人的生活。理想与资源互相质问，使善意不再拥有轻松的优越位置。","play-v21-sixcharacters":"谁拥有讲述一段痛苦的权利，成为比故事如何收尾更难回答的问题。","play-v21-henryiv":"一种扮演持续得足够久，便会使旁人的正常也显得需要证明。","play-v21-unburied":"共同的信念不会取消各自身体的恐惧，对信念的坚持也因此重新获得重量。","play-v21-zoostory":"当社交礼貌无法承接一个人的孤独，寻求回应的愿望便可能变成暴力。","play-v21-americandream":"","play-v21-twelveangry":"","play-v21-betrayal":"","style-v21-epistolary":"","style-v21-courtroom":"","style-v21-mystery":"未知不仅拖延答案，也暴露观众愿意相信谁、愿意忽略什么。","style-v21-fable":"抽象的道理只有在人物不得不付出代价时，才真正变成戏剧。","style-v21-family":"血缘承诺无条件的归属，却常常附带最难拒绝的条件。","style-v21-psychothriller":"不可靠的认知把观众也卷进判断，使观看成为一场可能失误的自我保护。","style-v21-metatheatre":"暴露虚构并不必然削弱感受，也可能揭开感受如何被制造。观众因此同时进入故事，又不得不承担自己相信故事的选择。","style-v21-autobiographical":"真实经历赋予叙述重量，却不能取消记忆的选择性。私人伤口进入公共空间时，倾诉与自我塑造会同时发生。","style-v21-polyphonic":"并存不意味着和解，声音之间的距离本身可以组织戏剧。观众需要在不完整的证言中承担组合意义的劳动。","style-v21-maximalist":"繁复并不等同于装饰，而是把世界无法一次理解的状态变成形式。人物可能在密度中得到力量，也可能被周围的东西吞没。观看因此带着损失，任何清晰都只是一种暂时的取舍。","style-v21-rehearsaldrama":"排练允许重来，生活却未必提供同样的宽限。角色给现实中的人一副临时面具，也可能使他们更难隐藏。完成作品的愿望与维持关系的愿望，因而会在同一句台词上分道。","style-v21-radiodrama":"缺少可见形象并不意味着空间消失，声音会赋予距离以情感方向。听者的想象补上了画面，也带入自己的经验。亲密由此可以越过物理距离，误认也可能藏在最熟悉的嗓音里。","style-v21-stagedreading":"未被填满的空间给语言留下更大的责任。演员既是文字的传递者，也以呼吸和聆听建立真实关系。观众看见的是作品尚在形成的状态，而非一个封闭的成品。暂时的简约因此可能显出故事最坚硬的骨头。","style-v21-signedtheatre":"身体在这里不只是形象，也具有精确的语言能力。谁看见谁、谁的表达被打断，会直接成为关系中的事件。可见的语言使沉默拥有多种不同的质地。观众因而需要重新理解聆听，而不是把一种语言降为另一种语言的补充。","style-v21-sensory":"身体不是被动接收意义的器皿，它也保留着自己的历史。感知的差异使同一场事件在不同观众那里留下不同的入口。亲近与不安可能从同一种感觉中生长。戏剧因此不只被理解，也以难以立即命名的方式被经历。","style-v21-sciencefiction":"","dir-v21-roleswap":"身份的交换不保证理解，却迫使原来的确信接受身体的检验。一个人熟悉自己的理由，未必熟悉这理由落在别人身上的重量。角色的位置因而既可以被占据，也无法被彻底替代。对手戏在互换之后留下的差异，比相似更令人不安。","dir-v21-testimony":"证言是对过去的指认，也是说话者此刻的行动。重复不会自动带来确定，反而可能增加彼此不能调和的部分。观众在听的同时也被赋予临时裁判的位置。事实与相信之间的缝隙，成为这一手段真正的戏剧空间。","dir-v21-samewords":"语言并不独自拥有意义，它总借助说话者与听者之间的历史。重复让这段历史暂时显形。观众听见第二次时，第一次也会在记忆里重新发声。","dir-v21-livefoley":"声音与来源之间的距离让想象变得可见。观众知道自己正在参与约定，却仍可能被声音触动。真实于是从物件是否相像，转移到共同相信的那一刻。","dir-v21-timecut":"时间的缺口并不是叙事的空白，而是观众必须自行承担的联结。人物可能已经改变，解释却来不及跟上。突然而至的后来，使先前的愿望带上无法预知的重量。","dir-v21-soundimage":"不同感官提供的证据彼此冲突，观看便不再是被动地接受同一个结论。人物的内外关系也在这道缝隙中获得深度。","dir-v21-livesubtitles":"文字看似固定了内容，却也剥离了声音的一部分情感。观众在阅读与观看之间切换，语言的权威因此可以被重新审视。","dir-v21-linerelay":"一句话不再完全属于一个人，也就暴露出它可能承载的共同意志。连贯的语言底下，仍能听见不同身体不愿消失的差别。","dir-v21-proptransfer":"物的流转把抽象的信任或权力变成一个不能假装没有发生的动作。","dir-v21-emptychair":"空缺允许愿望暂时投射，也使人物无法逃避自己正在替对方回答的事实。","dir-v21-unreliable":"叙述者的错误或隐瞒不是附加谜题，而会改变我们与整个故事的信任关系。","dir-v21-selectivereplay":"给予某个片段更多时间，也意味着从别处拿走观看的机会。","dir-v21-simultaneoussolos":"","dir-v21-occlusion":"","dir-v21-compression":"","dir-v21-endingloop":"","role-v21-othello":"军功赋予他公共身份，却不能保证他在爱情中感到安全。外来者的位置与对背叛的恐惧，使他渴望一个不容置疑的解释。他越急于结束疑问，就越远离眼前真实的人。悲剧的力量来自判断能力如何在最需要它的地方崩塌。","role-v21-unclevanya":"奉献曾使生活有了理由，失去崇敬也就意味着失去解释过去的方式。愤怒无法使时间倒流，日常劳动却仍然要求他继续。他的失败并不壮烈，正因为生活不会为一次觉醒停下来。观众由此看到一种没有终场掌声的自我清算。","role-v21-astrov":"关怀世界并不会使私人生活自动完整。理想的远景与当下的消耗，在他身上互相证明又互相削弱。一个人对未来的热情，因而也可能成为逃离现在的方式。","role-v21-berenger":"多数人的选择不断改变正常的标准，使怀疑自己变得容易。他并不拥有始终坚定的姿态，抵抗也因此带着真实的软弱。独自留下既是一种坚持，也是一种必须承受的失去。","role-v21-katerina":"外在的规训进入了内心，使自由不再只是走出一扇门。欲望带来生机，也带来无法轻轻抹去的罪感。她的悲剧使人看见，惩罚有时在公开发生之前已经开始。","role-v21-phedre":"禁忌使愿望在承认之前就受到审判。身份给予她力量，却不能让她安全地使用这力量。嫉妒、谎言与悔意相互追赶，伤害总比澄清更早抵达。语言在她身上同时成为坦白的可能与毁灭的工具。","role-v21-margueritecamellia":"尊严被社会身份预先打了折扣，使她必须用更多代价证明同样的感情。误解把牺牲与惩罚连在一起，让爱的真相来得太迟。","role-v21-antony":"英雄身份要求被众人承认，爱情却提出另一套衡量价值的尺度。两种召唤都不能被简单抛弃，使他的摇摆具有真实的重量。","role-v21-volumnia":"母爱与城邦理想在她身上紧紧相连，难以分出哪一边先发出命令。亲密的语言因此能抵达公共权力难以到达的地方。","role-v21-caligularole":"当思想不必为别人付出的代价负责，清醒也可能成为残酷的修辞。","role-v21-marytyrone":"记忆给予短暂庇护，也使爱她的人被留在无法进入的门外。","role-v21-edmundtyrone":"一个人的身体危机，会把整个家庭积压的爱与怨重新带到桌面上。","role-v21-amanda":"保护与控制往往借用同一套亲密语言，使儿女的反抗也带着亏欠。","role-v21-tomglass":"","role-v21-winnie":"","role-v21-jimglass":"","place-v21-bordercheckpoint":"这里的门槛不仅划分土地，也划分谁的解释值得被听见。一个名字可以成为通行证，也可以成为停留的理由。等待使权力显得平静，急迫却留在被等待的人身上。空间因此把抽象的归属变成身体不能越过的距离。","place-v21-willroom":"死亡并未终止一个人对家庭的影响，反而使某些命令不能再被商量。众人对逝者的记忆在利益面前出现不同版本。沉默也成为一种表态，因为没有人能完全置身分配之外。谁被留下、谁被略过，都在这间房里获得新的意义。","place-v21-publicbath":"衣物曾替人保留边界，脱去之后并不自然产生亲近。隐私在共同空间中需要重新协商。裸露与防备同时存在，使最普通的交谈也带上脆弱的重量。","place-v21-weddinghall":"仪式要求所有人相信未来已经被共同确认。旧关系却可能在新称呼出现时重新发出声音。宴席的热闹因此既能保护幸福，也能掩盖一场无人愿意承认的分离。","place-v21-shelter":"求生把人带到一起，却不能抹去此前形成的戒心。善意在资源不足时尤其需要具体的代价。临时居所因此既是庇护，也是一个重新学习共同生活的脆弱社会。","place-v21-funeralhome":"制度替离别提供秩序，却不能代替每个人完成告别。家人对细节的争执，有时正是难以直接说出的爱与怨。","place-v21-lostproperty":"归属在这里需要被叙述出来，物件因此成为一段生活的证人。一个细节的缺失，可能比整齐的证明更接近失去本身。","place-v21-photostudio":"影像固定了瞬间，也把瞬间之外的生活留成空白。旧照片重新出现时，人物可能既在认领自己，也在拒绝曾经的自己。","place-v21-ticketwindow":"愿望在窗口前必须接受公共规则，个人的急迫因而有了无法绕开的对手。","place-v21-lift":"暂时无法离开的共同处境，使每个人原先准备隐藏的情绪慢慢获得声音。","place-v21-pharmacy":"专业语言给人安全感，也可能使不懂语言的人更难说清自己的困境。","place-v21-diningcar":"没有长久后果的相逢，反而可能容许人说出平日不敢说的话。","place-v21-abandonedpark":"","place-v21-rehearsalhall":"","place-v21-waitingtrial":"","place-v21-archive":"","place-v22-gallery":"旁听席把观看变成一种制度：人可以看见权力如何被演练，却未必获得回应的权利。距离产生安全，也产生无力。当台阶下的争论决定台阶上的命运，观众自己的沉默也会被计算进这场戏的重量。","place-v22-isolationward":"透明并不等于可以靠近。隔离使爱意必须改道，通过眼神、手势和隔着障碍的呼吸重新学习如何到达对岸。保护生命的装置同时改写了伦理：谁有资格进入危险，谁只能在外面承受等待。","place-v22-radiobooth":"话筒取消了身体的大部分信息，只留下被放大的声音。说话者面对机器，听众面对空气，两边都容易把想象填进看不见的空白。一间小屋因此能够震动整座城市，也会把个人的迟疑变成公共事件。","place-v22-cage":"垂直的铁笼取消了逃避的侧面道路，共同升降使私怨和互助挤在同一件身体事实里。黑暗从栅外压进来时，身份的差别暂时让位于重力。谁先伸手、谁先松开，都会被这段不能独自结束的旅程记住。","place-v22-embassyhall":"国界在室内被重新画过一遍，法律的庇护带着文件的冷意。求助者必须把复杂的人生翻译成可被盖章的叙事，而盖章的人也会看见翻译所省略的东西。安全不是抽象许诺，它有门槛、有等候，也有可能被拒绝的一刻。","place-v22-observatory":"圆顶把人送进一种近乎神圣的尺度：星光遥远，呼吸却近在耳边。寻找规律的目光并不能取消今晚必须做出的决定。当穹缝漏下光来，它照见的不是宇宙的答案，而是两个人仍要互相承担的距离。","v23-play-allmysons":"","v23-play-copenhagen":"","v23-play-woyzeck":"","v23-play-danton":"于是场上的人每前进一步，旁观者都能看见代价如何落在具体的人身上。","v23-play-equus":"","v23-play-art":"","v23-play-busstop":"","v23-play-dreamlike":"于是场上的人每前进一步，旁观者都能看见代价如何落在具体的人身上。","v23-play-livefield":"","v23-play-iceman":"","v23-play-springawake":"","v23-play-viewbridge":"","v23-style-chamber":"","v23-style-total":"","v23-style-verbatim":"","v23-style-bourgeois-tragedy":"","v23-style-historyplay":"","v23-style-intercultural":"","v23-style-visual":"","v23-style-tfa":"","v23-style-newcircus":"","v23-style-plaza":"","v23-style-homestead":"","v23-style-translation":"","v23-dir-pool":"","v23-dir-mic":"","v23-dir-readstage":"","v23-dir-allwatch":"","v23-dir-objectchain":"","v23-dir-countdown":"","v23-dir-floorplan":"","v23-dir-soundfirst":"","v23-dir-lateopen":"","v23-dir-silentopen":"","v23-dir-revolving":"","v23-dir-misremember":"","v23-role-joekeller":"","v23-role-heisenberg":"于是海森堡每前进一步，旁观者都能看见代价如何落在具体的人身上。","v23-role-woyzeck":"","v23-role-danton":"","v23-role-eddie":"","v23-role-hickey":"","v23-role-melchior":"","v23-role-alan":"","v23-role-dreamdoctor":"于是如梦之梦的医生每前进一步，旁观者都能看见代价如何落在具体的人身上。","v23-role-jinzhi":"","v23-role-silentman":"","v23-role-serge":"","v23-sup-kate":"","v23-sup-bohr":"于是玻尔每前进一步，旁观者都能看见代价如何落在具体的人身上。","v23-sup-marie":"","v23-sup-robespierre":"","v23-sup-catherine":"","v23-sup-ann":"","v23-sup-nurse":"","v23-sup-moritz":"","v23-sup-zhaosan":"","v23-sup-stationmaster":"","v23-sup-harryhope":"","v23-sup-marc":"","v23-place-hangar":"","v23-place-nightsitting":"","v23-place-washhouse":"","v23-place-jacobin":"","v23-place-longshore":"","v23-place-hopebar":"","v23-place-dormer":"","v23-place-observation":"","v23-place-lotuspond":"于是走进这里的人每前进一步，旁观者都能看见代价如何落在具体的人身上。","v23-place-frostvillage":"","v23-place-halt":""};
 
-function xn(card){
-  const rank=v.indexOf(card.rarity);
-  const count=rank<2?0:rank<4?1:rank===6?card.tags.length:2;
-  const terms=card.tags.slice(0,count).map(term=>`<p class="card-knowledge"><b>${K(term)}：</b>${K(Ft(term))}</p>`).join('');
-  const essay=cardEssays[card.id]||'';
-  return `<article class="official">
-    <h3>戏剧小注</h3>${roleSourceLine(card)}<p>${K(card.note)}</p>
-    <p><b>看点：</b>${K(card.observe)}</p>
-    ${essay?`<p class="card-essay">${K(essay)}</p>`:''}
-    ${terms?`<h3>看懂这张卡</h3>${terms}`:''}
-    <details class="rehearsal-note"><summary>排演参考（可选）</summary><p>${K(card.stage)}</p></details>
-  </article>`;
-}
+
 function Sn(e,t){return Ft(t)}function artBadge(e){return `<span class="art-badge"><span class="seal-word">${K(b[e.rarity])}</span>${starPips(e.rarity)}</span>`}
 function Cn(e){return`
     <div class="card rarity-${K(e.rarity)}">
@@ -2855,15 +3033,8 @@ function Cn(e){return`
         ${a}
       </span>
     </header>`}
-function An(e,open=false){let n=Xt(e),r=n.paragraphs.map(e=>`<p>${K(e.map(e=>e.text).join(``))}</p>`).join(``),short=shortScene(e);return `
-    <p class="mash-title">${K(n.title)}</p>
-    <section class="talk" aria-label="演后谈">
-      <h2>演后谈</h2>
-      <div class="talk-short"><p>${K(short)}</p></div>
-      <button type="button" class="text-btn talk-toggle" data-action="expand-talk" aria-expanded="${open?`true`:`false`}">${open?`收起全文`:`展开全文`}</button>
-      <div class="talk-full"${open?``:` hidden`}>${r}</div>
-    </section>
-    <p class="sheet-fine">同星成组、原作羁绊都能加分；规则见首页「游戏玩法」。</p>`}function jn(e){return e.dimension===`剧目`&&!e.name.startsWith(`《`)?`《${e.name}》`:e.name}function Mn(e){return g(e).map(e=>e.keep?`<span class="keep">${K(e.text)}</span>`:K(e.text)).join(``)}function packsSheet(e){let t=e.charges||0,n=oe.filter(e=>e.id!==`mix`).map(e=>`
+
+function jn(e){return e.dimension===`剧目`&&!e.name.startsWith(`《`)?`《${e.name}》`:e.name}function Mn(e){return g(e).map(e=>e.keep?`<span class="keep">${K(e.text)}</span>`:K(e.text)).join(``)}function packsSheet(e){let t=e.charges||0,n=oe.filter(e=>e.id!==`mix`).map(e=>`
       <button type="button" class="pack-card is-dim${t?``:` is-locked`}" data-action="pack" data-pack="${K(e.id)}">
         <b>${K(e.name)}</b>
         ${t?`<span>可开 ${t} 次</span>`:``}
@@ -2919,7 +3090,7 @@ function Nn(e){let rows=e.sheet.rows||[],rowHtml=e=>{let t=`<span class="task-wa
         <h2 id="sheet-title" class="sheet-name">${conceal?`尚未收入`:K(jn(e))}</h2>
       </div>
     </article>
-    ${conceal?`<p class="conceal-note">收入卡包后可阅读戏剧小注。</p>`:`${mn(e)}${_n(e)}${cardReviewDetails(e)}${xn(e)}<ul class="tag-row">${n}</ul>${r}`}
+    ${conceal?`<p class="conceal-note">收入卡包后可阅读戏剧小注。</p>`:`${mn(e)}${_n(e)}${statDisclosureV40(e)}${xn(e)}<ul class="tag-row">${n}</ul>${r}`}
     <button type="button" class="btn primary" data-action="close-sheet">收回</button>`}function Bn(e){return`
     <section class="screen home-screen" data-screen="home">
       ${q(e,{home:!0})}
@@ -2946,6 +3117,7 @@ function Nn(e){let rows=e.sheet.rows||[],rowHtml=e=>{let t=`<span class="task-wa
         <h1 class="dim-title">${isDim?K(e.packName||`单维包`):`综合卡池`}</h1>
         <p class="pack-line">${line}</p>
         <div class="pack-spread">${(isDim||(t.cards||[]).length!==6?(t.cards||[]).map(card=>({card,weightLabel:copyDimension(card.dimension)})):displayCastMinis(t.cards)).map(({card:s},i)=>`<button type="button" class="spread-card rarity-${K(s.rarity)}" style="--spread-i:${i}" data-action="detail" data-id="${K(s.id)}" aria-label="看${K(s.name)}，${K(b[s.rarity]||s.rarity)}">${spreadFace(s)}</button>`).join(``)}</div>
+        ${!isDim&&(t.cards||[]).length===6?spreadReviewV40(t.cards):''}
         <div class="spread-actions">
           ${isDim?``:`<button type="button" class="btn primary" data-action="share-cast">分享卡组</button>`}
           <button type="button" class="btn ${isDim?`primary`:`ghost`}" data-action="${isDim?`view-bundle`:`view-talk`}">${isDim?`看这一包`:`查看演后谈`}</button>
@@ -3023,7 +3195,7 @@ function Un(e){let t=e.drawn,result=Xt(t),n=result.score,i=displayCastMinis(t).m
         ${hexRadar(t)}
         <p class="show-score" aria-label="这台分数"><span>这台</span><b>${K(n)}</b></p>
         ${scoreBreakdown(result.scoring,t)}
-        <h1 class="verdict">${Mn(t)}</h1>
+        <h1 class="verdict">${K(dramaticTitleV40(t))}</h1>
         ${An(t,e.talkOpen)}
         <section class="share-block">
           <h2>把节目单递出去</h2>
@@ -3093,7 +3265,7 @@ function refreshDaily(loop){let today=shanghaiDate();if(loop.dailyDate!==today){
 function currentLoop(){Y.loop=refreshDaily(Y.loop||loadLoop());return Y.loop}
 function rarityRank(r){return v.indexOf(r)}
 function hasAtLeast(cards,min){return cards.some(card=>rarityRank(card.rarity)>=rarityRank(min))}
-function Cboosted(rng=Math.random){let table={C:8,UC:12,R:25,SR:24,SSR:18,UR:9,LR:4},t=rng()*100;for(let r of v)if((t-=table[r])<0)return r;return v[0]}
+function Cboosted(rng=Math.random){let table=DiaRatesV40.gift,t=rng()*100;for(let r of v)if((t-=table[r])<0)return r;return v[0]}
 function pickDimCard(pool,dim,rarity,rng){let subset=pool.filter(card=>card.dimension===dim);return pickScoredCard(ee(subset,rarity),rng)}
 function forceSeat(cards,pool,minRarity,preferDim,rng=Math.random){let idx=preferDim?cards.findIndex(card=>card.dimension===preferDim):-1;if(idx<0)idx=cards.reduce((best,card,i)=>rarityRank(card.rarity)<rarityRank(cards[best].rarity)?i:best,0);let dim=cards[idx].dimension,used=new Set(cards.map(card=>card.id)),bucket=pool.filter(card=>card.dimension===dim&&rarityRank(card.rarity)>=rarityRank(minRarity)&&!used.has(card.id));if(!bucket.length)bucket=pool.filter(card=>card.dimension===dim&&rarityRank(card.rarity)>=rarityRank(minRarity));if(bucket.length)cards[idx]=pickScoredCard(bucket,rng);return cards}
 function drawMixPack(pool,rng=Math.random){let loop=currentLoop(),cards=x.map(dim=>{let min=loop.pendingDim===dim.key?`SSR`:null,rolled=loop.blessedNext?Cboosted(rng):C(rng);if(min&&rarityRank(rolled)<rarityRank(min))rolled=min;return pickDimCard(pool,dim.key,rolled,rng)});let nextSSR=loop.pitySSR+1,nextUR=loop.pityUR+1,natUR=hasAtLeast(cards,`UR`),natSSR=hasAtLeast(cards,`SSR`);if(!natUR&&nextUR>=60)forceSeat(cards,pool,`UR`,loop.pendingDim,rng);else if(!natSSR&&nextSSR>=30)forceSeat(cards,pool,`SSR`,loop.pendingDim,rng);if(loop.pendingDim){let seat=cards.find(card=>card.dimension===loop.pendingDim);if(seat&&rarityRank(seat.rarity)>=rarityRank(`SSR`))loop.pendingDim=``}loop.blessedNext=!1;if(hasAtLeast(cards,`UR`))loop.pityUR=0;else loop.pityUR=nextUR;if(hasAtLeast(cards,`SSR`))loop.pitySSR=0;else loop.pitySSR=nextSSR;saveLoop(loop);return cards}
@@ -3373,10 +3545,6 @@ function stageSentenceV39(text) {
   return copySentenceV39(String(text || '').replace(/^排演时[，,：:]\s*/, ''));
 }
 
-function roleLabelV39(card) {
-  return `${card.name}${card.sourcePlayLabel ? `（出自 ${card.sourcePlayLabel}）` : ''}`;
-}
-
 function talkCardsV39(cards) {
   const byDimension = Object.fromEntries(cards.map(card => [card.dimension, card]));
   return {
@@ -3385,50 +3553,1723 @@ function talkCardsV39(cards) {
   };
 }
 
+// These are rehearsal conflicts, not extra plot summaries or claimed original relationships.
+// The explicit IDs keep a shared word such as "钱" or "罪" from choosing the story.
+const sceneArcsV40 = {
+  'play-cherry': {
+    title: '饭还没吃完，园子已经易主', premise: '庄园出售与旧日生活迟迟不肯谢幕的矛盾', prop: '庄园钥匙',
+    opening: '{a}请{b}为一场庄园交接作见证，却把要谈的出售说成一顿普通的送别饭。{b}把暂时代管的钥匙放在两人之间，谁都没有先说出“搬走”。',
+    exchange: '{a}要求先承认交接，再慢慢商量谁能留下；{b}原以为自己只是在接受招待，如今连一次点头都可能被算作同意。',
+    reveal: '交接的时刻到了。{b}伸手要拿回钥匙，{a}却把它压在掌下：“饭可以吃完，钥匙不能再带走。”刚才的盛情款待，原来已经悄悄划出了主人与客人的位置。',
+    ending: '{b}把那句尚未说完的感谢咽回去，改问：“钥匙给了你，留下的人怎么办？”{a}还想继续招待，两人之间却再也坐不回刚才的距离。交接可以完成，送别终于无法伪装成团聚。',
+    teaser: '{a}请{b}见证庄园交接，一场盛情款待却把点头变成了让权；等到钥匙易手，受邀的人才发现，自己连能否留下也必须重新请求。',
+  },
+  'play-oedipus': {
+    title: '最后一个问题落回自己身上', premise: '追查真相反而暴露追问者自身的结构', prop: '记有证词的纸',
+    opening: '{a}召来{b}，要求把一段旧事说清，声称只要找到最后的证人，这里就能恢复平静。',
+    exchange: '{b}不肯回答那个预先写好答案的问题，反问{a}当时站在哪里；{a}把记有证词的纸推回去，坚持先查别人。',
+    reveal: '两人重走那天的路线，{a}为了纠正{b}的一处细节，脱口说出只有在场者才知道的话。追问者突然成了必须解释的人。',
+    ending: '{b}没有替他宣布结论，只把空着的位置让出来。{a}终于坐下，把刚才逼别人回答的问题，完整地问了自己一遍。',
+    teaser: '{a}逼{b}补全一份证词，纠正细节时却暴露了自己的位置；原本准备给别人的审问，终于轮到自己回答。',
+  },
+  'play-hamlet': {
+    title: '看戏的人先站了起来', premise: '借表演试探隐情、又无法轻易把反应当作证据的困境', prop: '写着戏词的纸',
+    opening: '{a}邀请{b}看一段短戏，说只想请对方纠正几个细节，却把最刺痛人的一刻留到最后。',
+    exchange: '{b}察觉自己被盯着，要求{a}也入戏；试探者只好亲手演出自己原本藏在台词后的指控。',
+    reveal: '短戏还没结束，{b}先打断了它。{a}立刻把中断当成答案，{b}却要求重演，指出他删掉了最关键的一句话。',
+    ending: '两人交换观看与被观看的位置，同一段戏再开始。{a}这次没有立刻下判断，台上的停顿第一次比那句指控更难承受。',
+    teaser: '{a}排了一段戏试探{b}，对方却要他也入戏；一次意外停演把试探翻了面，谁在隐藏，谁在逼人认罪，突然都不再清楚。',
+  },
+  'play-macbeth': {
+    title: '坐上那个位置以后', premise: '夺取权位之后，恐惧反过来支配行动的进程', prop: '象征席位的名牌',
+    opening: '{a}盯住那个还空着的位置，请{b}替自己确认：只要先坐下，其他人就会承认。',
+    exchange: '{b}要求{a}说明原来坐在那里的人为何不再回来；{a}绕开这句问话，忙着把名牌摆正。',
+    reveal: '位置终于归了{a}，他却不再容许{b}靠近。每一次脚步声都使他转身，刚才为他作证的人也成了需要防备的人。',
+    ending: '{b}停止保证安全，把那张名牌留在原处。{a}有了想要的位置，却必须不停站起来检查身后，整场在他无法安坐的动作里结束。',
+    teaser: '{a}请{b}帮助确认一个席位，坐稳后却开始防备这位见证者；权位到手，安静先被赶了出去。',
+  },
+  'play-godot': {
+    title: '说好离开，脚却没有动', premise: '等待一个始终未到的人、离开与留下互相抵消的处境', prop: '预留位置的标记',
+    opening: '{a}替一个还没到的人留出位置，{b}问还要等多久；{a}提议先做一件小事，做完再决定。',
+    exchange: '小事做完，{b}准备离开，{a}却想起他们还没确认对方会从哪边来。两人交换位置，把刚才的话又问一遍。',
+    reveal: '终于有了一个像是到来的动静，两人同时迎上去，发现只是自己先前留下的标记。等待没有获得答案，反倒添了一件必须收回的小东西。',
+    ending: '{b}说这次真的走了，{a}也答应。两人整理好东西，仍替那个未到的人留着位置；最后一个动作，是把已经拿起的标记重新放下。',
+    teaser: '{a}和{b}约定做完最后一件小事就走，新的动静却让他们重新站回原位；所等的人没有出现，离开的决定也没有向前一步。',
+  },
+  'play-doll': {
+    title: '这一次，先听我说完', premise: '亲密关系中的照料如何遮住不平等，以及离开前的自我确认', prop: '属于自己的行李',
+    opening: '{a}把行李放在旁边，要求{b}先听完一次谈话；{b}以为只要恢复往常的称呼，就能把事情安抚过去。',
+    exchange: '{a}问两人是否曾平等地做过一次决定，{b}却列出替对方安排过的每一件事。越细心的列举，越让那件行李显得必要。',
+    reveal: '{b}忽然答应一切可以照旧，{a}反而停止收拾：问题已经不只是这一次争执，而是谁有权规定什么叫“照旧”。',
+    ending: '{a}没有再解释自己的去向，只拿回行李。{b}第一次必须在无人接话的情况下说完挽留，留下的空位成为这场谈话真正的回答。',
+    teaser: '{a}带着行李要求与{b}平等地谈一次，对方越努力证明照料周全，越显出从未让出决定权；一次挽留最终变成了离开的理由。',
+  },
+  'play-teahouse': {
+    title: '下一位客人还会来吗', premise: '日常生计在时代更替中一步步失去容身之处的处境', prop: '留给客人的杯子',
+    opening: '{a}请{b}坐下，照旧摆好杯子，想让今天看起来和从前一样；{b}带来的却是又一条不能照旧的消息。',
+    exchange: '{a}把规矩改了一次又一次，只求有人留下；{b}每次准备落座，又被新的安排叫起来。',
+    reveal: '两人终于商量妥当，{a}回头准备招呼下一位客人，才发现已经没有人等候。忙了一整场的让步，并没有换来生意继续。',
+    ending: '{b}替{a}摆完最后一只杯子，却没有坐下。{a}仍按从前的声音招呼了一声，等不到回答后，才慢慢把那只杯子收回去。',
+    teaser: '{a}不断修改规矩，只想让{b}安心坐下；等所有条件终于谈妥，他们却发现，等候下一杯茶的人已经散了。',
+  },
+  'play-thunder': {
+    title: '认出旧物的人没有离开', premise: '被隐瞒的旧事穿透家庭秩序、使眼前关系崩解的冲突', prop: '一件旧家具上的饰物',
+    opening: '{a}按惯例接待{b}，却发现来人先认出了那件旧物，叫出一个早已不许再提的名字。',
+    exchange: '{a}试图把谈话改成一次普通的问候，{b}却把旧物转回从前的方向。眼前的整齐摆设，突然显出了被抹去的生活。',
+    reveal: '{a}终于要求{b}不要再说，正好让对方确认：那些细节一直有人记得，所谓忘记只是另一种不准开口。',
+    ending: '{b}不再解释那件旧物，径直站到原先被赶开的地方。{a}想恢复原来的秩序，必须先从这个仍活着的人面前经过。',
+    teaser: '{b}认出了一件旧物，{a}极力把这次重逢说成初见；越急着结束谈话，越证明那段被遮住的过去从未真正过去。',
+  },
+  'play-peony': {
+    title: '纸上只差一个名字', premise: '以承认为代价换取安全、拒绝让虚假证词代替自身的抉择', prop: '等候签名的纸',
+    opening: '{a}把一张尚未签名的纸交给{b}，说只差最后一个名字，双方就可以平安离开。',
+    exchange: '{b}要求当面读出纸上的话，{a}每读一句都把声音放低：写下的内容，远比刚才口头答应的多。',
+    reveal: '{b}提出亲自带走这张纸，{a}立刻伸手阻止。原来对方需要的不只是一次承认，还要把这个名字交给所有人观看。',
+    ending: '{b}拿回纸，让自己的名字停在尚未落笔的地方。{a}必须重新回答，究竟是在放人离开，还是借一个人的名字证明所有人都该服从。',
+    teaser: '{a}说签一个名字就能平安离开，{b}却要求把那张纸带走；一次伸手阻拦，暴露了这场交易真正需要的是谁的服从。',
+  },
+  'play-salesman': {
+    title: '你等的那声称赞没有来', premise: '成功幻梦与亲人真实需要无法对齐的矛盾', prop: '记录成绩的本子',
+    opening: '{a}把一页成绩摊给{b}，等着一句“你做得很好”；{b}却来谈今天已经无法继续的生活。',
+    exchange: '{a}不断把话题带回过去的机会，{b}每说一个眼前的困难，就被更辉煌的旧事盖过去。',
+    reveal: '{b}合上本子，承认自己达不到那些期待，也不想再靠它们证明两人的关系。{a}最想听的成功消息，变成了一次拒绝继续表演成功。',
+    ending: '{a}重新打开本子，却没有找到能接下这句话的一页。{b}停在近处，等他不用成绩作开头，再叫自己一次。',
+    teaser: '{a}等{b}带来成功的消息，对方却承认再也演不下去；那本用来证明价值的成绩册，突然找不到可以翻开的下一页。',
+  },
+  'play-goodperson': {
+    title: '答应帮忙的人换了一副面孔', premise: '维持善意与保护自身生计彼此冲突的困境', prop: '只剩一份的物资',
+    opening: '{a}答应把最后一份物资让给{b}，说完才发现，自己明天也要靠它生活。',
+    exchange: '{b}拿出刚才得到的承诺，{a}换了站姿和口气，声称现在必须按另一套规矩办事。',
+    reveal: '{b}没有接受这个突如其来的新身份，而是准确复述了刚才那句温柔的话。同一个身体，无法同时躲开求助与追责。',
+    ending: '{a}卸掉第二副口气，把仅剩的东西放在两人中间。{b}第一次看见答应帮助的人也无处可退，争执从谁更善良，变成这份生计究竟怎样维持。',
+    teaser: '{a}先答应帮助{b}，又换一副面孔收回承诺；对方认出了同一个人，逼他同时面对自己的善意和明天的生计。',
+  },
+  'play-lear': {
+    title: '分完以后，谁肯让一个位置', premise: '把爱当作可计量的表白、交出权力后才看清依靠的悲剧', prop: '标出各人份额的图',
+    opening: '{a}请{b}先说一句足够动听的话，再把图上的一块划给对方；被分配的仿佛不是地方，而是爱。',
+    exchange: '{b}不肯再增加表白，反问分完之后{a}准备待在哪里。{a}以为这个问题根本不需要商量。',
+    reveal: '最后一块地方也被划出去了，{a}准备坐回自己的位置，却发现图上没有替自己保留任何一处。刚才的承诺，不能自动变成眼前的接纳。',
+    ending: '{a}第一次放下那张图，向{b}请求一个具体的位置。{b}是否侧身相让，比开场时所有响亮的表白都更难回答。',
+    teaser: '{a}用动听的表白决定如何分配，分完才发现自己没有留下的位置；最后必须向{b}请求的，是一句誓言无法保证的接纳。',
+  },
+  'play-othello': {
+    title: '你只看见了最后那次交接', premise: '物件被误读为证据、猜疑夺走直接询问机会的过程', prop: '经过几双手的手帕',
+    opening: '{a}拿出一方手帕，要求{b}解释它为什么会到自己手里，却不肯先交代是谁送来的。',
+    exchange: '{b}想把手帕经过的路线走一遍，{a}每次都在最后一次交接处打断，认定结尾已经足够。',
+    reveal: '两人终于倒着重走，手帕在一次无人留意的停顿中被移了位置。{a}看到的确实是一件真东西，给它安上的故事却并不完整。',
+    ending: '{b}把手帕留在原地，要求{a}先问人，再看物。{a}伸出的手停住了：物证还在，凭它夺走对方说话机会的把握已经不在。',
+    teaser: '{a}拿一方手帕追问{b}，却只肯相信最后一次交接；当两人倒着重走路线，真正改变局面的，是那个先前没有被看见的停顿。',
+  },
+  'play-antigone': {
+    title: '禁令挡不住这一捧土', premise: '公共禁令与安葬亲人的义务无法两全的冲突', prop: '一捧准备覆下的土',
+    opening: '{a}捧着土，请{b}让出一条路；{b}要求先读完挡在两人之间的禁令。',
+    exchange: '{a}听完仍不放下手里的土，{b}便把“只做这一件事”的请求逐字改成违令的证明。',
+    reveal: '{b}以为让请求者低头就能结束争执，{a}却借这个低身动作把土覆了下去。命令还没撤回，那个不准发生的行动已经完成。',
+    ending: '{a}直起身，不再请求通行；{b}必须决定是否亲手抹去眼前的土。争论从抽象的服从，变成一个人愿不愿意做出下一步。',
+    teaser: '{a}请求带着一捧土通过，{b}坚持先读禁令；一次被要求的低头，却让禁止的行动当场完成。',
+  },
+  'play-xixiang': {
+    title: '递出去的话被退了回来', premise: '私人的爱情愿望必须穿过家长规矩与传话障碍的处境', prop: '不能当众读出的信',
+    opening: '{a}请{b}转交一封信，只许送到，不许打开；{b}先问，若被拦下，该替谁承担这一趟。',
+    exchange: '{a}急着说明信有多重要，{b}却一次次把信递回，让写信的人练习亲口说出那句话。',
+    reveal: '交接终于成功，{b}却从另一边带回同一封信：收信的人要听见自己的名字被当面叫出，不肯再只靠传话决定未来。',
+    ending: '{a}收起信，跟着{b}走向刚才不敢靠近的位置。最后一句没有写在纸上，两个人都必须留在现场听完。',
+    teaser: '{a}请{b}转交一封不能公开的信，对方却把它一次次退回；当私语终于必须当面说出，传话的人也不再只是替别人多走一趟。',
+  },
+  'play-visit': {
+    title: '大家都说没有答应', premise: '集体道德在利益诱惑中逐渐改变措辞的进程', prop: '写有许诺的纸',
+    opening: '{a}提出一项条件，请{b}替所有人传话；{b}当场拒绝，却把那份许诺留了下来。',
+    exchange: '{b}逐渐开始安排许诺兑现以后的日子，仍坚持没有答应。{a}不再催促，只请对方说清这些安排由谁承担代价。',
+    reveal: '{b}发现每个人都在等别人先说出同意，自己先前的拒绝已经被当成一段可以略过的开场白。',
+    ending: '{a}把条件原样再念一遍，{b}这次不能用大家的沉默代替自己的回答。那些已经开始享用的好处，留在场上等候一个明确的名字。',
+    teaser: '{b}拒绝了{a}的条件，却开始安排条件兑现以后的生活；等到需要有人承担代价，所有人都说自己从未答应。',
+  },
+  'play-glass': {
+    title: '来客离开以后的小东西', premise: '一次短暂靠近无法兑现全部期待、留下的人收拾破损的过程', prop: '一只易碎的小兽',
+    opening: '{a}把平日不肯示人的小兽拿给{b}看，第一次容许对方靠近那个只属于自己的角落。',
+    exchange: '{b}邀请{a}走出来试一次新的步子，{a}暂时忘了守住那件小东西，两人的距离终于缩短。',
+    reveal: '小兽在靠近中受损，{b}又不得不说明自己另有去处。{a}原以为发生的是一个开始，听见的却是来客准备离开的理由。',
+    ending: '{a}没有要求{b}留下，独自替小兽找了一个仍能站稳的位置。{b}走远后，这个微小的整理动作继续，把短暂的相遇留在了物件上。',
+    teaser: '{a}把一件珍藏交给{b}，短暂的靠近却同时带来破损与离别；来客走后，留下的人必须亲手替它找一个能站稳的位置。',
+  },
+  'xplay-seagull': {
+    title: '散场以后还在等回应的人', premise: '艺术上的渴望与爱情里的期待互相错认的困局', prop: '写着演出顺序的纸',
+    opening: '{a}为{b}准备了一段新戏，口头上请对方评价作品，真正等的却是一句愿意留下。',
+    exchange: '{b}认真谈起另一种向往，{a}把每句意见都听成对自己的拒绝，于是不断重开那段已经演完的戏。',
+    reveal: '{b}终于说明，喜欢作品并不等于答应陪伴。{a}停在幕布前，发现自己一直在用一个问题索取另一个问题的答案。',
+    ending: '{b}离开观看的位置，{a}仍把幕布开着，却不再重复邀请。那段无人接话的结尾，第一次成为他必须自己完成的演出。',
+    teaser: '{a}请{b}来看一段新戏，却把所有评论都听成是否愿意留下；当作品和爱情终于被分开回答，开着的幕布只剩一个人收场。',
+  },
+  'play-rhino': {
+    title: '你没有答应，我却听成了愿意', premise: '执着的爱情无法替另一个人作出选择的冲突', prop: '准备送出的礼物',
+    opening: '{a}请{b}收下一件礼物，声称不需要回答，却始终挡在对方离开的方向。',
+    exchange: '{b}拒绝把收下礼物当成承诺，{a}便不断解释自己付出了多少；每增加一项付出，两人之间就少一点能够退开的距离。',
+    reveal: '{b}把礼物放下，当面重复一遍自己的选择。{a}终于无法把沉默或客气再解释成期待中的同意。',
+    ending: '{a}必须让开那一步，才能知道{b}是否还会回来。两人没有拥抱收场，留下的通路比任何表白都更具体。',
+    teaser: '{a}说礼物不需要回答，却迟迟不让{b}离开；对方把礼物放下以后，爱意终于必须面对一个不能代替别人作出的选择。',
+  },
+  'play-medea': {
+    title: '行李已经放到门边', premise: '背叛与驱逐使亲密关系转化为报复冲动的冲突', prop: '已经收好的行李',
+    opening: '{a}把行李交给{b}，请求再留一会儿；{b}以为只要允许这点时间，就已经尽到最后的体面。',
+    exchange: '{a}逐件取出两人共同生活过的东西，{b}只肯讨论什么时候离开。一个人在清算被背弃的承诺，另一个人只想完成送行。',
+    reveal: '{a}突然把行李全部打开，拒绝让过去被一次整齐的搬走遮住。{b}第一次意识到，给予期限并不能决定对方如何使用它。',
+    ending: '{b}停下催促，{a}却仍不能把手中的旧物放回去。排演在报复尚未实施的一刻收住，把下一步会伤及谁留成两人必须直视的选择。',
+    teaser: '{a}请求{b}容许最后一点停留，得到的时间却被用来清算共同生活；整齐的送行被打断，体面的措辞再也藏不住驱逐。',
+  },
+};
+
+function sceneTextV40(text, context) {
+  return text.replace(/\{(a|b|prop)\}/g, (_, key) => context[key]);
+}
+
+function sceneArcV40(context) {
+  const { play, a, b } = context;
+  const arc = sceneArcsV40[play.id];
+  if (arc) return arc;
+  return {
+    title: '离场以前，把这句话说完', premise: '人物在行动中暴露彼此期待的排演线索', prop: '留在两人之间的一件物品',
+    opening: `这一场从《${play.name}》的动作起步：“${stageSentenceV39(play.stage || play.hook || '让一次准备好的见面被迟来的回答打断。')}”${a}先将这一步做给${b}看，期待对方接下去，${b}却停在原处。`,
+    exchange: `${a}要求把方才未完成的行动继续，${b}却提出交换位置，让发出要求的人先承受一次同样的等待。`,
+    reveal: `两人照原来的顺序重来，位置却已经互换。${a}刚才觉得轻易就能做到的事，轮到自己才迟迟做不下去；${b}终于得到一次不被打断的回应。`,
+    ending: `两人回到开场的位置，这次${a}等${b}先动。排练在那个原先被略过的停顿处结束，让《${play.name}》这条观察落在两人的距离里：“${copySentenceV39(play.observe || play.why || '同一个动作换了回应，就会显出不同的关系。')}”`,
+    teaser: `${a}要${b}接住《${play.name}》里的一次行动，对方却要求先交换位置重来；当要求落到自己身上，原本笃定的人终于停了下来。`,
+  };
+}
+
+function actorEntryV40(card, other, support) {
+  const name = card.name;
+  const entries = {
+    'xrole-pozzo': `${name}先占住方便指挥的位置，要求${other}等自己坐好再谈；谁可以开口，也仿佛必须由他决定。`,
+    'role2-duncan': `${name}把周到的欢迎当作善意，毫无戒备地接受${other}的安排，先答应相信对方。`,
+    'role-oedipus': `${name}把询问的位置逐步移近${other}，每得到一个回答就追问下一句，不肯把任何停顿当作结束。`,
+    'role-nora': `${name}先顺着${other}习惯的口气应答，随后把自己的位置移到与对方同一高度，要求这次把话听完。`,
+    'role-hamlet': `${name}不急着向${other}说明意图，先把对方刚说过的话重复一遍，看哪一个字会让回应停住。`,
+    'role-macbeth': `${name}让${other}先靠近，自己却反复看向身后；越想显得镇定，越不肯交出决定下一步的权力。`,
+    'role-ladym': `${name}替${other}整理好外表，低声催对方把已经决定的事做完，不许动作泄露迟疑。`,
+    'role-anti': `${name}听完${other}的阻拦，仍把身体转向自己要完成的事，让请求逐渐变成已经开始的行动。`,
+    'role-lear': `${name}等着${other}先表明态度，把一个简单的停顿也听成了对自己的冷落。`,
+    'role-iago': `${name}把一句话说到一半便停下，等${other}主动追问，再把猜测伪装成不得不说的提醒。`,
+    'role-wang': `${name}先替${other}安排位置，尽力让双方都不难堪，自己的话却总被新的招呼打断。`,
+    'role-vladimir': `${name}向${other}核对刚才说过的约定，怕遗漏一个细节，反而把准备开始的动作又拖住了。`,
+    'role-gogo': `${name}暂时顾不上${other}提出的大问题，先停下照料疲惫的身体，让催促的人也不得不停一会儿。`,
+    'role2-creon': `${name}听完${other}的请求，再逐字重申自己的要求；他把让步听成了所有规矩都将失效。`,
+    'role2-banquo': `${name}记住${other}话里的承诺，却不急着附和，把一个尚未得到回答的问题留在两人之间。`,
+    'role2-kristine-linde': `${name}没有替${other}继续遮掩，先把那件迟早要说清的事放回两人眼前。`,
+  };
+  if (entries[card.id]) return entries[card.id];
+  const cue = stageSentenceV39(card.stage || card.hook || '先让对方把话说完，再决定是否靠近。');
+  return support
+    ? `${name}没有顺着${other}的节拍回答，而是做出自己的动作：“${cue}”${other}只好停下，等这个动作完成才有机会接话。`
+    : `${name}带着自己的行动习惯入场：“${cue}”这一步直接占去了${other}原本可以从容回应的时间。`;
+}
+
+function scenePlaceV40(context) {
+  const { place, a, b } = context;
+  if (place.id === 'place-v21-diningcar') return {
+    open: `把相遇放在行进中的餐车：${a}与${b}隔着一张窄餐桌，杯子随着车轮轻响，窗外景物不停后退，这顿饭却迟迟吃不完。`,
+    turn: '到站广播响起，邻桌开始收拾行李。这场谈话再拖下去，也不能让列车替他们停留。',
+    end: '列车再次开动，餐桌还在原处，刚才坐在桌边的人却已经不能按原来的关系继续用餐。',
+  };
+  if (place.id === 'place-road') return {
+    open: `在乡间小路上，${a}与${b}隔着一段可以随时走开的距离，却总在准备错身时停住。`,
+    turn: '远处传来脚步声，两人同时转向来路，又必须回过头面对尚未说完的话。',
+    end: '路仍然通向远处，刚才谁也不肯让出的那一步，最后留给观众看清。',
+  };
+  if (place.id === 'place-parlor') return {
+    open: `在娜拉的客厅里，${a}与${b}先照着熟悉的礼貌落座，门口就在视线以内，却不是谁都能轻易走过去。`,
+    turn: '门边传来动静。原本像私下商量的谈话，忽然有了随时会被打断的期限。',
+    end: '客厅的摆设没有变化，两人谁能留下、谁能走向门口，却要重新决定。',
+  };
+  const cue = stageSentenceV39(place.stage || place.hook || '让想离开的人必须从对方眼前经过。');
+  return {
+    open: `这次相遇发生在${place.name}，空间按这条动作线索组织：“${cue}”${a}先占住能发起谈话的位置，${b}要回应，就必须改变双方原有的距离。`,
+    turn: `刚才那次空间动作又发生了。${b}这次不再为${a}先让开，两人必须在${place.name}里重新安排谁先通过、谁留下回答。`,
+    end: `收场时回到${place.name}开场的距离，观众能看见同样的位置已经换了含义。`,
+  };
+}
+
+function sceneMethodV40(context) {
+  const { method, a, b, prop } = context;
+  const effects = {
+    'ydir-handkerchief': `小道具把争执变成可见的交接：${a}每说一次客气话，就把${prop}挪近自己；${b}伸手要接时，${a}却先把杯子递过去。等对方腾出手，关键物件已经到了另一边。`,
+    'dir-wall': `这一段按第四堵墙处理：${a}始终只向${b}解释，谁也不借观众的目光求助。观众看得见两人都避开的${prop}，他们却继续假装它不重要。`,
+    'dir-alien': `间离术落在一次具体中断上：${b}刚要答应，演员便暂时退出角色，复述${a}刚才省掉的条件；重新入戏后，那句答应已无法照原来的口气说出。`,
+    'dir-freeze': `${b}将要接过${prop}的一刻，全场定格。只有${a}把刚才的请求再说一次；同一句话面对伸出却还没接住的手，显出了命令的意味。`,
+    'dir-flashback': `倒叙先演两人已经无法照原来的方式说话的一刻，再退回见面以前。观众先看见关系变化，随后沿着${prop}的摆放与两人的停顿，追问${a}与${b}究竟在哪一步失去了原来的默契。`,
+    'dir-body': `形体无言取消了这一轮解释。${a}靠近${prop}，${b}便改变站位；让出一步并不等于答应，下一次伸手必须重新取得允许。`,
+    'dir-forum': `${b}快要作出答复时，论坛停演把动作停住，请观众提出另一种回应，再由演员重走同一段。${a}必须接住改变后的回答，不能照原来的结尾强行演下去。`,
+    'dir-multi': `一人分饰让同一位演员依次说出${a}的要求与${b}的回应。每次换到另一个位置，上一句留下的压力都不能重置，直到演员自己也无法把两边同时安抚好。`,
+  };
+  if (effects[method.id]) return effects[method.id];
+  return `两人的拉扯在“${method.name}”这一步被放大：“${stageSentenceV39(method.stage || method.hook || '把即将完成的动作停住，等一次回应再继续。')}”这次处理紧接着${a}的要求发生，${b}便把原本将要说出的答应收住，逼对方看清这一步造成的后果。`;
+}
+
+function sceneStyleV40(context) {
+  const { style, place, method, support, a, b, prop } = context;
+  if (style.id === 'ystyle-street') {
+    const publicScene = place.id === 'place-v21-diningcar'
+      ? `将餐车的一段过道向公共观看区敞开，${support ? '由演员扮作旅客' : '独演者换位模拟旅客的声音'}，以一次“请替我看住这件东西”的拦路请求聚拢视线。窄餐桌成了临时的街头戏台，来去的人都能看清交接`
+      : `把${place.name}的一段通道向公共观看区敞开，以一次“请替我看住这件东西”的拦路请求让经过的人停下；场内的相遇就此变成能够被围观的公共事件`;
+    const boundary = method.id === 'dir-wall'
+      ? '围观发生在戏外；进入这段对话后仍守住第四堵墙，演员不向观众索取回答，见证由观看完成'
+      : `让${support ? '扮作围观者的演员' : '换到围观位置的独演者'}复述：“刚才${prop}还在那一边。”${a}再也不能只对${b}低声解释，必须当着这些见证者把条件说完整`;
+    return `街头剧在这里有一个明确的转换：${publicScene}。${boundary}。`;
+  }
+  const forms = {
+    'style-absurd': `用荒诞派的重复把转折留下来：${a}与${b}再说一次开场的客气话，物件与站位却已改变；原本能维持谈话的句子，这次只暴露了两人再也接不上的关系。`,
+    'style-epic': `史诗剧场让这次变化公开可读：演员把${prop}先前的位置指出来，再回到此刻的站位。观众可以沿着两次交接判断局面如何形成，而不只等待谁先落泪。`,
+    'style-real': `现实主义把后果留在日常小事里：${b}仍要把刚才被打断的动作做完，${a}也无法用一段漂亮解释让双方立刻和好。沉默持续到其中一人真正改变动作。`,
+    'style-stan': `按斯坦尼体系，让${a}仍想得到原先要的答复，${b}却带着新发现重新听每一句话。相同的行动目标碰上变化后的对手，逼出演员新的节奏与选择。`,
+    'style-classic': `古典主义把这次翻转留在同一场相遇里：不另开一段往事替人解释，${a}与${b}都必须当场回应已经出现的后果，直到原来的要求得到一个新的回答。`,
+    'style-physical': `身体剧场让${a}重做开场的靠近，${b}却用刚才被迫采取的姿态回应。两副身体交换了承受的位置，观众先看见谁在退让，再听见下一句话。`,
+  };
+  if (forms[style.id]) return forms[style.id];
+  return `转折按“${style.name}”的方式重新落地：“${stageSentenceV39(style.stage || style.hook || '让同一个动作前后重复两次，第二次改变对方的回应。')}”把这一处理放回刚才的交锋，${a}重说原来的要求，${b}却不再给出原来的回应；变化从演法进入了两人的关系。`;
+}
+
+function sceneContextV40(cards) {
+  const context = talkCardsV39(cards);
+  context.a = context.lead.name;
+  context.b = context.support ? context.support.name : '另一种声音';
+  context.arc = sceneArcV40(context);
+  context.prop = context.arc.prop;
+  return context;
+}
+
+function dramaticTitleV40(cards) {
+  const context = sceneContextV40(cards);
+  const title = `${context.place.name}｜${context.arc.title}`;
+  return title.length <= 35 ? title : context.arc.title;
+}
+
+function talkSourcesV40(cards) {
+  const { lead, support } = talkCardsV39(cards);
+  return [lead, support].filter(Boolean).map(card => card.sourcePlayLabel
+    ? `${card.name}：${card.sourcePlayLabel}` : card.name).join('；');
+}
+
 function shortScene(cards) {
-  const { play, style, method, lead, support, place } = talkCardsV39(cards);
-  const cast = support ? `${roleLabelV39(lead)}与${roleLabelV39(support)}` : roleLabelV39(lead);
-  return `排演设想：以《${play.name}》为底本，让${cast}在${place.name}登场。${stageSentenceV39(method.stage)}${stageSentenceV39(style.stage)}`;
+  const context = sceneContextV40(cards);
+  const { play, place, style, method, arc, support, a } = context;
+  const solo = support ? '' : `本局由${a}独演，对面的声音由同一演员换位试说。`;
+  const form = style.id === 'ystyle-street' && method.id === 'ydir-handkerchief'
+    ? '小道具的交接被街头剧放到众目睽睽之下，原本私下的条件，必须对每一个看见的人说清。'
+    : `以${method.name}让这次变化发生，再用${style.name}重演开场的动作，让改变后的关系显出来。`;
+  return `本局创作／排演设想：借《${play.name}》在${place.name}另写一场相遇。${solo}${sceneTextV40(arc.teaser, context)}${form}`;
+}
+
+function soloBlockingV40(text) {
+  return text.replaceAll('两人同时迎上去', '演员先后在两个位置迎上去')
+    .replaceAll('两人同时转向来路', '演员先从一个位置望向来路，再换到另一个位置重做')
+    .replaceAll('两人交换位置', '演员换到对面的站位')
+    .replaceAll('两人整理好东西', '演员依次整理两个位置的东西')
+    .replaceAll('两副身体交换了承受的位置', '同一副身体轮流承担双方的位置');
 }
 
 function nn(cards) {
-  const { play, style, method, lead, support, place } = talkCardsV39(cards);
-  let people = `主演 ${roleLabelV39(lead)}：${copySentenceV39(lead.note)}`;
-  if (support) {
-    people += `配角 ${roleLabelV39(support)}：${copySentenceV39(support.note)}`;
-    const sameWork = (lead.workIds || []).some(id => (support.workIds || []).includes(id));
-    people += sameWork
-      ? '两人有已确认的同作关系，可以先从原作关系排起。'
-      : '保留两人各自的来历，再为这次同台安排相遇的理由。';
-  }
+  const context = sceneContextV40(cards);
+  const { play, lead, support, a, b, arc } = context;
+  const space = scenePlaceV40(context);
+  const solo = support ? '' : `这副旧五卡没有配角：全场由${a}独演，“另一种声音”是同一演员换位试说的回答，不另添人物；双方动作按先后顺序在两个位置完成。`;
+  const counterpart = support
+    ? actorEntryV40(support, a, true)
+    : `${a}走到对面，替尚未得到的回应试说一句，随即回到原位；这场对话能否继续，必须由他自己承担。`;
   return [
-    `底本《${play.name}》：${copySentenceV39(play.plot || play.note)}`,
-    people,
-    `空间 ${place.name}：${copySentenceV39(place.note)}排演可试：${stageSentenceV39(place.stage)}`,
-    `演法 ${style.name}：${copySentenceV39(style.note)}手段 ${method.name}：${copySentenceV39(method.note)}组合练习：${stageSentenceV39(style.stage)}${stageSentenceV39(method.stage)}`,
-  ];
+    `本局创作／排演设想：借《${play.name}》中${arc.premise}另写一场戏，以下动作与相遇均为本局改编。${solo}${space.open}${sceneTextV40(arc.opening, context)}${actorEntryV40(lead, b, false)}`,
+    `${counterpart}${sceneTextV40(arc.exchange, context)}${sceneMethodV40(context)}`,
+    `${space.turn}${sceneTextV40(arc.reveal, context)}${sceneStyleV40(context)}`,
+    `${sceneTextV40(arc.ending, context)}${space.end}`,
+  ].map(text => support ? text : soloBlockingV40(text));
 }
 
 function fiveTalk(cards) { return nn(cards); }
 
-if (typeof module !== 'undefined' && module.exports) module.exports = { copySentenceV39, stageSentenceV39, shortScene, nn, fiveTalk };
+if (typeof module !== 'undefined' && module.exports) module.exports = {
+  copySentenceV39, stageSentenceV39, shortScene, nn, fiveTalk, dramaticTitleV40, talkSourcesV40,
+};
 
 applyCopyOverridesV39(e,cardEssays);
 // V39_COPY_END
-var Xn=`diamasha.owned`,J=window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,Zn=document.querySelector(`#app`),Qn=document.getElementById(`toast`);function $n(){try{let e=JSON.parse(localStorage.getItem(Xn)||`[]`);return new Set(Array.isArray(e)?e:[])}catch{return new Set}}function er(e){let t=$n();t.add(e);try{localStorage.setItem(Xn,JSON.stringify([...t]))}catch{}Y.owned=[...t]}var Y={view:`home`,index:0,drawn:[],pack:`mix`,packCard:null,albumDim:`全部`,albumSort:`rarity`,owned:[...$n()],fromShare:!1,sheet:null,problems:[],task:Me(),bundle:[],booster:null,fromPack:!1,slot:``,loop:loadLoop(),talkOpen:!1,keptShare:null},X=0,tr=!1,nr=0;function rr(e){let t=`m=${e}`;if(location.protocol===`file:`)return`#${t}`;let n=new URL(location.href);return n.search=``,n.hash=t,n.toString()}function ir(e){try{return sessionStorage.getItem(`diamasha.owner`)!==e}catch{return!0}}function ar(){let t=Y.view===`result`&&[5,6].includes(Y.drawn.length)?w(Y.drawn):``,n=null;if(Y.sheet?.kind===`help`&&(n={kind:`help`}),Y.sheet?.kind===`tasks`&&(n={kind:`tasks`,rows:Pe(Y.task,Y.owned.length),charges:Y.task.charges}),Y.sheet?.kind===`packs`&&(n={kind:`packs`}),Y.sheet?.kind===`card`){let t=e.find(e=>e.id===Y.sheet.id);t&&(n={kind:`card`,card:t,tag:Y.sheet.tag||``,conceal:!!Y.sheet.conceal})}return{view:Y.view,muted:Ce(),index:Y.index,drawn:Y.drawn,current:Y.drawn[Y.index]||null,fromShare:Y.fromShare,sheet:n,share:t?rr(t):``,canShare:typeof navigator.share==`function`,poolSize:activeCards.length,problems:Y.problems,pack:Y.pack,packName:(oe.find(e=>e.id===Y.pack)||{}).name||``,packCard:Y.packCard,charges:Y.task.charges,bundle:Y.bundle,booster:Y.booster,fromPack:Y.fromPack,mixCount:Y.task.mix,albumDim:Y.albumDim,albumSort:Y.albumSort,owned:Y.owned.filter(id=>activeCardIdsV39.has(id)),pool:activeCards,slot:Y.slot||``,loop:currentLoop(),talkOpen:!!Y.talkOpen,taskRows:Pe(Y.task,Y.owned.length),fromShare:Y.fromShare}}function Z({preserveScroll:e=!1}={}){X+=1,tr=!1;const top=e?document.scrollingElement?.scrollTop??0:0,sheetTop=e?document.querySelector('.sheet')?.scrollTop??0:0;Zn.innerHTML=qn(ar());document.body.classList.toggle('sheet-open',!!Y.sheet);if(document.scrollingElement)document.scrollingElement.scrollTop=top;const sheet=document.querySelector('.sheet');if(e&&sheet)sheet.scrollTop=sheetTop;if(Y.view===`result`&&(Y.drawn||[]).length)queueTalkEnter();}
+var Xn=`diamasha.owned`,J=window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,Zn=document.querySelector(`#app`),Qn=document.getElementById(`toast`);function $n(){try{let e=JSON.parse(localStorage.getItem(Xn)||`[]`);return new Set(Array.isArray(e)?e:[])}catch{return new Set}}function er(e){let t=$n();t.add(e);try{localStorage.setItem(Xn,JSON.stringify([...t]))}catch{}Y.owned=[...t]}var Y={view:`home`,index:0,drawn:[],pack:`mix`,packCard:null,albumDim:`全部`,albumSort:`rarity`,owned:[...$n()],fromShare:!1,sheet:null,problems:[],task:Me(),bundle:[],booster:null,fromPack:!1,slot:``,loop:loadLoop(),talkOpen:!1,keptShare:null},X=0,tr=!1,nr=0;function rr(e){let t=`m=${e}`;if(location.protocol===`file:`)return`#${t}`;let n=new URL(location.href);return n.search=``,n.hash=t,n.toString()}function ir(e){try{return sessionStorage.getItem(`diamasha.owner`)!==e}catch{return!0}}function ar(){let t=Y.view===`result`&&[5,6].includes(Y.drawn.length)?w(Y.drawn):``,n=null;if(Y.sheet?.kind===`help`&&(n={kind:`help`}),Y.sheet?.kind===`tasks`&&(n={kind:`tasks`,rows:Pe(Y.task,Y.owned.length),charges:Y.task.charges}),Y.sheet?.kind===`packs`&&(n={kind:`packs`}),Y.sheet?.kind===`card`){let t=e.find(e=>e.id===Y.sheet.id);t&&(n={kind:`card`,card:t,tag:Y.sheet.tag||``,conceal:!!Y.sheet.conceal})}return{view:Y.view,muted:Ce(),index:Y.index,drawn:Y.drawn,current:Y.drawn[Y.index]||null,fromShare:Y.fromShare,sheet:n,share:t?rr(t):``,canShare:typeof navigator.share==`function`,poolSize:activeCards.length,problems:Y.problems,pack:Y.pack,packName:(oe.find(e=>e.id===Y.pack)||{}).name||``,packCard:Y.packCard,charges:Y.task.charges,bundle:Y.bundle,booster:Y.booster,fromPack:Y.fromPack,mixCount:Y.task.mix,albumDim:Y.albumDim,albumSort:Y.albumSort,owned:Y.owned.filter(id=>activeCardIdsV39.has(id)),pool:activeCards,slot:Y.slot||``,loop:currentLoop(),talkOpen:!!Y.talkOpen,taskRows:Pe(Y.task,Y.owned.length),fromShare:Y.fromShare}}function Z({preserveScroll:e=!1}={}){X+=1,tr=!1;revealClearV40();stopProductionV40();const top=e?document.scrollingElement?.scrollTop??0:0,sheetTop=e?document.querySelector('.sheet')?.scrollTop??0:0;Zn.innerHTML=qn(ar());restoreRevealIntroV40();document.body.classList.toggle('sheet-open',!!Y.sheet);if(document.scrollingElement)document.scrollingElement.scrollTop=top;const sheet=document.querySelector('.sheet');if(e&&sheet)sheet.scrollTop=sheetTop;if(Y.view===`result`&&(Y.drawn||[]).length)queueTalkEnter();else if(Y.view===`pack`&&Y.booster?.phase===`spread`)enterProductionV40();}
 function revealTagTip(){const sheet=document.querySelector('.sheet'),tip=sheet?.querySelector('.tag-tip');if(!tip)return;const bounds=sheet.getBoundingClientRect(),rect=tip.getBoundingClientRect();if(rect.bottom>bounds.bottom-12)sheet.scrollTop+=rect.bottom-bounds.bottom+12;else if(rect.top<bounds.top+12)sheet.scrollTop+=rect.top-bounds.top-12;}
-function Q(e){Qn&&(Qn.textContent=e,Qn.classList.add(`show`),window.clearTimeout(nr),nr=window.setTimeout(()=>Qn.classList.remove(`show`),1600))}function or(){(location.hash||location.search)&&history.pushState(null,``,location.pathname)}function sr(){if(tr||Y.view!==`pull`||Y.drawn[Y.index])return;let t=x[Y.index],n=te(e,t.key);Y.drawn[Y.index]=n,er(n.id),tr=!0;let r=X,i=document.querySelector(`.flip`),a=i?.querySelector(`.flip-front`);if(!i||!a){tr=!1;return}a.innerHTML=`<button type="button" class="front-hit" data-action="detail" data-id="${K(n.id)}" aria-label="看${K(n.name)}的释义">${Cn(n)}</button>`,i.classList.add(`rarity-${n.rarity}`,`is-charging`);let o=i.querySelector(`[data-action='open']`);o&&(o.disabled=!0),De(n.rarity);window.setTimeout(()=>{r===X&&(i.classList.remove(`is-charging`),i.classList.add(`is-flipped`,`is-burst`))},J?0:Jn[n.rarity]||0),window.setTimeout(()=>{if(r!==X)return;Oe(n.rarity);let e=document.getElementById(`reveal-panel`);e&&(e.innerHTML=Dn(n,Y.index===x.length-1),e.className=`reveal-panel tone-${n.rarity}`),tr=!1,e?.querySelector(`[data-action='keep']`)?.focus({preventScroll:!0})},J?20:Yn[n.rarity]||800)}function cr(){lastSharePoster=null,Y.view=`pack`,Y.pack=`mix`,Y.packCard=null,Y.sheet=null,Y.fromPack=!1,Y.booster={phase:`sealed`,cards:[],index:0,tutorial:de(Y.task.mix),tutorialNo:Y.task.mix+1,revealDone:!1,askSkip:!1},or(),Z()}function preambleLines(card){if(!card||![`SSR`,`UR`,`LR`].includes(card.rarity))return[];const cue={剧目:`这一出`,风格体系:`这一式`,导演手法:`这一手`,主演:`这个人`,配角:`对戏的人`,环境:`这一处`}[card.dimension]||`这一张`;const pool={SSR:[[`先别忙着出声，让场子沉一沉。`,`灯还没移过来，这一张已经坐下了。`,`这一张，压在全场之后。`],[`${cue}，压在全场之后。`,`前头的戏都为它让路。`,`等它站稳，再往下看。`],[`锣未密，先把气口收住。`,`压轴要走这段路。`,`全场的重量，落在这一张上。`],[`先把场子让出来。`,`这一张不急着亮全貌。`,`压在全场之后，才算站稳。`]],UR:[[`场上忽然静了。`,`旁人先退到边幕。`,`这一路，只一个人走。`,`这一步，只为独行。`],[`锣鼓都收了。`,`从静里，迈出这一步。`,`灯光只跟这一处。`,`独步，不与人并肩。`],[`座中再不必开口。`,`脚步自己会把路踩出来。`,`${cue}要独自走完。`,`不要去扶，看它自己立住。`,`这一步，只为独行。`],[`先把旁边的声响收掉。`,`路是一个人的路。`,`幕边再无伴走。`,`独步由此上路。`]],LR:[[`灯未亮，人已候。`,`先不要出声。`,`全场只等这一声。`,`这一张要走完整出。`,`绝唱，上场。`],[`座中再无旁话。`,`只这一声，要压住全台。`,`唱到最后才落。`,`灯会慢慢走近。`,`请听。`],[`先把呼吸放轻。`,`幕还没完全拉开。`,`全场只等这一声。`,`${cue}要走到最后。`,`唱到最后才落。`,`绝唱，上场。`],[`不要急着点破。`,`这一张要从静里长出来。`,`灯未亮，人已候。`,`请把这一出听完。`,`绝唱，上场。`]]}[card.rarity]||[];if(!pool.length)return[];const key=String(card.id||``)+card.rarity+String(card.dimension||``);let h=0;for(let i=0;i<key.length;i++)h=h*33+key.charCodeAt(i)>>>0;return pool[h%pool.length].slice()}
-function $(){const card=Y.booster?.cards?.[Y.booster.index];if(!card||Y.booster.phase!==`card`)return;const run=X,zone=document.querySelector('.pack-zone'),flip=document.querySelector('.pack-zone .flip'),host=document.querySelector('.pack-preamble'),lines=preambleLines(card),skipPre=!!Y.booster.skipPreamble||!lines.length;const finishReveal=delay=>{window.setTimeout(()=>{if(run!==X||!Y.booster)return;Y.booster.revealDone=true;Oe(card.rarity);if(Y.booster.index>=(Y.booster.cards||[]).length-1)window.setTimeout(()=>{if(window.__dgNoSpread||run!==X||!Y.booster||Y.booster.phase!==`card`||Y.booster.index<(Y.booster.cards||[]).length-1)return;enterSpread()},J?120:900)},delay)};const clearScratch=()=>{const veil=flip?.querySelector('.scratch-veil');flip?.classList.add('is-flipped','is-burst','rarity-'+card.rarity);flip?.classList.remove('is-charging','is-scratch','no-anim');zone?.classList.remove('is-preamble','is-waiting','wait-'+card.rarity);if(host){host.classList.add('is-leaving');window.setTimeout(()=>{if(!host.classList.contains('is-leaving'))return;host.hidden=!0;host.innerHTML=``;host.classList.remove('is-leaving')},J?0:380)}if(veil){veil.classList.add('is-clear');window.setTimeout(()=>veil.remove(),J?80:560)}};const typeHold=r=>J?80:({SSR:1200,UR:1600,LR:2000}[r]||0);const markType=lifted=>{if(!flip)return;if(lifted.includes(`dim`)||lifted.includes(`stars`))flip.classList.add(`is-type-rarity`);if(lifted.includes(`name`))flip.classList.add(`is-type-name`)};const startFlip=()=>{if(run!==X)return;if(Y.booster)Y.booster.skipPreamble=!1;const scratched=!!(flip&&(flip.classList.contains('is-scratch')||flip.querySelector('.scratch-veil')));if(scratched){clearScratch();finishReveal(J?20:600);return}host&&(host.hidden=!0,host.innerHTML=``);zone?.classList.remove('is-preamble');flip?.classList.add('rarity-'+card.rarity,'is-charging');zone?.classList.add('is-waiting','wait-'+card.rarity);De(card.rarity);window.setTimeout(()=>{if(run!==X)return;flip?.classList.remove('is-charging');zone?.classList.remove('is-waiting','wait-'+card.rarity);flip?.classList.add('is-flipped','is-burst');if(card.rarity===`SR`)flip?.classList.add(`is-type-rarity`,`is-type-name`);},J?0:Jn[card.rarity]||0);finishReveal(J?20:Yn[card.rarity]||400)};const startScratch=()=>{if(!flip)return;flip.classList.add('rarity-'+card.rarity,'is-flipped','no-anim','is-scratch');if(!flip.querySelector('.scratch-veil')){const v=document.createElement('div');v.className='scratch-veil';v.setAttribute('aria-hidden','true');v.innerHTML='<i class="veil-patch p-art"></i><i class="veil-patch p-art2"></i><i class="veil-patch p-stars"></i><i class="veil-patch p-dim"></i><i class="veil-patch p-name"></i><i class="veil-patch p-rest"></i>';flip.appendChild(v)}De(card.rarity)};const regions={SSR:[[`art`,`art2`],[`stars`,`dim`],[`name`]],UR:[[`art`],[`art2`],[`stars`],[`dim`],[`name`]],LR:[[`art`],[`art2`],[`stars`],[`dim`],[`name`],[`rest`]]};if(skipPre){startFlip();return}zone?.classList.add('is-preamble','wait-'+card.rarity);startScratch();let step=0;const beat=J?280:1400;const preLife=2100;const layoutPre=()=>{if(!host||!flip)return 0;const tap=host.offsetParent||host.parentElement;if(!tap)return 0;let fx=0,fy=0,e=flip;while(e&&e!==tap){fx+=e.offsetLeft;fy+=e.offsetTop;e=e.offsetParent}if(e!==tap){const a=flip.getBoundingClientRect(),c=tap.getBoundingClientRect();fx=a.left-c.left;fy=a.top-c.top}const fw=flip.offsetWidth,fh=flip.offsetHeight;const ix=Math.max(24,Math.round(fw*.1)),top=Math.max(30,Math.round(fh*.09)),avail=Math.max(72,Math.round(fh*.46-top));host.style.left=Math.round(fx+ix)+'px';host.style.top=Math.round(fy+top)+'px';host.style.width=Math.round(fw-2*ix)+'px';host.style.maxHeight=avail+'px';host.style.transform='none';return avail};const buildPre=()=>{if(!host)return;host.classList.remove('is-leaving','is-tight');host.classList.add('is-stack');host.style.setProperty('--pre-life',preLife+'ms');host.innerHTML=lines.map(t=>`<p class="pre-line" aria-hidden="true">${K(t)}</p>`).join('');host.hidden=!1;const avail=layoutPre();const ps=[...host.querySelectorAll('.pre-line')];const fit=n=>{ps.forEach((p,i)=>{p.style.gridRow=String(i%n+1)});host.style.maxHeight='none';const h=host.scrollHeight;host.style.maxHeight=avail+'px';return h<=avail};let n=0;for(const tight of [!1,!0]){host.classList.toggle('is-tight',tight);for(let k=ps.length;k>=2;k--)if(fit(k)){n=k;break}if(n)break}if(!n){n=Math.min(2,ps.length);fit(n)}host.dataset.rows=String(n)};const showPre=i=>{if(!host)return;if(i===0||!host.querySelector('.pre-line'))buildPre();const ps=host.querySelectorAll('.pre-line');const p=ps[i];if(!p)return;p.classList.add('is-on');if(i===ps.length-1)p.classList.add('is-last');p.removeAttribute('aria-hidden');if(ps[i-1]){ps[i-1].setAttribute('aria-hidden','true');if(J)ps[i-1].classList.add('is-done')}if(ps[i-2])ps[i-2].classList.add('is-done')};const plan=regions[card.rarity]||regions.SSR;const tick=()=>{if(run!==X)return;if(step>=lines.length){window.setTimeout(startFlip,typeHold(card.rarity));return}step+=1;showPre(step-1);const veil=flip?.querySelector('.scratch-veil');if(veil){for(let i=0;i<step&&i<plan.length;i++)for(const r of plan[i])veil.classList.add('lift-'+r)}const lifted=[];for(let i=0;i<step&&i<plan.length;i++)lifted.push(...plan[i]);markType(lifted);if(window.__dgHoldAfter!=null&&step>=window.__dgHoldAfter)return;window.setTimeout(tick,beat)};tick()}
-var talkTimers=[],talkKey=``;function talkClear(){talkTimers.forEach(id=>clearTimeout(id));talkTimers=[]}function talkLater(fn,ms){const id=window.setTimeout(fn,ms);talkTimers.push(id);return id}function hasTalkSeen(key){try{return JSON.parse(sessionStorage.getItem(`diamasha.talkSeen`)||`[]`).includes(key)}catch{return Y.talkEnterDone===key}}function markTalkSeen(key){Y.talkEnterDone=key;try{const arr=JSON.parse(sessionStorage.getItem(`diamasha.talkSeen`)||`[]`);if(!arr.includes(key)){arr.push(key);sessionStorage.setItem(`diamasha.talkSeen`,JSON.stringify(arr.slice(-24)))}}catch{}}function finishTalkEnter(){talkClear();const screen=document.querySelector('.result-screen');if(!screen){if(talkKey)markTalkSeen(talkKey);return}paintRadar(null,1);hexFinish();const scoreB=document.querySelector('.show-score b');if(scoreB&&scoreB.dataset.final)scoreB.textContent=scoreB.dataset.final;const short=document.querySelector('.talk-short p');if(short&&short.dataset.full)short.textContent=short.dataset.full;screen.classList.remove('is-entering');screen.querySelectorAll('.is-in').forEach(el=>el.classList.remove('is-in'));if(talkKey)markTalkSeen(talkKey);delete window.__dgTalkHold;delete window.__dgRadarProg}function hexSvg(){return document.querySelector('.result-screen .hex-radar')}function hexBuildStart(full){const svg=hexSvg();if(!svg)return;paintRadar(null,1);svg.style.setProperty('--hex-dur',full?'980ms':'300ms');svg.classList.remove('is-star');svg.classList.add('is-building');svg.querySelectorAll('.is-lit').forEach(el=>el.classList.remove('is-lit'));svg.querySelectorAll('.hex-dot').forEach(d=>{d.style.opacity=''});document.querySelectorAll('.result-screen .hex-corner').forEach(c=>c.classList.remove('is-lit'));document.querySelectorAll('.result-screen .hex-corner .hex-value').forEach(el=>{el.textContent=''})}function hexLight(i){const svg=hexSvg();if(!svg)return;svg.querySelectorAll(`[data-axis="${i}"]`).forEach(el=>el.classList.add('is-lit'));const corner=document.querySelectorAll('.result-screen .hex-corner')[i];if(!corner)return;corner.classList.add('is-lit');const val=corner.querySelector('.hex-value');if(!val)return;const m=Number(val.dataset.final)||0,d=parseFloat(svg.style.getPropertyValue('--hex-dur'))||980,t0=performance.now();const tick=now=>{if(!svg.isConnected)return;const k=Math.min(1,(now-t0)/d),ease=1-Math.pow(1-k,3);val.textContent=String(Math.round(m*ease));if(k<1&&svg.classList.contains('is-building'))requestAnimationFrame(tick);else val.textContent=String(m)};requestAnimationFrame(tick)}function hexStar(){const svg=hexSvg();svg&&svg.classList.add('is-star')}function hexFinish(){const svg=hexSvg();if(!svg)return;svg.querySelectorAll('[data-axis]').forEach(el=>el.classList.add('is-lit'));document.querySelectorAll('.result-screen .hex-corner').forEach(c=>c.classList.add('is-lit'));svg.classList.add('is-star');svg.classList.remove('is-building')}function paintRadar(prog,all){const area=document.querySelector('.hex-area');if(!area)return;const raw=area.getAttribute('data-base-points')||area.dataset.basePoints||``;if(!raw.trim())return;area.dataset.basePoints=raw.trim();const cx=170,cy=128;const base=raw.trim().split(/\s+/).map(pair=>pair.split(`,`).map(Number));const n=base.length;const src=all==null?(prog||window.__dgRadarProg||Array(n).fill(0)):Array(n).fill(all);const t=i=>Math.max(0,Math.min(1,Number(src[i])||0));const pts=base.map((pt,i)=>{const k=t(i);return [cx+(pt[0]-cx)*k,cy+(pt[1]-cy)*k]});if(typeof roundedPolyPath===`function`)area.setAttribute(`d`,'M'+pts.map(p=>p.join(',')).join(' L')+' Z');else area.setAttribute(`points`,pts.map(pt=>pt.join(`,`)).join(` `));document.querySelectorAll(`.hex-dot`).forEach((dot,i)=>{const k=t(i),x=Number(dot.dataset.baseCx),y=Number(dot.dataset.baseCy);dot.setAttribute(`cx`,String(cx+(x-cx)*k));dot.setAttribute(`cy`,String(cy+(y-cy)*k));dot.style.opacity=k<0.08?`0`:`1`});document.querySelectorAll(`.hex-corner .hex-value`).forEach((el,i)=>{const m=Number(el.dataset.final)||0,k=t(i);el.textContent=k<=0?``:String(Math.round(m*k))});window.__dgRadarProg=base.map((_,i)=>t(i))}function applyRadar(p){const area=document.querySelector('.hex-area');const raw=(area&&(area.getAttribute('data-base-points')||area.dataset.basePoints))||``;const n=raw.trim().split(/\s+/).filter(Boolean).length;paintRadar(Array(n).fill(p))}function setRadarAxis(i,p){const area=document.querySelector('.hex-area');const raw=(area&&(area.getAttribute('data-base-points')||area.dataset.basePoints))||``;const n=raw.trim().split(/\s+/).filter(Boolean).length;const prog=(window.__dgRadarProg||Array(n).fill(0)).slice();prog[i]=p;paintRadar(prog)}function queueTalkEnter(){const key=w(Y.drawn||[])||``;if(!key||Y.view!==`result`)return;talkKey=key;if(Y.talkEnterDone===key)return;if(Y.talkEnterStarted===key){finishTalkEnter();return}const mode=(window.__dgTalkHold!=null||window.__dgTalkForceFull)?`full`:(J||Y.fromShare||hasTalkSeen(key)||(Y.drawn||[]).length!==6)?`short`:`full`;startTalkEnter(mode,key)}function startTalkEnter(mode,key){const screen=document.querySelector('.result-screen');if(!screen)return;Y.talkEnterStarted=key;talkKey=key;talkClear();if(mode===`skip`||(J&&window.__dgTalkHold==null)){markTalkSeen(key);return}const minis=[...screen.querySelectorAll('.cast-row .cast-mini')];const area=document.querySelector('.hex-area');if(area)area.dataset.basePoints=area.getAttribute('data-base-points')||area.dataset.basePoints||area.getAttribute('points')||``;document.querySelectorAll('.hex-dot').forEach(dot=>{dot.dataset.baseCx=dot.getAttribute('cx')||`170`;dot.dataset.baseCy=dot.getAttribute('cy')||`128`});document.querySelectorAll('.hex-corner .hex-value').forEach(el=>{el.dataset.final=el.textContent.trim()});const scoreB=document.querySelector('.show-score b');if(scoreB)scoreB.dataset.final=scoreB.textContent.trim();const shortP=document.querySelector('.talk-short p');if(shortP&&!shortP.dataset.full)shortP.dataset.full=shortP.textContent;screen.classList.add('is-entering');minis.forEach(el=>el.classList.remove('is-in'));const hold=window.__dgTalkHold;const full=mode===`full`;hexBuildStart(full);const nCards=minis.length||6;const cardStagger=full?560:90;const axisFill=full?980:300;const allLanded=cardStagger*Math.max(0,nCards-1)+axisFill;const scoreAt=allLanded+(full?240:80);const verdictAt=scoreAt+(full?200:80);const essayAt=verdictAt+(full?160:60);const dockAt=essayAt+(full?400:120);const phraseBeat=full?260:80;let stopped=false;let cardCap=false;const skipOnce=e=>{if(Y.view!==`result`||Y.talkEnterDone===key)return;if(e&&e.target&&e.target.closest&&e.target.closest('.topbar, .overlay, .sheet'))return;finishTalkEnter();};screen.addEventListener('click',skipOnce,{capture:true,once:true});const safe=fn=>()=>{if(stopped||Y.talkEnterStarted!==key||Y.talkEnterDone===key)return;fn()};minis.forEach((el,i)=>talkLater(safe(()=>{if(hold===`cards`&&cardCap&&i>Math.min(2,nCards-1))return;if(hold===`radar`&&cardCap&&i>3)return;el.classList.add('is-in');const id=el.getAttribute('data-id');const axis=[...document.querySelectorAll('.hex-corner')].findIndex(btn=>btn.getAttribute('data-id')===id);const axisIndex=axis>=0?axis:i;if(hold===`cards`&&i>=Math.min(2,nCards-1))cardCap=!0;if(hold===`radar`&&i>=3)cardCap=!0;hexLight(axisIndex);if(hold===`cards`&&i>=Math.min(2,nCards-1))stopped=!0;if(hold===`radar`&&i>=3)stopped=!0}),cardStagger*i));talkLater(safe(()=>{if(hold===`cards`||hold===`radar`)return;hexStar()}),cardStagger*Math.max(0,nCards-1)+Math.round(axisFill*.62));talkLater(safe(()=>{if(hold===`cards`||hold===`radar`)return;const show=document.querySelector('.show-score');show&&show.classList.add('is-in');const note=document.querySelector('.score-weight-note');note&&note.classList.add('is-in');if(scoreB&&scoreB.dataset.final)scoreB.textContent=scoreB.dataset.final}),scoreAt);talkLater(safe(()=>{if(hold===`cards`||hold===`radar`)return;const v=document.querySelector('.verdict');v&&v.classList.add('is-in')}),verdictAt);talkLater(safe(()=>{if(hold===`cards`||hold===`radar`)return;const title=document.querySelector('.mash-title');title&&title.classList.add('is-in');const talk=document.querySelector('.talk');talk&&talk.classList.add('is-in');if(!shortP){if(hold!==`essay`)finishTalkEnter();return}const text=shortP.dataset.full||shortP.textContent;const parts=text.split(/(?<=[。！？；!?])/).map(s=>s.trim()).filter(Boolean);if(!parts.length){shortP.textContent=text;if(hold!==`essay`)talkLater(()=>finishTalkEnter(),full?400:80);return}shortP.innerHTML=parts.map(s=>`<span class="talk-phrase">${K(s)}</span>`).join(``);let i=0;const tick=()=>{if(stopped||Y.talkEnterDone===key)return;const spans=shortP.querySelectorAll('.talk-phrase');if(i>=spans.length){if(hold!==`essay`)talkLater(()=>finishTalkEnter(),full?360:60);return}spans[i].classList.add('is-in');if(i===0){const dock=document.querySelector('.result-screen .share-block');dock&&dock.classList.add('is-in');const chem=document.querySelector('.chem-list');chem&&chem.classList.add('is-in');const fine=document.querySelector('.result-screen .sheet-fine');fine&&fine.classList.add('is-in')}i+=1;if(hold===`essay`&&i>=Math.min(2,parts.length)){stopped=!0;return}talkLater(tick,phraseBeat)};tick()}),essayAt);talkLater(safe(()=>{if(hold===`cards`||hold===`radar`||hold===`essay`)return;const dock=document.querySelector('.result-screen .share-block');dock&&dock.classList.add('is-in')}),dockAt)}
+function Q(e){Qn&&(Qn.textContent=e,Qn.classList.add(`show`),window.clearTimeout(nr),nr=window.setTimeout(()=>Qn.classList.remove(`show`),1600))}function or(){(location.hash||location.search)&&history.pushState(null,``,location.pathname)}function sr(){if(tr||Y.view!==`pull`||Y.drawn[Y.index])return;let t=x[Y.index],n=te(e,t.key);Y.drawn[Y.index]=n,er(n.id),tr=!0;let r=X,i=document.querySelector(`.flip`),a=i?.querySelector(`.flip-front`);if(!i||!a){tr=!1;return}a.innerHTML=`<button type="button" class="front-hit" data-action="detail" data-id="${K(n.id)}" aria-label="看${K(n.name)}的释义">${Cn(n)}</button>`,i.classList.add(`rarity-${n.rarity}`,`is-charging`);let o=i.querySelector(`[data-action='open']`);o&&(o.disabled=!0),De(n.rarity);window.setTimeout(()=>{r===X&&(i.classList.remove(`is-charging`),i.classList.add(`is-flipped`,`is-burst`))},J?0:Jn[n.rarity]||0),window.setTimeout(()=>{if(r!==X)return;Oe(n.rarity);let e=document.getElementById(`reveal-panel`);e&&(e.innerHTML=Dn(n,Y.index===x.length-1),e.className=`reveal-panel tone-${n.rarity}`),tr=!1,e?.querySelector(`[data-action='keep']`)?.focus({preventScroll:!0})},J?20:Yn[n.rarity]||800)}function cr(){lastSharePoster=null,Y.view=`pack`,Y.pack=`mix`,Y.packCard=null,Y.sheet=null,Y.fromPack=!1,Y.booster={phase:`sealed`,cards:[],index:0,tutorial:de(Y.task.mix),tutorialNo:Y.task.mix+1,revealDone:!1,askSkip:!1},or(),Z()}function preambleLines(card) {
+  const count = { SSR: 2, UR: 3, LR: 4 }[card?.rarity] || 0;
+  if (!count) return [];
+  const sentences = text => (String(text || '').match(/[^。！？!?\n]+[。！？!?]+[”’」』）)]*|[^。！？!?\n]+$/g) || [])
+    .map(line => line.trim()).filter(Boolean).map(line => /[。！？!?][”’」』）)]*$/.test(line) ? line : `${line}。`);
+  const expanded = typeof highStarNotesV40 === 'function' ? highStarNotesV40(card) : [];
+  const sources = [card.note, card.observe, ...expanded, card.stage, card.blurb,
+    typeof cardEssays === 'undefined' ? '' : cardEssays[card.id]].map(sentences);
+  const ordered = [...sources.map(lines => lines[0]), ...sources.flatMap(lines => lines.slice(1))].filter(Boolean);
+  if (card.tags?.length) ordered.push(`${card.name}的排演关键词是${card.tags.map(tag => `「${tag}」`).join('、')}。`);
+  return [...new Set(ordered)].slice(0, count);
+}
+
+function revealProfileV40(rarity, reduced = false) {
+  const level = { SSR: 1, UR: 2, LR: 3 }[rarity] || 0;
+  return { level, lines: level ? level + 1 : 0, waves: reduced ? 0 : level,
+    shake: !reduced && level > 0, charge: reduced ? 0 : ({ C: 0, UC: 40, R: 80, SR: 180 }[rarity] || 240) };
+}
+
+var revealTimersV40 = new Set(), revealCleanupV40 = null;
+function revealLinesMarkupV40(card,shown=false){
+  return preambleLines(card).map((line,i)=>`<p class="pre-line"${shown?'':' hidden'}><span class="reveal-line-label">${['这一张','看点','细读','再看一层'][i]}</span>${K(line)}</p>`).join('');
+}
+function restoreRevealIntroV40(){
+  const booster=Y.booster,card=booster?.cards?.[booster.index];
+  if(Y.view!=='pack'||booster?.phase!=='card'||!booster.revealDone||!card)return;
+  const host=document.querySelector('.pack-preamble'),zone=document.querySelector('.pack-zone');
+  if(!host||!zone)return;
+  host.className='pack-preamble reveal-intro-v40';
+  host.hidden=!preambleLines(card).length;
+  host.innerHTML=revealLinesMarkupV40(card,true);
+  zone.insertAdjacentElement('afterend',host);
+}
+function revealClearV40() {
+  revealTimersV40.forEach(id => window.clearTimeout(id));
+  revealTimersV40.clear();
+  if (revealCleanupV40) revealCleanupV40();
+  revealCleanupV40 = null;
+}
+
+function $() {
+  revealClearV40();
+  const booster = Y.booster, card = booster?.cards?.[booster.index];
+  if (!card || booster.phase !== 'card' || booster.revealDone) return;
+  const run = X, index = booster.index;
+  const zone = document.querySelector('.pack-zone'), flip = zone?.querySelector('.flip');
+  const host = document.querySelector('.pack-preamble');
+  if (!zone || !flip) return;
+  const reduced = J || window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const profile = revealProfileV40(card.rarity, reduced), lines = preambleLines(card);
+  const skip = !!booster.skipPreamble;
+  booster.skipPreamble = false;
+  const current = () => run === X && Y.booster === booster && booster.phase === 'card' && booster.index === index;
+  const later = (fn, delay) => {
+    const id = window.setTimeout(() => {
+      revealTimersV40.delete(id);
+      if (current()) fn();
+    }, delay);
+    revealTimersV40.add(id);
+  };
+  let paper = null, effects = null;
+  revealCleanupV40 = () => {
+    paper?.remove(); effects?.remove();
+    flip.classList.remove('is-reveal-climax', 'is-charging');
+    zone.classList.remove('is-preamble', 'is-waiting', `wait-${card.rarity}`);
+  };
+  zone.classList.add('reveal-zone-v40');
+  flip.classList.add('reveal-v40', `rarity-${card.rarity}`);
+  flip.style.setProperty('--reveal-strength', String(profile.level || 1));
+  if (host) {
+    host.className = 'pack-preamble reveal-intro-v40';
+    host.removeAttribute('style');
+    host.removeAttribute('data-rows');
+    host.setAttribute('aria-label', `${card.name}，开场小注`);
+    host.setAttribute('aria-live', 'polite');
+    host.innerHTML = revealLinesMarkupV40(card);
+    zone.insertAdjacentElement('afterend', host);
+    host.hidden = !lines.length;
+  }
+  const showLine = i => {
+    const line = host?.querySelectorAll('.pre-line')[i];
+    if (line) { line.hidden = false; line.classList.add('is-on'); }
+  };
+  const showAllLines = () => lines.forEach((_, i) => showLine(i));
+  const finish = () => {
+    booster.revealDone = true;
+    if (!reduced && !skip) Oe(card.rarity);
+    if (booster.index >= booster.cards.length - 1) later(() => {
+      if (!window.__dgNoSpread) enterSpread();
+    }, reduced ? 120 : 1000);
+  };
+  const showCard = () => {
+    flip.classList.remove('is-charging', 'no-anim');
+    flip.classList.add('is-flipped', 'is-type-rarity', 'is-type-name');
+  };
+  if (reduced || skip) {
+    flip.classList.add('no-anim');
+    showCard();
+    flip.classList.add('no-anim');
+    showAllLines();
+    finish();
+    return;
+  }
+  De(card.rarity);
+  if (!profile.level || !lines.length) {
+    flip.classList.add('is-charging');
+    later(showCard, profile.charge);
+    later(finish, profile.charge + 460);
+    return;
+  }
+  flip.classList.add('is-flipped', 'no-anim');
+  paper = document.createElement('div');
+  paper.className = 'reveal-paper-v40';
+  paper.setAttribute('aria-hidden', 'true');
+  paper.innerHTML = '<i class="reveal-sheet-left"></i><i class="reveal-sheet-right"></i>';
+  flip.appendChild(paper);
+  const climax = () => {
+    showCard();
+    effects = document.createElement('div');
+    effects.className = 'reveal-effects-v40';
+    effects.setAttribute('aria-hidden', 'true');
+    const cracks = ['M150 211 133 174 147 149 118 107 126 67 103 0', 'M150 211 183 185 192 142 226 117 239 70 300 42', 'M150 211 115 232 105 270 62 289 49 338 0 367', 'M150 211 178 250 167 283 198 325 186 366 210 423', 'M150 211 207 216 232 247 266 252 300 283'];
+    effects.innerHTML = `<i class="reveal-flare-v40"></i><svg class="reveal-cracks-v40" viewBox="0 0 300 423" preserveAspectRatio="none">${cracks.slice(0, profile.level + 2).map((path, i) => `<path d="${path}" pathLength="1" style="--crack-delay:${i * 35}ms"/>`).join('')}</svg>${Array.from({ length: profile.waves }, (_, i) => `<i class="reveal-wave-v40" style="--wave-delay:${i * 180}ms"></i>`).join('')}`;
+    flip.appendChild(effects);
+    flip.classList.add('is-reveal-climax');
+    paper.classList.add('is-torn');
+    later(() => { paper.remove(); flip.classList.remove('is-reveal-climax'); }, 780);
+    later(() => effects.remove(), 1550);
+    later(finish, 900);
+  };
+  let step = 0;
+  const nextLine = () => {
+    showLine(step);
+    paper.style.setProperty('--reveal-cut', `${Math.round((step + 1) / (lines.length + 1) * 76)}%`);
+    step += 1;
+    if (window.__dgHoldAfter != null && step >= window.__dgHoldAfter) return;
+    const readTime = Math.min(2400, Math.max(1500, lines[step - 1].length * 36));
+    later(step < lines.length ? nextLine : climax, readTime);
+  };
+  later(nextLine, 100);
+}
+
+var talkTimers=[],talkKey=``;function talkClear(){talkTimers.forEach(id=>clearTimeout(id));talkTimers=[]}function talkLater(fn,ms){const id=window.setTimeout(fn,ms);talkTimers.push(id);return id}function hasTalkSeen(key){try{return JSON.parse(sessionStorage.getItem(`diamasha.talkSeen`)||`[]`).includes(key)}catch{return Y.talkEnterDone===key}}function markTalkSeen(key){Y.talkEnterDone=key;try{const arr=JSON.parse(sessionStorage.getItem(`diamasha.talkSeen`)||`[]`);if(!arr.includes(key)){arr.push(key);sessionStorage.setItem(`diamasha.talkSeen`,JSON.stringify(arr.slice(-24)))}}catch{}}function finishTalkEnter(){finishProductionV40();}
+function hexSvg(){return document.querySelector('.result-screen .hex-radar')}function hexBuildStart(full){const svg=hexSvg();if(!svg)return;paintRadar(null,1);svg.style.setProperty('--hex-dur',full?'980ms':'300ms');svg.classList.remove('is-star');svg.classList.add('is-building');svg.querySelectorAll('.is-lit').forEach(el=>el.classList.remove('is-lit'));svg.querySelectorAll('.hex-dot').forEach(d=>{d.style.opacity=''});document.querySelectorAll('.result-screen .hex-corner').forEach(c=>c.classList.remove('is-lit'));document.querySelectorAll('.result-screen .hex-corner .hex-value').forEach(el=>{el.textContent=''})}function hexLight(i){const svg=hexSvg();if(!svg)return;svg.querySelectorAll(`[data-axis="${i}"]`).forEach(el=>el.classList.add('is-lit'));const corner=document.querySelectorAll('.result-screen .hex-corner')[i];if(!corner)return;corner.classList.add('is-lit');const val=corner.querySelector('.hex-value');if(!val)return;const m=Number(val.dataset.final)||0,d=parseFloat(svg.style.getPropertyValue('--hex-dur'))||980,t0=performance.now();const tick=now=>{if(!svg.isConnected)return;const k=Math.min(1,(now-t0)/d),ease=1-Math.pow(1-k,3);val.textContent=String(Math.round(m*ease));if(k<1&&svg.classList.contains('is-building'))requestAnimationFrame(tick);else val.textContent=String(m)};requestAnimationFrame(tick)}function hexStar(){const svg=hexSvg();svg&&svg.classList.add('is-star')}function hexFinish(){const svg=hexSvg();if(!svg)return;svg.querySelectorAll('[data-axis]').forEach(el=>el.classList.add('is-lit'));document.querySelectorAll('.result-screen .hex-corner').forEach(c=>c.classList.add('is-lit'));svg.classList.add('is-star');svg.classList.remove('is-building')}function paintRadar(prog,all){const area=document.querySelector('.hex-area');if(!area)return;const raw=area.getAttribute('data-base-points')||area.dataset.basePoints||``;if(!raw.trim())return;area.dataset.basePoints=raw.trim();const cx=170,cy=128;const base=raw.trim().split(/\s+/).map(pair=>pair.split(`,`).map(Number));const n=base.length;const src=all==null?(prog||window.__dgRadarProg||Array(n).fill(0)):Array(n).fill(all);const t=i=>Math.max(0,Math.min(1,Number(src[i])||0));const pts=base.map((pt,i)=>{const k=t(i);return [cx+(pt[0]-cx)*k,cy+(pt[1]-cy)*k]});if(typeof roundedPolyPath===`function`)area.setAttribute(`d`,'M'+pts.map(p=>p.join(',')).join(' L')+' Z');else area.setAttribute(`points`,pts.map(pt=>pt.join(`,`)).join(` `));document.querySelectorAll(`.hex-dot`).forEach((dot,i)=>{const k=t(i),x=Number(dot.dataset.baseCx),y=Number(dot.dataset.baseCy);dot.setAttribute(`cx`,String(cx+(x-cx)*k));dot.setAttribute(`cy`,String(cy+(y-cy)*k));dot.style.opacity=k<0.08?`0`:`1`});document.querySelectorAll(`.hex-corner .hex-value`).forEach((el,i)=>{const m=Number(el.dataset.final)||0,k=t(i);el.textContent=k<=0?``:String(Math.round(m*k))});window.__dgRadarProg=base.map((_,i)=>t(i))}function applyRadar(p){const area=document.querySelector('.hex-area');const raw=(area&&(area.getAttribute('data-base-points')||area.dataset.basePoints))||``;const n=raw.trim().split(/\s+/).filter(Boolean).length;paintRadar(Array(n).fill(p))}function setRadarAxis(i,p){const area=document.querySelector('.hex-area');const raw=(area&&(area.getAttribute('data-base-points')||area.dataset.basePoints))||``;const n=raw.trim().split(/\s+/).filter(Boolean).length;const prog=(window.__dgRadarProg||Array(n).fill(0)).slice();prog[i]=p;paintRadar(prog)}function queueTalkEnter(){enterProductionV40();}
 window.__dgDebug={open(cards,index=0,opts={}){if(!Array.isArray(cards)||!cards.length)return;Y.view=`pack`;Y.pack=opts.pack||`mix`;Y.packName=opts.packName||``;Y.packCard=null;Y.sheet=null;Y.fromPack=!1;Y.booster={phase:`card`,cards,index:Math.max(0,Math.min(index,cards.length-1)),tutorial:!1,tutorialNo:0,revealDone:!1,askSkip:!1,skipPreamble:!!opts.skipPreamble};if(opts.holdAfter!=null)window.__dgHoldAfter=opts.holdAfter;else delete window.__dgHoldAfter;Z();$()},openResult(cards,opts={}){if(!Array.isArray(cards)||!cards.length)return;Y.drawn=cards.slice();Y.view=`result`;Y.fromShare=!!opts.fromShare;Y.talkOpen=!1;Y.sheet=null;Y.fromPack=!0;Y.talkEnterDone=null;Y.talkEnterStarted=null;try{if(opts.forgetSeen){const key=w(Y.drawn);const arr=JSON.parse(sessionStorage.getItem(`diamasha.talkSeen`)||`[]`).filter(k=>k!==key);sessionStorage.setItem(`diamasha.talkSeen`,JSON.stringify(arr))}}catch{}if(opts.holdAt!=null)window.__dgTalkHold=opts.holdAt;else delete window.__dgTalkHold;window.__dgTalkForceFull=!!opts.forceFull;Z()}};
 var lr=!1;function ur(){if(!Y.booster||Y.booster.phase!==`sealed`)return;if(Y.pack&&Y.pack!==`mix`){if(!Be(Y.task)){Y.sheet={kind:`tasks`},Z();return}let t=vr(se(activeCards,Y.pack),6);t.forEach(card=>er(card.id)),O(Y.task),Y.booster.cards=t,Y.booster.phase=`card`,Y.booster.index=0,Y.booster.revealDone=!1,Y.booster.askSkip=!1,checkMilestones(),Z(),$();return}let t=drawMixPack(activeCards);t.forEach(card=>er(card.id)),Le(Y.task),O(Y.task),Y.fromShare=!1,Y.keptShare=null,Y.booster.cards=t,Y.booster.phase=`card`,Y.booster.index=0,Y.booster.revealDone=!1,Y.booster.askSkip=!1,checkMilestones(),Z(),$()}function dr(){if(!Y.booster||Y.booster.phase!==`sealed`||lr)return;let e=document.querySelector(`.pack-deck`);e&&!J?(lr=!0,e.classList.add(`is-dealing`),window.setTimeout(()=>{lr=!1,ur()},380)):ur()}function fr(e){if(pe(e))return e;let t=x.map(t=>(e||[]).find(e=>e&&e.dimension===t.key)),n=new Set(t.filter(Boolean).map(e=>e.id));return t.every(Boolean)&&n.size===t.length?t:null}function enterSpread(){let e=Y.booster;if(!e||e.phase===`spread`)return;if(!e.cards||!e.cards.length){pr();return}e.phase=`spread`,e.revealDone=!0,e.askSkip=!1,e.showShare=!1;if(!(Y.pack&&Y.pack!==`mix`)){let t=fr(e.cards||[]);t&&(Y.drawn=t)}Z()}function pr(){if(Y.pack&&Y.pack!==`mix`){Y.bundle=Y.booster?.cards||[],Y.booster=null,Y.view=`bundle`,Y.sheet=null,Z();return}let e=fr(Y.booster?.cards||[]);Y.booster=null,e?(Y.drawn=e,Y.index=x.length-1,Y.fromPack=!0,xr()):(Y.view=`home`,Z())}function mr(){let e=Y.booster;!e||e.askSkip||e.phase!==`card`||e.index<=0||(--e.index,e.revealDone=!1,e.askSkip=!1,e.skipPreamble=!1,Z(),$())}function hr(e){let t=Y.booster;if(!t||t.askSkip)return;if(t.phase===`sealed`){dr();return}if(t.phase!==`card`)return;let n=t.cards[t.index];n&&ue(n.rarity)&&!t.revealDone&&!e?Q(`这张要看完，或点下一张`):t.index>=t.cards.length-1?enterSpread():(t.index+=1,t.revealDone=!1,t.askSkip=!1,t.skipPreamble=!1,Z(),$())}function gr(){let e=Y.booster;if(!e||e.phase!==`card`)return;let t=e.cards[e.index];if(t&&ue(t.rarity)&&!e.revealDone){e.askSkip=!0,Z();return}let n=e.index+1;for(;n<e.cards.length&&!ue(e.cards[n].rarity);)n+=1;n>=e.cards.length?enterSpread():(e.index=n,e.revealDone=!1,e.askSkip=!1,e.skipPreamble=!1,Z(),$())}function _r(){enterSpread()}function vr(e,t){let n=[],r=new Set,i=0;for(;n.length<t&&i<t*40;){i+=1;let t=ce(e);t&&!r.has(t.id)&&(r.add(t.id),n.push(t))}if(n.length<t)for(let i of e){if(n.length>=t)break;r.has(i.id)||(r.add(i.id),n.push(i))}return n}function yr(t){if(!(Y.task.charges>=1)){Y.sheet={kind:`tasks`},Z();return}Y.view=`pack`,Y.pack=t,Y.packCard=null,Y.sheet=null,Y.fromPack=!1,Y.bundle=null,Y.booster={phase:`sealed`,cards:[],index:0,tutorial:!1,tutorialNo:0,revealDone:!1,askSkip:!1},or(),Z()}function br(e){return ze(Y.task,e,Y.owned.length)?(O(Y.task),Q(`领到 1 次单维包`),!0):!1}function xr(){lastSharePoster=null;let e=w(Y.drawn);!Y.task.lineup&&!Y.task.claimed.lineup&&(Re(Y.task),O(Y.task),Q(`演后谈读完了，去任务里领一次单维包`));try{sessionStorage.setItem(`diamasha.owner`,e)}catch{}Y.view=`result`,Y.fromShare=!1,Y.talkOpen=!1,Y.sheet=null,history.pushState({lineup:e},``,`#m=${e}`),Z()}async function Sr(){let e=rr(w(Y.drawn));try{await navigator.clipboard.writeText(e),Cr()}catch{let t=document.createElement(`textarea`);t.value=e,t.setAttribute(`readonly`,``),t.style.cssText=`position:fixed;left:-9999px;top:0`,document.body.append(t),t.select();let n=!1;try{n=document.execCommand(`copy`)}catch{n=!1}t.remove();n?Cr():Q(`请长按链接自行复制`)}}
 async function shareOrCopy(){let e=rr(w(Y.drawn));if(typeof navigator.share==`function`){try{await navigator.share({title:`DiaGacha · 咫牌`,text:h(Y.drawn),url:e});return}catch(t){if(t?.name===`AbortError`)return}}await Sr()}function Cr(){Ie(Y.task),O(Y.task),br(`copy`)||Q(`链接已复制`)}function wr(){let t=ne(location.hash,location.search);if(t.kind===`none`)return Y.view===`result`||Y.view===`badlink`?(Y.view=`home`,Y.drawn=[],Y.sheet=null,Y.fromShare=!1,!0):!1;if(t.kind===`bad`)return Y.view=`badlink`,Y.sheet=null,!0;let n=re(e,t.ids);if(!n)return Y.view=`badlink`,Y.sheet=null,!0;let r=w(n);return Y.view===`result`&&[5,6].includes(Y.drawn.length)&&w(Y.drawn)===r?!1:(Y.drawn=n,Y.view=`result`,Y.sheet=null,Y.index=x.length-1,Y.fromShare=ir(r),!0)}function Tr(e){let t=e.target.closest(`[data-action]`);if(!t||!Zn.contains(t))return;let n=t.dataset.action;if(n===`close-sheet`){if(t.classList.contains(`overlay`)&&e.target!==t)return;Y.sheet=null,Z({preserveScroll:!0}),Y.view===`pack`&&Y.booster?.phase===`card`&&!Y.booster.revealDone&&$()}else if(n===`mute`){let e=we();document.querySelectorAll(`[data-action='mute']`).forEach(t=>{t.setAttribute(`aria-pressed`,e?`true`:`false`),t.setAttribute(`aria-label`,e?`打开声音`:`关闭声音`),t.innerHTML=dn(e)})}else if(n===`tag`){let e=t.dataset.id,n=t.dataset.tag;Y.sheet=Y.sheet?.kind===`card`&&Y.sheet.id===e&&Y.sheet.tag===n?{kind:`card`,id:e}:{kind:`card`,id:e,tag:n},Z({preserveScroll:!0});revealTagTip()}else if(n===`help`)Y.sheet={kind:`help`},Z({preserveScroll:!0});else if(n===`tasks`)Y.sheet={kind:`tasks`},Z({preserveScroll:!0});else if(n===`packs`)Y.sheet={kind:`packs`},Z({preserveScroll:!0});else if(n===`did-share`)Fe(Y.task),O(Y.task),br(`share`)||Q(Y.task.claimed.share?`这个任务领过了`:`还不能领`),Z({preserveScroll:!0});else if(n===`did-copy`)Ie(Y.task),O(Y.task),br(`copy`)||Q(Y.task.claimed.copy?`这个任务领过了`:`还不能领`),Z({preserveScroll:!0});else if(n===`claim`)br(t.dataset.id)||Q(`还不能领`),Z({preserveScroll:!0});else if(n===`gacha`)cr();else if(n===`detail`){if(Y.view===`pack`&&Y.booster?.phase===`card`&&!Y.booster.revealDone){gr();return}Y.sheet={kind:`card`,id:t.dataset.id,conceal:Y.view===`album`&&!(Y.owned||[]).includes(t.dataset.id)},Z({preserveScroll:!0});}else if(n===`open`)Y.view===`pack`?dr():sr();else if(n===`open-booster`)dr();else if(n===`advance`)hr(!1);else if(n===`prev-card`)mr();else if(n===`next-card`)hr(!0);else if(n===`skip-anim`)gr();else if(n===`skip-all`)_r();else if(n===`skip-cancel`)Y.booster&&(Y.booster.askSkip=!1,Y.booster.skipPreamble=!0),Z(),$();else if(n===`pack`){let e=t.dataset.pack||`mix`;if(e!==`mix`){yr(e);return}cr()}else if(n===`repack`){if(Y.pack&&Y.pack!==`mix`)yr(Y.pack);else cr()}else if(n===`album`)Y.view=`album`,Y.sheet=null,Z();else if(n===`bag`)Y.view=`bag`,Y.sheet=null,Y.albumDim=`全部`,Y.albumSort=`rarity`,Z();else if(n===`filter`)Y.albumDim=t.dataset.dim||`全部`,Z({preserveScroll:!0});else if(n===`sort`)Y.albumSort=t.dataset.sort||`rarity`,Z({preserveScroll:!0});else if(n===`keep`){if(!Y.drawn[Y.index])return;if(Y.index<x.length-1){Y.index+=1,Z();return}xr()}else if(n===`start`||n===`again`){Y.index=0,Y.drawn=[],Y.fromShare=!1,Y.talkOpen=!1,cr();}else if(n===`home`||n===`leave`)Y.view=`home`,Y.drawn=[],Y.index=0,Y.sheet=null,Y.fromShare=!1,Y.fromPack=!1,Y.booster=null,or(),Z();else if(n===`copy`)Sr();else if(n===`poster`)sharePoster(t,`long`);
     else if(n===`poster-short`)sharePoster(t,`short`);
     else if(n===`save-poster`)savePoster(t);
+    else if(n===`production-cue`)replayProductionCueV40(t.dataset.cueId);
     else if(n===`expand-talk`){Y.talkOpen=!Y.talkOpen;Z({preserveScroll:!0});}
     else if(n===`try-own`){Y.keptShare=Y.drawn.slice();Y.view=`pack`;Y.pack=`mix`;Y.packCard=null;Y.sheet=null;Y.fromPack=!1;Y.talkOpen=!1;Y.booster={phase:`sealed`,cards:[],index:0,tutorial:de(Y.task.mix),tutorialNo:Y.task.mix+1,revealDone:!1,askSkip:!1};Z();}
     else if(n===`daily-claim`){claimDaily()?Q(`今日赠礼已领：下次综合包机会更好，并加 1 次单维包`):Q(`今日已领`);Z({preserveScroll:!0});}
     else if(n===`milestone-pick`){let loop=currentLoop();loop.pendingDim=t.dataset.dim||``;loop.pendingMilestone=0;saveLoop(loop);Y.sheet=null;Q(`下次综合包的这一维，必出压轴以上`);Z({preserveScroll:!0});}
-    else if(n===`milestone-skip`){let loop=currentLoop();loop.pendingMilestone=0;saveLoop(loop);Y.sheet=null;Z({preserveScroll:!0});}else if(n===`share-cast`){if(Y.booster)Y.booster.showShare=!0;if(!(Y.pack&&Y.pack!==`mix`)){let e=fr(Y.booster?.cards||[]);e&&(Y.drawn=e)}Z({preserveScroll:!0});document.querySelector(`.spread-share`)?.scrollIntoView({block:`nearest`})}else if(n===`view-talk`||n===`view-bundle`)pr();else if(n===`native-share`)shareOrCopy()}function Er(){let t=he(e);t.length?(console.error(t),Y.view=`badpool`,Y.problems=t,Z()):(wr(),Z(),window.addEventListener(`hashchange`,()=>{wr()&&Z()}),window.addEventListener(`popstate`,()=>{wr()&&Z()}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&Y.sheet&&(Y.sheet=null,Z({preserveScroll:!0}))}))}Zn.addEventListener(`click`,Tr),Er()})();</script>
+    else if(n===`milestone-skip`){let loop=currentLoop();loop.pendingMilestone=0;saveLoop(loop);Y.sheet=null;Z({preserveScroll:!0});}else if(n===`share-cast`){if(Y.booster)Y.booster.showShare=!0;if(!(Y.pack&&Y.pack!==`mix`)){let e=fr(Y.booster?.cards||[]);e&&(Y.drawn=e)}Z({preserveScroll:!0});document.querySelector(`.spread-share`)?.scrollIntoView({block:`nearest`})}else if(n===`view-talk`||n===`view-bundle`)pr();else if(n===`native-share`)shareOrCopy()}function Er(){let t=he(e);t.length?(console.error(t),Y.view=`badpool`,Y.problems=t,Z()):(wr(),Z(),window.addEventListener(`hashchange`,()=>{wr()&&Z()}),window.addEventListener(`popstate`,()=>{wr()&&Z()}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&Y.sheet&&(Y.sheet=null,Z({preserveScroll:!0}))}))}// V40_RUNTIME_START
+// Source metadata copied from docs/SCORING_ANCHORS.json; no new web verification is implied.
+const statSourcesV40 = {
+  "S01": {
+    "title": "中央戏剧学院：2026 年《雷雨》创排、文本身体空间与蒙太奇",
+    "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/25324.html"
+  },
+  "S02": {
+    "title": "北京人民艺术剧院：老舍与《茶馆》创演",
+    "url": "https://www.bjry.com/actor/html/2015/06/2015060515.html"
+  },
+  "S03": {
+    "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
+    "url": "https://www.rsc.org.uk/hamlet/"
+  },
+  "S04": {
+    "title": "Royal Shakespeare Company：Hamlet 人物关系",
+    "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+  },
+  "S05": {
+    "title": "The Pulitzer Prizes：1949 年戏剧奖《推销员之死》",
+    "url": "https://www.pulitzer.org/winners/arthur-miller"
+  },
+  "S07": {
+    "title": "RADA：MA Theatre Lab Programme Specification（2024）",
+    "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
+  },
+  "S08": {
+    "title": "Shakespeare’s Globe：Globe Theatre 空间、观众与历史",
+    "url": "https://www.shakespearesglobe.com/discover/about-us/globe-theatre/"
+  },
+  "S11": {
+    "title": "Royal Shakespeare Company：Hamlet 的艾尔西诺城堡与舞台环境",
+    "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/staging/setting"
+  },
+  "S12": {
+    "title": "国家大剧院 2019 秋季演出季手册：《茶馆》人物与裕泰茶馆",
+    "url": "https://www.chncpa.org/ycgp_220/jmcxz/201607/P020190902597561079651.pdf"
+  },
+  "S13": {
+    "title": "中央戏剧学院：2024 年《雷雨》教学演出、周朴园与周公馆剧情",
+    "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/22315.html"
+  },
+  "S14": {
+    "title": "MIT Internet Classics Archive：Sophocles《Oedipus the King》原作英译",
+    "url": "https://classics.mit.edu/Sophocles/oedipus.html"
+  },
+  "S15": {
+    "title": "UCLA：Waiting for Godot 的教学、循环结构与身体幽默",
+    "url": "https://newsroom.ucla.edu/stories/ucla-students-benefit-from-professional-theater-production-of-becketts-waiting-for-godot"
+  },
+  "S16": {
+    "title": "英国国家剧院档案：1987年《Waiting for Godot》制作与角色",
+    "url": "https://catalogue.nationaltheatre.org.uk/calmview/Record.aspx?id=937&src=CalmView.Performance"
+  },
+  "S17": {
+    "title": "MIT OpenCourseWare：Script Analysis，《The Cherry Orchard》结构讨论",
+    "url": "https://ocw.mit.edu/courses/21m-710-script-analysis-fall-2005/pages/calendar/"
+  },
+  "S18": {
+    "title": "Royal Shakespeare Company：The Cherry Orchard 剧情与洛巴辛",
+    "url": "https://www.rsc.org.uk/the-cherry-orchard"
+  }
+};
+
+// Explanations use the current edited card text and the documented six-axis rubric.
+// Historical scores are not reverse-engineered into invented rubric subscores.
+const statAxesV40 = {
+  '剧目': { atk: ['冲突强度', '目标或处境的牵制', '选择产生的后果', '场面推进或有意义的延宕'], def: ['叙事完整', '结构自身的组织逻辑', '行动、人物与主题的照应', '结尾或开放结构对前文的回应'] },
+  '风格体系': { atk: ['风格冲击', '改变观看方式', '重组身体、语言或声音', '产生可说明的新解释'], def: ['方法成规', '原则清楚', '能转化为排练行动', '可重复实践且适用边界明确'] },
+  '导演手法': { atk: ['调度新意', '改变关系呈现', '重组时间、空间或注意力', '产生与主题相关的结果'], def: ['手法成法', '操作条件清楚', '效果可被观众辨认', '能够稳定复现'] },
+  '主演': { atk: ['人物行动', '欲望可理解', '选择改变局面', '承担行动后果'], def: ['身份辨识', '处境与声音明确', '内在矛盾可以表演', '变化仍符合人物逻辑'] },
+  '配角': { atk: ['对戏力度', '有独立意图', '施压、阻挡或支持对方', '揭示或反衬主题'], def: ['关系辨识', '关系位置清楚', '关系产生可见后果', '功能独特、不能任意替换'] },
+  '环境': { atk: ['空间错位', '改变出入与距离', '改变谁能看见或听见谁', '新条件产生关系变化'], def: ['空间承载', '支持走位、人数与进出', '视听和物件条件明确', '承托多种行动'] },
+};
+
+// [A one-line reading of the contrast, ATK reading, DEF reading]. These explain
+// the card's function, not a new score or an institution's evaluation.
+const statReadingsV40 = {
+  'yplay-krapp': [
+    '冲突朝向自己，结构却很集中：旧录音与当下回听互相照见。',
+    '克拉普回听并否认年轻自己的声音，推动主要来自听见、反驳与再次倒带，冲突集中在同一个人的过去和现在之间。',
+    '旧录音、当下的聆听和新留下的声音都围绕录音装置展开；反复回放让不同时段互相回应，结构线索清楚。',
+  ],
+  'yplay-jiang': [
+    '赴不赴宴是一个小而集中的选择，原则、处境与旧事却都围着它展开。',
+    '三位教授围绕是否赴宴相互牵制，推进主要发生在对白、犹豫和改口中；冲突范围集中，不靠一连串外部事件扩大。',
+    '面子、原则、现实处境与旧事不断回到同一个赴宴决定；一顿饭把不同立场拢在一起，使争论前后有照应。',
+  ],
+  'play-oedipus': [
+    '追查越主动，真相越逼近追查者；冲突与结构因此一起收紧。',
+    '国王为救城追凶，每次追问都使新的证词出现，直到必须承担自己正是被追查者的后果。',
+    '救城、追查、证词与身份发现最终汇到同一人身上；开场的目标与结尾的自我认识严密照应。',
+  ],
+  'play-hamlet': [
+    '试探与复仇互相推动，犹疑本身也不断产生后果。',
+    '鬼魂指控使王子必须查证，戏中戏把暗中的猜疑转为可见的试探，复仇又不断卷入新的伤亡。',
+    '父王之死、宫廷权力、试探与复仇彼此牵连；人物的迟疑和选择持续回应最初的指控。',
+  ],
+  'play-thunder': [
+    '隐瞒的旧事同时压住家庭与阶级关系，揭露一处就会牵动其他处。',
+    '周、鲁两家的父权、阶级和隐瞒血缘互相牵制，人物的感情选择会改变不止一段关系。',
+    '旧事与眼前关系在同一家庭空间相撞，揭露并非孤立消息，而是把几段感情和悲剧后果联结起来。',
+  ],
+  'play-teahouse': [
+    '不是靠一个英雄完成任务，而是让同一茶馆承受不断变化的时代。',
+    '人物一拨拨到来和离去，生计与时代压力持续改变日常关系；王利发越想维持茶馆，越显出维持的困难。',
+    '同一茶馆贯穿不同年代，语言、群像和生计反复照应。群像与时间跨度是组织方式，不因缺少单一主线扣分。',
+  ],
+  'play-godot': [
+    '等候并没有取消行动：重复、来客与未能离开组成这部戏的压力和结构。',
+    '两人不断维持、怀疑又返回等待，身体动作与来客使每一次停留都发生新的牵制；有意义的延宕也计入推动。',
+    '重复与差异组织两幕时间，想离开却仍留下回应了整场等待；开放结局不等于结构未完成。',
+  ],
+  'play-cherry': [
+    '出售已经逼近，生活却仍按旧节奏继续；这种错位同时支撑冲突和群像结构。',
+    '债务与拍卖给出实际期限，旧主人不愿改变生活，庄园易主把迟延变成不可回避的后果。',
+    '回忆、日常闲谈与出售消息围绕同一庄园交织，易主回应了前文的迟迟不决；不因群像或延宕而视为松散。',
+  ],
+  'play-macbeth': [
+    '选择的后果持续升级，夺位之后的自保又制造下一次危险。',
+    '听信预言、弑君夺位、继续杀人自保构成强烈的行动链，每次选择都缩小退路，直到反抗者逼近。',
+    '预言、权位与恐惧贯穿败亡过程，行动与心理后果相互照应。现有文案能说明组织线索，不能单独证明旧评为何恰为84。',
+  ],
+  'play-doll': [
+    '秘密借债推动事件，最后的谈话把事件转成对婚姻关系的重新认识。',
+    '救丈夫的借债行为与事情败露后的反应形成牵制，娜拉必须在维持家庭和离开之间作出有后果的选择。',
+    '借债秘密、婚姻的不平等与最后离开连成一条认识过程，结尾回应的是先前一直被遮住的关系。',
+  ],
+  'play-glass': [
+    '关系变化很细微，回忆与玻璃小兽却让这些变化留下清楚的痕迹。',
+    '一次来访和短暂靠近改变了期待，却没有改变各人的去路；推动集中在试探、失落与细小回应中。',
+    '汤姆的回忆框住那次会面，易碎的小兽与短暂亲近互相照应。结构依靠回忆与意象，不要求外部事件密集。',
+  ],
+  'play-sisters': [
+    '想走却走不了的日常形成持续压力，同一个远方愿望把群像联在一起。',
+    '回到莫斯科的愿望不断被爱情、工作和日常牵住，机会逐渐流失；等待与迟疑有后果，不能简单算作没有冲突。',
+    '人物不同的生活线都与回莫斯科的愿望相照应，驻军来去与日常延续组织时间。日常化、群像式的推进并不妨碍整体联系。',
+  ],
+  'xplay-faust': [
+    '赌约、追求与代价已经可见，但58／59的历史低分缺少逐项解释。',
+    '简介说明浮士德不断追求新经验，也让他人付出代价，已有明确的欲望和后果；不能仅凭现有资料推导出58这个低值。',
+    '从爱情到社会事业的跨度需要结合完整文本判断组织方式。现有卡面不足以证明59的具体由来，保留旧分并标记待复核。',
+  ],
+  'xplay-bald': [
+    '交流逐渐失效可形成强烈场面压力，回到开头则是它自己的结构规则。',
+    '日常闲谈逐渐失去交流作用，语言本身的崩解不断改变场面，推动力来自沟通失效而非传统事件冲突。',
+    '结尾回到开头提供了循环照应，不能因缺少线性情节断言结构不完整。65沿用历史初评，尚缺逐项文本复核。',
+  ],
+  'style-classic': [
+    '变化受规则约束，方法却格外清楚：低冲击与高成规衡量的是两件事。',
+    '三一律、合式与理性节制把激情放进稳定形式；这张卡侧重约束与集中，改变观看规则的幅度并非它的唯一目标。',
+    '时间、地点与行动的集中要求可以直接转成排练限制，例如让各路消息进入同一场景，人物必须当场回应。',
+  ],
+  'style-stan': [
+    '用目标和行动改变对戏，同时有一套可以持续训练的工作方法。',
+    '规定情境、任务和行动使演员重新决定怎样靠近、要求与退让，变化发生在具体的人物回应中。',
+    '体系把角色创造拆成可练习的任务和行动，能够反复检查是否可信；稳定性来自训练方法而不是一次灵感。',
+  ],
+  'style-cruel': [
+    '感官冲击鲜明，具体执行却需要重新安排身体、声音与空间。',
+    '声音、身体与空间不再从属于心理对白，它们直接作用于观看和聆听的习惯，改变观众接收戏剧的方式。',
+    '这是戏剧观念，不能仅凭“加大声响”稳定复现。每次排演仍须说明声音、身体和空间怎样共同产生意义。',
+  ],
+  'style-epic': [
+    '观看从跟随人物转向判断关系，叙述、歌曲和间离提供具体做法。',
+    '叙述与间离使人物决定被拿出来检验，观众能重新判断舞台上的社会关系，而不只跟随情节。',
+    '叙述、歌曲与演员距离能转成明确排练步骤；仍要让这些步骤检验人物行动，而非只增加解释文字。',
+  ],
+  'dir-wall': [
+    '它维持观看约定，未必制造突变；操作边界却很清楚。',
+    '演员通常不直接承认观众，注意力留在角色处境内。它主要稳定场内关系，本身不必大幅重组时间或空间。',
+    '演员向谁说话、是否寻求观众回应都有明确约定，日常动作可以反复排练。这里的墙是假想边界，不要求四面实墙。',
+  ],
+  'dir-prologue': [
+    '旁白主要建立条件，条件交代清楚后，行动仍要由人物完成。',
+    '交代时间、地点或期限能给场景压力，但若只补充前情，本身对人物关系的改变有限。',
+    '信息交代的时机与范围容易明确；例如只说门何时关闭，再让人物决定，可以稳定区分叙述与行动。',
+  ],
+  'dir-montage': [
+    '重新连接场面能产生新的关系，但连接仍须服从情绪或人物逻辑。',
+    '时间和场面被重新排列，原本分开的行动可以相互解释或冲突，观众对因果和情绪的理解随之变化。',
+    '段落怎样衔接、观众凭什么辨认时空需要明确安排；重复排练要保住连接逻辑，而不只追求切换速度。',
+  ],
+  'xdir-enter': [
+    '把观众变成需要回应的人，变化强，现场反应却不能完全预定。',
+    '观众一旦承担身份或行动，角色就必须面对新的真实回应，场内关系和观看位置同时改变。',
+    '参与边界需要事先说明，临时反应也要能被接纳；同一设计在不同观众面前不一定产生完全相同的效果。',
+  ],
+  'ydir-handkerchief': [
+    '小物件不自动制造大冲突，但它的摆放和易手能把关系变得可见。',
+    '钥匙、信或杯子是否改变归属与行动选择，决定它能推动多少情节；仅仅拿在手里还不足以产生关系变化。',
+    '摆放、交接和使用时机能逐项排练，观众也能追踪同一物件；连续性必须清楚，不能无故换到另一只手里。',
+  ],
+  'place-proscenium': [
+    '主要从正面观看，观看方向稳定；构图、遮挡和进出因此容易组织。',
+    '台口分隔舞台与观众席，正面观看是既定条件，本身对观演距离的重新组织较少。',
+    '画框提供明确的表演边界，关键人物从边缘到中央、其他人物的遮挡与出入都能据此安排。',
+  ],
+  'place-table': [
+    '候场区不是主要冲突场面，却能稳定连接上场、下场与等待。',
+    '作用集中在上场前后的相让、等候和交接，是否形成新的关系压力仍取决于人物为何必须在这里相遇。',
+    '上场者与刚下场者共享狭窄位置，出入与等待关系明确；卡片排演的侧身相让把这些条件变成可重复走位。',
+  ],
+  'place-parlor': [
+    '客厅的格局熟悉，门、信箱与钥匙却能持续承托秘密和关系。',
+    '家庭客厅并不天然造成强烈空间错位；压力更多来自谁掌握钥匙、谁可以进出，以及谁能接近秘密。',
+    '门、信箱与日常陈设都有明确行动用途，可以同时承接家居生活、借债秘密与人物之间的控制。',
+  ],
+  'place-v21-diningcar': [
+    '人只能暂时同桌，列车却不停前进；空间压力来自相遇的期限。',
+    '行旅中的陌生人被留在共享餐桌，谈话与离开受列车时间牵制，亲近与疏离都可能因到站而改变。',
+    '餐桌、窗外移动景物与用餐过程提供清楚的视听和动作条件，能承托迟迟不结束的交谈，也能安排结束后的散去。',
+  ],
+  'yplace-xiyuan': [
+    '座席的观看方向与出入路线清楚，错位要靠演员怎样进入观众之间来形成。',
+    '池座首先是底层观众席；沿过道寻找来客、改变近远目光，才会把既有观看位置变成关系变化。',
+    '座席、过道与前后排提供明确走位和视线层次。具体距离仍依剧场和座位而定，不把所有池座都当作近距离。',
+  ],
+  'yplace-deck': [
+    '同船同行限制了离开，风声与露天空间又为动作提供直接条件。',
+    '人物随同一条船移动，不能独自随意离开；风声可能迫使交谈者靠近，具体错位仍要由谈话关系激活。',
+    '风、视野与甲板上的站位可以组织交谈和走动；卡片排演用贴近盖过风声，给演员清楚的行动条件。',
+  ],
+  'role-laura': ['行动细小，人物却鲜明；接近与退缩并不等于没有戏。', '行动集中在接近、迟疑与退缩，关系变化藏在细小回应中；外部局面的改变较少，回应本身仍有作用。', '玻璃小兽、羞怯与短暂亲近构成明确处境，细微动作就能显出想靠近又退缩的人物矛盾。'],
+  'role-jiang': ['等待推动得很慢，等待谁、为何等却十分具体。', '寻找与等待维持重逢的愿望，推动主要发生在等候和试探性的问话里。', '病中寻找失散恋人的处境明确；卡片排演用空椅与日常问候把多年分别压进眼前一刻，使等待可以表演。'],
+  'role-wang': ['维持生计的行动持续发生，掌柜的位置也始终清楚。', '不断调整生意和待人办法来维持茶馆，行动持续，却始终受到时代压力牵制。', '掌柜身份贯穿招呼、周旋与改规矩，想保住生活的愿望使人物前后一致。'],
+  'role-ladym': ['催促丈夫的行动强，后来洗手的反复又显出这种行动的反噬。', '推动丈夫弑君，明确的要求直接改变对方行动，随后又承担罪疚的反噬。', '催促他人与梦游洗手形成可演的反差，变化由无法摆脱的罪疚连接；72是历史初评，不据此断言人物不完整。'],
+  'xrole-figaro': ['计谋能改变婚礼局面，辨识依靠他如何应对主人的特权。', '用追问、言语和计谋阻挡主人的特权，让婚礼冲突不断转向。', '仆人与伯爵的权力差距提供明确身份，聪明需要落实为对特权的具体应对；现有简介不能复原65的逐项依据。'],
+  'xrole-lucky': ['沉默突然转成长篇发言，场面会改变；人物必须连同受支配的身体处境来理解。', '从等待许可到长篇倾吐，发言方式的骤变能够打断并重组场面节奏。', '被绳子牵引、获准才开口限定了人物处境；卡片排演再以捧行李联系身体与语言，不能只抽出长篇台词来判断人物。'],
+  'xrole-pozzo': ['要求别人等候，已经是在改变场面；主人姿态让这种关系立即可见。', '以命令和等待要求支配周围人，直接改变他人的动作与发言时机。', '绳子与主人姿态标明支配关系；卡片排演让别人等他坐好，以一个具体动作保持人物辨识。'],
+  'role2-gertrude': ['主动谋划与关系压力不同：她的母亲、王后位置本身就是冲突节点。', '再婚与母亲身份使她成为冲突节点，但推动主要来自关系压力，而非主动谋划。', '母亲与王后的双重位置清楚，面对质问时的身份转换能产生具体的对戏后果。'],
+  'role2-nagg': ['一段旧故事和一点食物也能维持对戏，身体限制让关系位置集中。', '用旧故事和索取维持联系，把回应变成交换条件，持续向他人提出要求。', '被困在垃圾桶里的父亲身份，将身体限制、食物需求与父子关系集中到同一处境。'],
+  'role2-lu-dahai': ['表面的劳资对抗与尚未说破的父子关系同时产生压力。', '为工人讨说法，与周朴园正面对峙；卡片排演让被打断的申辩重新落回事实，持续向对手施压。', '劳资对立与尚未被他知晓的父子关系重叠，使同一段对话对双方产生不同压力，不能随意换成普通来客。'],
+  'role2-duncan': ['推动来自交付信任及其后果，关系辨识则靠宾客与背叛的反差。', '把信任交给将领，令欢迎与背叛产生后果；他的作用更多是让别人的选择暴露出来，而不是主动策划夺位。', '受邀宾客与被背叛国王的位置明确，欢迎越周到，信任受到伤害的反差越清楚。'],
+  'v23-sup-nurse': ['通报能打断医生的思绪，人物功能主要集中在病房与来访的连接上。', '引见法官、通报病房情况为医生带来必须回应的新信息，推进集中在这些具体出入和消息。', '医院工作人员的位置清楚，但现有卡面提供的独立关系和变化线索较少；这说明材料范围，不能据此判定原作人物没有其他作用。'],
+};
+
+// Select only declared tags. These are lenses for reading the supplied evidence,
+// never guesses about a plot based on words such as crime, money or betrayal.
+const statTagLensesV40 = {
+  '剧目': [
+    [['群像结构'], '这里要看多个人物的处境怎样相互牵制，而不只数主角做了几件事。', '群像的完整性看人物线索怎样照应、共同回应主题，不要求只剩一条主线。'],
+    [['荒诞派戏剧', '非线性叙事'], '重复、停顿或时间错位能持续施加压力，有意义的延宕也属于推动。', '完整性按作品自己的循环、回忆或非线性规则判断，不把封闭结局当作唯一标准。'],
+    [['戏中戏'], '表演进入剧情以后，要看被观看的人如何回应，试探怎样改变局面。', '内外两层戏是否互相解释，决定这一结构能否把人物与主题联系起来。'],
+    [['戏剧冲突', '悲剧'], '推动力看目标相互牵制，以及一次选择是否带来下一次必须面对的后果。', '完整性看这些后果能否回应前文的人物选择，不能只看结尾是否惨烈。'],
+    [['潜台词', '对白'], '说出的话与真正想要的东西之间的差距，也能让对手改变下一步。', '对白与停顿需要前后有照应，让表面谈话逐渐显出关系，而非只靠情节数量。'],
+  ],
+  '风格体系': [
+    [['观演关系', '环境戏剧'], '变化集中在观众站在哪里、是否被承认，以及怎样参与理解这场戏。', '观看规则要能向演员和观众说清，并在不同场次中保持可执行的边界。'],
+    [['形体动作', '形象剧场'], '身体的距离、方向和节奏可以重组语言以外的信息，让关系先被看见。', '姿态与节奏需要可以排练和辨认，不能只用一次偶然的强烈效果证明方法稳定。'],
+    [['纪实剧场', '文献剧场'], '材料选择和呈现方式改变观众如何判断人物及事件，冲击不等于材料越多越好。', '材料来源、编排原则与演员如何呈现需要清楚，才有可重复的方法。'],
+    [['即兴表演', '集体创作'], '现场回应或共同创作会改变既定行动，新的解释来自参与者实际作出的选择。', '参与规则与回应方式需要明确；每场内容可变，方法边界仍须可辨。'],
+  ],
+  '导演手法': [
+    [['观演关系', '间离术'], '改变向谁说话、谁能回应或谁正在观看，会直接改变场面的关系呈现。', '介入时机、面向对象与结束方式要清楚，演员才能稳定完成这次观看转换。'],
+    [['形体动作', '舞台行动'], '动作是否让对手改变距离、节奏或选择，决定它是否真正推动关系。', '方向、时机和同台反应可以逐次排练；观众要能辨认动作产生了什么后果。'],
+    [['舞台音响', '舞台灯光'], '声音或光线重新分配注意力，使原本隐蔽的人物、空间或行动被感知。', '出现的时机、范围和强度必须可以复现，并与演员行动保持明确联系。'],
+    [['非线性叙事', '蒙太奇', '戏剧时间'], '顺序与时长改变以后，观众对原因、后果或人物认识的理解也会改变。', '转换须有可辨线索，重复排练时仍能让观众跟上场面之间的联系。'],
+  ],
+  '主演': [
+    [['潜台词', '内心独白'], '欲望可能藏在迟疑、拒绝或话语背后；要看这些回应怎样影响对手，而非只数外部动作。', '表面声音与内在愿望之间的差距必须能表演，人物的变化才有可辨的逻辑。'],
+    [['行动目标', '最高任务', '贯穿行动'], '明确想要什么还不够，人物为此作出的选择及其代价才构成推动。', '不同动作需要仍指向可理解的欲望，变化中的人物才不会失去自己的处境。'],
+    [['人物关系', '人物塑造'], '人物与对手的牵制使欲望变成具体行动，回应可以推进，也可以阻挡下一步。', '角色的关系位置、说话方式与矛盾越具体，就越能在变化的场面里保持辨识。'],
+  ],
+  '配角': [
+    [['对手戏'], '对戏力度看这一次支持、阻挡或揭示怎样迫使对手回应，不因叫配角就固定给低分。', '关系辨识看此人与对手为何必须这样相处，以及换成另一人后是否仍会产生相同后果。'],
+  ],
+  '环境': [
+    [['观演关系', '第四堵墙'], '观看方向、距离与可见性改变以后，人物能隐瞒什么、观众能看见什么也会变化。', '明确的视线与进出条件能承托不同场面；实际承载仍取决于具体布置。'],
+    [['舞台音响'], '听得见、听不清或必须靠近才能交谈，会把空间条件转成关系压力。', '声源、距离与人物位置若能明确安排，声音条件就能持续支撑行动。'],
+    [['规定情境', '戏剧时间'], '空间给出的期限、规矩或出入限制，需要真正影响人物的下一次选择。', '这些条件要能落实为走位、停留和进出，才不只是一个气氛名称。'],
+    [['舞台调度', '空间层次', '后台'], '远近、通路与等待位置决定谁先到达、谁必须让开，从而改变关系。', '清楚的层次和进出路线能支持多种动作，稳定承载来自可用的行动条件。'],
+  ],
+};
+
+function statSentenceV40(text) {
+  const value = String(text || '').trim();
+  return value && !/[。！？][”’」』"]?$/.test(value) ? `${value.replace(/[；，]+$/, '')}。` : value;
+}
+
+function statRationaleV40(card) {
+  const axes = statAxesV40[card.dimension] || { atk: [card.atk_axis || '推动作用'], def: [card.def_axis || '支撑作用'] };
+  const review = card.review || {};
+  const facts = statSentenceV40(card.note || card.plot || card.blurb);
+  const observation = statSentenceV40(card.observe || card.why);
+  const rehearsal = statSentenceV40(card.stage || card.hook);
+  const hasEvidence = Boolean(facts || observation || rehearsal);
+  const reading = hasEvidence ? statReadingsV40[card.id] : null;
+  const lens = (statTagLensesV40[card.dimension] || []).find(item => item[0].some(tag => (card.tags || []).includes(tag)));
+  const fallback = [
+    `这里衡量“${axes.atk[0]}”：要看文案中的行动或条件怎样改变下一步。`,
+    `这里衡量“${axes.def[0]}”：要看同一处境能否持续支撑可辨认的行动。`,
+  ];
+  const result = { title: '评分依据', status: review.status || '待补充依据', summary: '', atk: null, def: null, sources: [], note: '', reviewReason: '' };
+  for (const [index, axis] of ['atk', 'def'].entries()) {
+    const value = Number.isFinite(card[axis]) ? card[axis] : null;
+    const rubric = review[`${axis}Rubric`];
+    const documented = axes[axis].length === 4 && Array.isArray(rubric) && rubric.length === 3 && rubric.every(part => Number.isInteger(part) && part >= 0 && part <= 4)
+      && value === 50 + 4 * rubric.reduce((sum, part) => sum + part, 0);
+    const evidence = axis === 'atk' ? observation || facts || rehearsal : facts || observation || rehearsal;
+    const evidenceLabel = evidence === rehearsal && !facts && !observation ? '卡片排演示例（非原作事实）' : axis === 'atk' && observation ? '卡片观察' : '卡片说明';
+    let reason = reading ? reading[index + 1] : '';
+    if (!reason && hasEvidence) {
+      const lead = axis === 'atk' ? observation || facts : rehearsal || facts || observation;
+      const prefix = axis === 'def' && rehearsal ? '卡片给出的排演示例是：' : '现有卡片写到：';
+      reason = `${prefix}${lead}${lens ? lens[index + 1] : fallback[index]}`;
+    }
+    if (!hasEvidence) reason = '现有卡片未附足以解释这一项的剧情、观察或排演资料，暂不根据数值补写理由。';
+    result[axis] = {
+      label: axes[axis][0], value, reason, evidence, evidenceLabel,
+      criteria: documented ? rubric.map((score, part) => ({ label: axes[axis][part + 1], score })) : [],
+      documented,
+    };
+  }
+  const documented = result.atk.documented && result.def.documented;
+  result.basisMode = !hasEvidence ? 'insufficient' : documented ? 'documented-rubric' : 'card-reading';
+  result.needsReview = !documented;
+  const difference = (result.atk.value ?? 0) - (result.def.value ?? 0);
+  result.summary = !hasEvidence ? '现有资料不足，先保留分值与待复核状态。'
+    : result.atk.value === null || result.def.value === null ? '现有文案可说明作用，但数值记录不全，暂不比较两轴高低。' : reading ? reading[0]
+    : Math.abs(difference) >= 15 ? `当前分值更侧重${difference > 0 ? result.atk.label : result.def.label}；两条轴分别衡量改变局面与支撑一场戏的作用。`
+    : '两条轴分别看这张卡怎样改变局面，以及靠什么把行动与关系撑住。';
+  result.note = documented
+    ? '本游戏编辑量表。资料支持事实与实践背景，不为游戏分值背书。'
+    : '历史分值尚未逐项复核；以上按现有卡片解释作用，不反推精确分数，也不据此判断作品高下。';
+  if (!review.status) result.note = '现有分值未附逐项评分记录；以下说明文案能支持的作用，不能代替评分复核。';
+  result.reviewReason = documented ? statSentenceV40(review.rationale) : '';
+  result.sources = (review.sourceIds || []).filter(id => statSourcesV40[id]).map(id => ({ id, ...statSourcesV40[id] }));
+  return result;
+}
+
+if (typeof module !== 'undefined' && module.exports) module.exports = { statRationaleV40 };
+
+// Generated from high-star-{craft,plays,roles}-v40.json. Edit those source files, then rebuild.
+const highStarCopyV40 = {
+  "style-stan": [
+    "一句“别走”可以用来挽留、试探，也可以成为命令，台词的字面并不能替演员完成选择。对方是否停下、是否相信，才让这一句获得可以追踪的结果。",
+    "角色眼前想要的东西，需要和贯穿整场的欲求相互照应。一次请求遭到拒绝之后，人物怎样改变办法，比始终维持某一种情绪更能显出行动的连续。",
+    "排演时可以先不用“悲伤”或“愤怒”描述表演，而给同一句话分别安排说服、拖延、逼问的任务。再让搭档改变回应，检验演员能否在规定情境中继续争取，而非重复预定的表情。"
+  ],
+  "style-epic": [
+    "一个人的遭遇被放回工资、法律和身份织成的关系网，眼泪便有了需要追问的来处。叙述与行动之间的缝隙，容得下观众对角色说一声“你还可以怎样”。",
+    "歌曲或叙述若只装饰情节，便没有改变观众理解事件的角度。排演时可以让一段安慰人的唱词紧接一次不公平的分配，保留人物的难处，也让唱词无法替行动开脱。"
+  ],
+  "style-absurd": [
+    "当人物仍认真寻找答案，而对话却绕回原处，重复就同时具有可笑与令人不安的两面。等待、送别或解释不能顺利结束，观众便亲身经历人物摆脱不了的停滞。"
+  ],
+  "style-real": [
+    "一次借钱、一次留客、一次没能说出口的拒绝，都可能带出维持日常生活的整套关系。人物越像身边人，他们习以为常的忍让与自辩就越难被观众轻易放过。",
+    "生活细节的作用可以落在人物必须付出的代价上，一顿饭由谁准备、一次离家是否有钱，都能限制选择。排演时可以从同一笔开支出发，分别写清家中每个人为何赞成或反对，让分歧长在共同的日常里。"
+  ],
+  "style-xieyi": [
+    "完整的屋子可以退去，门内与门外的区别却仍然坚硬：有的人得以进入，有的人只能等待。省下的生活外观交给观众补全，人物的一次迟疑便能撑起整段无人说明的距离。"
+  ],
+  "style-poor": [
+    "一张长凳从床变成审判席，变化能否成立，取决于演员如何使用它，以及观众是否跟上这种关系的转移。技术设备减少以后，呼吸、支撑与接触中的犹豫都更难被外部声光遮住。"
+  ],
+  "dir-alien": [
+    "角色正在争取的东西，与他用来解释自己的话，可以同时交到观众手里接受比较。感动因而多了一层不安：我们既听见他的苦处，也看见他的选择怎样落到别人身上。",
+    "一次打断是否有效，要看它是否让原本顺理成章的行为重新变得可以讨论。排演时可以在一段自我辩解之后重演刚才的分配过程，让被略去的接受者拥有一次回应。"
+  ],
+  "dir-montage": [
+    "片段之间的切换会改变观众保存上一场信息的方式：一声保证尚未落定，另一处的拒绝便给它添上疑问。同一段材料交换先后次序，可能由铺垫变成反证。",
+    "舞台上的联系也可以由一段持续的声音建立，让空间已经切换而上一场的压力仍未消失。排演时可以保留门内的祝酒声，再转向门外等候的人，比较观众对这场庆祝的理解怎样变化。"
+  ],
+  "dir-body": [
+    "一个人伸手时，另一个人的退让会使原本的请求变成追逐；动作的意义由双方共同完成。无言并未取消争执，只是让观众必须从接触的时机、身体的朝向和未完成的动作里读出分歧。"
+  ],
+  "place-tea": [
+    "一张桌子可以先后坐下互不相识的人，昨天的谈资却会留给今天的耳朵。茶钱、体面和活路在同一间屋里交换，人物各说各的难处，合起来才听见时代的压力。",
+    "把茶馆当成做生意的地方来看，招呼客人、维持秩序与保住收入就未必能同时做到。门既接进新的消息，也把经营者无力选择的人和事带到桌边。",
+    "排演时可以先记录每个人进门要办的事，再安排谁愿意久坐、谁只能短暂停留。换幕后保留一个熟悉的位置，却改变谁有资格坐下，让年代变化显现在招呼与让座之间。"
+  ],
+  "place-elsinore": [
+    "第一幕的城垛守夜使鬼魂成为数人目睹而亟待解释的异常；到了王后内室，波洛涅斯藏在帷幕后偷听，声音与看不见的身体引出误杀。戏中戏又把厅堂变成观察场，哈姆雷特请霍拉旭一起留意国王对演出的反应。",
+    "同一座宫廷不断交换“谁能看见谁”的位置，公开会见、秘密旁听与被人观看的表演因此拥有不同压力。这里讨论的是剧本组织的艾尔西诺空间；现实的克伦堡（Kronborg）与它有文化关联，不能把现存房间的布局直接当作原作舞台地图。排演时可以为城垛保留共同视线，为内室设置遮挡，再让厅堂的观众席暴露在另一组目光之下。"
+  ],
+  "place-zhou": [
+    "周公馆的客厅让主人以日常习惯规定别人怎样停留，来客却可能对同一件陈设拥有完全不同的记忆。家具一旦被认出来，维持体面的摆设就开始替旧事作证。",
+    "家庭内部与门外社会在会见时相撞，谁能坐下、谁必须解释来意，先于争论划出了身份差别。排演时可以给主人与来客安排不同的进门路线，再在旧事被提起时交换双方对家具的支配权。"
+  ],
+  "place-exec": [
+    "刑场要求判决尽快结束，窦娥却坚持把冤情说给比监斩者更大的见证者听。三桩誓愿把一次行刑的时间向后延伸，使官府宣布的终局仍须接受天地的回应。"
+  ],
+  "place-cherry": [
+    "园子对于旧主人是不能轻易折价的记忆，对于土地债务却是必须处理的财产。两种说法指向同一片树木，因此再温柔的回忆也不能替人物推迟付款与拍卖。",
+    "把园子留在视线里而暂时不改变它的样子，可以显出人物仍在借旧景象安慰自己。排演时可以让谈论童年的人与计算土地用途的人望向同一个方向，使他们的距离来自所见之物的意义，而非看见了不同的地方。"
+  ],
+  "style-physical": [
+    "身体既可以承担具体动作，也可以通过反复、并置和群体位置形成叙述。一个人被扶起后又回到原处，与独自倒下相比，会显出完全不同的依赖关系。",
+    "语言和身体若各自重复同一层信息，动作便容易只剩装饰。排演时可以让口头的欢迎与身体的阻拦同时发生，观察观众先相信哪一部分，以及人物如何解释这种不一致。"
+  ],
+  "dir-solo": [
+    "面对观众说话会替人物增加一个当场存在的听者，但这个听者可以被当作同谋、证人或等待裁决的人。同一段自述因想获得不同回应，会呈现不同的选择与隐瞒。",
+    "独白后的回到场内尤其值得看：刚向观众说过的话，人物是否敢向面前的人再说一遍。排演时可以保留一个无法回答的请求，让独白结束后的沉默继续改变下一次会面。"
+  ],
+  "place-heath": [
+    "宫廷中的命令可以要求旁人服从，风暴却不会因为说话者曾是国王而减轻。荒原把身份与身体分开来检验，使遮蔽、取暖和互相照顾成为比称号更迫切的事。"
+  ],
+  "xstyle-site": [
+    "场地原有的入口、回声和通行习惯会参与事件，而观众为了看见所作的移动也会成为观看经验。排演时可以先观察窄门怎样迫使人让路，再把人物的请求放在这里，检验空间是否真正改变了行动。"
+  ],
+  "xstyle-political": [
+    "权力有时以宣言出现，有时只是某个人永远可以打断另一个人的话。公共制度落进一顿饭、一份名单或一道门槛，人物的私生活就显出它无法独自决定的部分。"
+  ],
+  "xstyle-comedy": [
+    "人物认真保护的体面，往往比他们愿意承认的欲望更容易露馅。笑声让观众短暂地站在局外，又可能在下一次掩饰里认出自己，轻快由此带上了刺。"
+  ],
+  "xstyle-lab": [
+    "当平常的观看规则失效，观众会开始察觉自己何时相信、何时等待、又何时替人物补上了因果。实验的戏剧性由此不仅属于故事，也属于一个人发现自己的观看习惯可以被改变的瞬间。"
+  ],
+  "ystyle-takarazuka": [
+    "演员能够让一个念头发生在角色身上，也能够让观众看见这个念头是怎样被拿出来展示的。靠近与退开不断改变观众的信任，使同情这个人和判断他的说法可以发生在同一刻。"
+  ],
+  "ystyle-livingnews": [
+    "报纸上的事件来到活人面前，日期和数字便重新连上会受伤、会争辩的身体。短小篇幅把取舍暴露出来：哪些声音被留下，哪些处境来不及展开，会直接影响现场的人怎样理解同一则消息。"
+  ],
+  "ystyle-passion": [
+    "观众知道受难将通向何处，观看的重量便落在每一步如何被承受。结局的确定没有替人物作出选择，陪伴、背离与见证仍须由每一个在场者亲自承担。"
+  ],
+  "ystyle-image": [
+    "一个人的倾斜、另一个人的支撑，能够显出话语里未被承认的负担。保持其余身体不动而改变一个支点，观众便能具体比较关系如何重新分配，而不是只听见一种关于权力的解释。"
+  ],
+  "ystyle-poeticreal": [
+    "日常物件并未离开原来的用途，却会因谁在等待、谁已经离去而积起另一层重量。一场寻常的谈话，因反复回来的声音或迟迟未动的东西，显出人物不愿承认的时间。"
+  ],
+  "ystyle-manner": [
+    "礼貌给欲望披上一层体面的外衣，也给攻击留下了不必承认的余地。人物越熟悉交际规则，越能用一句客套改变别人在场的位置，笑声与受伤便可能来自同一句话。"
+  ],
+  "ydir-darkchange": [
+    "视觉中断把一段没有被目睹的时间交给观众，重见时的差异便成为证据。谁已经走了、什么东西不再原位，都会促使观众用没有看见的过程重新理解留下的人。"
+  ],
+  "ydir-duetline": [
+    "一句话抵达对方，就可能被误解、拒绝，或被用作另一种承诺。对白的推进因此不只看说话者准备了什么，还看他听到回应之后，是否被迫改变原本的问题。"
+  ],
+  "ydir-footlight": [
+    "面孔仍是那张面孔，熟悉的明暗关系却变了，观众的信任可能先于情节发生动摇。排演时可以让人物在光位改变前后保持同一句辩解，比较表情的可见程度怎样影响观众的判断。"
+  ],
+  "yplace-globe": [
+    "最初的环球剧场于1599年开演，今天伦敦可参观的重建剧场则在1997年正式开放，两者并非同一座保存下来的建筑。理解这张空间卡时，可以区分莎士比亚时代的剧场实践与当代对这种观看条件的重建。",
+    "伸入观众之间的舞台使人物转身时同时改变了谁看见正面、谁看见背影。露天场地又让演员与观众处在共享的光线和天气中，虚构无法完全靠把台下藏进黑暗来维持。",
+    "排演时可以把一句秘密分别朝三个方向试说，观察它在哪一侧像私语、在哪一侧更像公开宣告。再让旁观者保持可见，使观众既看人物，也看见别人正在怎样观看。"
+  ],
+  "play-oedipus": [
+    "追问原是君主替城邦履行的责任，问到最后，却夺走了他作为君主、丈夫与儿子的全部凭据。俄狄浦斯并非突然换了一个人，而是必须用新发现的事实重新理解自己做过的一切。",
+    "每个证人只带来一小段过去，拼起来才成为无人能承受的现在。审问的方向逐渐倒转：原本有权要求别人回答的人，成了所有答案共同指向的对象。",
+    "排演时可以让每次询问都沿用同一个郑重的开场动作，而随着证词累积，使这个动作越来越难完成。国王仍想主持审理，身体却先显出他已无处置身的困境。"
+  ],
+  "play-teahouse": [
+    "一间做生意的屋子容得下各色声音，却没有谁能替后来的人挡住门外的年月。闲谈、讨价与告别连在一起，历史便不再是一张年表，而成了熟客的空座位。",
+    "王利发不断应付眼前的客人和生计，观众却能越过一次次招呼，看见这些补救无法阻止生活收缩。《茶馆》的群像让一家店的兴衰始终与店外许多人的活路相连。",
+    "排演时可以保留一条熟客入座的路线，让换幕后的来客沿同一路线走到已经改变的位置。观众由此能比较谁还认得旧规矩，以及这些规矩究竟还保护得了谁。"
+  ],
+  "play-hamlet": [
+    "鬼魂带来的是命令，却无法替活人完成查证。王子把表演变成试探真相的工具，自己也逐渐困在真假难分的言行之中。",
+    "戏中戏让台上的表演和台下的反应同时成为行动的一部分，观众需要在两处寻找证据。观看因而不再是安全的旁观：王子的判断要以他人的一举一动为凭，也会把这些人卷进复仇。",
+    "排演时可以让王子在戏中戏开始后不再看演员，而始终寻找叔父的目光。舞台可以把演出的内容与观察者的焦急并置，让观众感到真相尚未落定时已经逼近的危险。"
+  ],
+  "play-thunder": [
+    "这个家庭努力维持的秩序，恰恰靠不许旧人说完话来成立。过去以亲人、雇工和恋人的身份重返同一间屋子，称呼越亲密，彼此的位置反而越危险。",
+    "同一段往事在周朴园和侍萍那里具有不同的分量，纪念不能抵销被纪念者实际承受的生活。家具与习惯保存下来的，既可能是怀念的外观，也可能是主人拒绝接受现实变化的方式。",
+    "排演时可以让每次谈及旧事都被一项家常规矩打断，使人物先服从安排，再寻找继续说话的机会。等到秘密无法再被日常秩序容纳，客厅的整齐便会显出它一直遮盖的裂缝。"
+  ],
+  "play-macbeth": [
+    "预言像一张尚未签字的契约，麦克白亲手把它变成血债。听见一个可能的未来，与决定用谋杀实现它，是人物必须自己跨过的两步。",
+    "第一场谋杀似乎能解决前程，此后的每一次杀戮却只增添新的威胁。夺位改变了他能命令什么，也改变了他再不能放心相信什么。",
+    "排演时可以让麦克白在取得王冠后仍反复确认身后的入口，所有祝贺都必须穿过这份戒备才能抵达他。权力的中心于是也成为最难安坐的位置，观众能从胜利的仪式里看见败亡的压力。"
+  ],
+  "play-godot": [
+    "弗拉季米尔和爱斯特拉冈靠谈话、琐事与相互照应把等待填满，戈多却始终不能亲自确认这种等待是否值得。两个人既在等一个承诺兑现，也在替彼此维持继续留在树旁的理由。",
+    "两幕的重复让观众不断拿眼前的动作与先前的动作比较，熟悉中出现的微小差异因此格外醒目。来客可以打断时间，却不能代替那个缺席的人结束等待。",
+    "排演时可以认真保留脱靴、起身与停下之间的时间，不把每一次重复都处理成更大的笑料。让一句要走的话确实牵动身体，再看身体怎样留住，观众才能同时感到行动的愿望与不能离开的重量。"
+  ],
+  "play-peony": [
+    "在《萨勒姆的女巫》中，指控不只改变被指控者的处境，也改变邻人证明自己清白的方式。普罗克托面对的认罪选择因而具有双重代价：活下来与承认一套虚假的叙述被强行绑在一起。"
+  ],
+  "play-doll": [
+    "客厅里的昵称和礼物看似温柔，也悄悄规定着谁可以像孩子一样被照料，谁有资格作出判断。秘密借债让娜拉早已承担成年人的责任，却没有换来同等的发言权。",
+    "当借债的秘密败露，夫妻面对的已不只是事情能否平息，而是谁有权解释娜拉的行动。最后的谈话把婚姻从习惯变成问题：一个被爱着的人，是否也被当作完整的人看待。",
+    "排演时可以让娜拉在谈话中逐渐停止替丈夫接话，也停止预先照顾他的反应。离开的决定便能从一次次实际争取发言的过程中长出来，而不只是结尾突然出现的姿态。"
+  ],
+  "play-salesman": [
+    "威利需要儿子的成功证明自己没有白活，儿子却必须否认这套梦想才能说出实情。父子在争辩的同一刻，可能正在保卫两种无法同时成立的人生解释。",
+    "回忆并不提供安慰，它不断把旧日许诺带回饭桌，让每次家常对话都像一次无法结清的账。过去与现在的交错也改变了倾听的任务：家人正在回答今天的问题，威利心中抵达的却可能是早年的期待。",
+    "排演时可以让回忆中的招呼与现实中的追问共享一个动作起点，再由不同的人接下去。观众会看见时间怎样在威利的身体里转向，同时明白留在此刻的家人为何越来越难与他相遇。"
+  ],
+  "play-doue": [
+    "一份被迫认下的罪名，可以在公堂上变成不容怀疑的事实。誓愿却把判决之外的天地也请来作证，让弱者最后的话越过掌刑者的权限。",
+    "三桩誓愿使申冤获得连续展开的节奏，临刑的话语因此不只是在为个人辩白，也在要求整个判决受到检验。排演时可以区分每一桩誓愿的指向与停顿，让窦娥逐步扩大申诉的范围，而不是只把声音一层层喊高。"
+  ],
+  "play-goodperson": [
+    "沈黛与隋达由同一个人承担，使善意付出的代价和保护生计采取的办法无法被分给两个无关的人。观众既能看见帮助别人的愿望，也必须面对这种愿望为何不断需要另一副面孔来维持。"
+  ],
+  "play-cherry": [
+    "庄园的债务把未来变成有期限的问题，旧主人的回忆却不断把谈话拉回没有期限的过去。樱桃园既承载亲密经验，又是可以出售和改造的土地，两种价值在同一个地方相遇。",
+    "罗巴辛的购买改变了谁能决定园子的用途，却不能让旧主人立刻学会离开自己的记忆。人物理解变化的速度与现实推进的速度并不相同，许多看似闲散的谈话正发生在这种落差里。",
+    "排演时可以让提到债务的人急于得到一个明确回答，而谈起往事的人继续整理与答案无关的物件。两种动作同时存在，既能保留生活的滑稽，也能让观众听见拖延正在付出的代价。"
+  ],
+  "play-xixiang": [
+    "张生与莺莺的爱情要经过书信、传话与相会才能取得行动的形状，不能公开说出的心意因此不断依赖他人转递。红娘在这条往返的路上掌握着局势，也让婚姻安排与个人选择之间的冲突变得可见。"
+  ],
+  "play-visit": [
+    "镇民无需突然变成恶人，只须一次次替将来的富足找个正当理由。赊账与消费先于最后的裁决发生，公共语言却仍在谈公平。",
+    "克莱尔的条件让一座城的愿望围绕伊尔的死亡重新组织，每一次看似私人的消费都与公共选择相连。排演时可以让镇民继续保持熟悉的寒暄，使日常礼貌与逐渐确定的利益站在同一张脸上。"
+  ],
+  "play-sunrise": [
+    "陈白露周旋的权贵生活与小东西遭受的摧残，使城市的不同处境在同一部戏里相互照见。奢华并不独立于楼下的困顿，人物赖以维持体面的依附关系，也使他们难以真正替另一个人打开出路。"
+  ],
+  "play-yuanye": [
+    "仇虎原本把复仇指向焦家，逃亡以后却无法把罪疚与恐惧留在身后。金子盼望的前路和他不断听见的追迫，使同一段逃亡同时成为两种不同的时间：一个人想要开始，一个人仍被已发生的事攥住。"
+  ],
+  "play-lear": [
+    "父亲要求爱被说成可比较的份额，国土便成了检验语言的赌注。真话没有换来信任，漂亮的承诺却获得了支配他的力量。",
+    "分配国土使一次家庭表白拥有无法轻易撤回的政治后果，父亲与君主的身份在同一决定里互相支撑，也互相伤害。失去权位以后，亲情才终于不能再靠命令索取。",
+    "排演时可以让李尔在权力衰落后仍使用原来的召唤手势，却越来越久得不到回应。曾经理所当然的服从变成一次艰难的请求，观众便能看见他怎样被迫重新学习与人相处。"
+  ],
+  "play-antigone": [
+    "葬礼在这里同时属于家庭与城邦，两套责任争夺的是同一具身体。争执越清楚，妥协越困难，因为退让会让每一方否认自己据以生活的原则。",
+    "安提戈涅的安葬行动使抽象禁令必须面对一个亲人的具体选择，克瑞翁也因此不能只对无名的臣民讲话。两人的冲突把法令的普遍要求与亲缘无法替代的义务放在一起，让观众衡量坚持的理由，也看见坚持会伤及谁。"
+  ],
+  "play-orphan": [
+    "保存一个孩子的身份，需要周围的人长期活在错误的称呼之下。牺牲没有随着危机过去而结束，它被藏进养育的日常，一年年等待被理解。",
+    "程婴养大孤儿的过程，使揭露旧案既关乎公义，也会改变孩子对于亲情与自身来处的理解。排演时可以让程婴在寻常的照料中完成一次迟疑，把不能说出的身份留在动作里，而不提前替人物解释所有苦衷。"
+  ],
+  "play-peach": [
+    "扇子从私人的赠物变成伤痕的载体，情人之间的信物由此不能再与时代分开。爱情所受的逼迫与世道的败落落在同一件小物上，使兴亡有了能够握在手里的重量。",
+    "侯方域与李香君的离合让公共动荡通过一段亲密关系抵达观众，个人不能随意决定的去留也改变了信物的意义。排演时可以让持扇者在交接前先辨认扇面，把凝视伤痕与传递消息分成两个清楚的动作。"
+  ],
+  "play-secret": [
+    "两个剧组争抢的不只是场地，也是各自故事应当被完整听见的时间。《暗恋》的回望与《桃花源》的闹剧互相打断，使失散的哀伤和寻找出路的滑稽在同一舞台上重新获得尺度。"
+  ],
+  "play-beijing": [
+    "曾家的旧礼法继续安排日常位置，经济衰败却已使这些安排越来越难维持。《北京人》把走出去的愿望放进缓慢的家庭生活，离开因此要经过具体的人情牵扯，而不是只需说出一句反抗。"
+  ],
+  "play-baimao": [
+    "喜儿被误认作白毛仙姑，使人们对山中身影的解释遮住了她实际遭受的欺压。走出山洞也意味着重新被看作一个有姓名、有经历的人，观众需要把传闻的异样还原到一个人的生存处境。"
+  ],
+  "play-street": [
+    "布兰奇用往日的体面为自己争取栖身之地，公寓里的人却掌握着验证她过去的权力。真相在这里并非天然的救赎：揭开一个人的虚构，也可能同时摧毁她仅存的生活能力。",
+    "纸灯罩把布兰奇对自身被观看方式的要求变成一件可以碰触的物品，争夺它也就在争夺谁能决定她如何出现。排演时可以让布兰奇先调整照明才开始一次谈话，使维护体面成为持续付出的劳动，而不只是几句怀旧的台词。"
+  ],
+  "play-sisters": [
+    "莫斯科为三姐妹提供了一个共同谈论的未来，却没有自动替她们改变眼前的爱情、工作与生活安排。希望不断被说出，机会却可能在等待中消耗，因此闲谈的平静与时间的流失需要同时被听见。"
+  ],
+  "play-butterfly": [
+    "海达能够干预他人的选择，却无法用这种支配为自己建立一条自由的出路。手稿的毁灭使别人的创造受到她的处置，而布拉克的控制又迫使她面对自己同样可能被别人掌握的事实。"
+  ],
+  "xplay-seagull": [
+    "特里波列夫渴望艺术获得承认，也渴望妮娜的回应，两种愿望使创作不断带着亲密关系的风险。《海鸥》让人物向往的艺术生活与实际经历相互检验，谁被谁看见、谁的作品被认真听完，都成为具体的戏剧行动。"
+  ],
+  "xplay-vanya": [
+    "教授的价值受到怀疑以后，万尼亚必须重新面对多年劳动究竟交付给了谁，愤怒因此也包含对自己过去的追问。庄园出售的提议把这种失望推向实际的生计问题，使一次家庭争执牵动每个人接下来如何生活。"
+  ],
+  "xplay-tartuffe": [
+    "奥尔贡对答尔丢夫的信任，使最熟悉家中危险的人反而难以被他相信。揭穿骗子因此需要改变证据抵达他的方式：家人的判断要变成他亲耳听见、再不能轻易推开的行动。"
+  ],
+  "xplay-figaro": [
+    "婚礼本应确认两个人的关系，却被权势当成一次可以插手的分配。仆人必须比主人更准确地理解规则，才有可能借规则的漏洞守住自己的生活。",
+    "费加罗、苏珊娜与伯爵夫人的联手，让能力与身份不再沿同一个方向排列，计划的成败取决于谁真正读懂了对方的欲望。排演时可以让伯爵每次发号施令后，其他人仍继续一项他未能察觉的协作，使喜剧的主动权在动作中易手。"
+  ],
+  "xplay-rhino": [
+    "异变最先令人震惊，人数多起来以后，震惊本身反而成了需要解释的异常。一个人是否还要保留自己的样子，逐渐从性格问题变成了与整个世界相处的问题。",
+    "朋友与爱人的离去使贝朗热的坚持不能只被理解成对陌生群体的反对，他必须承受熟悉关系也随之失去的代价。排演时可以让每一次离去都减少一个能正常回应他的声音，让孤独从可听见的交流变化中积累。"
+  ],
+  "xplay-bald": [
+    "史密斯夫妇与马丁夫妇认真履行谈话的形式，话语却越来越难把一个人带到另一个人面前。结尾回到开头，使这场交流失败无法被当成已经解决的插曲，观众也被留在仍会继续的日常程序里。"
+  ],
+  "xplay-longday": [
+    "泰隆一家能够辨认彼此的伤处，也会在争辩中把这些了解变成武器。指责与依恋紧挨着发生，使一天中的每次试图靠近都带着旧创伤重新被触碰的风险。"
+  ],
+  "xplay-merchant": [
+    "契约要求所有人服从字句，字句却不必照顾一个身体是否能够承受。法庭把金钱、友情和报复压进同一套合法语言，让慈悲也不得不在规则中寻找位置。",
+    "一磅肉的条件使借债的代价直接落到人的身体上，安东尼奥为友情作出的担保因此不再是一笔可以抽象计算的账。戏剧的刺留在胜负之后：法律解决一场争端，并不保证消除制造争端的仇视。"
+  ],
+  "xplay-jia": [
+    "高家青年面对相近的家长制度，却未必拥有同样的退路与反抗能力，妥协和离开不能脱离各人的处境判断。《家》的冲突不断把爱情带到家庭秩序面前，让私人愿望显出必须付出的生活代价。"
+  ],
+  "xplay-guantheplay": [
+    "《关汉卿》把一出申冤的戏如何被写出、又如何受到阻拦放进故事，让剧本成为人物必须保护的具体行动。关汉卿与珠帘秀共同承受压力，也使文字能否被说出口与演员的处境紧紧相连。"
+  ],
+  "xplay-camel": [
+    "祥子买车的愿望把独立生活寄托在一件可以靠积蓄获得的工具上，接连的损失却使这种努力无法只用勤劳与否解释。与虎妞、小福子的关系又把他的个人打算拉进其他人的生计，买车之外还有他无法独自解决的困局。"
+  ],
+  "xplay-sang": [
+    "婚嫁把个人愿望放进一家人的生计，也把生计放进村庄认可的秩序。每个人都带着自己的困境参与其中，受过伤的人仍可能继续伤害别人。群像的重量来自这种缠绕：苦难并不自动使人团结，活路有时恰恰从邻人的手里被拿走。"
+  ],
+  "xplay-shangyang": [
+    "建立新秩序的人必须相信规则能够超越个人，否则所有改革都只是换一张发号施令的脸。等到这套秩序也成为威胁自身的力量，理想与代价才在同一个人身上完成相遇。"
+  ],
+  "yplay-agamemnon": [
+    "凯旋对阿伽门农意味着战争的结束，对克吕泰涅斯特拉却无法取消女儿之死留下的债。宫门因而同时容纳公共的胜利与家庭的复仇，同一场归来被两种截然不同的期待等待着。"
+  ],
+  "yplay-phedre": [
+    "欲望一旦说出口，就会改变家族中每个人原有的位置；不说，它又会借错误消息寻找出口。克制的语言并不减轻冲突，而是让每一句承认都带上不可撤回的重量。",
+    "费德尔的隐秘欲望与诬告相互纠缠，使真相不仅取决于谁知道，还取决于谁在什么时刻选择承认。排演时可以区分她想请求的回答与实际说出的措辞，让停顿保留两者之间的挣扎，而不把所有克制都演成同一种冷淡。"
+  ],
+  "yplay-endgame": [
+    "这间屋子的关系似乎早已耗尽，日常程序却仍要求每个人接着完成自己的部分。离开既像唯一的自由，也意味着割断最后的依赖。",
+    "汉姆无法独自行动，克洛夫的去留便持续改变房间里命令与照料的关系，结束不能只靠任何一个人宣布。排演时可以让一项琐事反复卡在将要完成的时刻，使观众切实感到终结如何被生活的程序拖住。"
+  ],
+  "yplay-inspector": [
+    "官员们先用自己的恐惧替陌生人安排了身份，送礼与奉承又不断巩固这场误认。赫列斯达可夫被推到众人期待的位置上，骗局于是也暴露出小城原本怎样理解权力以及如何应付权力。"
+  ],
+  "yplay-tempest": [
+    "普洛斯彼罗能够制造相遇的条件，也掌握继续报复的能力，因此放弃报复是一项仍有其他选择时作出的决定。释放精灵使宽恕不仅停留在说法上，也触及他对别人的实际支配。"
+  ],
+  "yplay-richard": [
+    "理查让观众先听见自己的打算，再观看别人如何接受他的表情与承诺。笑意由这种知情产生，也把观看者带到危险的亲近处。",
+    "取得王位并未使阴谋终止，恐惧反而使谋划者也需要面对自己言行的后果。排演时可以让理查对观众的熟练招呼逐渐失去从容，使先前分享秘密的亲密感变成他越来越难维持的控制。"
+  ],
+  "yplay-caesar": [
+    "刺杀者可以共同决定一个人必须死，却未必能够共同决定他的死意味着什么。葬礼上的语言重新争夺行动的解释权，使一次以理想为名的暴力变成各方都无法独占的后果。",
+    "布鲁图斯等人的政治理由必须进入公开的言说，才能争取并不参与密谋的人理解与支持。排演时可以让群众的倾听方式随演说改变，从寻求解释转向寻找回应的同伴，使政治转变发生在彼此可见的关系中。"
+  ],
+  "yplay-caiwenji": [
+    "归乡的方向是清楚的，亲情的方向却并不只有一条。承续父业把个人生命放回更长的文化记忆，也要求她承受无法由责任抵销的别离。历史剧在这里留下一个柔软而不肯消失的结：完成使命的人，仍可以为完成使命而悲伤。"
+  ],
+  "yplay-eaves": [
+    "雨把几户人家暂时留在彼此听得见的距离里，门内的私事便不断溢到公共的屋檐下。群像不靠一次共同的壮举相连，而靠借来的东西、听见的消息和不能独自承受的一天。"
+  ],
+  "yplay-wotu": [
+    "同一座会馆里，别人的病、欠下的租和眼前的饭很难真正分开。互相挤兑的语言保存着人的锋芒，也遮不住彼此仍需搭一把手的事实。小人物的尊严因此不在于从未低头，而在于窘迫尚未夺走他们回应他人的能力。"
+  ],
+  "yplay-pipa": [
+    "仲夏夜的亲近暂时扰乱了朱莉与让的身份距离，却没有使阶级关系从清晨的生活里消失。两人的言行会随着彼此能依靠什么而改变，亲密因此也成为试探和争夺主动权的地方。"
+  ],
+  "yplay-fifteen": [
+    "流言把每个听者都变成潜在的作者，消息越走越远，责任却越来越难找到主人。屏风把听见与看见短暂分开，又让两者突然碰面，体面便在这一瞬间失去遮挡。",
+    "《造谣学校》的社交机锋依赖信息的分配，人物知道的与他们以为别人知道的并不总是一回事。排演时可以让屏风两侧各自维持正常的谈话速度，只在秘密可能被听见的地方改变一次呼吸，使险境从具体的倾听中产生。"
+  ],
+  "yplay-drunken": [
+    "厄勒克特拉坚持让丧失留在公共的声音里，不肯把哀悼缩成一个人应当早日克服的私事。等待弟弟既维系着希望，也把今天束在尚未完成的复仇之上，使时间本身成为她拒绝和承受的东西。"
+  ],
+  "play-v21-justes": [
+    "理想许诺未来，行动却必须在此刻发生。一个被认为正当的目标，不能替执行者免去选择手段的责任。伙伴之间的分歧也不是勇敢与怯懦的简单对立，戏剧把确信推到生命面前，让每一句必要都接受追问。"
+  ],
+  "play-v21-caligula": [
+    "皇帝可以把思想变成制度，也可以把荒谬强加给别人。对死亡的清醒没有使他更能爱人，反而成了无限索取的理由。臣属一面恐惧，一面仍须表现出赞同，绝对自由便在这些具体关系中显出暴政的轮廓。"
+  ],
+  "play-v21-malentendu": [
+    "相认本应终止陌生，这里却被归来的儿子自己延后，使母亲与姐姐继续把他放在旅店客人的位置上。沉默不是没有发生什么，而是使已有的杀人计划能够继续的一连串选择，家庭关系因此迟迟不能成为保护。"
+  ],
+  "play-v21-maids": [
+    "服侍使人熟悉主人的每一个细节，却不能使人获得主人的位置。互相扮演让怨恨找到形式，也令姐妹之间的依存变得危险。",
+    "两名女仆既是仪式的共同参与者，也可能在扮演中承受对方施加的权力，姐妹与主仆的位置不断相互侵入。排演时可以让一次身份转换在衣物交出之后仍未完全结束，保留旧姿态片刻，使游戏与现实的边界显得不再稳固。"
+  ],
+  "v23-play-woyzeck": [
+    "长官的羞辱、医生的实验与生计压力共同作用于沃伊采克，但这些处境并不能替他杀害玛丽的行为免除责任。将他受制于人的时刻与他试图支配玛丽的时刻并置，能使观众同时看见压迫如何发生，以及暴力怎样继续伤及另一个人。"
+  ],
+  "v23-play-dreamlike": [
+    "五号病人的讲述把病房里的倾听打开为多个人生相接的旅程，医生既要接住叙述，也会被叙述改变。《如梦之梦》的回忆层层进入彼此，使一个人的经历不只属于讲述者，也通过被听见继续作用于后来的人。"
+  ],
+  "role-oedipus": [
+    "他把统治的正当性押在查清真相上，因此没有一条可以体面撤回的路。旁人的迟疑越深，他越把它当成必须突破的阻碍。这个人最可敬的能力，也正是把自己逼到绝境的力量。等到身份彻底翻转，他仍须承受那些以为属于别人的事实。",
+    "俄狄浦斯既是追查者，也是最后被证据指向的人，两种位置不能简单分成清醒与糊涂。前半程越让人相信他的判断能力，认识到自身处境时的翻转就越有力量。",
+    "排演时可以让他起初从容安排每个证人的说话次序，后来才发现回答正在改变问题的方向。权力仍能要求别人开口，却已经无法决定真相该停在哪里。"
+  ],
+  "role-nora": [
+    "她早已偷偷做过一件需要勇气和计算的事，家人却仍习惯用轻巧的称呼解释她。秘密被揭开以后，危机从钱债转向了她能否自行判断人生。她要求的不是换一种宠爱，而是让自己的理解也成为这段关系必须面对的事实。",
+    "娜拉对婚姻的判断从具体危机里生长出来，她必须重新理解此前被称作爱护的那些安排。谈话的对象仍是熟悉的丈夫，她所使用的判断尺度却已经改变。",
+    "排演时可以让她在最后的交谈里认真等待丈夫作答，而不是预先只面向离去的门。确认对方如何回应，也是她为自己的决定承担责任的一部分。"
+  ],
+  "role-hamlet": [
+    "哈姆雷特把怀疑转成观察别人的办法，装疯与安排演出都要求他一面行动、一面判断行动的效果。王子的内心活动因此会改变宫廷中他人与他的关系，而不是只停在独自思索里。",
+    "复仇的目标看似明确，怎样确认、何时行动与谁将承受后果却不能合成一个简单命令。他越追求确定，越把旁人也带进试探，判断的代价遂超出了一个人的良心。",
+    "排演时可以让他在试探叔父时始终寻找具体反应，得到反应之后又短暂失去原先准备好的话。思考从眼前事件重新发生，延宕才会显出行动中的压力与选择。"
+  ],
+  "role-fanyi": [
+    "她的欲望始终要借别人的允许才有容身之处，越想抓住一个人，越暴露自己的无路可退。周家的礼貌把拒绝包得整齐，却无法消去其中的羞辱。她终于说出的秘密既是反抗，也会伤及她想挽留的人，爱与毁坏因此无法分开。",
+    "繁漪所争取的既是爱情，也是自己不再被周家规矩安置到一旁的资格。她对周萍的挽留因此含着两种相互拉扯的愿望：被选择，以及不准被舍弃。",
+    "排演时可以让她在客气的措辞里一次次调整站位，试探周萍还会不会为自己停下。每次试探得不到回应，下一次说话就需要付出更多自尊，爆发也因此有了逐步累积的过程。"
+  ],
+  "role-macbeth": [
+    "他并非一开始就听不见良心，而是听见之后仍一次次行动。预言替野心提供了说辞，却没有替任何一刀承担责任。掌权以后，他还要不断证明自己值得拥有已经夺来的东西，于是未来只剩下必须先行消灭的敌人。",
+    "麦克白试图靠下一次行动使前一次行动变得安全，杀戮于是不断制造新的理由。权力越扩大，他能够放心相处的人反而越少，胜利与孤立沿着同一条路增长。",
+    "排演时可以让他在处理外部威胁时迅速果断，在独自确认安全时却不断回头。将领原有的行动能力没有消失，只是被夺位之后的恐惧改变了用途。"
+  ],
+  "role-doue": [
+    "她替亲人承担痛苦的选择，被审判者拿来坐实她的罪。到了最后，能被剥夺的几乎都已被剥夺，唯独她对冤屈的命名还没有交出去。她的声音越过眼前刑场，把当下无人肯听的事留给更长的时间。",
+    "窦娥先为保护亲人承担罪名，后来又必须亲自把罪名与真实分开，两个决定都出于她仍要维护的关系。顺从判决和接受判决的正当性，在她身上并不是同一件事。",
+    "排演时可以让她说誓愿时逐项确认在场者是否听清，不把整段申诉只演成连绵的哭喊。一个即将失去发言机会的人仍在安排自己的话如何留下，这使抗争具有清晰的行动目标。"
+  ],
+  "role-liniang": [
+    "活下去的条件被缩成一张纸，纸上的姓名却会让谎言拥有一个真实的作者。普罗克托的拒绝把法庭的胜利拆开来：它可以夺走身体，却不能因此获得他对判决的认同。"
+  ],
+  "role-ladym": [
+    "她曾把犹豫视作可以用意志清除的障碍，后来身体却替她记住了不能承认的事情。洗手把一个日常动作变成无休止的审讯，醒着时说服别人的语言，到梦里再也不能说服自己。",
+    "排演时可以让她早先制止丈夫犹疑的手势，在梦游洗手时以无法停下的幅度重现。相同的控制欲换了对象，身体从推动别人行动变成了自己不能摆脱的对手。"
+  ],
+  "role-wang": [
+    "王利发的本领是把冲突压到一杯茶可以周旋的大小，时代却不断送来一杯茶解决不了的事。笑脸与客气既是他的劳动，也是小生意人留给自己的一点防护。"
+  ],
+  "role-shen": [
+    "善意每次得到回应，往往带回更多需要她承担的人；另一个身份暂时替她守住店门，却也让她失去公开表达善意的自由。她的两副面孔迫使观众看见：道德的要求与生存的条件，未必允许同一个人同时满足。"
+  ],
+  "role-zhou": [
+    "周朴园能够为不在场的人保存纪念，却不能接受归来者自行说明当年的生活。记忆一旦从陈设变成一个会反问的人，怀念便遇到了它无法独自安排的对象。",
+    "他的威严常通过日常习惯生效，谁可以提问、谁需要回答，都被带进看似平静的会面。侍萍认得这些习惯，使家长熟悉的控制方式也成为旧关系仍然存在的证据。",
+    "排演时可以让周朴园在认出某个熟悉细节之后先整理家具，再恢复询问来客的口吻。动作试图修复秩序，语言试图确定对方所求，两者都回应着过去突然进入现在的压力。"
+  ],
+  "role-willy": [
+    "威利习惯用一次漂亮的介绍争取别人认可，连谈自己的生活也像在推销。回忆里的成功与眼前的困顿彼此打断，使他很难分清家人需要的是一个赢家，还是一个能够承认疲惫的人。"
+  ],
+  "role-anti": [
+    "她没有军队，也没有可以与法令对等的权柄，只有自己愿意履行的亲人义务。她的决定让死者重新成为不可被国家随意处置的亲人。面对禁令，她既不等待多数赞同，也不把代价推给旁人。冲突因此不能靠误会澄清：双方说的恰恰都是自己认定的秩序。",
+    "排演时可以让安提戈涅在陈述亲人义务时直视国王，把谈论判决的停顿留给对方。她知道代价而仍然选择行动，坚定便不必靠持续高声来证明。"
+  ],
+  "role-gogo": [
+    "爱斯特拉冈把等待拉回身体的时间，饥饿与疲倦不会因为约定尚未实现便暂停。与同伴谈论离开时，他仍要先处理此刻怎样站住、坐下或继续熬过一会儿。",
+    "两个人相互依赖，却不必拥有同一种记忆与解释，他对眼前不适的坚持会打断弗拉季米尔寻找意义的努力。彼此不能完全说服，也不能轻易舍弃，使对话总有重新开始的理由。",
+    "排演时可以让爱斯特拉冈说要走之前真的整理身体、寻找离开的方向，再被一个具体问题留住。想走的动作曾经成立，留下才不会成为从一开始就没有选择的固定姿态。"
+  ],
+  "role-shiping": [
+    "侍萍回到周家时仍有眼前的牵挂，保护女儿的急迫使相认无法只停在追忆中。周朴园能够保存纪念，却不能替活着的她规定这些往事应当怎样被理解。"
+  ],
+  "role-xiangjun": [
+    "她的拒绝使自己的身体不再只是可被安排的婚姻筹码。爱人的选择、权势的介入与个人尊严被挤到同一个决定里，没有一项能轻易抽走。那柄留下痕迹的扇子让拒绝拥有了记忆，不肯让它被后来人的说辞抹平。",
+    "排演时可以把李香君对聘礼与旧扇的触碰处理成两种不同的谨慎，一边计算拒绝的后果，一边保护自己的记忆。物件不替她作决定，却能让选择留下看得见的重量。"
+  ],
+  "role-chengying": [
+    "他要守护的真相不能立即公开，连最亲近的人也未必能够知道他的理由。每一天的养育都延续着当初的牺牲，同时加深他与孩子之间真实的感情。待到可以说出往事时，他面对的也不再只是一个任务，而是一个在隐瞒中长大的人。",
+    "排演时可以让程婴照料孩子时先完成熟练的小事，再迟疑是否说出旧事。漫长的隐瞒由此不只表现为忍耐，也包含一个抚养者对眼前这个人的顾惜。"
+  ],
+  "role-yuji": [
+    "别人用交易和算计谈论如何活过战争，她把受伤的人当作眼前必须回应的人。不能说话并没有让她退出公共生活，反而使最后的发声必须以整个身体来承担。鼓声把一个常被忽略的人变成共同命运的呼喊者，声音的代价也变得格外具体。"
+  ],
+  "role-lear": [
+    "他最初习惯把被服从误认成被爱，直到一句话不再能为自己换来住处。失去的每一层权力，都暴露出原先不必承认的需要。一个拥有过国土的人开始学习如何听见别人的痛苦。迟来的清醒没有自动带来补偿，正因如此，它显得格外沉重。",
+    "李尔曾把表达爱的话当作能够衡量忠诚的证据，失势后却需要重新分辨言辞与照料之间的差别。认识并不是突然知道一个道理，而是原来依靠的判断方式不断在现实里失效。",
+    "排演时可以让他发出命令后仍本能地等待服从，直到无人回应才开始寻找另一种请求的方法。一次称呼或一个手势如何改变，能够让迟来的学习落到人与人的相处之中。"
+  ],
+  "role-courage": [
+    "大胆妈妈能把危险算进价钱，却不能用同一套账目算清战争夺走了什么。她越熟悉交易的办法，观众越能看清谋生的机敏与保护亲人的能力并不是一回事。"
+  ],
+  "role-zhu": [
+    "手稿把一个人的未来从身体中分离出来，成了别人可以保存、占有或毁去的东西。洛夫伯格的失控因此不只关乎名声，也暴露出才能一旦需要旁人的承认与照料，就不再完全属于自己。"
+  ],
+  "role-vladimir": [
+    "弗拉季米尔试图把零散的昨天与尚未到来的明天连在一起，仿佛说明了等待的理由，就能使眼前的时间更可承受。问题并不会因此得到稳定答案，却给他与同伴继续说话的办法。",
+    "爱斯特拉冈对身体的关注使他的解释不断遇到阻力，两人没有共享一套可靠记忆，却仍需共享这个地方。求证往事的执拗也可以被看作维持关系的努力，他需要有人一起确认他们尚未完全失去方向。",
+    "排演时可以让弗拉季米尔提出一个关于昨天的问题后，认真听取同伴的不同说法，再临时修正自己的叙述。这样的等待包含工作与照料，重复便不只是相同台词再说一次。"
+  ],
+  "xrole-ophelia": [
+    "奥菲利娅与父亲、恋人的联系在同一场死亡中断裂，亲密关系没有留下可供她安稳退回的位置。她的破碎因此不能只被当成王子经历的一项后果，也是一种失去自己生活支点的处境。",
+    "排演时可以让她分递花朵时始终认认真真等待回应，不预先把每个动作演成他人眼中的疯态。这样处理能保留她仍在试图建立联系的需要，让在场者怎样接住或回避她成为场面的另一半。"
+  ],
+  "xrole-juliet": [
+    "朱丽叶面对的是一个已经替她规定敌友的姓氏，而爱情让她第一次试着重写这条界线。她的主动不是对危险一无所知，而是开始要求自己的判断也算数。"
+  ],
+  "xrole-hedda": [
+    "她无法忍受自己的生活被写成别人早已安排好的句子，却又很难替自己找到新的出口。别人的才华与软弱于是成为她可以施加影响的地方。控制给予她短暂的自由感，也不断缩小她与他人真实相处的余地。",
+    "排演时可以让海达整理手稿时格外耐心，把毁坏之前的控制做得比毁坏本身更细。那叠纸承载着另一个人的未来，她如何触碰它便显出她如何对待自己不能拥有的生活。"
+  ],
+  "xrole-harpagon": [
+    "他把每一种关系都换算成可能失去的钱，于是父亲的关心与占有的恐惧说着同一种语言。喜剧不断放大这种计算，直到家人必须与一个不会回应的钱匣子争夺自己的位置。",
+    "排演时可以让阿巴贡对钱匣的细小动静比对子女整段话更敏感，耳朵与眼睛先泄露他的排序。笑料便来自注意力如何分配，而不必把每句台词都喊成贪财的口号。"
+  ],
+  "xrole-tartuffe": [
+    "他最有效的伪装并非说得毫无破绽，而是恰好满足主人愿意相信的那种虔诚。骗局因此有了共同的作者：骗子提供姿态，被骗者替姿态授予权威。",
+    "排演时可以让答尔丢夫的推辞始终等待主人再劝一次，收受之前先确认自己的谦逊已经被看见。骗子与信任他的人共同完成这套礼节，虔敬的表象才会显出实际用途。"
+  ],
+  "xrole-figaro": [
+    "费加罗必须一面保住仆人的工作，一面阻止主人把身份特权带进自己的婚姻。机智因而带着实际的生活目标，每一次反问都在争回本应属于新人自己的位置。"
+  ],
+  "xrole-mephisto": [
+    "梅菲斯特的说服力来自对愿望的辨认，他让条件听起来像实现愿望所需的一点手续。诱惑最值得看之处，是对方何时开始替诱惑者说明这笔交易为什么合理。"
+  ],
+  "xrole-cordelia": [
+    "考狄利娅拒绝的不是爱父亲，而是把爱兑换成土地与认可的说话规矩。短句落在竞相夸张的表白之间，沉默便成了拒绝参与交易的立场。"
+  ],
+  "xrole-hongniang": [
+    "她往返于彼此不能直接见面的人之间，知道的消息比掌权者更多，能公开说的话却更少。传话于是成为判断时机、承受风险和重新分配主动权的行动。她替别人促成相遇，也让自己的机敏在等级秩序中获得无法忽视的位置。",
+    "排演时可以让红娘在两次传话之间调整同一句话的语气，区别她对莺莺的体贴与对外人的周旋。她的聪明因此有了具体对象，轻快的往返也显出替别人承担的压力。"
+  ],
+  "xrole-xiangzi": [
+    "他把尊严寄托在一件可以靠劳动挣来的东西上，因此每一次失去都像是对勤恳本身的否定。车既让他在城市中移动，也把他牢牢系在城市为穷人划定的位置上。",
+    "排演时可以让祥子擦车、护车的动作保持认真，疲惫则从完成这些动作所需的时间里慢慢出现。劳动曾给他希望，同一套动作的变化便能记录希望怎样被消耗。"
+  ],
+  "xrole-huniu": [
+    "虎妞会安排生活，也愿意主动争取自己要的人，但她的主动同时压缩着祥子的选择。人物的复杂处在于，她希望挣脱被安排的命运，却也会替别人安排命运。"
+  ],
+  "xrole-sifeng": [
+    "四凤与周家其他人并不拥有同样多的消息，因此一段亲密关系在她眼里和在长辈眼里有着不同重量。她越认真地打算未来，观众越能感到那些未被说出的旧事正在逼近她。"
+  ],
+  "xrole-zhulian": [
+    "珠帘秀的台词先属于纸面，出口以后却变成她本人必须承担的行动。看客与权势听见的是同一句话，赋予它的后果却截然不同。她让表演显出一种无法由作者代劳的勇气：借来的声音，也要由自己的身体抵达别人。"
+  ],
+  "xrole-yangxiu": [
+    "他以为说中对方的心意是在证明亲近，却没有权力决定这种亲近是否被允许。聪明一旦越过身份划定的界限，答案越准确，提问的人就越无处藏身。"
+  ],
+  "yrole-clytemnestra": [
+    "凯旋的君王带着公开的荣誉回来，克吕泰涅斯特拉却守着这份荣誉要求家庭付出的代价。欢迎与清算被放进同一个动作，家门于是失去了通常应有的安全意味。"
+  ],
+  "yrole-horatio": [
+    "霍拉旭的清醒并不使他能够阻止朋友的命运，它让他必须记住无法挽回的部分。见证不是站在故事之外，活下来的人还要承担怎样把死者讲给后来人的责任。"
+  ],
+  "yrole-prospero": [
+    "普洛斯彼罗能够支配仇人的所见所闻，也因此必须决定这种支配应当在哪里结束。停止报复使宽恕成为一次放弃控制的行动，爱丽儿的自由也要求主人真的松开手。"
+  ],
+  "yrole-ariel": [
+    "他能改变旁人所见所闻，却仍须为自己的自由向另一个人请求。声音与幻象看似没有重量，在他身上却是一件件需要完成的劳作。精灵的轻盈因此藏着从属关系的负担。等到这些差事终于可以结束，消失反而可能是最完整的自主。",
+    "排演时可以让爱丽儿完成差事时行动轻快，谈到自由时却留出一个必须等主人回答的停顿。轻盈与等待并置，会使精灵的能力和从属处境同时可见。"
+  ],
+  "yrole-falstaff": [
+    "他不断把庄严的名词拉回肚腹、酒杯和身体的需要，让宏大的理由接受活人的检验。笑话没有使死亡变轻，恰恰是他对不肯轻易赴死的坚持，让英雄语言显出了被遮住的代价。",
+    "排演时可以让福斯塔夫把关于荣誉的议论落在一口酒或一次喘息之间，让身体先提出反驳。这个人可以虚荣、夸口，也可以敏锐地听出庄严言辞怎样要求别人付出生命。"
+  ],
+  "yrole-stockmann": [
+    "他把诊断疾病的方法带进公共生活，以为证据一旦清楚，所有人就会愿意接受治疗。事实却同时触动生计、声望与共同利益，真相因此不再只是一道可以答对的题。支持者的退让让他发现，发言权也有社会条件。医生能够指出病处，却无法替整个城镇选择是否承认疼痛。",
+    "排演时可以让斯多克芒开始时把证据当成共同讨论的起点，遭拒后才逐渐把听者划为对手。由求取理解变成宣告对立的过程，比一开始便独自高喊更能显出公共讨论怎样破裂。"
+  ],
+  "yrole-qiuhu": [
+    "仇虎起初把旧仇当作一条能够走到终点的路，行动之后却发现恐惧仍跟着自己。与金子的爱情让逃离有了方向，罪疚又使这个方向无法只是地理上的远方。"
+  ],
+  "yrole-juehui": [
+    "家宅给了他身份，也要求他用未来继续偿还这个身份。看见亲近的人如何被消耗，使离开的愿望不再只是少年的任性。跨出门槛并没有替留下的人解决一切，却打破了命运只能在屋内传递的假定。这个动作的力量，也在于它尚未知道门外生活的完整答案。",
+    "排演时可以让觉慧临出门前仍听见家中有人叫他，把回应与继续走的动作放在一起。离开因此保留与亲人的牵连，不会被处理成对整个过去毫无留恋的胜利。"
+  ],
+  "yrole-guifei": [
+    "厄勒克特拉把哀悼留在宫门之前，使家族无法把父亲的死亡收进已经结束的往事。她的坚持让私人悲伤具有公开的力量，也使自己的生活越来越难从复仇中分离。"
+  ],
+  "yrole-malu": [
+    "他把感情当成不能由别人投票决定的事实，因此所有劝解都很容易被他听成背叛。执着能够抵抗轻易放弃，也可能拒绝承认对方独立的意愿。戏剧让这两种力量共用同一个身体，既有令人动摇的热度，也有使人不安的封闭。爱在这里没有替行动免除责任。",
+    "马路的感受对他自己无比真实，但感受的强烈不能代替明明作出回应。人物的困境在于，他越把坚持当成爱的证据，越可能听不见对方已经表达的选择。",
+    "排演时可以让马路说出最坚定的话之后留出足够时间听明明回答，再呈现他怎样接受或改写这个回答。观众由此既能接近他的热烈，也能看见热烈抵达另一个人时的界限。"
+  ],
+  "yrole-dorine": [
+    "她没有主人授予的权威，只能凭看得清和说得快，为身边的人争取一点清醒。直言把服侍者的位置倒转过来：最应当听命的人，反而最早开始阻止荒唐的命令。"
+  ],
+  "yrole-hamm": [
+    "他无法自行离开，却仍试图规定别人何时回应、何时靠近。命令维系着主人的身份，也暴露出他对听令者的依赖。屋里的关系越贫乏，他越需要语言证明自己仍是中心。权力在这里并未因衰弱消失，而是缩成一套不能停下的日常仪式。",
+    "排演时可以让汉姆发出指令后认真倾听回应，声音一旦迟到，镇定的口吻便需要付出额外力气。主人的威严与被遗弃的恐惧同时存在，命令才不只是单向的强横。"
+  ],
+  "yrole-brutus": [
+    "布鲁图斯需要相信暴力能够服务于公共善，这使他尤其倚重对动机的说明。理由能否被他人接受却不由说话者独自决定，个人的确信与广场上的反应因此可能走向两边。"
+  ],
+  "yrole-solveig": [
+    "索尔维格的等待给漂泊的培尔留下一种没有随行却持续存在的关系。她的接纳并不等于替他的全部经历辩解，而使归来必须面对一个曾被自己留在身后的人。"
+  ],
+  "role2-creon": [
+    "他的权威并非只有暴怒，也有对城邦重陷混乱的恐惧。把服从当成共同生活的前提，便使每一个异议都像背叛。悲剧让政治语言与亲属称谓在同一个人口中相互伤害。等到他承认自己错了，承认已不能换回被命令夺走的人。",
+    "克瑞翁把修改命令理解为权威的失败，承认错误因而变得比作出判决更困难。劝告到他耳边时越来越像挑战，国王想守护的秩序也逐渐失去能够纠正它的人。",
+    "排演时可以让他起初完整听完异议，随着情绪加深才越来越早打断对方。倾听的空间如何缩小，能够使政治原则与个人恐惧在同一次对话中相互推动。"
+  ],
+  "role2-juliet-nurse": [
+    "乳母带来的身体记忆与日常笑谈，使爱情暂时有了一个可以依靠的家。可她把活下去放在忠于誓言之前，亲密便在同一句劝告里变成隔阂。"
+  ],
+  "role2-mercutio": [
+    "他的语言总比局势轻快，仿佛任何严肃都能被拆成一个俏皮话。死亡却让机锋失去可以转身的余地。随着这个朋友倒下，爱情故事里原先尚可逃进笑声的通道也被封住。",
+    "排演时可以让茂丘西奥的玩笑始终有明确听者，观察对方是否还愿意接话。笑声忽然失去回应时，语言原有的保护作用便会被观众实际感到。"
+  ],
+  "role2-banquo": [
+    "相同的诱惑抵达两个人身上，却没有产生相同的行动。班柯因而使麦克白无法把罪责完全交给命运，也使一个空座位拥有比宾客更强的在场。"
+  ],
+  "role2-macduff": [
+    "反抗者并不因为代表正义就能免于失去。麦克德夫的悲痛使国家灾难获得一个家庭的尺度。他的愤怒也因此不能只被看作英雄行动，它始终带着未能保护亲人的亏欠。",
+    "排演时可以让麦克德夫听到家人遭遇后先无法继续此前的行动，再慢慢找回说话的能力。悲伤被允许占据时间，后来的追讨才有一个不能被英雄姿态遮去的起点。"
+  ],
+  "role2-laertes": [
+    "他的行动迅疾，映出了哈姆雷特的延宕，也照出另一种危险。复仇一旦只剩速度，手段便可能先于判断抵达，而悔悟只能追在伤口之后。",
+    "排演时可以让莱尔提斯不断缩短等待回答的时间，使克劳狄斯提出的办法越来越像唯一可走的路。急切本身有亲人之痛作为理由，却也会让替他指路的人获得支配。"
+  ],
+  "role2-polonius": [
+    "熟谙世故的人容易把亲情也看成一套需要管理的情报。波洛涅斯让关怀与控制难以分开，直到帷幕后那具身体揭开窥听所付的代价。",
+    "排演时可以让波洛涅斯在关心儿女时也顺手确认旁人是否听见，把父亲与情报安排者放在同一次交流中。体贴与窥探因此无须分别换上一副面孔，控制往往正以关心的语气发生。"
+  ],
+  "role2-gertrude": [
+    "她的处境使公共身份与私人欲望无法各自安稳。儿子要求她解释过去，王宫却要求她维持现在。这个人物的含混不应被轻易填成一份罪状，正是无法彻底说明的部分，使亲子相认变得艰难。",
+    "排演时可以让乔特鲁德在王后与母亲的称呼之间改变回应的距离，而不替文本未说定的事补上一套秘密计划。她当下想维持的关系足以支撑行动，含混也能成为需要被认真保留的部分。"
+  ],
+  "role2-claudius": [
+    "他的危险在于罪行并未使他失去处理事务的能力。礼貌、分寸和政治判断甚至可以帮助凶手维持秩序。忏悔则要求他交还最不愿失去的王冠与婚姻。说得出罪名却做不到放手，让这个对手同时拥有理性与深重的裂缝。",
+    "克劳狄斯的问题不在于无法辨认罪，而在于希望把承认罪与保住所获放在一起。忏悔要求的实际损失，使他在独处时也不能只凭一句真诚的话完成自我宽恕。",
+    "排演时可以让他处理宫廷事务时保持准确的分寸，祈祷时却迟迟找不到下一步动作。前一种熟练不会自动帮助后一种困境，政治能力与道德无力的并置正是这个人物的危险所在。"
+  ],
+  "role2-goneril": [
+    "她让甜言与利益之间的距离变得可见。父亲把土地交出去时仍想保留命令，而她的拒绝暴露了赠与中从未说清的条件。"
+  ],
+  "role2-regan": [
+    "比较和竞逐使她的选择从来不是孤立发生的。另一人的强硬像许可一样摆在眼前，残忍便在相互认可中获得了体面的外衣。"
+  ],
+  "role2-edmund": [
+    "被排除在继承之外的人，对制度的不满并非毫无根据。爱德蒙却把这种正当愤怒变成了伤害亲人的许可证。观众因此既能听懂他的诉求，又不得不拒绝他的办法。反抗与篡夺在同一副面孔上相邻，让他的每次胜利都带着双重意义。",
+    "排演时可以让爱德蒙谈身份不公时不掩盖真实的痛感，随后把伪造书信的动作做得清楚而主动。伤害的来处与伤害别人的选择需要同时成立，才能避免把人物缩成一个借口或一个恶名。"
+  ],
+  "role2-kent": [
+    "忠诚在这里并不等于赞同一切。肯特宁可被主人误认，也不肯把劝阻换成顺从，使服侍成为一种带着反抗的坚持。"
+  ],
+  "role2-fool-lear": [
+    "笑声是弱者获准说真话的一条窄路。弄人必须让痛苦看起来像玩笑，才不至于立刻被权力逐出门外。当国王再也无力惩罚他，笑话中的悲悯便比讽刺更清楚。",
+    "排演时可以让弄人说完尖刻的笑话后观察李尔的身体处境，再决定是否接着说。照料与讥讽在同一段相处里交替，笑话便能带着对具体这个人的关切。"
+  ],
+  "role2-gloucester": [
+    "他的灾难与李尔的灾难彼此照见，却有自己的父子裂痕。失明没有自动带来智慧，它迫使一个惯于判断别人的人先承认自己需要引路。"
+  ],
+  "role2-edgar": [
+    "伪装先是逃生的方法，后来成为照料亲人的代价。他必须同时承受被误解的旧伤与不能相认的此刻。一个儿子借陌生人的身份扶住父亲，使重逢不再只是认出姓名那么简单。",
+    "排演时可以让爱德伽在父亲需要搀扶时毫不迟疑，在接近相认的话语时才放慢。身体已经承担儿子的责任，名字却仍必须被藏起，两种速度能显出这份陪伴的困难。"
+  ],
+  "role2-cassandra": [
+    "预见并不使她拥有支配未来的权力。语言的清晰与听者的拒绝构成了比误会更冷酷的距离。作为被掳来的女人，她的身份又使证词更容易被当成疯话。观众明知她说得正确，却只能看着正确的知识与无力的身体一同走向结局。",
+    "排演时可以让卡珊德拉尝试用不同方式把同一个危险说明白，而不是从头到尾只保持预言者的高昂声调。每一次听者的拒绝都会改变她下一次开口，明知与无力的距离由此变得具体。"
+  ],
+  "role2-agamemnon": [
+    "胜利的公开叙述无法遮住它要求亲人付出的代价。阿伽门农进入的既是宫殿，也是他曾经离开而没有解决的关系。一个家门因此同时成为凯旋的终点和报复的入口。",
+    "排演时可以让阿伽门农在接受欢迎时保持君王的分寸，又在跨入家门之前寻找熟悉的回应。公开的凯旋与私人的返家不能完全重合，迟疑便有了超出礼节的意义。"
+  ],
+  "role2-martha-misunderstanding": [
+    "长久受困的生活使远方成为她几乎唯一认可的价值。亲人没有及时说出的姓名，便在这种对未来的饥渴中失去了被认出的机会。"
+  ],
+  "role2-kristine-linde": [
+    "她对生活的理解经过了劳动与照料，因而不把爱情想成免于承担的地方。她要求秘密被读见，也把一种可以共同面对事实的关系带到玩偶般的婚姻旁边。"
+  ],
+  "role2-krogstad": [
+    "威胁者并不是从故事外部来的纯粹恶意。失去名誉与谋生位置的人，熟悉社会怎样把一次过错变成永久身份。他伤害娜拉的办法仍然不可免责，却迫使观众看见体面秩序如何制造新的要挟。"
+  ],
+  "role2-lopakhin": [
+    "财富改变了谁能拥有土地，却没有一并解开人在关系中的拘束。洛巴辛的喜悦携带着父辈受辱的记忆，因而不能被简化成一个商人的得意。樱桃树倒下的声音也不只代表进步或毁灭。它让一个人的翻身与另一群人的失所同时抵达观众。",
+    "排演时可以让洛巴辛谈土地用途时清楚利落，面对亲密关系的请求时却无从安排同样明确的下一步。这个差别把经济上的主动与情感上的迟钝放在一起，避免让人物只剩成功者的宣告。"
+  ],
+  "role2-trofimov": [
+    "他的言辞为庄园之外的世界打开了视野，也受到自身处境的反问。理想未必因此失去价值，但说理的人不能永远躲在尚未实现的未来里。"
+  ],
+  "role2-sonya": [
+    "她的坚忍不是不知道失望，而是没有把失望变成停止照料的理由。那些关于将来可以安息的话，必须由眼前仍要继续的劳动来托住。安慰因而既温柔又沉重，因为说话的人并未获得比听者更轻的命运。"
+  ],
+  "role2-treplev": [
+    "形式上的反叛与情感上的依赖并不互相排斥，反而让失败更难承受。他要创造一种不靠旧权威许可的艺术，却仍需要母亲相信他值得被爱。创作者与孩子在同一个身体里争夺发言的位置。",
+    "排演时可以让特里波列夫介绍新形式时先注意母亲有没有在听，再把受伤藏进更强硬的措辞。作品之争与求取爱并行，反叛就有了比艺术口号更私人的代价。"
+  ],
+  "role2-arkadina": [
+    "明星的敏感使她善于捕捉关系中的变化，也使她格外难以忍受自己不再是被注视的人。母亲的身份要求倾听，演员的生存习惯却要求赢回观众。两种需要相撞时，亲密便带上了竞争的形状。"
+  ],
+  "role2-nina": [
+    "起初，舞台像一扇通往光亮生活的门。后来，劳动、丧失与巡演中的孤独拆去了门上的幻象。她没有因此获得轻易的胜利，却学会把忍耐与工作从名声中分开。一个人重新命名自己时，艺术才从愿望变成需要亲身承担的生活。",
+    "排演时可以让尼娜提到演出工作时恢复一种具体的节奏，谈及成名想象时则容许停顿。她没有赢回所有失去的东西，但仍能决定下一次怎样工作，这一点主动足以支撑变化。"
+  ],
+  "role2-trigorin": [
+    "创作的观察力与生活中的责任没有天然的一致。特里戈林使观众看见，善于描写他人的人仍可能用一段好故事替自己逃开后果。"
+  ],
+  "role2-mayor-inspector": [
+    "恐惧先替陌生人穿上了权力的衣服，事实才被迫跟着改装。这个人物的可笑来自治理经验与道德败坏的合谋，他并不愚笨，只是太熟悉自己应当害怕什么。"
+  ],
+  "role2-hippolytus": [
+    "他的克制本来是一种伦理，却在敌意的解释里变成了可疑的沉默。父子关系把爱情、名誉与继承挤到同一场审问之中。悲剧并非清白终于被发现，而是承认清白的人已经来不及挽回。"
+  ],
+  "role2-theseus": [
+    "英雄的权威不能保证一个父亲看清家中的关系。他对罪行的确信越坚决，真相迟到时留下的空缺就越无法填补。"
+  ],
+  "role2-clov": [
+    "他拥有移动的身体，却没有因此获得彻底离开的自由。照料者与被照料者彼此厌倦，也彼此维持着生活最后的形状。命令使他们相连，反抗又使这段关系不断延长。终局的残酷正在于，谁也不能凭一句告别证明自己已经独立。",
+    "排演时可以让克洛夫向门移动的路线不断被汉姆的要求改变，又让每次返回都保留一点不情愿的距离。看似重复的照料由此持续产生选择，离开的困难也不会被简单解释成缺乏意志。"
+  ],
+  "role2-claire-maids": [
+    "她模仿女主人，并不只是为了讥讽主人，而是在权力的外形里寻找另一种自己。姐妹间的角色互换使爱与敌意同时获得声音。扮演原本允许人暂时逃离现实，却也把现实中的屈辱带进每一次命令。她们越想越过身份的边界，就越难分清谁正在主宰这场游戏。"
+  ],
+  "role2-solange": [
+    "索朗日把多年服侍积下的语言重新拿在手里，却仍摆脱不了主仆关系的语气。她对妹妹的保护可以突然变成斥责，反抗也会复制原来憎恨的秩序。两个人如此靠近，恰使彼此成为最难绕开的对手。"
+  ],
+  "role2-li-shiqing": [
+    "他不是规则之外的恶人，而是十分明白规则怎样奖赏人的参与者。对手越贫弱，他越容易把伤害说成没有办法的公事。"
+  ],
+  "role2-jiao-mother": [
+    "失明没有使她退出权力，反而让听觉与猜疑成为统治家人的方式。她保护儿子的愿望与控制儿子生活的欲望无法分开。家在她手里既是必须守住的堡垒，也是把人困住的边界。与她对戏的人不仅要反抗命令，还要抵抗命令背后那份不能被轻易否认的母爱。",
+    "排演时可以让焦母通过别人的应答速度判断屋里的关系，答得太快与太慢都可能招来追问。她对声音的敏锐既暴露依赖，也制造压力，母亲的关切于是与家长的盘查交织在一起。"
+  ],
+  "role2-jiao-daxing": [
+    "他不愿成为施害者，却出生在不能与过去切断的家庭里。亲密关系把历史的债推到他面前，使无辜与责任不再能够简单分列。"
+  ],
+  "role2-zeng-siyi": [
+    "她掌管着一家人的细小需要，于是也掌管着谁有资格谈论远处的生活。勤劳可以成为自我证明，辛苦也可能被拿来索取服从。她的对手最难拒绝的，恰是那些看起来确实替人着想的话。"
+  ],
+  "role2-zeng-hao": [
+    "他要求后人延续家门，却不愿承认家门本身已经成了负担。对死亡的恐惧越具体，活着的人便越难获得自己的时间。"
+  ],
+  "role2-liu-mazi": [
+    "他的语言把人拆成价钱、条件与交付日期，也替施害者隔开了亲手买卖的难堪。中间人的圆滑由此显露出一种没有血迹却处处伤人的暴力。"
+  ],
+  "role2-kang-shunzi": [
+    "她的经历使茶馆里的历史不只是政局与生意的更替，也包含一个人的身体曾被怎样定价。她继续生活的能力没有取消伤害，却让受害者不再只停留在被出售的那一刻。"
+  ],
+  "role2-liu-siye": [
+    "他从谋生竞争里学会的强硬，被完整带回了家中。女儿越想取得自己的生活，他越把这件事听成对权威的挑战。父女之间因此既有割不断的熟悉，也有不能靠退让消失的利益冲突。"
+  ],
+  "role2-kuang-fu": [
+    "他的归来使每个人过去合理的选择同时陷入困境。旧关系没有因为岁月失效，新关系也不能被一句归还轻易取消。他面对的不是一个可以击败的情敌，而是三个人都无法重来的一段生活。"
+  ],
+  "role2-yang-caiyu": [
+    "她曾经作出的选择首先是为了让生活继续，却在重逢时被迫重新接受评判。戏剧性来自那些不能互相否定的情感，而不是替她迅速判定谁对谁错。"
+  ],
+  "role-v21-unclevanya": [
+    "奉献曾使生活有了理由，失去崇敬也就意味着失去解释过去的方式。愤怒无法使时间倒流，日常劳动却仍然要求他继续。他的失败并不壮烈，正因为生活不会为一次觉醒停下来。观众由此看到一种没有终场掌声的自我清算。",
+    "瓦尼亚曾把被他崇敬之人的价值当作自己劳动的保证，失望便不仅指向一个人，也动摇了多年生活的解释。想讨回时间却只能在现在发怒，使他的抗议既有锋芒，又始终碰到无法偿还的东西。",
+    "排演时可以让瓦尼亚在激烈抱怨之后不由自主地完成一件熟悉的杂务，随后才意识到自己又回到了原来的节奏。生活继续运行，并不意味着他已经想通，这份未被解决的矛盾需要留在动作里。"
+  ],
+  "role-v21-astrov": [
+    "关怀世界并不会使私人生活自动完整。理想的远景与当下的消耗，在他身上互相证明又互相削弱。一个人对未来的热情，因而也可能成为逃离现在的方式。"
+  ],
+  "role-v21-berenger": [
+    "多数人的选择不断改变正常的标准，使怀疑自己变得容易。他并不拥有始终坚定的姿态，抵抗也因此带着真实的软弱。独自留下既是一种坚持，也是一种必须承受的失去。",
+    "排演时可以让贝兰杰短暂模仿周围已经改变的声音，再因不适重新寻找自己的说法。拒绝便保留了动摇的过程，独自坚持也不必被演成从未受过诱惑的姿态。"
+  ],
+  "role-v21-phedre": [
+    "禁忌使愿望在承认之前就受到审判。身份给予她力量，却不能让她安全地使用这力量。嫉妒、谎言与悔意相互追赶，伤害总比澄清更早抵达。语言在她身上同时成为坦白的可能与毁灭的工具。",
+    "排演时可以让费德尔每次欲言又止都针对眼前听者作出选择，而不是把停顿处理成同一种羞怯。秘密的重量会因谁正在倾听而改变，她对语言的恐惧才与具体权力关系相连。"
+  ],
+  "v23-role-heisenberg": [
+    "战争使一次师友会面背负了超出私人谈话的后果，熟悉的称呼也不能保证双方仍在谈同一件事。这个戏剧人物对措辞的修订值得细听：他是在让意思更准确，还是在让自己的责任更难被指出。"
+  ],
+  "v23-role-woyzeck": [
+    "沃伊采克的身体既要挣钱，也被他人当作可以命令和检验的对象，贫困因此直接进入动作与感知。把玛丽看成最后的依靠并不能解除这种压迫，反而让亲密关系承受了它无法独自解决的全部重量。"
+  ]
+};
+const highStarSourceDataV40 = {
+  "place-elsinore": [
+    {
+      "title": "Folger《哈姆雷特》原文及分场说明",
+      "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/"
+    },
+    {
+      "title": "克伦堡官方：哈姆雷特与艾尔西诺",
+      "url": "https://kronborg.dk/en/knowledge/who-is-hamlet"
+    }
+  ],
+  "yplace-globe": [
+    {
+      "title": "莎士比亚环球剧场：建筑与重建历史",
+      "url": "https://www.shakespearesglobe.com/discover/about-us/globe-theatre/"
+    }
+  ],
+  "style-stan": [
+    {
+      "title": "西澳课程与标准局：斯坦尼斯拉夫斯基的表演方法",
+      "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+    }
+  ]
+};
+
+function highStarSentencesV40(text) {
+  return (String(text || '').match(/[^。！？!?]+(?:[。！？!?]+[”’」』）)]*|$)/g) || []).map(sentence => sentence.trim()).filter(Boolean);
+}
+
+function highStarNotesV40(card) {
+  if (!card || !['SSR', 'UR', 'LR'].includes(card.rarity)) return [];
+  const known = new Set([...highStarSentencesV40(card.note || card.blurb), ...highStarSentencesV40(card.observe || card.why)]);
+  const stored = highStarCopyV40[card.id];
+  const legacy = typeof cardEssays === 'undefined' ? '' : cardEssays[card.id];
+  return (stored || (legacy ? [legacy] : [])).map(paragraph => highStarSentencesV40(paragraph).filter(sentence => {
+    if (known.has(sentence)) return false;
+    known.add(sentence);
+    return true;
+  }).join('')).filter(Boolean);
+}
+
+function highStarSourcesV40(card) {
+  return (highStarSourceDataV40[card?.id] || []).map(source => ({ ...source }));
+}
+
+if (typeof module !== 'undefined' && module.exports) module.exports = { highStarNotesV40, highStarSourcesV40, highStarSentencesV40 };
+
+function statDisclosureV40(card){
+  const review=statRationaleV40(card);
+  return `<details class="stat-rationale"><summary>评分依据 <span>为什么是这个分数</span></summary>
+    <p class="stat-summary">${K(review.summary)}</p>
+    ${['atk','def'].map(axis=>`<p class="stat-reason stat-${axis}"><b>${axis.toUpperCase()} ${K(review[axis].label)} · ${review[axis].value}</b>${K(review[axis].reason)}</p>`).join('')}
+    ${review.sources.length?`<p class="stat-sources">资料：${review.sources.map(source=>`<a href="${K(source.url)}" target="_blank" rel="noopener noreferrer">${K(source.title)}</a>`).join('；')}</p>`:''}
+    <p class="stat-note">${K(review.note)}</p>
+  </details>`;
+}
+
+function xn(card){
+  const high=['SSR','UR','LR'].includes(card.rarity);
+  const notes=high&&typeof highStarNotesV40==='function'?highStarNotesV40(card):[cardEssays[card.id]||''];
+  const sources=highStarSourcesV40(card);
+  return `<article class="official">
+    <h3>戏剧小注</h3>${roleSourceLine(card)}<p>${K(card.note)}</p>
+    <p><b>看点：</b>${K(card.observe)}</p>
+    ${notes.filter(Boolean).map(text=>`<p class="card-essay">${K(text)}</p>`).join('')}
+    ${sources.length?`<p class="card-sources">阅读参考：${sources.map(source=>`<a href="${K(source.url)}" target="_blank" rel="noopener noreferrer">${K(source.title)}</a>`).join('；')}</p>`:''}
+    <details class="rehearsal-note"><summary>排演参考（可选）</summary><p>${K(card.stage)}</p></details>
+  </article>`;
+}
+
+/* The same cast responds on the six-card table and the programme. */
+let productionMotionV40=null;
+
+function productionCardsV40(){
+  return Y.view==='result'?Y.drawn:Y.view==='pack'&&Y.booster?.phase==='spread'&&Y.pack==='mix'?Y.booster.cards:[];
+}
+function motionReducedV40(){return matchMedia('(prefers-reduced-motion: reduce)').matches;}
+function stopProductionV40(){
+  talkClear();
+  if(!productionMotionV40)return;
+  productionMotionV40.observer?.disconnect();
+  productionMotionV40.animations.forEach(animation=>animation.cancel());
+  if(productionMotionV40.frame)cancelAnimationFrame(productionMotionV40.frame);
+  productionMotionV40=null;
+}
+function animateProductionV40(element,frames,options){
+  if(!element?.animate||motionReducedV40())return;
+  const animation=element.animate(frames,options);
+  productionMotionV40?.animations.push(animation);
+  return animation;
+}
+function countProductionV40(from,to,duration=460){
+  const state=productionMotionV40,element=state?.scoreElement;
+  if(!element)return;
+  if(state.frame)cancelAnimationFrame(state.frame);
+  if(motionReducedV40()){element.textContent=String(to);return;}
+  const start=performance.now();
+  const tick=now=>{
+    if(productionMotionV40!==state||!element.isConnected)return;
+    const progress=Math.min(1,(now-start)/duration);
+    element.textContent=String(Math.round(from+(to-from)*(1-Math.pow(1-progress,3))));
+    if(progress<1)state.frame=requestAnimationFrame(tick);
+    else state.frame=0;
+  };
+  state.frame=requestAnimationFrame(tick);
+}
+function clearCueV40(screen){
+  screen.querySelectorAll('.is-cue-card').forEach(card=>{card.classList.remove('is-cue-card','is-cue-bond');card.style.removeProperty('--cue-color');});
+  screen.querySelectorAll('[data-production-cue]').forEach(button=>{button.classList.remove('is-cue-active');button.setAttribute('aria-pressed','false');});
+}
+function showProductionCueV40(cue,{replay=false}={}){
+  const state=productionMotionV40;if(!state)return;
+  const screen=state.screen;clearCueV40(screen);
+  const buttons=[...screen.querySelectorAll('[data-production-cue]')].filter(button=>button.dataset.productionCue===cue.id);
+  const color=buttons.length?getComputedStyle(buttons[0]).getPropertyValue('--cue-color').trim()||'#9c2f2f':'#9c2f2f';
+  buttons.forEach(button=>{button.classList.add('is-cue-active');button.setAttribute('aria-pressed','true');});
+  const selected=[...screen.querySelectorAll('.cast-mini,.spread-card')].filter(card=>cue.cardIds.includes(card.dataset.id));
+  selected.forEach((card,index)=>{
+    card.style.setProperty('--cue-color',color);
+    card.classList.add('is-cue-card');card.classList.toggle('is-cue-bond',cue.kind==='bond');
+    animateProductionV40(card,[{transform:'translateY(0) scale(1)'},{transform:'translateY(-7px) scale(1.045)'},{transform:'translateY(-3px) scale(1.025)'}],{duration:560,delay:index*45,easing:'cubic-bezier(.16,1,.3,1)'});
+  });
+  const status=screen.querySelector('.production-cue-status');
+  if(status){status.textContent=`${cue.title} · ${cue.cardIds.map(id=>state.cards.find(card=>card.id===id).name).join(' × ')}${cue.points?' · +'+cue.points:''}`;status.style.setProperty('--cue-color',color);}
+  if(replay){
+    const row=screen.querySelector('.cast-row,.pack-spread');
+    if(row){const box=row.getBoundingClientRect();if(box.top<0||box.bottom>innerHeight)row.scrollIntoView({behavior:motionReducedV40()?'instant':'smooth',block:'center'});}
+  }
+}
+function finishProductionV40(){
+  const state=productionMotionV40;if(!state)return;
+  talkClear();
+  if(state.frame)cancelAnimationFrame(state.frame);
+  if(state.scoreElement)state.scoreElement.textContent=String(state.result.score);
+  state.automatic=false;
+  if(state.screen.classList.contains('result-screen')){paintRadar(null,1);hexFinish();}
+  markTalkSeen(state.key);
+}
+function replayProductionCueV40(id){
+  const state=productionMotionV40;if(!state)return;
+  finishProductionV40();
+  const cue=state.cues.find(item=>item.id===id);
+  if(cue)showProductionCueV40(cue,{replay:true});
+}
+function revealTalkV40(screen){
+  const state=productionMotionV40;
+  if(motionReducedV40())return;
+  const reveal=container=>{
+    if(container.dataset.revealedV40)return;
+    container.dataset.revealedV40='true';
+    const paragraphs=[screen.querySelector('.verdict'),...container.querySelectorAll('[data-talk-reveal]')].filter(node=>node&&!node.closest('[hidden]'));
+    let beat=0;
+    paragraphs.forEach(node=>{
+      const parts=node.textContent.match(/[^。！？；]+[。！？；]?/g)||[node.textContent];
+      node.innerHTML=parts.map(text=>`<span class="talk-beat">${K(text)}</span>`).join('');
+      node.querySelectorAll('.talk-beat').forEach(span=>{
+        animateProductionV40(span,[{opacity:.12},{opacity:1}],{duration:560,delay:Math.min(beat++*95,1400),fill:'backwards',easing:'ease-out'});
+      });
+    });
+  };
+  const talk=screen.querySelector('.talk');if(!talk)return;
+  if(typeof IntersectionObserver==='undefined'){reveal(talk);return;}
+  state.observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){reveal(entry.target);state.observer.unobserve(entry.target);}});},{threshold:.08});
+  state.observer.observe(talk);
+}
+function enterProductionV40(){
+  const cards=productionCardsV40();if(![5,6].includes(cards.length))return;
+  const screen=document.querySelector('.result-screen,.pull-screen.is-spread');if(!screen)return;
+  const result=productionScore(cards),key='v40:'+w(cards)+':'+(Y.view==='result'?'talk':'table');
+  const cues=productionCuesV40(result,cards),scoreElement=screen.querySelector('.show-score b,.spread-score');
+  productionMotionV40={screen,cards,result,key,cues,scoreElement,animations:[],frame:0,automatic:false};
+  screen.querySelectorAll('[data-production-cue]').forEach(button=>button.setAttribute('aria-pressed','false'));
+  revealTalkV40(screen);
+  const complete=Y.sheet||hasTalkSeen(key)||motionReducedV40();
+  if(complete){if(scoreElement)scoreElement.textContent=String(result.score);return;}
+  productionMotionV40.automatic=true;
+  screen.addEventListener('click',()=>{if(productionMotionV40?.automatic)finishProductionV40();},{once:true,capture:true});
+  if(scoreElement)scoreElement.textContent=String(result.base);
+  const minis=[...screen.querySelectorAll('.cast-mini,.spread-card')];
+  minis.forEach((card,index)=>animateProductionV40(card,[{opacity:.3,transform:'translateY(7px)'},{opacity:1,transform:'none'}],{duration:380,delay:index*70,fill:'backwards'}));
+  if(screen.classList.contains('result-screen')){
+    hexBuildStart(false);
+    minis.forEach((card,index)=>talkLater(()=>{const axis=[...screen.querySelectorAll('.hex-corner')].findIndex(node=>node.dataset.id===card.dataset.id);hexLight(axis<0?index:axis);},index*70));
+    talkLater(hexStar,600);
+  }
+  let current=result.base;
+  const state=productionMotionV40;
+  cues.forEach((cue,index)=>talkLater(()=>{
+    if(productionMotionV40!==state)return;
+    showProductionCueV40(cue);countProductionV40(current,current+cue.points);current+=cue.points;
+  },720+index*820));
+  talkLater(()=>{if(productionMotionV40===state){finishProductionV40();clearCueV40(screen);}},720+cues.length*820);
+}
+function spreadReviewV40(cards){
+  const result=productionScore(cards);
+  return `<div class="spread-review"><p class="spread-score-line">这台 <b class="spread-score" aria-label="本场分数">${result.score}</b></p>${scoreBreakdown(result,cards,true)}</div>`;
+}
+function An(cards,open=false){
+  const paragraphs=nn(cards).map(text=>`<p data-talk-reveal>${K(text)}</p>`).join('');
+  const sources=typeof talkSourcesV40==='function'?talkSourcesV40(cards):'';
+  return `<section class="talk" aria-label="演后谈">
+    <h2 data-talk-reveal>演后谈</h2>
+    <div class="talk-short"${open?' hidden':''}><p data-talk-reveal>${K(shortScene(cards))}</p></div>
+    <div class="talk-full"${open?'':' hidden'}>${paragraphs}</div>
+    <button type="button" class="text-btn talk-toggle" data-action="expand-talk" aria-expanded="${open}">${open?'收起全文':'展开这场戏'}</button>
+    ${sources?`<p class="talk-sources" data-talk-reveal>${K(sources)}</p>`:''}
+  </section>`;
+}
+
+// V40_RUNTIME_END
+Zn.addEventListener(`click`,Tr),Er()})();</script>
 </body>
 </html>

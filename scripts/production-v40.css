@@ -1,0 +1,57 @@
+/* Colour follows the card's rarity; text keeps readable ink on a tinted paper strip. */
+.production-review{--cue-color:#9c2f2f;border:0;padding:14px 0 18px;text-align:center}
+.production-review .rarity-C{--cue-color:#8b8175;--cue-wash:#eee8df}
+.production-review .rarity-UC{--cue-color:#b45e29;--cue-wash:#fae6d4}
+.production-review .rarity-R{--cue-color:#1f8a4c;--cue-wash:#e7f6ec}
+.production-review .rarity-SR{--cue-color:#2a6fdb;--cue-wash:#e7f0ff}
+.production-review .rarity-SSR{--cue-color:#7a3ff0;--cue-wash:#f3e9ff}
+.production-review .rarity-UR{--cue-color:#c6a15a;--cue-wash:#f8efd4}
+.production-review .rarity-LR{--cue-color:#ad5776;--cue-wash:#f7e8ed}
+.production-crew-title{margin:0 0 6px;font-size:clamp(23px,4.8vw,32px);font-family:var(--serif)}
+.production-crew{font:inherit;font-weight:700;color:var(--ink);background:var(--cue-wash);border:0;border-bottom:4px solid var(--cue-color);padding:4px 18px 7px;cursor:pointer;transition:transform .2s ease}
+.production-crew.rarity-LR{border-image:linear-gradient(90deg,#cd557f,#c6a15a,#638bb7) 1}
+.production-crew-description{margin:9px 0 14px;color:var(--ink-soft);font-size:14px;line-height:1.6}
+.production-cues{display:flex;justify-content:center;flex-wrap:wrap;gap:7px;list-style:none;padding:0;margin:0}
+.production-cues li{margin:0;padding:0;max-width:100%}
+.production-cue{--cue-color:#9c2f2f;color:var(--ink);background:transparent;border:1px solid #c9beae;border-radius:4px;font:inherit;line-height:1.5;padding:7px 12px;cursor:pointer;max-width:100%;transition:background .18s ease,border-color .18s ease}
+.production-cue strong{font-size:14px;font-weight:600;border-bottom:2px solid var(--cue-color);padding-bottom:2px}
+.production-cue>span:not(.cue-value){display:none;font-size:13px;line-height:1.65;margin-top:8px;max-width:36em}
+.production-cue.is-cue-active{background:var(--cue-wash,#f3e6de);border-color:var(--cue-color)}
+.production-cue.is-cue-active>span:not(.cue-value){display:block}
+.production-cue .cue-value{font-size:13px;margin-left:8px;color:var(--ink)}
+.production-crew:focus-visible,.production-cue:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+.production-cue-status{min-height:1.7em;margin:10px 0 0;color:var(--ink-soft);font-size:12px;line-height:1.7;text-align:center}
+.cast-row,.pack-spread{position:relative;isolation:isolate}
+.cast-mini.is-cue-card,.spread-card.is-cue-card{position:relative;z-index:3;outline:3px solid var(--cue-color);outline-offset:3px;animation:none!important;transform:translateY(-3px) scale(1.045);transition:outline-color .2s ease,transform .2s ease}
+.cast-mini.is-cue-bond,.spread-card.is-cue-bond{outline-style:double;outline-width:5px}
+.spread-review{padding:14px 0 4px}
+.spread-score-line{margin:0;text-align:center;font-size:14px;color:var(--ink-soft)}
+.spread-score{font-size:38px;font-family:var(--serif);font-variant-numeric:tabular-nums;font-weight:650;color:var(--ink);margin-left:6px}
+.spread-review .production-review{padding:4px 0 12px}.spread-review .production-crew-title{font-size:23px}.spread-review .production-crew-description{display:none}
+.spread-review .production-cues{margin-top:12px}
+.talk-full p,.talk-short p{line-height:1.95;text-wrap:pretty}.talk-beat{opacity:1}
+.talk-sources{font-size:12px!important;line-height:1.7!important;color:var(--ink-soft);margin-top:18px!important}
+.talk [hidden]{display:none!important}
+.talk-toggle{margin-top:12px}
+.result-screen .verdict{font-size:clamp(24px,5vw,34px);line-height:1.5;text-wrap:balance;margin:24px 0 18px}
+.result-screen .production-review{border-bottom:1px solid var(--line)}
+.poster-static .is-cue-card{outline:0!important;transform:none!important}
+.poster-static .production-cue>span:not(.cue-value){display:block}
+.poster-static .production-cue-status{display:none}
+.card.rarity-UC,.cast-card.rarity-UC{border-color:#b45e29}
+.cast-mini.rarity-UC,.trade-card.rarity-UC,.dealt-row button.rarity-UC{background:#fae6d4;border-color:#b45e29}
+.rarity-UC .art-badge,.art-grade.rarity-UC,.seal.rarity-UC{color:#7c3816;background:#fae6d4;border-color:#b45e29}
+.rarity-call.rarity-UC{color:#a24d1e}
+.flip.is-charging.rarity-UC{box-shadow:0 0 0 6px #b45e2940}
+.pack-zone .flip.rarity-UC{--stage-ink:#b45e29;--stage-wash:#b45e292e}
+.trade-card.rarity-UC .art-badge{color:#7c3816!important;background:#fae6d4!important}.trade-card.rarity-UC .seal-word{color:#7c3816}
+.score-explanation .production-crew-title{font-size:clamp(23px,4.8vw,32px);margin:0 0 6px}
+.score-explanation .production-cues{padding:0}
+.rates-table-scroll{overflow-x:auto}.rates-table-scroll table{min-width:480px}.rates-table-scroll caption{text-align:left;margin-bottom:8px}
+.stat-rationale{margin:16px 0 22px;padding:0 14px;border:1px solid var(--line);border-radius:4px}
+.stat-rationale summary{cursor:pointer;padding:12px 0;font-weight:600}.stat-rationale summary span{font-weight:400;color:var(--ink-soft);font-size:12px;margin-left:8px}
+.stat-rationale p{font-size:14px;line-height:1.75}.stat-reason b{display:block;margin-bottom:5px}.stat-atk b{color:#a32e30}.stat-def b{color:#087a78}
+.stat-rationale .stat-note,.stat-rationale .stat-sources{font-size:12px;color:var(--ink-soft)}.stat-sources a{color:inherit;text-underline-offset:3px}
+.official .card-sources{font-size:12px;line-height:1.6;color:var(--ink-soft)}.card-sources a{color:inherit;text-underline-offset:3px}
+@media(max-width:520px){.production-review{padding:10px 0 15px}.production-cue{padding:6px 9px}.production-cue-status{font-size:11px}.spread-review{padding-top:10px}}
+@media(prefers-reduced-motion:reduce){.cast-mini.is-cue-card,.spread-card.is-cue-card{transform:none;transition:none}.production-crew,.production-cue{transition:none}}

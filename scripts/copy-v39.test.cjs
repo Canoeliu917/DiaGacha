@@ -54,7 +54,7 @@ test('500张卡均能生成完整排演文本，旧五卡不补配角，输入�
     assert.deepEqual(talk.nn([...drawn].reverse()), paragraphs);
     for (const role of drawn.filter(item => ['主演', '配角'].includes(item.dimension))) {
       assert.ok(role.sourcePlayLabel, role.id);
-      assert.ok(paragraphs[1].includes(`（出自 ${role.sourcePlayLabel}）`), role.id);
+      assert.ok(talk.talkSourcesV40(drawn).includes(`${role.name}：${role.sourcePlayLabel}`), role.id);
     }
     for (const text of [...paragraphs, talk.shortScene(drawn)]) {
       assert.doesNotMatch(text, /undefined|\[object Object\]|收回到。|。{2}|排演可试：排演时/);
@@ -64,7 +64,7 @@ test('500张卡均能生成完整排演文本，旧五卡不补配角，输入�
   const legacy = base.filter(card => card.dimension !== '配角');
   assert.deepEqual(talk.fiveTalk(legacy), talk.nn(legacy));
   assert.doesNotMatch(talk.nn(legacy)[1], /配角/);
-  assert.ok(talk.nn(legacy)[1].includes(talk.copySentenceV39(legacy.find(card => card.dimension === '主演').note)));
+  assert.match(talk.nn(legacy)[0], /独演/);
 });
 
 test('同名不同作品不编造原作关系，长句保留完整且不会用字数补套话', () => {
@@ -75,7 +75,7 @@ test('同名不同作品不编造原作关系，长句保留完整且不会用�
   }));
   assert.doesNotMatch(talk.nn(drawn)[1], /已确认的同作关系/);
   drawn[4].workIds = [...drawn[3].workIds];
-  assert.match(talk.nn(drawn)[1], /已确认的同作关系/);
+  assert.doesNotMatch(talk.nn(drawn)[1], /已确认的同作关系/);
   const longSentence = '这个决定需要等待对方回答'.repeat(30) + '。';
   assert.equal(talk.copySentenceV39(longSentence), longSentence);
   assert.equal(talk.copySentenceV39('一句完整的问话？'), '一句完整的问话？');

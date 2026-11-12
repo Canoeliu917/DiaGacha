@@ -389,8 +389,8 @@ const scoreHistogram = {};
 for (const score of scores) scoreHistogram[String(score)] = (scoreHistogram[String(score)] || 0) + 1;
 const toPercentages = counts => Object.fromEntries(Object.entries(counts).map(([key, count]) => [key, percent(count)]));
 const report = {
-  version: 'v39', seed, sampleSize, simulatedDate: '2026-11-12',
-  formula: 'clamp(0,100,round(weightedMean) + resonance + bonds)；基础分四舍五入，同星使用整数表且最多7、羁绊最多8；保留原出率',
+  version: 'v40', seed, sampleSize, simulatedDate: '2026-11-12',
+  formula: 'clamp(0,100,round(weightedMean) + resonance + bonds)；基础分四舍五入，同星使用整数表且最多7、羁绊最多8；普通五星10%、六星5%',
   htmlSha256: crypto.createHash('sha256').update(html).digest('hex'),
   scope: {
     source: '实际 index.html 内嵌闭包；仅替换末尾 UI 启动为测试导出',
