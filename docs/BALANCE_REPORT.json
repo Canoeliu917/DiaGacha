@@ -1,0 +1,1155 @@
+{
+  "version": "v38",
+  "seed": 20261112,
+  "sampleSize": 100000,
+  "simulatedDate": "2026-11-12",
+  "formula": "round1(clamp(0,100,weightedMean + resonance + bonds))；基础分全额计入，同色最多7、羁绊最多8；保留原出率",
+  "htmlSha256": "dd695a888e07766cc6c5923b82e0c3ca3efd33dd4b43d1aa05a787d55b7ed1fd",
+  "scope": {
+    "source": "实际 index.html 内嵌闭包；仅替换末尾 UI 启动为测试导出",
+    "generator": "drawMixPack(e, seededRandom)",
+    "scorer": "Xt(cards).scoring",
+    "includesHardPity": true,
+    "includesDailyGift": false,
+    "includesCollectionRewardChoice": false,
+    "simulationOnly": true,
+    "elapsedSeconds": 12.21
+  },
+  "checks": {
+    "passed": 10,
+    "names": [
+      "777 张卡的 ID、编号唯一且 docs/cards.json 与运行时评分一致",
+      "单卡不因稀有度或 fame 重复加分，且两轴提升单调不降",
+      "各维缺档按实际 ee() 回退统计，不伪造七档齐全",
+      "真实旧五卡与现六卡分享链接可往返解析并计分",
+      "真实俄狄浦斯主角同作，以及已确认的哈姆雷特配角和空间羁绊",
+      "实际卡池可组成的全同档六卡得到正确共鸣，重复卡不能刷分",
+      "旧收藏 ID 存档保持可读，新增收藏不清空旧收藏",
+      "真实综合包在连续未出货30/60包阈值触发保底，自然高档重置计数",
+      "每维同档使用等宽随机区间抽取，单维六连不重复",
+      "真实卡池三张UR/LR加三张C/UC不保证90分，覆盖全部20种维度分配"
+    ]
+  },
+  "cardCount": 777,
+  "rarityCounts": {
+    "C": 26,
+    "UC": 116,
+    "R": 178,
+    "SR": 203,
+    "SSR": 150,
+    "UR": 71,
+    "LR": 33
+  },
+  "dimensionCounts": {
+    "剧目": {
+      "C": 0,
+      "UC": 2,
+      "R": 17,
+      "SR": 34,
+      "SSR": 43,
+      "UR": 19,
+      "LR": 13
+    },
+    "风格体系": {
+      "C": 2,
+      "UC": 25,
+      "R": 29,
+      "SR": 44,
+      "SSR": 23,
+      "UR": 4,
+      "LR": 1
+    },
+    "导演手法": {
+      "C": 8,
+      "UC": 41,
+      "R": 42,
+      "SR": 27,
+      "SSR": 7,
+      "UR": 3,
+      "LR": 0
+    },
+    "主演": {
+      "C": 1,
+      "UC": 3,
+      "R": 16,
+      "SR": 37,
+      "SSR": 35,
+      "UR": 22,
+      "LR": 14
+    },
+    "配角": {
+      "C": 6,
+      "UC": 12,
+      "R": 26,
+      "SR": 28,
+      "SSR": 37,
+      "UR": 20,
+      "LR": 3
+    },
+    "环境": {
+      "C": 9,
+      "UC": 33,
+      "R": 48,
+      "SR": 33,
+      "SSR": 5,
+      "UR": 3,
+      "LR": 2
+    }
+  },
+  "requestedBaseRatesPercent": {
+    "C": 22,
+    "UC": 26,
+    "R": 26,
+    "SR": 15,
+    "SSR": 7,
+    "UR": 3,
+    "LR": 1
+  },
+  "missingTiers": [
+    {
+      "dimension": "剧目",
+      "requested": "C",
+      "actual": "UC",
+      "probabilityPercent": 22
+    },
+    {
+      "dimension": "导演手法",
+      "requested": "LR",
+      "actual": "UR",
+      "probabilityPercent": 1
+    }
+  ],
+  "effectiveBaseRatesPercent": {
+    "剧目": {
+      "C": 0,
+      "UC": 48,
+      "R": 26,
+      "SR": 15,
+      "SSR": 7,
+      "UR": 3,
+      "LR": 1
+    },
+    "风格体系": {
+      "C": 22,
+      "UC": 26,
+      "R": 26,
+      "SR": 15,
+      "SSR": 7,
+      "UR": 3,
+      "LR": 1
+    },
+    "导演手法": {
+      "C": 22,
+      "UC": 26,
+      "R": 26,
+      "SR": 15,
+      "SSR": 7,
+      "UR": 4,
+      "LR": 0
+    },
+    "主演": {
+      "C": 22,
+      "UC": 26,
+      "R": 26,
+      "SR": 15,
+      "SSR": 7,
+      "UR": 3,
+      "LR": 1
+    },
+    "配角": {
+      "C": 22,
+      "UC": 26,
+      "R": 26,
+      "SR": 15,
+      "SSR": 7,
+      "UR": 3,
+      "LR": 1
+    },
+    "环境": {
+      "C": 22,
+      "UC": 26,
+      "R": 26,
+      "SR": 15,
+      "SSR": 7,
+      "UR": 3,
+      "LR": 1
+    }
+  },
+  "score": {
+    "mean": 72.7338,
+    "p10": 68,
+    "p50": 72.6,
+    "p90": 77.6,
+    "atLeast80Percent": 3.317,
+    "atLeast90Percent": 0.001,
+    "capped100Percent": 0,
+    "minimum": 59.5,
+    "maximum": 92.1,
+    "histogram": {
+      "59.5": 1,
+      "60.0": 2,
+      "60.7": 2,
+      "60.9": 1,
+      "61.1": 3,
+      "61.2": 1,
+      "61.3": 1,
+      "61.4": 3,
+      "61.5": 5,
+      "61.6": 2,
+      "61.7": 6,
+      "61.8": 8,
+      "61.9": 5,
+      "62.0": 2,
+      "62.1": 11,
+      "62.2": 8,
+      "62.3": 6,
+      "62.4": 18,
+      "62.5": 10,
+      "62.6": 15,
+      "62.7": 22,
+      "62.8": 25,
+      "62.9": 17,
+      "63.0": 18,
+      "63.1": 20,
+      "63.2": 27,
+      "63.3": 28,
+      "63.4": 36,
+      "63.5": 29,
+      "63.6": 37,
+      "63.7": 45,
+      "63.8": 40,
+      "63.9": 59,
+      "64.0": 54,
+      "64.1": 59,
+      "64.2": 60,
+      "64.3": 74,
+      "64.4": 62,
+      "64.5": 84,
+      "64.6": 97,
+      "64.7": 79,
+      "64.8": 87,
+      "64.9": 103,
+      "65.0": 109,
+      "65.1": 118,
+      "65.2": 116,
+      "65.3": 142,
+      "65.4": 154,
+      "65.5": 162,
+      "65.6": 169,
+      "65.7": 172,
+      "65.8": 184,
+      "65.9": 205,
+      "66.0": 196,
+      "66.1": 261,
+      "66.2": 238,
+      "66.3": 291,
+      "66.4": 253,
+      "66.5": 296,
+      "66.6": 306,
+      "66.7": 276,
+      "66.8": 360,
+      "66.9": 343,
+      "67.0": 330,
+      "67.1": 368,
+      "67.2": 352,
+      "67.3": 407,
+      "67.4": 426,
+      "67.5": 401,
+      "67.6": 486,
+      "67.7": 466,
+      "67.8": 452,
+      "67.9": 501,
+      "68.0": 485,
+      "68.1": 555,
+      "68.2": 561,
+      "68.3": 598,
+      "68.4": 656,
+      "68.5": 561,
+      "68.6": 613,
+      "68.7": 626,
+      "68.8": 633,
+      "68.9": 712,
+      "69.0": 682,
+      "69.1": 738,
+      "69.2": 739,
+      "69.3": 724,
+      "69.4": 822,
+      "69.5": 763,
+      "69.6": 850,
+      "69.7": 764,
+      "69.8": 799,
+      "69.9": 873,
+      "70.0": 811,
+      "70.1": 958,
+      "70.2": 865,
+      "70.3": 940,
+      "70.4": 1011,
+      "70.5": 911,
+      "70.6": 993,
+      "70.7": 965,
+      "70.8": 968,
+      "70.9": 977,
+      "71.0": 944,
+      "71.1": 1036,
+      "71.2": 990,
+      "71.3": 1008,
+      "71.4": 1008,
+      "71.5": 1022,
+      "71.6": 1026,
+      "71.7": 969,
+      "71.8": 1002,
+      "71.9": 1020,
+      "72.0": 1059,
+      "72.1": 1125,
+      "72.2": 1054,
+      "72.3": 1084,
+      "72.4": 1010,
+      "72.5": 1069,
+      "72.6": 1086,
+      "72.7": 1052,
+      "72.8": 1014,
+      "72.9": 1046,
+      "73.0": 988,
+      "73.1": 1036,
+      "73.2": 1065,
+      "73.3": 1056,
+      "73.4": 1044,
+      "73.5": 1012,
+      "73.6": 1062,
+      "73.7": 1043,
+      "73.8": 954,
+      "73.9": 928,
+      "74.0": 924,
+      "74.1": 999,
+      "74.2": 905,
+      "74.3": 943,
+      "74.4": 928,
+      "74.5": 884,
+      "74.6": 958,
+      "74.7": 839,
+      "74.8": 806,
+      "74.9": 919,
+      "75.0": 824,
+      "75.1": 851,
+      "75.2": 792,
+      "75.3": 773,
+      "75.4": 757,
+      "75.5": 731,
+      "75.6": 753,
+      "75.7": 743,
+      "75.8": 692,
+      "75.9": 751,
+      "76.0": 709,
+      "76.1": 663,
+      "76.2": 620,
+      "76.3": 588,
+      "76.4": 673,
+      "76.5": 617,
+      "76.6": 574,
+      "76.7": 556,
+      "76.8": 554,
+      "76.9": 527,
+      "77.0": 512,
+      "77.1": 563,
+      "77.2": 496,
+      "77.3": 476,
+      "77.4": 466,
+      "77.5": 459,
+      "77.6": 466,
+      "77.7": 396,
+      "77.8": 417,
+      "77.9": 382,
+      "78.0": 333,
+      "78.1": 386,
+      "78.2": 344,
+      "78.3": 352,
+      "78.4": 345,
+      "78.5": 331,
+      "78.6": 309,
+      "78.7": 309,
+      "78.8": 298,
+      "78.9": 277,
+      "79.0": 259,
+      "79.1": 247,
+      "79.2": 211,
+      "79.3": 245,
+      "79.4": 209,
+      "79.5": 214,
+      "79.6": 205,
+      "79.7": 176,
+      "79.8": 175,
+      "79.9": 195,
+      "80.0": 187,
+      "80.1": 170,
+      "80.2": 155,
+      "80.3": 139,
+      "80.4": 139,
+      "80.5": 130,
+      "80.6": 137,
+      "80.7": 136,
+      "80.8": 137,
+      "80.9": 125,
+      "81.0": 101,
+      "81.1": 107,
+      "81.2": 86,
+      "81.3": 91,
+      "81.4": 81,
+      "81.5": 83,
+      "81.6": 79,
+      "81.7": 80,
+      "81.8": 79,
+      "81.9": 78,
+      "82.0": 58,
+      "82.1": 46,
+      "82.2": 47,
+      "82.3": 46,
+      "82.4": 55,
+      "82.5": 45,
+      "82.6": 43,
+      "82.7": 41,
+      "82.8": 45,
+      "82.9": 31,
+      "83.0": 33,
+      "83.1": 37,
+      "83.2": 36,
+      "83.3": 37,
+      "83.4": 20,
+      "83.5": 24,
+      "83.6": 27,
+      "83.7": 25,
+      "83.8": 18,
+      "83.9": 21,
+      "84.0": 13,
+      "84.1": 14,
+      "84.2": 16,
+      "84.3": 31,
+      "84.4": 11,
+      "84.5": 12,
+      "84.6": 11,
+      "84.7": 12,
+      "84.8": 6,
+      "84.9": 16,
+      "85.0": 6,
+      "85.1": 6,
+      "85.2": 8,
+      "85.3": 9,
+      "85.4": 4,
+      "85.5": 6,
+      "85.6": 4,
+      "85.7": 10,
+      "85.8": 8,
+      "85.9": 6,
+      "86.0": 2,
+      "86.1": 4,
+      "86.2": 9,
+      "86.3": 1,
+      "86.4": 3,
+      "86.5": 5,
+      "86.6": 3,
+      "86.8": 4,
+      "86.9": 4,
+      "87.0": 2,
+      "87.1": 2,
+      "87.2": 3,
+      "87.3": 1,
+      "87.6": 2,
+      "87.9": 2,
+      "88.0": 1,
+      "88.1": 1,
+      "88.7": 1,
+      "88.9": 1,
+      "89.1": 1,
+      "92.1": 1
+    }
+  },
+  "packRarity": {
+    "atLeastSSRPercent": 50.312,
+    "atLeastURPercent": 21.798,
+    "atLeastLRPercent": 4.968
+  },
+  "actualRarityCountsByDimension": {
+    "剧目": {
+      "C": 0,
+      "UC": 48098,
+      "R": 26072,
+      "SR": 14887,
+      "SSR": 6871,
+      "UR": 3098,
+      "LR": 974
+    },
+    "风格体系": {
+      "C": 21973,
+      "UC": 26261,
+      "R": 25970,
+      "SR": 14865,
+      "SSR": 6863,
+      "UR": 3066,
+      "LR": 1002
+    },
+    "导演手法": {
+      "C": 22020,
+      "UC": 25794,
+      "R": 25961,
+      "SR": 15077,
+      "SSR": 7124,
+      "UR": 4024,
+      "LR": 0
+    },
+    "主演": {
+      "C": 21811,
+      "UC": 26076,
+      "R": 26192,
+      "SR": 14910,
+      "SSR": 7020,
+      "UR": 2955,
+      "LR": 1036
+    },
+    "配角": {
+      "C": 21948,
+      "UC": 25983,
+      "R": 26052,
+      "SR": 15016,
+      "SSR": 7033,
+      "UR": 2974,
+      "LR": 994
+    },
+    "环境": {
+      "C": 22064,
+      "UC": 25951,
+      "R": 25769,
+      "SR": 15169,
+      "SSR": 7065,
+      "UR": 2939,
+      "LR": 1043
+    }
+  },
+  "actualRarityPercentByDimension": {
+    "剧目": {
+      "C": 0,
+      "UC": 48.098,
+      "R": 26.072,
+      "SR": 14.887,
+      "SSR": 6.871,
+      "UR": 3.098,
+      "LR": 0.974
+    },
+    "风格体系": {
+      "C": 21.973,
+      "UC": 26.261,
+      "R": 25.97,
+      "SR": 14.865,
+      "SSR": 6.863,
+      "UR": 3.066,
+      "LR": 1.002
+    },
+    "导演手法": {
+      "C": 22.02,
+      "UC": 25.794,
+      "R": 25.961,
+      "SR": 15.077,
+      "SSR": 7.124,
+      "UR": 4.024,
+      "LR": 0
+    },
+    "主演": {
+      "C": 21.811,
+      "UC": 26.076,
+      "R": 26.192,
+      "SR": 14.91,
+      "SSR": 7.02,
+      "UR": 2.955,
+      "LR": 1.036
+    },
+    "配角": {
+      "C": 21.948,
+      "UC": 25.983,
+      "R": 26.052,
+      "SR": 15.016,
+      "SSR": 7.033,
+      "UR": 2.974,
+      "LR": 0.994
+    },
+    "环境": {
+      "C": 22.064,
+      "UC": 25.951,
+      "R": 25.769,
+      "SR": 15.169,
+      "SSR": 7.065,
+      "UR": 2.939,
+      "LR": 1.043
+    }
+  },
+  "bonuses": {
+    "withBondsPercent": 1.576,
+    "meanBonds": 0.029,
+    "bondTriggerPercent": {
+      "play-lead": 0.562,
+      "play-support": 0.185,
+      "lead-support": 0.543,
+      "style-method": 0.283,
+      "play-place": 0.015
+    },
+    "withResonancePercent": 99.504,
+    "meanResonance": 1.2611,
+    "resonanceTriggerPercent": {
+      "C": 30.307,
+      "UC": 57.731,
+      "R": 49.051,
+      "SR": 22.336,
+      "SSR": 6.025,
+      "UR": 1.431,
+      "LR": 0.081
+    }
+  },
+  "fixtures": {
+    "oedipus": {
+      "cards": [
+        {
+          "id": "play-oedipus",
+          "name": "俄狄浦斯王"
+        },
+        {
+          "id": "style-classic",
+          "name": "古典主义"
+        },
+        {
+          "id": "dir-wall",
+          "name": "第四堵墙"
+        },
+        {
+          "id": "role-oedipus",
+          "name": "俄狄浦斯"
+        },
+        {
+          "id": "role2-tiresias",
+          "name": "提瑞西阿斯"
+        },
+        {
+          "id": "place-thebes",
+          "name": "忒拜广场"
+        }
+      ],
+      "scoring": {
+        "score": 91.3,
+        "base": 84.7,
+        "weightedMean": 84.7,
+        "resonance": 3.6,
+        "bonds": 3,
+        "grade": "绝佳",
+        "contributions": [
+          {
+            "cardId": "play-oedipus",
+            "dimension": "剧目",
+            "score": 96,
+            "weight": 0.22,
+            "contribution": 21.12
+          },
+          {
+            "cardId": "style-classic",
+            "dimension": "风格体系",
+            "score": 73,
+            "weight": 0.14,
+            "contribution": 10.22
+          },
+          {
+            "cardId": "dir-wall",
+            "dimension": "导演手法",
+            "score": 64,
+            "weight": 0.16,
+            "contribution": 10.24
+          },
+          {
+            "cardId": "role-oedipus",
+            "dimension": "主演",
+            "score": 94,
+            "weight": 0.2,
+            "contribution": 18.8
+          },
+          {
+            "cardId": "role2-tiresias",
+            "dimension": "配角",
+            "score": 92,
+            "weight": 0.16,
+            "contribution": 14.72
+          },
+          {
+            "cardId": "place-thebes",
+            "dimension": "环境",
+            "score": 80,
+            "weight": 0.12,
+            "contribution": 9.6
+          }
+        ],
+        "resonanceDetails": [
+          {
+            "rarity": "SR",
+            "count": 2,
+            "rate": 0.8,
+            "points": 0.8,
+            "cardIds": [
+              "style-classic",
+              "dir-wall"
+            ]
+          },
+          {
+            "rarity": "LR",
+            "count": 3,
+            "rate": 1.4,
+            "points": 2.8,
+            "cardIds": [
+              "play-oedipus",
+              "role-oedipus",
+              "role2-tiresias"
+            ]
+          }
+        ],
+        "bondDetails": [
+          {
+            "id": "play-lead",
+            "label": "剧目与主角同作",
+            "points": 3,
+            "cardIds": [
+              "play-oedipus",
+              "role-oedipus"
+            ],
+            "workIds": [
+              "play-oedipus"
+            ]
+          }
+        ]
+      }
+    },
+    "hamlet": {
+      "cards": [
+        {
+          "id": "play-hamlet",
+          "name": "哈姆雷特"
+        },
+        {
+          "id": "style-classic",
+          "name": "古典主义"
+        },
+        {
+          "id": "dir-wall",
+          "name": "第四堵墙"
+        },
+        {
+          "id": "role-hamlet",
+          "name": "哈姆雷特"
+        },
+        {
+          "id": "role2-laertes",
+          "name": "莱尔提斯"
+        },
+        {
+          "id": "place-elsinore",
+          "name": "艾尔西诺城堡"
+        }
+      ],
+      "scoring": {
+        "score": 94.6,
+        "base": 84.18,
+        "weightedMean": 84.18,
+        "resonance": 3.4,
+        "bonds": 7,
+        "grade": "绝佳",
+        "contributions": [
+          {
+            "cardId": "play-hamlet",
+            "dimension": "剧目",
+            "score": 94,
+            "weight": 0.22,
+            "contribution": 20.68
+          },
+          {
+            "cardId": "style-classic",
+            "dimension": "风格体系",
+            "score": 73,
+            "weight": 0.14,
+            "contribution": 10.22
+          },
+          {
+            "cardId": "dir-wall",
+            "dimension": "导演手法",
+            "score": 64,
+            "weight": 0.16,
+            "contribution": 10.24
+          },
+          {
+            "cardId": "role-hamlet",
+            "dimension": "主演",
+            "score": 92,
+            "weight": 0.2,
+            "contribution": 18.400000000000002
+          },
+          {
+            "cardId": "role2-laertes",
+            "dimension": "配角",
+            "score": 88,
+            "weight": 0.16,
+            "contribution": 14.08
+          },
+          {
+            "cardId": "place-elsinore",
+            "dimension": "环境",
+            "score": 88,
+            "weight": 0.12,
+            "contribution": 10.559999999999999
+          }
+        ],
+        "resonanceDetails": [
+          {
+            "rarity": "SR",
+            "count": 2,
+            "rate": 0.8,
+            "points": 0.8,
+            "cardIds": [
+              "style-classic",
+              "dir-wall"
+            ]
+          },
+          {
+            "rarity": "UR",
+            "count": 2,
+            "rate": 1.2,
+            "points": 1.2,
+            "cardIds": [
+              "role2-laertes",
+              "place-elsinore"
+            ]
+          },
+          {
+            "rarity": "LR",
+            "count": 2,
+            "rate": 1.4,
+            "points": 1.4,
+            "cardIds": [
+              "play-hamlet",
+              "role-hamlet"
+            ]
+          }
+        ],
+        "bondDetails": [
+          {
+            "id": "play-lead",
+            "label": "剧目与主角同作",
+            "points": 3,
+            "cardIds": [
+              "play-hamlet",
+              "role-hamlet"
+            ],
+            "workIds": [
+              "play-hamlet"
+            ]
+          },
+          {
+            "id": "play-support",
+            "label": "剧目与配角同作",
+            "points": 2,
+            "cardIds": [
+              "play-hamlet",
+              "role2-laertes"
+            ],
+            "workIds": [
+              "play-hamlet"
+            ]
+          },
+          {
+            "id": "lead-support",
+            "label": "主角与配角同作",
+            "points": 1,
+            "cardIds": [
+              "role-hamlet",
+              "role2-laertes"
+            ],
+            "workIds": [
+              "play-hamlet"
+            ]
+          },
+          {
+            "id": "play-place",
+            "label": "剧目与空间同作",
+            "points": 1,
+            "cardIds": [
+              "play-hamlet",
+              "place-elsinore"
+            ],
+            "workIds": [
+              "play-hamlet"
+            ]
+          }
+        ]
+      }
+    },
+    "sameColor": [
+      {
+        "rarity": "UC",
+        "cardIds": [
+          "yplay-mrswarren",
+          "style-doc",
+          "dir-proj",
+          "xrole-chong",
+          "role2-messenger",
+          "place-table"
+        ],
+        "resonance": 2.25,
+        "score": 65.3
+      },
+      {
+        "rarity": "R",
+        "cardIds": [
+          "play-glass",
+          "style-symbol",
+          "dir-ritual",
+          "role-ming",
+          "role2-roderigo",
+          "place-parlor"
+        ],
+        "resonance": 3,
+        "score": 70.1
+      },
+      {
+        "rarity": "SR",
+        "cardIds": [
+          "play-rhino",
+          "style-classic",
+          "dir-wall",
+          "role-bailu",
+          "role2-ismene",
+          "place-garden"
+        ],
+        "resonance": 4,
+        "score": 75.5
+      },
+      {
+        "rarity": "SSR",
+        "cardIds": [
+          "play-peony",
+          "style-cruel",
+          "dir-body",
+          "role-liniang",
+          "role2-juliet-nurse",
+          "place-road"
+        ],
+        "resonance": 5,
+        "score": 90.4
+      },
+      {
+        "rarity": "UR",
+        "cardIds": [
+          "play-doue",
+          "style-epic",
+          "dir-alien",
+          "role-ladym",
+          "role2-mercutio",
+          "place-elsinore"
+        ],
+        "resonance": 6,
+        "score": 93
+      }
+    ],
+    "pity": {
+      "pack30": [
+        {
+          "id": "yplay-mrswarren",
+          "rarity": "UC"
+        },
+        {
+          "id": "style-stan",
+          "rarity": "LR"
+        },
+        {
+          "id": "dir-docread",
+          "rarity": "C"
+        },
+        {
+          "id": "v23-role-silentman",
+          "rarity": "C"
+        },
+        {
+          "id": "role2-neighbor",
+          "rarity": "C"
+        },
+        {
+          "id": "xplace-castle",
+          "rarity": "C"
+        }
+      ],
+      "pack60": [
+        {
+          "id": "yplay-mrswarren",
+          "rarity": "UC"
+        },
+        {
+          "id": "style-stan",
+          "rarity": "LR"
+        },
+        {
+          "id": "dir-docread",
+          "rarity": "C"
+        },
+        {
+          "id": "v23-role-silentman",
+          "rarity": "C"
+        },
+        {
+          "id": "role2-neighbor",
+          "rarity": "C"
+        },
+        {
+          "id": "xplace-castle",
+          "rarity": "C"
+        }
+      ]
+    }
+  },
+  "uniformSampling": {
+    "verifiedBuckets": 40,
+    "verifiedCardIntervals": 777,
+    "randomSample": {
+      "dimension": "环境",
+      "rarity": "R",
+      "cards": 48,
+      "draws": 100000,
+      "expectedPerCard": 2083.3333,
+      "minimumCount": 1966,
+      "maximumCount": 2179,
+      "chiSquare": 50.5894,
+      "degreesOfFreedom": 47,
+      "counts": {
+        "place-parlor": 2079,
+        "place-sichuan": 2179,
+        "place-zoo": 2131,
+        "place-forest": 2060,
+        "place-stella": 2179,
+        "place-nohstage": 2065,
+        "place-blackbox": 2132,
+        "place-zeng": 2063,
+        "place-backstage": 2117,
+        "xplace-courtroom": 2130,
+        "xplace-market": 2113,
+        "xplace-factory": 2017,
+        "xplace-ancestral": 2061,
+        "xplace-study": 2058,
+        "xplace-rooftop": 2017,
+        "xplace-ruin": 2024,
+        "xplace-siheyuan": 2135,
+        "xplace-tealounge": 2134,
+        "xplace-snowfield": 2108,
+        "xplace-mine": 2028,
+        "xplace-circus": 2015,
+        "yplace-changting": 2077,
+        "yplace-inn": 2073,
+        "yplace-well": 2123,
+        "yplace-zhongjun": 2066,
+        "yplace-chibi": 2014,
+        "yplace-tudimiao": 2147,
+        "yplace-fachang": 2064,
+        "yplace-ward": 2145,
+        "yplace-deck": 2123,
+        "yplace-lighthouse": 2077,
+        "yplace-altar": 2097,
+        "yplace-stable": 2120,
+        "yplace-workshop": 2038,
+        "yplace-hashigakari": 2078,
+        "yplace-guifang": 2131,
+        "place-v21-funeralhome": 2042,
+        "place-v21-lostproperty": 2104,
+        "place-v21-photostudio": 2074,
+        "place-v21-ticketwindow": 2079,
+        "place-v21-lift": 2084,
+        "place-v21-pharmacy": 2024,
+        "v23-place-hangar": 1966,
+        "v23-place-nightsitting": 2064,
+        "v23-place-washhouse": 2032,
+        "v23-place-jacobin": 2057,
+        "v23-place-hopebar": 2136,
+        "v23-place-observation": 2120
+      }
+    }
+  },
+  "threeHighThreeLow": {
+    "definition": "3张UR/LR + 3张C/UC；全部20种高档维度分配，各100组真实卡池抽样",
+    "seed": 20261114,
+    "samples": 2000,
+    "mean": 80.1211,
+    "p10": 77.1,
+    "p50": 80.2,
+    "p90": 82.9,
+    "minimum": 72.8,
+    "maximum": 87.4,
+    "atLeast80Percent": 53.9,
+    "atLeast90Percent": 0,
+    "capped100Percent": 0,
+    "lowestFixture": {
+      "score": 72.8,
+      "cards": [
+        {
+          "id": "yplay-mrswarren",
+          "rarity": "UC",
+          "score": 61
+        },
+        {
+          "id": "style-greek",
+          "rarity": "UR",
+          "score": 88
+        },
+        {
+          "id": "dir-solo",
+          "rarity": "UR",
+          "score": 88
+        },
+        {
+          "id": "v23-role-silentman",
+          "rarity": "C",
+          "score": 58
+        },
+        {
+          "id": "v23-sup-nurse",
+          "rarity": "C",
+          "score": 55
+        },
+        {
+          "id": "place-tea",
+          "rarity": "LR",
+          "score": 92
+        }
+      ]
+    },
+    "highestFixture": {
+      "score": 87.4,
+      "cards": [
+        {
+          "id": "play-antigone",
+          "rarity": "UR",
+          "score": 89
+        },
+        {
+          "id": "ystyle-marionette",
+          "rarity": "UC",
+          "score": 66
+        },
+        {
+          "id": "ydir-yinchang",
+          "rarity": "UC",
+          "score": 76
+        },
+        {
+          "id": "role-anti",
+          "rarity": "UR",
+          "score": 90
+        },
+        {
+          "id": "role2-former-wife",
+          "rarity": "UC",
+          "score": 72
+        },
+        {
+          "id": "place-cherry",
+          "rarity": "UR",
+          "score": 88
+        }
+      ]
+    }
+  }
+}

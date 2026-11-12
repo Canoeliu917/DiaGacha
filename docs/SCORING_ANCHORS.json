@@ -1,0 +1,724 @@
+{
+  "note": "32张有来源的游戏编辑锚点。机构来源支持事实和判断背景，不提供这些数值；全777张未逐条文献审定。每轴=50+4×三个0–4子项之和；reference为0–100策展参考编辑分。首批24张覆盖六维各4张，另补8张原作与非线性叙事锚点。",
+  "sources": {
+    "S01": {
+      "title": "中央戏剧学院：2026 年《雷雨》创排、文本身体空间与蒙太奇",
+      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/25324.html"
+    },
+    "S02": {
+      "title": "北京人民艺术剧院：老舍与《茶馆》创演",
+      "url": "https://www.bjry.com/actor/html/2015/06/2015060515.html"
+    },
+    "S03": {
+      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
+      "url": "https://www.rsc.org.uk/hamlet/"
+    },
+    "S04": {
+      "title": "Royal Shakespeare Company：Hamlet 人物关系",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+    },
+    "S05": {
+      "title": "The Pulitzer Prizes：1949 年戏剧奖《推销员之死》",
+      "url": "https://www.pulitzer.org/winners/arthur-miller"
+    },
+    "S07": {
+      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
+      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
+    },
+    "S08": {
+      "title": "Shakespeare’s Globe：Globe Theatre 空间、观众与历史",
+      "url": "https://www.shakespearesglobe.com/discover/about-us/globe-theatre/"
+    },
+    "S11": {
+      "title": "Royal Shakespeare Company：Hamlet 的艾尔西诺城堡与舞台环境",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/staging/setting"
+    },
+    "S12": {
+      "title": "国家大剧院 2019 秋季演出季手册：《茶馆》人物与裕泰茶馆",
+      "url": "https://www.chncpa.org/ycgp_220/jmcxz/201607/P020190902597561079651.pdf"
+    },
+    "S13": {
+      "title": "中央戏剧学院：2024 年《雷雨》教学演出、周朴园与周公馆剧情",
+      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/22315.html"
+    },
+    "S14": {
+      "title": "MIT Internet Classics Archive：Sophocles《Oedipus the King》原作英译",
+      "url": "https://classics.mit.edu/Sophocles/oedipus.html"
+    },
+    "S15": {
+      "title": "UCLA：Waiting for Godot 的教学、循环结构与身体幽默",
+      "url": "https://newsroom.ucla.edu/stories/ucla-students-benefit-from-professional-theater-production-of-becketts-waiting-for-godot"
+    },
+    "S16": {
+      "title": "英国国家剧院档案：1987年《Waiting for Godot》制作与角色",
+      "url": "https://catalogue.nationaltheatre.org.uk/calmview/Record.aspx?id=937&src=CalmView.Performance"
+    },
+    "S17": {
+      "title": "MIT OpenCourseWare：Script Analysis，《The Cherry Orchard》结构讨论",
+      "url": "https://ocw.mit.edu/courses/21m-710-script-analysis-fall-2005/pages/calendar/"
+    },
+    "S18": {
+      "title": "Royal Shakespeare Company：The Cherry Orchard 剧情与洛巴辛",
+      "url": "https://www.rsc.org.uk/the-cherry-orchard"
+    }
+  },
+  "cards": [
+    {
+      "id": "play-thunder",
+      "name": "雷雨",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 95,
+      "sourceIds": [
+        "S01",
+        "S13"
+      ],
+      "author": "曹禺；《雷雨》",
+      "rationale": "学院的创排史与剧情资料支持其长期舞台生命和家庭关系的强烈牵制；冲突与结构分为本游戏编辑判断，并非机构分数。"
+    },
+    {
+      "id": "play-teahouse",
+      "name": "茶馆",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 94,
+      "sourceIds": [
+        "S02",
+        "S12"
+      ],
+      "author": "老舍；《茶馆》",
+      "rationale": "剧院记录及节目册支持群像、语言、时代变化与持续演出价值；群像结构不因缺少单一主线而扣分。"
+    },
+    {
+      "id": "play-hamlet",
+      "name": "哈姆雷特",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        4
+      ],
+      "reference": 96,
+      "sourceIds": [
+        "S03",
+        "S04",
+        "S08"
+      ],
+      "author": "威廉·莎士比亚；《哈姆雷特》",
+      "rationale": "RSC 的剧情和人物关系、Globe 的历史资料支持复仇与权力关系的多重推进；高参考分是有出处的策展判断。"
+    },
+    {
+      "id": "play-salesman",
+      "name": "推销员之死",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        4
+      ],
+      "reference": 92,
+      "sourceIds": [
+        "S05"
+      ],
+      "author": "阿瑟·米勒；《推销员之死》",
+      "rationale": "普利策直接证实本剧获1949年戏剧奖，支持其重要作品地位；具体冲突/结构子项仍是编辑初评，本轮未完成逐场文本复核。"
+    },
+    {
+      "id": "style-stan",
+      "name": "斯坦尼体系",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 93,
+      "sourceIds": [
+        "S07"
+      ],
+      "author": "康斯坦丁·斯坦尼斯拉夫斯基；表演训练方法",
+      "rationale": "RADA 课程直接列出斯坦尼体系及后继方法，支持可训练、可实践的体系性；功能分不把写实方法当作其他风格的上位标准。"
+    },
+    {
+      "id": "style-real",
+      "name": "现实主义",
+      "atkRubric": [
+        3,
+        2,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 90,
+      "sourceIds": [
+        "S02",
+        "S07"
+      ],
+      "author": "非单一作者；以老舍剧作与表演训练为参考",
+      "rationale": "老舍的现实主义实践与表演训练框架支持其明确的人物处境和稳定方法；此处只评风格作用，不等同于老舍个人荣誉。"
+    },
+    {
+      "id": "style-physical",
+      "name": "身体剧场",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        3
+      ],
+      "reference": 84,
+      "sourceIds": [
+        "S07"
+      ],
+      "author": "非单一作者；RADA 所述 Physical Theatre 实践",
+      "rationale": "课程将身体表演及多种非自然主义方法列为正式实践，支持身体组织改变观看方式；不是以是否有台词判断高下。"
+    },
+    {
+      "id": "xstyle-site",
+      "name": "站点特定",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        2
+      ],
+      "reference": 78,
+      "sourceIds": [
+        "S07",
+        "S08"
+      ],
+      "author": "非单一作者；场域特定表演",
+      "rationale": "RADA 明列 site specific performance，Globe 提供空间改变观演关系的实例；冲击可强，但迁移到另一空间需要重新建立条件。"
+    },
+    {
+      "id": "ydir-duetline",
+      "name": "对白",
+      "atkRubric": [
+        3,
+        3,
+        2
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 74,
+      "sourceIds": [
+        "S03",
+        "S07"
+      ],
+      "author": "通用舞台手段；以莎士比亚文本与RADA框架为参考",
+      "rationale": "文本、声音与角色回应是可执行的基础手段；来源提供方法背景，本条是泛用编辑锚点，没有把基础手段虚构为独立获奖对象。"
+    },
+    {
+      "id": "dir-montage",
+      "name": "蒙太奇",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        3
+      ],
+      "reference": 86,
+      "sourceIds": [
+        "S01"
+      ],
+      "author": "非单一作者；中戏2026《雷雨》创排实例",
+      "rationale": "该创排说明明确以情绪和人物逻辑重连叙事，支持时间/场面重组的效果；与本卡的舞台蒙太奇概念相符。"
+    },
+    {
+      "id": "dir-body",
+      "name": "形体无言",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        3
+      ],
+      "reference": 76,
+      "sourceIds": [
+        "S07"
+      ],
+      "author": "通用身体表演手段；非单一剧作家",
+      "rationale": "身体训练与非自然主义实践支持用动作组织交流；来源是方法框架，具体子项为游戏编辑判断，不声称一个姿态可替代全部语言。"
+    },
+    {
+      "id": "dir-solo",
+      "name": "独白直给",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 86,
+      "sourceIds": [
+        "S03"
+      ],
+      "author": "通用手段；以莎士比亚《哈姆雷特》的独白为实例",
+      "rationale": "RSC 指出哈姆雷特独白让观众进入人物思想，支持直接建立观众通道；效果依文本和演出语境，不按台词长度计分。"
+    },
+    {
+      "id": "role-hamlet",
+      "name": "哈姆雷特",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 96,
+      "sourceIds": [
+        "S03",
+        "S04"
+      ],
+      "author": "威廉·莎士比亚；《哈姆雷特》人物",
+      "rationale": "证据直接涉及其追查、试探、复仇与犹疑；犹疑形成行动后果，不将“行动”等同于果断或武力。"
+    },
+    {
+      "id": "role-zhou",
+      "name": "周朴园",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 92,
+      "sourceIds": [
+        "S13"
+      ],
+      "author": "曹禺；《雷雨》人物",
+      "rationale": "学院剧情资料直接记载其专横、家族秘密及承认关系的后果；高作用分不代表道德赞许，也没有自动继承作者奖项。"
+    },
+    {
+      "id": "xrole-ophelia",
+      "name": "奥菲利娅",
+      "atkRubric": [
+        3,
+        2,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "S04"
+      ],
+      "author": "威廉·莎士比亚；《哈姆雷特》人物",
+      "rationale": "RSC 人物资料直接给出父女、恋人、兄妹关系及变化；保留强身份辨识，人物受压处境不按被动一概低评。"
+    },
+    {
+      "id": "yrole-horatio",
+      "name": "霍拉旭",
+      "atkRubric": [
+        2,
+        3,
+        2
+      ],
+      "defRubric": [
+        3,
+        3,
+        3
+      ],
+      "reference": 80,
+      "sourceIds": [
+        "S04",
+        "S03"
+      ],
+      "author": "威廉·莎士比亚；《哈姆雷特》人物",
+      "rationale": "RSC 将其作为可信朋友、见证者与终局叙述者；能支撑这台戏，但推动主要冲突的强度不与哈姆雷特等同。"
+    },
+    {
+      "id": "role2-claudius",
+      "name": "克劳狄斯",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 90,
+      "sourceIds": [
+        "S04"
+      ],
+      "author": "威廉·莎士比亚；《哈姆雷特》人物",
+      "rationale": "其权力意图、谋害和操控直接改变对手行动，且与主角关系明确；反派身份不减戏剧功能分。"
+    },
+    {
+      "id": "role2-polonius",
+      "name": "波洛涅斯",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        3
+      ],
+      "reference": 86,
+      "sourceIds": [
+        "S04"
+      ],
+      "author": "威廉·莎士比亚；《哈姆雷特》人物",
+      "rationale": "宫廷顾问与父亲双重位置、监视和误判对剧情产生后果；有独立对戏功能，未仅按同属名作定高星。"
+    },
+    {
+      "id": "role2-gertrude",
+      "name": "乔特鲁德",
+      "atkRubric": [
+        3,
+        2,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "S04"
+      ],
+      "author": "威廉·莎士比亚；《哈姆雷特》人物",
+      "rationale": "母亲、王后与再婚关系构成冲突节点；角色辨识和关系压力较强，主动策划的程度与克劳狄斯区分。"
+    },
+    {
+      "id": "role2-laertes",
+      "name": "莱尔提斯",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        3
+      ],
+      "reference": 84,
+      "sourceIds": [
+        "S04",
+        "S03"
+      ],
+      "author": "威廉·莎士比亚；《哈姆雷特》人物",
+      "rationale": "为父与妹妹复仇、被操控及终局决斗形成对照和推进；不以配角名称给固定低分。"
+    },
+    {
+      "id": "yplace-globe",
+      "name": "环球剧场",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 90,
+      "sourceIds": [
+        "S08"
+      ],
+      "author": "演出空间；莎士比亚与同代剧作实践",
+      "rationale": "环绕开放舞台且演员与观众相互可见，确实改变交流条件；必须区分历史剧场与1997年启用的当代重建。"
+    },
+    {
+      "id": "place-elsinore",
+      "name": "艾尔西诺城堡",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        3
+      ],
+      "reference": 86,
+      "sourceIds": [
+        "S11",
+        "S04"
+      ],
+      "author": "威廉·莎士比亚；《哈姆雷特》原作空间",
+      "rationale": "RSC 直接识别其宫廷场所与权力更替语境；用空间可见性和关系承载评分，不是因为地名著名就全满。"
+    },
+    {
+      "id": "place-tea",
+      "name": "裕泰茶馆",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 90,
+      "sourceIds": [
+        "S12",
+        "S02"
+      ],
+      "author": "老舍；《茶馆》原作空间",
+      "rationale": "NCPA 剧情记载茶馆里跨身份人物聚集与时代更替，支持群像出入和社会关系承载；空间强度与原作整体价值分开。"
+    },
+    {
+      "id": "place-zhou",
+      "name": "周公馆",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 86,
+      "sourceIds": [
+        "S13"
+      ],
+      "author": "曹禺；《雷雨》原作空间",
+      "rationale": "学院剧情直接记载封闭家宅、身份关系和家族秘密的碰撞；它提供行动压力，而非只是美术背景。"
+    },
+    {
+      "id": "play-oedipus",
+      "name": "俄狄浦斯王",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        4
+      ],
+      "reference": 98,
+      "sourceIds": [
+        "S14"
+      ],
+      "author": "索福克勒斯；《俄狄浦斯王》",
+      "rationale": "原作可见救城追凶的行动逐步转成自我发现，证词、诅咒与身份相互收束；最高档结构锚点是游戏编辑对文本的判断，不是MIT给出的艺术排名。"
+    },
+    {
+      "id": "role-oedipus",
+      "name": "俄狄浦斯",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        4
+      ],
+      "reference": 96,
+      "sourceIds": [
+        "S14"
+      ],
+      "author": "索福克勒斯；《俄狄浦斯王》人物",
+      "rationale": "人物主动追查并承担其发现的后果，救城者与被追查者身份发生剧烈反转；作用与辨识据原作评价，不把命运受限当成没有行动。"
+    },
+    {
+      "id": "play-godot",
+      "name": "等待戈多",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        4
+      ],
+      "reference": 96,
+      "sourceIds": [
+        "S15",
+        "S16"
+      ],
+      "author": "塞缪尔·贝克特；《等待戈多》",
+      "rationale": "UCLA教学资料直接说明循环结构、语言和身体幽默，国家剧院档案证实舞台实践；持续等待组织了冲突和时间，不按缺少线性结局扣叙事完整分。"
+    },
+    {
+      "id": "role-vladimir",
+      "name": "弗拉季米尔",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        4
+      ],
+      "reference": 92,
+      "sourceIds": [
+        "S15",
+        "S16"
+      ],
+      "author": "塞缪尔·贝克特；《等待戈多》人物",
+      "rationale": "他与伙伴不断维持或质疑等待，通过对话、记忆和相互依赖构成持续行动；不是以能否离开现场或完成任务评价其人物力量。"
+    },
+    {
+      "id": "role-gogo",
+      "name": "爱斯特拉冈",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        4
+      ],
+      "reference": 90,
+      "sourceIds": [
+        "S15",
+        "S16"
+      ],
+      "author": "塞缪尔·贝克特；《等待戈多》人物",
+      "rationale": "身体处境、停顿与伙伴间的互补塑造喜剧节奏和困境；循环中的回应具有可演的行动价值，机构材料支持结构与实践，数值仍是编辑判断。"
+    },
+    {
+      "id": "play-cherry",
+      "name": "樱桃园",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 94,
+      "sourceIds": [
+        "S17",
+        "S18"
+      ],
+      "author": "安东·契诃夫；《樱桃园》",
+      "rationale": "MIT课程要求分析其看似松散材料如何形成细密结构，RSC说明债务、拍卖与时代冲突；不以缺少单一英雄或迟疑行为否定结构和张力。"
+    },
+    {
+      "id": "role2-lopakhin",
+      "name": "洛巴辛",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 88,
+      "sourceIds": [
+        "S18"
+      ],
+      "author": "安东·契诃夫；《樱桃园》人物",
+      "rationale": "RSC剧情直接记述其出身与出售庄园的主张，支持经济行动和阶层关系的推进；保留本游戏现有配角分类，不因资料中的主要角色表述擅自改席位。"
+    },
+    {
+      "id": "place-cherry",
+      "name": "樱桃园",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 86,
+      "sourceIds": [
+        "S17",
+        "S18"
+      ],
+      "author": "安东·契诃夫；《樱桃园》原作空间",
+      "rationale": "被记忆珍视又受债务和拍卖威胁的土地把新旧秩序变成舞台条件；高承载来自空间与行动的关系，不等同于剧本本身的分数。"
+    }
+  ]
+}
