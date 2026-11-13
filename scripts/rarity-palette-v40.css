@@ -1,0 +1,40 @@
+/* One to seven stars: white, green, blue, purple, orange, rainbow pink, luminous black. */
+.rarity-C{--rarity-color:#ffffff;--rarity-wash:#ffffff;--rarity-ink:#59544e;--rarity-glow:#d4cec44d;--rarity-fill:#ffffff}
+.rarity-UC{--rarity-color:#24834e;--rarity-wash:#e6f4e9;--rarity-ink:#185e37;--rarity-glow:#24834e33;--rarity-fill:#e6f4e9}
+.rarity-R{--rarity-color:#2e6ed8;--rarity-wash:#e7efff;--rarity-ink:#2255ab;--rarity-glow:#2e6ed833;--rarity-fill:#e7efff}
+.rarity-SR{--rarity-color:#813dcc;--rarity-wash:#f1e7fb;--rarity-ink:#6930a7;--rarity-glow:#813dcc3d;--rarity-fill:#f1e7fb}
+.rarity-SSR{--rarity-color:#dc751f;--rarity-wash:#fff0dc;--rarity-ink:#a94e10;--rarity-glow:#dc751f47;--rarity-fill:#fff0dc}
+.rarity-UR{--rarity-color:#d74791;--rarity-wash:#fce4ef;--rarity-ink:#92265f;--rarity-glow:#e584b966;--rarity-fill:linear-gradient(115deg,#fbd5e8,#f9e3f2 28%,#dcebf9 48%,#fff0d9 68%,#f8cce3)}
+.rarity-LR{--rarity-color:#171920;--rarity-wash:#171920;--rarity-ink:#f0f3fa;--rarity-glow:#b7c9e966;--rarity-fill:linear-gradient(135deg,#0b0c10,#242936 44%,#101116 68%,#303544)}
+:is(.card,.cast-card,.cast-mini,.album-card,.trade-card,.dealt-row button)[class*="rarity-"]{border-color:var(--rarity-color);background:var(--rarity-fill);box-shadow:0 0 12px var(--rarity-glow);animation:none}
+.pack-zone .flip .card[class*="rarity-"]{border-color:var(--rarity-color);background:var(--rarity-fill);box-shadow:0 0 20px var(--rarity-glow);animation:none}
+:is(.card,.cast-card,.cast-mini,.album-card,.trade-card,.dealt-row button).rarity-C{box-shadow:0 0 0 1px #c9c3ba}
+.pack-zone .flip .card.rarity-C{box-shadow:0 0 0 1px #c9c3ba}
+:is(.card,.cast-card,.cast-mini,.album-card,.trade-card,.dealt-row button).rarity-LR{--ink:#f0f3fa;--ink-soft:#c2c8d3;--paper:#171920;--line:#555c6b;color:var(--ink);box-shadow:0 0 0 1px #929eb8,0 0 15px var(--rarity-glow)}
+.pack-zone .flip .card.rarity-LR{box-shadow:0 0 0 1px #929eb8,0 0 24px var(--rarity-glow)}
+.rarity-LR .card-body,.rarity-LR .trade-foot{background:#171920}
+.rarity-LR .card-body .axis-atk{color:#efa5a1}.rarity-LR .card-body .axis-def{color:#8dd9d3}
+.rarity-LR .card-body .axis-hint{color:var(--ink-soft)}
+.pack-zone .flip[class*="rarity-"]{--stage-ink:var(--rarity-color);--stage-wash:var(--rarity-glow)}
+.pack-zone .flip.rarity-C{--stage-ink:#b6b0a6}
+.pack-zone .flip.rarity-LR{--stage-ink:#bfc9de;--stage-wash:#b7c9e94d}
+.pack-zone .flip.is-charging[class*="rarity-"]{box-shadow:0 0 0 5px var(--rarity-glow),0 0 20px var(--rarity-glow)}
+:is(.card,.cast-card)[class*="rarity-"] .corners,.pack-zone .card[class*="rarity-"] .corners{color:var(--rarity-color)}
+:is(.card,.cast-card).rarity-LR .corners,.pack-zone .card.rarity-LR .corners{color:#bac8e0}
+[class*="rarity-"] .art-badge,.seal[class*="rarity-"],.art-grade[class*="rarity-"]{color:var(--rarity-ink);background:var(--rarity-fill);border-color:var(--rarity-color)}
+.sheet-art .art-badge .seal-word{color:inherit}
+.rarity-call[class*="rarity-"]{color:var(--rarity-color)}
+.rarity-call.rarity-C{color:#59544e}
+.production-review [class*="rarity-"]{--cue-color:var(--rarity-color);--cue-wash:var(--rarity-wash)}
+.production-crew[class*="rarity-"]{color:var(--rarity-ink);background:var(--rarity-fill)}
+.production-review .rarity-LR.is-cue-active,.production-cue.rarity-LR.is-cue-active .cue-value{color:var(--rarity-ink)}
+.production-review .rarity-C{--cue-color:#c9c3ba}
+.production-crew.rarity-UR{border-image:linear-gradient(90deg,#d74791,#8a98d9,#edb684,#d74791) 1}
+/* Static iridescence avoids repainting gradients on every animation frame. */
+:is(.card,.cast-card).rarity-UR .art-wrap::before,:is(.card,.cast-card).rarity-LR .art-wrap::before{animation:none;opacity:0}
+.pack-zone .flip.is-flipped[class*="rarity-"] .halo{background:var(--rarity-glow);border-color:var(--stage-ink)}
+.pack-zone .flip.is-flipped.rarity-UR .halo{background:linear-gradient(120deg,#f5a9d533,#b5d5fa33,#ffe6b733,#f5a9d533)}
+.pack-zone .flip.is-flipped.rarity-LR .halo{background:linear-gradient(120deg,#dce8ff33,#687b9e33,#e8d5ee33)}
+#fx.flash-SSR{background:radial-gradient(circle at 50% 40%,#e89a5c50,#0000 58%)}
+#fx.flash-UR{background:radial-gradient(circle at 50% 40%,#e989bd55,#0000 60%)}
+#fx.flash-LR{background:radial-gradient(circle at 50% 40%,#c1d0eb40,#0000 62%)}

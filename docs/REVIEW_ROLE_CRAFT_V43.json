@@ -1,0 +1,590 @@
+{
+  "sources": {
+    "RC43_LEAR": {
+      "title": "Royal Shakespeare Company: King Lear character relationships",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+    },
+    "RC43_RICHARD": {
+      "title": "Royal Shakespeare Company: Richard III synopsis",
+      "url": "https://www.rsc.org.uk/richard-iii/"
+    },
+    "RC43_RICHARD_FOLGER": {
+      "title": "Folger Shakespeare Library: About Richard III",
+      "url": "https://www.folger.edu/explore/shakespeares-works/richard-iii/about-shakespeares-richard-iii/"
+    },
+    "RC43_MACBETH": {
+      "title": "Royal Shakespeare Company: Macbeth character relationships",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+    },
+    "RC43_LADYM": {
+      "title": "Royal Shakespeare Company: Macbeth character analysis",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/analysis"
+    },
+    "RC43_MALCOLM": {
+      "title": "Folger Shakespeare Library: Macbeth Act 4 Scene 3, original play text",
+      "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/read/4/3/"
+    },
+    "RC43_JULIET": {
+      "title": "Royal Shakespeare Company: Romeo and Juliet character analysis",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/character/analysis"
+    },
+    "RC43_JULIET_PLOT": {
+      "title": "Royal Shakespeare Company: Romeo and Juliet story timeline",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/story/timeline"
+    },
+    "RC43_GODOT": {
+      "title": "The Shakespeare Theatre of New Jersey: Waiting for Godot 2023 Know-the-Show Guide, synopsis p.7",
+      "url": "https://www.shakespearenj.org/assets/doc/GODOT-KTS-2023-FINAL-301d6e32f5.pdf"
+    },
+    "RC43_WANG": {
+      "title": "梁冠华：二十年“茶”味越品越浓，演员访谈，北京日报／中国作家网",
+      "url": "https://www.chinawriter.com.cn/n1/2019/0222/c419389-30896835.html"
+    },
+    "RC43_TEAHOUSE": {
+      "title": "清华大学图书馆：《茶馆》经典舞台电影放映介绍",
+      "url": "https://lib.tsinghua.edu.cn/info/1068/5143.htm"
+    },
+    "RC43_SALESMAN": {
+      "title": "Utah Shakespeare Festival: Death of a Salesman synopsis",
+      "url": "https://www.bard.org/study-guides/synopsis-death-of-a-salesman/"
+    },
+    "RC43_STREETCAR": {
+      "title": "Utah Shakespeare Festival: A Streetcar Named Desire synopsis",
+      "url": "https://www.bard.org/study-guides/synopsis-a-streetcar-named-desire/"
+    },
+    "RC43_STREETCAR_SPACE": {
+      "title": "National Theatre: A Streetcar Named Desire learning guide, Scene 1, p.12",
+      "url": "https://www.bloomsbury.com/media/vajmwkyp/nt_a-streetcar-named-desire-learning-guide_rs.pdf"
+    },
+    "RC43_PYGMALION": {
+      "title": "George Bernard Shaw: Pygmalion, original play and sequel, Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/3825/3825-h/3825-h.htm"
+    },
+    "RC43_DOLL": {
+      "title": "Henrik Ibsen: A Doll’s House, original play in English translation, Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/2542/2542-h/2542-h.htm"
+    },
+    "RC43_STAGES": {
+      "title": "Theatres Trust: What are the types of theatre stages and auditoria?",
+      "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+    },
+    "RC43_FOURTH_WALL": {
+      "title": "National Theatre: Public Acts Toolkit, fourth wall glossary, p.78",
+      "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/NationalTheatre_PublicActs_Toolkit---No-page-39-40.pdf"
+    },
+    "RC43_MITCHELL": {
+      "title": "National Theatre: Practitioners in Practice — Katie Mitchell, place, time and immediate circumstances, p.14",
+      "url": "https://images.nationaltheatre.org.uk/uploads/2024/03/KatieMitchell-PractitionersinPractice-PDF-2024.pdf"
+    },
+    "RC43_CIRCUMSTANCES": {
+      "title": "Royal Shakespeare Company: Building our Company / Macbeth, given circumstances and actor behaviour",
+      "url": "https://cdn2.rsc.org.uk/sitefinity/education-pdfs/associate-schools/example-notes-and-texts---macbeth.pdf"
+    }
+  },
+  "cards": [
+    {
+      "id": "role-wang",
+      "name": "王利发",
+      "author": "老舍《茶馆》",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 94,
+      "rationale": "改良经营、应付勒索与争取茶馆生存都是持续行动，不能因他最终失败而把行动压到52。演员访谈支持其经营者的应变与贯穿性；清华所列舞台电影情节补充经营、被夺与结局，按角色功能判断，不把电影简介当作通读全部原剧。",
+      "atkReason": "他不断改良生意、周旋于各方势力，始终想保住茶馆；改变不了时代，不等于没有行动。",
+      "defReason": "掌柜的圆融、恐惧和求生心贯穿数十年，经营上的选择与最后的绝望形成清楚照应。",
+      "sourceIds": [
+        "RC43_WANG",
+        "RC43_TEAHOUSE"
+      ]
+    },
+    {
+      "id": "xrole-lucky",
+      "name": "幸运儿",
+      "author": "塞缪尔·贝克特《等待戈多》",
+      "atkRubric": [
+        2,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        3
+      ],
+      "reference": 76,
+      "rationale": "绳索、负重、被命令思考及摘帽后的停止构成清楚的角色动作；长篇发言打断日常节奏，第二幕失语形成变化。自主欲望仍受到主奴结构限制，故ATK不满；不因语言破碎或沉默判为身份不明。",
+      "atkReason": "受命开口的长篇发言突然冲破沉默，改变全场节奏；但多数行动仍受波卓支配。",
+      "defReason": "绳索、行李与帽子让受役处境一眼可辨，发言与失语的对照保留了独特的人物逻辑。",
+      "sourceIds": [
+        "RC43_GODOT"
+      ]
+    },
+    {
+      "id": "xrole-cordelia",
+      "name": "考狄利娅",
+      "author": "莎士比亚《李尔王》",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        4
+      ],
+      "reference": 88,
+      "rationale": "拒绝以谄媚换取土地触发放逐，后来回归援助父亲并承受战争结果。拒绝本身改变权力分配，沉默寡言不能等同弱行动；诚实、亲情与政治身份相互牵制。",
+      "atkReason": "她拒绝以奉承换取继承权，又回来援救父亲；少说的话和主动选择同样能改变局面。",
+      "defReason": "女儿、被放逐者与援救者的身份相互照应，诚实与亲情之间的张力始终清楚。",
+      "sourceIds": [
+        "RC43_LEAR"
+      ]
+    },
+    {
+      "id": "yrole-richardiii",
+      "name": "理查三世",
+      "author": "莎士比亚《理查三世》",
+      "atkRubric": [
+        4,
+        4,
+        4
+      ],
+      "defRubric": [
+        4,
+        3,
+        4
+      ],
+      "reference": 82,
+      "rationale": "夺位目标、操纵亲密关系、谋杀与政治交易组成连续因果链，成功又引出背离和毁灭。向观众暴露计划的语言让公众面具与私下谋算可辨；评分针对角色行动和可表演矛盾，绝非为暴行或身体差异评分。",
+      "atkReason": "求婚、离间与谋杀都服务于夺位，每一步得手又制造新的敌人，选择持续推动悲剧。",
+      "defReason": "他对观众坦白谋算、对他人换上面具，登顶后的恐惧使这套自信逐渐瓦解。",
+      "sourceIds": [
+        "RC43_RICHARD",
+        "RC43_RICHARD_FOLGER"
+      ]
+    },
+    {
+      "id": "role-willy",
+      "name": "威利·洛曼",
+      "author": "阿瑟·米勒《推销员之死》",
+      "atkRubric": [
+        4,
+        3,
+        4
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 88,
+      "rationale": "求调职、隐瞒借款、拒绝儿子对成功的重新理解，最后把保险金视为出路，构成连续而失败的行动。回忆揭示父子裂痕，使自我欺骗有来由；不把行动失败或非线性记忆当作推动不足。",
+      "atkReason": "他争取工作、坚持成功想象，并把未来押在保险金上；这些失败的选择不断压紧父子冲突。",
+      "defReason": "推销员身份、父亲期待与自我欺骗相互纠缠，回忆交代了今天的裂痕从何而来。",
+      "sourceIds": [
+        "RC43_SALESMAN"
+      ]
+    },
+    {
+      "id": "role-blanche",
+      "name": "布兰奇",
+      "author": "田纳西·威廉斯《欲望号街车》",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 88,
+      "rationale": "投靠妹妹、经营与米奇的关系、遮掩过去并争取容身之处，是可辨的求生策略。欲望与羞耻、体面与创伤形成反复交锋；遭受揭露和暴力不构成低行动或低人格价值的理由。",
+      "atkReason": "她借外表、讲述与亲密关系争取新的生活，和斯坦利争夺家中的信任与位置。",
+      "defReason": "体面姿态与不安记忆彼此冲撞，她对安全、爱情和尊严的需求让人物既鲜明又复杂。",
+      "sourceIds": [
+        "RC43_STREETCAR"
+      ]
+    },
+    {
+      "id": "xrole-pozzo",
+      "name": "波卓",
+      "author": "塞缪尔·贝克特《等待戈多》",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        3
+      ],
+      "reference": 76,
+      "rationale": "第一幕以命令支配幸运儿、占据交谈，第二幕失明后求助，权力关系发生清楚变化。变化不是普通成长弧线，却能以绳索、命令与依赖具体呈现；不因荒诞结构否定身份连续性。",
+      "atkReason": "他把旅途变成命令和展示，迫使旁人回应；后来求助的姿态又让支配关系发生逆转。",
+      "defReason": "牵绳的主人也会成为需要别人扶起的人，傲慢与依赖构成可见的矛盾。",
+      "sourceIds": [
+        "RC43_GODOT"
+      ]
+    },
+    {
+      "id": "xrole-eliza",
+      "name": "伊莉莎",
+      "author": "萧伯纳《皮格马利翁》",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        4
+      ],
+      "reference": 88,
+      "rationale": "原作第二幕主动付费求学源于进入花店的具体目标，第四、五幕追问生计与人格尊重，反对被当成实验成果。口音转变并未消灭自主要求，故行动与身份均有连续证据；不套用音乐剧改编结局。",
+      "atkReason": "她主动求学改善生计，又拒绝只做老师的成果，冲突从口音转向谁有权决定她的人生。",
+      "defReason": "礼貌与口音会改变，要求被尊重的意愿没有改变；阶层变化带来的不安也有具体来由。",
+      "sourceIds": [
+        "RC43_PYGMALION"
+      ]
+    },
+    {
+      "id": "role-ladym",
+      "name": "麦克白夫人",
+      "author": "莎士比亚《麦克白》",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 88,
+      "rationale": "促成弑君、处理血迹与维持宴会体面，是改变局面的多种行动。她由自信压制恐惧到被罪疚反噬，丈夫逐渐不再让她参与计划；后半段场次减少不等于人物缺少辨识度。依离散子项量表ATK由95校准为94。",
+      "atkReason": "她把夺位愿望化成计划，并在丈夫退缩时推动他行动；后期却逐渐失去对局面的掌控。",
+      "defReason": "清醒时压下的恐惧在梦游中返回，权力伙伴走向孤独，前后反差具有清楚的心理联系。",
+      "sourceIds": [
+        "RC43_LADYM",
+        "RC43_MACBETH"
+      ]
+    },
+    {
+      "id": "xrole-juliet",
+      "name": "朱丽叶",
+      "author": "莎士比亚《罗密欧与朱丽叶》",
+      "atkRubric": [
+        4,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        3
+      ],
+      "reference": 94,
+      "rationale": "秘密结婚、拒绝再嫁与服下假死药都出于具体处境，选择不断改变故事走向并承担风险。对家族的牵挂和婚姻承诺产生矛盾，不只是一位被动的恋爱象征；悲剧也受通信失败等外部条件影响。",
+      "atkReason": "秘密结婚、拒绝再嫁和冒险假死，都是她主动争取共同生活的选择，步步带来后果。",
+      "defReason": "家族要求与婚姻承诺冲突，她从谨慎商量走向独自承担风险，变化有明确原因。",
+      "sourceIds": [
+        "RC43_JULIET",
+        "RC43_JULIET_PLOT"
+      ]
+    },
+    {
+      "id": "role2-duncan",
+      "name": "邓肯",
+      "author": "莎士比亚《麦克白》",
+      "atkRubric": [
+        2,
+        2,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        2
+      ],
+      "reference": 76,
+      "rationale": "奖励麦克白、确认继承秩序与做客建立信任，成为弑君行为需要突破的关系屏障。出场较少、独立的反制行动有限，因此不升至中心人物的强度；身份与死亡后果清楚，旧DEF68低估了关系作用。",
+      "atkReason": "他的赏赐、信任与继承安排加重了背叛的代价；直接交锋和主动反制的场面较少。",
+      "defReason": "国王、亲族和宾客身份叠在一起，使弑君同时成为多重背叛；人物自身的展开仍较集中。",
+      "sourceIds": [
+        "RC43_MACBETH"
+      ]
+    },
+    {
+      "id": "role2-malcolm",
+      "name": "马尔科姆",
+      "author": "莎士比亚《麦克白》",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        3
+      ],
+      "reference": 68,
+      "rationale": "逃离危险、以自我贬损试探麦克德夫、集结反攻，都是为了确认忠诚并恢复王位秩序的具体选择。原作第四幕第三场把试探变成真正的对戏压力；不只按继承人的头衔给分。",
+      "atkReason": "他先避险，再试探盟友，最后组织反攻；谨慎的选择让反抗从个人愤怒变成共同目标。",
+      "defReason": "继承人的处境、对忠诚的怀疑和恢复秩序的意图彼此相连，试探与结盟都有可见后果。",
+      "sourceIds": [
+        "RC43_MACBETH",
+        "RC43_MALCOLM"
+      ]
+    },
+    {
+      "id": "dir-wall",
+      "name": "第四堵墙",
+      "author": "通用表演约定；以英国国家剧院凯蒂·米切尔实践为实例",
+      "atkRubric": [
+        3,
+        2,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        3
+      ],
+      "reference": 94,
+      "rationale": "国家剧院界定演员通常不承认观众存在的假想边界；米切尔要求演员明确第四墙的实际环境并按场所行动，证明它有可执行的关系与注意力效果。它不必重组时间，也不是打破第四墙，故ATK第二项只给2；传统约定不等于作用弱。",
+      "atkReason": "它让人物把注意力交给屋内关系，观众从细节判断真相；对时间和结构的改变较有限。",
+      "defReason": "明确人物所在环境与观看边界，就能反复执行；关键是维持真实行动，而非机械地不看观众。",
+      "sourceIds": [
+        "RC43_FOURTH_WALL",
+        "RC43_MITCHELL"
+      ]
+    },
+    {
+      "id": "ystyle-huagu",
+      "name": "规定情境",
+      "author": "斯坦尼斯拉夫斯基体系概念；RSC与凯蒂·米切尔教学实践",
+      "atkRubric": [
+        2,
+        3,
+        3
+      ],
+      "defRubric": [
+        4,
+        4,
+        3
+      ],
+      "reference": 68,
+      "rationale": "RSC以身份、关系与情境改变语言、音量和身体，米切尔进一步明确场所、时间及此前事件的操作。它提供成熟分析路径，旧DEF58缺少依据；改变观看方式通常经由人物行为间接发生，所以ATK第一项保留2。",
+      "atkReason": "时间、地点和关系会改变说话与行动，让同一句话有不同压力；对观看形式的改变通常较间接。",
+      "defReason": "可逐项确认环境、关系和此前发生的事，再检查行为是否成立，方法清楚且能够重复实践。",
+      "sourceIds": [
+        "RC43_CIRCUMSTANCES",
+        "RC43_MITCHELL"
+      ]
+    },
+    {
+      "id": "xstyle-walk",
+      "name": "行走剧场",
+      "author": "通用观演形式；Theatres Trust对promenade theatre的定义",
+      "atkRubric": [
+        4,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        2
+      ],
+      "reference": 58,
+      "rationale": "观众随演员在地点之间移动是有明确边界的形式，路线因而参与观看顺序和距离。评分中的关系效果是依据该形式所作编辑分析；移动组织可重复，但需额外解决可达性、集合节奏和各位置的可见可听，不能无条件给满DEF。",
+      "atkReason": "观众的行进会改变观看距离和信息到达顺序，空间转换本身就能成为叙事的一部分。",
+      "defReason": "跟随路线与接续场景的原则明确；观众移动速度、可达性及视听条件仍限制稳定呈现。",
+      "sourceIds": [
+        "RC43_STAGES"
+      ]
+    },
+    {
+      "id": "xstyle-chuanju",
+      "name": "开放结局",
+      "author": "通用叙事安排；以易卜生《玩偶之家》结尾为实例",
+      "atkRubric": [
+        3,
+        2,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        2
+      ],
+      "reference": 58,
+      "rationale": "《玩偶之家》让娜拉离开成为明确行动，却不替观众裁定她日后的生活，说明开放与缺少收束不同。此类方法可把后果交给观众继续判断；它不是统一表演体系，也不天然重组声音和身体，故有关子项仍给2。",
+      "atkReason": "关键选择已经发生，未来结果仍可争论，观众会继续判断人物；身体和声音的变化不是必然效果。",
+      "defReason": "保留未来、回应前文可以形成清楚收束；若没有完成关键选择，留白就可能变成叙事缺口。",
+      "sourceIds": [
+        "RC43_DOLL"
+      ]
+    },
+    {
+      "id": "place-proscenium",
+      "name": "镜框式舞台",
+      "author": "通用剧场形制；Theatres Trust剧场空间资料",
+      "atkRubric": [
+        2,
+        3,
+        2
+      ],
+      "defRubric": [
+        4,
+        3,
+        3
+      ],
+      "reference": 68,
+      "rationale": "Theatres Trust说明台口框架、舞台纵深及常见景物吊挂条件；这支持正面构图、遮蔽与换景，不支持ATK28的近乎无作用判断。关系变化仍依具体布景和调度，不能把传统形制本身评成持续突破观演关系。",
+      "atkReason": "台口与纵深能组织显露、遮蔽和注意力；人物关系仍须靠具体构图与行动展开。",
+      "defReason": "观看方向与表演区边界明确，能承托多种景物和进出安排；具体视线仍取决于场馆与布景。",
+      "sourceIds": [
+        "RC43_STAGES"
+      ]
+    },
+    {
+      "id": "place-blackbox",
+      "name": "黑匣子",
+      "author": "通用剧场形制；Theatres Trust剧场空间资料",
+      "atkRubric": [
+        3,
+        3,
+        3
+      ],
+      "defRubric": [
+        3,
+        3,
+        3
+      ],
+      "reference": 68,
+      "rationale": "可重排座席与表演区、承载多类作品是机构明确列出的能力；不能因空间没有预置故事而降低承载分。多方向布置带来关系可能，同时每次都要建立清楚的入口与视听条件，所以不给无需条件的4。",
+      "atkReason": "座席与表演区可以重新排列，距离和观看方向随之改变，让亲近、包围或隔离成为具体关系。",
+      "defReason": "灵活配置能支撑多类行动；每一种排法仍要重新确认出入口、视线与声音，灵活不等于自动成立。",
+      "sourceIds": [
+        "RC43_STAGES"
+      ]
+    },
+    {
+      "id": "place-parlor",
+      "name": "娜拉的客厅",
+      "author": "易卜生《玩偶之家》",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        4,
+        3,
+        4
+      ],
+      "reference": 82,
+      "rationale": "原剧以客厅连接书房与门厅，信箱的可见而不可取制造信息不对称，舞蹈又拖延丈夫读信。门、信与钥匙组织事件到达和婚姻权力，最后离开令同一边界改义；日常居室不是低行动的理由。",
+      "atkReason": "门与信箱决定谁能接近秘密、谁能拖延揭露；日常距离因此变成婚姻中的权力关系。",
+      "defReason": "来访、交谈、舞蹈、读信与离开都围绕明确的门和物件展开，空间反复承托不同阶段的冲突。",
+      "sourceIds": [
+        "RC43_DOLL"
+      ]
+    },
+    {
+      "id": "place-stella",
+      "name": "斯特拉的公寓",
+      "author": "田纳西·威廉斯《欲望号街车》",
+      "atkRubric": [
+        3,
+        4,
+        3
+      ],
+      "defRubric": [
+        3,
+        4,
+        3
+      ],
+      "reference": 68,
+      "rationale": "国家剧院学习资料明确两间房与薄隔帘，私人生活缺少充分隔离。空间把投靠者和原住者持续挤在相互可侵入的范围，使家中位置与隐私成为冲突；布局简约不等于只支持单一行动。",
+      "atkReason": "拥挤的房间和薄隔帘让隐私难以维持，来访者与主人不断侵入彼此的生活边界。",
+      "defReason": "床、桌、隔帘和出入口关系清楚，家常活动与激烈交锋共享同一空间，压迫感有具体条件。",
+      "sourceIds": [
+        "RC43_STREETCAR_SPACE",
+        "RC43_STREETCAR"
+      ]
+    }
+  ],
+  "reviewedUnchanged": [
+    {
+      "id": "dir-solo",
+      "name": "独白直给",
+      "scope": "只核对既有锚点及本轮候选条件，未新增文献审定",
+      "reason": "既有锚点为ATK86／DEF90，综合88；原有理由已承认直接进入人物思想的作用，未发现足以据此继续提分的新证据。本轮不为维持某个星级倒推攻防。"
+    }
+  ],
+  "selection": {
+    "date": "2026-11-12",
+    "activeNonPlayCardsScreened": 400,
+    "existingActiveNonPlayAnchors": 25,
+    "historicalNonPlayCandidates": 375,
+    "newlySourceReviewed": 20,
+    "remainingHistoricalNonPlayCards": 355,
+    "method": "全量筛查常驻非剧目卡的旧攻防与简介、看点；优先选旧轴极低但现有内容已呈现明确行动、辨识或成法的矛盾。20张候选再核对具体人物、方法或空间的一手文本、剧院教学资料或行业机构说明。全文未逐张文献审定；来源不为游戏数值背书。",
+    "referencePolicy": "20张均保留原reference，本轮仅复核六个功能子项。",
+    "sourceLimitations": "清华《茶馆》材料是经典舞台电影放映介绍，并非原剧全文；采访补足主演实践。行走剧场与通用空间以行业机构定义为事实基线，其功能与适用边界为明确标注的编辑判断。英国国家剧院《欲望号街车》资料为具体制作的学习指南，不能据此声称所有制作均用同一布景。",
+    "unresolvedCandidates": [
+      {
+        "id": "role-bailu",
+        "name": "陈白露",
+        "reason": "旧ATK56与主要人物的求生、依赖及决断可能不符，需继续核对《日出》原剧。"
+      },
+      {
+        "id": "xrole-juexin",
+        "name": "觉新",
+        "reason": "旧DEF61可能把顺从与自相矛盾误当身份不清，需核对《家》的戏剧改编而非只读小说。"
+      },
+      {
+        "id": "yrole-houfangyu",
+        "name": "侯方域",
+        "reason": "旧DEF62值得复核，需要《桃花扇》原作中政治与情感行动的具体依据。"
+      },
+      {
+        "id": "xrole-figaro",
+        "name": "费加罗",
+        "reason": "ATK96／DEF65失衡，应先核定条目对应原剧及具体人物关系。"
+      },
+      {
+        "id": "xrole-shang",
+        "name": "商鞅",
+        "reason": "ATK96／DEF65失衡，需戏剧文本与创作者说明，不能以历史人物评价替代角色分析。"
+      },
+      {
+        "id": "place-zeng",
+        "name": "曾家花厅",
+        "reason": "旧ATK42疑似低估《北京人》居所中的人物关系，需要原剧空间证据。"
+      },
+      {
+        "id": "style-absurd",
+        "name": "荒诞派",
+        "reason": "旧DEF70可能低估具体创作原则；流派包含不同作家，不能只凭《等待戈多》给全流派六项定分。"
+      }
+    ]
+  }
+}

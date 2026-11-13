@@ -1,0 +1,406 @@
+{
+  "version": "v48",
+  "checkedAt": "2026-11-13",
+  "scope": "150 张演法／手段常驻卡，逐条文本审读及疑点定向查证",
+  "coveredCount": 150,
+  "coveredIds": [
+    "style-stan",
+    "style-epic",
+    "style-absurd",
+    "style-real",
+    "style-xieyi",
+    "style-poor",
+    "dir-wall",
+    "dir-alien",
+    "dir-ritual",
+    "dir-montage",
+    "dir-body",
+    "style-kabuki",
+    "style-black",
+    "style-physical",
+    "dir-solo",
+    "dir-convention",
+    "dir-call",
+    "xstyle-kunqu",
+    "xstyle-chuanju",
+    "xstyle-yuju",
+    "xstyle-huangmei",
+    "xstyle-shadow",
+    "xstyle-puppetry",
+    "xstyle-forum",
+    "xstyle-site",
+    "xstyle-walk",
+    "xstyle-soundth",
+    "xstyle-political",
+    "xstyle-comedy",
+    "xstyle-danceplay",
+    "xstyle-nanxi",
+    "xstyle-zaju",
+    "xstyle-lab",
+    "xstyle-bunraku",
+    "xdir-toplight",
+    "xdir-spot",
+    "xdir-backturn",
+    "xdir-changeset",
+    "xdir-enter",
+    "xdir-repeat",
+    "xdir-bang",
+    "xdir-drum",
+    "xdir-zoubian",
+    "xdir-sleeve",
+    "xdir-facechange",
+    "xdir-nian",
+    "xdir-mirror",
+    "xdir-group",
+    "xdir-improvbit",
+    "xdir-voiceover",
+    "ystyle-qinqiang",
+    "ystyle-yueopera",
+    "ystyle-errenzhuan",
+    "ystyle-zangxi",
+    "ystyle-budaixi",
+    "ystyle-kyogen",
+    "ystyle-takarazuka",
+    "ystyle-waterpuppet",
+    "ystyle-wenmingxi",
+    "ystyle-livingnews",
+    "ystyle-street",
+    "ystyle-mystery",
+    "ystyle-passion",
+    "ystyle-lightopera",
+    "ystyle-object",
+    "ystyle-install",
+    "ystyle-image",
+    "ystyle-magicreal",
+    "ystyle-criticalreal",
+    "ystyle-poeticreal",
+    "ystyle-ritualstyle",
+    "ystyle-manner",
+    "ystyle-drawingroom",
+    "ystyle-shinkoku",
+    "ystyle-sanskrit",
+    "ystyle-huagu",
+    "ydir-lingzi",
+    "ydir-fanwork",
+    "ydir-handkerchief",
+    "ydir-dachushou",
+    "ydir-diaomao",
+    "ydir-jiangshi",
+    "ydir-qiangbei",
+    "ydir-darkchange",
+    "ydir-qieguang",
+    "ydir-backlight",
+    "ydir-gauze",
+    "ydir-liftstage",
+    "ydir-wagontage",
+    "ydir-jijifeng",
+    "ydir-shoujiu",
+    "ydir-chujiang",
+    "ydir-duetline",
+    "ydir-bansing",
+    "ydir-qichang",
+    "ydir-coldstage",
+    "ydir-footlight",
+    "ydir-facelight",
+    "ydir-smoke",
+    "ydir-legdrop",
+    "ydir-paoyuan",
+    "ydir-rankou",
+    "style-v21-epistolary",
+    "style-v21-courtroom",
+    "style-v21-mystery",
+    "style-v21-fable",
+    "style-v21-family",
+    "style-v21-psychothriller",
+    "style-v21-metatheatre",
+    "style-v21-autobiographical",
+    "style-v21-polyphonic",
+    "style-v21-maximalist",
+    "style-v21-rehearsaldrama",
+    "style-v21-radiodrama",
+    "style-v21-stagedreading",
+    "style-v21-signedtheatre",
+    "style-v21-sensory",
+    "dir-v21-testimony",
+    "dir-v21-samewords",
+    "dir-v21-livefoley",
+    "dir-v21-timecut",
+    "dir-v21-soundimage",
+    "dir-v21-livesubtitles",
+    "dir-v21-linerelay",
+    "dir-v21-proptransfer",
+    "dir-v21-emptychair",
+    "dir-v21-unreliable",
+    "dir-v21-selectivereplay",
+    "dir-v21-simultaneoussolos",
+    "dir-v21-occlusion",
+    "dir-v21-compression",
+    "dir-v21-endingloop",
+    "v23-style-chamber",
+    "v23-style-total",
+    "v23-style-verbatim",
+    "v23-style-bourgeois-tragedy",
+    "v23-style-historyplay",
+    "v23-style-intercultural",
+    "v23-style-visual",
+    "v23-style-translation",
+    "v23-dir-pool",
+    "v23-dir-readstage",
+    "v23-dir-allwatch",
+    "v23-dir-objectchain",
+    "v23-dir-countdown",
+    "v23-dir-floorplan",
+    "v23-dir-soundfirst",
+    "v23-dir-silentopen",
+    "v23-dir-revolving",
+    "v23-dir-misremember"
+  ],
+  "coveredFields": [
+    "name",
+    "note",
+    "observe",
+    "stage",
+    "essay",
+    "highStar"
+  ],
+  "evidenceCheckedIds": [
+    "style-physical",
+    "style-absurd",
+    "ystyle-livingnews",
+    "style-v21-stagedreading",
+    "v23-style-chamber",
+    "v23-style-total",
+    "style-poor",
+    "xstyle-bunraku"
+  ],
+  "method": "通读全部条目的现有科普、看点、练习示例与高星展开；区分可核事实、解释性评论和创作练习。对可能误导的术语边界查机构教育资料、原著出版社、剧院项目及学术章节。",
+  "limitations": [
+    "150 张均已文本审读，不等于 150 张均与独立文献逐句核对。仅 evidenceCheckedIds 列出的条目完成本轮定向外部证据核对。",
+    "没有重新计算 ATK、DEF、综合分或稀有度，也没有将编辑性游戏数值认证为专业评分。",
+    "动作练习和看点多为创作示例，不应误标为原典情节、某位大师的唯一方法或某种表演的必要条件。",
+    "卡池的“演法”是游戏分类，内部包括戏剧类型、传统、组织方式和创作方法；本轮只修正会形成具体误解的定义，没有重新设计分类。",
+    "历史内部 ID 有已改名条目，例如 style-kabuki 对应的展示名已经改变；按当前名称与正文审查，不从旧 ID 推断内容错误。"
+  ],
+  "sources": [
+    {
+      "id": "C01",
+      "title": "Grotowski Institute — poor theatre",
+      "url": "https://grotowski.net/en/encyclopedia/poor-theatre",
+      "type": "研究机构百科，引用 Flaszen 与 Grotowski 原文",
+      "supports": "削减的是不必要的舞台成分；设计、音乐、灯光、空间重新与演员行动建立内在联系。"
+    },
+    {
+      "id": "C02",
+      "title": "Martin Esslin — The Theatre of the Absurd, Bloomsbury Academic",
+      "url": "https://www.bloomsbury.com/uk/theatre-of-the-absurd-9781472577023/",
+      "type": "原著出版社的书目与内容介绍",
+      "supports": "1961 年批评著作以该术语讨论贝克特、尤内斯库等作家；出版方将本书明确称为批评作品。"
+    },
+    {
+      "id": "C03",
+      "title": "Library of Congress — Living Newspaper",
+      "url": "https://www.loc.gov/exhibits/federal-theatre-project/living-newspaper.html",
+      "type": "美国国会图书馆原始演出与研究档案展",
+      "supports": "Living Newspaper 从当时报纸标题出发，把社会、经济等公共问题戏剧化；具体作品曾持续演出并留有剧本研究材料。"
+    },
+    {
+      "id": "C04",
+      "title": "Shakespeare’s Globe — Read Not Dead",
+      "url": "https://www.shakespearesglobe.com/discover/read-not-dead/",
+      "type": "剧院自身读剧项目说明",
+      "supports": "项目以持稿读演的方式重新呈现早期现代存世剧本，证明读剧也可以呈现已完成的历史作品。"
+    },
+    {
+      "id": "C05",
+      "title": "Lynn R. Wilkinson — The Chamber Plays, The Cambridge Companion to August Strindberg",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-august-strindberg/chamber-plays/DEAAB35D95B1FC574CBE41BE2C36AE5C",
+      "type": "剑桥大学出版社学术章节公开摘要",
+      "supports": "室内剧常指角色有限、重视气氛、空间亲密的剧作类型；室内布景是常见特征而非绝对条件。"
+    },
+    {
+      "id": "C06",
+      "title": "Dorothy Max Prior — What is Total Theatre?",
+      "url": "https://totaltheatre.org.uk/archive/features/what-total-theatre",
+      "type": "Total Theatre 组织刊物自身的术语讨论",
+      "supports": "总体戏剧有多种历史与实践定义；文章强调空间、声音、动作与视觉形象的协作，不规定每种媒介必须同时等量出现。"
+    },
+    {
+      "id": "C07",
+      "title": "Japan Arts Council — Invitation to Bunraku: Performers",
+      "url": "https://www2.ntj.jac.go.jp/unesco/bunraku/en/performer/index.html",
+      "type": "日本艺术文化振兴会传统表演教育资料",
+      "supports": "文乐由太夫、三味线演奏者和操偶者三业协同，说明三人操纵人偶的基本方式。"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "style-physical",
+      "name": "身体剧场",
+      "kind": "术语边界与绝对化表述修正",
+      "fields": {
+        "observe": "身体是组织意义的重要材料，也可以与语言、灯光和影像结合；不能单凭技术设备的多少来划定它与其他剧场实践的边界。"
+      },
+      "before": {
+        "observe": "它和质朴戏剧相邻，但更强调身体是叙述材料，不一定同时拒绝所有舞台技术。"
+      },
+      "sourceIds": [
+        "C01"
+      ],
+      "sources": [
+        {
+          "title": "Grotowski Institute — poor theatre",
+          "url": "https://grotowski.net/en/encyclopedia/poor-theatre"
+        }
+      ],
+      "reason": "原句“不一定同时拒绝所有舞台技术”容易反向暗示质朴戏剧拒绝一切技术。删去这个不成立的二分，保留身体作为创作材料的核心。"
+    },
+    {
+      "id": "style-absurd",
+      "name": "荒诞派",
+      "kind": "术语边界与绝对化表述修正",
+      "fields": {
+        "note": "马丁·艾斯林用来概括贝克特、尤内斯库等作家部分作品的批评术语，常讨论重复、交流受阻与非传统情节所呈现的生存困境。不同作家的作品并不采用同一种结构。",
+        "observe": "重复、停滞或言语失效可以成为行动本身，让人物寻找意义的困难进入观看过程。"
+      },
+      "before": {
+        "note": "马丁·艾斯林用以概括贝克特、尤内斯库等作品的戏剧流派，常以重复、语言失效和不连贯情节呈现生存困境。",
+        "observe": "荒诞派让语言空转、情节拒绝前进，形式的不稳本身成了战后的表达。"
+      },
+      "sourceIds": [
+        "C02"
+      ],
+      "sources": [
+        {
+          "title": "Martin Esslin — The Theatre of the Absurd, Bloomsbury Academic",
+          "url": "https://www.bloomsbury.com/uk/theatre-of-the-absurd-9781472577023/"
+        }
+      ],
+      "reason": "以批评术语交代命名来源，比把多位作者当作拥有统一纲领的流派更精确；“情节拒绝前进”改为可能采用的手法，避免给所有作品规定单一结构。"
+    },
+    {
+      "id": "ystyle-livingnews",
+      "name": "活报剧",
+      "kind": "术语边界与绝对化表述修正",
+      "fields": {
+        "note": "以时事新闻、调查和公共议题为材料的戏剧形式，常把叙述、场景与资料并置，强调对现实问题的及时回应；具体篇幅和演出形态会随创作目的变化。",
+        "observe": "新闻进入现场后，不只交代发生了什么，也邀请观众判断它与自己的生活有什么关系。",
+        "essay": "报纸上的事件来到活人面前，日期和数字便重新连上会受伤、会争辩的身体。它带着消息尚未冷却的急迫，让观众与人物共享同一个未定的现在。材料的取舍使创作者的选择格外显眼：哪一种声音被保留，哪一种处境被压缩。它的戏剧力量因此既在即时的相认，也在事实成为公共讲述时暴露的取舍。"
+      },
+      "before": {
+        "note": "以时事新闻为材料、篇幅短小且传播及时的戏剧形式，常用于公共空间和社会宣传。",
+        "observe": "它不为保存，为这一次的人群。",
+        "essay": "报纸上的事件来到活人面前，日期和数字便重新连上会受伤、会争辩的身体。它带着消息尚未冷却的急迫，让观众与人物共享同一个未定的现在。短小的篇幅使选择格外显眼：哪一种声音被保留，哪一种处境被压缩。它的戏剧力量因此既在即时的相认，也在事实成为公共讲述时暴露的取舍。",
+        "highStar": [
+          "报纸上的事件来到活人面前，日期和数字便重新连上会受伤、会争辩的身体。短小篇幅把取舍暴露出来：哪些声音被留下，哪些处境来不及展开，会直接影响现场的人怎样理解同一则消息。",
+          "新闻材料成为角色对话后，报道中的抽象关系会被转成能够看见的争执。一次决定可以分别由作决定的人和承受后果的人讲述，观众由此听见同一事件在不同位置上的含义。",
+          "及时传播不等于可以忽略材料的准确性。新闻事实、人物转述和创作者的评论需要分清，否则鲜明的表演容易把解释伪装成事实；活报剧的取舍本身也值得被观看和追问。"
+        ]
+      },
+      "sourceIds": [
+        "C03"
+      ],
+      "sources": [
+        {
+          "title": "Library of Congress — Living Newspaper",
+          "url": "https://www.loc.gov/exhibits/federal-theatre-project/living-newspaper.html"
+        }
+      ],
+      "reason": "中国语境中常见的短小宣传演出不宜成为所有相关 Living Newspaper 实践的硬性定义。“不为保存”也是诗性评论而非历史事实，改为公共议题的观演关系；正文与高星展开同步取消对固定篇幅的假定。",
+      "highStar": [
+        "报纸上的事件来到活人面前，日期和数字便重新连上会受伤、会争辩的身体。材料的取舍会暴露创作者的判断：哪些声音被留下，哪些处境来不及展开，会直接影响现场的人怎样理解同一则消息。",
+        "新闻材料成为角色对话后，报道中的抽象关系会被转成能够看见的争执。一次决定可以分别由作决定的人和承受后果的人讲述，观众由此听见同一事件在不同位置上的含义。",
+        "及时传播不等于可以忽略材料的准确性。新闻事实、人物转述和创作者的评论需要分清，否则鲜明的表演容易把解释伪装成事实；活报剧的取舍本身也值得被观看和追问。"
+      ]
+    },
+    {
+      "id": "style-v21-stagedreading",
+      "name": "读剧",
+      "kind": "术语边界与绝对化表述修正",
+      "fields": {
+        "essay": "未被填满的空间给语言留下更大的责任。演员既是文字的传递者，也以呼吸和聆听建立真实关系。它既可以用于新作的发展，也可以让已经完成的经典或少见剧本重新被听见。暂时的简约因此可能显出故事最坚硬的骨头。"
+      },
+      "before": {
+        "essay": "未被填满的空间给语言留下更大的责任。演员既是文字的传递者，也以呼吸和聆听建立真实关系。观众看见的是作品尚在形成的状态，而非一个封闭的成品。暂时的简约因此可能显出故事最坚硬的骨头。",
+        "highStar": [
+          "未被填满的空间给语言留下更大的责任。演员既是文字的传递者，也以呼吸和聆听建立真实关系。观众看见的是作品尚在形成的状态，而非一个封闭的成品。暂时的简约因此可能显出故事最坚硬的骨头。",
+          "朗读不等于把标点逐个发声。人物在听见对方之后怎样调整重音、速度或停顿，会让纸面上的句子形成正在进行的争取与回避。",
+          "有限的动作也可以交代谁在向谁说话，而不必为所有场景配齐实物。读剧呈现的是一种明确的观看约定：观众看见文本仍在手中，同时借声音和关系构成想象；简约并不取消对人物行动的要求。"
+        ]
+      },
+      "sourceIds": [
+        "C04"
+      ],
+      "sources": [
+        {
+          "title": "Shakespeare’s Globe — Read Not Dead",
+          "url": "https://www.shakespearesglobe.com/discover/read-not-dead/"
+        }
+      ],
+      "reason": "原句把读剧等同未完成作品的展示。环球剧院用读剧复现早期现代剧本，是清楚的反例；保留新作发展用途，同时补充已完成文本的传播用途。",
+      "highStar": [
+        "未被填满的空间给语言留下更大的责任。演员既是文字的传递者，也以呼吸和聆听建立真实关系。它既可以用于新作的发展，也可以让已经完成的经典或少见剧本重新被听见。暂时的简约因此可能显出故事最坚硬的骨头。",
+        "朗读不等于把标点逐个发声。人物在听见对方之后怎样调整重音、速度或停顿，会让纸面上的句子形成正在进行的争取与回避。",
+        "有限的动作也可以交代谁在向谁说话，而不必为所有场景配齐实物。读剧呈现的是一种明确的观看约定：观众看见文本仍在手中，同时借声音和关系构成想象；简约并不取消对人物行动的要求。"
+      ]
+    },
+    {
+      "id": "v23-style-chamber",
+      "name": "室内剧",
+      "kind": "术语边界与绝对化表述修正",
+      "fields": {
+        "note": "常指角色较少、规模凝练、重视心理气氛与亲密关系的剧作类型。斯特林堡的室内剧是重要例子；室内布景很常见，但不能只按是否发生在封闭房间里来判断。"
+      },
+      "before": {
+        "note": "一种演法。把冲突压缩进少量人物与封闭房间，让情绪的每一次升温都无处疏散，必须在近距离完成。"
+      },
+      "sourceIds": [
+        "C05"
+      ],
+      "sources": [
+        {
+          "title": "Lynn R. Wilkinson — The Chamber Plays, The Cambridge Companion to August Strindberg",
+          "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-august-strindberg/chamber-plays/DEAAB35D95B1FC574CBE41BE2C36AE5C"
+        }
+      ],
+      "reason": "“一种演法”“封闭房间”“必须”把剧作类型误缩成固定空间规则。学术摘要强调少量角色、气氛与亲密设置，且以 often 限定室内布景。"
+    },
+    {
+      "id": "v23-style-total",
+      "name": "总体戏剧",
+      "kind": "术语边界与绝对化表述修正",
+      "fields": {
+        "note": "强调表演、声音、身体、视觉形象与空间共同构成整体经验的剧场观念。不同创作者对“总体”的理解并不相同，不要求每种媒介同时出现或始终占据同等分量。"
+      },
+      "before": {
+        "note": "一种演法。表演、音乐、形体、灯光与空间不再分主次，所有媒介同时推动同一个行动。"
+      },
+      "sourceIds": [
+        "C06"
+      ],
+      "sources": [
+        {
+          "title": "Dorothy Max Prior — What is Total Theatre?",
+          "url": "https://totaltheatre.org.uk/archive/features/what-total-theatre"
+        }
+      ],
+      "reason": "原句“所有媒介同时”“不再分主次”过度规定形式。总体戏剧存在多种解释，核心可写为整体协作，而非同时、等量使用每一种媒介。"
+    }
+  ],
+  "evidenceCheckedRetained": [
+    {
+      "id": "style-poor",
+      "sourceIds": [
+        "C01"
+      ],
+      "reason": "现有“削减对技术奇观的依赖”“演员身体与观众的直接关系”符合机构解释；不需要把它改写成拒绝所有技术。"
+    },
+    {
+      "id": "xstyle-bunraku",
+      "sourceIds": [
+        "C07"
+      ],
+      "reason": "太夫、三味线、操偶协同及主要人偶常用三人操纵的说明与日本艺术文化振兴会教育资料相符。"
+    }
+  ],
+  "integration": "这里只提供校订建议。fields 是完整字段的新值；highStar 与 essay 有重叠版本，需同步更新对应数据，避免页面继续显示旧的绝对化句子。未直接修改游戏数据。"
+}

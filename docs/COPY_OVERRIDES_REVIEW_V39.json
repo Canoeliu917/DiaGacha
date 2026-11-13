@@ -1,0 +1,1087 @@
+{
+  "version": "v39",
+  "status": "ready for root integration",
+  "activeCardsRead": 500,
+  "scope": "Manual review of note/observe/stage for the active 500, plus retained essays and generated-talk functions; factual checks are targeted, not a claim of complete academic verification.",
+  "overriddenCards": 74,
+  "overriddenFields": 92,
+  "reviews": [
+    {
+      "id": "style-xieyi",
+      "name": "写意戏剧",
+      "dimension": "风格体系",
+      "basis": "原 note 定义为提炼概括的表现方式；旧 observe 把它与体验、间离并列成普遍公认分类，改回本卡可观察的虚拟表达。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "它和体验、间离并列为一种戏剧观，虚拟是方法而不是残缺。",
+          "after": "省去完整的写实景片后，动作仍要让观众分清人物所处的位置与关系。"
+        }
+      }
+    },
+    {
+      "id": "style-poor",
+      "name": "质朴戏剧",
+      "dimension": "风格体系",
+      "basis": "原 note 是削减对技术奇观的依赖，旧 observe 却说剥掉全部化妆和效果；去掉绝对化。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "格洛托夫斯基剥掉布景、化妆和效果，质朴戏剧只留下演员与观众的相遇。",
+          "after": "减少对舞台技术的依赖后，演员与观众的直接关系变得更突出。"
+        }
+      }
+    },
+    {
+      "id": "style-kabuki",
+      "name": "夸张演技",
+      "dimension": "风格体系",
+      "basis": "卡名已是夸张演技，不能从旧 ID 推断为歌舞伎；旧 observe 对大剧场的含蓄表演一概否定。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "大剧场里，含蓄会消失，外形必须自己说话。",
+          "after": "把动作或语气放大后，角色的意图仍要清楚，夸张才有作用。"
+        }
+      }
+    },
+    {
+      "id": "xstyle-yuju",
+      "name": "独幕剧",
+      "dimension": "风格体系",
+      "basis": "独幕剧 note 已说明通常较短但不强制单一会面，旧 observe 却规定每句必须推动同一个决定。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "时间短，所以每一句都得推动那一个决定。",
+          "after": "较集中的篇幅里，一次信息变化或关系转折，就能改变整场的方向。"
+        }
+      }
+    },
+    {
+      "id": "xstyle-huangmei",
+      "name": "多幕剧",
+      "dimension": "风格体系",
+      "basis": "原 note 允许同一冲突延续，换幕不等于时间必然过去。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "幕布一关，观众被允许感到日子已经过去。",
+          "after": "换幕既可以推进时间，也可以让同一冲突换个场面继续。"
+        }
+      }
+    },
+    {
+      "id": "xstyle-lab",
+      "name": "实验剧场",
+      "dimension": "风格体系",
+      "basis": "实验剧场 note 关注探索观看规则，旧 observe 的两项保证都不是定义。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "它不保证舒服，保证你知道自己在看戏。",
+          "after": "改变观看规则，也是在试探观众习惯怎样理解一场戏。"
+        }
+      }
+    },
+    {
+      "id": "ystyle-qinqiang",
+      "name": "人物弧光",
+      "dimension": "风格体系",
+      "basis": "原 note 明确人物可坚持不变；旧 observe 却把没有弧光等同于没有人物塑造，直接冲突。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "没有弧光，角色只是在重复自己的第一句台词。",
+          "after": "人物可以改变，也可以坚持不变；关键是观众看清他为何这样选择。"
+        }
+      }
+    },
+    {
+      "id": "ystyle-lightopera",
+      "name": "轻歌剧",
+      "dimension": "风格体系",
+      "basis": "原 note 说轻巧旋律、喜剧及社会讽刺，旧 observe 把讽刺对象限定为有钱人。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "它笑有钱人，但旋律很甜。",
+          "after": "轻巧的旋律和对白交替出现，喜剧节奏也能带出讽刺。"
+        }
+      }
+    },
+    {
+      "id": "ystyle-object",
+      "name": "物体剧场",
+      "dimension": "风格体系",
+      "basis": "旧 observe 的人退到旁边不能解释物体剧场；改用 note 中物件用途与人际关系。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "东西一被认真对待，人就退到旁边。",
+          "after": "物件的形状和用法被重新安排，就能显出角色之间的关系。"
+        }
+      }
+    },
+    {
+      "id": "ystyle-install",
+      "name": "装置剧场",
+      "dimension": "风格体系",
+      "basis": "装置剧场 note 关注路径与停留；旧 observe 说没有幕，属于不必要的固定规则。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "没有幕，进门就是开场。",
+          "after": "观众走到哪里、停留多久，也会改变这场戏的观看顺序。"
+        }
+      }
+    },
+    {
+      "id": "ystyle-magicreal",
+      "name": "魔幻现实主义",
+      "dimension": "风格体系",
+      "basis": "魔幻现实主义不局限于村落；依原 note 保留超常事件融入日常的概念。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "奇事不是梦，是这村里会发生的事。",
+          "after": "人物把奇异事件当作日常的一部分，仍要面对它带来的后果。"
+        }
+      }
+    },
+    {
+      "id": "ystyle-passion",
+      "name": "受难剧",
+      "dimension": "风格体系",
+      "basis": "保留原 essay 中熟悉结局仍有承受、见证、背离等选择，替代靠顺序的空泛概括。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "它靠顺序，不靠悬念。",
+          "after": "观众即使熟悉结局，仍会关注人物怎样承受、见证或背离。"
+        }
+      }
+    },
+    {
+      "id": "ystyle-sanskrit",
+      "name": "古典诗学",
+      "dimension": "风格体系",
+      "basis": "本卡 note 指亚里士多德诗学；旧 observe 混入时间地点必须收紧的规则，改用已有情节、突转与发现。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "性格、言辞和场面都服从这个行动，时间和地点能收紧时就收紧。",
+          "after": "先看事件怎样因果相连，再看发现与突转如何改变人物的行动。"
+        }
+      }
+    },
+    {
+      "id": "style-v21-stagedreading",
+      "name": "读剧",
+      "dimension": "风格体系",
+      "basis": "读剧不必是文本第一次公开呈现；去掉首次公共呼吸的假定，保留声音与有限行动。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "读剧让文本经由演员声音与有限行动进入共同时间，使尚未完整具象的故事获得第一次公共呼吸。",
+          "after": "读剧以演员朗读和有限行动呈现剧本，让观众通过声音、节奏和人物关系理解文本。"
+        }
+      }
+    },
+    {
+      "id": "v23-style-verbatim",
+      "name": "逐字剧场",
+      "dimension": "风格体系",
+      "basis": "英国国家剧院教学材料明确提到素材凝练与剪辑；逐字剧场不等于演员只把整段记录重新念一遍。",
+      "sources": [
+        "https://nt-itunesu.s3.amazonaws.com/permanent_way.pdf",
+        "https://www.ntathome.com/verbatim-musical"
+      ],
+      "changes": {
+        "note": {
+          "before": "一种演法。演出严格使用访谈、庭审或记录里的原话，演员不改写句子，只把真实言说重新当众说一遍。",
+          "after": "以真实访谈、庭审或其他记录中的原话构成戏剧，保留言语的具体特征，并通过选择、编排和表演形成舞台表达。"
+        }
+      }
+    },
+    {
+      "id": "v23-dir-countdown",
+      "name": "反向计时",
+      "dimension": "导演手法",
+      "basis": "倒计时限定的是剩余时间；旧 note 将任何拖延定性为罪，替换成能直接观察的时间压力。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "一种舞台手段。舞台上出现可见的倒计时，行动被截止日期挤压，拖延本身成为看得见的罪。",
+          "after": "在舞台上显示倒计时，把行动的剩余时间交给观众看见；人物的犹豫与拖延因此更清楚。"
+        }
+      }
+    },
+    {
+      "id": "v23-dir-pool",
+      "name": "水池舞台",
+      "dimension": "导演手法",
+      "basis": "水池舞台本义是水面、声响与身体行动，旧 observe 默认出现按人入水的情节，与卡的通用手段定义无关。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "水会记住动作：谁进得深，谁把谁按下去，观众都能看见。",
+          "after": "水面的涟漪和声响，会把人物的停顿、靠近与退让放大。"
+        }
+      }
+    },
+    {
+      "id": "v23-dir-allwatch",
+      "name": "全员旁观",
+      "dimension": "导演手法",
+      "basis": "转头不必等于站边，改成有意排演的注视、回避与离席，使动作与情境连接。",
+      "sources": [],
+      "changes": {
+        "stage": {
+          "before": "让旁观的人坐成半圆，主戏只在圆心发生，谁转头谁就是在选择站边。",
+          "after": "让旁观者坐成半圆，再用注视、回避或离席改变圆心两人的处境。"
+        }
+      }
+    },
+    {
+      "id": "place-tea",
+      "name": "裕泰茶馆",
+      "dimension": "环境",
+      "basis": "原 note 和 stage 均提到跨幕陈设变化，旧 observe 的几乎不改造成矛盾。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "裕泰茶馆这间屋子几乎不改，进来的人和时代从清末换到抗战之后，空间成了历史的容器。",
+          "after": "茶馆的陈设和生意随着时代改变，熟客的来去让历史落到日常生活里。"
+        }
+      }
+    },
+    {
+      "id": "place-zhou",
+      "name": "周公馆",
+      "dimension": "环境",
+      "basis": "周公馆的 note 是旧秩序面对来客与旧事，旧 observe 却说能独自撑住全部秘密，与揭密行动相反。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "周公馆是《雷雨》的主场景，闷热体面的客厅连着窗外将至的雷雨，封闭的规矩能独自撑住全部秘密。",
+          "after": "体面的客厅维持着周朴园的规矩，旧事与来客却不断动摇这套秩序。"
+        }
+      }
+    },
+    {
+      "id": "place-sichuan",
+      "name": "四川某城",
+      "dimension": "环境",
+      "basis": "保留原 note 明确的虚构中国城镇与寓言性质；删除没有来源的作者声明。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "布莱希特声明这座四川不必考据，烟馆、小店和神仙可以同街，自洽靠寓言规则不靠地方志。",
+          "after": "这座虚构城镇让神与商贩同台，寓言关注的是生存条件怎样考验善意。"
+        }
+      }
+    },
+    {
+      "id": "place-cherry",
+      "name": "樱桃园",
+      "dimension": "环境",
+      "basis": "原 note 及剧目卡均是庄园拍卖，旧 observe 错置为家具拍卖。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "契诃夫的樱桃园白花将尽，家具即将被拍卖，美丽本身连贯，旧时代只是轻轻压在每间屋里。",
+          "after": "庄园即将拍卖，人物仍眷恋樱桃园里的旧日生活。谈话中的留恋与现实里的债务不断相撞。"
+        }
+      }
+    },
+    {
+      "id": "place-zoo",
+      "name": "城市动物园",
+      "dimension": "环境",
+      "basis": "旧 observe 夜色是当代的没有解释力；改用原 note 的马路与饲养空间、stage 的围栏关系。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "城市动物园把笨重的动物和过度诗化的爱情放在同一张地图上，夜色是当代的。",
+          "after": "围栏隔开照料与旁观，也让马路的孤独有了一个具体位置。"
+        }
+      }
+    },
+    {
+      "id": "place-blackbox",
+      "name": "黑匣子",
+      "dimension": "环境",
+      "basis": "原 note 定义可变座席与表演区，旧 observe 环境没有记忆无法由此推出。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "它是当代剧场的常用壳，灵活的代价是环境自己几乎没有记忆。",
+          "after": "座席和表演区可以重新布置，同一空间也能建立不同的观看关系。"
+        }
+      }
+    },
+    {
+      "id": "place-proscenium",
+      "name": "镜框式舞台",
+      "dimension": "环境",
+      "basis": "原 note 的正面观看与台口构图，不限于写实演出；删去旧 observe 的狭窄归类。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "它是近代写实剧场的房子，看和被看的方向被墙决定，不只是被导演决定。",
+          "after": "台口把主要视线集中在正面，构图与遮挡需要回应这一观看方向。"
+        }
+      }
+    },
+    {
+      "id": "xplace-dock",
+      "name": "码头",
+      "dimension": "环境",
+      "basis": "旧定义缺中心名词，等、别和装生活的并列不通顺；保留靠岸、等候与离别。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "码头是船来船走的边，人在这里等、别和把生活装进箱子。",
+          "after": "供船只停靠、上下人员和装卸货物的地方。等候、送别和出发可以在同一条岸边相遇。"
+        }
+      }
+    },
+    {
+      "id": "xplace-market",
+      "name": "集市",
+      "dimension": "环境",
+      "basis": "旧定义是人多货多消息多，缺少场所中心词；旧 observe 排除客厅中的公共生活也无必要。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "集市是人多、货多、消息多，一个谣言可以比主角跑得快。",
+          "after": "买卖集中、人流交错的交易场所。交易声和闲谈混在一起，一条消息可能比送信的人走得更快。"
+        },
+        "observe": {
+          "before": "公共生活在这里，不是在客厅里。",
+          "after": "买卖与围观交织，私人的争执很容易引来更多人介入。"
+        }
+      }
+    },
+    {
+      "id": "xplace-factory",
+      "name": "工厂",
+      "dimension": "环境",
+      "basis": "旧句工厂是机器的节奏比人的台词更稳，主宾类别错位；保留机器声、下班与交谈限制。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "工厂是机器的节奏比人的台词更稳，下班铃可以切断任何争吵。",
+          "after": "以生产作业为主要活动的场所。机器声、班次和共同劳动，会限制人物交谈和行动的时机。"
+        }
+      }
+    },
+    {
+      "id": "xplace-grave",
+      "name": "墓地",
+      "dimension": "环境",
+      "basis": "旧 observe 把死亡直接定义为可站立的地面，语义错位；保留名字与悼念的具体关系。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "死亡不是消息，是一块你可以站上去的地。",
+          "after": "刻下的名字让缺席者有了位置，活人的告别也有了具体对象。"
+        }
+      }
+    },
+    {
+      "id": "xplace-carriage",
+      "name": "车厢",
+      "dimension": "环境",
+      "basis": "旧定义把车厢等同于人并排坐的动作；保留同乘、沿途和下一站的限制。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "车厢是陌生人或一家人并排坐着，窗外的风景比心里的话快。",
+          "after": "车辆内部供人乘坐的空间。目的地各不相同的人暂时同行，谈话也有了下一站的时限。"
+        }
+      }
+    },
+    {
+      "id": "xplace-rooftop",
+      "name": "屋顶",
+      "dimension": "环境",
+      "basis": "屋顶并非必然是城里最高处或私人场所；只保留建筑顶部、边缘与眺望的空间条件。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "屋顶是城里最高的一块私人地面，适合发誓、对峙和往下看。",
+          "after": "建筑物顶部的空间，人物可以在这里眺望城市、交谈或对峙。边缘与高度也会改变他们靠近和退让的方式。"
+        }
+      }
+    },
+    {
+      "id": "xplace-kitchen",
+      "name": "厨房",
+      "dimension": "环境",
+      "basis": "旧定义以火刀饭菜替代空间说明；用原 note 的家务与家庭权力作清晰解释。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "厨房是火、刀和还没端出去的菜，家里的权力经常在这里而不是在客厅。",
+          "after": "准备饭菜的家庭空间。做饭、分工和谁先离开，都可以显出家庭中的责任与权力。"
+        }
+      }
+    },
+    {
+      "id": "xplace-snowfield",
+      "name": "雪原",
+      "dimension": "环境",
+      "basis": "旧 note 没有墙的白及 observe 对白很贵含义不清；保留开阔、缺少地标与足迹。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "雪原是没有墙的白，脚印会出卖每一个经过的人。",
+          "after": "被积雪覆盖的开阔地带。可辨认的地标可能很少，脚印却会留下人物来去的方向。"
+        },
+        "observe": {
+          "before": "空让对白变得很贵。",
+          "after": "人物想藏住自己的去向，雪地上的脚印却仍然留着。"
+        }
+      }
+    },
+    {
+      "id": "xplace-mine",
+      "name": "矿井",
+      "dimension": "环境",
+      "basis": "矿井照明不必只有头灯；用原 stage 的敲击回应和空间局限解释可演条件。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "矿井是往下的通道，光只在头灯里，外面的天气暂时作废。",
+          "after": "通向地下采掘区的空间。有限的照明、狭窄通道与远处声响，会影响人物寻找同伴和出路的方式。"
+        }
+      }
+    },
+    {
+      "id": "yplace-crossroad",
+      "name": "十字路口",
+      "dimension": "环境",
+      "basis": "旧定义十字路口是几条路在这里交叉重复主语；保留道路汇合、选择与相遇。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "十字路口是几条路在这里交叉，人必须选，预言也喜欢在这里开口。",
+          "after": "道路交汇的地点，可以让同行的人在去向上发生分歧，也让不同来路的人突然相遇。"
+        }
+      }
+    },
+    {
+      "id": "yplace-huafang",
+      "name": "画舫",
+      "dimension": "环境",
+      "basis": "旧 note 水上的船重复而无助说明；保留现有灯影、歌声和移动房间的舞台用途。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "画舫是水上的船，灯和歌声先到，人在岸上看见的是移动的房间。",
+          "after": "水上游览或宴饮的装饰船。灯影、歌声和船的移动，可以让水岸两边形成观看与相遇。"
+        }
+      }
+    },
+    {
+      "id": "yplace-well",
+      "name": "井台",
+      "dimension": "环境",
+      "basis": "消息的速度跟桶一样没有可理解的比较对象；改为 stage 已有的递桶传话。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "消息的速度跟桶一样。",
+          "after": "一条消息随着取水、递桶和等待，在熟人之间传开。"
+        }
+      }
+    },
+    {
+      "id": "yplace-shikumen",
+      "name": "石库门",
+      "dimension": "环境",
+      "basis": "旧定义上海的石库门房子循环解释；依原卡共用过道与邻里声响说明此处选取的里弄生活。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "石库门是上海的石库门房子，几户人共用一面墙和一条过道。",
+          "after": "这里呈现上海里弄住宅中的共同生活：几户人家共用过道，相邻房间的日常声响让私事容易被邻里察觉。"
+        }
+      }
+    },
+    {
+      "id": "yplace-cafe",
+      "name": "咖啡馆",
+      "dimension": "环境",
+      "basis": "旧定义把咖啡馆等同桌子，缺中心词；保留约见、等候与偶遇。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "咖啡馆是现代人约见、等人和假装碰巧的桌子。",
+          "after": "供人喝咖啡、休息与交谈的公共场所。相邻的桌子可以同时容纳约见、等待和偶然相遇。"
+        }
+      }
+    },
+    {
+      "id": "yplace-altar",
+      "name": "祭坛",
+      "dimension": "环境",
+      "basis": "祭坛不由是否摆给观众观看来定义；区分场所本义与本游戏的舞台安排。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "祭坛是把献祭放在观众看得见的高度上的石头或台子。",
+          "after": "用于祭祀或供奉的台面与场所。在演出中，献上的物品和众人围聚的位置可以构成仪式的中心。"
+        }
+      }
+    },
+    {
+      "id": "yplace-dungeon",
+      "name": "地牢",
+      "dimension": "环境",
+      "basis": "旧定义比监狱更低一层混淆场所与楼层；保留地下囚禁和探视的空间条件。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "地牢是比监狱更低的一层，光只在有人下来的时候出现。",
+          "after": "设在地下或城堡深处的囚禁空间。有限的出入口和外界声响，能让等待、隔绝与探视形成冲突。"
+        }
+      }
+    },
+    {
+      "id": "yplace-stable",
+      "name": "马厩",
+      "dimension": "环境",
+      "basis": "旧 note 以牲口和草替代场所定义，observe 又把低处等同于真话；保留劳动与密谈。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "马厩是牲口、草和夜里谈话的地方，身份在这里会松一档。",
+          "after": "饲养马匹、存放草料的场所。照料牲口的劳动可以与夜间的会面、密谈同时发生。"
+        },
+        "observe": {
+          "before": "低的地方适合说真话。",
+          "after": "照料牲口的间隙，可以让平时难以相见的人交换消息。"
+        }
+      }
+    },
+    {
+      "id": "yplace-ballroom",
+      "name": "舞厅",
+      "dimension": "环境",
+      "basis": "旧定义舞厅是灯光转起来之后缺少完整宾语；保留舞伴选择和社交关系。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "舞厅是灯光转起来之后，谁跟谁跳舞就是情节。",
+          "after": "供人跳舞与社交的场所。邀请谁、回避谁，以及何时更换舞伴，都能使人物关系变得可见。"
+        }
+      }
+    },
+    {
+      "id": "yplace-office",
+      "name": "办公室",
+      "dimension": "环境",
+      "basis": "旧 note 把办公室直接等同文件和电话；依据原 essay 的事务、发言与等待改写。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "办公室是文件、电话和关门的会议，权力通常不喊，只批。",
+          "after": "处理事务与工作的室内空间。文件、电话、等候和关门会议，会影响谁能发言、谁必须等待。"
+        }
+      }
+    },
+    {
+      "id": "yplace-workshop",
+      "name": "车间",
+      "dimension": "环境",
+      "basis": "旧定义车间是机器的节奏比说话稳，主宾类别错位；保留作业与交谈的时间限制。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "车间是机器的节奏比说话稳，私人的话必须插进噪音的缝。",
+          "after": "进行生产加工的工作空间。机器声和工序节奏限制交谈，私人消息只能寻找空隙传递。"
+        }
+      }
+    },
+    {
+      "id": "place-v22-embassyhall",
+      "name": "大使馆避难厅",
+      "dimension": "环境",
+      "basis": "旧文另一套法律覆盖地面、国界在室内重画会误导；CPS明确外交场所仍属驻在国领土。改成标明虚构的求助场景，不把进入使馆等同于改变国籍或自动获得庇护。",
+      "sources": [
+        "https://www.cps.gov.uk/prosecution-guidance/diplomatic-immunity-and-diplomatic-premises"
+      ],
+      "changes": {
+        "note": {
+          "before": "大使馆避难厅用另一套法律覆盖脚下的地面，求助的人必须在门槛内外重新学习自己是谁。",
+          "after": "这里设想的是使馆内接待求助者的空间。门禁、等候与核验，让想要留下的人不断面对能否获得帮助的问题。"
+        },
+        "observe": {
+          "before": "保护以文件和国境为条件，安全本身也变成一种需要申请的身份。",
+          "after": "接待者按程序询问，求助者却带着无法暂停的急迫。"
+        },
+        "essay": {
+          "before": "国界在室内被重新画过一遍，法律的庇护带着文件的冷意。求助者必须把复杂的人生翻译成可被盖章的叙事，而盖章的人也会看见翻译所省略的东西。安全不是抽象许诺，它有门槛、有等候，也有可能被拒绝的一刻。",
+          "after": "求助者需要把复杂的经历说清楚，接待者则要逐项确认信息。两人的时间感并不相同：一方等待下一次答复，另一方担心眼前已经没有退路。"
+        }
+      }
+    },
+    {
+      "id": "v23-play-allmysons",
+      "name": "都是我的儿子",
+      "dimension": "剧目",
+      "basis": "TimeLine剧院教学资料明确军机零件是有裂纹的汽缸盖；Old Vic剧情介绍与剧本角色关系不支持邻居儿子也被牺牲的含混写法。",
+      "sources": [
+        "https://timelinetheatre.com/app/uploads/AllMySons_StudyGuide.pdf",
+        "https://www.oldvictheatre.com/stage/all-my-sons/"
+      ],
+      "changes": {
+        "note": {
+          "before": "阿瑟·米勒的家庭剧。二战飞机制造商乔·凯勒把不合格零件送上前线，多年后邻居的儿子与自己的儿子都成了真相的代价。",
+          "after": "阿瑟·米勒的戏剧。工厂主乔·凯勒在战争中放行有裂纹的飞机发动机汽缸盖，却把责任推给合伙人。儿子克里斯准备与安结婚时，旧案与失踪儿子拉里的命运重新进入家庭。"
+        },
+        "stage": {
+          "before": "让不合格的圆柱体每被提起一次，厨房的灯光就暗一档，家常话逐渐变成追查。",
+          "after": "让有关汽缸盖的文件留在家庭餐桌上，每次有人想把它收走，都被另一个问题叫住。"
+        }
+      }
+    },
+    {
+      "id": "v23-play-dreamlike",
+      "name": "如梦之梦",
+      "dimension": "剧目",
+      "basis": "香港话剧团正式故事概要是年轻女医生听五号病人讲述，五个情人并非人物编号的正确解释；删除剩余重复填充句。",
+      "sources": [
+        "https://www.hkrep.com/tc/Others/Adlad-Cast-List-And-Synopsis.html"
+      ],
+      "changes": {
+        "note": {
+          "before": "赖声川的长篇剧场作品。医生探访一位临终病人，故事一层层打开，五个情人、几座城市与一次环湖行走，把别人的一生变成自己必须走完的路。",
+          "after": "赖声川的长篇剧场作品。年轻女医生倾听五号病人的临终讲述，他的旅程又带出江红与顾香兰等人的故事，病房、旅途与回忆逐层相连。"
+        },
+        "essay": {
+          "before": "于是场上的人每前进一步，旁观者都能看见代价如何落在具体的人身上。",
+          "after": ""
+        }
+      }
+    },
+    {
+      "id": "v23-play-danton",
+      "name": "丹东之死",
+      "dimension": "剧目",
+      "basis": "本条剩余 essay 与如梦之梦逐字相同，既不补充人物也不解释事件，删除通用填充。",
+      "sources": [],
+      "changes": {
+        "essay": {
+          "before": "于是场上的人每前进一步，旁观者都能看见代价如何落在具体的人身上。",
+          "after": ""
+        }
+      }
+    },
+    {
+      "id": "v23-play-viewbridge",
+      "name": "桥头眺望",
+      "dimension": "剧目",
+      "basis": "York Theatre Royal与Goodman官方剧情确认埃迪家庭、妻子的西西里亲戚和嫉妒告密；旧文逼到桥下把标题误写成具体结局地点。",
+      "sources": [
+        "https://www.yorktheatreroyal.co.uk/latest/cast-announced-for-a-view-from-the-bridge/",
+        "https://www.goodmantheatre.org/press-rooms/a-view-from-the-bridge/"
+      ],
+      "changes": {
+        "note": {
+          "before": "阿瑟·米勒的悲剧。码头工人埃迪把侄女凯瑟琳当作自己的全部秩序，表亲移民的到来搅动这份感情，告密与欲望终于把他逼到桥下。",
+          "after": "阿瑟·米勒的悲剧。码头工人埃迪与妻子抚养凯瑟琳；妻子的两位西西里亲戚到来后，凯瑟琳的恋情使埃迪的占有欲显露，最终引发告密与冲突。"
+        },
+        "stage": {
+          "before": "让公寓的门口始终对准窗外那座桥，埃迪每次告诫都像对着整座城市宣布所有权。",
+          "after": "让埃迪反复站到公寓门口，凯瑟琳每次准备出门都必须决定是否绕开他。"
+        }
+      }
+    },
+    {
+      "id": "v23-play-woyzeck",
+      "name": "沃伊采克",
+      "dimension": "剧目",
+      "basis": "汉堡德意志剧院原作介绍同时明确沃伊采克受压迫和杀害玛丽；去掉完成残忍回答的含混措辞，不把杀人写成被害者所造成的必然。",
+      "sources": [
+        "https://schauspielhaus.de/stuecke/woyzeck",
+        "https://schauspielhaus.de/sites/default/files/2022-11/Woyzeck%20Materialmappe_schule_0.pdf"
+      ],
+      "changes": {
+        "note": {
+          "before": "毕希纳未完成的残篇。军营里的士兵沃伊采克被长官役使、被医生实验，又被情人玛丽的背叛逼到极限，终于在水边完成残忍的回答。",
+          "after": "毕希纳未完成的戏剧。贫困士兵沃伊采克受长官羞辱，并参与医生的实验；玛丽与鼓手长的关系加剧了他的嫉妒和精神困扰，他最终杀害玛丽。"
+        },
+        "observe": {
+          "before": "一个人被当成材料使用太久，爱欲也会变成他唯一还能支配的暴力。",
+          "after": "他承受的压迫与他施向玛丽的暴力，需要在同一场戏里被看见。"
+        }
+      }
+    },
+    {
+      "id": "v23-play-equus",
+      "name": "恋马狂",
+      "dimension": "剧目",
+      "basis": "Concord权利方剧情介绍是Dysart追查少年刺盲六匹马的动机；医生被神性马刺中语义混乱。",
+      "sources": [
+        "https://www.concordtheatricals.com/p/2822/equus"
+      ],
+      "changes": {
+        "note": {
+          "before": "彼得·谢弗的戏剧。少年艾伦刺盲了马厩里的马，精神病医生通过追溯他的崇拜与禁忌，发现自己也被这匹神性的马刺中了。",
+          "after": "彼得·谢弗的戏剧。少年艾伦刺盲六匹马后接受精神科医生戴萨特的治疗。医生追查他的成长、崇拜与禁忌，也逐渐质疑自己对正常生活的理解。"
+        }
+      }
+    },
+    {
+      "id": "v23-play-busstop",
+      "name": "车站",
+      "dimension": "剧目",
+      "basis": "剧本正式出版物预览与研究均说明有车经过但不停靠；沉默的人提前离开，与其余人的多年等待形成对照。",
+      "sources": [
+        "https://api.pageplace.de/preview/DT0400.9781317453772_A24445478/preview-9781317453772_A24445478.pdf"
+      ],
+      "changes": {
+        "note": {
+          "before": "高行健的话剧。一群人在郊外车站等待永远不来的班车，各自陈述要去的地方，却在等待里暴露谁其实无处可去。",
+          "after": "高行健的话剧。一群人在郊外车站等车进城，车辆经过却不停靠，争论与等待逐渐耗去多年。沉默的人早已独自步行离开，其余人才开始重新考虑自己的去向。"
+        },
+        "observe": {
+          "before": "班车不来并不可笑，可笑的是人们仍要用时刻表证明自己没有被抛下。",
+          "after": "站牌还在，并不等于等候会把人带到目的地。"
+        }
+      }
+    },
+    {
+      "id": "xrole-cao",
+      "name": "曹操",
+      "dimension": "主演",
+      "basis": "原 note 重复曹操是在曹操与杨修里；改用同剧卡已有的赏识与猜忌。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "《曹操与杨修》里，曹操是在曹操与杨修里，他需要这个聪明人，也容不下这个聪明人。",
+          "after": "《曹操与杨修》中的人物。他赏识杨修的才智，又忌惮对方看破自己的心思，信任与猜疑不断交替。"
+        }
+      }
+    },
+    {
+      "id": "xrole-pozzo",
+      "name": "波卓",
+      "dimension": "主演",
+      "basis": "旧 note 在同一句重复等待戈多两次；保留牵绳主奴关系。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "《等待戈多》里，波卓是等待戈多里牵着幸运儿的主人，自己也说不清要去哪里。",
+          "after": "贝克特《等待戈多》中的人物。他用绳子牵着幸运儿同行，以主人的姿态要求周围人服从。"
+        }
+      }
+    },
+    {
+      "id": "yrole-witches",
+      "name": "三女巫",
+      "dimension": "主演",
+      "basis": "旧 note 三女巫是在荒原上用三句预言缺少中心名词；保留预言与麦克白主动行动的区别。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "《麦克白》里，三女巫是在荒原上用三句预言把麦克白推向王冠和血迹。",
+          "after": "《麦克白》中的三位神秘人物。她们向麦克白说出预言，他随后用自己的行动追逐王位。"
+        }
+      }
+    },
+    {
+      "id": "yrole-richardiii",
+      "name": "理查三世",
+      "dimension": "主演",
+      "basis": "旧 note 理查三世是把每段亲密当台阶缺少完整宾语；用现有剧目卡的阴谋、夺位和面向观众讲话改写。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "《理查三世》里，理查三世是把每一段亲密都当成夺取王冠的台阶，还向观众承认这一点。",
+          "after": "莎士比亚同名剧中的人物。他以阴谋和杀戮夺取王位，直接向观众透露计划，随后又向剧中人作出虚假的承诺。"
+        }
+      }
+    },
+    {
+      "id": "yrole-falstaff",
+      "name": "福斯塔夫",
+      "dimension": "主演",
+      "basis": "旧 note 又胖又谎用词不通顺；明确莎士比亚作品，避免与池中皮兰德娄同名剧混淆。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "《亨利四世》里，福斯塔夫是又胖又谎的骑士，把荣誉说成一口气，把酒馆说成王国。",
+          "after": "莎士比亚《亨利四世》系列中的骑士。他嗜酒、爱夸口，与哈尔王子的酒馆生活相连，也不断用玩笑质疑英雄式的荣誉。"
+        }
+      }
+    },
+    {
+      "id": "yrole-khlestakov",
+      "name": "赫列斯达可夫",
+      "dimension": "主演",
+      "basis": "旧 note 是过路的小官被一座城误当成钦差的句式不完整；改用同剧卡已有信息。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "《钦差大臣》里，赫列斯达可夫是过路的小官被一座城误当成钦差，于是把谎越说越大。",
+          "after": "果戈理《钦差大臣》中的年轻小官。他在旅途中被误认成钦差，逐渐顺着众人的奉承编出夸大的履历。"
+        }
+      }
+    },
+    {
+      "id": "yrole-qiuhu",
+      "name": "仇虎",
+      "dimension": "主演",
+      "basis": "旧 note 仇虎是从监狱回来缺少宾语；依同剧卡保留复仇、金子、逃亡与罪疚。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "《原野》里，仇虎是从监狱回来，要向焦家讨一笔血债，人也被这片林子拖住。",
+          "after": "曹禺《原野》中的归来者。他为旧日血仇寻找焦家，与金子相恋，复仇之后又被罪疚和恐惧追赶。"
+        }
+      }
+    },
+    {
+      "id": "yrole-malu",
+      "name": "马路",
+      "dimension": "主演",
+      "basis": "旧 note 把恋爱的犀牛重复嵌套；用同剧卡已有身份和不被回应的爱情说明人物。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "《恋爱的犀牛》里，马路是恋爱的犀牛里那个认定明明、不肯被劝醒的人。",
+          "after": "廖一梅《恋爱的犀牛》中的饲养员。他执着地爱着明明，却难以接受她另有所爱的选择。"
+        }
+      }
+    },
+    {
+      "id": "yrole-houfangyu",
+      "name": "侯方域",
+      "dimension": "主演",
+      "basis": "旧 note 桃花扇里重复两次；保留复社文人与李香君离合。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "《桃花扇》里，侯方域是桃花扇里和李香君分开的复社文人，重逢时扇子已经不是原来的扇子。",
+          "after": "孔尚任《桃花扇》中的复社文人，与李香君相爱。南明动荡中的离别与重逢，使两人的私情不断遇到时代的变局。"
+        }
+      }
+    },
+    {
+      "id": "yrole-dorine",
+      "name": "桃丽娜",
+      "dimension": "主演",
+      "basis": "答尔丢夫是奥尔贡家的客人，旧 note 伪君子家里的女仆会误指雇主；同剧卡已明示奥尔贡家庭与骗子关系。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "《伪君子》里，桃丽娜是伪君子家里的女仆，第一个不肯对答尔丢夫低头的人。",
+          "after": "莫里哀《伪君子》中奥尔贡家的女仆。她看穿答尔丢夫的伪善，敢于顶撞主人的糊涂，也帮助年轻人争取自己的婚事。"
+        }
+      }
+    },
+    {
+      "id": "yrole-mackheath",
+      "name": "麦克希思",
+      "dimension": "主演",
+      "basis": "旧 note 重复三毛钱歌剧；保留匪首、婚礼与追捕的已有剧情。",
+      "sources": [],
+      "changes": {
+        "note": {
+          "before": "《三毛钱歌剧》里，麦克希思是三毛钱歌剧里又帅又危险的匪首，婚礼和绞架都来找他。",
+          "after": "布莱希特与魏尔《三毛钱歌剧》中的匪首。他的婚事激起乞丐头目皮彻姆的不满，交易、追捕与刑罚不断打断他的盘算。"
+        }
+      }
+    },
+    {
+      "id": "yrole-kuangzhong",
+      "name": "蒂兹尔",
+      "dimension": "主演",
+      "basis": "原 note 为蒂兹尔爵士在屏风后识破伪善，旧 observe 把他写成贩卖名誉的人，与本卡情境不符。",
+      "sources": [],
+      "changes": {
+        "observe": {
+          "before": "名誉在他手里是一种流通的货物。",
+          "after": "躲在屏风后听见的真话，改变了他对妻子和体面朋友的判断。"
+        }
+      }
+    },
+    {
+      "id": "v23-role-dreamdoctor",
+      "name": "如梦之梦的医生",
+      "dimension": "主演",
+      "basis": "香港话剧团正式概要中的年轻女医生，非五段爱情的男性旁听者；据此修正人物身份、故事编号及代词。 剩余 essay 是在其他卡反复出现的换名填充句，没有该人物或空间的具体信息；留空而不补长。",
+      "sources": [
+        "https://www.hkrep.com/tc/Others/Adlad-Cast-List-And-Synopsis.html"
+      ],
+      "changes": {
+        "note": {
+          "before": "本想结束别人故事的医者，在环湖倾听中走进五段爱情与死亡，最终发现自己也需要被讲述。",
+          "after": "赖声川《如梦之梦》中的年轻女医生。上班第一天接连失去病人后，她倾听五号病人的临终讲述，希望在无法治愈的时刻仍能陪伴一个人。"
+        },
+        "observe": {
+          "before": "倾听一旦足够深，诊断就会变成自我检视，医生不能再站在病床外侧。",
+          "after": "她暂时放下追问病因，先让病人把未讲完的人生说完。"
+        },
+        "stage": {
+          "before": "让他每听完一个故事就放下一样随身物件，走到后来两手空空。",
+          "after": "让她在病床旁坐下，把记录本暂时合上，等病人自己决定从哪里讲起。"
+        },
+        "essay": {
+          "before": "于是如梦之梦的医生每前进一步，旁观者都能看见代价如何落在具体的人身上。",
+          "after": ""
+        }
+      }
+    },
+    {
+      "id": "v23-role-silentman",
+      "name": "沉默的人",
+      "dimension": "主演",
+      "basis": "作者访谈及正式出版物都说明他先离开车站步行进城；旧 note/stage 写成始终坐着不动，颠倒了核心行动。",
+      "sources": [
+        "https://library.fes.de/libalt/journals/swetsfulltext/11965425.pdf",
+        "https://api.pageplace.de/preview/DT0400.9781317453772_A24445478/preview-9781317453772_A24445478.pdf"
+      ],
+      "changes": {
+        "note": {
+          "before": "车站上极少说话的等待者，用沉默占据位置，使周围人的催促、抱怨和幻想都撞在他身上。",
+          "after": "高行健《车站》中没有台词的候车者。车辆接连不停靠后，他先于其他人离开站牌，独自步行去城里。"
+        },
+        "observe": {
+          "before": "不说话也能成为中心，因为别人会迫不及待把意义塞进他的沉默。",
+          "after": "别人还在争论为什么等不到车，他已经开始走自己的路。"
+        },
+        "stage": {
+          "before": "让他始终坐在时刻表下方，别人围着他解释，他只偶尔挪一下行李。",
+          "after": "让他收起书、背好行李，在众人的谈话声中离开队伍，不再回到原来的位置。"
+        }
+      }
+    },
+    {
+      "id": "v23-sup-nurse",
+      "name": "护士（恋马狂）",
+      "dimension": "配角",
+      "basis": "NT首演档案把护士与法官Hesther分别列出；Pearson官方教师指南明确护士引见来访者，不能把法官与医生的心理谈话误归护士。",
+      "sources": [
+        "https://catalogue.nationaltheatre.org.uk/calmview/Record.aspx?id=304&src=CalmView.Performance",
+        "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/a-level-set-text-guide-equus.pdf"
+      ],
+      "changes": {
+        "note": {
+          "before": "精神科里冷静的共事者，提醒医生不要把少年的痛苦当成拯救自己的机会。",
+          "after": "彼得·谢弗《恋马狂》中的医院工作人员。她引见来访的海斯特法官，也把病房中的情况带给戴萨特医生。"
+        },
+        "observe": {
+          "before": "旁观者有时比当事人更早看见移情，因为她不必靠这个病例证明自己还活着。",
+          "after": "医生还在解释自己的困惑，病房里已经有下一件事需要处理。"
+        },
+        "stage": {
+          "before": "让她在诊疗结束后才说话，短句像把房间的灯重新打开。",
+          "after": "让她在门口简短通报来访者或病房消息，再等医生从思绪中回应。"
+        }
+      }
+    },
+    {
+      "id": "v23-role-eddie",
+      "name": "埃迪·卡伯恩",
+      "dimension": "主演",
+      "basis": "与已核剧目概要统一，避免以侄女一词猜测中文亲属方向；删去像父亲的礼仪这种无可理解动作。",
+      "sources": [
+        "https://www.yorktheatreroyal.co.uk/latest/cast-announced-for-a-view-from-the-bridge/"
+      ],
+      "changes": {
+        "note": {
+          "before": "布鲁克林码头工人把侄女的成长看成自己的职责，移民表亲的到来使这份职责暴露出不能承认的欲望。",
+          "after": "阿瑟·米勒《桥头眺望》中的布鲁克林码头工人。他与妻子抚养凯瑟琳，却难以接受她成长后的恋爱选择，保护逐渐显出占有欲。"
+        },
+        "stage": {
+          "before": "让他对每一个靠近凯瑟琳的男人都先整理自己的腰带，像准备打架也像准备父亲的礼仪。",
+          "after": "让他先挡在公寓门口询问去向，凯瑟琳回答以后，他仍迟迟不肯让开。"
+        }
+      }
+    },
+    {
+      "id": "v23-sup-catherine",
+      "name": "凯瑟琳（桥头眺望）",
+      "dimension": "配角",
+      "basis": "与剧目概要统一亲属措辞，明确被埃迪夫妇抚养而不猜测侄或甥。",
+      "sources": [
+        "https://www.goodmantheatre.org/press-rooms/a-view-from-the-bridge/"
+      ],
+      "changes": {
+        "note": {
+          "before": "在埃迪身边长大的侄女，想要工作、恋爱和离开，却必须一次次向监护人解释这些愿望不是背叛。",
+          "after": "阿瑟·米勒《桥头眺望》中由埃迪与妻子抚养的年轻女性。她希望工作、恋爱与独立，却不断被要求向埃迪证明这些愿望不是背叛。"
+        }
+      }
+    },
+    {
+      "id": "v23-sup-marie",
+      "name": "玛丽（沃伊采克）",
+      "dimension": "配角",
+      "basis": "原作资料明确玛丽有自己的欲望与恐惧，也受沃伊采克暴力伤害；旧 observe 生来残忍、温暖毁掉两人把杀人责任错误转嫁给被害者。",
+      "sources": [
+        "https://schauspielhaus.de/sites/default/files/2022-11/Woyzeck%20Materialmappe_schule_0.pdf",
+        "https://schauspielhaus.de/stuecke/woyzeck"
+      ],
+      "changes": {
+        "observe": {
+          "before": "她并非生来残忍，只是太需要一点不被役使的温暖，而这点温暖足以毁掉两个人。",
+          "after": "她渴望被看见，也有自己的羞愧与恐惧；这些感受不能替施向她的暴力开脱。"
+        }
+      }
+    },
+    {
+      "id": "v23-role-heisenberg",
+      "name": "海森堡",
+      "dimension": "主演",
+      "basis": "剩余 essay 是在其他卡反复出现的换名填充句，没有该人物或空间的具体信息；留空而不补长。",
+      "sources": [],
+      "changes": {
+        "essay": {
+          "before": "于是海森堡每前进一步，旁观者都能看见代价如何落在具体的人身上。",
+          "after": ""
+        }
+      }
+    },
+    {
+      "id": "v23-sup-bohr",
+      "name": "玻尔",
+      "dimension": "配角",
+      "basis": "剩余 essay 是在其他卡反复出现的换名填充句，没有该人物或空间的具体信息；留空而不补长。",
+      "sources": [],
+      "changes": {
+        "essay": {
+          "before": "于是玻尔每前进一步，旁观者都能看见代价如何落在具体的人身上。",
+          "after": ""
+        }
+      }
+    },
+    {
+      "id": "v23-place-lotuspond",
+      "name": "环形莲池",
+      "dimension": "环境",
+      "basis": "剩余 essay 是在其他卡反复出现的换名填充句，没有该人物或空间的具体信息；留空而不补长。",
+      "sources": [],
+      "changes": {
+        "essay": {
+          "before": "于是走进这里的人每前进一步，旁观者都能看见代价如何落在具体的人身上。",
+          "after": ""
+        }
+      }
+    }
+  ],
+  "activeOverriddenCards": 73,
+  "reserveOverriddenCards": 1,
+  "remainingEssayReview": {
+    "activeRoleEssaysRead": 109,
+    "activePlayEssaysOver100CharactersRead": 9,
+    "unremovedNameTemplatesFound": 4,
+    "action": "Cleared explicitly, including one hidden reserve space; no new padding."
+  }
+}

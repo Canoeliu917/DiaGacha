@@ -1,0 +1,16 @@
+{
+  "version": "V43",
+  "note": "补充复核《浮士德》两部原作的赌约、第一部结尾、第二部第五幕及终场。事实据原文，数值是游戏编辑对既定量表的判断，不是文献的评分，也不声称完成全部版本校勘。",
+  "sources": {
+    "F43_PART1": {"title": "歌德《浮士德》第一部原作，Bayard Taylor 英译", "url": "https://www.gutenberg.org/cache/epub/14591/pg14591-images.html"},
+    "F43_PART2": {"title": "歌德《浮士德》第二部德文原作，Project Gutenberg", "url": "https://www.gutenberg.org/cache/epub/2230/pg2230-images.html"}
+  },
+  "cards": [{
+    "id": "xplay-faust", "name": "浮士德", "author": "歌德；《浮士德》第一、二部",
+    "atkRubric": [4, 3, 3], "defRubric": [4, 3, 3], "reference": 94,
+    "sourceIds": ["F43_PART1", "F43_PART2"],
+    "rationale": "赌约把无止境的追求与满足的一刻对置，格蕾琴的灾难及第二部老夫妻遭难使追求不断暴露他人承担的代价。第二部第五幕把掘墓声误认为建设的声音，临终愿景与观众所见形成反讽；终场格蕾琴归来回应第一部。两部由追求、责任与救赎母题相接，不按场景跳跃扣成低完整性，也不把各段都视作同等紧密的即时因果；据此将旧58/59改为90/90。",
+    "atkReason": "追求不断扩大，受伤害的人也越来越多；赌约、爱情与占有之间的矛盾使理想必须面对具体代价。",
+    "defReason": "两部以追求与责任贯穿，赌约和格蕾琴在终场得到回应；神话与现实场景的跳接有母题组织，并非松散拼贴。"
+  }]
+}

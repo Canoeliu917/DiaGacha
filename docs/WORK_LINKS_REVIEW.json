@@ -1,0 +1,991 @@
+{
+  "policy": "只认当前卡片中的明确原作或逐项剧情证据；作品未入池、泛用身份/环境、同作者和同系列均不自动建立羁绊。",
+  "summary": {
+    "cards": 777,
+    "linkedCards": 365,
+    "linkedNonPlayCards": 237,
+    "byDimension": {
+      "剧目": {
+        "total": 128,
+        "linked": 128
+      },
+      "风格体系": {
+        "total": 128,
+        "linked": 0
+      },
+      "导演手法": {
+        "total": 128,
+        "linked": 0
+      },
+      "主演": {
+        "total": 128,
+        "linked": 121
+      },
+      "环境": {
+        "total": 133,
+        "linked": 18
+      },
+      "配角": {
+        "total": 132,
+        "linked": 98
+      }
+    }
+  },
+  "pending": [
+    {
+      "id": "place-garden",
+      "name": "荒园",
+      "reason": "旧 Ut 关系未由当前卡名和说明支持，不承袭。",
+      "candidateWorkIds": [
+        "play-peony"
+      ]
+    },
+    {
+      "id": "place-thebes",
+      "name": "忒拜广场",
+      "reason": "旧 Ut 关系未由当前卡名和说明支持，不承袭。",
+      "candidateWorkIds": [
+        "play-oedipus",
+        "play-antigone"
+      ]
+    }
+  ],
+  "unmapped": [
+    {
+      "id": "place-table",
+      "name": "候场区",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-garden",
+      "name": "荒园",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。 旧 Ut 关系已隔离，见 WORK_LINKS_REVIEW.json。"
+    },
+    {
+      "id": "place-empty",
+      "name": "空台",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-thebes",
+      "name": "忒拜广场",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。 旧 Ut 关系已隔离，见 WORK_LINKS_REVIEW.json。"
+    },
+    {
+      "id": "place-baihua",
+      "name": "花亭",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-camp",
+      "name": "夜营",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-nohstage",
+      "name": "素台",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-blackbox",
+      "name": "黑匣子",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-proscenium",
+      "name": "镜框式舞台",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-backstage",
+      "name": "后台",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-castle",
+      "name": "城堡",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-courtroom",
+      "name": "法庭",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-dock",
+      "name": "码头",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-attic",
+      "name": "阁楼",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-cellar",
+      "name": "地下室",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-balcony",
+      "name": "阳台",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-palace",
+      "name": "宫廷",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-market",
+      "name": "集市",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-factory",
+      "name": "工厂",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-ancestral",
+      "name": "祠堂",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-stagebox",
+      "name": "戏台",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-study",
+      "name": "书房",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-grave",
+      "name": "墓地",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-shrine",
+      "name": "神庙",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-hospital",
+      "name": "医院",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-classroom",
+      "name": "教室",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-ship",
+      "name": "轮船",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-carriage",
+      "name": "车厢",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-rooftop",
+      "name": "屋顶",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-ruin",
+      "name": "废墟",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-hutong",
+      "name": "胡同",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-siheyuan",
+      "name": "四合院",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-tealounge",
+      "name": "茶楼",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-kitchen",
+      "name": "厨房",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-prison",
+      "name": "监狱",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-convent",
+      "name": "修道院",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-bridgehead",
+      "name": "桥头",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-snowfield",
+      "name": "雪原",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-mine",
+      "name": "矿井",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "xplace-circus",
+      "name": "马戏团",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yrole-cleo",
+      "name": "克莉奥佩特拉",
+      "dimension": "主演",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《安东尼与克莉奥佩特拉》；不按相近名称推定。"
+    },
+    {
+      "id": "yrole-zhugeliang",
+      "name": "诸葛亮",
+      "dimension": "主演",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《空城计》；不按相近名称推定。"
+    },
+    {
+      "id": "yplace-crossroad",
+      "name": "十字路口",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-globe",
+      "name": "环球剧场",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-hanamichi",
+      "name": "侧桥",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-pit",
+      "name": "乐池",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-changting",
+      "name": "长亭",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-xiulou",
+      "name": "绣楼",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-xiyuan",
+      "name": "池座",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-inn",
+      "name": "客栈",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-huafang",
+      "name": "画舫",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-well",
+      "name": "井台",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-gongtang",
+      "name": "公堂",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-jindian",
+      "name": "金殿",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-lenggong",
+      "name": "偏殿",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-zhongjun",
+      "name": "中军帐",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-wujiang",
+      "name": "渡口",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-chibi",
+      "name": "赤壁",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-shikumen",
+      "name": "石库门",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-tingzijian",
+      "name": "亭子间",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-tudimiao",
+      "name": "土地庙",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-chengmen",
+      "name": "城门",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-xiaochang",
+      "name": "校场",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-fachang",
+      "name": "法场",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-ward",
+      "name": "病房",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-cafe",
+      "name": "咖啡馆",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-platform",
+      "name": "月台",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-deck",
+      "name": "甲板",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-lighthouse",
+      "name": "灯塔",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-cliff",
+      "name": "悬崖",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-altar",
+      "name": "祭坛",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-labyrinth",
+      "name": "迷宫",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-dungeon",
+      "name": "地牢",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-greenhouse",
+      "name": "温室",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-stable",
+      "name": "马厩",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-vineyard",
+      "name": "葡萄园",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-ballroom",
+      "name": "舞厅",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-office",
+      "name": "办公室",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-workshop",
+      "name": "车间",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-hashigakari",
+      "name": "桥廊",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-shangchang",
+      "name": "上台口",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-jiulongkou",
+      "name": "台心",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-caishikou",
+      "name": "菜市口",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "yplace-guifang",
+      "name": "闺房",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-tiresias",
+      "name": "提瑞西阿斯",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-andromache",
+      "name": "安德洛玛刻",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-hecuba",
+      "name": "赫卡柏",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-orestes",
+      "name": "俄瑞斯忒斯",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-pylades",
+      "name": "皮拉得斯",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-duval-father",
+      "name": "杜瓦先生",
+      "dimension": "配角",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《茶花女》；不按相近名称推定。"
+    },
+    {
+      "id": "role2-luka",
+      "name": "路加",
+      "dimension": "配角",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《底层》；不按相近名称推定。"
+    },
+    {
+      "id": "role2-pepel",
+      "name": "佩佩尔",
+      "dimension": "配角",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《底层》；不按相近名称推定。"
+    },
+    {
+      "id": "role2-kabanova",
+      "name": "卡巴诺娃",
+      "dimension": "配角",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《大雷雨》；不按相近名称推定。"
+    },
+    {
+      "id": "role2-tikhon",
+      "name": "吉洪",
+      "dimension": "配角",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《大雷雨》；不按相近名称推定。"
+    },
+    {
+      "id": "role2-boris-storm",
+      "name": "鲍里斯（大雷雨）",
+      "dimension": "配角",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《大雷雨》；不按相近名称推定。"
+    },
+    {
+      "id": "role2-heizi-signal",
+      "name": "黑子（绝对信号）",
+      "dimension": "配角",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《绝对信号》；不按相近名称推定。"
+    },
+    {
+      "id": "role2-mifeng",
+      "name": "蜜蜂",
+      "dimension": "配角",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《绝对信号》；不按相近名称推定。"
+    },
+    {
+      "id": "role2-train-conductor",
+      "name": "车长",
+      "dimension": "配角",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《绝对信号》；不按相近名称推定。"
+    },
+    {
+      "id": "role2-messenger",
+      "name": "信使",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-neighbor",
+      "name": "邻人",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-witness",
+      "name": "见证者",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-interrogator",
+      "name": "审问者",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-former-lover",
+      "name": "旧情人",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-creditor",
+      "name": "债主",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-spy",
+      "name": "密探",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-clerk",
+      "name": "书记官",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-landlord",
+      "name": "房东",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-rival-lover",
+      "name": "情敌",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-stepmother",
+      "name": "继母",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-visitor",
+      "name": "来客",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-deserter",
+      "name": "逃兵",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-news-child",
+      "name": "报讯的孩子",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-former-wife",
+      "name": "前妻",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-protector",
+      "name": "庇护人",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role2-mourner",
+      "name": "送葬人",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "role-v21-katerina",
+      "name": "卡捷琳娜",
+      "dimension": "主演",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《大雷雨》；不按相近名称推定。"
+    },
+    {
+      "id": "role-v21-margueritecamellia",
+      "name": "玛格丽特（茶花女）",
+      "dimension": "主演",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《茶花女》；不按相近名称推定。"
+    },
+    {
+      "id": "role-v21-antony",
+      "name": "安东尼",
+      "dimension": "主演",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《安东尼与克莉奥佩特拉》；不按相近名称推定。"
+    },
+    {
+      "id": "role-v21-volumnia",
+      "name": "伏伦妮娅",
+      "dimension": "主演",
+      "reason": "说明引用的作品未与现有剧目名称精确匹配：《科利奥兰纳斯》；不按相近名称推定。"
+    },
+    {
+      "id": "place-v21-bordercheckpoint",
+      "name": "边境检查站",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-willroom",
+      "name": "遗嘱宣读室",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-publicbath",
+      "name": "公共浴室",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-weddinghall",
+      "name": "婚礼宴厅",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-shelter",
+      "name": "避难所",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-funeralhome",
+      "name": "殡仪馆",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-lostproperty",
+      "name": "失物招领处",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-photostudio",
+      "name": "旧照相馆",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-ticketwindow",
+      "name": "售票窗口",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-lift",
+      "name": "电梯",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-pharmacy",
+      "name": "药房",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-diningcar",
+      "name": "餐车",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-abandonedpark",
+      "name": "废弃游乐场",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-rehearsalhall",
+      "name": "排练厅",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-waitingtrial",
+      "name": "候审室",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v21-archive",
+      "name": "档案室",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v22-gallery",
+      "name": "议会旁听席",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v22-isolationward",
+      "name": "隔离病房",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v22-radiobooth",
+      "name": "广播控制室",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v22-cage",
+      "name": "矿井吊笼",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v22-embassyhall",
+      "name": "大使馆避难厅",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "place-v22-observatory",
+      "name": "天文台圆顶",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-role-silentman",
+      "name": "沉默的人",
+      "dimension": "主演",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-sup-kate",
+      "name": "凯特·凯勒",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-sup-ann",
+      "name": "安·迪弗",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-sup-harryhope",
+      "name": "哈里·霍普",
+      "dimension": "配角",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-place-hangar",
+      "name": "飞机库后院",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-place-nightsitting",
+      "name": "夜间客厅",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-place-washhouse",
+      "name": "军营冲洗房",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-place-jacobin",
+      "name": "雅各宾俱乐部",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-place-longshore",
+      "name": "长岸公寓",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-place-hopebar",
+      "name": "霍普旅馆酒吧",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-place-dormer",
+      "name": "男生宿舍阁楼",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-place-observation",
+      "name": "精神科观察室",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-place-lotuspond",
+      "name": "环形莲池",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-place-frostvillage",
+      "name": "冻土屯子",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    },
+    {
+      "id": "v23-place-halt",
+      "name": "停运小站",
+      "dimension": "环境",
+      "reason": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+    }
+  ]
+}

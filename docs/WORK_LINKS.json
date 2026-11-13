@@ -1,0 +1,3862 @@
+{
+  "play-oedipus": {
+    "workIds": [
+      "play-oedipus"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-teahouse": {
+    "workIds": [
+      "play-teahouse"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-hamlet": {
+    "workIds": [
+      "play-hamlet"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-thunder": {
+    "workIds": [
+      "play-thunder"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-macbeth": {
+    "workIds": [
+      "play-macbeth"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-godot": {
+    "workIds": [
+      "play-godot"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-peony": {
+    "workIds": [
+      "play-peony"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-doll": {
+    "workIds": [
+      "play-doll"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-salesman": {
+    "workIds": [
+      "play-salesman"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-doue": {
+    "workIds": [
+      "play-doue"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-goodperson": {
+    "workIds": [
+      "play-goodperson"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-cherry": {
+    "workIds": [
+      "play-cherry"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-xixiang": {
+    "workIds": [
+      "play-xixiang"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-visit": {
+    "workIds": [
+      "play-visit"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-sunrise": {
+    "workIds": [
+      "play-sunrise"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-yuanye": {
+    "workIds": [
+      "play-yuanye"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-rhino": {
+    "workIds": [
+      "play-rhino"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-glass": {
+    "workIds": [
+      "play-glass"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "style-classic": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-stan": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-epic": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-cruel": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-absurd": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-real": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-xieyi": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-express": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-natural": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-romantic": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-poor": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-symbol": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-psych": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-post": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-doc": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-aesth": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-wall": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-alien": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-chorus": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-empty": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-ritual": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-immerse": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-montage": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-multi": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-flashback": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-body": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-forum": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-jianchang": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-freeze": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-docread": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-proj": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-prologue": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "role-oedipus": {
+    "workIds": [
+      "play-oedipus"
+    ],
+    "basis": "当前 note/blurb 明确引用《俄狄浦斯王》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-nora": {
+    "workIds": [
+      "play-doll"
+    ],
+    "basis": "当前 note/blurb 明确引用《玩偶之家》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-hamlet": {
+    "workIds": [
+      "play-hamlet"
+    ],
+    "basis": "当前说明明确写同名戏剧，且卡名与现有剧目名完全一致。"
+  },
+  "role-fanyi": {
+    "workIds": [
+      "play-thunder"
+    ],
+    "basis": "当前 note/blurb 明确引用《雷雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-macbeth": {
+    "workIds": [
+      "play-macbeth"
+    ],
+    "basis": "当前说明明确写同名戏剧，且卡名与现有剧目名完全一致。"
+  },
+  "role-doue": {
+    "workIds": [
+      "play-doue"
+    ],
+    "basis": "当前 note/blurb 明确引用《窦娥冤》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-liniang": {
+    "workIds": [
+      "play-peony"
+    ],
+    "basis": "当前 note/blurb 明确引用《萨勒姆的女巫》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-ladym": {
+    "workIds": [
+      "play-macbeth"
+    ],
+    "basis": "当前 note/blurb 明确引用《麦克白》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-wang": {
+    "workIds": [
+      "play-teahouse"
+    ],
+    "basis": "当前 note/blurb 明确引用《茶馆》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-shen": {
+    "workIds": [
+      "play-goodperson"
+    ],
+    "basis": "当前 note/blurb 明确引用《四川好人》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-zhou": {
+    "workIds": [
+      "play-thunder"
+    ],
+    "basis": "当前 note/blurb 明确引用《雷雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-ming": {
+    "workIds": [
+      "play-rhino"
+    ],
+    "basis": "当前 note/blurb 明确引用《恋爱的犀牛》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-willy": {
+    "workIds": [
+      "play-salesman"
+    ],
+    "basis": "当前 note/blurb 明确引用《推销员之死》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-anti": {
+    "workIds": [
+      "play-antigone"
+    ],
+    "basis": "当前说明明确写同名戏剧，且卡名与现有剧目名完全一致。"
+  },
+  "role-bailu": {
+    "workIds": [
+      "play-sunrise"
+    ],
+    "basis": "当前 note/blurb 明确引用《日出》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-gogo": {
+    "workIds": [
+      "play-godot"
+    ],
+    "basis": "当前 note/blurb 明确引用《等待戈多》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-table": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-tea": {
+    "workIds": [
+      "play-teahouse"
+    ],
+    "basis": "当前 note/blurb 明确引用《茶馆》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-elsinore": {
+    "workIds": [
+      "play-hamlet"
+    ],
+    "basis": "当前 note/blurb 明确引用《哈姆雷特》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-zhou": {
+    "workIds": [
+      "play-thunder"
+    ],
+    "basis": "当前 note/blurb 明确引用《雷雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-road": {
+    "workIds": [
+      "play-godot"
+    ],
+    "basis": "当前 note/blurb 明确引用《等待戈多》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-garden": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。 旧 Ut 关系已隔离，见 WORK_LINKS_REVIEW.json。"
+  },
+  "place-dunsinane": {
+    "workIds": [
+      "play-macbeth"
+    ],
+    "basis": "当前 note/blurb 明确引用《麦克白》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-parlor": {
+    "workIds": [
+      "play-doll"
+    ],
+    "basis": "当前 note/blurb 明确引用《玩偶之家》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-exec": {
+    "workIds": [
+      "play-doue"
+    ],
+    "basis": "当前 note/blurb 明确引用《窦娥冤》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-sichuan": {
+    "workIds": [
+      "play-goodperson"
+    ],
+    "basis": "当前 note/blurb 明确引用《四川好人》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-cherry": {
+    "workIds": [
+      "play-cherry"
+    ],
+    "basis": "当前说明明确写同名戏剧，且卡名与现有剧目名完全一致。"
+  },
+  "place-gullen": {
+    "workIds": [
+      "play-visit"
+    ],
+    "basis": "当前 note/blurb 明确引用《贵妇还乡》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-zoo": {
+    "workIds": [
+      "play-rhino"
+    ],
+    "basis": "当前 note/blurb 明确引用《恋爱的犀牛》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-loman": {
+    "workIds": [
+      "play-salesman"
+    ],
+    "basis": "当前 note/blurb 明确引用《推销员之死》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-forest": {
+    "workIds": [
+      "play-yuanye"
+    ],
+    "basis": "当前 note/blurb 明确引用《原野》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-empty": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "play-lear": {
+    "workIds": [
+      "play-lear"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-othello": {
+    "workIds": [
+      "play-othello"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-antigone": {
+    "workIds": [
+      "play-antigone"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-medea": {
+    "workIds": [
+      "play-medea"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-orphan": {
+    "workIds": [
+      "play-orphan"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-peach": {
+    "workIds": [
+      "play-peach"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-palace": {
+    "workIds": [
+      "play-palace"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-secret": {
+    "workIds": [
+      "play-secret"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-beijing": {
+    "workIds": [
+      "play-beijing"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-baimao": {
+    "workIds": [
+      "play-baimao"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-street": {
+    "workIds": [
+      "play-street"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-sisters": {
+    "workIds": [
+      "play-sisters"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-butterfly": {
+    "workIds": [
+      "play-butterfly"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "style-xiqu": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-greek": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-commedia": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-noh": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-kabuki": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-chuanqi": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-opera": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-musical": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-environ": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-postdrama": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-black": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-physical": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-mask": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-light": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-band": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-solo": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-blackout": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-convention": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-parallel": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-slow": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-puppet": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-revolve": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-call": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-change": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "role-shiping": {
+    "workIds": [
+      "play-thunder"
+    ],
+    "basis": "当前 note/blurb 明确引用《雷雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-xiangjun": {
+    "workIds": [
+      "play-peach"
+    ],
+    "basis": "当前 note/blurb 明确引用《桃花扇》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-chengying": {
+    "workIds": [
+      "play-orphan"
+    ],
+    "basis": "当前 note/blurb 明确引用《赵氏孤儿》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-yuji": {
+    "workIds": [
+      "yplay-farewell"
+    ],
+    "basis": "当前 note/blurb 明确引用《大胆妈妈和她的孩子们》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-medea": {
+    "workIds": [
+      "play-medea"
+    ],
+    "basis": "当前说明明确写同名戏剧，且卡名与现有剧目名完全一致。"
+  },
+  "role-lear": {
+    "workIds": [
+      "play-lear"
+    ],
+    "basis": "当前 note/blurb 明确引用《李尔王》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-iago": {
+    "workIds": [
+      "play-othello"
+    ],
+    "basis": "当前 note/blurb 明确引用《奥赛罗》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-courage": {
+    "workIds": [
+      "yplay-farewell"
+    ],
+    "basis": "当前 note/blurb 明确引用《大胆妈妈和她的孩子们》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-jiang": {
+    "workIds": [
+      "play-secret"
+    ],
+    "basis": "当前 note/blurb 明确引用《暗恋桃花源》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-sufang": {
+    "workIds": [
+      "play-beijing"
+    ],
+    "basis": "当前 note/blurb 明确引用《北京人》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-blanche": {
+    "workIds": [
+      "play-street"
+    ],
+    "basis": "当前 note/blurb 明确引用《欲望号街车》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-laura": {
+    "workIds": [
+      "play-glass"
+    ],
+    "basis": "当前 note/blurb 明确引用《玻璃动物园》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-mengmei": {
+    "workIds": [
+      "play-peony"
+    ],
+    "basis": "当前 note/blurb 明确引用《萨勒姆的女巫》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-zhu": {
+    "workIds": [
+      "play-butterfly"
+    ],
+    "basis": "当前 note/blurb 明确引用《海达·高布乐》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-vladimir": {
+    "workIds": [
+      "play-godot"
+    ],
+    "basis": "当前 note/blurb 明确引用《等待戈多》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-thebes": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。 旧 Ut 关系已隔离，见 WORK_LINKS_REVIEW.json。"
+  },
+  "place-heath": {
+    "workIds": [
+      "play-lear"
+    ],
+    "basis": "当前 note/blurb 明确引用《李尔王》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-meixiang": {
+    "workIds": [
+      "play-peach"
+    ],
+    "basis": "当前 note/blurb 明确引用《桃花扇》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-baihua": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-camp": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-stella": {
+    "workIds": [
+      "play-street"
+    ],
+    "basis": "当前 note/blurb 明确引用《欲望号街车》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-nohstage": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-blackbox": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-proscenium": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-island": {
+    "workIds": [
+      "yplay-tempest"
+    ],
+    "basis": "当前 note/blurb 明确引用《暴风雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-zeng": {
+    "workIds": [
+      "play-beijing"
+    ],
+    "basis": "当前 note/blurb 明确引用《北京人》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-backstage": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplay-faust": {
+    "workIds": [
+      "xplay-faust"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-seagull": {
+    "workIds": [
+      "xplay-seagull"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-vanya": {
+    "workIds": [
+      "xplay-vanya"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-tartuffe": {
+    "workIds": [
+      "xplay-tartuffe"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-miser": {
+    "workIds": [
+      "xplay-miser"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-figaro": {
+    "workIds": [
+      "xplay-figaro"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-galileo": {
+    "workIds": [
+      "xplay-galileo"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-caucasian": {
+    "workIds": [
+      "xplay-caucasian"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-rhino": {
+    "workIds": [
+      "xplay-rhino"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-bald": {
+    "workIds": [
+      "xplay-bald"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-chairs": {
+    "workIds": [
+      "xplay-chairs"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-cat": {
+    "workIds": [
+      "xplay-cat"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-longday": {
+    "workIds": [
+      "xplay-longday"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-salome": {
+    "workIds": [
+      "xplay-salome"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-pygmalion": {
+    "workIds": [
+      "xplay-pygmalion"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-dream": {
+    "workIds": [
+      "xplay-dream"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-merchant": {
+    "workIds": [
+      "xplay-merchant"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-romeo": {
+    "workIds": [
+      "xplay-romeo"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-twelfth": {
+    "workIds": [
+      "xplay-twelfth"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-jia": {
+    "workIds": [
+      "xplay-jia"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-quyuan": {
+    "workIds": [
+      "xplay-quyuan"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-guantheplay": {
+    "workIds": [
+      "xplay-guantheplay"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-camel": {
+    "workIds": [
+      "xplay-camel"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-dragon": {
+    "workIds": [
+      "xplay-dragon"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-lou": {
+    "workIds": [
+      "xplay-lou"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-sang": {
+    "workIds": [
+      "xplay-sang"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-doggy": {
+    "workIds": [
+      "xplay-doggy"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-shangyang": {
+    "workIds": [
+      "xplay-shangyang"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-caoyang": {
+    "workIds": [
+      "xplay-caoyang"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xplay-liqiu": {
+    "workIds": [
+      "xplay-liqiu"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "xstyle-jingju": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-kunqu": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-yueju": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-chuanju": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-yuju": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-huangmei": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-pingju": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-shadow": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-puppetry": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-mime": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-forum": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-playback": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-verbatim": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-site": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-walk": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-soundth": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-political": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-feminist": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-comedy": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-tragedy": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-farce": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-tragicom": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-verse": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-danceplay": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-nanxi": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-zaju": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-huaju": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-lab": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-bunraku": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xstyle-kathakali": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-follow": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-toplight": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-sidelight": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-spot": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-still": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-halt": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-eyes": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-backturn": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-changeset": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-enter": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-repeat": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-cutin": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-chorus": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-bang": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-drum": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-pose": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-zoubian": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-tangma": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-sleeve": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-facechange": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-fire": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-yuan": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-nian": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-split": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-mirror": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-group": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-silence": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-improvbit": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-voiceover": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xdir-aside": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "xrole-ophelia": {
+    "workIds": [
+      "play-hamlet"
+    ],
+    "basis": "当前 note/blurb 明确引用《哈姆雷特》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-juliet": {
+    "workIds": [
+      "xplay-romeo"
+    ],
+    "basis": "当前 note/blurb 明确引用《罗密欧与朱丽叶》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-romeo": {
+    "workIds": [
+      "xplay-romeo"
+    ],
+    "basis": "当前 note/blurb 明确引用《罗密欧与朱丽叶》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-shylock": {
+    "workIds": [
+      "xplay-merchant"
+    ],
+    "basis": "当前 note/blurb 明确引用《威尼斯商人》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-eliza": {
+    "workIds": [
+      "xplay-pygmalion"
+    ],
+    "basis": "当前 note/blurb 明确引用《皮格马利翁》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-hedda": {
+    "workIds": [
+      "play-butterfly"
+    ],
+    "basis": "当前 note/blurb 明确引用《海达·高布乐》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-galileo": {
+    "workIds": [
+      "xplay-galileo"
+    ],
+    "basis": "当前 note/blurb 明确引用《伽利略传》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-harpagon": {
+    "workIds": [
+      "xplay-miser"
+    ],
+    "basis": "当前 note/blurb 明确引用《吝啬鬼》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-tartuffe": {
+    "workIds": [
+      "xplay-tartuffe"
+    ],
+    "basis": "当前 note/blurb 明确引用《伪君子》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-figaro": {
+    "workIds": [
+      "xplay-figaro"
+    ],
+    "basis": "当前 note/blurb 明确引用《费加罗的婚礼》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-mephisto": {
+    "workIds": [
+      "xplay-faust"
+    ],
+    "basis": "当前 note/blurb 明确引用《浮士德》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-cordelia": {
+    "workIds": [
+      "play-lear"
+    ],
+    "basis": "当前 note/blurb 明确引用《李尔王》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-desdemona": {
+    "workIds": [
+      "play-othello"
+    ],
+    "basis": "当前 note/blurb 明确引用《奥赛罗》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-pozzo": {
+    "workIds": [
+      "play-godot"
+    ],
+    "basis": "当前 note/blurb 明确引用《等待戈多》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-lucky": {
+    "workIds": [
+      "play-godot"
+    ],
+    "basis": "当前 note/blurb 明确引用《等待戈多》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-chunxiang": {
+    "workIds": [
+      "yplay-pipa"
+    ],
+    "basis": "当前 note/blurb 明确引用《朱莉小姐》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-hongniang": {
+    "workIds": [
+      "play-xixiang"
+    ],
+    "basis": "当前 note/blurb 明确引用《西厢记》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-yingying": {
+    "workIds": [
+      "play-xixiang"
+    ],
+    "basis": "当前 note/blurb 明确引用《西厢记》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-xiangzi": {
+    "workIds": [
+      "xplay-camel"
+    ],
+    "basis": "当前 note/blurb 明确引用《骆驼祥子》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-huniu": {
+    "workIds": [
+      "xplay-camel"
+    ],
+    "basis": "当前 note/blurb 明确引用《骆驼祥子》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-chong": {
+    "workIds": [
+      "play-thunder"
+    ],
+    "basis": "当前 note/blurb 明确引用《雷雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-sifeng": {
+    "workIds": [
+      "play-thunder"
+    ],
+    "basis": "当前 note/blurb 明确引用《雷雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-gold": {
+    "workIds": [
+      "play-yuanye"
+    ],
+    "basis": "当前 note/blurb 明确引用《原野》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-juexin": {
+    "workIds": [
+      "xplay-jia"
+    ],
+    "basis": "当前 note/blurb 明确引用《家》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-chanjuan": {
+    "workIds": [
+      "xplay-quyuan"
+    ],
+    "basis": "当前 note/blurb 明确引用《屈原》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-zhulian": {
+    "workIds": [
+      "xplay-guantheplay"
+    ],
+    "basis": "当前 note/blurb 明确引用《关汉卿》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-cao": {
+    "workIds": [
+      "xplay-caoyang"
+    ],
+    "basis": "当前 note/blurb 明确引用《曹操与杨修》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-yangxiu": {
+    "workIds": [
+      "xplay-caoyang"
+    ],
+    "basis": "当前 note/blurb 明确引用《曹操与杨修》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-gouer": {
+    "workIds": [
+      "xplay-doggy"
+    ],
+    "basis": "当前 note/blurb 明确引用《狗儿爷涅槃》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xrole-shang": {
+    "workIds": [
+      "xplay-shangyang"
+    ],
+    "basis": "当前 note/blurb 明确引用《商鞅》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "xplace-castle": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-courtroom": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-dock": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-attic": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-cellar": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-balcony": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-palace": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-market": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-factory": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-ancestral": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-stagebox": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-study": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-grave": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-shrine": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-hospital": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-classroom": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-ship": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-carriage": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-rooftop": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-ruin": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-hutong": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-siheyuan": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-tealounge": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-kitchen": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-prison": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-convent": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-bridgehead": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-snowfield": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-mine": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "xplace-circus": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplay-prometheus": {
+    "workIds": [
+      "yplay-prometheus"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-agamemnon": {
+    "workIds": [
+      "yplay-agamemnon"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-trojan": {
+    "workIds": [
+      "yplay-trojan"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-bacchae": {
+    "workIds": [
+      "yplay-bacchae"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-lysistrata": {
+    "workIds": [
+      "yplay-lysistrata"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-birds": {
+    "workIds": [
+      "yplay-birds"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-phedre": {
+    "workIds": [
+      "yplay-phedre"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-cid": {
+    "workIds": [
+      "yplay-cid"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-servant": {
+    "workIds": [
+      "yplay-servant"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-threepenny": {
+    "workIds": [
+      "yplay-threepenny"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-endgame": {
+    "workIds": [
+      "yplay-endgame"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-krapp": {
+    "workIds": [
+      "yplay-krapp"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-elms": {
+    "workIds": [
+      "yplay-elms"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-enemy": {
+    "workIds": [
+      "yplay-enemy"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-ghosts": {
+    "workIds": [
+      "yplay-ghosts"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-peer": {
+    "workIds": [
+      "yplay-peer"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-inspector": {
+    "workIds": [
+      "yplay-inspector"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-lower": {
+    "workIds": [
+      "yplay-lower"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-joan": {
+    "workIds": [
+      "yplay-joan"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-mrswarren": {
+    "workIds": [
+      "yplay-mrswarren"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-tempest": {
+    "workIds": [
+      "yplay-tempest"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-richard": {
+    "workIds": [
+      "yplay-richard"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-caesar": {
+    "workIds": [
+      "yplay-caesar"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-intrigue": {
+    "workIds": [
+      "yplay-intrigue"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-tell": {
+    "workIds": [
+      "yplay-tell"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-caiwenji": {
+    "workIds": [
+      "yplay-caiwenji"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-eaves": {
+    "workIds": [
+      "yplay-eaves"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-promotion": {
+    "workIds": [
+      "yplay-promotion"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-chenyi": {
+    "workIds": [
+      "yplay-chenyi"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-wotu": {
+    "workIds": [
+      "yplay-wotu"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-jiang": {
+    "workIds": [
+      "yplay-jiang"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-pipa": {
+    "workIds": [
+      "yplay-pipa"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-whitesnake": {
+    "workIds": [
+      "yplay-whitesnake"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-fifteen": {
+    "workIds": [
+      "yplay-fifteen"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-farewell": {
+    "workIds": [
+      "yplay-farewell"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-locket": {
+    "workIds": [
+      "yplay-locket"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-crossroads": {
+    "workIds": [
+      "yplay-crossroads"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-drunken": {
+    "workIds": [
+      "yplay-drunken"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "yplay-redlantern": {
+    "workIds": [
+      "yplay-redlantern"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "ystyle-qinqiang": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-yueopera": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-huju": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-farcehu": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-errenzhuan": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-zangxi": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-nuoxi": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-budaixi": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-marionette": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-kyogen": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-takarazuka": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-wayang": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-waterpuppet": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-wenmingxi": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-livingnews": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-street": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-mystery": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-morality": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-passion": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-operetta": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-lightopera": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-object": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-video": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-install": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-clown": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-maskplay": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-edutheatre": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-community": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-oppressed": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-image": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-invisible": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-magicreal": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-criticalreal": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-poeticreal": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-epicnarr": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-ritualstyle": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-maskcomedy": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-manner": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-drawingroom": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-shinkoku": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-sanskrit": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ystyle-huagu": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-qiba": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-yunshou": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-orchid": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-lingzi": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-maochi": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-fanwork": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-handkerchief": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-dachushou": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-diaomao": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-jiangshi": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-woyu": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-qiangbei": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-darkchange": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-qieguang": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-backlight": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-gauze": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-liftstage": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-wagontage": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-longtao": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-sijitou": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-jijifeng": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-qiemo": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-shoujiu": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-yinchang": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-chujiang": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-inner": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-subtext": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-duetline": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-bansing": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-qichang": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-coldstage": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-footlight": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-facelight": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-raincurtain": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-smoke": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-skycloth": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-legdrop": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-paoyuan": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-bazigong": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-rankou": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-qiaogong": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "ydir-flashcut": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "yrole-prometheus": {
+    "workIds": [
+      "yplay-prometheus"
+    ],
+    "basis": "当前 note/blurb 明确引用《被缚的普罗米修斯》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-clytemnestra": {
+    "workIds": [
+      "yplay-agamemnon"
+    ],
+    "basis": "当前 note/blurb 明确引用《阿伽门农》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-witches": {
+    "workIds": [
+      "play-macbeth"
+    ],
+    "basis": "当前 note/blurb 明确引用《麦克白》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-horatio": {
+    "workIds": [
+      "play-hamlet"
+    ],
+    "basis": "当前 note/blurb 明确引用《哈姆雷特》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-portia": {
+    "workIds": [
+      "xplay-merchant"
+    ],
+    "basis": "当前 note/blurb 明确引用《威尼斯商人》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-prospero": {
+    "workIds": [
+      "yplay-tempest"
+    ],
+    "basis": "当前 note/blurb 明确引用《暴风雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-ariel": {
+    "workIds": [
+      "yplay-tempest"
+    ],
+    "basis": "当前 note/blurb 明确引用《暴风雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-richardiii": {
+    "workIds": [
+      "yplay-richard"
+    ],
+    "basis": "当前 note/blurb 明确引用《理查三世》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-falstaff": {
+    "workIds": [],
+    "basis": "福斯塔夫出自莎士比亚《亨利四世》，现有同名剧目卡为皮兰德娄作品；同名异作不建立羁绊。"
+  },
+  "yrole-helmer": {
+    "workIds": [
+      "play-doll"
+    ],
+    "basis": "当前 note/blurb 明确引用《玩偶之家》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-stockmann": {
+    "workIds": [
+      "yplay-enemy"
+    ],
+    "basis": "当前 note/blurb 明确引用《人民公敌》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-khlestakov": {
+    "workIds": [
+      "yplay-inspector"
+    ],
+    "basis": "当前 note/blurb 明确引用《钦差大臣》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-zhouping": {
+    "workIds": [
+      "play-thunder"
+    ],
+    "basis": "当前 note/blurb 明确引用《雷雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-qiuhu": {
+    "workIds": [
+      "play-yuanye"
+    ],
+    "basis": "当前 note/blurb 明确引用《原野》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-juehui": {
+    "workIds": [
+      "xplay-jia"
+    ],
+    "basis": "当前 note/blurb 明确引用《家》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-chang": {
+    "workIds": [
+      "play-teahouse"
+    ],
+    "basis": "当前 note/blurb 明确引用《茶馆》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-baisuzhen": {
+    "workIds": [
+      "yplay-whitesnake"
+    ],
+    "basis": "当前 note/blurb 明确引用《野鸭》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-guifei": {
+    "workIds": [
+      "yplay-drunken"
+    ],
+    "basis": "当前说明明确写同名戏剧，且卡名与现有剧目名完全一致。"
+  },
+  "yrole-bawang": {
+    "workIds": [
+      "yplay-farewell"
+    ],
+    "basis": "当前 note/blurb 明确引用《大胆妈妈和她的孩子们》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-zhangsheng": {
+    "workIds": [
+      "play-xixiang"
+    ],
+    "basis": "当前 note/blurb 明确引用《西厢记》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-liangshanbo": {
+    "workIds": [
+      "play-butterfly"
+    ],
+    "basis": "当前 note/blurb 明确引用《海达·高布乐》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-xier": {
+    "workIds": [
+      "play-baimao"
+    ],
+    "basis": "当前 note/blurb 明确引用《白毛女》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-tietmei": {
+    "workIds": [
+      "yplay-redlantern"
+    ],
+    "basis": "当前 note/blurb 明确引用《谁害怕弗吉尼亚·伍尔夫》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-aqing": {
+    "workIds": [
+      "yplay-redlantern"
+    ],
+    "basis": "当前 note/blurb 明确引用《谁害怕弗吉尼亚·伍尔夫》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-zijirong": {
+    "workIds": [
+      "yplay-redlantern"
+    ],
+    "basis": "当前 note/blurb 明确引用《谁害怕弗吉尼亚·伍尔夫》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-malu": {
+    "workIds": [
+      "play-rhino"
+    ],
+    "basis": "当前 note/blurb 明确引用《恋爱的犀牛》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-houfangyu": {
+    "workIds": [
+      "play-peach"
+    ],
+    "basis": "当前 note/blurb 明确引用《桃花扇》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-dorine": {
+    "workIds": [
+      "xplay-tartuffe"
+    ],
+    "basis": "当前 note/blurb 明确引用《伪君子》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-mackheath": {
+    "workIds": [
+      "yplay-threepenny"
+    ],
+    "basis": "当前 note/blurb 明确引用《三毛钱歌剧》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-hamm": {
+    "workIds": [
+      "yplay-endgame"
+    ],
+    "basis": "当前 note/blurb 明确引用《终局》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-linda": {
+    "workIds": [
+      "play-salesman"
+    ],
+    "basis": "当前 note/blurb 明确引用《推销员之死》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-stanley": {
+    "workIds": [
+      "play-street"
+    ],
+    "basis": "当前 note/blurb 明确引用《欲望号街车》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-brutus": {
+    "workIds": [
+      "yplay-caesar"
+    ],
+    "basis": "当前 note/blurb 明确引用《裘力斯·凯撒》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-cleo": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《安东尼与克莉奥佩特拉》；不按相近名称推定。"
+  },
+  "yrole-jason": {
+    "workIds": [
+      "play-medea"
+    ],
+    "basis": "当前 note/blurb 明确引用《美狄亚》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-solveig": {
+    "workIds": [
+      "yplay-peer"
+    ],
+    "basis": "当前 note/blurb 明确引用《培尔·金特》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-wukong": {
+    "workIds": [
+      "yplay-tempest"
+    ],
+    "basis": "当前 note/blurb 明确引用《暴风雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yrole-zhugeliang": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《空城计》；不按相近名称推定。"
+  },
+  "yrole-kuangzhong": {
+    "workIds": [
+      "yplay-fifteen"
+    ],
+    "basis": "当前 note/blurb 明确引用《造谣学校》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "yplace-crossroad": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-globe": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-hanamichi": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-pit": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-changting": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-xiulou": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-xiyuan": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-inn": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-huafang": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-well": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-gongtang": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-jindian": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-lenggong": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-zhongjun": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-wujiang": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-chibi": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-shikumen": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-tingzijian": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-tudimiao": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-chengmen": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-xiaochang": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-fachang": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-ward": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-cafe": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-platform": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-deck": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-lighthouse": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-cliff": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-altar": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-labyrinth": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-dungeon": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-greenhouse": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-stable": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-vineyard": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-ballroom": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-office": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-workshop": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-hashigakari": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-shangchang": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-jiulongkou": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-caishikou": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "yplace-guifang": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-creon": {
+    "workIds": [
+      "play-antigone"
+    ],
+    "basis": "当前 note/blurb 明确引用《安提戈涅》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-ismene": {
+    "workIds": [
+      "play-antigone"
+    ],
+    "basis": "当前 note/blurb 明确引用《安提戈涅》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-tiresias": {
+    "workIds": [
+      "play-oedipus",
+      "play-antigone"
+    ],
+    "basis": "古希腊悲剧人物，见《俄狄浦斯王》、《安提戈涅》等；按角色出处核对。"
+  },
+  "role2-juliet-nurse": {
+    "workIds": [
+      "xplay-romeo"
+    ],
+    "basis": "当前 note/blurb 明确引用《罗密欧与朱丽叶》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-mercutio": {
+    "workIds": [
+      "xplay-romeo"
+    ],
+    "basis": "当前 note/blurb 明确引用《罗密欧与朱丽叶》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-banquo": {
+    "workIds": [
+      "play-macbeth"
+    ],
+    "basis": "当前 note/blurb 明确引用《麦克白》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-macduff": {
+    "workIds": [
+      "play-macbeth"
+    ],
+    "basis": "当前 note/blurb 明确引用《麦克白》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-laertes": {
+    "workIds": [
+      "play-hamlet"
+    ],
+    "basis": "当前 note/blurb 明确引用《哈姆雷特》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-polonius": {
+    "workIds": [
+      "play-hamlet"
+    ],
+    "basis": "当前 note/blurb 明确引用《哈姆雷特》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-gertrude": {
+    "workIds": [
+      "play-hamlet"
+    ],
+    "basis": "当前 note/blurb 明确引用《哈姆雷特》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-claudius": {
+    "workIds": [
+      "play-hamlet"
+    ],
+    "basis": "当前 note/blurb 明确引用《哈姆雷特》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-emilia": {
+    "workIds": [
+      "play-othello"
+    ],
+    "basis": "当前 note/blurb 明确引用《奥赛罗》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-cassio": {
+    "workIds": [
+      "play-othello"
+    ],
+    "basis": "当前 note/blurb 明确引用《奥赛罗》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-roderigo": {
+    "workIds": [
+      "play-othello"
+    ],
+    "basis": "当前 note/blurb 明确引用《奥赛罗》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-goneril": {
+    "workIds": [
+      "play-lear"
+    ],
+    "basis": "当前 note/blurb 明确引用《李尔王》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-regan": {
+    "workIds": [
+      "play-lear"
+    ],
+    "basis": "当前 note/blurb 明确引用《李尔王》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-edmund": {
+    "workIds": [
+      "play-lear"
+    ],
+    "basis": "当前 note/blurb 明确引用《李尔王》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-kent": {
+    "workIds": [
+      "play-lear"
+    ],
+    "basis": "当前 note/blurb 明确引用《李尔王》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-fool-lear": {
+    "workIds": [
+      "play-lear"
+    ],
+    "basis": "当前 note/blurb 明确引用《李尔王》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-gloucester": {
+    "workIds": [
+      "play-lear"
+    ],
+    "basis": "当前 note/blurb 明确引用《李尔王》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-edgar": {
+    "workIds": [
+      "play-lear"
+    ],
+    "basis": "当前 note/blurb 明确引用《李尔王》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-malcolm": {
+    "workIds": [
+      "play-macbeth"
+    ],
+    "basis": "当前 note/blurb 明确引用《麦克白》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-duncan": {
+    "workIds": [
+      "play-macbeth"
+    ],
+    "basis": "当前 note/blurb 明确引用《麦克白》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-cassandra": {
+    "workIds": [
+      "yplay-agamemnon"
+    ],
+    "basis": "当前 note/blurb 明确引用《阿伽门农》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-andromache": {
+    "workIds": [
+      "yplay-trojan"
+    ],
+    "basis": "古希腊悲剧人物，见《特洛亚妇女》等；按角色出处核对。"
+  },
+  "role2-hecuba": {
+    "workIds": [
+      "yplay-trojan"
+    ],
+    "basis": "古希腊悲剧人物，见《特洛亚妇女》等；按角色出处核对。"
+  },
+  "role2-agamemnon": {
+    "workIds": [
+      "yplay-agamemnon"
+    ],
+    "basis": "当前 note/blurb 明确引用《阿伽门农》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-aegisthus": {
+    "workIds": [
+      "yplay-agamemnon"
+    ],
+    "basis": "当前 note/blurb 明确引用《阿伽门农》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-orestes": {
+    "workIds": [
+      "yplay-crossroads",
+      "yplay-drunken"
+    ],
+    "basis": "古希腊悲剧人物，见《奠酒人》、《厄勒克特拉》等；按角色出处核对。"
+  },
+  "role2-pylades": {
+    "workIds": [
+      "yplay-crossroads"
+    ],
+    "basis": "古希腊悲剧人物，见《奠酒人》等；按角色出处核对。"
+  },
+  "role2-glauce": {
+    "workIds": [
+      "play-medea"
+    ],
+    "basis": "当前 note/blurb 明确引用《美狄亚》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-medea-nurse": {
+    "workIds": [
+      "play-medea"
+    ],
+    "basis": "当前 note/blurb 明确引用《美狄亚》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-aegeus": {
+    "workIds": [
+      "play-medea"
+    ],
+    "basis": "当前 note/blurb 明确引用《美狄亚》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-martha-misunderstanding": {
+    "workIds": [
+      "play-v21-malentendu"
+    ],
+    "basis": "当前 note/blurb 明确引用《误会》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-kristine-linde": {
+    "workIds": [
+      "play-doll"
+    ],
+    "basis": "当前 note/blurb 明确引用《玩偶之家》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-doctor-rank": {
+    "workIds": [
+      "play-doll"
+    ],
+    "basis": "当前 note/blurb 明确引用《玩偶之家》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-krogstad": {
+    "workIds": [
+      "play-doll"
+    ],
+    "basis": "当前 note/blurb 明确引用《玩偶之家》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-duval-father": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《茶花女》；不按相近名称推定。"
+  },
+  "role2-lopakhin": {
+    "workIds": [
+      "play-cherry"
+    ],
+    "basis": "当前 note/blurb 明确引用《樱桃园》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-gayev": {
+    "workIds": [
+      "play-cherry"
+    ],
+    "basis": "当前 note/blurb 明确引用《樱桃园》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-varya": {
+    "workIds": [
+      "play-cherry"
+    ],
+    "basis": "当前 note/blurb 明确引用《樱桃园》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-anya-cherry": {
+    "workIds": [
+      "play-cherry"
+    ],
+    "basis": "当前 note/blurb 明确引用《樱桃园》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-trofimov": {
+    "workIds": [
+      "play-cherry"
+    ],
+    "basis": "当前 note/blurb 明确引用《樱桃园》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-serebryakov": {
+    "workIds": [
+      "xplay-vanya"
+    ],
+    "basis": "当前 note/blurb 明确引用《万尼亚舅舅》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-sonya": {
+    "workIds": [
+      "xplay-vanya"
+    ],
+    "basis": "当前 note/blurb 明确引用《万尼亚舅舅》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-yelena": {
+    "workIds": [
+      "xplay-vanya"
+    ],
+    "basis": "当前 note/blurb 明确引用《万尼亚舅舅》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-olga": {
+    "workIds": [
+      "play-sisters"
+    ],
+    "basis": "当前 note/blurb 明确引用《三姐妹》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-irina": {
+    "workIds": [
+      "play-sisters"
+    ],
+    "basis": "当前 note/blurb 明确引用《三姐妹》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-tuzenbach": {
+    "workIds": [
+      "play-sisters"
+    ],
+    "basis": "当前 note/blurb 明确引用《三姐妹》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-solyony": {
+    "workIds": [
+      "play-sisters"
+    ],
+    "basis": "当前 note/blurb 明确引用《三姐妹》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-vershinin": {
+    "workIds": [
+      "play-sisters"
+    ],
+    "basis": "当前 note/blurb 明确引用《三姐妹》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-andrei-three-sisters": {
+    "workIds": [
+      "play-sisters"
+    ],
+    "basis": "当前 note/blurb 明确引用《三姐妹》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-treplev": {
+    "workIds": [
+      "xplay-seagull"
+    ],
+    "basis": "当前 note/blurb 明确引用《海鸥》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-arkadina": {
+    "workIds": [
+      "xplay-seagull"
+    ],
+    "basis": "当前 note/blurb 明确引用《海鸥》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-nina": {
+    "workIds": [
+      "xplay-seagull"
+    ],
+    "basis": "当前 note/blurb 明确引用《海鸥》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-trigorin": {
+    "workIds": [
+      "xplay-seagull"
+    ],
+    "basis": "当前 note/blurb 明确引用《海鸥》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-luka": {
+    "workIds": [
+      "yplay-lower"
+    ],
+    "basis": "《底层》；按角色出处核对。"
+  },
+  "role2-pepel": {
+    "workIds": [
+      "yplay-lower"
+    ],
+    "basis": "《底层》；按角色出处核对。"
+  },
+  "role2-mayor-inspector": {
+    "workIds": [
+      "yplay-inspector"
+    ],
+    "basis": "当前 note/blurb 明确引用《钦差大臣》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-kabanova": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《大雷雨》；不按相近名称推定。"
+  },
+  "role2-tikhon": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《大雷雨》；不按相近名称推定。"
+  },
+  "role2-boris-storm": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《大雷雨》；不按相近名称推定。"
+  },
+  "role2-hippolytus": {
+    "workIds": [
+      "yplay-phedre"
+    ],
+    "basis": "当前 note/blurb 明确引用《费德尔》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-oenone": {
+    "workIds": [
+      "yplay-phedre"
+    ],
+    "basis": "当前 note/blurb 明确引用《费德尔》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-theseus": {
+    "workIds": [
+      "yplay-phedre"
+    ],
+    "basis": "当前 note/blurb 明确引用《费德尔》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-clov": {
+    "workIds": [
+      "yplay-endgame"
+    ],
+    "basis": "当前 note/blurb 明确引用《终局》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-nagg": {
+    "workIds": [
+      "yplay-endgame"
+    ],
+    "basis": "当前 note/blurb 明确引用《终局》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-nell": {
+    "workIds": [
+      "yplay-endgame"
+    ],
+    "basis": "当前 note/blurb 明确引用《终局》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-jean-rhinoceros": {
+    "workIds": [
+      "xplay-rhino"
+    ],
+    "basis": "当前 note/blurb 明确引用《犀牛》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-fire-chief": {
+    "workIds": [
+      "xplay-bald"
+    ],
+    "basis": "当前 note/blurb 明确引用《秃头歌女》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-claire-maids": {
+    "workIds": [
+      "play-v21-maids"
+    ],
+    "basis": "当前 note/blurb 明确引用《女仆》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-solange": {
+    "workIds": [
+      "play-v21-maids"
+    ],
+    "basis": "当前 note/blurb 明确引用《女仆》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-lu-dahai": {
+    "workIds": [
+      "play-thunder"
+    ],
+    "basis": "当前 note/blurb 明确引用《雷雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-lu-gui": {
+    "workIds": [
+      "play-thunder"
+    ],
+    "basis": "当前 note/blurb 明确引用《雷雨》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-pan-yueting": {
+    "workIds": [
+      "play-sunrise"
+    ],
+    "basis": "当前 note/blurb 明确引用《日出》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-li-shiqing": {
+    "workIds": [
+      "play-sunrise"
+    ],
+    "basis": "当前 note/blurb 明确引用《日出》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-huang-shengsan": {
+    "workIds": [
+      "play-sunrise"
+    ],
+    "basis": "当前 note/blurb 明确引用《日出》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-fang-dasheng": {
+    "workIds": [
+      "play-sunrise"
+    ],
+    "basis": "当前 note/blurb 明确引用《日出》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-cui-xi": {
+    "workIds": [
+      "play-sunrise"
+    ],
+    "basis": "当前 note/blurb 明确引用《日出》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-jiao-mother": {
+    "workIds": [
+      "play-yuanye"
+    ],
+    "basis": "当前 note/blurb 明确引用《原野》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-jiao-daxing": {
+    "workIds": [
+      "play-yuanye"
+    ],
+    "basis": "当前 note/blurb 明确引用《原野》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-bai-shazi": {
+    "workIds": [
+      "play-yuanye"
+    ],
+    "basis": "当前 note/blurb 明确引用《原野》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-zeng-wenqing": {
+    "workIds": [
+      "play-beijing"
+    ],
+    "basis": "当前 note/blurb 明确引用《北京人》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-zeng-siyi": {
+    "workIds": [
+      "play-beijing"
+    ],
+    "basis": "当前 note/blurb 明确引用《北京人》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-zeng-hao": {
+    "workIds": [
+      "play-beijing"
+    ],
+    "basis": "当前 note/blurb 明确引用《北京人》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-ruizhen": {
+    "workIds": [
+      "play-beijing"
+    ],
+    "basis": "当前 note/blurb 明确引用《北京人》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-qin-zhongyi": {
+    "workIds": [
+      "play-teahouse"
+    ],
+    "basis": "当前 note/blurb 明确引用《茶馆》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-song-erye": {
+    "workIds": [
+      "play-teahouse"
+    ],
+    "basis": "当前 note/blurb 明确引用《茶馆》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-liu-mazi": {
+    "workIds": [
+      "play-teahouse"
+    ],
+    "basis": "当前 note/blurb 明确引用《茶馆》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-kang-shunzi": {
+    "workIds": [
+      "play-teahouse"
+    ],
+    "basis": "当前 note/blurb 明确引用《茶馆》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-liu-siye": {
+    "workIds": [
+      "xplay-camel"
+    ],
+    "basis": "当前 note/blurb 明确引用《骆驼祥子》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-xiao-fuzi": {
+    "workIds": [
+      "xplay-camel"
+    ],
+    "basis": "当前 note/blurb 明确引用《骆驼祥子》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-kuang-fu": {
+    "workIds": [
+      "yplay-eaves"
+    ],
+    "basis": "当前 note/blurb 明确引用《上海屋檐下》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-yang-caiyu": {
+    "workIds": [
+      "yplay-eaves"
+    ],
+    "basis": "当前 note/blurb 明确引用《上海屋檐下》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-lin-zhicheng": {
+    "workIds": [
+      "yplay-eaves"
+    ],
+    "basis": "当前 note/blurb 明确引用《上海屋檐下》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-huang-jiamei": {
+    "workIds": [
+      "yplay-eaves"
+    ],
+    "basis": "当前 note/blurb 明确引用《上海屋檐下》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-qi-yongnian": {
+    "workIds": [
+      "xplay-doggy"
+    ],
+    "basis": "当前 note/blurb 明确引用《狗儿爷涅槃》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-xiu-dingxin": {
+    "workIds": [
+      "xplay-lou"
+    ],
+    "basis": "当前 note/blurb 明确引用《天下第一楼》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-xia-professor": {
+    "workIds": [
+      "yplay-jiang"
+    ],
+    "basis": "当前 note/blurb 明确引用《蒋公的面子》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-shi-professor": {
+    "workIds": [
+      "yplay-jiang"
+    ],
+    "basis": "当前 note/blurb 明确引用《蒋公的面子》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role2-heizi-signal": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《绝对信号》；不按相近名称推定。"
+  },
+  "role2-mifeng": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《绝对信号》；不按相近名称推定。"
+  },
+  "role2-train-conductor": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《绝对信号》；不按相近名称推定。"
+  },
+  "role2-messenger": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-neighbor": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-witness": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-interrogator": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-former-lover": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-creditor": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-spy": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-clerk": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-landlord": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-rival-lover": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-stepmother": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-visitor": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-deserter": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-news-child": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-former-wife": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-protector": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "role2-mourner": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "play-v21-noexit": {
+    "workIds": [
+      "play-v21-noexit"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-justes": {
+    "workIds": [
+      "play-v21-justes"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-caligula": {
+    "workIds": [
+      "play-v21-caligula"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-malentendu": {
+    "workIds": [
+      "play-v21-malentendu"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-maids": {
+    "workIds": [
+      "play-v21-maids"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-balcony": {
+    "workIds": [
+      "play-v21-balcony"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-happydays": {
+    "workIds": [
+      "play-v21-happydays"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-heartbreak": {
+    "workIds": [
+      "play-v21-heartbreak"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-majorbarbara": {
+    "workIds": [
+      "play-v21-majorbarbara"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-sixcharacters": {
+    "workIds": [
+      "play-v21-sixcharacters"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-henryiv": {
+    "workIds": [
+      "play-v21-henryiv"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-unburied": {
+    "workIds": [
+      "play-v21-unburied"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-zoostory": {
+    "workIds": [
+      "play-v21-zoostory"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-americandream": {
+    "workIds": [
+      "play-v21-americandream"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-twelveangry": {
+    "workIds": [
+      "play-v21-twelveangry"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "play-v21-betrayal": {
+    "workIds": [
+      "play-v21-betrayal"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "style-v21-epistolary": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-courtroom": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-mystery": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-fable": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-family": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-psychothriller": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-metatheatre": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-autobiographical": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-polyphonic": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-maximalist": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-rehearsaldrama": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-radiodrama": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-stagedreading": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-signedtheatre": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-sensory": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "style-v21-sciencefiction": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-roleswap": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-testimony": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-samewords": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-livefoley": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-timecut": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-soundimage": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-livesubtitles": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-linerelay": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-proptransfer": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-emptychair": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-unreliable": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-selectivereplay": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-simultaneoussolos": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-occlusion": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-compression": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "dir-v21-endingloop": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "role-v21-othello": {
+    "workIds": [
+      "play-othello"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：奥赛罗说明含“伊阿古的诱导”；《奥赛罗》说明含“伊阿古利用奥赛罗的猜疑”。"
+  },
+  "role-v21-unclevanya": {
+    "workIds": [
+      "xplay-vanya"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：瓦尼亚舅舅说明含“多年劳动”；《万尼亚舅舅》说明含“多年供养的教授”。"
+  },
+  "role-v21-astrov": {
+    "workIds": [
+      "xplay-vanya"
+    ],
+    "basis": "当前 note/blurb 明确引用《万尼亚舅舅》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-v21-berenger": {
+    "workIds": [
+      "xplay-rhino"
+    ],
+    "basis": "当前 note/blurb 明确引用《犀牛》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-v21-katerina": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《大雷雨》；不按相近名称推定。"
+  },
+  "role-v21-phedre": {
+    "workIds": [
+      "yplay-phedre"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：费德尔说明含“爱上丈夫之子希波吕托斯”；《费德尔》说明含“费德尔爱上继子希波吕托斯”。"
+  },
+  "role-v21-margueritecamellia": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《茶花女》；不按相近名称推定。"
+  },
+  "role-v21-antony": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《安东尼与克莉奥佩特拉》；不按相近名称推定。"
+  },
+  "role-v21-volumnia": {
+    "workIds": [],
+    "basis": "说明引用的作品未与现有剧目名称精确匹配：《科利奥兰纳斯》；不按相近名称推定。"
+  },
+  "role-v21-caligularole": {
+    "workIds": [
+      "play-v21-caligula"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：卡利古拉说明含“加缪笔下的卡利古拉”；《卡利古拉》说明含“加缪的卡利古拉”。"
+  },
+  "role-v21-marytyrone": {
+    "workIds": [
+      "xplay-longday"
+    ],
+    "basis": "当前 note/blurb 明确引用《进入黑夜的漫长旅程》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-v21-edmundtyrone": {
+    "workIds": [
+      "xplay-longday"
+    ],
+    "basis": "当前 note/blurb 明确引用《进入黑夜的漫长旅程》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-v21-amanda": {
+    "workIds": [
+      "play-glass"
+    ],
+    "basis": "当前 note/blurb 明确引用《玻璃动物园》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-v21-tomglass": {
+    "workIds": [
+      "play-glass"
+    ],
+    "basis": "当前 note/blurb 明确引用《玻璃动物园》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-v21-winnie": {
+    "workIds": [
+      "play-v21-happydays"
+    ],
+    "basis": "当前 note/blurb 明确引用《快乐的日子》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "role-v21-jimglass": {
+    "workIds": [
+      "play-glass"
+    ],
+    "basis": "当前 note/blurb 明确引用《玻璃动物园》；按当前剧名或剧目说明中的明示全名匹配。"
+  },
+  "place-v21-bordercheckpoint": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-willroom": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-publicbath": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-weddinghall": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-shelter": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-funeralhome": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-lostproperty": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-photostudio": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-ticketwindow": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-lift": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-pharmacy": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-diningcar": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-abandonedpark": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-rehearsalhall": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-waitingtrial": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v21-archive": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v22-gallery": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v22-isolationward": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v22-radiobooth": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v22-cage": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v22-embassyhall": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "place-v22-observatory": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "v23-play-allmysons": {
+    "workIds": [
+      "v23-play-allmysons"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-play-copenhagen": {
+    "workIds": [
+      "v23-play-copenhagen"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-play-woyzeck": {
+    "workIds": [
+      "v23-play-woyzeck"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-play-danton": {
+    "workIds": [
+      "v23-play-danton"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-play-equus": {
+    "workIds": [
+      "v23-play-equus"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-play-art": {
+    "workIds": [
+      "v23-play-art"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-play-busstop": {
+    "workIds": [
+      "v23-play-busstop"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-play-dreamlike": {
+    "workIds": [
+      "v23-play-dreamlike"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-play-livefield": {
+    "workIds": [
+      "v23-play-livefield"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-play-iceman": {
+    "workIds": [
+      "v23-play-iceman"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-play-springawake": {
+    "workIds": [
+      "v23-play-springawake"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-play-viewbridge": {
+    "workIds": [
+      "v23-play-viewbridge"
+    ],
+    "basis": "剧目卡本身。"
+  },
+  "v23-style-chamber": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-style-total": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-style-verbatim": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-style-bourgeois-tragedy": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-style-historyplay": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-style-intercultural": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-style-visual": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-style-tfa": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-style-newcircus": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-style-plaza": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-style-homestead": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-style-translation": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-pool": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-mic": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-readstage": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-allwatch": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-objectchain": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-countdown": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-floorplan": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-soundfirst": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-lateopen": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-silentopen": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-revolving": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-dir-misremember": {
+    "workIds": [],
+    "basis": "演法或舞台手段不因风格、作者或戏剧系列建立原作归属。"
+  },
+  "v23-role-joekeller": {
+    "workIds": [
+      "v23-play-allmysons"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：乔·凯勒说明含“战时的零件交易”；《都是我的儿子》说明含“乔·凯勒把不合格零件送上前线”。"
+  },
+  "v23-role-heisenberg": {
+    "workIds": [
+      "v23-play-copenhagen"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：海森堡说明含“哥本哈根拜访旧日师友”；《哥本哈根》说明含“海森堡在战时拜访玻尔”。"
+  },
+  "v23-role-woyzeck": {
+    "workIds": [
+      "v23-play-woyzeck"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：沃伊采克说明含“被军官役使、被医生取样的士兵”；《沃伊采克》说明含“士兵沃伊采克被长官役使、被医生实验”。"
+  },
+  "v23-role-danton": {
+    "workIds": [
+      "v23-play-danton"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：丹东说明含“厌倦清洗”；《丹东之死》说明含“丹东厌倦流血”。"
+  },
+  "v23-role-eddie": {
+    "workIds": [
+      "v23-play-viewbridge"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：埃迪·卡伯恩说明含“码头工人把侄女”；《桥头眺望》说明含“码头工人埃迪把侄女凯瑟琳”。"
+  },
+  "v23-role-hickey": {
+    "workIds": [
+      "v23-play-iceman"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：希基说明含“霍普旅馆里突然到来的推销员”；《送冰的人来了》说明含“霍普旅馆的酒客”。"
+  },
+  "v23-role-melchior": {
+    "workIds": [
+      "v23-play-springawake"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：梅尔希奥说明含“春醒里较早获得知识的少年”；《春醒》说明含“少年梅尔希奥与莫里茨”。"
+  },
+  "v23-role-alan": {
+    "workIds": [
+      "v23-play-equus"
+    ],
+    "basis": "当前卡名括号明确限定原作，按现有剧目名精确匹配。"
+  },
+  "v23-role-dreamdoctor": {
+    "workIds": [
+      "v23-play-dreamlike"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：如梦之梦的医生说明含“环湖倾听”；《如梦之梦》说明含“医生探访一位临终病人”。"
+  },
+  "v23-role-jinzhi": {
+    "workIds": [
+      "v23-play-livefield"
+    ],
+    "basis": "当前卡名括号明确限定原作，按现有剧目名精确匹配。"
+  },
+  "v23-role-silentman": {
+    "workIds": [
+      "v23-play-busstop"
+    ],
+    "basis": "《车站》；按角色出处核对。"
+  },
+  "v23-role-serge": {
+    "workIds": [
+      "v23-play-art"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：塞尔吉说明含“买下白画的朋友”；《艺术》说明含“塞尔吉买下一幅几乎全白的画”。"
+  },
+  "v23-sup-kate": {
+    "workIds": [
+      "v23-play-allmysons"
+    ],
+    "basis": "《都是我的儿子》；按角色出处核对。"
+  },
+  "v23-sup-bohr": {
+    "workIds": [
+      "v23-play-copenhagen"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：玻尔说明含“接待海森堡的老师与旧友”；《哥本哈根》说明含“海森堡在战时拜访玻尔”。"
+  },
+  "v23-sup-marie": {
+    "workIds": [
+      "v23-play-woyzeck"
+    ],
+    "basis": "当前卡名括号明确限定原作，按现有剧目名精确匹配。"
+  },
+  "v23-sup-robespierre": {
+    "workIds": [
+      "v23-play-danton"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：罗伯斯庇尔说明含“无法原谅丹东”；《丹东之死》说明含“罗伯斯庇尔坚持纯洁”。"
+  },
+  "v23-sup-catherine": {
+    "workIds": [
+      "v23-play-viewbridge"
+    ],
+    "basis": "当前卡名括号明确限定原作，按现有剧目名精确匹配。"
+  },
+  "v23-sup-ann": {
+    "workIds": [
+      "v23-play-allmysons"
+    ],
+    "basis": "《都是我的儿子》；按角色出处核对。"
+  },
+  "v23-sup-nurse": {
+    "workIds": [
+      "v23-play-equus"
+    ],
+    "basis": "当前卡名括号明确限定原作，按现有剧目名精确匹配。"
+  },
+  "v23-sup-moritz": {
+    "workIds": [
+      "v23-play-springawake"
+    ],
+    "basis": "逐项核对当前卡名及双向剧情证据：莫里茨说明含“跟不上课程与身体变化的少年”；《春醒》说明含“少年梅尔希奥与莫里茨”。"
+  },
+  "v23-sup-zhaosan": {
+    "workIds": [
+      "v23-play-livefield"
+    ],
+    "basis": "当前卡名括号明确限定原作，按现有剧目名精确匹配。"
+  },
+  "v23-sup-stationmaster": {
+    "workIds": [
+      "v23-play-busstop"
+    ],
+    "basis": "当前卡名括号明确限定原作，按现有剧目名精确匹配。"
+  },
+  "v23-sup-harryhope": {
+    "workIds": [
+      "v23-play-iceman"
+    ],
+    "basis": "《送冰的人来了》；按角色出处核对。"
+  },
+  "v23-sup-marc": {
+    "workIds": [
+      "v23-play-art"
+    ],
+    "basis": "当前卡名括号明确限定原作，按现有剧目名精确匹配。"
+  },
+  "v23-place-hangar": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "v23-place-nightsitting": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "v23-place-washhouse": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "v23-place-jacobin": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "v23-place-longshore": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "v23-place-hopebar": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "v23-place-dormer": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "v23-place-observation": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "v23-place-lotuspond": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "v23-place-frostvillage": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  },
+  "v23-place-halt": {
+    "workIds": [],
+    "basis": "当前名称和说明未明确限定可匹配的单部原作；通用身份、环境或系列归属不推定羁绊。"
+  }
+}

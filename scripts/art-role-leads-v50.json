@@ -1,0 +1,1800 @@
+{
+  "role-oedipus": {
+    "fig": "pizhe",
+    "head": "circlet",
+    "face": "blind",
+    "pose": "guard",
+    "prop": "staff",
+    "propMode": "held",
+    "cloth": "#ded4bc",
+    "costume": "royal",
+    "headTilt": -4,
+    "lean": 2,
+    "portraitLayout": "right",
+    "designIntent": "《俄狄浦斯王》的国王以单肩王袍、失明的双眼和探向前方的杖，表现追查者认清自身后的处境。",
+    "distinguishFrom": "同为失势君王，与李尔的弓背、破冠和风中衰老相区分，保留直身披褶和环冠。",
+    "symbols": [
+      "crossroad"
+    ]
+  },
+  "role-nora": {
+    "fig": "changqun",
+    "head": "bun",
+    "face": "resolve",
+    "pose": "stride",
+    "prop": "key",
+    "propMode": "emblem",
+    "cloth": "#6e2430",
+    "costume": "plain",
+    "headTilt": 3,
+    "lean": -2,
+    "portraitLayout": "left",
+    "designIntent": "《玩偶之家》的娜拉以收腰裙、转身跨步和门钥匙标志，突出她决定离开家庭安排的行动。",
+    "distinguishFrom": "与同样穿长裙的海达相比，她的双臂向外打开并迈步，钥匙和门替代藏枪与封闭姿态。",
+    "symbols": [
+      "door"
+    ]
+  },
+  "role-hamlet": {
+    "fig": "doupeng",
+    "head": "short",
+    "face": "pale",
+    "pose": "hold",
+    "prop": "skull",
+    "propMode": "held",
+    "cloth": "#241c16",
+    "costume": "mourning",
+    "headTilt": -6,
+    "lean": 1,
+    "portraitLayout": "left",
+    "designIntent": "《哈姆雷特》的丹麦王子以黑色斜披风、丧服和低头端看的骷髅，将宫廷复仇与死亡思索放在一起。",
+    "distinguishFrom": "区别于普洛斯彼罗的宽袖长袍、白发和举杖施令，王子以收拢的手臂和低垂视线停住动作。",
+    "symbols": [
+      "battlement"
+    ]
+  },
+  "role-fanyi": {
+    "fig": "qipao",
+    "head": "wave",
+    "face": "storm",
+    "pose": "refuse",
+    "prop": "cup",
+    "propMode": "emblem",
+    "cloth": "#6e2430",
+    "costume": "plain",
+    "headTilt": -3,
+    "lean": -2,
+    "portraitLayout": "right",
+    "designIntent": "《雷雨》的繁漪以旗袍、偏头拒绝的手势和药杯标志，表现周家规矩下压抑又强烈的反抗。",
+    "distinguishFrom": "与陈白露的珠饰、镜子和向内收手不同，繁漪用横向拒绝动作顶住窗框形成的封闭感。",
+    "symbols": [
+      "window"
+    ]
+  },
+  "role-macbeth": {
+    "fig": "jiazhou",
+    "head": "helmet",
+    "face": "resolve",
+    "pose": "clutch",
+    "prop": "dagger",
+    "propMode": "held",
+    "cloth": "#3e4a32",
+    "costume": "royal",
+    "headTilt": 2,
+    "lean": 3,
+    "portraitLayout": "left",
+    "designIntent": "《麦克白》的将领保留分片肩甲与头盔，把匕首收向胸前，悬置王冠显示战争荣誉转向弑君欲望。",
+    "distinguishFrom": "与曹操的卷轴、压住心意的藏手和方顶冠不同，麦克白以金属肩甲、紧握短刃和前倾身体突出行动压力。",
+    "symbols": [
+      "crown"
+    ]
+  },
+  "role-doue": {
+    "fig": "baiyi",
+    "head": "long",
+    "face": "resolve",
+    "pose": "point",
+    "prop": "verdict",
+    "propMode": "emblem",
+    "cloth": "#ece3d0",
+    "costume": "mourning",
+    "headTilt": -2,
+    "lean": 0,
+    "portraitLayout": "center",
+    "designIntent": "《窦娥冤》的窦娥以素色长衣、直指上方的手势和判词标志，凝住刑场上三桩誓愿的申诉。",
+    "distinguishFrom": "不同于医生的开卷倾听，窦娥以散长发、丧服带和雪的背景标志构成公开申冤的形象。",
+    "symbols": [
+      "snow"
+    ]
+  },
+  "role-liniang": {
+    "fig": "duanda",
+    "head": "short",
+    "face": "resolve",
+    "pose": "refuse",
+    "prop": "verdict",
+    "propMode": "held",
+    "cloth": "#6a5438",
+    "costume": "puritan",
+    "headTilt": 0,
+    "lean": -3,
+    "portraitLayout": "left",
+    "designIntent": "《萨勒姆的女巫》的农夫普罗克托以粗衣短装、白领片和拒绝交出供词的手势，表现他不肯以姓名替谎言作证。",
+    "distinguishFrom": "与阿比盖尔向外指认的罩袍轮廓相反，他用分腿站姿、低处供词和向外推拒的手臂承担自己的选择。",
+    "symbols": [
+      "noose"
+    ]
+  },
+  "role-ladym": {
+    "fig": "tongqun",
+    "head": "long",
+    "face": "tired",
+    "pose": "clutch",
+    "prop": "candle",
+    "propMode": "emblem",
+    "cloth": "#c8b8b4",
+    "costume": "plain",
+    "headTilt": -5,
+    "lean": 2,
+    "portraitLayout": "right",
+    "designIntent": "《麦克白》的夫人以贴身直裙、长发和紧收双手呈现梦游中的反复洗手，蜡烛与血色标志留在身侧。",
+    "distinguishFrom": "与繁漪的横向拒绝和海达的藏枪不同，她的动作集中在身前的双手，消瘦直裙与垂直烛光加强不安。",
+    "symbols": [
+      "blood"
+    ]
+  },
+  "role-wang": {
+    "fig": "changshan",
+    "head": "cap",
+    "face": "tired",
+    "pose": "offer",
+    "prop": "towel",
+    "propMode": "held",
+    "cloth": "#8a5a32",
+    "costume": "plain",
+    "headTilt": 3,
+    "lean": 2,
+    "portraitLayout": "left",
+    "designIntent": "《茶馆》的掌柜王利发以长衫小帽、前倾递巾和茶壶标志，表现长年迎来送往仍难保住生计的处境。",
+    "distinguishFrom": "与觉新的抱臂退让和杨修的指点卷轴不同，他把手伸向客人，毛巾与茶壶形成经营者的记忆点。",
+    "symbols": [
+      "teapot"
+    ]
+  },
+  "role-shen": {
+    "fig": "laozuo",
+    "head": "bun",
+    "face": "quiet",
+    "pose": "conceal",
+    "prop": "mask",
+    "propMode": "emblem",
+    "cloth": "#0f6a64",
+    "costume": "plain",
+    "headTilt": 4,
+    "lean": -1,
+    "portraitLayout": "right",
+    "designIntent": "《四川好人》的沈黛保留店主围裙，一手收在身后，身旁面具提示她假扮隋达保护生计的双重身份。",
+    "distinguishFrom": "与厨娘克里斯汀的端碗站姿和鲁侍萍的拒绝手势不同，她以藏手、面具和店铺标志呈现身份切换。",
+    "symbols": [
+      "shop"
+    ]
+  },
+  "role-zhou": {
+    "fig": "magua",
+    "head": "sidepart",
+    "face": "cold",
+    "pose": "fold",
+    "prop": "glasses",
+    "propMode": "emblem",
+    "cloth": "#3a342c",
+    "costume": "formal",
+    "headTilt": 0,
+    "lean": 0,
+    "portraitLayout": "center",
+    "designIntent": "《雷雨》的周朴园以方整马褂、抱臂站姿和眼镜标志，表现家长用旧规矩审视来者的姿态。",
+    "distinguishFrom": "不同于王利发前倾迎客的窄长衫，他用宽裤短褂、封闭手臂和时钟构成不愿改变的秩序。",
+    "symbols": [
+      "clock"
+    ]
+  },
+  "role-willy": {
+    "fig": "xizhuang",
+    "head": "widehat",
+    "face": "tired",
+    "pose": "bow",
+    "prop": "case",
+    "propMode": "held",
+    "cloth": "#4a5560",
+    "costume": "worn",
+    "headTilt": -5,
+    "lean": 4,
+    "portraitLayout": "left",
+    "designIntent": "《推销员之死》的威利以旧西装、宽檐帽和垂在低处的样品箱，表现奔走多年后的疲惫与失意。",
+    "distinguishFrom": "与希基昂首说服众人的礼整西装和悬置箱子不同，威利让身体前倾、箱子下坠，形成负重的轮廓。",
+    "symbols": [
+      "car"
+    ]
+  },
+  "role-anti": {
+    "fig": "pizhe",
+    "head": "braid",
+    "face": "resolve",
+    "pose": "offer",
+    "prop": "dirt",
+    "propMode": "held",
+    "cloth": "#ddd3bd",
+    "costume": "mourning",
+    "headTilt": 1,
+    "lean": 0,
+    "portraitLayout": "left",
+    "designIntent": "《安提戈涅》的主人公以素色单肩披褶和伸出的土，表现她违抗禁令、坚持为兄长安葬的行动。",
+    "distinguishFrom": "与厄勒克特拉抱紧丧衣的长发轮廓不同，她用辫发、向前伸出的手和一捧土把哀悼转成公开行动。",
+    "symbols": [
+      "tomb"
+    ]
+  },
+  "role-bailu": {
+    "fig": "qipao",
+    "head": "wave",
+    "face": "lips",
+    "pose": "conceal",
+    "prop": "mirror",
+    "propMode": "emblem",
+    "cloth": "#75485a",
+    "costume": "formal",
+    "headTilt": 6,
+    "lean": -2,
+    "portraitLayout": "left",
+    "designIntent": "《日出》的陈白露以带珠饰的旗袍、波浪长发和悬置镜面，表现都市交际生活里的体面与自我遮掩。",
+    "distinguishFrom": "与繁漪的药杯和推拒姿态不同，她以偏头、收手和镜子形成向内观看的构图，日出标志留在远处。",
+    "symbols": [
+      "sun"
+    ]
+  },
+  "role-gogo": {
+    "fig": "zuozi",
+    "head": "bowler",
+    "face": "tired",
+    "pose": "hold",
+    "prop": "boot",
+    "propMode": "held",
+    "cloth": "#6a5a48",
+    "costume": "worn",
+    "headTilt": -7,
+    "lean": 2,
+    "portraitLayout": "left",
+    "designIntent": "《等待戈多》的爱斯特拉冈坐低身子双手对着靴子，圆礼帽和旧衣保留等待者的纸片轮廓。",
+    "distinguishFrom": "与站着侧耳确认约定的弗拉季米尔相区别，他的身体重心落到椅面与靴子，动作围绕脚下的疼痛。",
+    "symbols": [
+      "tree"
+    ]
+  },
+  "role-shiping": {
+    "fig": "laozuo",
+    "head": "bun",
+    "face": "tired",
+    "pose": "refuse",
+    "prop": "towel",
+    "propMode": "emblem",
+    "cloth": "#6a5438",
+    "costume": "worn",
+    "headTilt": -2,
+    "lean": -2,
+    "portraitLayout": "left",
+    "designIntent": "《雷雨》的鲁侍萍以旧围裙、挽发和克制的拒绝手势，表现重返周家后不肯把往事再交给家长安排。",
+    "distinguishFrom": "与四凤的辫发、倾听和手中毛巾不同，她把毛巾移作身侧标志，以旧衣与退开的手臂显出历经伤害的决断。",
+    "symbols": [
+      "window"
+    ]
+  },
+  "role-xiangjun": {
+    "fig": "changqun",
+    "head": "bun",
+    "face": "resolve",
+    "pose": "guard",
+    "prop": "bloodfan",
+    "propMode": "held",
+    "cloth": "#a94f70",
+    "costume": "plain",
+    "headTilt": 1,
+    "lean": -1,
+    "portraitLayout": "right",
+    "designIntent": "《桃花扇》的李香君以钟形长裙、护在身前的血扇和坚定正脸，表现拒绝强迫婚配的选择。",
+    "distinguishFrom": "与朱帘秀展开剧词的外向动作不同，她以交护手臂、染血扇面和收紧的正面构图守住自己的意愿。",
+    "symbols": [
+      "flower"
+    ]
+  },
+  "role-chengying": {
+    "fig": "changshan",
+    "head": "topknot",
+    "face": "tired",
+    "pose": "clutch",
+    "prop": "bundle",
+    "propMode": "held",
+    "cloth": "#6a5438",
+    "costume": "worn",
+    "headTilt": -5,
+    "lean": 2,
+    "portraitLayout": "center",
+    "designIntent": "纪君祥《赵氏孤儿》的程婴以磨旧长衫、束发和贴身护住的襁褓，突出医生救孤并忍辱抚养的承担。",
+    "distinguishFrom": "与同穿长衫的王利发递巾迎客不同，他把双臂收紧在身体中央，襁褓和门关标志形成保护与危险的对照。",
+    "symbols": [
+      "gate"
+    ]
+  },
+  "role-yuji": {
+    "fig": "gongzhuang",
+    "head": "braid",
+    "face": "resolve",
+    "pose": "raise",
+    "prop": "drum",
+    "propMode": "held",
+    "cloth": "#6a4028",
+    "costume": "worn",
+    "headTilt": -2,
+    "lean": -1,
+    "portraitLayout": "right",
+    "designIntent": "《大胆妈妈和她的孩子们》的卡特琳以旧工衣、辫发和举高的鼓，凝住她不能言语却冒险向城镇示警的时刻。",
+    "distinguishFrom": "与大胆妈妈拖车向前的围裙轮廓不同，她把动作推向头顶，鼓面和挺直的身体突出主动救人的决定。",
+    "symbols": [
+      "wagon"
+    ]
+  },
+  "role-lear": {
+    "fig": "goulou",
+    "head": "broken-crown",
+    "face": "tired",
+    "pose": "bow",
+    "prop": "staff",
+    "propMode": "held",
+    "cloth": "#6a5a48",
+    "costume": "worn",
+    "headTilt": -6,
+    "lean": 4,
+    "portraitLayout": "left",
+    "designIntent": "《李尔王》的老国王以弓背、破冠、破旧衣摆和低头撑杖，表现失权后暴露在风雨中的衰老身体。",
+    "distinguishFrom": "与俄狄浦斯的环冠和直身单肩王袍不同，李尔用破碎冠缘、前屈背线和风暴标志呈现卸去权威后的困境。",
+    "symbols": [
+      "storm"
+    ]
+  },
+  "role-courage": {
+    "fig": "laozuo",
+    "head": "hood",
+    "face": "cold",
+    "pose": "stride",
+    "prop": "wagon",
+    "propMode": "emblem",
+    "cloth": "#6a4028",
+    "costume": "worn",
+    "headTilt": 2,
+    "lean": 3,
+    "portraitLayout": "left",
+    "designIntent": "《大胆妈妈和她的孩子们》的随军商贩以罩头巾、旧围裙和向前跨步的身影，配货车标志表现战争中的谋生。",
+    "distinguishFrom": "与沈黛的面具、藏手和收拢构图不同，她以车轮、前进的脚步和硬直表情保留交易与损失并存的力量。",
+    "symbols": [
+      "coin"
+    ]
+  },
+  "role-blanche": {
+    "fig": "changqun",
+    "head": "wave",
+    "face": "pale",
+    "pose": "refuse",
+    "prop": "bulb",
+    "propMode": "emblem",
+    "cloth": "#d4b9c0",
+    "costume": "formal",
+    "headTilt": -7,
+    "lean": -2,
+    "portraitLayout": "right",
+    "designIntent": "《欲望号街车》的布兰奇以柔色礼裙和波浪长发，偏身挡开灯光，突出她用外表和讲述保护自己的脆弱。",
+    "distinguishFrom": "与陈白露的旗袍镜面不同，她用宽裙摆、伸出的遮光手臂和裸灯泡标志表现对暴露的畏惧。",
+    "symbols": [
+      "shadow"
+    ]
+  },
+  "role-mengmei": {
+    "fig": "jinpao",
+    "head": "hood",
+    "face": "storm",
+    "pose": "point",
+    "prop": "verdict",
+    "propMode": "emblem",
+    "cloth": "#3a342c",
+    "costume": "puritan",
+    "headTilt": 3,
+    "lean": 2,
+    "portraitLayout": "left",
+    "designIntent": "《萨勒姆的女巫》的阿比盖尔以罩袍、白领片和明确的指认动作，表现她借猎巫恐惧取得话语权。",
+    "distinguishFrom": "与普罗克托的短衣分腿和低处假供词不同，她以窄长罩袍、伸向他人的手和悬置判词把指控向外推。",
+    "symbols": [
+      "noose"
+    ]
+  },
+  "role-zhu": {
+    "fig": "dayi",
+    "head": "sidepart",
+    "face": "tired",
+    "pose": "open",
+    "prop": "book",
+    "propMode": "emblem",
+    "cloth": "#4a5560",
+    "costume": "worn",
+    "headTilt": -5,
+    "lean": 3,
+    "portraitLayout": "right",
+    "designIntent": "《海达·高布乐》的洛夫伯格以侧分短发、旧外套和张开却空着的双手，配失落著作的书本标志，表现才能与失控并存。",
+    "distinguishFrom": "与泰斯曼坐着捧书的稳定形象不同，他站立前倾、双臂失去着落，书本悬置于身旁而不再被牢牢握住。",
+    "symbols": [
+      "pistol"
+    ]
+  },
+  "role-vladimir": {
+    "fig": "dayi",
+    "head": "bowler",
+    "face": "quiet",
+    "pose": "listen",
+    "prop": "hat",
+    "propMode": "held",
+    "cloth": "#3d4a34",
+    "costume": "layered",
+    "headTilt": 5,
+    "lean": -1,
+    "portraitLayout": "right",
+    "designIntent": "《等待戈多》的弗拉季米尔以叠穿长外套、圆礼帽和侧耳倾听的姿势，表现他不断确认约定与记忆的努力。",
+    "distinguishFrom": "与爱斯特拉冈坐低摆弄靴子不同，他站立、偏头并把帽子留在手边，注意力朝向还没有来到的人。",
+    "symbols": [
+      "tree"
+    ]
+  },
+  "xrole-ophelia": {
+    "fig": "changqun",
+    "head": "long",
+    "face": "pale",
+    "pose": "offer",
+    "prop": "flower",
+    "propMode": "held",
+    "cloth": "#cbbbc5",
+    "costume": "plain",
+    "headTilt": -5,
+    "lean": 1,
+    "portraitLayout": "left",
+    "designIntent": "《哈姆雷特》的奥菲利娅以散长发、素裙和逐枝递出的花，呈现父亲死后歌唱与分花的破碎表达。",
+    "distinguishFrom": "与朱丽叶迈步作决定的直裙和药瓶不同，她用低垂视线、宽裙摆和向外递花表现失去支撑后的状态。",
+    "symbols": [
+      "water"
+    ]
+  },
+  "xrole-juliet": {
+    "fig": "tongqun",
+    "head": "ribbon",
+    "face": "resolve",
+    "pose": "stride",
+    "prop": "bottle",
+    "propMode": "emblem",
+    "cloth": "#9f4659",
+    "costume": "plain",
+    "headTilt": 2,
+    "lean": -2,
+    "portraitLayout": "right",
+    "designIntent": "《罗密欧与朱丽叶》的朱丽叶以束发缎带、简洁直裙和向前迈步，配假死药瓶标志表现自主选择的勇气与险境。",
+    "distinguishFrom": "与奥菲利娅的散发、宽裙和递花不同，她用紧凑直线轮廓、跨步与药瓶突出迅速作出决定的行动。",
+    "symbols": [
+      "balcony"
+    ]
+  },
+  "xrole-eliza": {
+    "fig": "laozuo",
+    "head": "widehat",
+    "face": "resolve",
+    "pose": "open",
+    "prop": "flower",
+    "propMode": "emblem",
+    "cloth": "#786044",
+    "costume": "work",
+    "headTilt": 4,
+    "lean": -1,
+    "portraitLayout": "left",
+    "designIntent": "《皮格马利翁》的伊莉莎保留卖花者围裙和帽子，用展开的双臂回应他人的评判，花朵提示她的原有职业。",
+    "distinguishFrom": "与克里斯汀的低处端碗和安定站姿不同，她抬头张臂、让花移至身侧，表现训练后争取人格自主的要求。",
+    "symbols": [
+      "book"
+    ]
+  },
+  "xrole-hedda": {
+    "fig": "changqun",
+    "head": "bun",
+    "face": "cold",
+    "pose": "conceal",
+    "prop": "pistol",
+    "propMode": "held",
+    "cloth": "#302a34",
+    "costume": "formal",
+    "headTilt": 3,
+    "lean": -1,
+    "portraitLayout": "right",
+    "designIntent": "《海达·高布乐》的海达以礼整长裙、挽发和收向身后的枪，表现将军之女在家庭空间内隐匿的控制欲。",
+    "distinguishFrom": "与娜拉向门外跨步、钥匙悬置的开放构图不同，她站定藏手，黑裙、枪与书稿标志把危险留在室内。",
+    "symbols": [
+      "book"
+    ]
+  },
+  "xrole-harpagon": {
+    "fig": "dayi",
+    "head": "cap",
+    "face": "sly",
+    "pose": "clutch",
+    "prop": "chest",
+    "propMode": "held",
+    "cloth": "#5b4933",
+    "costume": "layered",
+    "headTilt": -6,
+    "lean": 3,
+    "portraitLayout": "center",
+    "designIntent": "《吝啬鬼》的阿巴贡以叠层长外套和小帽，把钱匣紧收在胸前，让财物占据他看向世界的位置。",
+    "distinguishFrom": "与波卓用绳子向外发号施令不同，他双臂闭合护匣、头朝财物压低，轮廓向中心收缩。",
+    "symbols": [
+      "coin"
+    ]
+  },
+  "xrole-tartuffe": {
+    "fig": "dayi",
+    "head": "short",
+    "face": "sly",
+    "pose": "fold",
+    "prop": "book",
+    "propMode": "emblem",
+    "cloth": "#292b2a",
+    "costume": "plain",
+    "headTilt": 5,
+    "lean": 0,
+    "portraitLayout": "left",
+    "designIntent": "《伪君子》的答尔丢夫以黑色长外套、交叠双手和偏斜目光表现伪装的虔敬，书与面具作为言行不一的标志，保留他作为俗人骗子的身份。",
+    "distinguishFrom": "与阿比盖尔的罩头、白领和公开指控不同，他露出短发、压低动作，以黑色长外套与表面谦卑制造反差，不使用修士罩袍。",
+    "symbols": [
+      "mask"
+    ]
+  },
+  "xrole-figaro": {
+    "fig": "duanda",
+    "head": "short",
+    "face": "smile",
+    "pose": "point",
+    "prop": "letter",
+    "propMode": "held",
+    "cloth": "#8b6b43",
+    "costume": "work",
+    "headTilt": 4,
+    "lean": -1,
+    "portraitLayout": "left",
+    "designIntent": "《费加罗的婚礼》的仆人费加罗以利落短装、传递信件和指点计策的姿势，表现他抵抗伯爵特权的机敏。",
+    "distinguishFrom": "与红娘前倾递信、辫发和庭园背景不同，他以分腿短装、侧指手势和门口标志呈现婚礼计谋中的组织者。",
+    "symbols": [
+      "door"
+    ]
+  },
+  "xrole-mephisto": {
+    "fig": "lifu",
+    "head": "wild",
+    "face": "sly",
+    "pose": "offer",
+    "prop": "scroll",
+    "propMode": "held",
+    "cloth": "#8f3036",
+    "costume": "plain",
+    "headTilt": -4,
+    "lean": 1,
+    "portraitLayout": "right",
+    "designIntent": "《浮士德》的梅菲斯特以红色燕尾轮廓、尖翘发束和递来的契约，表现把诱惑包装成交易的魔鬼。",
+    "distinguishFrom": "与赫列斯达可夫抬臂夸耀不同，他低处递出卷轴、偏头观察，长燕尾与火焰标志构成从容的诱惑。",
+    "symbols": [
+      "flame"
+    ]
+  },
+  "xrole-cordelia": {
+    "fig": "tongqun",
+    "head": "braid",
+    "face": "quiet",
+    "pose": "refuse",
+    "prop": "crown",
+    "propMode": "emblem",
+    "cloth": "#526b62",
+    "costume": "mourning",
+    "headTilt": 0,
+    "lean": -1,
+    "portraitLayout": "left",
+    "designIntent": "《李尔王》的考狄利娅以素直长裙、辫发和克制推拒的手势，表现她拒绝用夸张表白换取父王奖赏。",
+    "distinguishFrom": "与李香君护住血扇的宽裙不同，她让王冠离开身体，直裙和空手的简洁姿势突出诚实而非争夺。",
+    "symbols": []
+  },
+  "xrole-pozzo": {
+    "fig": "dayi",
+    "head": "bowler",
+    "face": "cold",
+    "pose": "point",
+    "prop": "rope",
+    "propMode": "held",
+    "cloth": "#36485b",
+    "costume": "formal",
+    "headTilt": 2,
+    "lean": 0,
+    "portraitLayout": "left",
+    "designIntent": "《等待戈多》的波卓以整齐长外套、圆礼帽和牵绳发令的姿态，呈现把幸运儿当作役使对象的主人。",
+    "distinguishFrom": "与弗拉季米尔偏头倾听和手边的帽子不同，他保持抬头、指点与绷向外侧的绳索，动作占据空间。",
+    "symbols": [
+      "tree"
+    ]
+  },
+  "xrole-lucky": {
+    "fig": "goulou",
+    "head": "bald",
+    "face": "tired",
+    "pose": "bow",
+    "prop": "case",
+    "propMode": "held",
+    "cloth": "#756751",
+    "costume": "layered",
+    "headTilt": -7,
+    "lean": 4,
+    "portraitLayout": "right",
+    "designIntent": "《等待戈多》的幸运儿以低头弓背、层叠旧衣和沉重行李，表现被牵引与命令的负重身体。",
+    "distinguishFrom": "与李尔的破冠、撑杖和风暴不同，他用光头、手提箱与绳索标志构成被役使的状态，保留劳动造成的下沉重心。",
+    "symbols": [
+      "rope"
+    ]
+  },
+  "xrole-chunxiang": {
+    "fig": "laozuo",
+    "head": "bun",
+    "face": "quiet",
+    "pose": "listen",
+    "prop": "bowl",
+    "propMode": "held",
+    "cloth": "#786044",
+    "costume": "work",
+    "headTilt": 2,
+    "lean": 0,
+    "portraitLayout": "right",
+    "designIntent": "《朱莉小姐》的厨娘克里斯汀以挽发围裙、手中碗和略偏的倾听姿态，表现她留意越界却仍面对日常工作的现实。",
+    "distinguishFrom": "与沈黛藏手旁的面具不同，她把劳动器物稳放身前，平稳站姿和厨房标志维持清楚的职业轮廓。",
+    "symbols": [
+      "kitchen"
+    ]
+  },
+  "xrole-hongniang": {
+    "fig": "duanda",
+    "head": "braid",
+    "face": "resolve",
+    "pose": "offer",
+    "prop": "letter",
+    "propMode": "held",
+    "cloth": "#526b62",
+    "costume": "plain",
+    "headTilt": -3,
+    "lean": 2,
+    "portraitLayout": "right",
+    "designIntent": "《西厢记》的红娘以辫发、便于行动的短装和前倾递信，表现她传书递柬并主动推动相会的机敏。",
+    "distinguishFrom": "与费加罗侧身指点、门旁谋划不同，她把信递向画面外，长辫与园林标志让传话的方向成为记忆点。",
+    "symbols": [
+      "garden"
+    ]
+  },
+  "xrole-xiangzi": {
+    "fig": "gongzhuang",
+    "head": "short",
+    "face": "tired",
+    "pose": "stride",
+    "prop": "none",
+    "propMode": "emblem",
+    "cloth": "#786044",
+    "costume": "work",
+    "headTilt": -3,
+    "lean": 4,
+    "portraitLayout": "left",
+    "designIntent": "《骆驼祥子》的车夫以卷袖工装、向前跨出的双腿和人力车标志，表现靠身体劳动争取一辆自己的车。",
+    "distinguishFrom": "与埃迪挡在前方的抱防姿态不同，祥子空着双手向前用力，车轮标志和斜向重心强调奔走而非占有。",
+    "symbols": [
+      "rickshaw"
+    ]
+  },
+  "xrole-huniu": {
+    "fig": "qipao",
+    "head": "bun",
+    "face": "cold",
+    "pose": "point",
+    "prop": "key",
+    "propMode": "emblem",
+    "cloth": "#68764c",
+    "costume": "plain",
+    "headTilt": 2,
+    "lean": 1,
+    "portraitLayout": "right",
+    "designIntent": "《骆驼祥子》的虎妞以利落旗袍、挽发和指向对方的手势，配钥匙与车厂标志表现她主动安排关系的位置。",
+    "distinguishFrom": "与繁漪的散垂波浪发和拒绝药杯不同，她直面画外、手臂外指，钥匙和人力车标志显示车厂生活的背景。",
+    "symbols": [
+      "rickshaw"
+    ]
+  },
+  "xrole-sifeng": {
+    "fig": "laozuo",
+    "head": "braid",
+    "face": "shy",
+    "pose": "listen",
+    "prop": "towel",
+    "propMode": "held",
+    "cloth": "#8c7758",
+    "costume": "work",
+    "headTilt": -4,
+    "lean": 1,
+    "portraitLayout": "right",
+    "designIntent": "《雷雨》的四凤以辫发、工作围裙和身前毛巾，微微侧耳面对周家的话语，保留她尚未知晓旧事的处境。",
+    "distinguishFrom": "与鲁侍萍的旧衣、挽发和拒绝手势不同，她双手仍在工作位置，以门边倾听的姿势呈现年轻女佣的身份。",
+    "symbols": [
+      "door"
+    ]
+  },
+  "xrole-juexin": {
+    "fig": "changshan",
+    "head": "sidepart",
+    "face": "tired",
+    "pose": "fold",
+    "prop": "book",
+    "propMode": "emblem",
+    "cloth": "#36485b",
+    "costume": "formal",
+    "headTilt": -5,
+    "lean": 1,
+    "portraitLayout": "center",
+    "designIntent": "《家》的长房长孙觉新以整齐长衫、侧分发和交叠双臂，表现他明知伤害仍难拒绝家族安排的退让。",
+    "distinguishFrom": "与觉慧跨步离开的短发和开放手势不同，他站在门内、手臂封闭，书本悬置身侧而没有成为行动的出口。",
+    "symbols": [
+      "door"
+    ]
+  },
+  "xrole-chanjuan": {
+    "fig": "changqun",
+    "head": "braid",
+    "face": "resolve",
+    "pose": "offer",
+    "prop": "cup",
+    "propMode": "held",
+    "cloth": "#63785b",
+    "costume": "plain",
+    "headTilt": -2,
+    "lean": 1,
+    "portraitLayout": "left",
+    "designIntent": "《屈原》的婵娟以朴素长裙、辫发和身前的酒杯，表现她追随屈原并误饮毒酒的关键处境。",
+    "distinguishFrom": "与奥菲利娅低头递花不同，她挺身看向前方，酒杯、较收束的动作和火光标志指向营救中的牺牲。",
+    "symbols": [
+      "flame"
+    ]
+  },
+  "xrole-zhulian": {
+    "fig": "changqun",
+    "head": "bun",
+    "face": "resolve",
+    "pose": "open",
+    "prop": "scroll",
+    "propMode": "held",
+    "cloth": "#36485b",
+    "costume": "formal",
+    "headTilt": 2,
+    "lean": 0,
+    "portraitLayout": "left",
+    "designIntent": "田汉《关汉卿》的朱帘秀以舞台长裙、挽发和展开的剧词，表现演员愿把危险词句唱给权贵听的担当。",
+    "distinguishFrom": "与李香君护扇自守的姿态不同，她张开身体、展开卷轴，舞台标志把行动朝向在场观众。",
+    "symbols": [
+      "stage"
+    ]
+  },
+  "xrole-cao": {
+    "fig": "jiazhou",
+    "head": "cap",
+    "face": "beard",
+    "pose": "conceal",
+    "prop": "scroll",
+    "propMode": "emblem",
+    "cloth": "#3d4a34",
+    "costume": "royal",
+    "headTilt": -3,
+    "lean": 0,
+    "portraitLayout": "right",
+    "designIntent": "京剧《曹操与杨修》的曹操以宽肩甲片、方顶冠和藏起一手的姿势，配卷轴表现权势与猜疑压在同一位主帅身上。",
+    "distinguishFrom": "与麦克白的头盔、握匕首和前倾不同，他以站定的宽肩、身旁军令卷与帐幕标志表现不轻易示人的判断。",
+    "symbols": [
+      "tent"
+    ]
+  },
+  "xrole-yangxiu": {
+    "fig": "changshan",
+    "head": "topknot",
+    "face": "smile",
+    "pose": "point",
+    "prop": "scroll",
+    "propMode": "held",
+    "cloth": "#42577c",
+    "costume": "formal",
+    "headTilt": 4,
+    "lean": -1,
+    "portraitLayout": "left",
+    "designIntent": "京剧《曹操与杨修》的杨修以束发长衫和指向卷轴的动作，表现他善于解读主帅心意、也容易将其说破的才智。",
+    "distinguishFrom": "与商鞅的宽袖官袍和正面立令不同，他用窄直长衫、偏头指点和悬置剑影表现聪慧面临的危险。",
+    "symbols": [
+      "sword"
+    ]
+  },
+  "xrole-gouer": {
+    "fig": "goulou",
+    "head": "short",
+    "face": "tired",
+    "pose": "clutch",
+    "prop": "dirt",
+    "propMode": "emblem",
+    "cloth": "#756751",
+    "costume": "worn",
+    "headTilt": -5,
+    "lean": 3,
+    "portraitLayout": "left",
+    "designIntent": "《狗儿爷涅槃》的农民狗儿爷以弯背旧衣和收向胸前的双手，配一块土与田垄标志表现对土地的执念。",
+    "distinguishFrom": "与幸运儿低垂行李、被绳牵制不同，他的双手向自己收拢，土地而非行李成为画面中心的牵引。",
+    "symbols": [
+      "field"
+    ]
+  },
+  "xrole-shang": {
+    "fig": "lipao",
+    "head": "cap",
+    "face": "resolve",
+    "pose": "point",
+    "prop": "scroll",
+    "propMode": "held",
+    "cloth": "#36485b",
+    "costume": "formal",
+    "headTilt": 0,
+    "lean": 0,
+    "portraitLayout": "center",
+    "designIntent": "话剧《商鞅》的变法者以宽袖礼袍、方冠和指向法令的手势，表现他将新秩序推向众人的决断。",
+    "distinguishFrom": "与杨修偏头解读军令的窄长衫不同，他采用对称宽袖、正面卷轴和城门标志，使法令的公开性一眼可见。",
+    "symbols": [
+      "gate"
+    ]
+  },
+  "yrole-clytemnestra": {
+    "fig": "pizhe",
+    "head": "bun",
+    "face": "cold",
+    "pose": "open",
+    "prop": "axe",
+    "propMode": "emblem",
+    "cloth": "#85552e",
+    "costume": "royal",
+    "headTilt": 3,
+    "lean": 0,
+    "portraitLayout": "right",
+    "designIntent": "《阿伽门农》的王后以单肩王袍和张臂迎客的姿势，旁置斧形复仇标志，表现凯旋欢迎背后已经安排的杀机。",
+    "distinguishFrom": "与费德尔藏手压抑的姿势不同，她正面展开身体，挽发、门口和复仇标志显示主动掌控宫廷的力量。",
+    "symbols": [
+      "gate"
+    ]
+  },
+  "yrole-witches": {
+    "fig": "jinpao",
+    "head": "hood",
+    "face": "sly",
+    "pose": "open",
+    "prop": "staff",
+    "propMode": "emblem",
+    "cloth": "#655f50",
+    "costume": "worn",
+    "headTilt": -4,
+    "lean": 1,
+    "portraitLayout": "center",
+    "designIntent": "《麦克白》的三女巫保留三人罩袍群像，以张开的手、杖与釜标志表现预言引出的诱惑和误判。",
+    "distinguishFrom": "区别于阿比盖尔独自指认的白领罩袍，她们以三张脸、低声合谋的展开手势和釜形标志构成集体轮廓。",
+    "symbols": [
+      "cauldron"
+    ]
+  },
+  "yrole-horatio": {
+    "fig": "duanda",
+    "head": "short",
+    "face": "quiet",
+    "pose": "listen",
+    "prop": "scroll",
+    "propMode": "held",
+    "cloth": "#1f3a5f",
+    "costume": "formal",
+    "headTilt": 3,
+    "lean": 0,
+    "portraitLayout": "right",
+    "designIntent": "《哈姆雷特》的霍拉旭以整饰短装、倾听姿态和卷轴标志，表现他见证悲剧并活下来讲述真相的责任。",
+    "distinguishFrom": "与哈姆雷特的黑披风、骷髅和低头沉思不同，他站直侧耳，露出分腿轮廓，卷轴把见证引向后来者。",
+    "symbols": [
+      "battlement"
+    ]
+  },
+  "yrole-prospero": {
+    "fig": "lipao",
+    "head": "white",
+    "face": "beard",
+    "pose": "refuse",
+    "prop": "staff",
+    "propMode": "emblem",
+    "cloth": "#1f3a5f",
+    "costume": "layered",
+    "headTilt": -2,
+    "lean": -1,
+    "portraitLayout": "left",
+    "designIntent": "《暴风雨》的普洛斯彼罗以白发胡须、叠层宽袍和逐渐放开的手，配离身法杖表现他最终放弃报复与魔法。",
+    "distinguishFrom": "与商鞅举令的方冠正身不同，他让杖离开手掌，以白发、斜向退开的动作和岛屿标志表现撤回权力。",
+    "symbols": [
+      "island"
+    ]
+  },
+  "yrole-ariel": {
+    "fig": "duanda",
+    "head": "ribbon",
+    "face": "smile",
+    "pose": "open",
+    "prop": "bird",
+    "propMode": "emblem",
+    "cloth": "#0f6a64",
+    "costume": "plain",
+    "headTilt": 5,
+    "lean": -3,
+    "portraitLayout": "right",
+    "designIntent": "《暴风雨》的精灵爱丽儿以轻短衣、缎带和展开的双臂，配鸟与风标志呈现执行差事又向往自由的轻盈。",
+    "distinguishFrom": "与红娘向前递信的务实动作不同，爱丽儿不持纸信，双臂向两侧打开，以鸟和风建立离地般的视觉感受。",
+    "symbols": [
+      "wind"
+    ]
+  },
+  "yrole-richardiii": {
+    "fig": "goulou",
+    "head": "circlet",
+    "face": "sly",
+    "pose": "conceal",
+    "prop": "sword",
+    "propMode": "emblem",
+    "cloth": "#85552e",
+    "costume": "royal",
+    "headTilt": 5,
+    "lean": -2,
+    "portraitLayout": "right",
+    "designIntent": "《理查三世》的理查保留原剧的前屈身形与王权衣饰，以侧目藏手和剑形标志表现向观众透露、向他人隐瞒的阴谋。",
+    "distinguishFrom": "与李尔破冠撑杖的衰败不同，他用完整环冠、王袍与隐蔽动作呈现夺权者，弯背不单独承担善恶判断。",
+    "symbols": [
+      "crown"
+    ]
+  },
+  "yrole-falstaff": {
+    "fig": "dayi",
+    "head": "widehat",
+    "face": "beard",
+    "pose": "raise",
+    "prop": "cup",
+    "propMode": "held",
+    "cloth": "#8b6440",
+    "costume": "layered",
+    "headTilt": 6,
+    "lean": 2,
+    "portraitLayout": "left",
+    "designIntent": "《亨利四世》的福斯塔夫以宽阔外套、胡须和举杯说笑的姿势，表现酒馆骑士对英雄荣誉的调侃。",
+    "distinguishFrom": "与波卓方整外套和牵绳发令不同，他用宽檐帽、侧倾身体与高举杯盏形成松弛、占满空间的轮廓。",
+    "symbols": [
+      "bottle"
+    ]
+  },
+  "yrole-helmer": {
+    "fig": "xizhuang",
+    "head": "sidepart",
+    "face": "cold",
+    "pose": "fold",
+    "prop": "letter",
+    "propMode": "held",
+    "cloth": "#36485b",
+    "costume": "formal",
+    "headTilt": 0,
+    "lean": 0,
+    "portraitLayout": "right",
+    "designIntent": "《玩偶之家》的海尔茂以扣整的西装、侧分发和被压在身前的信件，表现他首先顾虑家庭体面与名誉的秩序感。",
+    "distinguishFrom": "与威利旧帽垂箱、弯腰奔走不同，他站得笔直、双臂封闭，信件和家门使掌控局限在家庭内部。",
+    "symbols": [
+      "door"
+    ]
+  },
+  "yrole-stockmann": {
+    "fig": "baiyi",
+    "head": "short",
+    "face": "resolve",
+    "pose": "point",
+    "prop": "scroll",
+    "propMode": "held",
+    "cloth": "#596e59",
+    "costume": "plain",
+    "headTilt": 2,
+    "lean": 1,
+    "portraitLayout": "left",
+    "designIntent": "《人民公敌》的医生斯多克芒以开襟白褂简化职业身份，指向检验材料的卷轴，水纹提示浴场污染争论。",
+    "distinguishFrom": "与阿斯特罗夫展开森林地图的疲惫姿态不同，他用短发、外指的手臂和检验卷轴表现公开申明事实的执着。",
+    "symbols": [
+      "water"
+    ]
+  },
+  "yrole-khlestakov": {
+    "fig": "lifu",
+    "head": "sidepart",
+    "face": "smile",
+    "pose": "raise",
+    "prop": "letter",
+    "propMode": "emblem",
+    "cloth": "#4c5f81",
+    "costume": "formal",
+    "headTilt": 6,
+    "lean": -1,
+    "portraitLayout": "right",
+    "designIntent": "《钦差大臣》的赫列斯达可夫以整饰礼服、偏高的下颌和抬臂夸耀的姿势，配信与钱币表现被奉承放大的自我。",
+    "distinguishFrom": "与梅菲斯特低处递契约的红色燕尾不同，他以亮色礼服、上扬动作和钱币标志表现临时膨胀的权势幻觉。",
+    "symbols": [
+      "coin"
+    ]
+  },
+  "yrole-qiuhu": {
+    "fig": "poyi",
+    "head": "short",
+    "face": "storm",
+    "pose": "guard",
+    "prop": "dagger",
+    "propMode": "held",
+    "cloth": "#6c533f",
+    "costume": "worn",
+    "headTilt": -4,
+    "lean": 3,
+    "portraitLayout": "left",
+    "designIntent": "《原野》的仇虎以破衣短发、护在身前的短刃和前倾姿势，表现归来复仇后仍被恐惧追赶的身体。",
+    "distinguishFrom": "与凯列班推拒束缚的展开动作不同，他把刀紧留在身前，森林标志和低头目光使行动转向自我围困。",
+    "symbols": [
+      "forest"
+    ]
+  },
+  "yrole-juehui": {
+    "fig": "changshan",
+    "head": "short",
+    "face": "resolve",
+    "pose": "stride",
+    "prop": "book",
+    "propMode": "emblem",
+    "cloth": "#526b62",
+    "costume": "plain",
+    "headTilt": 2,
+    "lean": -2,
+    "portraitLayout": "left",
+    "designIntent": "曹禺《家》的觉慧以简洁长衫、短发和跨过门槛的步子，配书本标志表现他不肯继续把一生交给家族安排。",
+    "distinguishFrom": "与觉新的侧分发、整饰长衫和抱臂不同，他把身体转向门外，以跨步、空出的手和更轻的衣装形成主动离开。",
+    "symbols": [
+      "door"
+    ]
+  },
+  "yrole-baisuzhen": {
+    "fig": "dayi",
+    "head": "short",
+    "face": "resolve",
+    "pose": "point",
+    "prop": "lantern",
+    "propMode": "emblem",
+    "cloth": "#526b62",
+    "costume": "layered",
+    "headTilt": -2,
+    "lean": 2,
+    "portraitLayout": "left",
+    "designIntent": "《野鸭》的格莱格斯以叠穿长外套和向前指出的手势，配灯与野鸭标志表现他坚持揭开秘密的理想。",
+    "distinguishFrom": "与斯多克芒的白褂和检验卷不同，他以长外套、悬置灯和野鸭构成主观照亮他人生活的姿态，灯不作原剧必备道具。",
+    "symbols": [
+      "duck"
+    ]
+  },
+  "yrole-guifei": {
+    "fig": "pizhe",
+    "head": "long",
+    "face": "tired",
+    "pose": "clutch",
+    "prop": "cloak",
+    "propMode": "emblem",
+    "cloth": "#3b3944",
+    "costume": "mourning",
+    "headTilt": -5,
+    "lean": 1,
+    "portraitLayout": "left",
+    "designIntent": "索福克勒斯《厄勒克特拉》的主人公以素暗披褶、垂长发和抱紧身前的动作，配丧衣与墓标志呈现持续哀悼与复仇等待。",
+    "distinguishFrom": "与安提戈涅伸手撒土的短辫轮廓不同，她用长发、向内收紧的双臂和丧衣标志表现无法中止的悲伤。",
+    "symbols": [
+      "tomb"
+    ]
+  },
+  "yrole-bawang": {
+    "fig": "zhifu",
+    "head": "helmet",
+    "face": "resolve",
+    "pose": "stride",
+    "prop": "sword",
+    "propMode": "held",
+    "cloth": "#756751",
+    "costume": "worn",
+    "headTilt": 2,
+    "lean": 2,
+    "portraitLayout": "right",
+    "designIntent": "《大胆妈妈和她的孩子们》的埃利夫以军服、头盔和前进中的长剑，表现战时被奖赏、停战时却遭处刑的士兵身份。",
+    "distinguishFrom": "与沃伊采克低头受压的磨损军衣不同，他抬头跨步、长剑外露，母亲货车的背景提示战争中的家庭归属。",
+    "symbols": [
+      "wagon"
+    ]
+  },
+  "yrole-liangshanbo": {
+    "fig": "zuozi",
+    "head": "sidepart",
+    "face": "quiet",
+    "pose": "hold",
+    "prop": "book",
+    "propMode": "held",
+    "cloth": "#36485b",
+    "costume": "formal",
+    "headTilt": -3,
+    "lean": 0,
+    "portraitLayout": "center",
+    "designIntent": "《海达·高布乐》的泰斯曼以坐姿、整齐侧分发和膝前打开的书，表现他对学问、职位与重整书稿的投入。",
+    "distinguishFrom": "与洛夫伯格站着张开空手的乱发形象不同，他有稳固座位和受托双手，书本成为持续工作的中心。",
+    "symbols": [
+      "pistol"
+    ]
+  },
+  "yrole-tietmei": {
+    "fig": "tongqun",
+    "head": "wave",
+    "face": "storm",
+    "pose": "point",
+    "prop": "cup",
+    "propMode": "held",
+    "cloth": "#674054",
+    "costume": "formal",
+    "headTilt": 5,
+    "lean": 1,
+    "portraitLayout": "left",
+    "designIntent": "《谁害怕弗吉尼亚·伍尔夫》的玛莎以贴身直裙、波浪长发和横向举杯逼问的手势，表现她在客厅里主导言语游戏的声势。",
+    "distinguishFrom": "与阿尔卡季娜高举手臂、展开宽裙的表演姿态不同，她用直裙、向外横指的杯子和强硬正脸把交锋压向在场客人。",
+    "symbols": [
+      "bottle"
+    ]
+  },
+  "yrole-aqing": {
+    "fig": "dayi",
+    "head": "sidepart",
+    "face": "cold",
+    "pose": "conceal",
+    "prop": "cup",
+    "propMode": "held",
+    "cloth": "#3a3a48",
+    "costume": "layered",
+    "headTilt": -3,
+    "lean": 0,
+    "portraitLayout": "right",
+    "designIntent": "《谁害怕弗吉尼亚·伍尔夫》的乔治以叠穿外套、冷静侧目和收在身侧的杯，表现他用耐心与言语反击妻子的策略。",
+    "distinguishFrom": "与玛莎高举酒杯的宽裙轮廓相反，他压低杯子、收住动作，方整肩线和侧面构图形成冷静对峙。",
+    "symbols": [
+      "bottle"
+    ]
+  },
+  "yrole-zijirong": {
+    "fig": "tongqun",
+    "head": "short",
+    "face": "shy",
+    "pose": "clutch",
+    "prop": "cup",
+    "propMode": "held",
+    "cloth": "#7b8667",
+    "costume": "plain",
+    "headTilt": -6,
+    "lean": -1,
+    "portraitLayout": "right",
+    "designIntent": "《谁害怕弗吉尼亚·伍尔夫》的年轻女客霍尼以短发直裙和双手护杯的姿势，表现笑容掩不住的不安与回避。",
+    "distinguishFrom": "与玛莎抬杯攻击不同，她用短发、素直裙和贴近胸前的杯子缩小占地，形成被卷入游戏的客人姿态。",
+    "symbols": [
+      "bottle"
+    ]
+  },
+  "yrole-malu": {
+    "fig": "gongzhuang",
+    "head": "short",
+    "face": "storm",
+    "pose": "reach",
+    "prop": "flower",
+    "propMode": "emblem",
+    "cloth": "#786044",
+    "costume": "plain",
+    "headTilt": 3,
+    "lean": 3,
+    "portraitLayout": "left",
+    "designIntent": "《恋爱的犀牛》的饲养员马路以工装、向前伸出的手和犀牛标志，表现对明明的执着逐渐逼近控制，花作为爱情追求的舞台象征。",
+    "distinguishFrom": "与祥子低头跨步的劳动重心不同，他站定向画外伸手，犀牛而非车轮与悬置花朵构成难以退回的追求。",
+    "symbols": [
+      "rhino"
+    ]
+  },
+  "yrole-houfangyu": {
+    "fig": "changshan",
+    "head": "cap",
+    "face": "smile",
+    "pose": "reach",
+    "prop": "fan",
+    "propMode": "held",
+    "cloth": "#4b6081",
+    "costume": "formal",
+    "headTilt": 4,
+    "lean": -1,
+    "portraitLayout": "right",
+    "designIntent": "《桃花扇》的复社文人侯方域以整饰长衫、文帽和伸出的折扇，表现私情与文人交往不断被时代变局打断。",
+    "distinguishFrom": "与杨修指着法令般卷轴的锐利姿态不同，他以折扇、较舒展的手臂和残垣标志表现离合中的文人形象。",
+    "symbols": [
+      "ruin"
+    ]
+  },
+  "yrole-dorine": {
+    "fig": "laozuo",
+    "head": "bun",
+    "face": "resolve",
+    "pose": "point",
+    "prop": "mask",
+    "propMode": "emblem",
+    "cloth": "#8b6245",
+    "costume": "work",
+    "headTilt": 3,
+    "lean": 1,
+    "portraitLayout": "left",
+    "designIntent": "《伪君子》的女仆桃丽娜以围裙挽发、直指对方的手和面具标志，表现敢于揭穿假虔诚并为年轻人争取婚事的口锋。",
+    "distinguishFrom": "与沈黛藏手切换身份不同，她把手明确伸向外侧，工作围裙和门口位置显示从仆人席位发出的公开质问。",
+    "symbols": [
+      "door"
+    ]
+  },
+  "yrole-mackheath": {
+    "fig": "lifu",
+    "head": "widehat",
+    "face": "sly",
+    "pose": "stride",
+    "prop": "dagger",
+    "propMode": "emblem",
+    "cloth": "#36485b",
+    "costume": "formal",
+    "headTilt": 4,
+    "lean": 1,
+    "portraitLayout": "left",
+    "designIntent": "《三毛钱歌剧》的匪首麦克希思以礼服、宽檐帽和轻快跨步，配短刃与钱币标志表现体面外表包裹的犯罪与交易。",
+    "distinguishFrom": "与赫列斯达可夫的侧分发和抬臂夸耀不同，他用帽檐压低视线、向前跨步和短刃标志构成流动的危险。",
+    "symbols": [
+      "coin"
+    ]
+  },
+  "yrole-hamm": {
+    "fig": "zuozi",
+    "head": "bald",
+    "face": "tired",
+    "pose": "point",
+    "prop": "glasses",
+    "propMode": "emblem",
+    "cloth": "#6d3f3f",
+    "costume": "worn",
+    "headTilt": 0,
+    "lean": 0,
+    "portraitLayout": "center",
+    "designIntent": "《终局》的盲人主人汉姆保留坐姿、光头和指挥手势，眼镜标志提示失明，身体不能起立却仍要求他人回应。",
+    "distinguishFrom": "与泰斯曼低头捧书不同，他坐直抬手发令，以空窗、眼镜和近乎固定的正面重心表现依赖他人的控制。",
+    "symbols": [
+      "window"
+    ]
+  },
+  "yrole-linda": {
+    "fig": "tongqun",
+    "head": "bun",
+    "face": "tired",
+    "pose": "hold",
+    "prop": "towel",
+    "propMode": "held",
+    "cloth": "#526b62",
+    "costume": "plain",
+    "headTilt": -2,
+    "lean": 0,
+    "portraitLayout": "left",
+    "designIntent": "《推销员之死》的琳达以朴素直裙、挽发和身前的家务布巾，表现她维持生活并保护丈夫尊严的日常承担。",
+    "distinguishFrom": "与鲁侍萍的破旧围裙和拒绝手势不同，她用干净直裙、稳定双手和住宅标志形成留守家庭的支撑。",
+    "symbols": [
+      "house"
+    ]
+  },
+  "yrole-brutus": {
+    "fig": "pizhe",
+    "head": "laurel",
+    "face": "resolve",
+    "pose": "guard",
+    "prop": "dagger",
+    "propMode": "emblem",
+    "cloth": "#536b80",
+    "costume": "formal",
+    "headTilt": -2,
+    "lean": 0,
+    "portraitLayout": "right",
+    "designIntent": "《裘力斯·凯撒》的布鲁图斯以古典披褶、月桂头饰和收在身前的手臂，配匕首与柱廊表现共和理想卷入刺杀的矛盾。",
+    "distinguishFrom": "与麦克白的头盔甲胄和握刀前倾不同，他保留裸肩披褶、月桂与克制站姿，使决断首先呈现为政治自辩。",
+    "symbols": [
+      "column"
+    ]
+  },
+  "yrole-solveig": {
+    "fig": "tongqun",
+    "head": "veil",
+    "face": "quiet",
+    "pose": "open",
+    "prop": "flower",
+    "propMode": "emblem",
+    "cloth": "#526b62",
+    "costume": "plain",
+    "headTilt": -1,
+    "lean": 0,
+    "portraitLayout": "right",
+    "designIntent": "《培尔·金特》的索尔维格以头巾直裙、展开相迎的双臂和木屋标志，表现长久等待后仍愿接纳归来者的选择。",
+    "distinguishFrom": "与考狄利娅推拒王冠的姿态不同，她用包裹头巾、相迎双手和屋前花朵形成安静而主动的接纳。",
+    "symbols": [
+      "cabin"
+    ]
+  },
+  "yrole-wukong": {
+    "fig": "poyi",
+    "head": "long",
+    "face": "storm",
+    "pose": "refuse",
+    "prop": "chain",
+    "propMode": "emblem",
+    "cloth": "#665b46",
+    "costume": "worn",
+    "headTilt": 4,
+    "lean": -2,
+    "portraitLayout": "right",
+    "designIntent": "《暴风雨》的凯列班以磨破衣摆、散长发和推拒的手势，配链环与岛屿标志表现被役使者对支配的反抗，不将他画成怪物。",
+    "distinguishFrom": "与仇虎短发、护刀自困的动作不同，他以散长发和张开的推拒手臂面对外部压迫，链环替代武器，保留岛上原住民的人形轮廓。",
+    "symbols": [
+      "island"
+    ]
+  },
+  "yrole-kuangzhong": {
+    "fig": "dayi",
+    "head": "sidepart",
+    "face": "sly",
+    "pose": "listen",
+    "prop": "cane",
+    "propMode": "held",
+    "cloth": "#58616b",
+    "costume": "formal",
+    "headTilt": 7,
+    "lean": -1,
+    "portraitLayout": "left",
+    "designIntent": "《造谣学校》的彼得·蒂兹尔以整齐长外套、手杖和侧耳姿态，表现他在壁橱偷听后重新判断妻子与朋友的过程。",
+    "distinguishFrom": "与弗拉季米尔圆帽旧衣的等待不同，他用侧分发、体面衣装、手杖和屏风标志把注意力集中到家庭窥听。",
+    "symbols": [
+      "screen"
+    ]
+  },
+  "role-v21-unclevanya": {
+    "fig": "dayi",
+    "head": "short",
+    "face": "tired",
+    "pose": "fold",
+    "prop": "pistol",
+    "propMode": "emblem",
+    "cloth": "#6a5438",
+    "costume": "worn",
+    "headTilt": -5,
+    "lean": 3,
+    "portraitLayout": "left",
+    "designIntent": "《万尼亚舅舅》的瓦尼亚以旧外套、垂肩抱臂和手枪标志，表现多年劳动落空后短暂爆发又重返日常的失望。",
+    "distinguishFrom": "与埃德蒙把手帕护在胸前的苍白病容不同，他以旧褐外套、交叠双臂和悬置手枪表现无从追回人生的激愤。",
+    "symbols": [
+      "study"
+    ]
+  },
+  "role-v21-astrov": {
+    "fig": "baiyi",
+    "head": "sidepart",
+    "face": "tired",
+    "pose": "open",
+    "prop": "map",
+    "propMode": "held",
+    "cloth": "#4a5560",
+    "costume": "plain",
+    "headTilt": -3,
+    "lean": 1,
+    "portraitLayout": "right",
+    "designIntent": "《万尼亚舅舅》的医生阿斯特罗夫以白褂、疲惫侧分发和展开的森林变迁图，表现劳累日常中仍关注环境与未来的眼光。",
+    "distinguishFrom": "与斯多克芒持卷指认污染不同，他双手展开地图、低头说明，树木标志使观察跨越眼前的争执。",
+    "symbols": [
+      "tree"
+    ]
+  },
+  "role-v21-berenger": {
+    "fig": "xizhuang",
+    "head": "sidepart",
+    "face": "resolve",
+    "pose": "refuse",
+    "prop": "none",
+    "propMode": "emblem",
+    "cloth": "#756751",
+    "costume": "worn",
+    "headTilt": -2,
+    "lean": -2,
+    "portraitLayout": "right",
+    "designIntent": "尤内斯库《犀牛》的贝兰杰以普通侧分短发、旧西装和向外推拒的双手，表现并不完美的人在群体变形中仍决定抵抗。",
+    "distinguishFrom": "与马路的工装、前伸追逐和花朵不同，他以西装和空手向后抵住犀牛标志，强调拒绝同化而非追求他人。",
+    "symbols": [
+      "rhino"
+    ]
+  },
+  "role-v21-phedre": {
+    "fig": "pizhe",
+    "head": "circlet",
+    "face": "pale",
+    "pose": "conceal",
+    "prop": "bottle",
+    "propMode": "emblem",
+    "cloth": "#85552e",
+    "costume": "royal",
+    "headTilt": -6,
+    "lean": -1,
+    "portraitLayout": "left",
+    "designIntent": "拉辛《费德尔》的王后以古典王袍、环冠和隐去一手的姿态，配毒药瓶与火焰标志表现难以承认的欲望和最终坦白。",
+    "distinguishFrom": "与克吕泰涅斯特拉展开迎客的姿势不同，她偏头收手，药瓶替代斧形标志，使王权轮廓显出向内的羞耻。",
+    "symbols": [
+      "flame"
+    ]
+  },
+  "role-v21-caligularole": {
+    "fig": "pizhe",
+    "head": "laurel",
+    "face": "cold",
+    "pose": "hold",
+    "prop": "mirror",
+    "propMode": "held",
+    "cloth": "#8b6a42",
+    "costume": "royal",
+    "headTilt": 3,
+    "lean": 0,
+    "portraitLayout": "center",
+    "designIntent": "加缪《卡利古拉》的皇帝以月桂王袍和正面握镜的姿势，配月亮标志表现他将不可能的要求施加给众人的绝对意志。",
+    "distinguishFrom": "与布鲁图斯护手自辩的古典轮廓不同，他正对镜面站定，王权饰边和月亮让观看自身成为支配世界的姿态。",
+    "symbols": [
+      "moon"
+    ]
+  },
+  "role-v21-marytyrone": {
+    "fig": "changqun",
+    "head": "white",
+    "face": "tired",
+    "pose": "conceal",
+    "prop": "bottle",
+    "propMode": "emblem",
+    "cloth": "#788173",
+    "costume": "plain",
+    "headTilt": -6,
+    "lean": -1,
+    "portraitLayout": "right",
+    "designIntent": "《进入黑夜的漫长旅程》的玛丽以灰白头发、素色长裙和收向身后的手，配药瓶标志表现她在依赖与家庭旧事之间的退避。",
+    "distinguishFrom": "与布兰奇向外挡灯的姿态不同，她把动作收回身体，白发、药瓶和室内窗影将注意力转向无法摆脱的往事。",
+    "symbols": [
+      "window"
+    ]
+  },
+  "role-v21-edmundtyrone": {
+    "fig": "dayi",
+    "head": "short",
+    "face": "pale",
+    "pose": "clutch",
+    "prop": "handkerchief",
+    "propMode": "held",
+    "cloth": "#756751",
+    "costume": "worn",
+    "headTilt": -4,
+    "lean": 2,
+    "portraitLayout": "left",
+    "designIntent": "《进入黑夜的漫长旅程》的埃德蒙以旧外套、苍白面容和胸前手帕，表现疾病使他更敏感地面对家人的关切与争执。",
+    "distinguishFrom": "与汤姆带书跨步离开的轮廓不同，他停住脚步、手帕贴近身体，低垂头部和窗影保留病中观察的距离。",
+    "symbols": [
+      "window"
+    ]
+  },
+  "role-v21-amanda": {
+    "fig": "changqun",
+    "head": "bun",
+    "face": "smile",
+    "pose": "raise",
+    "prop": "flower",
+    "propMode": "emblem",
+    "cloth": "#7c6682",
+    "costume": "formal",
+    "headTilt": 5,
+    "lean": -1,
+    "portraitLayout": "right",
+    "designIntent": "《玻璃动物园》的阿曼达以整饰长裙、挽发和抬臂迎客的姿势，配花朵表现她对昔日体面与女儿婚事的热切期待。",
+    "distinguishFrom": "与奥菲利娅低垂散发和递花不同，她抬头展开迎客手势，珠饰长裙和门口位置把花转为经营家庭前景的装饰。",
+    "symbols": [
+      "door"
+    ]
+  },
+  "role-v21-tomglass": {
+    "fig": "dayi",
+    "head": "short",
+    "face": "resolve",
+    "pose": "stride",
+    "prop": "book",
+    "propMode": "held",
+    "cloth": "#696659",
+    "costume": "worn",
+    "headTilt": 3,
+    "lean": -2,
+    "portraitLayout": "right",
+    "designIntent": "《玻璃动物园》的汤姆以旧外套、随身书和离开的步子，配玻璃独角兽标志表现出走欲望与对姐姐记忆的牵连。",
+    "distinguishFrom": "与威利垂头拎箱的西装轮廓不同，他抬头向外、书握在身边，独角兽让已经迈出的脚步仍牵着家庭。",
+    "symbols": [
+      "unicorn"
+    ]
+  },
+  "role-v21-winnie": {
+    "fig": "zuozi",
+    "head": "widehat",
+    "face": "smile",
+    "pose": "offer",
+    "prop": "bag",
+    "propMode": "emblem",
+    "cloth": "#68748a",
+    "costume": "formal",
+    "headTilt": 5,
+    "lean": 0,
+    "portraitLayout": "center",
+    "designIntent": "《快乐的日子》的温妮保留被土丘包围的身体，以帽子、悬置手袋和向外说话的手势维持日常仪式与期待回应。",
+    "distinguishFrom": "与汉姆抬手发令的固定椅坐不同，她由土丘遮住下半身，以独立手袋、小幅倾头和笑意把动作集中在仍可活动的上身。",
+    "symbols": [
+      "mound"
+    ]
+  },
+  "role-v21-jimglass": {
+    "fig": "xizhuang",
+    "head": "sidepart",
+    "face": "smile",
+    "pose": "offer",
+    "prop": "unicorn",
+    "propMode": "held",
+    "cloth": "#4c6078",
+    "costume": "formal",
+    "headTilt": 3,
+    "lean": 1,
+    "portraitLayout": "left",
+    "designIntent": "《玻璃动物园》的来访者吉姆以整齐西装、前倾交谈和手边的玻璃独角兽，表现他短暂鼓励劳拉又带来失落的到访。",
+    "distinguishFrom": "与海尔茂压住信件的封闭姿态不同，他向外伸出手、身体略前倾，独角兽和灯光使形象属于一次具体的来访。",
+    "symbols": [
+      "lamp"
+    ]
+  },
+  "v23-role-joekeller": {
+    "fig": "xizhuang",
+    "head": "short",
+    "face": "cold",
+    "pose": "guard",
+    "prop": "hammer",
+    "propMode": "emblem",
+    "cloth": "#786044",
+    "costume": "work",
+    "headTilt": -1,
+    "lean": 0,
+    "portraitLayout": "right",
+    "designIntent": "《都是我的儿子》的工厂老板乔·凯勒以粗实西装和挡在身前的手臂，配锤与齿轮作为工业经营标志，表现家庭辩护遮住公共责任。",
+    "distinguishFrom": "与威利疲惫弯腰的旅行推销员不同，他站稳护住身体，工业标志替代样品箱，形成守住既得生活的轮廓。",
+    "symbols": [
+      "gear"
+    ]
+  },
+  "v23-role-heisenberg": {
+    "fig": "xizhuang",
+    "head": "sidepart",
+    "face": "tired",
+    "pose": "listen",
+    "prop": "atom",
+    "propMode": "emblem",
+    "cloth": "#4a5560",
+    "costume": "plain",
+    "headTilt": -4,
+    "lean": 0,
+    "portraitLayout": "left",
+    "designIntent": "《哥本哈根》的海森堡以克制西装、侧耳回望的姿势和原子图标，表现他在反复重述会面时面对动机与记忆的不确定。",
+    "distinguishFrom": "与塞尔吉举画辩护的姿态不同，他空着双手倾听，原子与问号标志把重点放在解释而非展示物品。",
+    "symbols": [
+      "question"
+    ]
+  },
+  "v23-role-woyzeck": {
+    "fig": "zhifu",
+    "head": "short",
+    "face": "tired",
+    "pose": "bow",
+    "prop": "blade",
+    "propMode": "emblem",
+    "cloth": "#756751",
+    "costume": "worn",
+    "headTilt": -6,
+    "lean": 4,
+    "portraitLayout": "left",
+    "designIntent": "《沃伊采克》的士兵以磨损军服、低垂短发和弯腰姿势，配刀刃标志表现贫困、实验和嫉妒共同挤压的处境。",
+    "distinguishFrom": "与埃利夫抬头持剑跨步不同，他空着下垂的手、让刀刃停在身侧，军营背景与低重心突出被压迫而非军功。",
+    "symbols": [
+      "barracks"
+    ]
+  },
+  "v23-role-danton": {
+    "fig": "dayi",
+    "head": "sidepart",
+    "face": "tired",
+    "pose": "open",
+    "prop": "verdict",
+    "propMode": "emblem",
+    "cloth": "#36485b",
+    "costume": "formal",
+    "headTilt": 4,
+    "lean": 1,
+    "portraitLayout": "right",
+    "designIntent": "《丹东之死》的丹东以长外套、侧分短发和张开的辩说手势，配判词与断头台标志表现革命者面对清洗时的疲倦与争辩。",
+    "distinguishFrom": "与福斯塔夫的宽帽、胡须和举杯夸谈不同，他露出短发、不持酒杯，以外开的双手和审判标志面对无法回避的政治结果。",
+    "symbols": [
+      "guillotine"
+    ]
+  },
+  "v23-role-eddie": {
+    "fig": "gongzhuang",
+    "head": "cap",
+    "face": "storm",
+    "pose": "guard",
+    "prop": "rope",
+    "propMode": "held",
+    "cloth": "#786044",
+    "costume": "work",
+    "headTilt": 0,
+    "lean": 2,
+    "portraitLayout": "right",
+    "designIntent": "《桥头眺望》的码头工人埃迪以工装小帽、绳索和挡住前方的双臂，表现保护家庭逐渐滑向占有和告发的冲突。",
+    "distinguishFrom": "与祥子向前用力的步伐不同，他站定封住身体，港口绳索和桥梁标志强调阻挡他人离开的力量。",
+    "symbols": [
+      "bridge"
+    ]
+  },
+  "v23-role-hickey": {
+    "fig": "xizhuang",
+    "head": "sidepart",
+    "face": "smile",
+    "pose": "open",
+    "prop": "case",
+    "propMode": "emblem",
+    "cloth": "#36485b",
+    "costume": "formal",
+    "headTilt": 4,
+    "lean": 1,
+    "portraitLayout": "right",
+    "designIntent": "《送冰的人来了》的推销员希基以整齐西装和热切展开的双臂，配旅行箱与酒瓶标志表现他重返酒馆后劝众人放弃幻想的说服。",
+    "distinguishFrom": "与威利低头提箱的疲惫不同，他将箱子移到身旁，昂首张臂迎向众人，礼整外观与酒馆标志制造不安的热情。",
+    "symbols": [
+      "bottle"
+    ]
+  },
+  "v23-role-melchior": {
+    "fig": "duanda",
+    "head": "short",
+    "face": "resolve",
+    "pose": "offer",
+    "prop": "scroll",
+    "propMode": "held",
+    "cloth": "#465574",
+    "costume": "layered",
+    "headTilt": 2,
+    "lean": 1,
+    "portraitLayout": "left",
+    "designIntent": "《春之觉醒》的梅尔希奥以叠穿学生短装和递出的手稿，表现他为莫里茨解释性知识、随后被学校以文字定罪的经历。",
+    "distinguishFrom": "与红娘的辫发、素色短衣和传书信封不同，他以短发、叠穿学生外衣和独立手稿呈现求知者，教室标志把纸张与学校惩罚联系起来。",
+    "symbols": [
+      "classroom"
+    ]
+  },
+  "v23-role-alan": {
+    "fig": "duanda",
+    "head": "short",
+    "face": "pale",
+    "pose": "clutch",
+    "prop": "none",
+    "propMode": "emblem",
+    "cloth": "#526b62",
+    "costume": "plain",
+    "headTilt": -5,
+    "lean": 1,
+    "portraitLayout": "center",
+    "designIntent": "《恋马狂》的少年艾伦以朴素短装、收紧胸前的双手和马的标志，表现私人崇拜与被观看的恐惧在身体里碰撞。",
+    "distinguishFrom": "与梅尔希奥伸手递出文字不同，他双手空着却紧贴身体，马的轮廓与低头姿态突出无法轻易说出的信仰和惧意。",
+    "symbols": [
+      "horse"
+    ]
+  },
+  "v23-role-dreamdoctor": {
+    "fig": "baiyi",
+    "head": "bun",
+    "face": "quiet",
+    "pose": "listen",
+    "prop": "book",
+    "propMode": "held",
+    "cloth": "#d9d8c7",
+    "costume": "plain",
+    "headTilt": 4,
+    "lean": 0,
+    "portraitLayout": "right",
+    "designIntent": "《如梦之梦》的年轻女医生以挽发、白褂和侧耳听故事的姿势，配记录本表现她在首日行医的失落后倾听五号病人的生命。",
+    "distinguishFrom": "与斯多克芒指认材料的公开姿态不同，她把本子压低、头朝讲述者偏转，用安静的双手保留倾听的位置。",
+    "symbols": [
+      "water"
+    ]
+  },
+  "v23-role-jinzhi": {
+    "fig": "laozuo",
+    "head": "braid",
+    "face": "resolve",
+    "pose": "refuse",
+    "prop": "bag",
+    "propMode": "emblem",
+    "cloth": "#756751",
+    "costume": "worn",
+    "headTilt": 2,
+    "lean": -1,
+    "portraitLayout": "right",
+    "designIntent": "田沁鑫版《生死场》的金枝以旧围裙、辫发和拒绝受安排的手势，配行囊与麦穗表现她追求爱情却仍受村庄秩序和战乱牵制。",
+    "distinguishFrom": "与鲁侍萍挽发、毛巾和重返旧宅的构图不同，她以辫发、离身行囊和田野标志保留年轻农家女子想要离开的方向。",
+    "symbols": [
+      "grain"
+    ]
+  },
+  "v23-role-silentman": {
+    "fig": "dayi",
+    "head": "widehat",
+    "face": "resolve",
+    "pose": "stride",
+    "prop": "bag",
+    "propMode": "held",
+    "cloth": "#5f625b",
+    "costume": "layered",
+    "headTilt": 1,
+    "lean": -2,
+    "portraitLayout": "left",
+    "designIntent": "《车站》的沉默的人以宽檐帽、长外套和提袋迈步，表现他在众人仍争谈等候时先独自走向城市的决定。",
+    "distinguishFrom": "与弗拉季米尔站定听候消息不同，他用跨步、低处行囊和列车标志把沉默变成离开，而不是继续原地等待。",
+    "symbols": [
+      "train"
+    ]
+  },
+  "v23-role-serge": {
+    "fig": "xizhuang",
+    "head": "sidepart",
+    "face": "resolve",
+    "pose": "offer",
+    "prop": "whitecanvas",
+    "propMode": "held",
+    "cloth": "#3a3a48",
+    "costume": "plain",
+    "headTilt": 3,
+    "lean": 0,
+    "portraitLayout": "left",
+    "designIntent": "《艺术》的塞尔吉以简洁西装、端出的白色画作和坚持辩护的正脸，表现他购买的作品如何成为朋友关系的争执中心。",
+    "distinguishFrom": "与吉姆前倾递出小型玻璃独角兽不同，他站定展开大块白画面，规整画框和画廊标志形成审美判断的焦点。",
+    "symbols": [
+      "gallery"
+    ]
+  }
+}

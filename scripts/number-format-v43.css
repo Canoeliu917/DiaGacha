@@ -1,0 +1,12 @@
+.album-screen:not(.bag-screen) .album-serial{
+  display:block;
+  padding:3px 0;
+  border-top:1px solid #b9afa133;
+  background:#f3efe5;
+  color:#625b52;
+  font-size:11px;
+  line-height:1.4;
+  font-variant-numeric:tabular-nums;
+  text-align:center;
+  white-space:nowrap;
+}

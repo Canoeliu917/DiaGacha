@@ -1,0 +1,127 @@
+/* A hand-lettered sentence travels down the card before the paper opens. */
+.pull-screen:not(.is-sealed):not(.is-spread){height:auto;min-height:100svh;overflow:visible;overflow-x:clip}
+.pull-screen:not(.is-sealed):not(.is-spread)>.narrow{flex:none;height:auto}
+.pull-screen:not(.is-sealed):not(.is-spread) .pack-tap{display:block;flex:none;height:auto;container-type:inline-size;--cw:min(300px,calc(100cqw - 24px))}
+.pull-screen:not(.is-sealed):not(.is-spread) .pack-zone{flex:none;height:auto;padding:16px 0;min-height:0}
+.pack-zone .flip > .pack-preamble.reveal-intro-v40 {
+  position: absolute; inset: 64px auto; left: 50%; transform: translateX(-50%);
+  width: min(440px,calc(100cqw - 24px)); max-width: none; box-sizing: border-box;
+  max-height: none; height: auto; overflow: visible; margin: 0;
+  z-index: 7; pointer-events: none; display: grid; grid-template-rows: repeat(var(--reveal-lines),minmax(0,1fr)); gap: 0; padding: 0;
+  background: transparent; border-radius: 0; box-shadow: none;
+  text-align: center; color: var(--ink); font-family: 'Dia Reveal WenKai',var(--serif); font-size: clamp(19px,5.8cqw,25px); font-weight: 400; letter-spacing: .015em; line-height: 1.45;
+}
+.pack-zone .flip > .pack-preamble.reveal-intro-v40[hidden] { display: none; }
+.reveal-intro-v40 .pre-line[hidden] { visibility: hidden; }
+.pack-preamble.reveal-intro-v40 .pre-line {
+  display: flex; align-items: center; justify-content: center; margin: 0; padding: 0 10px; border: 0; min-height: 0;
+  max-height: none; overflow: visible; white-space: normal; -webkit-line-clamp: unset;
+  -webkit-box-orient: initial; opacity: 1; text-wrap: pretty; overflow-wrap: anywhere;
+}
+.reveal-words { display: block; width: 100%; transform: rotate(var(--words-angle,-3deg)); text-align: var(--words-align,left); }
+.reveal-emphasis { display: inline-block; max-width: 100%; font: inherit; font-size: 1.55em; line-height: 1.1; letter-spacing: -.025em; }
+.reveal-initial::first-letter { font-size: 1.5em; line-height: 1; }
+.pre-line:nth-child(2) { --words-angle: 2.5deg; --words-align: right; }
+.pre-line:nth-child(3) { --words-angle: -1.5deg; --words-align: center; }
+.pre-line:nth-child(4) { --words-angle: 3.5deg; --words-align: left; }
+.pre-line:nth-child(5) { --words-angle: -3.5deg; --words-align: right; }
+.pre-line:nth-child(6) { --words-angle: 1.5deg; --words-align: center; }
+.pack-zone .rarity-SR > .pack-preamble.reveal-intro-v40 { font-size: clamp(18px,5.5cqw,23px); }
+.rarity-LR .reveal-emphasis { font-size: 1.7em; }
+@media(max-width:420px) {
+  .pack-zone .flip > .pack-preamble.reveal-intro-v40 { inset-block: 54px; font-size: 19px; line-height: 1.4; }
+  .pack-preamble.reveal-intro-v40 .pre-line { padding-inline: 8px; }
+}
+.reveal-intro-v40 .pre-line.is-on { animation: reveal-words-v40 .56s ease-out both; }
+.reveal-intro-v40 .pre-line.is-out { animation: reveal-words-out-v40 .42s ease-in both; }
+/* Each high-star sentence sends out one quiet pair of rings beneath the lettering. */
+.pack-zone .flip:is(.rarity-UR,.rarity-LR) .pre-line { position: relative; isolation: isolate; }
+.pack-zone .flip:is(.rarity-UR,.rarity-LR) .pre-line .reveal-words { position: relative; z-index: 1; }
+.pack-zone .flip:is(.rarity-UR,.rarity-LR) .pre-line.is-on::before,
+.pack-zone .flip:is(.rarity-UR,.rarity-LR) .pre-line.is-on::after {
+  content: ''; position: absolute; left: 50%; top: 50%; z-index: 0; width: 76%; height: max(76px,120%);
+  border: 1px solid var(--stage-ink); border-radius: 50%; pointer-events: none;
+  animation: reveal-sentence-wave-v47 1.6s cubic-bezier(.16,1,.3,1) both;
+}
+.pack-zone .flip:is(.rarity-UR,.rarity-LR) .pre-line.is-on::after { animation-delay: .16s; }
+@keyframes reveal-sentence-wave-v47 {
+  0% { transform: translate(-50%,-50%) scale(.48,.55); opacity: 0; }
+  18% { opacity: .34; }
+  100% { transform: translate(-50%,-50%) scale(1.25,1.5); opacity: 0; }
+}
+.pack-zone.reveal-zone-v40 { overflow: visible; animation: none; }
+/* Rarity remains legible; only the unveiled high-star card counts its stars in. */
+.pack-zone .flip .art-badge { gap: 6px; padding: 5px 7px; max-width: calc(100% - 46px); }
+.pack-zone .flip .art-badge .seal-word { font-size: 17px; font-weight: 750; }
+.pack-zone .flip .art-badge .pips { gap: 2px; }
+.pack-zone .flip .art-badge .pips svg { width: 16px; height: 16px; }
+.pack-zone .flip.reveal-v40 .art-badge { animation: none; opacity: 1; transform: none; filter: none; }
+.pack-zone .flip.is-stars-pending .art-badge .pips svg { opacity: 0; }
+.pack-zone .flip.is-stars-arriving .art-badge .pips svg {
+  animation: reveal-star-v51 .42s cubic-bezier(.16,1,.3,1) both;
+}
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(2) { animation-delay: .1s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(3) { animation-delay: .2s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(4) { animation-delay: .3s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(5) { animation-delay: .4s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(6) { animation-delay: .5s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(7) { animation-delay: .6s; }
+@keyframes reveal-star-v51 {
+  from { opacity: 0; transform: translateY(3px) scale(.8); }
+  to { opacity: 1; transform: none; }
+}
+.pull-screen .spread-card .art-badge { flex-direction: column; align-items: flex-start; gap: 3px; padding: 3px 4px; }
+.pull-screen .spread-card .art-badge .seal-word { font-size: 12px; font-weight: 750; }
+.pull-screen .spread-card .art-badge .pips svg { width: 11px; height: 11px; }
+@media (max-width:600px) {
+  .pull-screen .spread-card .art-badge .seal-word { font-size: 10px; }
+  .pull-screen .spread-card .art-badge .pips svg { width: 8px; height: 8px; }
+}
+.pack-zone.reveal-zone-v40::before, .pack-zone .flip.reveal-v40::after { display: none; }
+.pack-zone .flip.reveal-v40,.pack-zone .flip.reveal-v40.is-flipped { animation: none; }
+.pack-zone .flip.reveal-v40 .halo,
+.pack-zone .flip.reveal-v40 .stage-dust i,
+.pack-zone .flip.reveal-v40 .art-wrap::before,
+.pack-zone .flip.reveal-v40 .art-wrap::after { animation: none !important; }
+.pack-zone .flip.reveal-v40 .stage-dust,
+.pack-zone .flip.reveal-v40 .art-wrap::before,
+.pack-zone .flip.reveal-v40 .art-wrap::after { opacity: 0; }
+.pack-zone .flip.reveal-v40.is-reveal-climax { animation: reveal-shake-v40 .64s cubic-bezier(.2,.7,.2,1) both; }
+.pull-screen.reveal-black-stage { isolation: isolate; color: #f7f2e9; }
+.pull-screen.reveal-black-stage::before { content: ''; position: fixed; inset: 0; z-index: -1; background: #111116; pointer-events: none; animation: reveal-dark-stage-v40 .7s ease-out both; }
+.pull-screen.reveal-black-stage.reveal-restored-v40::before { animation: none; }
+.reveal-black-stage .pack-line,.reveal-black-stage .pack-progress { color: #c7c1cf; }
+.reveal-black-stage .dim-title,.reveal-black-stage .topbar .text-btn,.reveal-black-stage .topbar .icon-btn { color: #f7f2e9; }
+.reveal-black-stage .pack-zone .flip > .pack-preamble.reveal-intro-v40 { color: #f7f2e9; }
+.reveal-black-stage .reveal-paper-v40 i { background: linear-gradient(90deg,#111116,#24212c 45%,#16141c); }
+.reveal-black-stage .reveal-paper-v40.is-torn .reveal-sheet-left { transform: translateX(-105%); }
+.reveal-black-stage .reveal-paper-v40.is-torn .reveal-sheet-right { transform: translateX(105%); }
+.reveal-paper-v40 { position: absolute; inset: 0; z-index: 5; pointer-events: none; overflow: hidden; }
+.reveal-paper-v40 i { position: absolute; inset: -2px; background: #eee4d2; background-image: repeating-linear-gradient(-24deg, #f4ecdd55 0 7px, #d6c5a71a 7px 8px); transition: transform .72s cubic-bezier(.2,.7,.2,1), opacity .64s ease; }
+.reveal-sheet-left { clip-path: polygon(0 0, 45% 0, 52% 14%, 46% 27%, 53% 41%, 47% 55%, 54% 70%, 48% 84%, 54% 100%, 0 100%); }
+.reveal-sheet-right { clip-path: polygon(45% 0, 100% 0, 100% 100%, 54% 100%, 48% 84%, 54% 70%, 47% 55%, 53% 41%, 46% 27%, 52% 14%); }
+.reveal-paper-v40.is-torn .reveal-sheet-left { transform: translate(-26%, 5%) rotate(-8deg); opacity: 0; }
+.reveal-paper-v40.is-torn .reveal-sheet-right { transform: translate(26%, -5%) rotate(8deg); opacity: 0; }
+.reveal-effects-v40 { position: absolute; inset: 0; z-index: 6; pointer-events: none; color: var(--stage-ink); }
+.reveal-flare-v40 { position: absolute; inset: 0; border: 1px solid currentColor; box-shadow: 0 0 calc(18px + 12px * var(--reveal-strength)) calc(2px * var(--reveal-strength)) var(--stage-wash); animation: reveal-flare-v40 1.2s ease-out both; }
+.reveal-cracks-v40 { width: 100%; height: 100%; overflow: visible; animation: reveal-crack-fade-v40 .85s ease-out both; }
+.reveal-cracks-v40 path { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: reveal-crack-v40 .42s var(--crack-delay) ease-out forwards; }
+.reveal-wave-v40 { position: absolute; inset: 34% 22%; border: 1px solid currentColor; border-radius: 50%; animation: reveal-wave-v40 1.15s var(--wave-delay) cubic-bezier(.15,.65,.25,1) both; }
+@keyframes reveal-words-v40 { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: none; } }
+@keyframes reveal-words-out-v40 { from { opacity: 1; } to { opacity: 0; } }
+@keyframes reveal-dark-stage-v40 { from { opacity: 0; } to { opacity: 1; } }
+@keyframes reveal-shake-v40 { 0%,100% { transform: none; } 20% { transform: translateX(calc(-.5px * var(--reveal-strength))); } 42% { transform: translateX(calc(.7px * var(--reveal-strength))); } 66% { transform: translateX(calc(-.3px * var(--reveal-strength))); } 84% { transform: translateX(.3px); } }
+@keyframes reveal-crack-v40 { to { stroke-dashoffset: 0; } }
+@keyframes reveal-crack-fade-v40 { 0%,60% { opacity: .8; } 100% { opacity: 0; } }
+@keyframes reveal-wave-v40 { from { transform: scale(.3); opacity: .7; } to { transform: scale(3.25); opacity: 0; } }
+@keyframes reveal-flare-v40 { 0% { opacity: 0; } 25% { opacity: 1; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .pack-zone .flip .art-badge .pips svg { animation: none !important; opacity: 1 !important; transform: none; }
+  .reveal-intro-v40 .pre-line { animation: none!important; transform: none; }
+  .pack-zone .flip:is(.rarity-UR,.rarity-LR) .pre-line::before,
+  .pack-zone .flip:is(.rarity-UR,.rarity-LR) .pre-line::after { display: none; animation: none; }
+  .pack-zone .flip.reveal-v40.is-reveal-climax { animation: none; }
+  .reveal-paper-v40, .reveal-effects-v40 { display: none; }
+  .pack-zone .flip.reveal-v40 .flip-inner { transition: none; }
+  .pull-screen.reveal-black-stage::before { animation: none; }
+}

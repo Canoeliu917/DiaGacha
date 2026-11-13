@@ -1,0 +1,1099 @@
+{
+  "version": "V43",
+  "seed": 20261112,
+  "sampleSize": 100000,
+  "simulatedDate": "2026-11-12",
+  "formula": "clamp(0,100,round(weightedMean) + resonance + bonds)；基础分四舍五入，同星使用整数表且最多7、羁绊最多8；普通五星10%、六星5%",
+  "htmlSha256": "2f5fa144217ec1e5cada93971d2543520186b3eae818ae68b25cfcd8ccd4f4b0",
+  "scope": {
+    "source": "实际 index.html 内嵌闭包；仅替换末尾 UI 启动为测试导出",
+    "generator": "drawMixPack(activeCards, seededRandom)",
+    "scorer": "Xt(cards).scoring",
+    "includesHardPity": true,
+    "includesDailyGift": false,
+    "includesCollectionRewardChoice": false,
+    "simulationOnly": true,
+    "elapsedSeconds": 10.96
+  },
+  "checks": {
+    "passed": 11,
+    "names": [
+      "777 张卡的 ID、编号唯一且 docs/cards.json 与运行时评分一致",
+      "常驻500与预留277分开，完整777个ID仍可读取旧收藏和分享",
+      "单卡不因稀有度或 fame 重复加分，且两轴提升单调不降",
+      "各维缺档按实际 ee() 回退统计，不伪造七档齐全",
+      "真实旧五卡与现六卡分享链接可往返解析并计分",
+      "真实俄狄浦斯主角同作，以及已确认的哈姆雷特配角和空间羁绊",
+      "实际卡池可组成的全同档六卡得到正确共鸣，重复卡不能刷分",
+      "旧收藏 ID 存档保持可读，新增收藏不清空旧收藏",
+      "真实综合包在连续未出货30/60包阈值触发保底，自然高档重置计数",
+      "每维同档使用等宽随机区间抽取，单维六连不重复",
+      "真实卡池三张UR/LR加三张C/UC不保证90分，覆盖可组成的维度分配"
+    ]
+  },
+  "cardCount": 777,
+  "activeCardCount": 500,
+  "reserveCardCount": 277,
+  "activeRarityCounts": {
+    "C": 2,
+    "UC": 6,
+    "R": 59,
+    "SR": 82,
+    "SSR": 116,
+    "UR": 147,
+    "LR": 88
+  },
+  "activeDimensionCounts": {
+    "剧目": {
+      "C": 0,
+      "UC": 0,
+      "R": 6,
+      "SR": 15,
+      "SSR": 22,
+      "UR": 27,
+      "LR": 30
+    },
+    "风格体系": {
+      "C": 0,
+      "UC": 1,
+      "R": 12,
+      "SR": 10,
+      "SSR": 23,
+      "UR": 19,
+      "LR": 10
+    },
+    "导演手法": {
+      "C": 0,
+      "UC": 1,
+      "R": 19,
+      "SR": 11,
+      "SSR": 22,
+      "UR": 17,
+      "LR": 5
+    },
+    "主演": {
+      "C": 1,
+      "UC": 0,
+      "R": 15,
+      "SR": 13,
+      "SSR": 25,
+      "UR": 24,
+      "LR": 22
+    },
+    "配角": {
+      "C": 1,
+      "UC": 1,
+      "R": 5,
+      "SR": 14,
+      "SSR": 13,
+      "UR": 42,
+      "LR": 9
+    },
+    "环境": {
+      "C": 0,
+      "UC": 3,
+      "R": 2,
+      "SR": 19,
+      "SSR": 11,
+      "UR": 18,
+      "LR": 12
+    }
+  },
+  "requestedBaseRatesPercent": {
+    "C": 20,
+    "UC": 24,
+    "R": 25,
+    "SR": 15,
+    "SSR": 10,
+    "UR": 5,
+    "LR": 1
+  },
+  "missingTiers": [
+    {
+      "dimension": "剧目",
+      "requested": "C",
+      "actual": "R",
+      "probabilityPercent": 20
+    },
+    {
+      "dimension": "剧目",
+      "requested": "UC",
+      "actual": "R",
+      "probabilityPercent": 24
+    },
+    {
+      "dimension": "风格体系",
+      "requested": "C",
+      "actual": "UC",
+      "probabilityPercent": 20
+    },
+    {
+      "dimension": "导演手法",
+      "requested": "C",
+      "actual": "UC",
+      "probabilityPercent": 20
+    },
+    {
+      "dimension": "主演",
+      "requested": "UC",
+      "actual": "C",
+      "probabilityPercent": 24
+    },
+    {
+      "dimension": "环境",
+      "requested": "C",
+      "actual": "UC",
+      "probabilityPercent": 20
+    }
+  ],
+  "effectiveBaseRatesPercent": {
+    "剧目": {
+      "C": 0,
+      "UC": 0,
+      "R": 69,
+      "SR": 15,
+      "SSR": 10,
+      "UR": 5,
+      "LR": 1
+    },
+    "风格体系": {
+      "C": 0,
+      "UC": 44,
+      "R": 25,
+      "SR": 15,
+      "SSR": 10,
+      "UR": 5,
+      "LR": 1
+    },
+    "导演手法": {
+      "C": 0,
+      "UC": 44,
+      "R": 25,
+      "SR": 15,
+      "SSR": 10,
+      "UR": 5,
+      "LR": 1
+    },
+    "主演": {
+      "C": 44,
+      "UC": 0,
+      "R": 25,
+      "SR": 15,
+      "SSR": 10,
+      "UR": 5,
+      "LR": 1
+    },
+    "配角": {
+      "C": 20,
+      "UC": 24,
+      "R": 25,
+      "SR": 15,
+      "SSR": 10,
+      "UR": 5,
+      "LR": 1
+    },
+    "环境": {
+      "C": 0,
+      "UC": 44,
+      "R": 25,
+      "SR": 15,
+      "SSR": 10,
+      "UR": 5,
+      "LR": 1
+    }
+  },
+  "score": {
+    "mean": 73.6517,
+    "p10": 69,
+    "p50": 73,
+    "p90": 78,
+    "atLeast80Percent": 6.212,
+    "atLeast90Percent": 0.007,
+    "capped100Percent": 0,
+    "minimum": 66,
+    "maximum": 91,
+    "histogram": {
+      "66": 705,
+      "67": 1373,
+      "68": 3500,
+      "69": 5843,
+      "70": 8736,
+      "71": 9580,
+      "72": 10148,
+      "73": 11162,
+      "74": 10682,
+      "75": 9978,
+      "76": 8041,
+      "77": 6122,
+      "78": 4486,
+      "79": 3432,
+      "80": 2378,
+      "81": 1485,
+      "82": 1009,
+      "83": 631,
+      "84": 329,
+      "85": 193,
+      "86": 87,
+      "87": 53,
+      "88": 23,
+      "89": 17,
+      "90": 5,
+      "91": 2
+    }
+  },
+  "packRarity": {
+    "atLeastSSRPercent": 64.817,
+    "atLeastURPercent": 30.98,
+    "atLeastLRPercent": 5.965
+  },
+  "actualRarityCountsByDimension": {
+    "剧目": {
+      "C": 0,
+      "UC": 0,
+      "R": 69259,
+      "SR": 14769,
+      "SSR": 9845,
+      "UR": 5153,
+      "LR": 974
+    },
+    "风格体系": {
+      "C": 0,
+      "UC": 44191,
+      "R": 24927,
+      "SR": 15009,
+      "SSR": 9969,
+      "UR": 4902,
+      "LR": 1002
+    },
+    "导演手法": {
+      "C": 0,
+      "UC": 43899,
+      "R": 24872,
+      "SR": 15107,
+      "SSR": 10043,
+      "UR": 5036,
+      "LR": 1043
+    },
+    "主演": {
+      "C": 43908,
+      "UC": 0,
+      "R": 25103,
+      "SR": 15078,
+      "SSR": 9883,
+      "UR": 4992,
+      "LR": 1036
+    },
+    "配角": {
+      "C": 19963,
+      "UC": 24058,
+      "R": 25058,
+      "SR": 15003,
+      "SSR": 9996,
+      "UR": 4928,
+      "LR": 994
+    },
+    "环境": {
+      "C": 0,
+      "UC": 43955,
+      "R": 24879,
+      "SR": 15025,
+      "SSR": 10191,
+      "UR": 4907,
+      "LR": 1043
+    }
+  },
+  "actualRarityPercentByDimension": {
+    "剧目": {
+      "C": 0,
+      "UC": 0,
+      "R": 69.259,
+      "SR": 14.769,
+      "SSR": 9.845,
+      "UR": 5.153,
+      "LR": 0.974
+    },
+    "风格体系": {
+      "C": 0,
+      "UC": 44.191,
+      "R": 24.927,
+      "SR": 15.009,
+      "SSR": 9.969,
+      "UR": 4.902,
+      "LR": 1.002
+    },
+    "导演手法": {
+      "C": 0,
+      "UC": 43.899,
+      "R": 24.872,
+      "SR": 15.107,
+      "SSR": 10.043,
+      "UR": 5.036,
+      "LR": 1.043
+    },
+    "主演": {
+      "C": 43.908,
+      "UC": 0,
+      "R": 25.103,
+      "SR": 15.078,
+      "SSR": 9.883,
+      "UR": 4.992,
+      "LR": 1.036
+    },
+    "配角": {
+      "C": 19.963,
+      "UC": 24.058,
+      "R": 25.058,
+      "SR": 15.003,
+      "SSR": 9.996,
+      "UR": 4.928,
+      "LR": 0.994
+    },
+    "环境": {
+      "C": 0,
+      "UC": 43.955,
+      "R": 24.879,
+      "SR": 15.025,
+      "SSR": 10.191,
+      "UR": 4.907,
+      "LR": 1.043
+    }
+  },
+  "bonuses": {
+    "withBondsPercent": 9.74,
+    "meanBonds": 0.2283,
+    "bondTriggerPercent": {
+      "play-support": 1.777,
+      "play-lead": 5.386,
+      "lead-support": 2.989,
+      "play-place": 0.115,
+      "style-method": 0.01
+    },
+    "withResonancePercent": 99.116,
+    "meanResonance": 3.4027,
+    "resonanceTriggerPercent": {
+      "C": 8.825,
+      "UC": 51.091,
+      "R": 63.764,
+      "SR": 22.455,
+      "SSR": 11.309,
+      "UR": 3.37,
+      "LR": 0.127
+    }
+  },
+  "fixtures": {
+    "oedipus": {
+      "cards": [
+        {
+          "id": "play-oedipus",
+          "name": "俄狄浦斯王"
+        },
+        {
+          "id": "style-stan",
+          "name": "斯坦尼体系"
+        },
+        {
+          "id": "dir-wall",
+          "name": "第四堵墙"
+        },
+        {
+          "id": "role-oedipus",
+          "name": "俄狄浦斯"
+        },
+        {
+          "id": "role2-tiresias",
+          "name": "提瑞西阿斯"
+        },
+        {
+          "id": "place-thebes",
+          "name": "忒拜广场"
+        }
+      ],
+      "scoring": {
+        "score": 100,
+        "base": 91,
+        "weightedMean": 90.6,
+        "resonance": 6,
+        "bonds": 7,
+        "grade": "绝佳",
+        "crew": {
+          "title": "传奇剧组",
+          "description": "难得相逢，一起留下值得回味的一夜。",
+          "rarity": "LR",
+          "count": 4
+        },
+        "contributions": [
+          {
+            "cardId": "play-oedipus",
+            "dimension": "剧目",
+            "score": 96,
+            "weight": 0.22,
+            "contribution": 21.12
+          },
+          {
+            "cardId": "style-stan",
+            "dimension": "风格体系",
+            "score": 90,
+            "weight": 0.14,
+            "contribution": 12.600000000000001
+          },
+          {
+            "cardId": "dir-wall",
+            "dimension": "导演手法",
+            "score": 86,
+            "weight": 0.16,
+            "contribution": 13.76
+          },
+          {
+            "cardId": "role-oedipus",
+            "dimension": "主演",
+            "score": 94,
+            "weight": 0.2,
+            "contribution": 18.8
+          },
+          {
+            "cardId": "role2-tiresias",
+            "dimension": "配角",
+            "score": 92,
+            "weight": 0.16,
+            "contribution": 14.72
+          },
+          {
+            "cardId": "place-thebes",
+            "dimension": "环境",
+            "score": 80,
+            "weight": 0.12,
+            "contribution": 9.6
+          }
+        ],
+        "resonanceDetails": [
+          {
+            "rarity": "LR",
+            "count": 4,
+            "points": 6,
+            "cardIds": [
+              "play-oedipus",
+              "style-stan",
+              "role-oedipus",
+              "role2-tiresias"
+            ]
+          }
+        ],
+        "bondDetails": [
+          {
+            "id": "play-lead",
+            "label": "剧目与主角同作",
+            "points": 3,
+            "cardIds": [
+              "play-oedipus",
+              "role-oedipus"
+            ],
+            "workIds": [
+              "play-oedipus"
+            ]
+          },
+          {
+            "id": "play-support",
+            "label": "剧目与配角同作",
+            "points": 2,
+            "cardIds": [
+              "play-oedipus",
+              "role2-tiresias"
+            ],
+            "workIds": [
+              "play-oedipus"
+            ]
+          },
+          {
+            "id": "lead-support",
+            "label": "主角与配角同作",
+            "points": 1,
+            "cardIds": [
+              "role-oedipus",
+              "role2-tiresias"
+            ],
+            "workIds": [
+              "play-oedipus"
+            ]
+          },
+          {
+            "id": "style-method",
+            "label": "演法与手段明确兼容",
+            "points": 1,
+            "cardIds": [
+              "style-stan",
+              "dir-wall"
+            ],
+            "workIds": []
+          }
+        ]
+      }
+    },
+    "hamlet": {
+      "cards": [
+        {
+          "id": "play-hamlet",
+          "name": "哈姆雷特"
+        },
+        {
+          "id": "style-stan",
+          "name": "斯坦尼体系"
+        },
+        {
+          "id": "dir-wall",
+          "name": "第四堵墙"
+        },
+        {
+          "id": "role-hamlet",
+          "name": "哈姆雷特"
+        },
+        {
+          "id": "role2-laertes",
+          "name": "莱尔提斯"
+        },
+        {
+          "id": "place-elsinore",
+          "name": "艾尔西诺城堡"
+        }
+      ],
+      "scoring": {
+        "score": 100,
+        "base": 90,
+        "weightedMean": 90.08,
+        "resonance": 7,
+        "bonds": 8,
+        "grade": "绝佳",
+        "crew": {
+          "title": "传奇剧组",
+          "description": "难得相逢，一起留下值得回味的一夜。",
+          "rarity": "LR",
+          "count": 3
+        },
+        "contributions": [
+          {
+            "cardId": "play-hamlet",
+            "dimension": "剧目",
+            "score": 94,
+            "weight": 0.22,
+            "contribution": 20.68
+          },
+          {
+            "cardId": "style-stan",
+            "dimension": "风格体系",
+            "score": 90,
+            "weight": 0.14,
+            "contribution": 12.600000000000001
+          },
+          {
+            "cardId": "dir-wall",
+            "dimension": "导演手法",
+            "score": 86,
+            "weight": 0.16,
+            "contribution": 13.76
+          },
+          {
+            "cardId": "role-hamlet",
+            "dimension": "主演",
+            "score": 92,
+            "weight": 0.2,
+            "contribution": 18.400000000000002
+          },
+          {
+            "cardId": "role2-laertes",
+            "dimension": "配角",
+            "score": 88,
+            "weight": 0.16,
+            "contribution": 14.08
+          },
+          {
+            "cardId": "place-elsinore",
+            "dimension": "环境",
+            "score": 88,
+            "weight": 0.12,
+            "contribution": 10.559999999999999
+          }
+        ],
+        "resonanceDetails": [
+          {
+            "rarity": "UR",
+            "count": 3,
+            "points": 4,
+            "cardIds": [
+              "dir-wall",
+              "role2-laertes",
+              "place-elsinore"
+            ]
+          },
+          {
+            "rarity": "LR",
+            "count": 3,
+            "points": 5,
+            "cardIds": [
+              "play-hamlet",
+              "style-stan",
+              "role-hamlet"
+            ]
+          }
+        ],
+        "bondDetails": [
+          {
+            "id": "play-lead",
+            "label": "剧目与主角同作",
+            "points": 3,
+            "cardIds": [
+              "play-hamlet",
+              "role-hamlet"
+            ],
+            "workIds": [
+              "play-hamlet"
+            ]
+          },
+          {
+            "id": "play-support",
+            "label": "剧目与配角同作",
+            "points": 2,
+            "cardIds": [
+              "play-hamlet",
+              "role2-laertes"
+            ],
+            "workIds": [
+              "play-hamlet"
+            ]
+          },
+          {
+            "id": "lead-support",
+            "label": "主角与配角同作",
+            "points": 1,
+            "cardIds": [
+              "role-hamlet",
+              "role2-laertes"
+            ],
+            "workIds": [
+              "play-hamlet"
+            ]
+          },
+          {
+            "id": "play-place",
+            "label": "剧目与空间同作",
+            "points": 1,
+            "cardIds": [
+              "play-hamlet",
+              "place-elsinore"
+            ],
+            "workIds": [
+              "play-hamlet"
+            ]
+          },
+          {
+            "id": "style-method",
+            "label": "演法与手段明确兼容",
+            "points": 1,
+            "cardIds": [
+              "style-stan",
+              "dir-wall"
+            ],
+            "workIds": []
+          }
+        ]
+      }
+    },
+    "sameColor": [
+      {
+        "rarity": "R",
+        "cardIds": [
+          "play-rhino",
+          "xstyle-yuju",
+          "dir-convention",
+          "role-bailu",
+          "role2-nell",
+          "place-baihua"
+        ],
+        "resonance": 6,
+        "score": 76
+      },
+      {
+        "rarity": "SR",
+        "cardIds": [
+          "play-xixiang",
+          "style-absurd",
+          "xdir-toplight",
+          "xrole-sifeng",
+          "role2-ismene",
+          "place-sichuan"
+        ],
+        "resonance": 6,
+        "score": 82
+      },
+      {
+        "rarity": "SSR",
+        "cardIds": [
+          "play-peony",
+          "style-poor",
+          "dir-alien",
+          "role-shiping",
+          "role2-duncan",
+          "place-dunsinane"
+        ],
+        "resonance": 7,
+        "score": 88
+      },
+      {
+        "rarity": "UR",
+        "cardIds": [
+          "play-doll",
+          "style-epic",
+          "dir-wall",
+          "role-nora",
+          "role2-juliet-nurse",
+          "place-elsinore"
+        ],
+        "resonance": 7,
+        "score": 97
+      },
+      {
+        "rarity": "LR",
+        "cardIds": [
+          "play-oedipus",
+          "style-stan",
+          "ydir-diaomao",
+          "role-oedipus",
+          "role2-creon",
+          "place-tea"
+        ],
+        "resonance": 7,
+        "score": 100
+      }
+    ],
+    "pity": {
+      "pack30": [
+        {
+          "id": "play-rhino",
+          "rarity": "R"
+        },
+        {
+          "id": "style-v21-epistolary",
+          "rarity": "UC"
+        },
+        {
+          "id": "dir-v21-endingloop",
+          "rarity": "UC"
+        },
+        {
+          "id": "role-oedipus",
+          "rarity": "LR"
+        },
+        {
+          "id": "v23-sup-nurse",
+          "rarity": "C"
+        },
+        {
+          "id": "xplace-carriage",
+          "rarity": "UC"
+        }
+      ],
+      "pack60": [
+        {
+          "id": "play-rhino",
+          "rarity": "R"
+        },
+        {
+          "id": "style-v21-epistolary",
+          "rarity": "UC"
+        },
+        {
+          "id": "dir-v21-endingloop",
+          "rarity": "UC"
+        },
+        {
+          "id": "role-oedipus",
+          "rarity": "LR"
+        },
+        {
+          "id": "v23-sup-nurse",
+          "rarity": "C"
+        },
+        {
+          "id": "xplace-carriage",
+          "rarity": "UC"
+        }
+      ]
+    }
+  },
+  "uniformSampling": {
+    "verifiedBuckets": 36,
+    "verifiedCardIntervals": 500,
+    "randomSample": {
+      "dimension": "配角",
+      "rarity": "UR",
+      "cards": 42,
+      "draws": 100000,
+      "expectedPerCard": 2380.9524,
+      "minimumCount": 2255,
+      "maximumCount": 2489,
+      "chiSquare": 49.2004,
+      "degreesOfFreedom": 41,
+      "counts": {
+        "role2-juliet-nurse": 2392,
+        "role2-mercutio": 2489,
+        "role2-banquo": 2359,
+        "role2-macduff": 2436,
+        "role2-laertes": 2449,
+        "role2-polonius": 2422,
+        "role2-gertrude": 2341,
+        "role2-goneril": 2409,
+        "role2-regan": 2460,
+        "role2-kent": 2366,
+        "role2-fool-lear": 2334,
+        "role2-gloucester": 2337,
+        "role2-edgar": 2321,
+        "role2-malcolm": 2310,
+        "role2-agamemnon": 2405,
+        "role2-martha-misunderstanding": 2423,
+        "role2-kristine-linde": 2446,
+        "role2-krogstad": 2263,
+        "role2-varya": 2326,
+        "role2-trofimov": 2426,
+        "role2-sonya": 2404,
+        "role2-yelena": 2338,
+        "role2-vershinin": 2358,
+        "role2-treplev": 2410,
+        "role2-arkadina": 2448,
+        "role2-trigorin": 2377,
+        "role2-mayor-inspector": 2406,
+        "role2-hippolytus": 2396,
+        "role2-oenone": 2391,
+        "role2-theseus": 2373,
+        "role2-jean-rhinoceros": 2400,
+        "role2-solange": 2375,
+        "role2-li-shiqing": 2336,
+        "role2-jiao-daxing": 2406,
+        "role2-zeng-siyi": 2385,
+        "role2-zeng-hao": 2390,
+        "role2-kang-shunzi": 2328,
+        "role2-liu-siye": 2255,
+        "role2-kuang-fu": 2337,
+        "role2-yang-caiyu": 2294,
+        "role2-qi-yongnian": 2461,
+        "v23-sup-bohr": 2418
+      }
+    }
+  },
+  "threeHighThreeLow": {
+    "definition": "3张UR/LR + 3张C/UC；枚举20种高档维度分配，对真实可组成的每种分配抽样100组，缺档组合单列",
+    "requestedDimensionAssignmentCount": 20,
+    "eligibleDimensionAssignmentCount": 10,
+    "excludedDimensionAssignmentCount": 10,
+    "excludedDimensionAssignments": [
+      {
+        "highDimensions": [
+          "风格体系",
+          "导演手法",
+          "主演"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "风格体系",
+          "导演手法",
+          "配角"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "风格体系",
+          "导演手法",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "风格体系",
+          "主演",
+          "配角"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "风格体系",
+          "主演",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "风格体系",
+          "配角",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "导演手法",
+          "主演",
+          "配角"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "导演手法",
+          "主演",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "导演手法",
+          "配角",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      },
+      {
+        "highDimensions": [
+          "主演",
+          "配角",
+          "环境"
+        ],
+        "unavailable": [
+          {
+            "dimension": "剧目",
+            "requiredTiers": "C/UC"
+          }
+        ]
+      }
+    ],
+    "seed": 20261114,
+    "samples": 1000,
+    "mean": 81.054,
+    "p10": 78,
+    "p50": 81,
+    "p90": 84,
+    "minimum": 76,
+    "maximum": 91,
+    "atLeast80Percent": 69.2,
+    "atLeast90Percent": 0.1,
+    "capped100Percent": 0,
+    "lowestFixture": {
+      "score": 76,
+      "cards": [
+        {
+          "id": "yplay-prometheus",
+          "rarity": "LR",
+          "score": 90
+        },
+        {
+          "id": "ystyle-waterpuppet",
+          "rarity": "UR",
+          "score": 84
+        },
+        {
+          "id": "dir-v21-endingloop",
+          "rarity": "UC",
+          "score": 65
+        },
+        {
+          "id": "v23-role-silentman",
+          "rarity": "C",
+          "score": 58
+        },
+        {
+          "id": "v23-sup-nurse",
+          "rarity": "C",
+          "score": 55
+        },
+        {
+          "id": "place-proscenium",
+          "rarity": "UR",
+          "score": 84
+        }
+      ]
+    },
+    "highestFixture": {
+      "score": 91,
+      "cards": [
+        {
+          "id": "play-macbeth",
+          "rarity": "LR",
+          "score": 91
+        },
+        {
+          "id": "style-v21-epistolary",
+          "rarity": "UC",
+          "score": 65
+        },
+        {
+          "id": "dir-v21-endingloop",
+          "rarity": "UC",
+          "score": 65
+        },
+        {
+          "id": "role-ladym",
+          "rarity": "LR",
+          "score": 94
+        },
+        {
+          "id": "role2-cassandra",
+          "rarity": "LR",
+          "score": 93
+        },
+        {
+          "id": "yplace-gongtang",
+          "rarity": "UC",
+          "score": 62
+        }
+      ]
+    }
+  }
+}

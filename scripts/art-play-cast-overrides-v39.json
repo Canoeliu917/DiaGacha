@@ -1,0 +1,663 @@
+{
+  "version": 39,
+  "scope": "17部没有现成角色卡的活动剧目。cast仅是该画面内的舞台角色造型，不增卡片或原作来源；剧情关系依据当前说明，生活道具与服饰是视觉解释。",
+  "plays": [
+    {
+      "id": "play-visit",
+      "name": "贵妇还乡",
+      "staging": "triangle",
+      "cast": [
+        {
+          "name": "克莱尔",
+          "fig": "changqun",
+          "head": "white",
+          "hair": "white",
+          "prop": "coin",
+          "pose": "hold",
+          "costume": "formal",
+          "face": "cold",
+          "cloth": "#454852",
+          "skin": "fair"
+        },
+        {
+          "name": "伊尔",
+          "fig": "laozuo",
+          "head": "short",
+          "hair": "short",
+          "prop": "none",
+          "pose": "guard",
+          "costume": "work",
+          "face": "tired",
+          "cloth": "#63725c",
+          "skin": "fair"
+        },
+        {
+          "name": "动摇的镇民",
+          "fig": "xizhuang",
+          "head": "bowler",
+          "hair": "bowler",
+          "prop": "book",
+          "pose": "fold",
+          "costume": "formal",
+          "face": "quiet",
+          "cloth": "#454852",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "财主稳坐画面权力中心，伊尔被她与逐渐倒向金钱的镇民夹在三角中；金币在克莱尔手中而不是悬空标志。",
+      "basis": "迪伦马特的悲喜剧。克莱尔回到穷困的居伦城，以巨款换旧情人伊尔的命，镇民的拒绝渐渐变了调。"
+    },
+    {
+      "id": "play-palace",
+      "name": "建筑大师",
+      "staging": "elevated",
+      "cast": [
+        {
+          "name": "索尔尼斯",
+          "fig": "dayi",
+          "head": "sidepart",
+          "hair": "sidepart",
+          "prop": "hammer",
+          "pose": "raise",
+          "costume": "work",
+          "face": "tired",
+          "cloth": "#63725c",
+          "skin": "fair"
+        },
+        {
+          "name": "希尔达",
+          "fig": "tongqun",
+          "head": "braid",
+          "hair": "braid",
+          "prop": "none",
+          "pose": "reach",
+          "costume": "plain",
+          "face": "resolve",
+          "cloth": "#b48b55",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "建筑师位于塔的高处，希尔达在下方伸臂仰望；上下关系呼应登塔、鼓动与坠落的风险。锤为职业舞台物件。",
+      "basis": "易卜生的戏剧。建筑师索尔尼斯畏惧年轻人的竞争，在希尔达的激励下登上高塔，最终坠落。"
+    },
+    {
+      "id": "xplay-chairs",
+      "name": "椅子",
+      "staging": "surround",
+      "cast": [
+        {
+          "name": "老人",
+          "fig": "dayi",
+          "head": "white",
+          "hair": "white",
+          "prop": "none",
+          "pose": "reach",
+          "costume": "worn",
+          "face": "tired",
+          "cloth": "#81745d",
+          "skin": "fair"
+        },
+        {
+          "name": "老妇人",
+          "fig": "changqun",
+          "head": "bun",
+          "hair": "bun",
+          "prop": "none",
+          "pose": "reach",
+          "costume": "worn",
+          "face": "tired",
+          "cloth": "#81745d",
+          "skin": "fair"
+        },
+        {
+          "name": "演说家",
+          "fig": "xizhuang",
+          "head": "sidepart",
+          "hair": "sidepart",
+          "prop": "scroll",
+          "pose": "hold",
+          "costume": "formal",
+          "face": "quiet",
+          "cloth": "#454852",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "老人分站椅子两侧，伸手迎接不在场的宾客；演说家居后手捧信息，空座位保留为看不见的客人。",
+      "basis": "尤内斯库的戏剧。一对老人不断接待看不见的宾客，将最后的信息托付给演说家，却未能完成传达。"
+    },
+    {
+      "id": "xplay-sang",
+      "name": "桑树坪纪事",
+      "staging": "barrier",
+      "cast": [
+        {
+          "name": "黄土高原村民",
+          "fig": "gongzhuang",
+          "head": "short",
+          "hair": "short",
+          "prop": "bowl",
+          "pose": "guard",
+          "costume": "worn",
+          "face": "tired",
+          "cloth": "#81745d",
+          "skin": "fair"
+        },
+        {
+          "name": "婚嫁中的年轻女子",
+          "fig": "changqun",
+          "head": "braid",
+          "hair": "braid",
+          "prop": "ribbon",
+          "pose": "fold",
+          "costume": "worn",
+          "face": "shy",
+          "cloth": "#81745d",
+          "skin": "fair"
+        },
+        {
+          "name": "旧秩序中的长辈",
+          "fig": "changshan",
+          "head": "cap",
+          "hair": "cap",
+          "prop": "staff",
+          "pose": "guard",
+          "costume": "plain",
+          "face": "cold",
+          "cloth": "#5b6471",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "年轻女子与长辈隔在矮墙两侧，村民捧空碗站在贫困一侧；农家衣着、婚嫁发带和权杖呈现生存与旧观念的夹逼。这是剧情角色群像，不新增命名角色。",
+      "basis": "陈子度等编剧的话剧。黄土高原村庄里的婚嫁、贫困与权力纠葛交织，村民在生存压力和旧观念中彼此伤害。"
+    },
+    {
+      "id": "xplay-liqiu",
+      "name": "立秋",
+      "staging": "barrier",
+      "cast": [
+        {
+          "name": "马洪翰",
+          "fig": "changshan",
+          "head": "cap",
+          "hair": "cap",
+          "prop": "book",
+          "pose": "guard",
+          "costume": "formal",
+          "face": "resolve",
+          "cloth": "#454852",
+          "skin": "fair"
+        },
+        {
+          "name": "票号同人",
+          "fig": "magua",
+          "head": "queue",
+          "hair": "queue",
+          "prop": "coin",
+          "pose": "hold",
+          "costume": "plain",
+          "face": "tired",
+          "cloth": "#5b6471",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "票号柜台成为经营与家业压力的界线：马洪翰护住账簿，同人持钱币相对，账簿不是装饰徽章。",
+      "basis": "姚宝瑄、卫中编剧的话剧。晋商丰德票号面临经营危机，马洪翰在时代变局中坚持诚信，家业与亲情一同接受考验。"
+    },
+    {
+      "id": "yplay-birds",
+      "name": "鸟",
+      "staging": "diagonal",
+      "cast": [
+        {
+          "name": "倡议筑城的雅典人",
+          "fig": "pizhe",
+          "head": "laurel",
+          "hair": "laurel",
+          "prop": "scroll",
+          "pose": "raise",
+          "costume": "plain",
+          "face": "sly",
+          "cloth": "#9b744f",
+          "skin": "fair"
+        },
+        {
+          "name": "同行的雅典人",
+          "fig": "duanda",
+          "head": "short",
+          "hair": "short",
+          "prop": "bird",
+          "pose": "hold",
+          "costume": "plain",
+          "face": "quiet",
+          "cloth": "#596f6a",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "两名雅典人沿云中城墙斜线分布，一人举出规划卷轴，一人与鸟接触；保留群鸟在人物之间的飞行空隙。",
+      "basis": "阿里斯托芬的喜剧。两个雅典人来到鸟国，劝群鸟在天空筑城，新的城邦逐渐成为另一套权力秩序。"
+    },
+    {
+      "id": "yplay-krapp",
+      "name": "克拉普的最后录音带",
+      "staging": "solitary",
+      "cast": [
+        {
+          "name": "年老的克拉普",
+          "fig": "zuozi",
+          "head": "white",
+          "hair": "white",
+          "prop": "none",
+          "pose": "bow",
+          "costume": "worn",
+          "face": "tired",
+          "cloth": "#81745d",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "独坐的人朝桌上双盘录音机微俯；录音机在伸手可触的位置。空椅以外不加年轻克拉普分身，保持独角戏独处。",
+      "basis": "贝克特的独角戏。年老的克拉普播放自己年轻时的录音，反复聆听与否认过去，再留下新的声音。"
+    },
+    {
+      "id": "yplay-caiwenji",
+      "name": "蔡文姬",
+      "staging": "exit",
+      "cast": [
+        {
+          "name": "蔡文姬",
+          "fig": "changqun",
+          "head": "bun",
+          "hair": "bun",
+          "prop": "scroll",
+          "pose": "step",
+          "costume": "layered",
+          "face": "tired",
+          "cloth": "#9b6d5b",
+          "skin": "fair"
+        },
+        {
+          "name": "留下的亲人",
+          "fig": "duanda",
+          "head": "short",
+          "hair": "short",
+          "prop": "none",
+          "pose": "reach",
+          "costume": "plain",
+          "face": "shy",
+          "cloth": "#7b8a75",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "蔡文姬携卷轴向归汉方向跨步，较小的亲人在反方向伸手；人物拉开的距离表现归乡和别离的同时发生，卷轴指承续父业。",
+      "basis": "郭沫若创作的历史剧，取材“文姬归汉”，把归乡、与亲人别离，以及承续父业的责任交织在一起。"
+    },
+    {
+      "id": "yplay-promotion",
+      "name": "升官图",
+      "staging": "elevated",
+      "cast": [
+        {
+          "name": "梦中县官之一",
+          "fig": "lipao",
+          "head": "cap",
+          "hair": "cap",
+          "prop": "chop",
+          "pose": "raise",
+          "costume": "royal",
+          "face": "sly",
+          "cloth": "#8f3c34",
+          "skin": "fair"
+        },
+        {
+          "name": "梦中县官之二",
+          "fig": "magua",
+          "head": "cap",
+          "hair": "cap",
+          "prop": "coin",
+          "pose": "hold",
+          "costume": "formal",
+          "face": "sly",
+          "cloth": "#454852",
+          "skin": "fair"
+        },
+        {
+          "name": "被勒索者",
+          "fig": "poyi",
+          "head": "short",
+          "hair": "short",
+          "prop": "bowl",
+          "pose": "bow",
+          "costume": "worn",
+          "face": "tired",
+          "cloth": "#81745d",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "官印和银钱分别握在两名梦中县官手中，受勒索者压在台阶下；上下构图使升迁变成权力压迫的动作。",
+      "basis": "陈白尘的讽刺喜剧。两个强盗梦中成为县官，官场的勒索、买卖与相互算计被排成一连串荒诞升迁。"
+    },
+    {
+      "id": "yplay-wotu",
+      "name": "窝头会馆",
+      "staging": "tableau",
+      "cast": [
+        {
+          "name": "会馆住户",
+          "fig": "poyi",
+          "head": "cap",
+          "hair": "cap",
+          "prop": "bowl",
+          "pose": "hold",
+          "costume": "worn",
+          "face": "tired",
+          "cloth": "#81745d",
+          "skin": "fair"
+        },
+        {
+          "name": "照顾病人的住户",
+          "fig": "laozuo",
+          "head": "bun",
+          "hair": "bun",
+          "prop": "towel",
+          "pose": "reach",
+          "costume": "work",
+          "face": "quiet",
+          "cloth": "#63725c",
+          "skin": "fair"
+        },
+        {
+          "name": "困顿的邻人",
+          "fig": "zuozi",
+          "head": "short",
+          "hair": "short",
+          "prop": "none",
+          "pose": "bow",
+          "costume": "worn",
+          "face": "tired",
+          "cloth": "#81745d",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "三个住户围在院中一只小桌边，饭碗、递出的手巾和坐着的病弱者形成相互照料的关系；不添加说明未确认的命名角色。",
+      "basis": "刘恒的话剧。北平解放前夕，会馆里几户贫苦人家为房租、疾病与生计纠缠，也在互相挤兑中彼此扶持。"
+    },
+    {
+      "id": "play-v21-justes",
+      "name": "正义者",
+      "staging": "barrier",
+      "cast": [
+        {
+          "name": "准备行动的革命者",
+          "fig": "dayi",
+          "head": "short",
+          "hair": "short",
+          "prop": "case",
+          "pose": "guard",
+          "costume": "worn",
+          "face": "resolve",
+          "cloth": "#81745d",
+          "skin": "fair"
+        },
+        {
+          "name": "追问行动代价的同伴",
+          "fig": "dayi",
+          "head": "wave",
+          "hair": "wave",
+          "prop": "none",
+          "pose": "reach",
+          "costume": "plain",
+          "face": "tired",
+          "cloth": "#5b6471",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "两个抵抗暴政者隔着通往街道的门槛，一人护住装置行囊，另一人伸臂阻止；突出决定是否行动的道德停顿，不绘制技术化武器细节。",
+      "basis": "加缪笔下的革命者准备以刺杀反抗暴政，却在行动与无辜者的生命之间承受道德拷问。"
+    },
+    {
+      "id": "play-v21-balcony",
+      "name": "阳台",
+      "staging": "reveal",
+      "cast": [
+        {
+          "name": "模仿权威者",
+          "fig": "jinpao",
+          "head": "cap",
+          "hair": "cap",
+          "prop": "mask",
+          "pose": "raise",
+          "costume": "royal",
+          "face": "cold",
+          "cloth": "#8f3c34",
+          "skin": "fair"
+        },
+        {
+          "name": "另一位角色扮演者",
+          "fig": "zhifu",
+          "head": "peaked",
+          "hair": "peaked",
+          "prop": "none",
+          "pose": "guard",
+          "costume": "formal",
+          "face": "sly",
+          "cloth": "#454852",
+          "skin": "fair"
+        },
+        {
+          "name": "院落中的观察者",
+          "fig": "changqun",
+          "head": "bun",
+          "hair": "bun",
+          "prop": "none",
+          "pose": "fold",
+          "costume": "plain",
+          "face": "quiet",
+          "cloth": "#5b6471",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "帘幕分开院内的权威扮演和外部动乱；长袍面具、制服与观察者构成三种关系，体现角色游戏与真实权力的互照。",
+      "basis": "热内把模仿社会权威的欲望放进一家特殊的院落，外部动乱与内部角色游戏彼此映照。"
+    },
+    {
+      "id": "play-v21-heartbreak",
+      "name": "伤心之家",
+      "staging": "tableau",
+      "cast": [
+        {
+          "name": "宅邸中的年长者",
+          "fig": "dayi",
+          "head": "white",
+          "hair": "white",
+          "prop": "cane",
+          "pose": "fold",
+          "costume": "formal",
+          "face": "tired",
+          "cloth": "#454852",
+          "skin": "fair"
+        },
+        {
+          "name": "谈话中的女客",
+          "fig": "changqun",
+          "head": "wave",
+          "hair": "wave",
+          "prop": "fan",
+          "pose": "guard",
+          "costume": "formal",
+          "face": "cold",
+          "cloth": "#454852",
+          "skin": "fair"
+        },
+        {
+          "name": "追逐理想的年轻客人",
+          "fig": "tongqun",
+          "head": "braid",
+          "hair": "braid",
+          "prop": "none",
+          "pose": "reach",
+          "costume": "plain",
+          "face": "shy",
+          "cloth": "#5b6471",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "乡间宅邸中三人的身体朝向互相错开，长者的手杖、女客护在胸前的扇和年轻人伸出的空手，让谈话与情感错位可见。",
+      "basis": "萧伯纳借一座乡间宅邸中的交谈与情感错位，呈现一个善于自我解释却难以面对现实的社会。"
+    },
+    {
+      "id": "play-v21-majorbarbara",
+      "name": "巴巴拉少校",
+      "staging": "duel",
+      "cast": [
+        {
+          "name": "巴巴拉",
+          "fig": "zhifu",
+          "head": "bun",
+          "hair": "bun",
+          "prop": "bowl",
+          "pose": "reach",
+          "costume": "work",
+          "face": "resolve",
+          "cloth": "#536557",
+          "skin": "fair"
+        },
+        {
+          "name": "军火商父亲",
+          "fig": "xizhuang",
+          "head": "sidepart",
+          "hair": "sidepart",
+          "prop": "coin",
+          "pose": "hold",
+          "costume": "formal",
+          "face": "cold",
+          "cloth": "#454852",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "救世军服饰的巴巴拉伸出救济碗，与父亲掌中的金币相对；军火工厂留在背后，把慈善与武器财富的关系放在两人之间。",
+      "basis": "萧伯纳让投身救世军的巴巴拉面对军火商父亲的财富，慈善、贫困与暴力的关系变得难以分开。"
+    },
+    {
+      "id": "play-v21-henryiv",
+      "name": "亨利四世",
+      "staging": "reveal",
+      "cast": [
+        {
+          "name": "扮演亨利四世的男子",
+          "fig": "lipao",
+          "head": "circlet",
+          "hair": "circlet",
+          "prop": "mask",
+          "pose": "hold",
+          "costume": "royal",
+          "face": "tired",
+          "cloth": "#8f3c34",
+          "skin": "fair"
+        },
+        {
+          "name": "来自现实的来客",
+          "fig": "xizhuang",
+          "head": "sidepart",
+          "hair": "sidepart",
+          "prop": "none",
+          "pose": "reach",
+          "costume": "plain",
+          "face": "quiet",
+          "cloth": "#5b6471",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "加冕长袍的人手中保留面具，旁边的现代来客伸手进入宫廷布景；这是皮兰德娄关于身份和清醒的作品，不借用莎士比亚福斯塔夫。",
+      "basis": "皮兰德娄笔下的男子长期生活在亨利四世的身份中，清醒、扮演与逃离现实的愿望彼此纠缠。"
+    },
+    {
+      "id": "play-v21-unburied",
+      "name": "死无葬身之地",
+      "staging": "barrier",
+      "cast": [
+        {
+          "name": "被拘禁的抵抗者",
+          "fig": "poyi",
+          "head": "short",
+          "hair": "short",
+          "prop": "rope",
+          "pose": "guard",
+          "costume": "worn",
+          "face": "resolve",
+          "cloth": "#81745d",
+          "skin": "fair"
+        },
+        {
+          "name": "另一位抵抗者",
+          "fig": "dayi",
+          "head": "wave",
+          "hair": "wave",
+          "prop": "none",
+          "pose": "fold",
+          "costume": "worn",
+          "face": "tired",
+          "cloth": "#81745d",
+          "skin": "fair"
+        },
+        {
+          "name": "审讯者",
+          "fig": "zhifu",
+          "head": "peaked",
+          "hair": "peaked",
+          "prop": "verdict",
+          "pose": "hold",
+          "costume": "plain",
+          "face": "cold",
+          "cloth": "#5b6471",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "两名抵抗者在栏杆一侧保持不同沉默姿态，审讯者隔栏举着审讯文书；绳索只作束缚符号，不展示伤害动作。",
+      "basis": "萨特把抵抗者置于审讯与死亡的威胁中，使忠诚、沉默与求生之间的选择变得残酷。"
+    },
+    {
+      "id": "play-v21-americandream",
+      "name": "美国梦",
+      "staging": "triangle",
+      "cast": [
+        {
+          "name": "家庭中的母亲",
+          "fig": "changqun",
+          "head": "bun",
+          "hair": "bun",
+          "prop": "mask",
+          "pose": "hold",
+          "costume": "formal",
+          "face": "cold",
+          "cloth": "#454852",
+          "skin": "fair"
+        },
+        {
+          "name": "家庭中的父亲",
+          "fig": "xizhuang",
+          "head": "bald",
+          "hair": "bald",
+          "prop": "none",
+          "pose": "fold",
+          "costume": "formal",
+          "face": "quiet",
+          "cloth": "#454852",
+          "skin": "fair"
+        },
+        {
+          "name": "年轻来客",
+          "fig": "xizhuang",
+          "head": "sidepart",
+          "hair": "sidepart",
+          "prop": "none",
+          "pose": "stand",
+          "costume": "plain",
+          "face": "quiet",
+          "cloth": "#5b6471",
+          "skin": "fair"
+        }
+      ],
+      "rationale": "整齐客厅的夫妻与年轻来客构成僵硬三角，包装箱置于三人之间；母亲手中的面具指体面家庭幻象，不把亲情画成普通温馨合影。",
+      "basis": "阿尔比以荒诞的家庭谈话拆解体面生活的幻象，让亲情与消费式的满足显出冰冷的相似。"
+    }
+  ]
+}

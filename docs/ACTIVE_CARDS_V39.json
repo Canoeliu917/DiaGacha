@@ -1,0 +1,2247 @@
+{
+  "version": 39,
+  "activeCount": 500,
+  "archiveCount": 777,
+  "reserveCount": 277,
+  "selection": "经典与已复核锚点优先；保留六维和现有七档覆盖；剧本人物关联优先；通用角色及近似概念优先预留。稀有度不为凑数重分。 保留两张UC剧本，避免低档回退后长期只抽到同一部作品。",
+  "activeIds": [
+    "play-oedipus",
+    "play-teahouse",
+    "play-hamlet",
+    "play-thunder",
+    "play-macbeth",
+    "play-godot",
+    "play-peony",
+    "play-doll",
+    "play-salesman",
+    "play-doue",
+    "play-goodperson",
+    "play-cherry",
+    "play-xixiang",
+    "play-visit",
+    "play-sunrise",
+    "play-yuanye",
+    "play-rhino",
+    "play-glass",
+    "style-stan",
+    "style-epic",
+    "style-absurd",
+    "style-real",
+    "style-xieyi",
+    "style-poor",
+    "dir-wall",
+    "dir-alien",
+    "dir-ritual",
+    "dir-montage",
+    "dir-body",
+    "role-oedipus",
+    "role-nora",
+    "role-hamlet",
+    "role-fanyi",
+    "role-macbeth",
+    "role-doue",
+    "role-liniang",
+    "role-ladym",
+    "role-wang",
+    "role-shen",
+    "role-zhou",
+    "role-willy",
+    "role-anti",
+    "role-bailu",
+    "role-gogo",
+    "place-tea",
+    "place-elsinore",
+    "place-zhou",
+    "place-dunsinane",
+    "place-parlor",
+    "place-exec",
+    "place-sichuan",
+    "place-cherry",
+    "place-gullen",
+    "place-zoo",
+    "place-forest",
+    "play-lear",
+    "play-antigone",
+    "play-orphan",
+    "play-peach",
+    "play-palace",
+    "play-secret",
+    "play-beijing",
+    "play-baimao",
+    "play-street",
+    "play-sisters",
+    "play-butterfly",
+    "style-kabuki",
+    "style-black",
+    "style-physical",
+    "dir-solo",
+    "dir-convention",
+    "dir-call",
+    "role-shiping",
+    "role-xiangjun",
+    "role-chengying",
+    "role-yuji",
+    "role-lear",
+    "role-courage",
+    "role-blanche",
+    "role-mengmei",
+    "role-zhu",
+    "role-vladimir",
+    "place-heath",
+    "place-meixiang",
+    "place-baihua",
+    "place-stella",
+    "place-blackbox",
+    "place-proscenium",
+    "place-island",
+    "place-zeng",
+    "xplay-faust",
+    "xplay-seagull",
+    "xplay-vanya",
+    "xplay-tartuffe",
+    "xplay-miser",
+    "xplay-figaro",
+    "xplay-galileo",
+    "xplay-rhino",
+    "xplay-bald",
+    "xplay-chairs",
+    "xplay-longday",
+    "xplay-pygmalion",
+    "xplay-merchant",
+    "xplay-romeo",
+    "xplay-jia",
+    "xplay-quyuan",
+    "xplay-guantheplay",
+    "xplay-camel",
+    "xplay-lou",
+    "xplay-sang",
+    "xplay-doggy",
+    "xplay-shangyang",
+    "xplay-caoyang",
+    "xplay-liqiu",
+    "xstyle-kunqu",
+    "xstyle-chuanju",
+    "xstyle-yuju",
+    "xstyle-huangmei",
+    "xstyle-shadow",
+    "xstyle-puppetry",
+    "xstyle-forum",
+    "xstyle-site",
+    "xstyle-walk",
+    "xstyle-soundth",
+    "xstyle-political",
+    "xstyle-comedy",
+    "xstyle-danceplay",
+    "xstyle-nanxi",
+    "xstyle-zaju",
+    "xstyle-lab",
+    "xstyle-bunraku",
+    "xdir-toplight",
+    "xdir-spot",
+    "xdir-backturn",
+    "xdir-changeset",
+    "xdir-enter",
+    "xdir-repeat",
+    "xdir-bang",
+    "xdir-drum",
+    "xdir-zoubian",
+    "xdir-sleeve",
+    "xdir-facechange",
+    "xdir-nian",
+    "xdir-mirror",
+    "xdir-group",
+    "xdir-improvbit",
+    "xdir-voiceover",
+    "xrole-ophelia",
+    "xrole-juliet",
+    "xrole-eliza",
+    "xrole-hedda",
+    "xrole-harpagon",
+    "xrole-tartuffe",
+    "xrole-figaro",
+    "xrole-mephisto",
+    "xrole-cordelia",
+    "xrole-pozzo",
+    "xrole-lucky",
+    "xrole-chunxiang",
+    "xrole-hongniang",
+    "xrole-xiangzi",
+    "xrole-huniu",
+    "xrole-sifeng",
+    "xrole-juexin",
+    "xrole-chanjuan",
+    "xrole-zhulian",
+    "xrole-cao",
+    "xrole-yangxiu",
+    "xrole-gouer",
+    "xrole-shang",
+    "xplace-dock",
+    "xplace-attic",
+    "xplace-balcony",
+    "xplace-market",
+    "xplace-factory",
+    "xplace-ancestral",
+    "xplace-grave",
+    "xplace-shrine",
+    "xplace-carriage",
+    "xplace-rooftop",
+    "xplace-kitchen",
+    "xplace-convent",
+    "xplace-snowfield",
+    "xplace-mine",
+    "yplay-prometheus",
+    "yplay-agamemnon",
+    "yplay-birds",
+    "yplay-phedre",
+    "yplay-threepenny",
+    "yplay-endgame",
+    "yplay-krapp",
+    "yplay-enemy",
+    "yplay-peer",
+    "yplay-inspector",
+    "yplay-mrswarren",
+    "yplay-tempest",
+    "yplay-richard",
+    "yplay-caesar",
+    "yplay-caiwenji",
+    "yplay-eaves",
+    "yplay-promotion",
+    "yplay-wotu",
+    "yplay-jiang",
+    "yplay-pipa",
+    "yplay-whitesnake",
+    "yplay-fifteen",
+    "yplay-farewell",
+    "yplay-drunken",
+    "yplay-redlantern",
+    "ystyle-qinqiang",
+    "ystyle-yueopera",
+    "ystyle-errenzhuan",
+    "ystyle-zangxi",
+    "ystyle-budaixi",
+    "ystyle-kyogen",
+    "ystyle-takarazuka",
+    "ystyle-waterpuppet",
+    "ystyle-wenmingxi",
+    "ystyle-livingnews",
+    "ystyle-street",
+    "ystyle-mystery",
+    "ystyle-passion",
+    "ystyle-lightopera",
+    "ystyle-object",
+    "ystyle-install",
+    "ystyle-image",
+    "ystyle-magicreal",
+    "ystyle-criticalreal",
+    "ystyle-poeticreal",
+    "ystyle-ritualstyle",
+    "ystyle-manner",
+    "ystyle-drawingroom",
+    "ystyle-shinkoku",
+    "ystyle-sanskrit",
+    "ystyle-huagu",
+    "ydir-lingzi",
+    "ydir-fanwork",
+    "ydir-handkerchief",
+    "ydir-dachushou",
+    "ydir-diaomao",
+    "ydir-jiangshi",
+    "ydir-qiangbei",
+    "ydir-darkchange",
+    "ydir-qieguang",
+    "ydir-backlight",
+    "ydir-gauze",
+    "ydir-liftstage",
+    "ydir-wagontage",
+    "ydir-jijifeng",
+    "ydir-shoujiu",
+    "ydir-chujiang",
+    "ydir-duetline",
+    "ydir-bansing",
+    "ydir-qichang",
+    "ydir-coldstage",
+    "ydir-footlight",
+    "ydir-facelight",
+    "ydir-smoke",
+    "ydir-legdrop",
+    "ydir-paoyuan",
+    "ydir-rankou",
+    "yrole-clytemnestra",
+    "yrole-witches",
+    "yrole-horatio",
+    "yrole-prospero",
+    "yrole-ariel",
+    "yrole-richardiii",
+    "yrole-falstaff",
+    "yrole-helmer",
+    "yrole-stockmann",
+    "yrole-khlestakov",
+    "yrole-qiuhu",
+    "yrole-juehui",
+    "yrole-baisuzhen",
+    "yrole-guifei",
+    "yrole-bawang",
+    "yrole-liangshanbo",
+    "yrole-tietmei",
+    "yrole-aqing",
+    "yrole-zijirong",
+    "yrole-malu",
+    "yrole-houfangyu",
+    "yrole-dorine",
+    "yrole-mackheath",
+    "yrole-hamm",
+    "yrole-linda",
+    "yrole-brutus",
+    "yrole-solveig",
+    "yrole-wukong",
+    "yrole-kuangzhong",
+    "yplace-crossroad",
+    "yplace-globe",
+    "yplace-huafang",
+    "yplace-well",
+    "yplace-gongtang",
+    "yplace-jindian",
+    "yplace-zhongjun",
+    "yplace-shikumen",
+    "yplace-chengmen",
+    "yplace-fachang",
+    "yplace-cafe",
+    "yplace-deck",
+    "yplace-cliff",
+    "yplace-altar",
+    "yplace-dungeon",
+    "yplace-stable",
+    "yplace-ballroom",
+    "yplace-office",
+    "yplace-workshop",
+    "role2-creon",
+    "role2-ismene",
+    "role2-juliet-nurse",
+    "role2-mercutio",
+    "role2-banquo",
+    "role2-macduff",
+    "role2-laertes",
+    "role2-polonius",
+    "role2-gertrude",
+    "role2-claudius",
+    "role2-goneril",
+    "role2-regan",
+    "role2-edmund",
+    "role2-kent",
+    "role2-fool-lear",
+    "role2-gloucester",
+    "role2-edgar",
+    "role2-malcolm",
+    "role2-duncan",
+    "role2-cassandra",
+    "role2-agamemnon",
+    "role2-aegisthus",
+    "role2-martha-misunderstanding",
+    "role2-kristine-linde",
+    "role2-krogstad",
+    "role2-lopakhin",
+    "role2-gayev",
+    "role2-varya",
+    "role2-anya-cherry",
+    "role2-trofimov",
+    "role2-serebryakov",
+    "role2-sonya",
+    "role2-yelena",
+    "role2-tuzenbach",
+    "role2-solyony",
+    "role2-vershinin",
+    "role2-andrei-three-sisters",
+    "role2-treplev",
+    "role2-arkadina",
+    "role2-nina",
+    "role2-trigorin",
+    "role2-mayor-inspector",
+    "role2-hippolytus",
+    "role2-oenone",
+    "role2-theseus",
+    "role2-clov",
+    "role2-nagg",
+    "role2-nell",
+    "role2-jean-rhinoceros",
+    "role2-fire-chief",
+    "role2-claire-maids",
+    "role2-solange",
+    "role2-li-shiqing",
+    "role2-huang-shengsan",
+    "role2-fang-dasheng",
+    "role2-jiao-mother",
+    "role2-jiao-daxing",
+    "role2-bai-shazi",
+    "role2-zeng-siyi",
+    "role2-zeng-hao",
+    "role2-ruizhen",
+    "role2-liu-mazi",
+    "role2-kang-shunzi",
+    "role2-liu-siye",
+    "role2-xiao-fuzi",
+    "role2-kuang-fu",
+    "role2-yang-caiyu",
+    "role2-lin-zhicheng",
+    "role2-huang-jiamei",
+    "role2-qi-yongnian",
+    "role2-xiu-dingxin",
+    "role2-xia-professor",
+    "role2-shi-professor",
+    "role2-mifeng",
+    "play-v21-justes",
+    "play-v21-caligula",
+    "play-v21-malentendu",
+    "play-v21-maids",
+    "play-v21-happydays",
+    "play-v21-heartbreak",
+    "play-v21-majorbarbara",
+    "play-v21-henryiv",
+    "play-v21-unburied",
+    "play-v21-americandream",
+    "style-v21-epistolary",
+    "style-v21-courtroom",
+    "style-v21-mystery",
+    "style-v21-fable",
+    "style-v21-family",
+    "style-v21-psychothriller",
+    "style-v21-metatheatre",
+    "style-v21-autobiographical",
+    "style-v21-polyphonic",
+    "style-v21-maximalist",
+    "style-v21-rehearsaldrama",
+    "style-v21-radiodrama",
+    "style-v21-stagedreading",
+    "style-v21-signedtheatre",
+    "style-v21-sensory",
+    "dir-v21-testimony",
+    "dir-v21-samewords",
+    "dir-v21-livefoley",
+    "dir-v21-timecut",
+    "dir-v21-soundimage",
+    "dir-v21-livesubtitles",
+    "dir-v21-linerelay",
+    "dir-v21-proptransfer",
+    "dir-v21-emptychair",
+    "dir-v21-unreliable",
+    "dir-v21-selectivereplay",
+    "dir-v21-simultaneoussolos",
+    "dir-v21-occlusion",
+    "dir-v21-compression",
+    "dir-v21-endingloop",
+    "role-v21-unclevanya",
+    "role-v21-astrov",
+    "role-v21-berenger",
+    "role-v21-phedre",
+    "role-v21-caligularole",
+    "role-v21-marytyrone",
+    "role-v21-edmundtyrone",
+    "role-v21-amanda",
+    "role-v21-tomglass",
+    "role-v21-winnie",
+    "role-v21-jimglass",
+    "place-v21-bordercheckpoint",
+    "place-v21-willroom",
+    "place-v21-publicbath",
+    "place-v21-funeralhome",
+    "place-v21-lostproperty",
+    "place-v21-photostudio",
+    "place-v21-diningcar",
+    "place-v21-archive",
+    "place-v22-gallery",
+    "place-v22-radiobooth",
+    "place-v22-cage",
+    "place-v22-embassyhall",
+    "place-v22-observatory",
+    "v23-play-allmysons",
+    "v23-play-copenhagen",
+    "v23-play-woyzeck",
+    "v23-play-danton",
+    "v23-play-equus",
+    "v23-play-art",
+    "v23-play-busstop",
+    "v23-play-dreamlike",
+    "v23-play-livefield",
+    "v23-play-iceman",
+    "v23-play-springawake",
+    "v23-play-viewbridge",
+    "v23-style-chamber",
+    "v23-style-total",
+    "v23-style-verbatim",
+    "v23-style-bourgeois-tragedy",
+    "v23-style-historyplay",
+    "v23-style-intercultural",
+    "v23-style-visual",
+    "v23-style-translation",
+    "v23-dir-pool",
+    "v23-dir-readstage",
+    "v23-dir-allwatch",
+    "v23-dir-objectchain",
+    "v23-dir-countdown",
+    "v23-dir-floorplan",
+    "v23-dir-soundfirst",
+    "v23-dir-silentopen",
+    "v23-dir-revolving",
+    "v23-dir-misremember",
+    "v23-role-joekeller",
+    "v23-role-heisenberg",
+    "v23-role-woyzeck",
+    "v23-role-danton",
+    "v23-role-eddie",
+    "v23-role-hickey",
+    "v23-role-melchior",
+    "v23-role-alan",
+    "v23-role-dreamdoctor",
+    "v23-role-jinzhi",
+    "v23-role-silentman",
+    "v23-role-serge",
+    "v23-sup-kate",
+    "v23-sup-bohr",
+    "v23-sup-marie",
+    "v23-sup-robespierre",
+    "v23-sup-catherine",
+    "v23-sup-nurse",
+    "v23-sup-moritz",
+    "v23-sup-zhaosan",
+    "v23-sup-stationmaster",
+    "v23-sup-harryhope",
+    "v23-sup-marc"
+  ],
+  "reserveIds": [
+    "style-classic",
+    "style-cruel",
+    "style-express",
+    "style-natural",
+    "style-romantic",
+    "style-symbol",
+    "style-psych",
+    "style-post",
+    "style-doc",
+    "style-aesth",
+    "dir-chorus",
+    "dir-empty",
+    "dir-immerse",
+    "dir-multi",
+    "dir-flashback",
+    "dir-forum",
+    "dir-jianchang",
+    "dir-freeze",
+    "dir-docread",
+    "dir-proj",
+    "dir-prologue",
+    "role-ming",
+    "place-table",
+    "place-road",
+    "place-garden",
+    "place-loman",
+    "place-empty",
+    "play-othello",
+    "play-medea",
+    "style-xiqu",
+    "style-greek",
+    "style-commedia",
+    "style-noh",
+    "style-chuanqi",
+    "style-opera",
+    "style-musical",
+    "style-environ",
+    "style-postdrama",
+    "dir-mask",
+    "dir-light",
+    "dir-band",
+    "dir-blackout",
+    "dir-parallel",
+    "dir-slow",
+    "dir-puppet",
+    "dir-revolve",
+    "dir-change",
+    "role-medea",
+    "role-iago",
+    "role-jiang",
+    "role-sufang",
+    "role-laura",
+    "place-thebes",
+    "place-camp",
+    "place-nohstage",
+    "place-backstage",
+    "xplay-caucasian",
+    "xplay-cat",
+    "xplay-salome",
+    "xplay-dream",
+    "xplay-twelfth",
+    "xplay-dragon",
+    "xstyle-jingju",
+    "xstyle-yueju",
+    "xstyle-pingju",
+    "xstyle-mime",
+    "xstyle-playback",
+    "xstyle-verbatim",
+    "xstyle-feminist",
+    "xstyle-tragedy",
+    "xstyle-farce",
+    "xstyle-tragicom",
+    "xstyle-verse",
+    "xstyle-huaju",
+    "xstyle-kathakali",
+    "xdir-follow",
+    "xdir-sidelight",
+    "xdir-still",
+    "xdir-halt",
+    "xdir-eyes",
+    "xdir-cutin",
+    "xdir-chorus",
+    "xdir-pose",
+    "xdir-tangma",
+    "xdir-fire",
+    "xdir-yuan",
+    "xdir-split",
+    "xdir-silence",
+    "xdir-aside",
+    "xrole-romeo",
+    "xrole-shylock",
+    "xrole-galileo",
+    "xrole-desdemona",
+    "xrole-yingying",
+    "xrole-chong",
+    "xrole-gold",
+    "xplace-castle",
+    "xplace-courtroom",
+    "xplace-cellar",
+    "xplace-palace",
+    "xplace-stagebox",
+    "xplace-study",
+    "xplace-hospital",
+    "xplace-classroom",
+    "xplace-ship",
+    "xplace-ruin",
+    "xplace-hutong",
+    "xplace-siheyuan",
+    "xplace-tealounge",
+    "xplace-prison",
+    "xplace-bridgehead",
+    "xplace-circus",
+    "yplay-trojan",
+    "yplay-bacchae",
+    "yplay-lysistrata",
+    "yplay-cid",
+    "yplay-servant",
+    "yplay-elms",
+    "yplay-ghosts",
+    "yplay-lower",
+    "yplay-joan",
+    "yplay-intrigue",
+    "yplay-tell",
+    "yplay-chenyi",
+    "yplay-locket",
+    "yplay-crossroads",
+    "ystyle-huju",
+    "ystyle-farcehu",
+    "ystyle-nuoxi",
+    "ystyle-marionette",
+    "ystyle-wayang",
+    "ystyle-morality",
+    "ystyle-operetta",
+    "ystyle-video",
+    "ystyle-clown",
+    "ystyle-maskplay",
+    "ystyle-edutheatre",
+    "ystyle-community",
+    "ystyle-oppressed",
+    "ystyle-invisible",
+    "ystyle-epicnarr",
+    "ystyle-maskcomedy",
+    "ydir-qiba",
+    "ydir-yunshou",
+    "ydir-orchid",
+    "ydir-maochi",
+    "ydir-woyu",
+    "ydir-longtao",
+    "ydir-sijitou",
+    "ydir-qiemo",
+    "ydir-yinchang",
+    "ydir-inner",
+    "ydir-subtext",
+    "ydir-raincurtain",
+    "ydir-skycloth",
+    "ydir-bazigong",
+    "ydir-qiaogong",
+    "ydir-flashcut",
+    "yrole-prometheus",
+    "yrole-portia",
+    "yrole-zhouping",
+    "yrole-chang",
+    "yrole-zhangsheng",
+    "yrole-xier",
+    "yrole-stanley",
+    "yrole-cleo",
+    "yrole-jason",
+    "yrole-zhugeliang",
+    "yplace-hanamichi",
+    "yplace-pit",
+    "yplace-changting",
+    "yplace-xiulou",
+    "yplace-xiyuan",
+    "yplace-inn",
+    "yplace-lenggong",
+    "yplace-wujiang",
+    "yplace-chibi",
+    "yplace-tingzijian",
+    "yplace-tudimiao",
+    "yplace-xiaochang",
+    "yplace-ward",
+    "yplace-platform",
+    "yplace-lighthouse",
+    "yplace-labyrinth",
+    "yplace-greenhouse",
+    "yplace-vineyard",
+    "yplace-hashigakari",
+    "yplace-shangchang",
+    "yplace-jiulongkou",
+    "yplace-caishikou",
+    "yplace-guifang",
+    "role2-tiresias",
+    "role2-emilia",
+    "role2-cassio",
+    "role2-roderigo",
+    "role2-andromache",
+    "role2-hecuba",
+    "role2-orestes",
+    "role2-pylades",
+    "role2-glauce",
+    "role2-medea-nurse",
+    "role2-aegeus",
+    "role2-doctor-rank",
+    "role2-duval-father",
+    "role2-olga",
+    "role2-irina",
+    "role2-luka",
+    "role2-pepel",
+    "role2-kabanova",
+    "role2-tikhon",
+    "role2-boris-storm",
+    "role2-lu-dahai",
+    "role2-lu-gui",
+    "role2-pan-yueting",
+    "role2-cui-xi",
+    "role2-zeng-wenqing",
+    "role2-qin-zhongyi",
+    "role2-song-erye",
+    "role2-heizi-signal",
+    "role2-train-conductor",
+    "role2-messenger",
+    "role2-neighbor",
+    "role2-witness",
+    "role2-interrogator",
+    "role2-former-lover",
+    "role2-creditor",
+    "role2-spy",
+    "role2-clerk",
+    "role2-landlord",
+    "role2-rival-lover",
+    "role2-stepmother",
+    "role2-visitor",
+    "role2-deserter",
+    "role2-news-child",
+    "role2-former-wife",
+    "role2-protector",
+    "role2-mourner",
+    "play-v21-noexit",
+    "play-v21-balcony",
+    "play-v21-sixcharacters",
+    "play-v21-zoostory",
+    "play-v21-twelveangry",
+    "play-v21-betrayal",
+    "style-v21-sciencefiction",
+    "dir-v21-roleswap",
+    "role-v21-othello",
+    "role-v21-katerina",
+    "role-v21-margueritecamellia",
+    "role-v21-antony",
+    "role-v21-volumnia",
+    "place-v21-weddinghall",
+    "place-v21-shelter",
+    "place-v21-ticketwindow",
+    "place-v21-lift",
+    "place-v21-pharmacy",
+    "place-v21-abandonedpark",
+    "place-v21-rehearsalhall",
+    "place-v21-waitingtrial",
+    "place-v22-isolationward",
+    "v23-style-tfa",
+    "v23-style-newcircus",
+    "v23-style-plaza",
+    "v23-style-homestead",
+    "v23-dir-mic",
+    "v23-dir-lateopen",
+    "v23-sup-ann",
+    "v23-place-hangar",
+    "v23-place-nightsitting",
+    "v23-place-washhouse",
+    "v23-place-jacobin",
+    "v23-place-longshore",
+    "v23-place-hopebar",
+    "v23-place-dormer",
+    "v23-place-observation",
+    "v23-place-lotuspond",
+    "v23-place-frostvillage",
+    "v23-place-halt"
+  ],
+  "dimensions": {
+    "剧目": {
+      "total": 100,
+      "rarities": {
+        "LR": 10,
+        "SSR": 33,
+        "UR": 15,
+        "SR": 27,
+        "R": 13,
+        "UC": 2
+      }
+    },
+    "主演": {
+      "total": 100,
+      "rarities": {
+        "LR": 12,
+        "SSR": 27,
+        "UR": 17,
+        "SR": 29,
+        "R": 12,
+        "UC": 2,
+        "C": 1
+      }
+    },
+    "配角": {
+      "total": 85,
+      "rarities": {
+        "LR": 2,
+        "SR": 21,
+        "SSR": 27,
+        "UR": 15,
+        "R": 16,
+        "UC": 3,
+        "C": 1
+      }
+    },
+    "风格体系": {
+      "total": 75,
+      "rarities": {
+        "LR": 1,
+        "UR": 3,
+        "SSR": 13,
+        "SR": 26,
+        "R": 17,
+        "UC": 14,
+        "C": 1
+      }
+    },
+    "导演手法": {
+      "total": 75,
+      "rarities": {
+        "SR": 16,
+        "UR": 3,
+        "R": 25,
+        "SSR": 4,
+        "UC": 24,
+        "C": 3
+      }
+    },
+    "环境": {
+      "total": 65,
+      "rarities": {
+        "LR": 2,
+        "UR": 3,
+        "SR": 16,
+        "R": 23,
+        "SSR": 2,
+        "UC": 16,
+        "C": 3
+      }
+    }
+  },
+  "reserveCards": [
+    {
+      "id": "style-classic",
+      "name": "古典主义",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-cruel",
+      "name": "残酷戏剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-express",
+      "name": "表现主义",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-natural",
+      "name": "自然主义",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-romantic",
+      "name": "浪漫主义",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-symbol",
+      "name": "象征主义",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-psych",
+      "name": "心理现实主义",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-post",
+      "name": "后现代拼贴",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-doc",
+      "name": "纪实剧场",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-aesth",
+      "name": "唯美主义",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "dir-chorus",
+      "name": "歌队介入",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-empty",
+      "name": "空的空间",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-immerse",
+      "name": "沉浸破墙",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-multi",
+      "name": "一人分饰",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-flashback",
+      "name": "倒叙开场",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-forum",
+      "name": "论坛停演",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-jianchang",
+      "name": "当众迁景",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-freeze",
+      "name": "定格静场",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-docread",
+      "name": "文档朗读",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-proj",
+      "name": "投影并置",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-prologue",
+      "name": "旁白定场",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "role-ming",
+      "name": "明明",
+      "dimension": "主演"
+    },
+    {
+      "id": "place-table",
+      "name": "候场区",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-road",
+      "name": "乡间小路",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-garden",
+      "name": "荒园",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-loman",
+      "name": "洛曼家厨房",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-empty",
+      "name": "空台",
+      "dimension": "环境"
+    },
+    {
+      "id": "play-othello",
+      "name": "奥赛罗",
+      "dimension": "剧目"
+    },
+    {
+      "id": "play-medea",
+      "name": "美狄亚",
+      "dimension": "剧目"
+    },
+    {
+      "id": "style-xiqu",
+      "name": "假定性",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-greek",
+      "name": "希腊悲剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-commedia",
+      "name": "即兴喜剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-noh",
+      "name": "极简舞台",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-chuanqi",
+      "name": "长篇结构",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-opera",
+      "name": "歌剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-musical",
+      "name": "音乐剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-environ",
+      "name": "环境戏剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "style-postdrama",
+      "name": "后戏剧剧场",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "dir-mask",
+      "name": "假面",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-light",
+      "name": "灯光分区",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-band",
+      "name": "现场乐师",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-blackout",
+      "name": "黑场切断",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-parallel",
+      "name": "多线并置",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-slow",
+      "name": "慢动作",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-puppet",
+      "name": "傀儡介入",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-revolve",
+      "name": "转台",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "dir-change",
+      "name": "当场变装",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "role-medea",
+      "name": "美狄亚",
+      "dimension": "主演"
+    },
+    {
+      "id": "role-iago",
+      "name": "伊阿古",
+      "dimension": "主演"
+    },
+    {
+      "id": "role-jiang",
+      "name": "江滨柳",
+      "dimension": "主演"
+    },
+    {
+      "id": "role-sufang",
+      "name": "愫方",
+      "dimension": "主演"
+    },
+    {
+      "id": "role-laura",
+      "name": "劳拉",
+      "dimension": "主演"
+    },
+    {
+      "id": "place-thebes",
+      "name": "忒拜广场",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-camp",
+      "name": "夜营",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-nohstage",
+      "name": "素台",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-backstage",
+      "name": "后台",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplay-caucasian",
+      "name": "高加索灰阑记",
+      "dimension": "剧目"
+    },
+    {
+      "id": "xplay-cat",
+      "name": "热铁皮屋顶上的猫",
+      "dimension": "剧目"
+    },
+    {
+      "id": "xplay-salome",
+      "name": "莎乐美",
+      "dimension": "剧目"
+    },
+    {
+      "id": "xplay-dream",
+      "name": "仲夏夜之梦",
+      "dimension": "剧目"
+    },
+    {
+      "id": "xplay-twelfth",
+      "name": "第十二夜",
+      "dimension": "剧目"
+    },
+    {
+      "id": "xplay-dragon",
+      "name": "龙须沟",
+      "dimension": "剧目"
+    },
+    {
+      "id": "xstyle-jingju",
+      "name": "社会问题剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-yueju",
+      "name": "人像展览",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-pingju",
+      "name": "戏中戏",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-mime",
+      "name": "默剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-playback",
+      "name": "一人一故事",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-verbatim",
+      "name": "文献剧场",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-feminist",
+      "name": "女性主义剧场",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-tragedy",
+      "name": "悲剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-farce",
+      "name": "闹剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-tragicom",
+      "name": "悲喜剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-verse",
+      "name": "诗剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-huaju",
+      "name": "话剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xstyle-kathakali",
+      "name": "史诗身体",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "xdir-follow",
+      "name": "跟光",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-sidelight",
+      "name": "侧光",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-still",
+      "name": "静场",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-halt",
+      "name": "急停",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-eyes",
+      "name": "对视",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-cutin",
+      "name": "打断",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-chorus",
+      "name": "合唱",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-pose",
+      "name": "造型停顿",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-tangma",
+      "name": "虚拟赶路",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-fire",
+      "name": "火焰效果",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-yuan",
+      "name": "环形走位",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-split",
+      "name": "分屏",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-silence",
+      "name": "沉默",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xdir-aside",
+      "name": "旁白",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "xrole-romeo",
+      "name": "罗密欧",
+      "dimension": "主演"
+    },
+    {
+      "id": "xrole-shylock",
+      "name": "夏洛克",
+      "dimension": "主演"
+    },
+    {
+      "id": "xrole-galileo",
+      "name": "伽利略",
+      "dimension": "主演"
+    },
+    {
+      "id": "xrole-desdemona",
+      "name": "苔丝狄蒙娜",
+      "dimension": "主演"
+    },
+    {
+      "id": "xrole-yingying",
+      "name": "崔莺莺",
+      "dimension": "主演"
+    },
+    {
+      "id": "xrole-chong",
+      "name": "周冲",
+      "dimension": "主演"
+    },
+    {
+      "id": "xrole-gold",
+      "name": "金子",
+      "dimension": "主演"
+    },
+    {
+      "id": "xplace-castle",
+      "name": "城堡",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-courtroom",
+      "name": "法庭",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-cellar",
+      "name": "地下室",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-palace",
+      "name": "宫廷",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-stagebox",
+      "name": "戏台",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-study",
+      "name": "书房",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-hospital",
+      "name": "医院",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-classroom",
+      "name": "教室",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-ship",
+      "name": "轮船",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-ruin",
+      "name": "废墟",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-hutong",
+      "name": "胡同",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-siheyuan",
+      "name": "四合院",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-tealounge",
+      "name": "茶楼",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-prison",
+      "name": "监狱",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-bridgehead",
+      "name": "桥头",
+      "dimension": "环境"
+    },
+    {
+      "id": "xplace-circus",
+      "name": "马戏团",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplay-trojan",
+      "name": "特洛亚妇女",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-bacchae",
+      "name": "酒神的伴侣",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-lysistrata",
+      "name": "利西翠妲",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-cid",
+      "name": "熙德",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-servant",
+      "name": "一仆二主",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-elms",
+      "name": "榆树下的欲望",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-ghosts",
+      "name": "群鬼",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-lower",
+      "name": "在底层",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-joan",
+      "name": "圣女贞德",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-intrigue",
+      "name": "阴谋与爱情",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-tell",
+      "name": "威廉·退尔",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-chenyi",
+      "name": "陈毅市长",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-locket",
+      "name": "肮脏的手",
+      "dimension": "剧目"
+    },
+    {
+      "id": "yplay-crossroads",
+      "name": "奠酒人",
+      "dimension": "剧目"
+    },
+    {
+      "id": "ystyle-huju",
+      "name": "最高任务",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-farcehu",
+      "name": "滑稽戏",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-nuoxi",
+      "name": "当众孤独",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-marionette",
+      "name": "群像结构",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-wayang",
+      "name": "史诗叙述",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-morality",
+      "name": "道德剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-operetta",
+      "name": "喜歌剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-video",
+      "name": "影像剧场",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-clown",
+      "name": "小丑戏剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-maskplay",
+      "name": "面具剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-edutheatre",
+      "name": "教育戏剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-community",
+      "name": "社区剧场",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-oppressed",
+      "name": "被压迫者剧场",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-invisible",
+      "name": "隐形剧场",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-epicnarr",
+      "name": "叙事体戏剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ystyle-maskcomedy",
+      "name": "假面喜剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "ydir-qiba",
+      "name": "出场准备",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-yunshou",
+      "name": "手臂轨迹",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-orchid",
+      "name": "手势定点",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-maochi",
+      "name": "头部节奏",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-woyu",
+      "name": "低姿停顿",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-longtao",
+      "name": "群众演员",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-sijitou",
+      "name": "进场四拍",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-qiemo",
+      "name": "大道具",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-yinchang",
+      "name": "公开喝水",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-inner",
+      "name": "内心独白",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-subtext",
+      "name": "潜台词",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-raincurtain",
+      "name": "雨幕",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-skycloth",
+      "name": "天幕",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-bazigong",
+      "name": "武器调度",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-qiaogong",
+      "name": "步态设计",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "ydir-flashcut",
+      "name": "闪回",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "yrole-prometheus",
+      "name": "普罗米修斯",
+      "dimension": "主演"
+    },
+    {
+      "id": "yrole-portia",
+      "name": "鲍西娅",
+      "dimension": "主演"
+    },
+    {
+      "id": "yrole-zhouping",
+      "name": "周萍",
+      "dimension": "主演"
+    },
+    {
+      "id": "yrole-chang",
+      "name": "常四爷",
+      "dimension": "主演"
+    },
+    {
+      "id": "yrole-zhangsheng",
+      "name": "张生",
+      "dimension": "主演"
+    },
+    {
+      "id": "yrole-xier",
+      "name": "喜儿",
+      "dimension": "主演"
+    },
+    {
+      "id": "yrole-stanley",
+      "name": "斯坦利",
+      "dimension": "主演"
+    },
+    {
+      "id": "yrole-cleo",
+      "name": "克莉奥佩特拉",
+      "dimension": "主演"
+    },
+    {
+      "id": "yrole-jason",
+      "name": "伊阿宋",
+      "dimension": "主演"
+    },
+    {
+      "id": "yrole-zhugeliang",
+      "name": "诸葛亮",
+      "dimension": "主演"
+    },
+    {
+      "id": "yplace-hanamichi",
+      "name": "侧桥",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-pit",
+      "name": "乐池",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-changting",
+      "name": "长亭",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-xiulou",
+      "name": "绣楼",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-xiyuan",
+      "name": "池座",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-inn",
+      "name": "客栈",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-lenggong",
+      "name": "偏殿",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-wujiang",
+      "name": "渡口",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-chibi",
+      "name": "赤壁",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-tingzijian",
+      "name": "亭子间",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-tudimiao",
+      "name": "土地庙",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-xiaochang",
+      "name": "校场",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-ward",
+      "name": "病房",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-platform",
+      "name": "月台",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-lighthouse",
+      "name": "灯塔",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-labyrinth",
+      "name": "迷宫",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-greenhouse",
+      "name": "温室",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-vineyard",
+      "name": "葡萄园",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-hashigakari",
+      "name": "桥廊",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-shangchang",
+      "name": "上台口",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-jiulongkou",
+      "name": "台心",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-caishikou",
+      "name": "菜市口",
+      "dimension": "环境"
+    },
+    {
+      "id": "yplace-guifang",
+      "name": "闺房",
+      "dimension": "环境"
+    },
+    {
+      "id": "role2-tiresias",
+      "name": "提瑞西阿斯",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-emilia",
+      "name": "爱米利娅",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-cassio",
+      "name": "卡西奥",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-roderigo",
+      "name": "罗德利哥",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-andromache",
+      "name": "安德洛玛刻",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-hecuba",
+      "name": "赫卡柏",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-orestes",
+      "name": "俄瑞斯忒斯",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-pylades",
+      "name": "皮拉得斯",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-glauce",
+      "name": "格劳刻",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-medea-nurse",
+      "name": "美狄亚的乳母",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-aegeus",
+      "name": "埃勾斯",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-doctor-rank",
+      "name": "阮克医生",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-duval-father",
+      "name": "杜瓦先生",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-olga",
+      "name": "奥尔加",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-irina",
+      "name": "伊里娜",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-luka",
+      "name": "路加",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-pepel",
+      "name": "佩佩尔",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-kabanova",
+      "name": "卡巴诺娃",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-tikhon",
+      "name": "吉洪",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-boris-storm",
+      "name": "鲍里斯（大雷雨）",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-lu-dahai",
+      "name": "鲁大海",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-lu-gui",
+      "name": "鲁贵",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-pan-yueting",
+      "name": "潘月亭",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-cui-xi",
+      "name": "翠喜",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-zeng-wenqing",
+      "name": "曾文清",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-qin-zhongyi",
+      "name": "秦仲义",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-song-erye",
+      "name": "松二爷",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-heizi-signal",
+      "name": "黑子（绝对信号）",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-train-conductor",
+      "name": "车长",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-messenger",
+      "name": "信使",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-neighbor",
+      "name": "邻人",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-witness",
+      "name": "见证者",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-interrogator",
+      "name": "审问者",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-former-lover",
+      "name": "旧情人",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-creditor",
+      "name": "债主",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-spy",
+      "name": "密探",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-clerk",
+      "name": "书记官",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-landlord",
+      "name": "房东",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-rival-lover",
+      "name": "情敌",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-stepmother",
+      "name": "继母",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-visitor",
+      "name": "来客",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-deserter",
+      "name": "逃兵",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-news-child",
+      "name": "报讯的孩子",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-former-wife",
+      "name": "前妻",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-protector",
+      "name": "庇护人",
+      "dimension": "配角"
+    },
+    {
+      "id": "role2-mourner",
+      "name": "送葬人",
+      "dimension": "配角"
+    },
+    {
+      "id": "play-v21-noexit",
+      "name": "禁闭",
+      "dimension": "剧目"
+    },
+    {
+      "id": "play-v21-balcony",
+      "name": "阳台",
+      "dimension": "剧目"
+    },
+    {
+      "id": "play-v21-sixcharacters",
+      "name": "六个寻找作者的剧中人",
+      "dimension": "剧目"
+    },
+    {
+      "id": "play-v21-zoostory",
+      "name": "动物园的故事",
+      "dimension": "剧目"
+    },
+    {
+      "id": "play-v21-twelveangry",
+      "name": "十二怒汉",
+      "dimension": "剧目"
+    },
+    {
+      "id": "play-v21-betrayal",
+      "name": "背叛",
+      "dimension": "剧目"
+    },
+    {
+      "id": "style-v21-sciencefiction",
+      "name": "科幻戏剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "dir-v21-roleswap",
+      "name": "角色互换",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "role-v21-othello",
+      "name": "奥赛罗",
+      "dimension": "主演"
+    },
+    {
+      "id": "role-v21-katerina",
+      "name": "卡捷琳娜",
+      "dimension": "主演"
+    },
+    {
+      "id": "role-v21-margueritecamellia",
+      "name": "玛格丽特（茶花女）",
+      "dimension": "主演"
+    },
+    {
+      "id": "role-v21-antony",
+      "name": "安东尼",
+      "dimension": "主演"
+    },
+    {
+      "id": "role-v21-volumnia",
+      "name": "伏伦妮娅",
+      "dimension": "主演"
+    },
+    {
+      "id": "place-v21-weddinghall",
+      "name": "婚礼宴厅",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-v21-shelter",
+      "name": "避难所",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-v21-ticketwindow",
+      "name": "售票窗口",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-v21-lift",
+      "name": "电梯",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-v21-pharmacy",
+      "name": "药房",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-v21-abandonedpark",
+      "name": "废弃游乐场",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-v21-rehearsalhall",
+      "name": "排练厅",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-v21-waitingtrial",
+      "name": "候审室",
+      "dimension": "环境"
+    },
+    {
+      "id": "place-v22-isolationward",
+      "name": "隔离病房",
+      "dimension": "环境"
+    },
+    {
+      "id": "v23-style-tfa",
+      "name": "儿童剧场",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "v23-style-newcircus",
+      "name": "新马戏",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "v23-style-plaza",
+      "name": "广场戏剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "v23-style-homestead",
+      "name": "家庭室内剧",
+      "dimension": "风格体系"
+    },
+    {
+      "id": "v23-dir-mic",
+      "name": "麦克风独白",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "v23-dir-lateopen",
+      "name": "迟到开场",
+      "dimension": "导演手法"
+    },
+    {
+      "id": "v23-sup-ann",
+      "name": "安·迪弗",
+      "dimension": "配角"
+    },
+    {
+      "id": "v23-place-hangar",
+      "name": "飞机库后院",
+      "dimension": "环境"
+    },
+    {
+      "id": "v23-place-nightsitting",
+      "name": "夜间客厅",
+      "dimension": "环境"
+    },
+    {
+      "id": "v23-place-washhouse",
+      "name": "军营冲洗房",
+      "dimension": "环境"
+    },
+    {
+      "id": "v23-place-jacobin",
+      "name": "雅各宾俱乐部",
+      "dimension": "环境"
+    },
+    {
+      "id": "v23-place-longshore",
+      "name": "长岸公寓",
+      "dimension": "环境"
+    },
+    {
+      "id": "v23-place-hopebar",
+      "name": "霍普旅馆酒吧",
+      "dimension": "环境"
+    },
+    {
+      "id": "v23-place-dormer",
+      "name": "男生宿舍阁楼",
+      "dimension": "环境"
+    },
+    {
+      "id": "v23-place-observation",
+      "name": "精神科观察室",
+      "dimension": "环境"
+    },
+    {
+      "id": "v23-place-lotuspond",
+      "name": "环形莲池",
+      "dimension": "环境"
+    },
+    {
+      "id": "v23-place-frostvillage",
+      "name": "冻土屯子",
+      "dimension": "环境"
+    },
+    {
+      "id": "v23-place-halt",
+      "name": "停运小站",
+      "dimension": "环境"
+    }
+  ]
+}

@@ -1,0 +1,3026 @@
+{
+  "version": 49,
+  "reviewedOn": "2026-11-13",
+  "scope": "常驻185张人物卡逐卡外部核查；核查出处、身份和正文关键事件；艺术解读与排演建议不冒充原作事实。",
+  "expectedCount": 185,
+  "reviews": [
+    {
+      "id": "role-oedipus",
+      "sources": [
+        {
+          "title": "索福克勒斯《俄狄浦斯王》原文，F. Storr译，MIT Internet Classics Archive",
+          "url": "https://classics.mit.edu/Sophocles/oedipus.pl.txt"
+        }
+      ],
+      "factsChecked": [
+        "《俄狄浦斯王》结尾，俄狄浦斯请求放逐，克瑞翁表示须再问神；这与随后《俄狄浦斯在科洛诺斯》的流亡经历有别。v48 已修订此处，本轮沿用原文证据。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "role-nora",
+      "sources": [
+        {
+          "title": "易卜生《玩偶之家》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/2542/pg2542-images.html"
+        }
+      ],
+      "factsChecked": [
+        "海尔茂之妻；为丈夫疗养借款并伪造父亲签名；秘密暴露后认清婚姻关系，结尾离家。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-hamlet",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《hamlet》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "《哈姆雷特》的丹麦王子；父王鬼魂揭示克劳狄斯谋杀，要求复仇；以戏中戏试探国王。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-fanyi",
+      "sources": [
+        {
+          "title": "清华大学出版社《戏剧》教材节选：《雷雨》人物关系与剧情",
+          "url": "https://www.tup.com.cn/upload/books/yz/072257-01.pdf"
+        },
+        {
+          "title": "陆炜：《雷雨》的性解读，南京大学中国新文学研究中心",
+          "url": "https://njucml.nju.edu.cn/5a/51/c22619a350801/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "曹禺《雷雨》中的周朴园妻子、周萍继母。",
+        "她与周萍曾有私情，周萍欲离家，她反对其离去并介入四凤关系；本卡“揭开秘密”不扩写为她知道全部血缘真相。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role-macbeth",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《macbeth》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "苏格兰将领；听女巫预言并杀害邓肯夺位；后继续杀人保权，最终败于麦克德夫。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-doue",
+      "sources": [
+        {
+          "title": "陈颀：司法冤案与儒家礼法——以《窦娥冤》为例，北京大学法学期刊",
+          "url": "https://journal.pkulaw.cn/PDFFiles/司法冤案与儒家礼法.pdf"
+        },
+        {
+          "title": "宿州市司法局：贪赃枉法、善意伪证、“以理杀人”与窦娥冤",
+          "url": "https://sfj.ahsz.gov.cn/pfzl/fzwh/192962851.html"
+        }
+      ],
+      "factsChecked": [
+        "关汉卿《窦娥冤》中的童养媳、后为寡妇。",
+        "因保护蔡婆婆免受刑讯而屈认毒杀罪，刑前提出三项誓愿申冤。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role-liniang",
+      "sources": [
+        {
+          "title": "Pearson Edexcel：《萨勒姆的女巫》指定剧本指南，第四幕梗概",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/GCSE/Drama/2016/teaching-and-learning-materials/GCSE-Drama-The-Crucible-guide-Issue%203-Aug-2021.pdf"
+        }
+      ],
+      "factsChecked": [
+        "《萨勒姆的女巫》中的普罗克托曾签供词，随后拒绝交给法庭公开张贴并撕毁供词。v48 已修正“未签署”的过度简化，本轮核对保留。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "role-ladym",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《macbeth》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "麦克白的妻子；推动杀害邓肯的计划，随后因负罪感精神失序。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-wang",
+      "sources": [
+        {
+          "title": "老舍《茶馆》第一幕原文，安卡拉大学开放课程资料",
+          "url": "https://acikders.ankara.edu.tr/pluginfile.php/160877/mod_resource/content/1/茶馆%20老舍.pdf"
+        },
+        {
+          "title": "人民网：一样的《茶馆》，不一样的“川味”，康顺子第二幕身份",
+          "url": "https://culture.people.com.cn/n1/2017/1207/c1013-29690543.html"
+        }
+      ],
+      "factsChecked": [
+        "老舍《茶馆》中裕泰茶馆掌柜。",
+        "他通过待客周旋与经营改良求生；全剧由茶馆跨时代的困境连接人物，不是武力英雄叙事。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role-shen",
+      "sources": [
+        {
+          "title": "MIT：《The Good Person of Szechwan》分场梗概",
+          "url": "https://www.mit.edu/course/21/21.german/OldFiles/www/WuWei5.html"
+        }
+      ],
+      "factsChecked": [
+        "沈黛接待三位神明后得到钱开店，被索取与生计挤压，假扮表哥隋达经营；双重身份并非两名独立人物。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-zhou",
+      "sources": [
+        {
+          "title": "清华大学出版社《戏剧》教材节选：《雷雨》人物关系与剧情",
+          "url": "https://www.tup.com.cn/upload/books/yz/072257-01.pdf"
+        },
+        {
+          "title": "李家瑞：从对待鲁侍萍感情的真伪谈周朴园性格的复杂性，四川师院学报",
+          "url": "https://wkxb.sicnu.edu.cn/Publish/201605/20160526111025625.pdf"
+        }
+      ],
+      "factsChecked": [
+        "《雷雨》周家家长，与鲁侍萍有旧日关系。",
+        "与侍萍相认时由怀念转为警惕盘问；旧家具、照片及关窗习惯是相认场景的细节。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role-willy",
+      "sources": [
+        {
+          "title": "Weston Playhouse：《Death of a Salesman》教学册（含 Royal Lyceum 梗概）",
+          "url": "https://static1.squarespace.com/static/5015c31fe4b00a22f5ca3112/t/644e78aead7bae3d45c23bd4/1682864303677/Death%2Bof%2BSalesman%2B(Study%2BGuide-Abbreviated).pdf"
+        }
+      ],
+      "factsChecked": [
+        "威利是衰老的旅行推销员，现实与回忆交错，寄望受欢迎与成功；失业及父子争执后，他试图以自杀保险金留给比夫一条出路。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-anti",
+      "sources": [
+        {
+          "title": "索福克勒斯《安提戈涅》原剧，MIT",
+          "url": "https://classics.mit.edu/Sophocles/antigone.html"
+        }
+      ],
+      "factsChecked": [
+        "俄狄浦斯之女；违抗克瑞翁禁令埋葬波吕涅刻斯，被囚岩洞后自缢。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-bailu",
+      "sources": [
+        {
+          "title": "清华大学艺术教育中心：曹禺经典话剧《日出》剧目简介",
+          "url": "https://www.hall.tsinghua.edu.cn/info/dy/5584"
+        },
+        {
+          "title": "中国海洋大学：为找寻日出之时的那一丝微光，校园演出记录",
+          "url": "https://news.ouc.edu.cn/2018/0617/c78a79489/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "曹禺《日出》中的陈白露，生活在都市旅馆的交际圈。",
+        "方达生来劝她离开；小东西遭遇使其面对自己也无法挽救的压迫。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role-gogo",
+      "sources": [
+        {
+          "title": "《等待戈多》2024伦敦制作官方学习指南",
+          "url": "https://waitingforgodotplay.com/content/uploads/2025/01/WFG24_Q3_024_Education-pack_A4_AW.pdf"
+        }
+      ],
+      "factsChecked": [
+        "与弗拉季米尔在树旁等候戈多；在意靴子、食物、身体疼痛；反复说离开却仍留下。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-shiping",
+      "sources": [
+        {
+          "title": "清华大学出版社《戏剧》教材节选：《雷雨》人物关系与剧情",
+          "url": "https://www.tup.com.cn/upload/books/yz/072257-01.pdf"
+        },
+        {
+          "title": "李家瑞：从对待鲁侍萍感情的真伪谈周朴园性格的复杂性，四川师院学报",
+          "url": "https://wkxb.sicnu.edu.cn/Publish/201605/20160526111025625.pdf"
+        }
+      ],
+      "factsChecked": [
+        "鲁侍萍曾在周家生活并生育周萍、鲁大海，后被逐出。",
+        "四凤是她与鲁贵的女儿；时隔多年重入周家，与周朴园相认，担忧女儿的关系。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role-xiangjun",
+      "sources": [
+        {
+          "title": "国立台湾戏曲学院《桃花扇》节目册：人物关系与拒婚血扇",
+          "url": "https://rb009.tcpa.edu.tw/var/file/12/1012/img/618/742628789.pdf"
+        },
+        {
+          "title": "清华大学艺术教育中心：《桃花扇》寄扇、题画等折子剧情",
+          "url": "https://www.hall.tsinghua.edu.cn/info/yc/3072"
+        }
+      ],
+      "factsChecked": [
+        "《桃花扇》李香君为秦淮歌妓，与复社文人侯方域相爱。",
+        "她拒绝权势强迫的婚配，受伤的血迹落在定情扇上；寄扇将离别与时代变局相连。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role-chengying",
+      "sources": [
+        {
+          "title": "高益荣、赵莎莎：“赵氏孤儿”书写中情与理的两维考量，陕西师范大学学报",
+          "url": "https://www.xuebao.snnu.edu.cn/info/1072/6402.htm"
+        },
+        {
+          "title": "纪君祥《赵氏孤儿》节选，高等教育出版社教材章节",
+          "url": "https://oss0.changxianggu.com/book/chapter/269_9787040191790.pdf"
+        }
+      ],
+      "factsChecked": [
+        "纪君祥杂剧《赵氏孤儿》的程婴为草泽医生，承担救孤抚养。",
+        "杂剧版本是舍亲子救赵孤，与《史记》“取他人婴儿”的叙述有别；当前卡片明确纪君祥版本，未混同。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role-yuji",
+      "sources": [
+        {
+          "title": "布莱希特《Mother Courage and Her Children》Eric Bentley 译本，学院课程文本",
+          "url": "https://elearning.raghunathpurcollege.ac.in/files/1068BEC815874692530.pdf"
+        }
+      ],
+      "factsChecked": [
+        "卡特琳是大胆妈妈不能说话的女儿，会救助受难者；第十一场登屋顶击鼓向哈勒城示警，被射杀后城内警报响起。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-lear",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "根据三位女儿的表白分配国土；驱逐拒绝奉承的考狄利娅；失去权力后遭长女、次女排斥。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-courage",
+      "sources": [
+        {
+          "title": "布莱希特《Mother Courage and Her Children》Eric Bentley 译本，学院课程文本",
+          "url": "https://elearning.raghunathpurcollege.ac.in/files/1068BEC815874692530.pdf"
+        }
+      ],
+      "factsChecked": [
+        "安娜·菲尔林即大胆妈妈，是随军卖货的商贩；埃利夫、瑞士奶酪和卡特琳三个孩子先后死去，她最终独自拉车前行。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-blanche",
+      "sources": [
+        {
+          "title": "Concord Theatricals：《A Streetcar Named Desire》",
+          "url": "https://www.concordtheatricals.com/p/98265/a-streetcar-named-desire"
+        },
+        {
+          "title": "École Polytechnique Editions：《A Streetcar Named Desire: From Pen to Prop》节选（引用威廉斯对第十场的说明）",
+          "url": "https://portail.polytechnique.edu/editions/sites/editions/files/content/pages/documents/2024-12/extrait_87.pdf"
+        }
+      ],
+      "factsChecked": [
+        "布兰奇失去家产后投靠妹妹斯黛拉，与斯坦利冲突并尝试通过米奇寻找安身希望；斯坦利对她的性暴力是原剧重要事件，不能把伤害解释成只是揭穿谎言。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-mengmei",
+      "sources": [
+        {
+          "title": "Bristol Old Vic：《The Crucible》Education Pack",
+          "url": "https://bristololdvic.org.uk/index.php/actions/supercoolTools/downloadFile?id=8389"
+        }
+      ],
+      "factsChecked": [
+        "阿比盖尔曾在普罗克托家为仆，与普罗克托有旧情；她利用巫术指控迫害伊丽莎白等人，并依靠法庭认可获得权力。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-zhu",
+      "sources": [
+        {
+          "title": "易卜生《海达·高布乐》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/4093/pg4093-images.html"
+        }
+      ],
+      "factsChecked": [
+        "洛夫伯格是《海达·高布乐》的学者；与泰娅共同完成书稿，醉酒后遗失；死亡经过与海达想象中的英雄式自杀不同。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-vladimir",
+      "sources": [
+        {
+          "title": "《等待戈多》2024伦敦制作官方学习指南",
+          "url": "https://waitingforgodotplay.com/content/uploads/2025/01/WFG24_Q3_024_Education-pack_A4_AW.pdf"
+        }
+      ],
+      "factsChecked": [
+        "等待戈多的两名主人公之一；较着意于记忆和确认约定，反复提醒同伴必须继续等候。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-ophelia",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《hamlet》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "波洛涅斯之女、莱尔提斯之妹；与哈姆雷特有情感关系；父亲被杀后精神失常，后溺亡。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-juliet",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《romeo-and-juliet》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "凯普莱特之女；与罗密欧秘密结婚；为避免被迫另嫁服假死药，醒来见恋人死亡后自杀。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-eliza",
+      "sources": [
+        {
+          "title": "萧伯纳《皮格马利翁》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/files/3825/3825-h/3825-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "卖花女伊莉莎主动求发音训练，学会标准语音后质问希金斯如何对待自己，要求人格与生活自主。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-hedda",
+      "sources": [
+        {
+          "title": "易卜生《海达·高布乐》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/4093/pg4093-images.html"
+        }
+      ],
+      "factsChecked": [
+        "将军之女、泰斯曼之妻；掌握洛夫伯格失落的书稿却焚毁，并以手枪影响其行动；结尾自杀。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-harpagon",
+      "sources": [
+        {
+          "title": "莫里哀《吝啬鬼》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/files/6923/6923-h/6923-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "阿巴贡是克莱昂特与埃莉丝之父；用金钱决定婚配；钱匣被盗后惊慌并怀疑所有人。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-tartuffe",
+      "sources": [
+        {
+          "title": "莫里哀《伪君子》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/2027/pg2027.html"
+        }
+      ],
+      "factsChecked": [
+        "答尔丢夫以虔诚伪装取得奥尔贡信任，觊觎其妻与财产。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-figaro",
+      "sources": [
+        {
+          "title": "Théâtre de Liège：Beaumarchais 教学册",
+          "url": "https://theatredeliege.be/wp-content/uploads/2014/11/CP-Beaumarchais.pdf"
+        }
+      ],
+      "factsChecked": [
+        "费加罗是阿尔马维瓦伯爵的仆人，准备与苏珊成婚，用计谋抵抗伯爵对婚姻的特权干涉。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-mephisto",
+      "sources": [
+        {
+          "title": "歌德《浮士德》第一部原文英译",
+          "url": "https://www.gutenberg.org/cache/epub/3023/pg3023.html"
+        }
+      ],
+      "factsChecked": [
+        "梅菲斯特与浮士德订立契约，并要求用血签字；卡片诱惑与交易的描述对应原作，不混同古诺歌剧。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-cordelia",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "李尔幼女；拒绝夸张表忠，被剥夺嫁妆；嫁法王，后率军归来援父并被杀。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-pozzo",
+      "sources": [
+        {
+          "title": "《等待戈多》2024伦敦制作官方学习指南",
+          "url": "https://waitingforgodotplay.com/content/uploads/2025/01/WFG24_Q3_024_Education-pack_A4_AW.pdf"
+        }
+      ],
+      "factsChecked": [
+        "以绳牵着幸运儿、以主人自居；第二幕失明，需依赖幸运儿引导。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-lucky",
+      "sources": [
+        {
+          "title": "《等待戈多》2024伦敦制作官方学习指南",
+          "url": "https://waitingforgodotplay.com/content/uploads/2025/01/WFG24_Q3_024_Education-pack_A4_AW.pdf"
+        }
+      ],
+      "factsChecked": [
+        "被波卓以绳索役使，搬运行李；被命令思考后作长篇言语，第二幕失去语言。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-chunxiang",
+      "sources": [
+        {
+          "title": "Strindberg Museum：Kristin in Miss Julie",
+          "url": "https://www.strindbergsmuseet.se/wp-content/uploads/2024/11/Kristin_in_Miss_Julie.pdf"
+        }
+      ],
+      "factsChecked": [
+        "克里斯汀是厨娘；她对朱莉与让的关系、两人出走计划作出反应，教会与日常工作构成她的行动背景。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "xrole-hongniang",
+      "sources": [
+        {
+          "title": "江苏省演艺集团《西厢记》剧情简介：传书递柬与拷红",
+          "url": "https://www.jsyanyi.cn/jpjmxq/122.html"
+        }
+      ],
+      "factsChecked": [
+        "《西厢记》红娘是崔府婢女，服务于莺莺。",
+        "为张生与莺莺传书递柬、帮助相会，并在拷红中以老夫人先前的失信据理力争。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "xrole-xiangzi",
+      "sources": [
+        {
+          "title": "郭晨子：新版话剧《骆驼祥子》——不仅仅是一台戏，中国文艺评论网",
+          "url": "https://www.zgwypl.com/content/details10_442246.html"
+        },
+        {
+          "title": "曲彤：《骆驼祥子》乡下人进城叙事研究，学术期刊论文",
+          "url": "https://journal.kci.go.kr/clsyn/archive/articlePdf?artiId=ART003150777"
+        }
+      ],
+      "factsChecked": [
+        "《骆驼祥子》祥子以拉人力车谋生，追求拥有自己的车。",
+        "买车、丢车与劳动生活的挫败构成主要经历；现文“身子被城市收走”按消耗身体的比喻理解，不写成城市处死他。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "xrole-huniu",
+      "sources": [
+        {
+          "title": "郭晨子：新版话剧《骆驼祥子》——不仅仅是一台戏，中国文艺评论网",
+          "url": "https://www.zgwypl.com/content/details10_442246.html"
+        },
+        {
+          "title": "中国作家网：重读《骆驼祥子》——虎妞、虎姑娘与刘姑娘",
+          "url": "https://www.chinawriter.com.cn/n1/2026/0616/c419384-40741021.html"
+        }
+      ],
+      "factsChecked": [
+        "虎妞是人和车厂主人刘四爷的女儿。",
+        "她主动追求祥子并与之成婚，双方意愿和权力并不对等；现文未把她简化成无行动的配偶。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "xrole-sifeng",
+      "sources": [
+        {
+          "title": "清华大学出版社《戏剧》教材节选：《雷雨》人物关系与剧情",
+          "url": "https://www.tup.com.cn/upload/books/yz/072257-01.pdf"
+        },
+        {
+          "title": "陆炜：《雷雨》的性解读，南京大学中国新文学研究中心",
+          "url": "https://njucml.nju.edu.cn/5a/51/c22619a350801/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "《雷雨》四凤在周家做女佣，是鲁侍萍的女儿。",
+        "她与周萍相恋时不知道两人同母异父的关系，符合卡片所写的信息差。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "xrole-juexin",
+      "sources": [
+        {
+          "title": "曹禺全集第三卷：《家》人物表及正文，花山文艺出版社1995年版扫描镜像",
+          "url": "https://ivantsoi.myds.me/web/schoolebook/pdf/008003.pdf"
+        },
+        {
+          "title": "上海交通大学中国语言文学系：《家》阅读与人物讨论",
+          "url": "https://chinese.sjtu.edu.cn/Web/Show/72"
+        }
+      ],
+      "factsChecked": [
+        "《家》人物表列觉新为大房长子、大少爷，即长房长孙。",
+        "他在家长压力下妥协，顺从婚姻和家庭安排，与觉慧形成行动对照。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "xrole-chanjuan",
+      "sources": [
+        {
+          "title": "盐田档案与史志信息网：郭沫若历史剧《屈原》剧情",
+          "url": "https://www.yantian.gov.cn/ytdayszxxw/lsjt/content/post_11737588.html"
+        },
+        {
+          "title": "吴曼曼：论郭沫若制作《湘累》与《屈原》中的屈原诠释与自我模拟，成功大学中文学报",
+          "url": "https://chinese.ncku.edu.tw/var/file/142/1142/img/4253/7803.pdf"
+        }
+      ],
+      "factsChecked": [
+        "郭沫若话剧《屈原》中的婵娟是虚构的侍女、追随者，非以史籍人物身份认证。",
+        "她曾被囚，获卫士救出后前往营救屈原，误饮为毒害屈原准备的酒；需把获救与误饮的先后说清。"
+      ],
+      "status": "verified-correction"
+    },
+    {
+      "id": "xrole-zhulian",
+      "sources": [
+        {
+          "title": "田汉基金会：田汉作品信息《关汉卿》，朱帘秀支持创作与承担演出",
+          "url": "https://tianhanfoundation.org/news_28/194.html"
+        },
+        {
+          "title": "田汉：《关汉卿》自序，田汉基金会",
+          "url": "https://www.tianhanfoundation.org/news_35/375.html"
+        },
+        {
+          "title": "夏庭芝《青楼集·珠帘秀》原文，中国古典戏曲资料库",
+          "url": "https://ccddb.net/青樓集/珠簾秀"
+        }
+      ],
+      "factsChecked": [
+        "田汉话剧《关汉卿》中朱帘秀支持《窦娥冤》的写作，并承担公开演出的风险。",
+        "《青楼集》条目作“珠帘秀”，正文载姓朱氏；田汉《关汉卿》自序及作品介绍统一作“朱帘秀”。本卡绑定田汉话剧，建议显示名与剧本同步，不把历史艺名另一写法断言为不存在。"
+      ],
+      "status": "verified-correction"
+    },
+    {
+      "id": "xrole-cao",
+      "sources": [
+        {
+          "title": "上海京剧院新编京剧《曹操与杨修》演出资料，新浪演出信息转载",
+          "url": "https://ent.sina.com.cn/j/2009-01-07/16282332316.shtml?from=wap"
+        },
+        {
+          "title": "京剧《曹操与杨修》：从传统走向现代，荔枝艺评",
+          "url": "https://news.jstv.com/a/20161210/1481276267276.shtml"
+        }
+      ],
+      "factsChecked": [
+        "京剧《曹操与杨修》的曹操赏识和使用杨修，又受猜疑、权势与性格冲突驱使。",
+        "剧中最终处死杨修；本卡评价针对这部京剧塑造，不给历史曹操下统一定论。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "xrole-yangxiu",
+      "sources": [
+        {
+          "title": "上海京剧院新编京剧《曹操与杨修》演出资料，新浪演出信息转载",
+          "url": "https://ent.sina.com.cn/j/2009-01-07/16282332316.shtml?from=wap"
+        },
+        {
+          "title": "京剧《曹操与杨修》：从传统走向现代，荔枝艺评",
+          "url": "https://news.jstv.com/a/20161210/1481276267276.shtml"
+        }
+      ],
+      "factsChecked": [
+        "京剧中杨修以才智获曹操重用，两人的主从关系与才智较量逐步恶化。",
+        "误杀孔闻岱、斜谷退兵等冲突最终通向杨修被杀；“说破心思”是概括性评语，不充当完整历史死因。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "xrole-gouer",
+      "sources": [
+        {
+          "title": "王一川：“两个结合”与中国现实主义文艺的五种理论范式，中国作家网",
+          "url": "https://www.chinawriter.com.cn/n1/2024/1017/c459179-40341242.html"
+        }
+      ],
+      "factsChecked": [
+        "刘锦云《狗儿爷涅槃》中的狗儿爷为农民。",
+        "他与已死地主祁永年的跨时空对话围绕土地和身份展开，符合本卡现实与记忆交错的介绍。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "xrole-shang",
+      "sources": [
+        {
+          "title": "上海话剧艺术中心：《商鞅》首演三十周年纪念演出官方发布",
+          "url": "https://www.sohu.com/a/957359039_740643"
+        },
+        {
+          "title": "西北大学现代学院：话剧作品中的反神权意识——评话剧《商鞅》",
+          "url": "https://www.xdxd.cn/jxtd/jgyd/jlyd/2024-12-02/61915.html"
+        }
+      ],
+      "factsChecked": [
+        "姚远编剧话剧《商鞅》以秦国变法者商鞅为中心。",
+        "变法强秦与最后身死构成悲剧主线；“不能超出自己制定的法”作为法与个人命运的评论，未增加未核定的具体史实。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "yrole-clytemnestra",
+      "sources": [
+        {
+          "title": "Duke University：埃斯库罗斯《阿伽门农》逐段梗概",
+          "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
+        }
+      ],
+      "factsChecked": [
+        "《阿伽门农》中的王后；以欢迎仪式迎接特洛伊归来的丈夫并杀死他；女儿被献祭是复仇动机之一。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-witches",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《macbeth》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "三位女巫先预言麦克白的王位、班柯后代为王；后续预言促成麦克白的错误安全感。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-horatio",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《hamlet》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "哈姆雷特的友人；见证鬼魂与宫廷悲剧；结尾存活并承担讲述真相的责任。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-prospero",
+      "sources": [
+        {
+          "title": "RSC / Folger 莎士比亚原剧及人物资料",
+          "url": "https://www.folger.edu/explore/shakespeares-works/the-tempest/read/5/1/"
+        }
+      ],
+      "factsChecked": [
+        "《暴风雨》中被弟弟夺位的米兰公爵、米兰达之父；操控岛上精灵；第五幕选择宽恕，放弃魔法。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-ariel",
+      "sources": [
+        {
+          "title": "RSC / Folger 莎士比亚原剧及人物资料",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/the-tempest/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "《暴风雨》的精灵；被普洛斯彼罗从西考拉克斯的囚禁中解救，替他执行魔法任务并期待自由。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-richardiii",
+      "sources": [
+        {
+          "title": "RSC / Folger 莎士比亚原剧及人物资料",
+          "url": "https://www.folger.edu/explore/shakespeares-works/richard-iii/"
+        }
+      ],
+      "factsChecked": [
+        "《理查三世》中格罗斯特公爵理查；以阴谋、谋杀和对他人的操纵夺取王位。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-falstaff",
+      "sources": [
+        {
+          "title": "RSC / Folger 莎士比亚原剧及人物资料",
+          "url": "https://www.folger.edu/explore/shakespeares-works/henry-iv-part-1/read/5/1/"
+        }
+      ],
+      "factsChecked": [
+        "《亨利四世》中的爵士，哈尔王子的酒馆伙伴；第五幕荣誉独白把荣誉与肉身的损伤相对照。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-helmer",
+      "sources": [
+        {
+          "title": "易卜生《玩偶之家》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/2542/pg2542-images.html"
+        }
+      ],
+      "factsChecked": [
+        "娜拉的丈夫、银行经理；读到第一封信先顾及名誉，退回借据后又恢复宽恕式亲昵称呼。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-stockmann",
+      "sources": [
+        {
+          "title": "易卜生《人民公敌》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/files/2446/2446-h/2446-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "温泉浴场医生；发现水源污染并要求整改；与市长、报社及市民经济利益冲突，在集会上被宣为人民公敌。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-khlestakov",
+      "sources": [
+        {
+          "title": "果戈理《钦差大臣》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/3735/pg3735-images.html"
+        }
+      ],
+      "factsChecked": [
+        "赫列斯达可夫是年轻小官，在旅途中被误认为钦差；顺着奉承夸耀地位并收取金钱。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-qiuhu",
+      "sources": [
+        {
+          "title": "国家大剧院：《原野》演出人物表与剧情",
+          "url": "https://www.chncpa.org/ycxm/201203/t20120320_147400.html"
+        },
+        {
+          "title": "喻汀芷：《原野》——一场出色的困兽犹斗，国际演艺评论家协会香港分会",
+          "url": "https://www.iatc.com.hk/doc/106726"
+        }
+      ],
+      "factsChecked": [
+        "曹禺《原野》仇虎因焦家旧日迫害返乡复仇，与金子原有爱情关系。",
+        "仇人焦阎王已死，仇虎转而伤害焦大星，逃亡时陷入恐惧和罪疚。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "yrole-juehui",
+      "sources": [
+        {
+          "title": "曹禺全集第三卷：《家》人物表及正文，花山文艺出版社1995年版扫描镜像",
+          "url": "https://ivantsoi.myds.me/web/schoolebook/pdf/008003.pdf"
+        },
+        {
+          "title": "上海交通大学中国语言文学系：《家》阅读与人物讨论",
+          "url": "https://chinese.sjtu.edu.cn/Web/Show/72"
+        }
+      ],
+      "factsChecked": [
+        "曹禺《家》人物表明确觉慧为大房三子、三少爷。",
+        "高家同时还有觉英、觉群、觉世等年轻人物，所以“高家最年轻的那个”不成立；他反抗家族束缚并选择离开。"
+      ],
+      "status": "verified-correction"
+    },
+    {
+      "id": "yrole-baisuzhen",
+      "sources": [
+        {
+          "title": "易卜生《野鸭》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/files/70577/70577-h/70577-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "格莱格斯是韦勒之子、雅尔马旧友；要求揭开家庭隐秘，向海特维建议牺牲野鸭；结果女孩自杀，其理想受到雷凌质疑。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-guifei",
+      "sources": [
+        {
+          "title": "索福克勒斯《厄勒克特拉》原剧，MIT",
+          "url": "https://classics.mit.edu/Sophocles/electra.html"
+        }
+      ],
+      "factsChecked": [
+        "索福克勒斯《厄勒克特拉》中阿伽门农之女，持续哀悼遇害父亲；与归来的兄弟俄瑞斯忒斯相认并支持复仇。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-bawang",
+      "sources": [
+        {
+          "title": "布莱希特《Mother Courage and Her Children》Eric Bentley 译本，学院课程文本",
+          "url": "https://elearning.raghunathpurcollege.ac.in/files/1068BEC815874692530.pdf"
+        }
+      ],
+      "factsChecked": [
+        "埃利夫是大胆妈妈长子；劫掠农民的行动战时得到表扬，和平时因再度抢劫杀人被押赴处决。第八场明确比较两次同类行为。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-liangshanbo",
+      "sources": [
+        {
+          "title": "易卜生《海达·高布乐》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/4093/pg4093-images.html"
+        }
+      ],
+      "factsChecked": [
+        "泰斯曼是《海达·高布乐》的学者、海达丈夫；拾到洛夫伯格书稿；后来与泰娅整理笔记、尝试重建作品。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-tietmei",
+      "sources": [
+        {
+          "title": "Edward Albee Society：《Who’s Afraid of Virginia Woolf?》剧情与研究",
+          "url": "https://edwardalbeesociety.org/works/whos-afraid-of-virginia-woolf/"
+        }
+      ],
+      "factsChecked": [
+        "玛莎与丈夫乔治招待尼克和霍尼，在一夜饮酒与言语游戏中互相揭短；虚构儿子暴露后，她承认恐惧。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-aqing",
+      "sources": [
+        {
+          "title": "Edward Albee Society：《Who’s Afraid of Virginia Woolf?》剧情与研究",
+          "url": "https://edwardalbeesociety.org/works/whos-afraid-of-virginia-woolf/"
+        }
+      ],
+      "factsChecked": [
+        "乔治是玛莎的丈夫、历史学教授；他以言语游戏反击，最终宣布虚构儿子的死亡，终结夫妻共有的幻象。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-zijirong",
+      "sources": [
+        {
+          "title": "Edward Albee Society：《Who’s Afraid of Virginia Woolf?》剧情与研究",
+          "url": "https://edwardalbeesociety.org/works/whos-afraid-of-virginia-woolf/"
+        }
+      ],
+      "factsChecked": [
+        "霍尼是尼克的妻子，与丈夫一同作客；她被卷入乔治与玛莎的游戏，自己的婚姻隐情也被公开。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-malu",
+      "sources": [
+        {
+          "title": "清华大学艺术教育中心：《恋爱的犀牛》登陆清华，马路与明明人物关系",
+          "url": "https://www.hall.tsinghua.edu.cn/info/xwkx/1432"
+        },
+        {
+          "title": "清华大学艺术教育中心：《恋爱的犀牛》主创及剧情",
+          "url": "https://www.hall.tsinghua.edu.cn/info/jz/1379"
+        }
+      ],
+      "factsChecked": [
+        "廖一梅编剧、孟京辉导演的《恋爱的犀牛》中，马路为犀牛饲养员。",
+        "他追求明明，明明另有所爱；后来以爱为名绑架她，故评论中的执着与控制的冲突有剧情依据。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "yrole-houfangyu",
+      "sources": [
+        {
+          "title": "国立台湾戏曲学院《桃花扇》节目册：人物关系与拒婚血扇",
+          "url": "https://rb009.tcpa.edu.tw/var/file/12/1012/img/618/742628789.pdf"
+        },
+        {
+          "title": "清华大学艺术教育中心：《桃花扇》寄扇、题画等折子剧情",
+          "url": "https://www.hall.tsinghua.edu.cn/info/yc/3072"
+        }
+      ],
+      "factsChecked": [
+        "孔尚任《桃花扇》侯方域为复社文人，与李香君相爱。",
+        "受政治势力迫害离开南京，情爱离合卷入南明兴亡；不将人物原型全部生平当成此剧剧情。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "yrole-dorine",
+      "sources": [
+        {
+          "title": "莫里哀《伪君子》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/2027/pg2027.html"
+        }
+      ],
+      "factsChecked": [
+        "玛丽亚娜的侍女，直言识破伪善；反对奥尔贡安排女儿嫁答尔丢夫，帮助她与瓦莱尔。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-mackheath",
+      "sources": [
+        {
+          "title": "Indianapolis Opera：《The Threepenny Opera》节目册剧情",
+          "url": "https://www.indyopera.org/uploads/1/2/0/7/12072196/thethreepennyopera_programbook_web.pdf"
+        }
+      ],
+      "factsChecked": [
+        "匪首麦克希思与皮彻姆的女儿波莉秘密结婚；皮彻姆为自身利益策划其被捕和受刑，结尾赦免属于戏剧性的突转。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-hamm",
+      "sources": [
+        {
+          "title": "Milwaukee Repertory Theater：《终局》剧情及人物指南",
+          "url": "https://media.milwaukeerep.com/filer_public/3c/38/3c3871fe-680b-42f2-8495-377c53c9389b/endgamesg.pdf"
+        }
+      ],
+      "factsChecked": [
+        "汉姆是盲而无法站立的主人；坐轮椅发令并依赖克洛夫；纳格与奈尔是其父母。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-linda",
+      "sources": [
+        {
+          "title": "Weston Playhouse：《Death of a Salesman》教学册（含 Royal Lyceum 梗概）",
+          "url": "https://static1.squarespace.com/static/5015c31fe4b00a22f5ca3112/t/644e78aead7bae3d45c23bd4/1682864303677/Death%2Bof%2BSalesman%2B(Study%2BGuide-Abbreviated).pdf"
+        }
+      ],
+      "factsChecked": [
+        "琳达是威利的妻子，知道其自杀风险并要求儿子尊重父亲；她维持家计，结尾在墓前面对房贷清偿与丈夫死亡的反差。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-brutus",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《julius-caesar》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/julius-caesar/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "罗马政治人物；担忧凯撒独裁而加入刺杀同盟；刺杀后内战失败，自杀。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-solveig",
+      "sources": [
+        {
+          "title": "易卜生《培尔·金特》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/66239/pg66239-images.html"
+        }
+      ],
+      "factsChecked": [
+        "索尔维格等待远行的培尔；暮年重逢时以信念、希望与爱回应他关于自我的追问。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-wukong",
+      "sources": [
+        {
+          "title": "Folger：《暴风雨》第一幕第二场",
+          "url": "https://www.folger.edu/explore/shakespeares-works/the-tempest/read/1/2/"
+        }
+      ],
+      "factsChecked": [
+        "凯列班是《暴风雨》中西考拉克斯之子，自称岛屿原主；被普洛斯彼罗役使，以所学语言咒骂他。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "yrole-kuangzhong",
+      "sources": [
+        {
+          "title": "谢立丹《造谣学校》原文，第四幕第三场，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1929/pg1929.html"
+        }
+      ],
+      "factsChecked": [
+        "《造谣学校》第四幕屏风后藏着蒂兹尔夫人；彼得爵士躲在壁橱偷听，随后出来。v48 已纠正两人藏身处混淆，本轮核对保留。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "role2-creon",
+      "sources": [
+        {
+          "title": "索福克勒斯《安提戈涅》原剧，MIT",
+          "url": "https://classics.mit.edu/Sophocles/antigone.html"
+        }
+      ],
+      "factsChecked": [
+        "底比斯国王；禁止埋葬波吕涅刻斯并惩处安提戈涅；迟来的撤令未能挽回儿子与妻子的死亡。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-ismene",
+      "sources": [
+        {
+          "title": "索福克勒斯《安提戈涅》原剧，MIT",
+          "url": "https://classics.mit.edu/Sophocles/antigone.html"
+        }
+      ],
+      "factsChecked": [
+        "安提戈涅的姐妹；最初恐惧王权而拒绝参与埋葬，后来愿与姐姐分担罪责，被姐姐拒绝。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-juliet-nurse",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《romeo-and-juliet》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "抚养朱丽叶的乳母；为恋人传递消息；罗密欧被放逐后转而建议她嫁帕里斯。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-mercutio",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《romeo-and-juliet》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "罗密欧友人，亲王的亲属；在与提伯尔冲突中被刺死，临死诅咒两大家族。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-banquo",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《macbeth》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "麦克白的战友；获知自己的后代将为王；被麦克白派人杀害，其鬼魂出现在宴席。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-macduff",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《macbeth》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "费夫领主，反抗麦克白；家人遭屠杀；最后杀死麦克白。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-laertes",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《哈姆雷特》第四幕第五、七场原文及梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/4/"
+        }
+      ],
+      "factsChecked": [
+        "莱尔提斯为父亲之死归国时，妹妹仍活着；他先见到精神失常的奥菲利娅，直到与克劳狄斯商议毒剑决斗时才听见她溺亡的消息。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "role2-polonius",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《hamlet》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "大臣、奥菲利娅和莱尔提斯之父；监控子女与王子的关系；藏在帘后被哈姆雷特误杀。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-gertrude",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《hamlet》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "哈姆雷特的母亲；前王死后嫁给克劳狄斯；决斗场景误饮预留给儿子的毒酒。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-claudius",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《hamlet》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "前王的兄弟；杀兄后继位并迎娶王后；安排杀害哈姆雷特的计划。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-goneril",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "李尔长女、奥尔巴尼之妻；以奉承获土地；之后削减父亲随从，与埃德蒙有私情。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-regan",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "李尔次女、康沃尔之妻；继承土地后拒绝父亲；参与迫害格罗斯特。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-edmund",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "格罗斯特的非婚生儿子；伪造书信陷害兄长爱德伽，并出卖父亲援助李尔的行动。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-kent",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "劝谏李尔而遭放逐；化名改装返国服侍国王，风暴中仍不离弃。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-fool-lear",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "李尔的弄人；以玩笑和歌谣指出国王的错误；随其经历失势及风暴。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-gloucester",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "埃德伽与埃德蒙之父；误信陷害长子的谎言；因援助李尔被剜眼，后获长子照顾。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-edgar",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "格罗斯特的婚生儿子；受诬后装疯为贫民汤姆；陪伴失明父亲，并在决斗中击败埃德蒙。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-malcolm",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《macbeth》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "邓肯长子；父亲遇害后逃往英格兰；联合麦克德夫返国，最终登基。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-duncan",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《macbeth》人物关系及行动说明",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+        }
+      ],
+      "factsChecked": [
+        "苏格兰国王；信任并奖赏麦克白；到其城堡作客时被杀。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-cassandra",
+      "sources": [
+        {
+          "title": "Duke University：埃斯库罗斯《阿伽门农》逐段梗概",
+          "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
+        }
+      ],
+      "factsChecked": [
+        "被俘的特洛伊公主、预言者；预见阿伽门农及自己的死亡，仍走入宫中。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-agamemnon",
+      "sources": [
+        {
+          "title": "Duke University：埃斯库罗斯《阿伽门农》逐段梗概",
+          "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
+        }
+      ],
+      "factsChecked": [
+        "率军征讨特洛伊的国王；带卡珊德拉归国，受妻子劝说踏上华贵织物入宫后被杀。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-aegisthus",
+      "sources": [
+        {
+          "title": "Duke University：埃斯库罗斯《阿伽门农》逐段梗概",
+          "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
+        }
+      ],
+      "factsChecked": [
+        "提厄斯忒斯之子，与克吕泰涅斯特拉同谋；在谋杀后公开宣称参与策划，并与长老对峙。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-martha-misunderstanding",
+      "sources": [
+        {
+          "title": "Rowohlt Theater Verlag：《Das Missverständnis》",
+          "url": "https://www.rowohlt-theaterverlag.de/theaterstueck/das-missverstaendnis-2620"
+        }
+      ],
+      "factsChecked": [
+        "玛尔塔与母亲开旅店并谋财杀客，兄长扬隐瞒身份回家而被杀，她们事后才从证件发现亲属关系。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-kristine-linde",
+      "sources": [
+        {
+          "title": "易卜生《玩偶之家》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/2542/pg2542-images.html"
+        }
+      ],
+      "factsChecked": [
+        "娜拉的寡居旧友，为谋生求职；与旧情人格洛克斯塔复合；主动反对撤回揭露娜拉借款的信。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-krogstad",
+      "sources": [
+        {
+          "title": "易卜生《玩偶之家》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/2542/pg2542-images.html"
+        }
+      ],
+      "factsChecked": [
+        "银行职员、娜拉债主；以伪造签名逼她保住职位；与林德太太重归于好后退还借据。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-lopakhin",
+      "sources": [
+        {
+          "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+        }
+      ],
+      "factsChecked": [
+        "洛巴辛是农奴后代、商人；建议拆分庄园建避暑别墅，后在拍卖买下庄园；始终没有向瓦里雅求婚。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-gayev",
+      "sources": [
+        {
+          "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+        }
+      ],
+      "factsChecked": [
+        "朗涅夫斯卡娅之兄；向旧书柜致辞、频用台球术语；未能保住庄园。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-varya",
+      "sources": [
+        {
+          "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+        }
+      ],
+      "factsChecked": [
+        "庄园女主的养女，管理家务并佩带钥匙；等待洛巴辛求婚未果，庄园出售后离开。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-anya-cherry",
+      "sources": [
+        {
+          "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+        }
+      ],
+      "factsChecked": [
+        "朗涅夫斯卡娅的女儿；受特罗费莫夫理想鼓舞；庄园出售后安慰母亲，向往新的生活。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-trofimov",
+      "sources": [
+        {
+          "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+        }
+      ],
+      "factsChecked": [
+        "《樱桃园》的学生、曾任溺亡孩子的家庭教师；批评农奴制旧生活，谈劳动与未来，影响安妮娅。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-serebryakov",
+      "sources": [
+        {
+          "title": "契诃夫《万尼亚舅舅》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+        }
+      ],
+      "factsChecked": [
+        "退休教授、索尼娅之父、叶列娜丈夫；提出出售庄园投资债券，引发瓦尼亚的愤怒。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-sonya",
+      "sources": [
+        {
+          "title": "契诃夫《万尼亚舅舅》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+        }
+      ],
+      "factsChecked": [
+        "教授之女、瓦尼亚外甥女；管理庄园并暗恋阿斯特罗夫；结尾以未来安息的信念安慰舅舅，继续工作。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-yelena",
+      "sources": [
+        {
+          "title": "契诃夫《万尼亚舅舅》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+        }
+      ],
+      "factsChecked": [
+        "教授年轻的第二任妻子；受瓦尼亚和阿斯特罗夫吸引与追求，最终随丈夫离开。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-tuzenbach",
+      "sources": [
+        {
+          "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+        }
+      ],
+      "factsChecked": [
+        "《三姐妹》中的男爵、军官；计划与伊里娜成婚并开始劳动生活；出发前在与索列尼决斗中死亡。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-solyony",
+      "sources": [
+        {
+          "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+        }
+      ],
+      "factsChecked": [
+        "《三姐妹》中的军官；追求伊里娜，敌视图森巴赫；以决斗杀死情敌。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-vershinin",
+      "sources": [
+        {
+          "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+        }
+      ],
+      "factsChecked": [
+        "炮兵中校，已婚有女儿；与玛莎相爱，谈论遥远未来的幸福；随军离开与玛莎告别。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-andrei-three-sisters",
+      "sources": [
+        {
+          "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+        }
+      ],
+      "factsChecked": [
+        "三姐妹的兄弟；从学术期待走向地方公职，娶娜塔莎；赌债使他抵押共有房产。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-treplev",
+      "sources": [
+        {
+          "title": "契诃夫《海鸥》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
+        }
+      ],
+      "factsChecked": [
+        "成名演员阿尔卡季娜之子；尝试新的戏剧形式，爱尼娜并渴望母亲认可；最终自杀。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-arkadina",
+      "sources": [
+        {
+          "title": "契诃夫《海鸥》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
+        }
+      ],
+      "factsChecked": [
+        "成名演员、特里波列夫之母、特里戈林的伴侣；否定儿子实验戏剧并争取留住情人。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-nina",
+      "sources": [
+        {
+          "title": "契诃夫《海鸥》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
+        }
+      ],
+      "factsChecked": [
+        "年轻地主之女，向往演员生活；与特里戈林相爱并经历失子和被抛弃；结尾仍选择继续演出。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-trigorin",
+      "sources": [
+        {
+          "title": "契诃夫《海鸥》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
+        }
+      ],
+      "factsChecked": [
+        "成名作家、阿尔卡季娜的伴侣；随手记录创作素材，与尼娜发生关系后回到阿尔卡季娜身边。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-mayor-inspector",
+      "sources": [
+        {
+          "title": "果戈理《钦差大臣》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/3735/pg3735-images.html"
+        }
+      ],
+      "factsChecked": [
+        "市长听说密访钦差将至，因恐惧罪行暴露误认年轻旅客，行贿、奉承并试图攀亲。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-hippolytus",
+      "sources": [
+        {
+          "title": "拉辛《费德尔》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1977/pg1977-images.html"
+        }
+      ],
+      "factsChecked": [
+        "忒修斯之子；被继母费德尔爱恋，受俄诺涅诬告而被父亲诅咒；海怪导致战车事故死亡。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-oenone",
+      "sources": [
+        {
+          "title": "拉辛《费德尔》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1977/pg1977-images.html"
+        }
+      ],
+      "factsChecked": [
+        "费德尔的乳母及亲信；为保全女主人抢先诬告希波吕托斯；遭女主人斥责后投海。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-theseus",
+      "sources": [
+        {
+          "title": "拉辛《费德尔》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1977/pg1977-images.html"
+        }
+      ],
+      "factsChecked": [
+        "费德尔之夫、希波吕托斯之父；听信诬告向海神求惩，随后才获知儿子无辜。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-clov",
+      "sources": [
+        {
+          "title": "Milwaukee Repertory Theater：《终局》剧情及人物指南",
+          "url": "https://media.milwaukeerep.com/filer_public/3c/38/3c3871fe-680b-42f2-8495-377c53c9389b/endgamesg.pdf"
+        }
+      ],
+      "factsChecked": [
+        "照料汉姆、查看外界、反复威胁离开；结尾换旅行服站着旁观，去留未被解决。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-nagg",
+      "sources": [
+        {
+          "title": "Milwaukee Repertory Theater：《终局》剧情及人物指南",
+          "url": "https://media.milwaukeerep.com/filer_public/3c/38/3c3871fe-680b-42f2-8495-377c53c9389b/endgamesg.pdf"
+        }
+      ],
+      "factsChecked": [
+        "汉姆的父亲，住在垃圾桶中；索要食物、讲旧笑话，与奈尔回忆过去。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-nell",
+      "sources": [
+        {
+          "title": "Milwaukee Repertory Theater：《终局》剧情及人物指南",
+          "url": "https://media.milwaukeerep.com/filer_public/3c/38/3c3871fe-680b-42f2-8495-377c53c9389b/endgamesg.pdf"
+        }
+      ],
+      "factsChecked": [
+        "汉姆母亲、纳格妻子；两人各困垃圾桶，试图接吻但距离不足，回忆旧日。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-jean-rhinoceros",
+      "sources": [
+        {
+          "title": "Royal Court Theatre：Rhinoceros Background Pack",
+          "url": "https://d19lfjg8hluhfw.cloudfront.net/wp-content/uploads/2016/09/25191802/Rhinoceros-Resource-Pack1.pdf"
+        }
+      ],
+      "factsChecked": [
+        "让先责备贝兰杰的酗酒、散漫，第二幕在贝兰杰面前逐渐变成犀牛，同时为兽化辩护。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-fire-chief",
+      "sources": [
+        {
+          "title": "MGL 剧院：《The Bald Soprano》剧情介绍",
+          "url": "https://www.mgl.si/en/shows/plesasta-pevka/"
+        }
+      ],
+      "factsChecked": [
+        "消防队长来到史密斯家寻找火情，随后加入讲故事与荒诞交际，人物来源及动作与原剧情相符。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-claire-maids",
+      "sources": [
+        {
+          "title": "Concord Theatricals：《The Maids》授权简介",
+          "url": "https://www.concordtheatricals.com/p/9285/the-maids"
+        }
+      ],
+      "factsChecked": [
+        "克莱尔与索朗日是为富有女主人工作的姐妹女仆；通过扮演主人与仆人表达爱、怨恨和反抗。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-solange",
+      "sources": [
+        {
+          "title": "Concord Theatricals：《The Maids》授权简介",
+          "url": "https://www.concordtheatricals.com/p/9285/the-maids"
+        },
+        {
+          "title": "A Noise Within：《The Maids》Audience Guide 人物表",
+          "url": "https://www.anoisewithin.org/wp-content/uploads/2016/08/16-17AudienceGuide_TheMaids.pdf"
+        }
+      ],
+      "factsChecked": [
+        "索朗日与克莱尔是姐妹女仆，角色游戏与谋害女主人的计划相交；照料与控制是据此作出的戏剧解读。",
+        "索朗日是克莱尔的姐姐，人物表明确两人的长幼关系。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role2-li-shiqing",
+      "sources": [
+        {
+          "title": "曹禺《日出》节选教学材料：黄省三与李石清对话",
+          "url": "https://www.lyglxy.com/uploads/editor/file/20241023/1729665869337948.pdf"
+        },
+        {
+          "title": "中国海洋大学：为找寻日出之时的那一丝微光，校园演出记录",
+          "url": "https://news.ouc.edu.cn/2018/0617/c78a79489/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "《日出》李石清是大丰银行秘书，处于银行等级关系之中。",
+        "对遭辞退的黄省三以冷硬言语拒绝，逼其另谋生计，向下施压与卡片概括一致。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-huang-shengsan",
+      "sources": [
+        {
+          "title": "曹禺《日出》节选教学材料：黄省三与李石清对话",
+          "url": "https://www.lyglxy.com/uploads/editor/file/20241023/1729665869337948.pdf"
+        },
+        {
+          "title": "中国海洋大学：为找寻日出之时的那一丝微光，校园演出记录",
+          "url": "https://news.ouc.edu.cn/2018/0617/c78a79489/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "《日出》黄省三为银行小职员，被辞退后失去收入。",
+        "他为自己和家人吃饭的问题向李石清求情而遭拒，绝境来自失业和生计压力。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-fang-dasheng",
+      "sources": [
+        {
+          "title": "清华大学艺术教育中心：曹禺经典话剧《日出》剧目简介",
+          "url": "https://www.hall.tsinghua.edu.cn/info/dy/5584"
+        }
+      ],
+      "factsChecked": [
+        "《日出》方达生是从家乡赶来找陈白露的旧友。",
+        "试图劝她离开当前生活、重新开始，不能简单把她的现实处境等同自己的理想方案。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-jiao-mother",
+      "sources": [
+        {
+          "title": "国家大剧院：《原野》演出人物表与剧情",
+          "url": "https://www.chncpa.org/ycxm/201203/t20120320_147400.html"
+        },
+        {
+          "title": "贵州广播电视台：一鸢戏剧五周年，焦母扮演者访谈",
+          "url": "https://www.gzstv.com/a/099d654e3c4944b0897ed1b968979e1c"
+        }
+      ],
+      "factsChecked": [
+        "《原野》焦母为焦阎王的遗孀、焦大星母亲。",
+        "失明而依然强力掌控家内关系，对仇虎来访警惕；与金子的婆媳冲突是人物关系的重要部分。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-jiao-daxing",
+      "sources": [
+        {
+          "title": "国家大剧院：《原野》演出人物表与剧情",
+          "url": "https://www.chncpa.org/ycxm/201203/t20120320_147400.html"
+        },
+        {
+          "title": "喻汀芷：《原野》——一场出色的困兽犹斗，国际演艺评论家协会香港分会",
+          "url": "https://www.iatc.com.hk/doc/106726"
+        }
+      ],
+      "factsChecked": [
+        "《原野》焦大星为焦母儿子、金子丈夫，与仇虎有旧交。",
+        "被带入父辈旧仇和妻子与仇虎的关系冲突，最终成为仇虎报复对象。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-bai-shazi",
+      "sources": [
+        {
+          "title": "国家大剧院：《原野》演出人物表与剧情",
+          "url": "https://www.chncpa.org/ycxm/201203/t20120320_147400.html"
+        },
+        {
+          "title": "喻汀芷：《原野》——一场出色的困兽犹斗，国际演艺评论家协会香港分会",
+          "url": "https://www.iatc.com.hk/doc/106726"
+        }
+      ],
+      "factsChecked": [
+        "国家大剧院演出人物表明确白傻子属于曹禺《原野》。",
+        "开场与返乡仇虎相遇，回应其外貌并询问来处；现文的不按常理应答有具体对话依据，未冒称他为复仇策划者。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-zeng-siyi",
+      "sources": [
+        {
+          "title": "文化和旅游部：北京央华时代制作话剧《北京人》详细剧情与角色关系",
+          "url": "https://www.mct.gov.cn/ggfw/zyjzzt/yanchu/yanchuwqhg/202211/t20221101_937099.html"
+        }
+      ],
+      "factsChecked": [
+        "《北京人》曾思懿为曾文清妻子、曾家的儿媳。",
+        "管家拒付债务、介入愫方婚事等日常安排体现控制，符合当前人物说明。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-zeng-hao",
+      "sources": [
+        {
+          "title": "文化和旅游部：北京央华时代制作话剧《北京人》详细剧情与角色关系",
+          "url": "https://www.mct.gov.cn/ggfw/zyjzzt/yanchu/yanchuwqhg/202211/t20221101_937099.html"
+        }
+      ],
+      "factsChecked": [
+        "《北京人》曾皓是衰落曾家的长辈。",
+        "他多年维护的棺材最终被讨债者抬走，对身后安置的执念构成卡片评价的具体依据。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-ruizhen",
+      "sources": [
+        {
+          "title": "文化和旅游部：北京央华时代制作话剧《北京人》详细剧情与角色关系",
+          "url": "https://www.mct.gov.cn/ggfw/zyjzzt/yanchu/yanchuwqhg/202211/t20221101_937099.html"
+        }
+      ],
+      "factsChecked": [
+        "《北京人》瑞贞为曾霆年轻的妻子。",
+        "不满家中生活、要求结束被安排的婚姻，最后与愫方离开，当前“寻找出口”与行动相符。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-liu-mazi",
+      "sources": [
+        {
+          "title": "中国政法大学汉语言文学课程教学大纲：《茶馆》戏剧语言分析",
+          "url": "https://jwc.cupl.edu.cn/__local/2/FA/EA/892D0D949118612A6016F8B71CE_DEDC092E_6C5F8D.pdf?e=.pdf"
+        },
+        {
+          "title": "人民网：一样的《茶馆》，不一样的“川味”，康顺子第二幕身份",
+          "url": "https://culture.people.com.cn/n1/2017/1207/c1013-29690543.html"
+        }
+      ],
+      "factsChecked": [
+        "《茶馆》刘麻子从事说媒拉纤和人口交易。",
+        "第一幕将康顺子转卖给庞太监；此卡刘麻子与第三幕小刘麻子不作同一角色混写。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-kang-shunzi",
+      "sources": [
+        {
+          "title": "中国政法大学汉语言文学课程教学大纲：《茶馆》戏剧语言分析",
+          "url": "https://jwc.cupl.edu.cn/__local/2/FA/EA/892D0D949118612A6016F8B71CE_DEDC092E_6C5F8D.pdf?e=.pdf"
+        },
+        {
+          "title": "人民网：一样的《茶馆》，不一样的“川味”，康顺子第二幕身份",
+          "url": "https://culture.people.com.cn/n1/2017/1207/c1013-29690543.html"
+        }
+      ],
+      "factsChecked": [
+        "《茶馆》康顺子为康六女儿，贫困中被卖给庞太监。",
+        "第二幕与义子康大力一起谋生；卡片“母亲”指抚养关系，不添写为她与太监生子。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-liu-siye",
+      "sources": [
+        {
+          "title": "郭晨子：新版话剧《骆驼祥子》——不仅仅是一台戏，中国文艺评论网",
+          "url": "https://www.zgwypl.com/content/details10_442246.html"
+        },
+        {
+          "title": "中国作家网：重读《骆驼祥子》——虎妞、虎姑娘与刘姑娘",
+          "url": "https://www.chinawriter.com.cn/n1/2026/0616/c419384-40741021.html"
+        }
+      ],
+      "factsChecked": [
+        "《骆驼祥子》刘四爷是人和车厂主人、虎妞父亲。",
+        "车厂财产与女儿婚事相连，父女矛盾影响祥子与虎妞的生活安排。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-xiao-fuzi",
+      "sources": [
+        {
+          "title": "郭晨子：新版话剧《骆驼祥子》——不仅仅是一台戏，中国文艺评论网",
+          "url": "https://www.zgwypl.com/content/details10_442246.html"
+        },
+        {
+          "title": "曲彤：《骆驼祥子》乡下人进城叙事研究，学术期刊论文",
+          "url": "https://journal.kci.go.kr/clsyn/archive/articlePdf?artiId=ART003150777"
+        }
+      ],
+      "factsChecked": [
+        "《骆驼祥子》小福子为被贫困和家庭负担压迫的年轻女性。",
+        "她与祥子的亲近和对未来的希望不能脱离赡养家人的经济压力，现文未删去这一因果。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-kuang-fu",
+      "sources": [
+        {
+          "title": "张晓欧：夏衍《上海屋檐下》的经典化历程，中国作家网",
+          "url": "https://www.chinawriter.com.cn/n1/2022/0706/c442005-32467627.html"
+        },
+        {
+          "title": "中国人民大学文学院：空间的俘虏——《上海屋檐下》中的空间探究",
+          "url": "https://wenxueyuan.ruc.edu.cn/UploadFile/20150524/20150524110730660.pdf"
+        }
+      ],
+      "factsChecked": [
+        "夏衍《上海屋檐下》匡复因政治原因入狱，出狱归来。",
+        "发现妻子杨彩玉已和好友林志成共同生活；三人的关系难题不是单纯的情敌冲突。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-yang-caiyu",
+      "sources": [
+        {
+          "title": "中国人民大学文学院：空间的俘虏——《上海屋檐下》中的空间探究",
+          "url": "https://wenxueyuan.ruc.edu.cn/UploadFile/20150524/20150524110730660.pdf"
+        },
+        {
+          "title": "中国作家网：夏衍的文学地图，林志成与杨彩玉的家庭关系",
+          "url": "https://www.chinawriter.com.cn/n1/2020/1028/c404064-31908680.html"
+        }
+      ],
+      "factsChecked": [
+        "《上海屋檐下》杨彩玉原为匡复妻子，育有女儿葆珍。",
+        "在匡复失去音讯期间与照顾妻女的林志成建立共同生活，匡复归来使两段关系同时存在。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-lin-zhicheng",
+      "sources": [
+        {
+          "title": "张晓欧：夏衍《上海屋檐下》的经典化历程，中国作家网",
+          "url": "https://www.chinawriter.com.cn/n1/2022/0706/c442005-32467627.html"
+        },
+        {
+          "title": "中国作家网：夏衍的文学地图，林志成与杨彩玉的家庭关系",
+          "url": "https://www.chinawriter.com.cn/n1/2020/1028/c404064-31908680.html"
+        }
+      ],
+      "factsChecked": [
+        "《上海屋檐下》林志成为匡复好友、纱厂职员。",
+        "照顾杨彩玉和葆珍后与杨彩玉共同生活；好友归来使友情与家庭相互冲突。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-huang-jiamei",
+      "sources": [
+        {
+          "title": "刘涛：《以话剧抗战——论夏衍抗战时期的几个话剧》，文艺报2012年10月17日",
+          "url": "https://image.chinawriter.com.cn/61/2012/1017/U3875P843T61D861F788DT20121017072629.pdf"
+        }
+      ],
+      "factsChecked": [
+        "文艺报研究文明确黄家楣是读大学来到上海、现已失业的人，父亲来探望；小学老师是赵振宇。当前黄家楣正文正确，保留。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "role2-qi-yongnian",
+      "sources": [
+        {
+          "title": "王一川：“两个结合”与中国现实主义文艺的五种理论范式，中国作家网",
+          "url": "https://www.chinawriter.com.cn/n1/2024/1017/c459179-40341242.html"
+        }
+      ],
+      "factsChecked": [
+        "《狗儿爷涅槃》祁永年为地主，是狗儿爷记忆中的对手。",
+        "他死后仍以心象参与跨时空对话，使旧土地关系与身份压迫延续到人物内部。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-xiu-dingxin",
+      "sources": [
+        {
+          "title": "上海戏剧学院：何冀平“当代戏剧创作名家讲坛”实录，修鼎新的作者发声功能",
+          "url": "https://www.sta.edu.cn/cc/ac/c1546a117932/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "《天下第一楼》修鼎新是何冀平设置的文化评论者式人物。",
+        "作者在讲座中说明他承担关于文化和人生的发声，结尾楹联及宴席将散的判断出自他。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role2-xia-professor",
+      "sources": [
+        {
+          "title": "南京大学转载导演吕效平采访：《蒋公的面子》导演：戏剧是把灵魂放在火上烤",
+          "url": "https://www.nju.edu.cn/info/3191/193181.htm"
+        }
+      ],
+      "factsChecked": [
+        "导演采访明确三位教授边等第四人边打麻将争论；夏小山关心火腿豆腐，时任道关心藏书，现文保留。采访及南大校友会演员表姓名均作“卞从周”，不应改成“边从周”。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "role2-shi-professor",
+      "sources": [
+        {
+          "title": "南京大学转载导演吕效平采访：《蒋公的面子》导演：戏剧是把灵魂放在火上烤",
+          "url": "https://www.nju.edu.cn/info/3191/193181.htm"
+        }
+      ],
+      "factsChecked": [
+        "导演采访明确三位教授边等第四人边打麻将争论；夏小山关心火腿豆腐，时任道关心藏书，现文保留。采访及南大校友会演员表姓名均作“卞从周”，不应改成“边从周”。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "role2-mifeng",
+      "sources": [
+        {
+          "title": "三联书店《剑桥A Level中文文学》试读章节：《绝对信号》人物与剧情",
+          "url": "https://www.jointpublishing.com/JointPublishing2013/media/Joint-Publishing/9789620446269-text.pdf?ext=.pdf"
+        },
+        {
+          "title": "罗长青：从就业制度的角度解读《绝对信号》，北京社会科学2011年第3期",
+          "url": "https://media6.open.com.cn/media001/2203/dongshi/zgddwxzpx/study/chapter09/download/从就业制度的角度解读绝对信号--罗长青.pdf"
+        }
+      ],
+      "factsChecked": [
+        "《绝对信号》蜜蜂是黑子的恋人，与小号为同学。",
+        "她因黑子可能走向犯罪而担忧并试图挽救他；不是车长女儿或车匪同伙。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "role-v21-unclevanya",
+      "sources": [
+        {
+          "title": "契诃夫《万尼亚舅舅》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+        }
+      ],
+      "factsChecked": [
+        "长期与索尼娅经营庄园资助教授；对教授失望，在出售庄园争执中开枪未中，结尾回到日常工作。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-v21-astrov",
+      "sources": [
+        {
+          "title": "契诃夫《万尼亚舅舅》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+        }
+      ],
+      "factsChecked": [
+        "乡村医生，长期劳累；绘制森林变迁图、关心生态；爱慕叶列娜，没有回应索尼娅的爱情。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-v21-berenger",
+      "sources": [
+        {
+          "title": "Royal Court Theatre：Rhinoceros Background Pack",
+          "url": "https://d19lfjg8hluhfw.cloudfront.net/wp-content/uploads/2016/09/25191802/Rhinoceros-Resource-Pack1.pdf"
+        }
+      ],
+      "factsChecked": [
+        "贝兰杰目睹朋友、同事与恋人加入犀牛群；他也曾羡慕犀牛，但结尾仍决定抵抗。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-v21-phedre",
+      "sources": [
+        {
+          "title": "拉辛《费德尔》原剧，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1977/pg1977-images.html"
+        }
+      ],
+      "factsChecked": [
+        "忒修斯之妻，爱上继子希波吕托斯；纵容诬告又嫉妒其爱情，服毒后坦白。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-v21-caligularole",
+      "sources": [
+        {
+          "title": "Concord Theatricals：《Caligula》授权简介",
+          "url": "https://www.concordtheatricals.com/p/1171/caligula"
+        }
+      ],
+      "factsChecked": [
+        "加缪剧中卡利古拉拥有帝王绝对权力，以自己的逻辑实行暴政并导致谋杀；卡片说的是戏剧人物而非历史传记。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-v21-marytyrone",
+      "sources": [
+        {
+          "title": "Concord Theatricals：《Long Day’s Journey into Night》",
+          "url": "https://www.concordtheatricals.com/p/98198/long-days-journey-into-night"
+        }
+      ],
+      "factsChecked": [
+        "玛丽是泰隆家的母亲、詹姆斯的妻子，吗啡依赖与家庭旧事共同构成她与亲人的冲突。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-v21-edmundtyrone",
+      "sources": [
+        {
+          "title": "Concord Theatricals：《Long Day’s Journey into Night》",
+          "url": "https://www.concordtheatricals.com/p/98198/long-days-journey-into-night"
+        }
+      ],
+      "factsChecked": [
+        "埃德蒙是泰隆家较年轻的儿子，他的疾病是这一天家庭争执的重要因素；文中孤独和诗意属于角色解读。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-v21-amanda",
+      "sources": [
+        {
+          "title": "A Noise Within：《The Glass Menagerie》Audience Guide",
+          "url": "https://cdn.anoisewithin.org/wp-content/uploads/2018/12/AGSpring_18-19-TheGlassMenagerie_FINAL1.pdf"
+        }
+      ],
+      "factsChecked": [
+        "阿曼达是汤姆与劳拉的母亲，常追忆年轻时的追求者，为劳拉筹划来访男客并要求汤姆承担家庭责任。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-v21-tomglass",
+      "sources": [
+        {
+          "title": "A Noise Within：《The Glass Menagerie》Audience Guide",
+          "url": "https://cdn.anoisewithin.org/wp-content/uploads/2018/12/AGSpring_18-19-TheGlassMenagerie_FINAL1.pdf"
+        }
+      ],
+      "factsChecked": [
+        "汤姆既是故事人物也是回忆叙述者，为家庭工作却渴望离开；离家以后仍被姐姐劳拉的记忆追随。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-v21-winnie",
+      "sources": [
+        {
+          "title": "Sydney Theatre Company：《快乐的日子》On Cue学习指南",
+          "url": "https://www.sydneytheatre.com.au/-/media/project/sydney-theatre-company/sydney-theatre-company/pdf/2025/education/happy-days/2025_ed_happy-days_on-cue.pdf"
+        }
+      ],
+      "factsChecked": [
+        "温妮先被土丘埋至腰、后至颈部；以包内日用品、谈话和日常仪式维持生活，呼唤丈夫威利回应。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "role-v21-jimglass",
+      "sources": [
+        {
+          "title": "A Noise Within：《The Glass Menagerie》Audience Guide",
+          "url": "https://cdn.anoisewithin.org/wp-content/uploads/2018/12/AGSpring_18-19-TheGlassMenagerie_FINAL1.pdf"
+        }
+      ],
+      "factsChecked": [
+        "吉姆是汤姆的同事与劳拉旧同学，来家中吃饭，鼓励并亲吻劳拉后说明已有婚约，打破阿曼达与劳拉的期待。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "v23-role-joekeller",
+      "sources": [
+        {
+          "title": "The Old Vic：《All My Sons》教学册",
+          "url": "https://assets.oldvictheatre.com/app/uploads/2025/06/ALL-MY-SONS-TEACHING-RESOURCE-compressed.pdf"
+        }
+      ],
+      "factsChecked": [
+        "乔是凯特的丈夫、克里斯与拉里的父亲；工厂供给有问题的军用飞机部件，乔的责任逐渐被揭露，家庭辩护与公共责任冲突。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "v23-role-heisenberg",
+      "sources": [
+        {
+          "title": "Concord Theatricals：Michael Frayn《Copenhagen》版权资料与剧情说明",
+          "url": "https://www.concordtheatricals.co.uk/p/2869/copenhagen"
+        },
+        {
+          "title": "Central Square Theater：《Copenhagen》制作方剧情说明",
+          "url": "https://www.centralsquaretheater.org/shows/copenhagen/"
+        }
+      ],
+      "factsChecked": [
+        "弗雷恩《哥本哈根》中的德国物理学家海森堡，在1941年前往哥本哈根会见丹麦的旧师友玻尔，两人当时处于战争对立的国家。",
+        "全剧让海森堡、玻尔与玛格丽特在死后重访这场会面；现有高星补写正确保留了动机与记忆的不确定性。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "v23-role-woyzeck",
+      "sources": [
+        {
+          "title": "Pearson Edexcel：《沃伊采克》指定剧本指南",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/gce-woyzeck.pdf"
+        }
+      ],
+      "factsChecked": [
+        "教学指南明确沃伊采克以为军官做杂务和参加医生豌豆饮食实验补贴家计，医生观察身心影响；当前简述未发现足以据此认定的基础事实错误，保留。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "v23-role-danton",
+      "sources": [
+        {
+          "title": "Bloomsbury／Methuen Drama：毕希纳《Danton's Death》出版说明",
+          "url": "https://www.bloomsbury.com/uk/dantons-death-9781408135594/"
+        },
+        {
+          "title": "BüchnerBühne：《Büchner与政治——以Dantons Tod为例》分幕梗概，第3页",
+          "url": "https://buechnerfindetstatt.de/downloads/Buechner%2Bdie_Politik_am_Beispiel_Danton-Transcript.pdf"
+        }
+      ],
+      "factsChecked": [
+        "毕希纳《丹东之死》中的法国革命领袖丹东，剧中因清洗与自己参与的杀戮而疲惫、困扰。",
+        "他与罗伯斯庇尔在享乐、妥协和革命纯洁性的要求上冲突，随后被捕、受革命法庭审判并处决。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "v23-role-eddie",
+      "sources": [
+        {
+          "title": "South London Theatre：《A View from the Bridge》剧情及人物",
+          "url": "https://www.southlondontheatre.co.uk/event/auditions-a-view-from-the-bridge/"
+        }
+      ],
+      "factsChecked": [
+        "埃迪是布鲁克林码头工人，与妻子比阿特丽丝抚养她的外甥女凯瑟琳，反对凯瑟琳和鲁道夫的关系并告发移民。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "v23-role-hickey",
+      "sources": [
+        {
+          "title": "Goodman Theatre：《The Iceman Cometh》",
+          "url": "https://www.goodmantheatre.org/show/the-iceman-cometh/"
+        }
+      ],
+      "factsChecked": [
+        "希基是霍普酒馆常客中的旅行推销员，这次戒酒归来并催促朋友摆脱幻想；剧情逐渐揭露他自己的问题。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "v23-role-melchior",
+      "sources": [
+        {
+          "title": "Frank Wedekind：Spring's Awakening，Samuel A. Eliot, Jr.英译原剧，第一幕第二场、第三幕第一及第三场",
+          "url": "https://www.gutenberg.org/files/76872/76872-h/76872-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "梅尔希奥是莫里茨的同学；他从书籍、图像和观察获得性知识，答应应好友请求写成说明。",
+        "莫里茨死后，学校以这份独立手稿指控梅尔希奥；不是课本空白处的注解被发现。"
+      ],
+      "status": "verified-correction-proposed"
+    },
+    {
+      "id": "v23-role-alan",
+      "sources": [
+        {
+          "title": "Pearson Edexcel官方《Equus》Set Text Guide：Alan人物说明及第19—21、32—34场",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/a-level-set-text-guide-equus.pdf"
+        },
+        {
+          "title": "Concord Theatricals：Peter Shaffer《Equus》版权资料与人物表",
+          "url": "https://www.concordtheatricals.com/p/2822/equus"
+        }
+      ],
+      "factsChecked": [
+        "彼得·谢弗《恋马狂》中的少年Alan Strang，因刺瞎六匹马而由戴萨特进行精神诊疗。",
+        "他建立了个人的马崇拜仪式；与吉尔在马厩相处后，认为马的目光在审判自己的背叛，随后伤害马匹。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "v23-role-dreamdoctor",
+      "sources": [
+        {
+          "title": "香港话剧团：《如梦之梦》故事概要及角色表",
+          "url": "https://www.hkrep.com/tc/Others/Adlad-Cast-List-And-Synopsis.html"
+        }
+      ],
+      "factsChecked": [
+        "《如梦之梦》官方梗概中医生是刚毕业的女性，首个工作日五名病人四人死亡，随后倾听五号病人的临终故事；现文已修正环湖、五段爱情与男性代词，本轮复用官方证据核对保留。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "v23-role-jinzhi",
+      "sources": [
+        {
+          "title": "中国国家话剧院：《生死场》经典保留剧目，田沁鑫改编版完整剧情",
+          "url": "https://www.ntcc.com.cn/zggjhjy/sscu/xcjmcontent.shtml"
+        }
+      ],
+      "factsChecked": [
+        "国家话剧院田沁鑫版《生死场》中金枝是赵三的女儿，与二里半之子成业相爱。",
+        "提亲受阻后与成业私奔，生活被战乱打断；旧稿只写泛化的身体屈辱，需补作品与关系。"
+      ],
+      "status": "verified-correction"
+    },
+    {
+      "id": "v23-role-silentman",
+      "sources": [
+        {
+          "title": "高行健《车站》原剧上篇，努努书坊全文镜像",
+          "url": "https://www.kanunu8.com/book3/7148/158529.html"
+        },
+        {
+          "title": "戏剧盒《车站》教育资料",
+          "url": "https://www.dramabox.org/edukit/bus-stop_ch.pdf"
+        }
+      ],
+      "factsChecked": [
+        "《车站》中的沉默的人在其他候车者争谈时先行离开，不是一直留站等车者；现文已纠正，本轮复用原剧与剧团资料保留。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "v23-role-serge",
+      "sources": [
+        {
+          "title": "Concord Theatricals：《Art》授权剧情",
+          "url": "https://www.concordtheatricals.com/p/13005/art"
+        }
+      ],
+      "factsChecked": [
+        "塞尔吉买下昂贵的白色画作，面对马克嘲讽为其价值辩护；争论逐渐从审美转向三人的友谊。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "v23-sup-kate",
+      "sources": [
+        {
+          "title": "The Old Vic：《All My Sons》教学册",
+          "url": "https://assets.oldvictheatre.com/app/uploads/2025/06/ALL-MY-SONS-TEACHING-RESOURCE-compressed.pdf"
+        }
+      ],
+      "factsChecked": [
+        "凯特是乔的妻子，坚持失踪的儿子拉里仍活着；这份坚持与她对丈夫犯罪的了解和焦虑相连。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "v23-sup-bohr",
+      "sources": [
+        {
+          "title": "Concord Theatricals：Michael Frayn《Copenhagen》版权资料与剧情说明",
+          "url": "https://www.concordtheatricals.co.uk/p/2869/copenhagen"
+        },
+        {
+          "title": "Central Square Theater：《Copenhagen》制作方剧情说明",
+          "url": "https://www.centralsquaretheater.org/shows/copenhagen/"
+        }
+      ],
+      "factsChecked": [
+        "玻尔是海森堡的导师和旧友，在哥本哈根接待这位战时来访者；妻子玛格丽特也是剧中共同回顾往事的人物。",
+        "剧中通过重新讲述会面追问海森堡来意；卡片已明确区分舞台推演与历史定论，想象中修收音机仅是本游戏创作提示。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "v23-sup-marie",
+      "sources": [
+        {
+          "title": "Pearson Edexcel：《Woyzeck》人物与分场指南",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/gce-woyzeck.pdf"
+        }
+      ],
+      "factsChecked": [
+        "玛丽是沃伊采克的伴侣及其孩子的母亲，与鼓手长发生关系；佩戴并掩饰耳环、阅读《圣经》中的罪责以及最终被杀均可核查。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "v23-sup-robespierre",
+      "sources": [
+        {
+          "title": "Bloomsbury／Methuen Drama：毕希纳《Danton's Death》出版说明",
+          "url": "https://www.bloomsbury.com/uk/dantons-death-9781408135594/"
+        },
+        {
+          "title": "BüchnerBühne：《Büchner与政治——以Dantons Tod为例》分幕梗概，第3页",
+          "url": "https://buechnerfindetstatt.de/downloads/Buechner%2Bdie_Politik_am_Beispiel_Danton-Transcript.pdf"
+        }
+      ],
+      "factsChecked": [
+        "罗伯斯庇尔是剧中丹东的政治对手，崇尚革命美德与思想纯洁，生活态度也与丹东相反。",
+        "他将丹东的政治温和与享乐视为革命的威胁，推动清除丹东；现文没有把角色意见当作作者结论。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "v23-sup-catherine",
+      "sources": [
+        {
+          "title": "South London Theatre：《A View from the Bridge》剧情及人物",
+          "url": "https://www.southlondontheatre.co.uk/event/auditions-a-view-from-the-bridge/"
+        }
+      ],
+      "factsChecked": [
+        "凯瑟琳由姨母比阿特丽丝与埃迪养大，获得速记员工作机会，并爱上鲁道夫；独立愿望与对埃迪的忠诚冲突。"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "v23-sup-nurse",
+      "sources": [
+        {
+          "title": "Pearson Edexcel官方《Equus》Set Text Guide：第2、6、22及26场",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/a-level-set-text-guide-equus.pdf"
+        },
+        {
+          "title": "Concord Theatricals：Peter Shaffer《Equus》版权资料与人物表",
+          "url": "https://www.concordtheatricals.com/p/2822/equus"
+        }
+      ],
+      "factsChecked": [
+        "Nurse是医院工作人员，第2场引见来访的地方司法官Hesther Salomon，并在场末带来艾伦。",
+        "第6场确认艾伦夜间异常及喊声，第22场通报母亲探访时的情况；现文“引见海斯特法官、带来病房消息”可以保留。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "v23-sup-moritz",
+      "sources": [
+        {
+          "title": "Frank Wedekind：Spring's Awakening，Samuel A. Eliot, Jr.英译原剧，第一幕第二场、第二幕第五及第七场、第三幕第二及第七场",
+          "url": "https://www.gutenberg.org/files/76872/76872-h/76872-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "莫里茨承受升班考试压力，又无法理解青春期变化，向梅尔希奥求助并要求用书面方式解释。",
+        "他后来自杀；学校和家庭在死后继续以道德责备回应他，卡片对教育沉默与羞耻的概括有原剧情境依据。"
+      ],
+      "status": "verified-retained"
+    },
+    {
+      "id": "v23-sup-zhaosan",
+      "sources": [
+        {
+          "title": "中国国家话剧院：《生死场》经典保留剧目，田沁鑫改编版完整剧情",
+          "url": "https://www.ntcc.com.cn/zggjhjy/sscu/xcjmcontent.shtml"
+        }
+      ],
+      "factsChecked": [
+        "田沁鑫版《生死场》赵三为金枝之父、受地主压迫的农民。",
+        "欲杀地主却错杀小偷、入狱后被地主赎出；成业劝其抗日时曾拒绝，后来村民觉醒，支撑卡片中勇气受挫的解读。"
+      ],
+      "status": "verified-correction"
+    },
+    {
+      "id": "v23-sup-stationmaster",
+      "sources": [
+        {
+          "title": "高行健《车站》原剧上篇，努努书坊全文镜像",
+          "url": "https://www.kanunu8.com/book3/7148/158529.html"
+        },
+        {
+          "title": "戏剧盒《车站》教育资料",
+          "url": "https://www.dramabox.org/edukit/bus-stop_ch.pdf"
+        }
+      ],
+      "factsChecked": [
+        "马主任是供销社主任，也是候车乘客；他仰仗与汽车站的熟人关系，并非车站负责人或时刻表专家。原剧中汽车多次驶过不停靠，不能写成车始终不来。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "v23-sup-harryhope",
+      "sources": [
+        {
+          "title": "奥尼尔《送冰的人来了》原文，第一幕及第三幕，Project Gutenberg Australia",
+          "url": "https://gutenberg.net.au/ebooks04/0400021h.html"
+        }
+      ],
+      "factsChecked": [
+        "《送冰的人来了》原剧明确霍普二十年未出门，并以亡妻贝茜解释；他是酒馆兼廉价旅馆的老板。v48 已删除无依据的“昨天的小伤”，本轮核对保留。"
+      ],
+      "status": "verified",
+      "reusedFromV48": true
+    },
+    {
+      "id": "v23-sup-marc",
+      "sources": [
+        {
+          "title": "Concord Theatricals：《Art》授权剧情",
+          "url": "https://www.concordtheatricals.com/p/13005/art"
+        }
+      ],
+      "factsChecked": [
+        "马克认为塞尔吉所买白画荒唐，两人的品味争论暴露友情中的权力与依赖；不是买画的人。"
+      ],
+      "status": "verified"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "yrole-juehui",
+      "fields": {
+        "note": "曹禺根据巴金小说改编的话剧《家》中，觉慧是高家长房的第三个儿子。他不肯再让家族规矩安排一生，经历亲人的悲剧后，选择离开这座宅子。"
+      },
+      "sources": [
+        {
+          "title": "曹禺全集第三卷：《家》人物表及正文，花山文艺出版社1995年版扫描镜像",
+          "url": "https://ivantsoi.myds.me/web/schoolebook/pdf/008003.pdf"
+        },
+        {
+          "title": "上海交通大学中国语言文学系：《家》阅读与人物讨论",
+          "url": "https://chinese.sjtu.edu.cn/Web/Show/72"
+        }
+      ],
+      "reason": "《家》人物表列觉慧为大房三子，另有觉英、觉群、觉世；旧稿“高家最年轻的那个”把长房三兄弟的排行扩大到整个家族。"
+    },
+    {
+      "id": "xrole-chanjuan",
+      "fields": {
+        "note": "郭沫若话剧《屈原》中的侍女与追随者。她被卫士救出后前去营救屈原，却误饮原本用来毒害屈原的酒而死。"
+      },
+      "sources": [
+        {
+          "title": "盐田档案与史志信息网：郭沫若历史剧《屈原》剧情",
+          "url": "https://www.yantian.gov.cn/ytdayszxxw/lsjt/content/post_11737588.html"
+        },
+        {
+          "title": "吴曼曼：论郭沫若制作《湘累》与《屈原》中的屈原诠释与自我模拟，成功大学中文学报",
+          "url": "https://chinese.ncku.edu.tw/var/file/142/1142/img/4253/7803.pdf"
+        }
+      ],
+      "reason": "把被囚、获救、营救屈原和误饮毒酒的顺序说清；原稿“在被囚禁的处境中误饮”容易让读者误以为她一直在囚禁中。"
+    },
+    {
+      "id": "v23-role-jinzhi",
+      "fields": {
+        "note": "田沁鑫根据萧红作品改编的话剧《生死场》中，金枝是农民赵三的女儿。她与成业相爱，在提亲受阻后与他私奔，却无法避开村庄的旧秩序与逼近的战乱。"
+      },
+      "sources": [
+        {
+          "title": "中国国家话剧院：《生死场》经典保留剧目，田沁鑫改编版完整剧情",
+          "url": "https://www.ntcc.com.cn/zggjhjy/sscu/xcjmcontent.shtml"
+        }
+      ],
+      "reason": "旧稿正文没有剧名，只剩抽象的身体与屈辱概括；按国家话剧院该话剧版本补明出处、父女关系、恋人及行动，不把小说各版本细节混入舞台梗概。"
+    },
+    {
+      "id": "v23-sup-zhaosan",
+      "fields": {
+        "note": "田沁鑫根据萧红作品改编的话剧《生死场》中，赵三是金枝的父亲。他想反抗地主，却因错杀小偷入狱，又被地主赎出；这份恩怨使他此后面对反抗的呼声不断犹疑。"
+      },
+      "sources": [
+        {
+          "title": "中国国家话剧院：《生死场》经典保留剧目，田沁鑫改编版完整剧情",
+          "url": "https://www.ntcc.com.cn/zggjhjy/sscu/xcjmcontent.shtml"
+        }
+      ],
+      "reason": "旧稿缺少出处并用“复仇与活命”笼统概括；官方剧情给出错杀、入狱、赎身的明确事件，可解释其胆怯与抗争之间的摇摆。"
+    },
+    {
+      "id": "xrole-zhulian",
+      "fields": {
+        "note": "《关汉卿》里，朱帘秀是关汉卿戏里的演员，敢把危险的词唱给权贵听。",
+        "stage": "不妨让朱帘秀接过被要求删改的词，仍准备上场。",
+        "essay": "朱帘秀的台词先属于纸面，出口以后却变成她本人必须承担的行动。看客与权势听见的是同一句话，赋予它的后果却截然不同。她让表演显出一种无法由作者代劳的勇气：借来的声音，也要由自己的身体抵达别人。"
+      },
+      "highStar": [
+        "朱帘秀的台词先属于纸面，出口以后却变成她本人必须承担的行动。看客与权势听见的是同一句话，赋予它的后果却截然不同。她让表演显出一种无法由作者代劳的勇气：借来的声音，也要由自己的身体抵达别人。",
+        "田汉把朱帘秀与关汉卿写在共同的创作关系里，剧本需要演员才能进入公共空间。她的价值不只在于支持作者，也在于把自己的判断放进每一次公开表演。"
+      ],
+      "sources": [
+        {
+          "title": "田汉基金会：田汉作品信息《关汉卿》，朱帘秀支持创作与承担演出",
+          "url": "https://tianhanfoundation.org/news_28/194.html"
+        },
+        {
+          "title": "田汉：《关汉卿》自序，田汉基金会",
+          "url": "https://www.tianhanfoundation.org/news_35/375.html"
+        },
+        {
+          "title": "夏庭芝《青楼集·珠帘秀》原文，中国古典戏曲资料库",
+          "url": "https://ccddb.net/青樓集/珠簾秀"
+        }
+      ],
+      "reason": "历史艺名“珠帘秀”有《青楼集》原文依据，但本卡明确对应田汉话剧《关汉卿》，作者自序和剧作说明均作“朱帘秀”；显示名称与相关正文统一剧本用名，ID不变。"
+    },
+    {
+      "id": "v23-role-melchior",
+      "fields": {
+        "stage": "让他把写给莫里茨的说明交出去；同一叠纸再出现时，已经被老师当成了罪证。"
+      },
+      "sources": [
+        {
+          "title": "Frank Wedekind：Spring's Awakening，Samuel A. Eliot, Jr.英译原剧，第一幕第二场及第三幕第一场",
+          "url": "https://www.gutenberg.org/files/76872/76872-h/76872-h.htm"
+        }
+      ],
+      "reason": "原作是梅尔希奥应莫里茨请求写下的独立性知识手稿，学校后来以此追究他；现句“课本空白处的注解”改变了具体载体，且容易让读者误认原剧情节。保留纸张在友谊与惩罚之间转换的创作意图，纠正载体。"
+    }
+  ],
+  "limits": [
+    "全部185张已逐卡对照外部资料核对 factsChecked 所列基本身份、出处与关键行动；不等于对每一句解释、心理推论、艺术判断逐句作学术认证，也不保证没有剩余错误。",
+    "本文件记录审核与待整合修订，不代表程序、评分或发布验证已完成。",
+    "同一原作的多张人物卡可共享原剧或同一剧院资料，但每张分别列明核查事实；未把复用来源误称为185份独立文献。",
+    "原剧、出版方或剧院资料为优先证据；部分原文由高校课程、公共电子文本库或扫描镜像承载，具体来源在各卡列出。",
+    "stage以及明确以“排演时可以”开头的扩写属于创作建议，未当作原作者舞台指示认证。",
+    "节目资料可能对应特定改编版本；本次不将曲剧、京剧、话剧及原著小说的所有情节互相替代。涉及生死场的补写明确采用国家话剧院田沁鑫话剧版。",
+    "v48复用条目保留其原核验来源，不伪称本轮重新打开全部原文。",
+    "部分原站本轮直开超时（国家话剧院、田汉基金会、陕西师范大学）时使用搜索引擎返回的原站正文片段；三联试读原URL现返回维护页，检索索引仍含人物与剧情正文，另以罗长青论文交叉核对蜜蜂。",
+    "评论性词语、史观和人物道德评价允许多种解读；已核对来源身份和关键行动，不表示逐句获得唯一学术定论。",
+    "本文件不变更人物ID、画面、分数、星级或workIds。蜜蜂workIds为空属于另行的数据映射问题，当前任务没有擅自新增卡池作品。",
+    "《春醒》按韦德金德原剧《春之觉醒》核查，使用Samuel A. Eliot, Jr.英译原剧；不把后来音乐剧的处理混入原剧。",
+    "《哥本哈根》中的动机讨论是弗雷恩的戏剧推演，不是对1941年真实会面的历史裁决。",
+    "observe和明确以“让……”开头的stage属于评论或创作建议，未认证为原作原句；但创作建议如果借用了具体原剧情节，也纠正其事实载体。",
+    "本次核验范围是每项factsChecked列出的身份与关键行动，不宣称人物心理和价值判断只有一种正确解释。未修改游戏数据、UI、分值或ID。"
+  ],
+  "nameCorrections": [
+    {
+      "id": "xrole-zhulian",
+      "name": "朱帘秀",
+      "previousName": "珠帘秀",
+      "sources": [
+        {
+          "title": "田汉基金会：田汉作品信息《关汉卿》，朱帘秀支持创作与承担演出",
+          "url": "https://tianhanfoundation.org/news_28/194.html"
+        },
+        {
+          "title": "田汉：《关汉卿》自序，田汉基金会",
+          "url": "https://www.tianhanfoundation.org/news_35/375.html"
+        },
+        {
+          "title": "夏庭芝《青楼集·珠帘秀》原文，中国古典戏曲资料库",
+          "url": "https://ccddb.net/青樓集/珠簾秀"
+        }
+      ],
+      "reason": "历史艺名“珠帘秀”有《青楼集》原文依据，但本卡明确对应田汉话剧《关汉卿》，作者自序和剧作说明均作“朱帘秀”；显示名称与相关正文统一剧本用名，ID不变。"
+    }
+  ],
+  "reviewMethod": {
+    "input": "index.html + copy-overrides-v39.js + highStarCopyV40 当前合成内容，185 张常驻主角/配角",
+    "fieldsRead": [
+      "note",
+      "observe",
+      "stage",
+      "essay",
+      "highStar",
+      "source",
+      "workIds"
+    ],
+    "externalCheckScope": [
+      "对应原作与版本",
+      "人物身份与亲属关系",
+      "卡内明确叙述的关键行动与结局"
+    ],
+    "interpretationScope": "看点中的比喻、评价及排演建议按解释性文字阅读；不把生成联想、评价或演法示例列作原作事实。",
+    "sharedSourceRule": "同一原作可以多卡共用，但 factsChecked 必须写清本卡核了什么。",
+    "reuseRule": "v48 的12条外部证据复用并对照当前文字，不重复计为新增核查。"
+  },
+  "coveredIds": [
+    "role-oedipus",
+    "role-nora",
+    "role-hamlet",
+    "role-fanyi",
+    "role-macbeth",
+    "role-doue",
+    "role-liniang",
+    "role-ladym",
+    "role-wang",
+    "role-shen",
+    "role-zhou",
+    "role-willy",
+    "role-anti",
+    "role-bailu",
+    "role-gogo",
+    "role-shiping",
+    "role-xiangjun",
+    "role-chengying",
+    "role-yuji",
+    "role-lear",
+    "role-courage",
+    "role-blanche",
+    "role-mengmei",
+    "role-zhu",
+    "role-vladimir",
+    "xrole-ophelia",
+    "xrole-juliet",
+    "xrole-eliza",
+    "xrole-hedda",
+    "xrole-harpagon",
+    "xrole-tartuffe",
+    "xrole-figaro",
+    "xrole-mephisto",
+    "xrole-cordelia",
+    "xrole-pozzo",
+    "xrole-lucky",
+    "xrole-chunxiang",
+    "xrole-hongniang",
+    "xrole-xiangzi",
+    "xrole-huniu",
+    "xrole-sifeng",
+    "xrole-juexin",
+    "xrole-chanjuan",
+    "xrole-zhulian",
+    "xrole-cao",
+    "xrole-yangxiu",
+    "xrole-gouer",
+    "xrole-shang",
+    "yrole-clytemnestra",
+    "yrole-witches",
+    "yrole-horatio",
+    "yrole-prospero",
+    "yrole-ariel",
+    "yrole-richardiii",
+    "yrole-falstaff",
+    "yrole-helmer",
+    "yrole-stockmann",
+    "yrole-khlestakov",
+    "yrole-qiuhu",
+    "yrole-juehui",
+    "yrole-baisuzhen",
+    "yrole-guifei",
+    "yrole-bawang",
+    "yrole-liangshanbo",
+    "yrole-tietmei",
+    "yrole-aqing",
+    "yrole-zijirong",
+    "yrole-malu",
+    "yrole-houfangyu",
+    "yrole-dorine",
+    "yrole-mackheath",
+    "yrole-hamm",
+    "yrole-linda",
+    "yrole-brutus",
+    "yrole-solveig",
+    "yrole-wukong",
+    "yrole-kuangzhong",
+    "role2-creon",
+    "role2-ismene",
+    "role2-juliet-nurse",
+    "role2-mercutio",
+    "role2-banquo",
+    "role2-macduff",
+    "role2-laertes",
+    "role2-polonius",
+    "role2-gertrude",
+    "role2-claudius",
+    "role2-goneril",
+    "role2-regan",
+    "role2-edmund",
+    "role2-kent",
+    "role2-fool-lear",
+    "role2-gloucester",
+    "role2-edgar",
+    "role2-malcolm",
+    "role2-duncan",
+    "role2-cassandra",
+    "role2-agamemnon",
+    "role2-aegisthus",
+    "role2-martha-misunderstanding",
+    "role2-kristine-linde",
+    "role2-krogstad",
+    "role2-lopakhin",
+    "role2-gayev",
+    "role2-varya",
+    "role2-anya-cherry",
+    "role2-trofimov",
+    "role2-serebryakov",
+    "role2-sonya",
+    "role2-yelena",
+    "role2-tuzenbach",
+    "role2-solyony",
+    "role2-vershinin",
+    "role2-andrei-three-sisters",
+    "role2-treplev",
+    "role2-arkadina",
+    "role2-nina",
+    "role2-trigorin",
+    "role2-mayor-inspector",
+    "role2-hippolytus",
+    "role2-oenone",
+    "role2-theseus",
+    "role2-clov",
+    "role2-nagg",
+    "role2-nell",
+    "role2-jean-rhinoceros",
+    "role2-fire-chief",
+    "role2-claire-maids",
+    "role2-solange",
+    "role2-li-shiqing",
+    "role2-huang-shengsan",
+    "role2-fang-dasheng",
+    "role2-jiao-mother",
+    "role2-jiao-daxing",
+    "role2-bai-shazi",
+    "role2-zeng-siyi",
+    "role2-zeng-hao",
+    "role2-ruizhen",
+    "role2-liu-mazi",
+    "role2-kang-shunzi",
+    "role2-liu-siye",
+    "role2-xiao-fuzi",
+    "role2-kuang-fu",
+    "role2-yang-caiyu",
+    "role2-lin-zhicheng",
+    "role2-huang-jiamei",
+    "role2-qi-yongnian",
+    "role2-xiu-dingxin",
+    "role2-xia-professor",
+    "role2-shi-professor",
+    "role2-mifeng",
+    "role-v21-unclevanya",
+    "role-v21-astrov",
+    "role-v21-berenger",
+    "role-v21-phedre",
+    "role-v21-caligularole",
+    "role-v21-marytyrone",
+    "role-v21-edmundtyrone",
+    "role-v21-amanda",
+    "role-v21-tomglass",
+    "role-v21-winnie",
+    "role-v21-jimglass",
+    "v23-role-joekeller",
+    "v23-role-heisenberg",
+    "v23-role-woyzeck",
+    "v23-role-danton",
+    "v23-role-eddie",
+    "v23-role-hickey",
+    "v23-role-melchior",
+    "v23-role-alan",
+    "v23-role-dreamdoctor",
+    "v23-role-jinzhi",
+    "v23-role-silentman",
+    "v23-role-serge",
+    "v23-sup-kate",
+    "v23-sup-bohr",
+    "v23-sup-marie",
+    "v23-sup-robespierre",
+    "v23-sup-catherine",
+    "v23-sup-nurse",
+    "v23-sup-moritz",
+    "v23-sup-zhaosan",
+    "v23-sup-stationmaster",
+    "v23-sup-harryhope",
+    "v23-sup-marc"
+  ],
+  "summary": {
+    "activeRoleCards": 185,
+    "reviewedCards": 185,
+    "reusedV48EvidenceCards": 12,
+    "newExternalEvidenceCards": 173,
+    "contentCorrectionsProposed": 6,
+    "nameCorrectionsProposed": 1,
+    "unreviewedIds": []
+  },
+  "workIdsNeeds": [
+    {
+      "id": "yrole-falstaff",
+      "source": "《亨利四世》（莎士比亚）",
+      "issue": "当前 workIds 为空；来源身份已核验，若图鉴存在对应剧目卡须另核 ID 后建立同剧羁绊映射，不能凭人物 ID 推断。"
+    },
+    {
+      "id": "role2-mifeng",
+      "source": "《绝对信号》",
+      "issue": "当前 workIds 为空；来源身份已核验，若图鉴存在对应剧目卡须另核 ID 后建立同剧羁绊映射。"
+    }
+  ]
+}
