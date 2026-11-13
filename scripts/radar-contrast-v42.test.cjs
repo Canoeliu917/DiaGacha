@@ -21,7 +21,7 @@ test('截图样例保持六个原分，常见分差的视觉距离放大两倍',
   close(radii[2]-radii[3],92*(86-58)/100*2);
   assert.ok(radii[2]>92*.86,'较强角仍向外伸展');
   assert.ok(radii[3]<92*.58,'较弱角回收，避免形成近似正六边形');
-  assert.match(chart,/形状放大分差，数字为原分/);
+  assert.doesNotMatch(chart,/形状放大分差，数字为原分|hex-caption/);
   assert.doesNotMatch(chart,/中心0分|中心 0|hex-scale/);
 });
 

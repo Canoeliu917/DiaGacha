@@ -87,7 +87,7 @@ check('六芒星以统一尺度放大分差，角分保持原值且没有刻度�
   const points=chart.match(/data-base-points="([^"]+)"/)[1].split(' ').map(v=>v.split(',').map(Number));
   const lengths=[0,.06,.12,.35,.75,1].map(value=>92*value);
   points.forEach(([x,y],i)=>assert(Math.abs(Math.hypot(x-170,y-128)-lengths[i])<0.00001));
-  assert(chart.includes('形状放大分差，数字为原分'));
+  assert(!chart.includes('形状放大分差，数字为原分'));
   assert.deepEqual([...chart.matchAll(/data-final="(\d+)"/g)].map(match=>Number(match[1])),scores);
   assert.equal((chart.match(/class="hex-scale"/g)||[]).length,0);
   assert.equal((chart.match(/data-final="\d+"/g)||[]).length,6);

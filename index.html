@@ -30,7 +30,6 @@
 .hex-ray{stroke:#9c2f2f;stroke-width:2;opacity:.7}.hex-dot{fill:#9c2f2f;stroke:#fffcf8;stroke-width:2}
 .hex-scale{fill:#665745;font-size:9px;font-family:system-ui,sans-serif;font-variant-numeric:tabular-nums;paint-order:stroke;stroke:#f3efe6;stroke-width:3px;stroke-linejoin:round}
 .hex-value{color:#9c2f2f;font-size:20px;font-weight:700}.hex-label{color:#4a3b2e}
-.hex-caption{text-align:center;font-size:11px;color:#665745;margin:2px 0 6px}
 .role-source{font-size:14px;line-height:1.6;margin:.4rem 0 .8rem;color:var(--ink)}
 .sheet table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:13px;margin:.75rem 0}
 .sheet th,.sheet td{text-align:center;padding:.45rem .15rem;border-bottom:1px solid var(--line)}
@@ -1186,7 +1185,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 .production-cues{display:flex;justify-content:center;flex-wrap:wrap;gap:7px;list-style:none;padding:0;margin:0}
 .production-cues li{margin:0;padding:0;max-width:100%}
 .production-cue{--cue-color:#9c2f2f;color:var(--ink);background:transparent;border:1px solid #c9beae;border-radius:4px;font:inherit;line-height:1.5;padding:7px 12px;cursor:pointer;max-width:100%;transition:background .18s ease,border-color .18s ease}
-.production-cue strong{font-size:14px;font-weight:600;border-bottom:2px solid var(--cue-color);padding-bottom:2px}
+.production-cue strong{font-size:16px;font-weight:800!important;font-synthesis:weight!important;letter-spacing:.03em;border-bottom:2px solid var(--cue-color);padding-bottom:2px}
 .production-cue>span:not(.cue-value){display:none;font-size:13px;line-height:1.65;margin-top:8px;white-space:nowrap}
 .production-cue.is-cue-active{background:var(--cue-wash,#f3e6de);border-color:var(--cue-color)}
 .production-cue.is-cue-active>span:not(.cue-value){display:block}
@@ -1226,6 +1225,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 .official .card-sources{font-size:12px;line-height:1.6;color:var(--ink-soft)}.card-sources a{color:inherit;text-underline-offset:3px}
 @media(max-width:520px){.production-review{padding:10px 0 15px}.production-cue{padding:6px 9px}.production-cue-status{font-size:11px}.spread-review{padding-top:10px}}
 @media(prefers-reduced-motion:reduce){.cast-mini.is-cue-card,.spread-card.is-cue-card{transform:none;transition:none}.production-cue{transition:none}}
+@media(max-width:360px){.production-review{margin-inline:-8px}.production-cue{padding-inline:6px}.production-cue>span:not(.cue-value){font-size:12px}}
 
 /* One card and its corner share 760ms, then rest for 180ms before the next pair. */
 .result-screen.is-radar-sequence .cast-mini{opacity:.45;transition:opacity .18s ease}
@@ -1870,69 +1870,69 @@ function scoreNumber(value) { return Math.round(value).toString(); }
 function productionCuesV40(result, cards) {
   const groups = {
     C: { titles: ['一桌搭戏','接住这句','板凳围台','合力支台','满台烟火'], scenes: [
-      '一张桌子，也能搭起一场戏。',
-      '三人各有主意，冷场也能接住。',
-      '四张板凳，围出一方小天地。',
-      '道具轮着用，好戏接着演。',
-      '满台都是生手，也有满台烟火。'] },
+      '一张桌子撑住舞台，两份心思接成一场好戏。',
+      '三种主意轮番登场，停顿也被接成了笑声。',
+      '四张板凳围出天地，散落的念头都有了去处。',
+      '五份本事彼此借力，简陋的台面渐渐热闹。',
+      '六路戏意挤满小台，锅碗声里也藏着人情。'] },
     UC: { titles: ['街角碰头','邻里接戏','巷口开场','满院好戏','街坊齐上阵'], scenes: [
-      '熟人一句试探，闲聊便成了戏。',
-      '一条新消息，惹来三家议论。',
-      '家常事传开，四邻都入了戏。',
-      '一院笑声，藏着五份心事。',
-      '街坊凑齐，小事也能唱成大戏。'] },
+      '街角一句熟悉招呼，把两份未说的心事牵起。',
+      '三家议论绕过巷口，同一桩小事生出新滋味。',
+      '四邻目光聚到门前，家常话里忽然生出悬念。',
+      '一院笑声连着五份心事，热闹里也有人沉默。',
+      '六席街坊都入了场，寻常日子也有悲喜回声。'] },
     R: { titles: ['咫尺对戏','三面来风','四角生戏','小台满座','一屋入戏'], scenes: [
-      '一次目光躲闪，胜过千言万语。',
-      '第三人到场，两边关系生变。',
-      '四方各有心事，小台处处有戏。',
-      '五道目光交会，一刻沉默生疑。',
-      '一屋人物登场，六路关系相连。'] },
+      '一次目光躲闪，未出口的心事已让关系生变。',
+      '第三道目光落下，原本安稳的两边各生波澜。',
+      '四方心事挤在咫尺，转身之间已换了彼此位置。',
+      '五道目光交错成网，一刻沉默牵动满台猜疑。',
+      '一屋六路关系相连，谁先开口都能惊动全场。'] },
     SR: { titles: ['同行一站','转场有伴','四方走戏','行囊成班','带戏远行'], scenes: [
-      '转场有了照应，好戏一路同行。',
-      '三路戏意相逢，前后呼应成章。',
-      '四方场景流转，人物关系随行。',
-      '五份本事凑齐，小台也撑长戏。',
-      '六席彼此照应，故事走向远方。'] },
+      '前场留下的伏笔，在下一次转场里得到回应。',
+      '三路戏意走过不同场景，回头才见彼此照应。',
+      '四方场景轮番流转，人物的旧话有了新回声。',
+      '五份本事装进行囊，一次换景也能续住戏意。',
+      '六席默契走过远近舞台，散场又带着故事启程。'] },
     SSR: { titles: ['好戏相逢','轮番亮相','彼此搭台','压轴相让','满台绝活'], scenes: [
-      '两份拿手好戏，彼此映衬生辉。',
-      '三番亮相递进，高潮接连而来。',
-      '四方都能撑场，退让也有分量。',
-      '五路好戏相让，热闹过后有味。',
-      '满台绝活呼应，开场收尾成篇。'] },
+      '两份绝活互相照亮，出手之外也看得见退让。',
+      '三番亮相各留一线，后来的一幕接住前头余波。',
+      '四方都能撑住台面，一次退让更见彼此分量。',
+      '五路好戏轮番相让，掌声之外仍有细处留人。',
+      '六份绝活不急着抢戏，开场的暗线连到谢幕。'] },
     UR: { titles: ['知音对坐','三声应和','功夫相照','五席成章','满堂余韵'], scenes: [
-      '半句未说出口，知音已懂深意。',
-      '三声各有棱角，相和更见余韵。',
-      '四份功夫相照，平常处见深意。',
-      '五席各留余白，观众心中有戏。',
-      '六路表达相通，散场仍有回响。'] },
+      '半句心事停在唇边，对面的沉默已听出深意。',
+      '三道声音各有棱角，错落之间反而听见余韵。',
+      '四份功夫照见彼此，平常动作里也藏着锋芒。',
+      '五席各留一处空白，观众在未说尽处继续入戏。',
+      '六路表达合成回响，灯光落下后心事仍未散场。'] },
     LR: { titles: ['传奇碰面','三章交响','四幕相连','今夜入史','共赴谢幕'], scenes: [
-      '两段传奇相逢，经典重焕光彩。',
-      '三个世界交响，各有回声不息。',
-      '四幕经典相连，旧事生出新意。',
-      '五路传奇同台，今夜值得铭记。',
-      '六维共赴谢幕，留下一台传奇。'] },
+      '两段传奇在今夜碰面，熟悉的命运映出新面目。',
+      '三个世界彼此应答，旧日的回声穿过新的舞台。',
+      '四幕经典照见彼此，熟悉的结局又生出新疑问。',
+      '五路传奇共聚一夜，台上的相逢留下台下的余波。',
+      '六维在谢幕时彼此照应，好戏仍向散场之后延伸。'] },
   };
   const bondCopy = {
     'play-lead': ['主角归位', [
-      '主角重返原作，选择自有来由。',
-      '主角来路清楚，登场更有分量。',
-      '人物回到本戏，愿望有了根基。']],
+      '人物站回故事中央，心事终于接上最初的来路。',
+      '台词认出了自己的主人，旧故事也有了呼吸。',
+      '人物与本戏重新相认，行动牵出了心事的线。']],
     'play-support': ['侧幕来人', [
-      '配角重回本戏，一言牵动局势。',
-      '旧识带来前情，侧幕也有分量。',
-      '原作配角归来，关系更见层次。']],
+      '侧幕的身影走回本戏，一句回应牵动了全场。',
+      '支线回到原来的故事，主角身旁多了一层回声。',
+      '配角接上故事的暗线，没说完的话也有人承接。']],
     'lead-support': ['对手接招', [
-      '同剧人物相逢，一言便有前情。',
-      '熟人未必和解，对手更知彼此。',
-      '旧日关系仍在，进退自有分量。']],
+      '两个人物出自同一故事，一来一往都带着旧意。',
+      '主角的脚步有了应声，对手的停顿也生出分量。',
+      '熟悉的人物彼此照见，台词之间多了一层暗流。']],
     'play-place': ['旧地开幕', [
-      '故事重返旧地，进退皆有来由。',
-      '原作场景归来，往事随之入场。',
-      '熟悉的地方，藏着人物的牵挂。']],
+      '故事落回熟悉的地方，门内门外都有了分量。',
+      '人物脚下接上原作空间，旧日的回声随步而起。',
+      '场景认出了故事的来处，一次进退也牵动旧意。']],
     'style-method': ['演法落地', [
-      '演法配上手段，想法化为行动。',
-      '手段呼应风格，舞台表达更清楚。',
-      '形式找到所指，一招自有章法。']],
+      '演法与手段碰在一处，抽象的心思长出了动作。',
+      '舞台的想法找到了做法，一句台词也落稳了脚。',
+      '表达的路数彼此合拍，声音与动作接住了心意。']],
   };
   const cues = result.resonanceDetails.map(item => {
     const copy = groups[item.rarity];
@@ -3191,7 +3191,6 @@ function hexRadar(cards){
       </svg>
       ${labels.map((label,i)=>`<button type="button" class="hex-corner" style="left:${labelPositions[i][0]/340*100}%;top:${labelPositions[i][1]/258*100}%" data-action="detail" data-id="${K(cards[i].id)}" aria-label="${K(label)}，${K(cards[i].name)}，${scores[i]}分，查看详情"><span class="hex-label">${K(label)}</span><span class="hex-value" data-final="${scores[i]}">${scores[i]}</span></button>`).join('')}
     </div>
-    <p class="hex-caption">形状放大分差，数字为原分</p>
   </section>`;
 }
 

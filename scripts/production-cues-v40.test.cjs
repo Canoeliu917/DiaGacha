@@ -40,7 +40,7 @@ test('每个星级的二至六卡都有独立戏剧短评与准确关联卡', ()
       assert.equal(cue.kind, 'resonance');
       assert.equal(cue.rarity, rarity);
       assert.deepEqual(plain(cue.cardIds), cards.slice(0, count).map(card => card.id));
-      assert.ok(cue.description.length >= 10 && cue.description.length <= 16, cue.description);
+      assert.ok(cue.description.length >= 18 && cue.description.length <= 22, cue.description);
       assert.match(cue.description, /^[^。！？\n]+。$/);
       assert.doesNotMatch(cue.description, /…|\.\.\./);
       assert.doesNotMatch(cue.description,/一递一接|先搭起一个来回/);
@@ -88,7 +88,7 @@ test('真实哈姆雷特卡组的四种同作羁绊与演法羁绊各有对应�
   for (const cue of bonds) {
     const original = result.bondDetails.find(bond => `bond-${bond.id}` === cue.id);
     assert.deepEqual(plain(cue.cardIds), original.cardIds);
-    assert.ok(cue.description.length >= 10 && cue.description.length <= 16, cue.description);
+    assert.ok(cue.description.length >= 18 && cue.description.length <= 22, cue.description);
     assert.match(cue.description, /^[^。！？\n]+。$/);
     assert.doesNotMatch(cue.description, /…|\.\.\./);
   }
@@ -123,7 +123,7 @@ test('长卡名不挤占单行短评，十五种羁绊文案均完整简短', ()
     const markup = scoreBreakdown(result, cards);
     for (const cue of cues) {
       descriptions.add(cue.description);
-      assert.ok(cue.description.length >= 10 && cue.description.length <= 16, cue.description);
+      assert.ok(cue.description.length >= 18 && cue.description.length <= 22, cue.description);
       assert.match(cue.description, /^[^。！？\n]+。$/);
       assert.doesNotMatch(cue.description, /…|\.\.\./);
       assert.ok(markup.includes(`<span>${cue.description}</span>`));

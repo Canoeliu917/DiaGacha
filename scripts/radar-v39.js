@@ -23,6 +23,5 @@ function hexRadar(cards){
       </svg>
       ${labels.map((label,i)=>`<button type="button" class="hex-corner" style="left:${labelPositions[i][0]/340*100}%;top:${labelPositions[i][1]/258*100}%" data-action="detail" data-id="${K(cards[i].id)}" aria-label="${K(label)}，${K(cards[i].name)}，${scores[i]}分，查看详情"><span class="hex-label">${K(label)}</span><span class="hex-value" data-final="${scores[i]}">${scores[i]}</span></button>`).join('')}
     </div>
-    <p class="hex-caption">形状放大分差，数字为原分</p>
   </section>`;
 }
