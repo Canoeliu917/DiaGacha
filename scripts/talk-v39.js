@@ -338,7 +338,7 @@ function theatreReadingV40(context){
   const firstSentence=text=>copySentenceV39(String(text||'').match(/[^。！？]+[。！？]?/)?.[0]||'');
   const note=firstSentence(style.note||style.blurb);
   const methodNote=firstSentence(method.note||method.blurb);
-  return `戏剧线索：${theme}${note?`${style.name}：${note}`:''}${methodNote?`${method.name}的具体含义是：${methodNote}`:'人物是否改变决定，仍要从愿望、阻力和代价之间的关系来理解。'}`;
+  return `戏剧线索：${copySentenceV39(play.note||play.blurb)}${theme}${note?`${style.name}：${note}`:''}${methodNote?`${method.name}的具体含义是：${methodNote}`:'人物是否改变决定，仍要从愿望、阻力和代价之间的关系来理解。'}`;
 }
 function nn(cards){
   const context=sceneContextV40(cards),{play,arc,a,b}=context;
@@ -369,8 +369,11 @@ function talkReferencesV40(cards){
     ['xplay-camel','剧目资料','清华新清华学堂：《骆驼祥子》人物与演出介绍','https://www.hall.tsinghua.edu.cn/info/yc/2323'],
     ['place-meixiang','剧目资料','清华新清华学堂：昆剧《桃花扇》演出介绍','https://www.hall.tsinghua.edu.cn/info/yc/3072'],
   ].filter(([id])=>ids.has(id)).map(([,kind,title,url])=>({kind,title,url}));
+  if(typeof highStarSourcesV40==='function'){
+    for(const card of cards)for(const source of highStarSourcesV40(card))references.push({kind:'卡片资料',...source});
+  }
   references.push({kind:'写作方法',title:'Bush Theatre：愿望、冲突与改变局面的事件',url:'https://www.bushtheatre.co.uk/news/student-guide-to-playwriting-scenes/'});
-  return references;
+  return [...new Map(references.map(source=>[source.url,source])).values()];
 }
 function fiveTalk(cards){return nn(cards);}
 if(typeof module!=='undefined'&&module.exports)module.exports={copySentenceV39,stageSentenceV39,shortScene,nn,fiveTalk,dramaticTitleV40,talkSourcesV40,talkReferencesV40};

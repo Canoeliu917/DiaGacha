@@ -1,0 +1,177 @@
+{
+  "version": 48,
+  "reviewedOn": "2026-11-13",
+  "scope": "65张常驻空间卡运行态正文、看点、排演示例与扩写逐条阅读；选定6张作外部来源核验。其余条目为基础事实与表述筛查，不等于逐卡文献认证。",
+  "coveredIds": [
+    "place-tea",
+    "place-elsinore",
+    "place-zhou",
+    "place-dunsinane",
+    "place-parlor",
+    "place-exec",
+    "place-sichuan",
+    "place-cherry",
+    "place-gullen",
+    "place-zoo",
+    "place-forest",
+    "place-heath",
+    "place-meixiang",
+    "place-baihua",
+    "place-stella",
+    "place-blackbox",
+    "place-proscenium",
+    "place-island",
+    "place-zeng",
+    "xplace-dock",
+    "xplace-attic",
+    "xplace-balcony",
+    "xplace-market",
+    "xplace-factory",
+    "xplace-ancestral",
+    "xplace-grave",
+    "xplace-shrine",
+    "xplace-carriage",
+    "xplace-rooftop",
+    "xplace-kitchen",
+    "xplace-convent",
+    "xplace-snowfield",
+    "xplace-mine",
+    "yplace-crossroad",
+    "yplace-globe",
+    "yplace-huafang",
+    "yplace-well",
+    "yplace-gongtang",
+    "yplace-jindian",
+    "yplace-zhongjun",
+    "yplace-shikumen",
+    "yplace-chengmen",
+    "yplace-fachang",
+    "yplace-cafe",
+    "yplace-deck",
+    "yplace-cliff",
+    "yplace-altar",
+    "yplace-dungeon",
+    "yplace-stable",
+    "yplace-ballroom",
+    "yplace-office",
+    "yplace-workshop",
+    "place-v21-bordercheckpoint",
+    "place-v21-willroom",
+    "place-v21-publicbath",
+    "place-v21-funeralhome",
+    "place-v21-lostproperty",
+    "place-v21-photostudio",
+    "place-v21-diningcar",
+    "place-v21-archive",
+    "place-v22-gallery",
+    "place-v22-radiobooth",
+    "place-v22-cage",
+    "place-v22-embassyhall",
+    "place-v22-observatory"
+  ],
+  "evidenceCheckedIds": [
+    "place-v22-radiobooth",
+    "yplace-globe",
+    "place-blackbox",
+    "place-proscenium",
+    "place-dunsinane",
+    "place-elsinore"
+  ],
+  "evidence": [
+    {
+      "ids": [
+        "place-v22-radiobooth"
+      ],
+      "sources": [
+        {
+          "title": "伦敦南岸大学：Radio Studio and Control Room",
+          "url": "https://www.lsbu.ac.uk/student-life/facilities/facility-finder/radio-studio-control-room"
+        }
+      ],
+      "finding": "控制室以混音、监听和播出控制为主要功能，应与发言、表演所在的录音或直播空间区分；具体配置可合设。"
+    },
+    {
+      "ids": [
+        "yplace-globe"
+      ],
+      "sources": [
+        {
+          "title": "Shakespeare’s Globe：Globe Theatre",
+          "url": "https://www.shakespearesglobe.com/discover/about-us/globe-theatre/"
+        }
+      ],
+      "finding": "1599年原剧场与1997年重建剧场的区别、露天中央庭院与多层看台表述有依据，保留。"
+    },
+    {
+      "ids": [
+        "place-blackbox",
+        "place-proscenium"
+      ],
+      "sources": [
+        {
+          "title": "Theatres Trust：舞台与观众厅形制",
+          "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+        }
+      ],
+      "finding": "黑匣子的可变配置与镜框舞台的主要正面观看方向有依据，保留。"
+    },
+    {
+      "ids": [
+        "place-dunsinane"
+      ],
+      "sources": [
+        {
+          "title": "RSC：《麦克白》剧情时间线",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/story/timeline"
+        }
+      ],
+      "finding": "军队用伯南树林枝叶伪装向邓西嫩推进，保留。"
+    },
+    {
+      "ids": [
+        "place-elsinore"
+      ],
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《哈姆雷特》原文",
+          "url": "https://www.folger.edu/explore/shakespeares-works/Hamlet/read/"
+        }
+      ],
+      "finding": "王后内室帷幕后偷听与误杀对应第三幕第四场，保留。"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "place-v22-radiobooth",
+      "reason": "原说明把控制室与发声的录音、直播空间混为一谈，补足监听、混音与切换功能并说明配置差异。",
+      "sources": [
+        {
+          "title": "伦敦南岸大学：Radio Studio and Control Room",
+          "url": "https://www.lsbu.ac.uk/student-life/facilities/facility-finder/radio-studio-control-room"
+        }
+      ],
+      "fields": {
+        "note": "用于广播节目监听、混音与播出控制的空间，通常通过设备和提示系统与录音或直播空间协作；具体配置也可能将两者合设。",
+        "observe": "声音如何被送出，也是一种决定；话筒前的表达与控制台上的选择可以彼此牵制。",
+        "essay": "控制室的主要任务是监听、混合和切换声音，并把节目送入播出流程。它与供主持人、来宾或演员发声的空间可以相邻，也可能采用合设方式，不能把所有广播控制室都等同于一间只有话筒的播音室。用于戏剧联想时，可以让一段已经准备好的公告遇到突发消息：播出者需要继续说，控制人员却必须决定是否切换声音。谁掌握话筒、谁控制声音是否送出，会形成不同的行动位置。听众收到的是经过选择的声音，现场却可能存在无法一起播出的争执和迟疑。把听众听见的内容与工作人员面对的决定并置，可以显出公开表达背后的压力；这些人物和事件是可供联想的虚构情境。"
+      },
+      "highStar": [
+        "控制室的主要任务是监听、混合和切换声音，并把节目送入播出流程。它与供主持人、来宾或演员发声的空间可以相邻，也可能采用合设方式，不能把所有广播控制室都等同于一间只有话筒的播音室。",
+        "用于戏剧联想时，可以让一段已经准备好的公告遇到突发消息：播出者需要继续说，控制人员却必须决定是否切换声音。谁掌握话筒、谁控制声音是否送出，会形成不同的行动位置。",
+        "听众收到的是经过选择的声音，现场却可能存在无法一起播出的争执和迟疑。把听众听见的内容与工作人员面对的决定并置，可以显出公开表达背后的压力；这些人物和事件是可供联想的虚构情境。"
+      ]
+    },
+    {
+      "id": "xplace-convent",
+      "reason": "将旧名、禁闭等具体戏剧情境限定为作品可能采用的安排，避免泛化为所有修道院制度；属于表述限定，不声称逐项宗教史核验。",
+      "sources": [],
+      "fields": {
+        "essay": "共同生活的作息与宗教誓愿，可以成为戏剧人物必须面对的规定情境。若作品安排旧爱来访、秘密会面或离开的决定，个人愿望便会与所选择的生活发生冲突；这些是具体作品可能采用的情节，不是所有修道院都有的制度。理解这类场景，需要把共同生活的规约和具体人物的信念分开来看。相同的作息可能让一人感到安定，也让另一人感到受困；这种差别比笼统的神秘气氛更能形成可理解的冲突。"
+      },
+      "highStar": [
+        "共同生活的作息与宗教誓愿，可以成为戏剧人物必须面对的规定情境。若作品安排旧爱来访、秘密会面或离开的决定，个人愿望便会与所选择的生活发生冲突；这些是具体作品可能采用的情节，不是所有修道院都有的制度。",
+        "理解这类场景，需要把共同生活的规约和具体人物的信念分开来看。相同的作息可能让一人感到安定，也让另一人感到受困；这种差别比笼统的神秘气氛更能形成可理解的冲突。"
+      ]
+    }
+  ]
+}

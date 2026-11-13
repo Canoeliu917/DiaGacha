@@ -3,17 +3,24 @@ const path = require('node:path');
 const groups = ['craft', 'plays', 'roles'];
 const read = name => JSON.parse(fs.readFileSync(path.join(__dirname, name), 'utf8'));
 const expanded = ['craft', 'plays', 'roles', 'spaces'].map(group => `high-star-${group}-v43.json`).filter(name => fs.existsSync(path.join(__dirname, name)));
-const copy = Object.assign({}, ...groups.map(group => read(`high-star-${group}-v40.json`)), ...expanded.map(read));
+const copy = Object.assign({}, ...groups.map(group => read(`high-star-${group}-v40.json`)), ...expanded.map(read), read('high-star-plays-v48.json'));
+const factAudits = ['PLAYS', 'ROLES', 'CRAFT', 'SPACES'].map(group => `../docs/FACT_AUDIT_${group}_V48.json`).filter(name => fs.existsSync(path.join(__dirname, name))).map(read);
+for (const correction of factAudits.flatMap(audit => audit.corrections)) {
+  if (correction.highStar) copy[correction.id] = correction.highStar;
+}
 const sources = Object.assign({}, ...groups.map(group => {
   const name = `high-star-${group}-sources-v40.json`;
   return fs.existsSync(path.join(__dirname, name)) ? read(name) : {};
 }));
 const anchors = read('../docs/SCORING_ANCHORS.json');
+for (const correction of factAudits.flatMap(audit => audit.corrections)) {
+  sources[correction.id] = [...(sources[correction.id] || []), ...(correction.sources || [])];
+}
 for (const card of anchors.cards) {
   const refs = [...(sources[card.id] || []), ...card.sourceIds.map(id => anchors.sources[id])];
   sources[card.id] = [...new Map(refs.map(source => [source.url, source])).values()];
 }
-const output = `// Generated from high-star-*-v40.json, high-star-*-v43.json and SCORING_ANCHORS.json. Edit the sources, then rebuild.
+const output = `// Generated from high-star copy sources, FACT_AUDIT_*_V48.json and SCORING_ANCHORS.json. Edit the sources, then rebuild.
 const highStarCopyV40 = ${JSON.stringify(copy, null, 2)};
 const highStarSourceDataV40 = ${JSON.stringify(sources, null, 2)};
 

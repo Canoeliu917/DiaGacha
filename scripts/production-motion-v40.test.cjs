@@ -53,7 +53,7 @@ function harness({ score = 75, legacy = false, spread = false, reduced = false, 
   const dots = cards.map((_,index)=>new Element(['hex-dot'],{axis:String(index)}));
   svg.querySelectorAll=selector=>selector==='[data-axis]'?[...rays,...dots]:selector==='.hex-dot'?dots:selector==='.is-lit'?[...rays,...dots].filter(node=>node.classes.has('is-lit')):[...rays,...dots].filter(node=>selector===`[data-axis="${node.dataset.axis}"]`);
   const heading = new Element(), paragraph = new Element(), hiddenParagraph = new Element();
-  heading.textContent = '咫牌联想'; paragraph.textContent = '先把钥匙放下。再听对方回答！'; hiddenParagraph.textContent = '展开后才出现。'; hiddenParagraph.hidden = true;
+  heading.textContent = '咫言咫语'; paragraph.textContent = '先把钥匙放下。再听对方回答！'; hiddenParagraph.textContent = '展开后才出现。'; hiddenParagraph.hidden = true;
   const talk = new Element(); talk.querySelectorAll = selector => selector === '[data-talk-reveal]' ? [heading, paragraph, hiddenParagraph] : [];
   const timers = new Map(), frames = new Map(), seen = new Set(), observers = [], litAxes = [], litTimes = [], starTimes = [];
   let now = 0, sequence = 0, cues = [], buttons = [];
@@ -274,7 +274,7 @@ test('减动和打开详情直接显示最终分，旧五卡只联动存在卡',
   }
 });
 
-test('咫牌联想只在进入视野时渐显完整句，未展开的全文不提前播放', () => {
+test('咫言咫语只在进入视野时渐显完整句，未展开的全文不提前播放', () => {
   const run = harness(); run.context.enterProductionV40();
   const observer = run.observers[0];
   assert.equal(run.paragraph.markup, undefined);
@@ -288,14 +288,14 @@ test('咫牌联想只在进入视野时渐显完整句，未展开的全文不�
   assert.ok(run.paragraph.children.every(span => span.animations.length === 1));
 });
 
-test('咫牌联想的名称和连续正文完整保留，含引号、标点和转义字符也不丢失', () => {
+test('咫言咫语的名称和连续正文完整保留，含引号、标点和转义字符也不丢失', () => {
   const run=harness();
   const paragraphs=['故事联想：一封信。','他说：“别走！”她没有回答；灯仍亮着。','门边写着 <等候> 与 A&B。','末段没有省略号。','戏剧线索：一场等待。'];
   run.context.nn=()=>paragraphs;
   run.context.shortScene=()=>paragraphs[0];
   const markup=run.context.An(run.cards,true);
-  assert.match(markup,/<section class="talk" aria-label="咫牌联想">/);
-  assert.match(markup,/<h2 data-talk-reveal>咫牌联想<\/h2>/);
+  assert.match(markup,/<section class="talk" aria-label="咫言咫语">/);
+  assert.match(markup,/<h2 data-talk-reveal>咫言咫语<\/h2>/);
   assert.doesNotMatch(markup,/演后谈|<br\s*\/?>/);
   assert.ok(paragraphs.every(text=>markup.includes(`<p data-talk-reveal>${escapeHtml(text)}</p>`)));
   run.paragraph.textContent=paragraphs[1];

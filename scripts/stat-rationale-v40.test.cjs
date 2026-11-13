@@ -28,7 +28,7 @@ test('独白直给保留六星88分，分别说明内心行动与方法成熟，
   assert.equal(result.basisMode, 'documented-rubric');
 });
 
-test('68/95两张剧目分别用具体剧情解释冲突与结构的差别，不从星级倒推', () => {
+test('克拉普与蒋公分别用录音回听、双重时间框架解释冲突与结构，不从星级倒推', () => {
   const krapp = statRationaleV40(get('yplay-krapp'));
   assert.equal(krapp.atk.value, 68);
   assert.equal(krapp.def.value, 95);
@@ -41,8 +41,9 @@ test('68/95两张剧目分别用具体剧情解释冲突与结构的差别，不
   assert.deepEqual(krapp.def.criteria, []);
   assert.match(krapp.note, /不反推精确分数/);
   const dinner = statRationaleV40(get('yplay-jiang'));
-  assert.match(dinner.atk.reason, /三位教授.*是否赴宴.*对白/);
-  assert.match(dinner.def.reason, /面子、原则、现实处境与旧事.*同一个赴宴决定/);
+  assert.match(dinner.atk.reason, /时任道、夏小山、卞从周.*去不去吃饭.*对白也是行动/);
+  assert.match(dinner.def.reason, /1943年.*1967年.*双重时间框架.*面子、记忆和自保/);
+  assert.equal(dinner.basisMode, 'documented-rubric');
   assert.notEqual(dinner.atk.reason, krapp.atk.reason);
 });
 
@@ -122,7 +123,8 @@ test('低星手法解释适用条件与限制，金枝和凯瑟琳分别保留�
 });
 
 test('全部已复核锚点只展示能算回当前分值的子项，来源逐项复用记录', () => {
-  assert.equal(anchors.cards.length, 74);
+  assert.equal(new Set(anchors.cards.map(anchor => anchor.id)).size, anchors.cards.length);
+  assert.equal(cards.filter(card => card.review.status === '有来源的编辑复评').length, anchors.cards.length);
   for (const anchor of anchors.cards) {
     const card = get(anchor.id);
     const result = statRationaleV40(card);

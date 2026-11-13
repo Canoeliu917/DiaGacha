@@ -1,0 +1,487 @@
+{
+  "version": 48,
+  "reviewedOn": "2026-11-13",
+  "scope": "185张常驻主角、配角卡的来源、正文、看点、排演示例、essay和高星扩写逐条阅读；12张对照外部剧本、剧团资料或研究文章核查。此覆盖不等于185张均完成文献认证。",
+  "coveredIds": [
+    "role-oedipus",
+    "role-nora",
+    "role-hamlet",
+    "role-fanyi",
+    "role-macbeth",
+    "role-doue",
+    "role-liniang",
+    "role-ladym",
+    "role-wang",
+    "role-shen",
+    "role-zhou",
+    "role-willy",
+    "role-anti",
+    "role-bailu",
+    "role-gogo",
+    "role-shiping",
+    "role-xiangjun",
+    "role-chengying",
+    "role-yuji",
+    "role-lear",
+    "role-courage",
+    "role-blanche",
+    "role-mengmei",
+    "role-zhu",
+    "role-vladimir",
+    "xrole-ophelia",
+    "xrole-juliet",
+    "xrole-eliza",
+    "xrole-hedda",
+    "xrole-harpagon",
+    "xrole-tartuffe",
+    "xrole-figaro",
+    "xrole-mephisto",
+    "xrole-cordelia",
+    "xrole-pozzo",
+    "xrole-lucky",
+    "xrole-chunxiang",
+    "xrole-hongniang",
+    "xrole-xiangzi",
+    "xrole-huniu",
+    "xrole-sifeng",
+    "xrole-juexin",
+    "xrole-chanjuan",
+    "xrole-zhulian",
+    "xrole-cao",
+    "xrole-yangxiu",
+    "xrole-gouer",
+    "xrole-shang",
+    "yrole-clytemnestra",
+    "yrole-witches",
+    "yrole-horatio",
+    "yrole-prospero",
+    "yrole-ariel",
+    "yrole-richardiii",
+    "yrole-falstaff",
+    "yrole-helmer",
+    "yrole-stockmann",
+    "yrole-khlestakov",
+    "yrole-qiuhu",
+    "yrole-juehui",
+    "yrole-baisuzhen",
+    "yrole-guifei",
+    "yrole-bawang",
+    "yrole-liangshanbo",
+    "yrole-tietmei",
+    "yrole-aqing",
+    "yrole-zijirong",
+    "yrole-malu",
+    "yrole-houfangyu",
+    "yrole-dorine",
+    "yrole-mackheath",
+    "yrole-hamm",
+    "yrole-linda",
+    "yrole-brutus",
+    "yrole-solveig",
+    "yrole-wukong",
+    "yrole-kuangzhong",
+    "role2-creon",
+    "role2-ismene",
+    "role2-juliet-nurse",
+    "role2-mercutio",
+    "role2-banquo",
+    "role2-macduff",
+    "role2-laertes",
+    "role2-polonius",
+    "role2-gertrude",
+    "role2-claudius",
+    "role2-goneril",
+    "role2-regan",
+    "role2-edmund",
+    "role2-kent",
+    "role2-fool-lear",
+    "role2-gloucester",
+    "role2-edgar",
+    "role2-malcolm",
+    "role2-duncan",
+    "role2-cassandra",
+    "role2-agamemnon",
+    "role2-aegisthus",
+    "role2-martha-misunderstanding",
+    "role2-kristine-linde",
+    "role2-krogstad",
+    "role2-lopakhin",
+    "role2-gayev",
+    "role2-varya",
+    "role2-anya-cherry",
+    "role2-trofimov",
+    "role2-serebryakov",
+    "role2-sonya",
+    "role2-yelena",
+    "role2-tuzenbach",
+    "role2-solyony",
+    "role2-vershinin",
+    "role2-andrei-three-sisters",
+    "role2-treplev",
+    "role2-arkadina",
+    "role2-nina",
+    "role2-trigorin",
+    "role2-mayor-inspector",
+    "role2-hippolytus",
+    "role2-oenone",
+    "role2-theseus",
+    "role2-clov",
+    "role2-nagg",
+    "role2-nell",
+    "role2-jean-rhinoceros",
+    "role2-fire-chief",
+    "role2-claire-maids",
+    "role2-solange",
+    "role2-li-shiqing",
+    "role2-huang-shengsan",
+    "role2-fang-dasheng",
+    "role2-jiao-mother",
+    "role2-jiao-daxing",
+    "role2-bai-shazi",
+    "role2-zeng-siyi",
+    "role2-zeng-hao",
+    "role2-ruizhen",
+    "role2-liu-mazi",
+    "role2-kang-shunzi",
+    "role2-liu-siye",
+    "role2-xiao-fuzi",
+    "role2-kuang-fu",
+    "role2-yang-caiyu",
+    "role2-lin-zhicheng",
+    "role2-huang-jiamei",
+    "role2-qi-yongnian",
+    "role2-xiu-dingxin",
+    "role2-xia-professor",
+    "role2-shi-professor",
+    "role2-mifeng",
+    "role-v21-unclevanya",
+    "role-v21-astrov",
+    "role-v21-berenger",
+    "role-v21-phedre",
+    "role-v21-caligularole",
+    "role-v21-marytyrone",
+    "role-v21-edmundtyrone",
+    "role-v21-amanda",
+    "role-v21-tomglass",
+    "role-v21-winnie",
+    "role-v21-jimglass",
+    "v23-role-joekeller",
+    "v23-role-heisenberg",
+    "v23-role-woyzeck",
+    "v23-role-danton",
+    "v23-role-eddie",
+    "v23-role-hickey",
+    "v23-role-melchior",
+    "v23-role-alan",
+    "v23-role-dreamdoctor",
+    "v23-role-jinzhi",
+    "v23-role-silentman",
+    "v23-role-serge",
+    "v23-sup-kate",
+    "v23-sup-bohr",
+    "v23-sup-marie",
+    "v23-sup-robespierre",
+    "v23-sup-catherine",
+    "v23-sup-nurse",
+    "v23-sup-moritz",
+    "v23-sup-zhaosan",
+    "v23-sup-stationmaster",
+    "v23-sup-harryhope",
+    "v23-sup-marc"
+  ],
+  "evidenceCheckedIds": [
+    "role-oedipus",
+    "role-liniang",
+    "yrole-kuangzhong",
+    "role2-laertes",
+    "v23-sup-harryhope",
+    "v23-sup-stationmaster",
+    "v23-role-dreamdoctor",
+    "v23-role-silentman",
+    "role2-xia-professor",
+    "role2-shi-professor",
+    "role2-huang-jiamei",
+    "v23-role-woyzeck"
+  ],
+  "evidence": [
+    {
+      "ids": [
+        "role-oedipus"
+      ],
+      "sources": [
+        {
+          "title": "索福克勒斯《俄狄浦斯王》原文，F. Storr译，MIT Internet Classics Archive",
+          "url": "https://classics.mit.edu/Sophocles/oedipus.pl.txt"
+        }
+      ],
+      "finding": "旧看点把《俄狄浦斯王》末尾的流放请求写成已经出走，混入后续流亡经历；原剧中克瑞翁表示须再次问神。"
+    },
+    {
+      "ids": [
+        "role-liniang"
+      ],
+      "sources": [
+        {
+          "title": "Pearson Edexcel：《萨勒姆的女巫》指定剧本指南，第四幕梗概",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/GCSE/Drama/2016/teaching-and-learning-materials/GCSE-Drama-The-Crucible-guide-Issue%203-Aug-2021.pdf"
+        }
+      ],
+      "finding": "普罗克托曾签下供词，随后拒绝交出供词供公开张贴并将它撕毁；不能简化成从未签署。"
+    },
+    {
+      "ids": [
+        "yrole-kuangzhong"
+      ],
+      "sources": [
+        {
+          "title": "谢立丹《造谣学校》原文，第四幕第三场，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1929/pg1929.html"
+        }
+      ],
+      "finding": "第四幕屏风后藏的是蒂兹尔夫人；彼得爵士躲在壁橱里偷听，后来走出壁橱。旧正文、看点和示例都混淆了两人。"
+    },
+    {
+      "ids": [
+        "role2-laertes"
+      ],
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《哈姆雷特》第四幕第五、七场原文及梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/4/"
+        }
+      ],
+      "finding": "莱尔提斯为父亲之死归国时，妹妹仍活着；他先见到精神失常的奥菲利娅，直到与克劳狄斯商议毒剑决斗时才听见她溺亡的消息。"
+    },
+    {
+      "ids": [
+        "v23-sup-harryhope"
+      ],
+      "sources": [
+        {
+          "title": "奥尼尔《送冰的人来了》原文，第一幕及第三幕，Project Gutenberg Australia",
+          "url": "https://gutenberg.net.au/ebooks04/0400021h.html"
+        }
+      ],
+      "finding": "原剧明确说霍普二十年没有出门，并以亡妻贝茜为由解释；“昨天的小伤”并无对应根据。他是酒馆兼廉价旅馆的老板。"
+    },
+    {
+      "ids": [
+        "v23-sup-stationmaster"
+      ],
+      "sources": [
+        {
+          "title": "高行健《车站》原剧上篇，努努书坊全文镜像",
+          "url": "https://www.kanunu8.com/book3/7148/158529.html"
+        },
+        {
+          "title": "戏剧盒《车站》教育资料",
+          "url": "https://www.dramabox.org/edukit/bus-stop_ch.pdf"
+        }
+      ],
+      "finding": "马主任是供销社主任，也是候车乘客；他仰仗与汽车站的熟人关系，并非车站负责人或时刻表专家。原剧中汽车多次驶过不停靠，不能写成车始终不来。"
+    },
+    {
+      "ids": [
+        "v23-role-dreamdoctor"
+      ],
+      "sources": [
+        {
+          "title": "香港话剧团：《如梦之梦》故事概要及角色表",
+          "url": "https://www.hkrep.com/tc/Others/Adlad-Cast-List-And-Synopsis.html"
+        }
+      ],
+      "finding": "官方梗概明确为刚毕业的女医生，首个工作日五位病人中四位死亡，她倾听五号病人的临终故事。运行态已修正，不重复改写；原始字段仍遗留“环湖”“五段爱情”及男性代词。"
+    },
+    {
+      "ids": [
+        "v23-role-silentman"
+      ],
+      "sources": [
+        {
+          "title": "高行健《车站》原剧上篇，努努书坊全文镜像",
+          "url": "https://www.kanunu8.com/book3/7148/158529.html"
+        },
+        {
+          "title": "戏剧盒《车站》教育资料",
+          "url": "https://www.dramabox.org/edukit/bus-stop_ch.pdf"
+        }
+      ],
+      "finding": "原剧中沉默的人在候车者争谈期间先行离开，没有始终留在站牌下。运行态已修正；原始字段仍误写为始终坐着等车。"
+    },
+    {
+      "ids": [
+        "role2-xia-professor",
+        "role2-shi-professor"
+      ],
+      "sources": [
+        {
+          "title": "南京大学转载导演吕效平采访：《蒋公的面子》导演：戏剧是把灵魂放在火上烤",
+          "url": "https://www.nju.edu.cn/info/3191/193181.htm"
+        }
+      ],
+      "finding": "导演采访明确三位教授边等第四人边打麻将争论；夏小山关心火腿豆腐，时任道关心藏书，现文保留。采访及南大校友会演员表姓名均作“卞从周”，不应改成“边从周”。"
+    },
+    {
+      "ids": [
+        "role2-huang-jiamei"
+      ],
+      "sources": [
+        {
+          "title": "刘涛：《以话剧抗战——论夏衍抗战时期的几个话剧》，文艺报2012年10月17日",
+          "url": "https://image.chinawriter.com.cn/61/2012/1017/U3875P843T61D861F788DT20121017072629.pdf"
+        }
+      ],
+      "finding": "文艺报研究文明确黄家楣是读大学来到上海、现已失业的人，父亲来探望；小学老师是赵振宇。当前黄家楣正文正确，保留。"
+    },
+    {
+      "ids": [
+        "v23-role-woyzeck"
+      ],
+      "sources": [
+        {
+          "title": "Pearson Edexcel：《沃伊采克》指定剧本指南",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/gce-woyzeck.pdf"
+        }
+      ],
+      "finding": "教学指南明确沃伊采克以为军官做杂务和参加医生豌豆饮食实验补贴家计，医生观察身心影响；当前简述未发现足以据此认定的基础事实错误，保留。"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "role-oedipus",
+      "reason": "旧看点把《俄狄浦斯王》末尾的流放请求写成已经出走，混入后续流亡经历；原剧中克瑞翁表示须再次问神。",
+      "fields": {
+        "observe": "追查瘟疫的根源最终指向自己；刺瞎双眼后，他请求被逐出忒拜，审判者成了等待处置的人。"
+      },
+      "sources": [
+        {
+          "title": "索福克勒斯《俄狄浦斯王》原文，F. Storr译，MIT Internet Classics Archive",
+          "url": "https://classics.mit.edu/Sophocles/oedipus.pl.txt"
+        }
+      ]
+    },
+    {
+      "id": "role-liniang",
+      "reason": "普罗克托曾签下供词，随后拒绝交出供词供公开张贴并将它撕毁；不能简化成从未签署。",
+      "fields": {
+        "note": "阿瑟·米勒《萨勒姆的女巫》中的农夫。他试图揭露猎巫指控的虚假，最终撕毁自己已经签下的假供词，拒绝让法庭用它替谎言作证。"
+      },
+      "highStar": [
+        "活下去的条件被缩成一张纸，纸上的姓名却会让谎言拥有一个真实的作者。普罗克托的拒绝把法庭的胜利拆开来：它可以夺走身体，却不能因此获得他对判决的认同。",
+        "他并非没有需要悔过的过去，因此坚持诚实要付出的代价更加具体。米勒把私人罪疚与公共指控交织起来，使撕毁已签的供词成为重新判断自己该对什么负责的时刻。"
+      ],
+      "sources": [
+        {
+          "title": "Pearson Edexcel：《萨勒姆的女巫》指定剧本指南，第四幕梗概",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/GCSE/Drama/2016/teaching-and-learning-materials/GCSE-Drama-The-Crucible-guide-Issue%203-Aug-2021.pdf"
+        }
+      ]
+    },
+    {
+      "id": "yrole-kuangzhong",
+      "reason": "第四幕屏风后藏的是蒂兹尔夫人；彼得爵士躲在壁橱里偷听，后来走出壁橱。旧正文、看点和示例都混淆了两人。",
+      "fields": {
+        "note": "谢立丹《造谣学校》中的彼得·蒂兹尔爵士。他与年轻妻子常有争执，曾躲进约瑟夫房间的壁橱偷听；屏风被推倒后，他发现妻子藏在那里，也看清了约瑟夫的伪善。",
+        "observe": "壁橱里的偷听先洗清了查尔斯的嫌疑，屏风后的妻子又让他重新判断那位满口道德的朋友。",
+        "stage": "让他藏在壁橱里听见自己的名字，手几次碰到门边，又忍住不走出来。"
+      },
+      "sources": [
+        {
+          "title": "谢立丹《造谣学校》原文，第四幕第三场，Project Gutenberg",
+          "url": "https://www.gutenberg.org/cache/epub/1929/pg1929.html"
+        }
+      ]
+    },
+    {
+      "id": "role2-laertes",
+      "reason": "莱尔提斯为父亲之死归国时，妹妹仍活着；他先见到精神失常的奥菲利娅，直到与克劳狄斯商议毒剑决斗时才听见她溺亡的消息。",
+      "fields": {
+        "note": "《哈姆雷特》中，莱尔提斯因父亲遇害从法国归来，见到精神失常的妹妹。他与克劳狄斯商议毒剑复仇，随后又听到奥菲利娅溺亡的消息。"
+      },
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《哈姆雷特》第四幕第五、七场原文及梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/4/"
+        }
+      ]
+    },
+    {
+      "id": "v23-sup-harryhope",
+      "reason": "原剧明确说霍普二十年没有出门，并以亡妻贝茜为由解释；“昨天的小伤”并无对应根据。他是酒馆兼廉价旅馆的老板。",
+      "fields": {
+        "note": "奥尼尔《送冰的人来了》中的酒馆兼廉价旅馆老板。他以悼念亡妻贝茜解释二十年不出门的生活，与酒客一起把改变推给明天。"
+      },
+      "sources": [
+        {
+          "title": "奥尼尔《送冰的人来了》原文，第一幕及第三幕，Project Gutenberg Australia",
+          "url": "https://gutenberg.net.au/ebooks04/0400021h.html"
+        }
+      ]
+    },
+    {
+      "id": "v23-sup-stationmaster",
+      "reason": "马主任是供销社主任，也是候车乘客；他仰仗与汽车站的熟人关系，并非车站负责人或时刻表专家。原剧中汽车多次驶过不停靠，不能写成车始终不来。",
+      "fields": {
+        "note": "高行健《车站》中的候车乘客，任供销社主任。他相信自己与汽车站的关系能带来方便，却同众人一样被接连驶过的班车留在站边。",
+        "observe": "头衔和熟人关系原本让他自信，驶过不停的车却不肯按这套办法办事。",
+        "stage": "让他自信地向驶来的车招手，车越过站牌后，再试着向同伴解释自己的熟人关系。"
+      },
+      "sources": [
+        {
+          "title": "高行健《车站》原剧上篇，努努书坊全文镜像",
+          "url": "https://www.kanunu8.com/book3/7148/158529.html"
+        },
+        {
+          "title": "戏剧盒《车站》教育资料",
+          "url": "https://www.dramabox.org/edukit/bus-stop_ch.pdf"
+        }
+      ]
+    }
+  ],
+  "latentRawIssues": [
+    {
+      "id": "v23-role-dreamdoctor",
+      "status": "runtime-correct-raw-stale",
+      "fields": {
+        "note": "赖声川《如梦之梦》中的年轻女医生。上班第一天接连失去病人后，她倾听五号病人的临终讲述，希望在无法治愈的时刻仍能陪伴一个人。",
+        "observe": "她暂时放下追问病因，先让病人把未讲完的人生说完。",
+        "stage": "让她在病床旁坐下，把记录本暂时合上，等病人自己决定从哪里讲起。"
+      },
+      "sources": [
+        {
+          "title": "香港话剧团：《如梦之梦》故事概要及角色表",
+          "url": "https://www.hkrep.com/tc/Others/Adlad-Cast-List-And-Synopsis.html"
+        }
+      ],
+      "reason": "原始card的note/blurb、observe/why、stage/hook/with/action仍遗留旧稿；运行态copy override已经正确。整合时实体化当前文案，并检查对应别名字段，防止旧字段再次进入揭晓或联想。"
+    },
+    {
+      "id": "v23-role-silentman",
+      "status": "runtime-correct-raw-stale",
+      "fields": {
+        "note": "高行健《车站》中没有台词的候车者。车辆接连不停靠后，他先于其他人离开站牌，独自步行去城里。",
+        "observe": "别人还在争论为什么等不到车，他已经开始走自己的路。",
+        "stage": "让他收起书、背好行李，在众人的谈话声中离开队伍，不再回到原来的位置。"
+      },
+      "sources": [
+        {
+          "title": "高行健《车站》原剧上篇，努努书坊全文镜像",
+          "url": "https://www.kanunu8.com/book3/7148/158529.html"
+        },
+        {
+          "title": "戏剧盒《车站》教育资料",
+          "url": "https://www.dramabox.org/edukit/bus-stop_ch.pdf"
+        }
+      ],
+      "reason": "原始card的note/blurb、observe/why、stage/hook/with/action仍遗留旧稿；运行态copy override已经正确。整合时实体化当前文案，并检查对应别名字段，防止旧字段再次进入揭晓或联想。"
+    }
+  ],
+  "sourceMappingIssues": [],
+  "limits": [
+    "本次不修改分数、星级、角色ID或作品关系映射。未发现需要改动workIds的明确证据。",
+    "来源核验集中在可疑身份、剧情顺序及原作关键动作；其余条目完成基础事实与语言筛查，不能据此宣传为逐卡学术认证。",
+    "stage为创作示例，不视为原作舞台指示。只有它复述错误身份或剧情时才作相应更正。",
+    "觉慧旧稿“高家最年轻的那个”范围偏宽，建议后续版本限定为三兄弟中的年轻一位；本轮未找到直接核定全家年龄顺序的剧本文献，未据猜测改写。",
+    "爱斯特拉冈“行动近于零”属于偏窄的评论判断，可能低估身体动作的戏剧作用；本轮未调整既有评论尺度或评分。"
+  ]
+}

@@ -1,4 +1,4 @@
-// Generated from high-star-*-v40.json, high-star-*-v43.json and SCORING_ANCHORS.json. Edit the sources, then rebuild.
+// Generated from high-star copy sources, FACT_AUDIT_*_V48.json and SCORING_ANCHORS.json. Edit the sources, then rebuild.
 const highStarCopyV40 = {
   "style-stan": [
     "一句“别走”可以用来挽留、试探，也可以成为命令，台词的字面并不能替演员完成选择。对方是否停下、是否相信，才让这一句获得可以追踪的结果。",
@@ -88,7 +88,7 @@ const highStarCopyV40 = {
     "辨认演员距离时，单看表情浓淡并不足够。重要的是一个动作被当成正在发生的生活，还是被有意识地展示给人判断；同一场戏也可以在两种方式之间移动，使角色的解释不再是唯一答案。"
   ],
   "ystyle-livingnews": [
-    "报纸上的事件来到活人面前，日期和数字便重新连上会受伤、会争辩的身体。短小篇幅把取舍暴露出来：哪些声音被留下，哪些处境来不及展开，会直接影响现场的人怎样理解同一则消息。",
+    "报纸上的事件来到活人面前，日期和数字便重新连上会受伤、会争辩的身体。材料的取舍会暴露创作者的判断：哪些声音被留下，哪些处境来不及展开，会直接影响现场的人怎样理解同一则消息。",
     "新闻材料成为角色对话后，报道中的抽象关系会被转成能够看见的争执。一次决定可以分别由作决定的人和承受后果的人讲述，观众由此听见同一事件在不同位置上的含义。",
     "及时传播不等于可以忽略材料的准确性。新闻事实、人物转述和创作者的评论需要分清，否则鲜明的表演容易把解释伪装成事实；活报剧的取舍本身也值得被观看和追问。"
   ],
@@ -219,7 +219,9 @@ const highStarCopyV40 = {
     "侯方域与李香君的离合让公共动荡通过一段亲密关系抵达观众，个人不能随意决定的去留也改变了信物的意义。排演时可以让持扇者在交接前先辨认扇面，把凝视伤痕与传递消息分成两个清楚的动作。"
   ],
   "play-secret": [
-    "两个剧组争抢的不只是场地，也是各自故事应当被完整听见的时间。《暗恋》的回望与《桃花源》的闹剧互相打断，使失散的哀伤和寻找出路的滑稽在同一舞台上重新获得尺度。"
+    "《暗恋》里的江滨柳和云之凡被时代分隔，再见面时已错过大半生；《桃花源》里的老陶想逃开眼前的婚姻困局，却发现理想之地与原来的生活未必能够彼此替代。两种完全不同的口吻，都围绕失去之后还能在哪里安身展开。",
+    "两个剧组争用场地，构成剧中的外层行动；现代悲剧与古装喜剧则构成里面的两出戏。演员的打断、布景的碰撞与台词的错接，让一边的笑声成为另一边的回音。戏中戏并非把故事随意装在一起，而是使看似不相干的生活互相解释。",
+    "第一次看这部戏，可以先认清谁在排戏、谁正在戏里，再留意一次打断怎样改变前一句话的意味。创作署名也值得记住：作品由赖声川规划，并与李立群等原始剧组共同构思完成。它提供了认识集体创作、悲喜并置和舞台空间的一条入口。"
   ],
   "play-beijing": [
     "曾家的旧礼法继续安排日常位置，经济衰败却已使这些安排越来越难维持。《北京人》把走出去的愿望放进缓慢的家庭生活，离开因此要经过具体的人情牵扯，而不是只需说出一句反抗。",
@@ -363,9 +365,10 @@ const highStarCopyV40 = {
     "长官的羞辱、医生的实验与生计压力共同作用于沃伊采克，但这些处境并不能替他杀害玛丽的行为免除责任。将他受制于人的时刻与他试图支配玛丽的时刻并置，能使观众同时看见压迫如何发生，以及暴力怎样继续伤及另一个人。"
   ],
   "v23-play-dreamlike": [
-    "五号病人的讲述把病房里的倾听打开为多个人生相接的旅程，医生既要接住叙述，也会被叙述改变。《如梦之梦》的回忆层层进入彼此，使一个人的经历不只属于讲述者，也通过被听见继续作用于后来的人。",
-    "长篇叙事的联系不只靠事件先后，也靠一个人的回忆如何触发另一个人的理解。病房提供了讲述的起点，远方的经历又重新改变这个起点的意义。观众沿着多重人生辨认相似的渴望和失落，而不必把所有人物缩成同一种命运。",
-    "倾听在这里具有伦理分量，因为讲述者无法亲自走完的未来，会进入听者接下来的生活。故事之所以彼此相连，正在于一次相遇可能使另一个人开始重新理解自己的处境。"
+    "五号病人因为亲人的死亡、妻子的离去和无法解释的病症开始旅行；他在法国遇见江红，又循着城堡的线索寻访顾香兰。故事由一个人的求索进入另一代人的爱情与失落，病床边的倾听也逐渐容纳了远方的生活。",
+    "顾香兰从上海来到法国，以为自己将进入新的生活，却仍要面对被占有、被背叛和独自谋生的处境。她的讲述与五号病人的经历并不相同，却在误认、失去与追寻中彼此照见。理解这部戏，可以先抓住谁在讲、谁在听，再顺着讲述进入不同年代。",
+    "常见版本以环绕式舞台和中央的莲花池观众席重新安排观看，人需要转身寻找正在发生的场面。绵长的观看时间也让相似的动作、物件和遭遇留下回声；舞台不是一幅固定画面，记忆成为观众参与故事的方式。具体场地、语言和时长应以各演出版本为准。",
+    "它的收束并不是把命运解释成一道唯一答案，而是让讲述回到最初的倾听关系。面对无力改变的死亡，听完整个人生仍是一种回应。从这张卡出发，可以继续认识多线叙事、叙述层次与观演关系如何共同构成一部戏。"
   ],
   "role-oedipus": [
     "他把统治的正当性押在查清真相上，因此没有一条可以体面撤回的路。旁人的迟疑越深，他越把它当成必须突破的阻碍。这个人最可敬的能力，也正是把自己逼到绝境的力量。等到身份彻底翻转，他仍须承受那些以为属于别人的事实。",
@@ -399,7 +402,7 @@ const highStarCopyV40 = {
   ],
   "role-liniang": [
     "活下去的条件被缩成一张纸，纸上的姓名却会让谎言拥有一个真实的作者。普罗克托的拒绝把法庭的胜利拆开来：它可以夺走身体，却不能因此获得他对判决的认同。",
-    "他并非没有需要悔过的过去，因此坚持诚实要付出的代价更加具体。米勒把私人罪疚与公共指控交织起来，使拒签供词成为重新判断自己该对什么负责的时刻。"
+    "他并非没有需要悔过的过去，因此坚持诚实要付出的代价更加具体。米勒把私人罪疚与公共指控交织起来，使撕毁已签的供词成为重新判断自己该对什么负责的时刻。"
   ],
   "role-ladym": [
     "她与丈夫最初共同谋划未来，能准确找到他犹豫时最在意的自尊。激将、许诺和善后使她成为夺位行动的重要推动者。夫妻之间的亲密也因此被用来促成无法撤回的选择。",
@@ -934,7 +937,7 @@ const highStarCopyV40 = {
     "声源的远近、环境声的持续和一次突然中断，都可以说明人物所在的位置发生了什么。声音并非越多越完整，关键是听者能否区分谁在说、谁听得见，以及一个声音怎样迫使另一个人改变行动。"
   ],
   "style-v21-stagedreading": [
-    "未被填满的空间给语言留下更大的责任。演员既是文字的传递者，也以呼吸和聆听建立真实关系。观众看见的是作品尚在形成的状态，而非一个封闭的成品。暂时的简约因此可能显出故事最坚硬的骨头。",
+    "未被填满的空间给语言留下更大的责任。演员既是文字的传递者，也以呼吸和聆听建立真实关系。它既可以用于新作的发展，也可以让已经完成的经典或少见剧本重新被听见。暂时的简约因此可能显出故事最坚硬的骨头。",
     "朗读不等于把标点逐个发声。人物在听见对方之后怎样调整重音、速度或停顿，会让纸面上的句子形成正在进行的争取与回避。",
     "有限的动作也可以交代谁在向谁说话，而不必为所有场景配齐实物。读剧呈现的是一种明确的观看约定：观众看见文本仍在手中，同时借声音和关系构成想象；简约并不取消对人物行动的要求。"
   ],
@@ -1014,7 +1017,9 @@ const highStarCopyV40 = {
     "梦境允许强盗迅速进入权力中心，让抢夺与做官之间那些体面的说辞失去遮掩。每一次升迁都可能要求新的交易，人物越接近成功，官场的荒诞便越明显。讽刺喜剧用夸张揭示行为逻辑，使可笑之处同时指向现实中的不合理。"
   ],
   "yplay-jiang": [
-    "一顿尚未吃到的饭，已经让三位教授暴露了各自不能轻易放弃的东西。争论中的学术尊严、政治态度与个人需要互相牵制，谁也不能只凭一句原则替别人决定。集中的对话使立场在交锋中显形，喜剧感来自冠冕堂皇的理由与具体生活之间的落差。"
+    "时任道有自己的政治态度，也牵挂战乱中的藏书；卞从周想赴宴，却又不愿独自放下架子；夏小山关心学问和美食，也有不能轻易越过的底线。三人都能讲道理，道理却总与个人需要缠在一起，笑声由此产生。",
+    "后来对饭局的回忆，使当年的争论变得更复杂：一个人如何描述过去，也取决于此刻必须面对的压力。作品把选择与记忆放在两个时代中对照，观众不仅判断教授说得有没有理，还会注意他们为什么在这一刻这样说。",
+    "这部戏由温方伊在南京大学求学期间创作，最初来自课程写作与校园演出，随后进入公众剧场。它提醒新观众：戏剧未必要靠庞大场景才能有力量，人物话语中的回避、讽刺和改口，也能让一顿迟迟吃不上的饭成为完整的戏。"
   ],
   "play-v21-happydays": [
     "身体的局促没有消灭人与世界继续联系的需要。看似琐碎的言语因而成为生命抵抗沉没的细小证据。",
@@ -1035,7 +1040,9 @@ const highStarCopyV40 = {
     "昔日伙伴共享的革命语言，如今可以成为彼此定罪的依据。丹东对流血的厌倦与罗伯斯庇尔对纯洁的要求，让政治分歧同时成为生死问题。历史剧把立场放进法庭与群众面前，追问正义的名义何时会失去对具体生命的顾惜。"
   ],
   "v23-play-livefield": [
-    "萧红笔下的生育与死亡紧贴贫困、劳动和身体，乡村生活很难被整理成单一英雄的成长。改编为舞台作品时，人物并置能够让个体的苦难显出共同处境。金枝与乡亲的命运也提醒观众，历史中的抗争首先关系着人怎样保住尊严与生存。"
+    "田沁鑫没有把萧红小说逐段搬上舞台，而是重新安排人物联系，让赵三与二里半两家因金枝和成业的恋爱互相牵动。家庭恩怨由此接上婚嫁、生育、土地与侵略的压力。认识改编作品，首先要分清小说原有的材料和舞台新建立的关系。",
+    "插叙、倒叙和定格把分散的生活片段组织成可观看的群像，身体的劳作、承受与挣扎使生存问题具体可见。人物不是抽象苦难的代表：他们会争夺、误判，也会在改变了的处境里重新认识彼此。悲喜交织的力量，来自粗粝日常突然显露出的生命重量。",
+    "这张卡适合与人物卡和群像手段一起读，观察个人遭遇怎样进入共同命运。它也提供一个文学入门方向：比较萧红的文字与田沁鑫的话剧，哪些事件被保留，哪些关系被重组，新的结构又怎样改变了我们对同一个故事的理解。"
   ],
   "xplay-quyuan": [
     "楚廷中的争论把对国家道路的判断变成了对个人忠诚的审判。诬陷之所以危险，正因为它能让政治主张还未被认真讨论，提出主张的人就先失去发言位置。郭沫若用历史处境回应创作时代的问题，不能把剧中的安排直接当作屈原生平的史实。",
@@ -1232,7 +1239,7 @@ const highStarCopyV40 = {
     "牌位与议事位置把不在场的前辈也带进当下的争论，个人要面对的便不只是眼前一个对手。谁能代表家族发言、谁的选择被视为私事，会使一场家庭争执具有公开裁断的压力。"
   ],
   "xplace-convent": [
-    "钟声把一天分成不能讨价还价的时刻，誓愿与戒律则先于人物的愿望，成为这出戏的规定情境。旧名字被留在门外，忏悔、禁闭与秘密会面却仍把旧生活带进来，沉默因此不是没有台词，而是有人决定谁能说、对谁说。戏剧里的修道院常像一处重写人的地方：一个人试图以新身份活下去，旧爱、旧债和未被允许的自我却在同一堵墙内等他回答。",
+    "共同生活的作息与宗教誓愿，可以成为戏剧人物必须面对的规定情境。若作品安排旧爱来访、秘密会面或离开的决定，个人愿望便会与所选择的生活发生冲突；这些是具体作品可能采用的情节，不是所有修道院都有的制度。",
     "理解这类场景，需要把共同生活的规约和具体人物的信念分开来看。相同的作息可能让一人感到安定，也让另一人感到受困；这种差别比笼统的神秘气氛更能形成可理解的冲突。"
   ],
   "xplace-snowfield": [
@@ -1298,9 +1305,9 @@ const highStarCopyV40 = {
     "戏剧可以让观众同时留意说话者和沉默者，听见正式语言之外仍未被回答的需要。这种双重观看使空间本身参与评论，而不只是为辩论提供背景。"
   ],
   "place-v22-radiobooth": [
-    "话筒取消了身体的大部分信息，只留下被放大的声音。说话者面对机器，听众面对空气，两边都容易把想象填进看不见的空白。一间小屋因此能够震动整座城市，也会把个人的迟疑变成公共事件。",
-    "控制室把面向广大听众的公开发言压缩到一段很近的室内关系中。提示灯、隔音玻璃和工作手势能够让谁能开口、谁必须等待变得清楚。",
-    "听众听到的是连续的声音，室内人物却可能正面对中断、迟疑或临时决定。把传播出去的内容与房间里正在发生的事情并置，可以让公开表态背后的压力成为故事的一部分。"
+    "控制室的主要任务是监听、混合和切换声音，并把节目送入播出流程。它与供主持人、来宾或演员发声的空间可以相邻，也可能采用合设方式，不能把所有广播控制室都等同于一间只有话筒的播音室。",
+    "用于戏剧联想时，可以让一段已经准备好的公告遇到突发消息：播出者需要继续说，控制人员却必须决定是否切换声音。谁掌握话筒、谁控制声音是否送出，会形成不同的行动位置。",
+    "听众收到的是经过选择的声音，现场却可能存在无法一起播出的争执和迟疑。把听众听见的内容与工作人员面对的决定并置，可以显出公开表达背后的压力；这些人物和事件是可供联想的虚构情境。"
   ],
   "place-v22-cage": [
     "垂直的铁笼取消了逃避的侧面道路，共同升降使私怨和互助挤在同一件身体事实里。黑暗从栅外压进来时，身份的差别暂时让位于重力。谁先伸手、谁先松开，都会被这段不能独自结束的旅程记住。",
@@ -1316,6 +1323,16 @@ const highStarCopyV40 = {
     "圆顶把人送进一种近乎神圣的尺度：星光遥远，呼吸却近在耳边。寻找规律的目光并不能取消今晚必须做出的决定。当穹缝漏下光来，它照见的不是宇宙的答案，而是两个人仍要互相承担的距离。",
     "观测使人物有了共同注视的对象，也可能让他们暂时避开彼此的眼睛。对于必须谈清的私事，望向远处既可以是陪伴，也可能是一种回避。",
     "圆顶、仪器和转动的观察方向组织了人物停留的位置，谈话不必靠来回走动才能发生变化。外部尺度越宏大，眼前一个无法代替别人作出的决定就越具体，环境由此映照人的局限。"
+  ],
+  "play-rhino": [
+    "马路不是只会背情话的浪漫符号：他把明明视为不可替代的人，却越来越难接受她有不爱自己的自由。明明也困在另一段得不到回应的感情里，两人的相似没有带来相互理解，反而使拒绝更刺痛。看这部戏，可以同时感受爱欲的强度与占有的危险。",
+    "抒情独白、诗和带着荒诞感的笑闹交替出现，恋爱指导员试图用规则解释爱情，人物却一次次逃出规则。这样的穿插会打断日常对话的节奏，让内心的冲动直接占据舞台。它适合从独白与戏剧意象入门：同一句告白，既可能是倾诉，也可能变成对回应的逼问。",
+    "《恋爱的犀牛》进入了许多校园剧社和年轻观众的戏剧记忆，但不同演出并不完全相同。廖一梅谈及后来的版本时，特别说明过水和跑步机带来的超现实背景；这些是具体演出选择，不能当成所有版本共有的舞台规定。收藏这张卡，可以从马路、明明继续认识人物关系，再去比较独白如何在不同舞台上获得力量。"
+  ],
+  "v23-play-busstop": [
+    "众人都说自己有急事：要办事、要见人、要进入另一种生活，却不断把希望交给下一辆车。过站不停的车辆使等待不再是交通小插曲，而成为选择困境；已经耗掉的时间越多，承认等待落空就越困难。",
+    "这部戏把平常的候车经验变形，时间可以突然跨过漫长年月，几个人的语言、身体和声音也能并置。群像没有整齐地轮流交代人生，观众要从争执、重复和自我辩解里辨认各自的位置。先锋之处在观看规则的改变，而不只是题材新奇。",
+    "沉默的人的离开，让行动与众人的议论形成对照。看完之后可以追问：我们是在为出发作准备，还是已经学会用准备来延迟出发？从这张卡认识荒诞、群像和戏剧时间，也能看见中国实验戏剧如何把熟悉的日常变成令人不安的问题。"
   ]
 };
 const highStarSourceDataV40 = {
@@ -1377,6 +1394,199 @@ const highStarSourceDataV40 = {
       "url": "https://njucml.nju.edu.cn/_upload/article/files/3b/d2/936d32204dccb88d72610a8aae60/06da3e90-0204-4001-8169-de76f1428e78.pdf"
     }
   ],
+  "play-rhino": [
+    {
+      "title": "清华大学艺术教育中心：《恋爱的犀牛》主创与剧情介绍",
+      "url": "https://www.hall.tsinghua.edu.cn/info/jz/1379"
+    },
+    {
+      "title": "孟京辉戏剧工作室转载：廖一梅谈《恋爱的犀牛》的表达与版本变化",
+      "url": "https://www.trueart.com/news/242468.html"
+    },
+    {
+      "title": "湖北经济学院：《恋爱的犀牛》校园公演与人物介绍",
+      "url": "https://dwbgs.hbue.edu.cn/45/f4/c11263a345588/page.htm"
+    }
+  ],
+  "play-secret": [
+    {
+      "title": "台中国家歌剧院：《暗恋桃花源》作品简介",
+      "url": "https://www.npac-ntt.org/program/events/c-TAB0YpD3oZH"
+    },
+    {
+      "title": "表演工作坊：《暗恋桃花源》纪念版主创署名及戏中戏结构",
+      "url": "https://www.opentix.life/event/2001257814444711937"
+    }
+  ],
+  "v23-play-busstop": [
+    {
+      "title": "韩惠景：《高行健〈车站〉的语义考察》，中国学报48，2003",
+      "url": "https://kiss.kstudy.com/Detail/Ar?key=2264430"
+    },
+    {
+      "title": "PAR表演艺术杂志：另辟一条无人的蹊径——《车站》的声音、身体与空间实验",
+      "url": "https://par.npac-ntch.org/tw/article/doc/D99EPH3LTK"
+    },
+    {
+      "title": "林兆华口述访谈：与高行健合作《车站》的结构探索",
+      "url": "https://ent.sina.com.cn/v/33920.html"
+    }
+  ],
+  "v23-play-dreamlike": [
+    {
+      "title": "香港话剧团：《如梦之梦》作品及演出介绍",
+      "url": "https://www.hkrep.com/tc/Season-Programme/Main-Stage-Productions/Dream-like-dream.html"
+    },
+    {
+      "title": "香港话剧团：《如梦之梦》故事概要及角色表",
+      "url": "https://www.hkrep.com/tc/Others/Adlad-Cast-List-And-Synopsis.html"
+    },
+    {
+      "title": "表演工作坊：《如梦之梦》环绕舞台与莲花池观众席",
+      "url": "https://www.opentix.life/event/1546343317931937794"
+    }
+  ],
+  "yplay-jiang": [
+    {
+      "title": "南京大学转载温方伊访谈：《蒋公的面子》的校园创作与历史细节",
+      "url": "https://www.nju.edu.cn/info/3191/194991.htm"
+    },
+    {
+      "title": "清华大学艺术教育中心：《蒋公的面子》的两个时代与三位教授",
+      "url": "https://www.hall.tsinghua.edu.cn/info/xwkx/1411"
+    }
+  ],
+  "v23-play-livefield": [
+    {
+      "title": "文化和旅游部：国家话剧院重排《生死场》，改编关系与叙事手段",
+      "url": "https://www.mct.gov.cn/whzx/zsdw/zggjhjy/201506/t20150625_776340.html"
+    },
+    {
+      "title": "中国国家话剧院：《生死场》重登舞台，田沁鑫的文学改编",
+      "url": "https://www.ntcc.com.cn/zggjhjy/jyxw/201507/fd8862b8f00d4586a0c725fdb1e12a2f.shtml"
+    }
+  ],
+  "yplay-promotion": [
+    {
+      "title": "彭林祥：《升官图》的问世与上演，《文艺报》2016年6月24日",
+      "url": "https://image.chinawriter.com.cn/61/2016/0624/U3875P843T61D1643F788DT20160624064112.pdf"
+    }
+  ],
+  "yplay-threepenny": [
+    {
+      "title": "库尔特·魏尔基金会：《三毛钱歌剧》主创与逐幕剧情",
+      "url": "https://www.kwf.org/works/die-dreigroschenoper/"
+    }
+  ],
+  "v23-play-copenhagen": [
+    {
+      "title": "中国国家话剧院：《哥本哈根》走进成都，三个人物及亡灵叙述框架",
+      "url": "https://www.ntcc.com.cn/zggjhjy/jyxw/201512/abd6fdb5e4cf4d16b1475fa4b856a5cc.shtml"
+    },
+    {
+      "title": "陈戎女、郑芳菲：戏剧《哥本哈根》中的解构主义，上海社会科学院文学研究所",
+      "url": "https://wxs.sass.org.cn/2023/0529/c6913a543168/page.htm"
+    }
+  ],
+  "role-oedipus": [
+    {
+      "title": "索福克勒斯《俄狄浦斯王》原文，F. Storr译，MIT Internet Classics Archive",
+      "url": "https://classics.mit.edu/Sophocles/oedipus.pl.txt"
+    },
+    {
+      "title": "MIT Internet Classics Archive：Sophocles《Oedipus the King》原作英译",
+      "url": "https://classics.mit.edu/Sophocles/oedipus.html"
+    }
+  ],
+  "role-liniang": [
+    {
+      "title": "Pearson Edexcel：《萨勒姆的女巫》指定剧本指南，第四幕梗概",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/GCSE/Drama/2016/teaching-and-learning-materials/GCSE-Drama-The-Crucible-guide-Issue%203-Aug-2021.pdf"
+    }
+  ],
+  "yrole-kuangzhong": [
+    {
+      "title": "谢立丹《造谣学校》原文，第四幕第三场，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1929/pg1929.html"
+    }
+  ],
+  "role2-laertes": [
+    {
+      "title": "Folger Shakespeare Library：《哈姆雷特》第四幕第五、七场原文及梗概",
+      "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/4/"
+    },
+    {
+      "title": "Royal Shakespeare Company：Hamlet 人物关系",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+    },
+    {
+      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
+      "url": "https://www.rsc.org.uk/hamlet/"
+    }
+  ],
+  "v23-sup-harryhope": [
+    {
+      "title": "奥尼尔《送冰的人来了》原文，第一幕及第三幕，Project Gutenberg Australia",
+      "url": "https://gutenberg.net.au/ebooks04/0400021h.html"
+    }
+  ],
+  "v23-sup-stationmaster": [
+    {
+      "title": "高行健《车站》原剧上篇，努努书坊全文镜像",
+      "url": "https://www.kanunu8.com/book3/7148/158529.html"
+    },
+    {
+      "title": "戏剧盒《车站》教育资料",
+      "url": "https://www.dramabox.org/edukit/bus-stop_ch.pdf"
+    }
+  ],
+  "style-physical": [
+    {
+      "title": "Grotowski Institute — poor theatre",
+      "url": "https://grotowski.net/en/encyclopedia/poor-theatre"
+    },
+    {
+      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
+      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
+    }
+  ],
+  "style-absurd": [
+    {
+      "title": "Martin Esslin — The Theatre of the Absurd, Bloomsbury Academic",
+      "url": "https://www.bloomsbury.com/uk/theatre-of-the-absurd-9781472577023/"
+    }
+  ],
+  "ystyle-livingnews": [
+    {
+      "title": "Library of Congress — Living Newspaper",
+      "url": "https://www.loc.gov/exhibits/federal-theatre-project/living-newspaper.html"
+    }
+  ],
+  "style-v21-stagedreading": [
+    {
+      "title": "Shakespeare’s Globe — Read Not Dead",
+      "url": "https://www.shakespearesglobe.com/discover/read-not-dead/"
+    }
+  ],
+  "v23-style-chamber": [
+    {
+      "title": "Lynn R. Wilkinson — The Chamber Plays, The Cambridge Companion to August Strindberg",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-august-strindberg/chamber-plays/DEAAB35D95B1FC574CBE41BE2C36AE5C"
+    }
+  ],
+  "v23-style-total": [
+    {
+      "title": "Dorothy Max Prior — What is Total Theatre?",
+      "url": "https://totaltheatre.org.uk/archive/features/what-total-theatre"
+    }
+  ],
+  "place-v22-radiobooth": [
+    {
+      "title": "伦敦南岸大学：Radio Studio and Control Room",
+      "url": "https://www.lsbu.ac.uk/student-life/facilities/facility-finder/radio-studio-control-room"
+    }
+  ],
+  "xplace-convent": [],
   "play-thunder": [
     {
       "title": "中央戏剧学院：2026 年《雷雨》创排、文本身体空间与蒙太奇",
@@ -1422,12 +1632,6 @@ const highStarSourceDataV40 = {
       "title": "北京人民艺术剧院：老舍与《茶馆》创演",
       "url": "https://www.bjry.com/actor/html/2015/06/2015060515.html"
     },
-    {
-      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
-      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
-    }
-  ],
-  "style-physical": [
     {
       "title": "RADA：MA Theatre Lab Programme Specification（2024）",
       "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
@@ -1521,16 +1725,6 @@ const highStarSourceDataV40 = {
       "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
     }
   ],
-  "role2-laertes": [
-    {
-      "title": "Royal Shakespeare Company：Hamlet 人物关系",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
-    },
-    {
-      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
-      "url": "https://www.rsc.org.uk/hamlet/"
-    }
-  ],
   "place-tea": [
     {
       "title": "国家大剧院 2019 秋季演出季手册：《茶馆》人物与裕泰茶馆",
@@ -1548,12 +1742,6 @@ const highStarSourceDataV40 = {
     }
   ],
   "play-oedipus": [
-    {
-      "title": "MIT Internet Classics Archive：Sophocles《Oedipus the King》原作英译",
-      "url": "https://classics.mit.edu/Sophocles/oedipus.html"
-    }
-  ],
-  "role-oedipus": [
     {
       "title": "MIT Internet Classics Archive：Sophocles《Oedipus the King》原作英译",
       "url": "https://classics.mit.edu/Sophocles/oedipus.html"

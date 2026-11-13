@@ -173,8 +173,8 @@ function An(cards,open=false){
   const paragraphs=entries.map(text=>`<p data-talk-reveal>${K(text)}</p>`).join('');
   const sources=typeof talkSourcesV40==='function'?talkSourcesV40(cards):'';
   const references=typeof talkReferencesV40==='function'?talkReferencesV40(cards):[];
-  return `<section class="talk" aria-label="咫牌联想">
-    <h2 data-talk-reveal>咫牌联想</h2>
+  return `<section class="talk" aria-label="咫言咫语">
+    <h2 data-talk-reveal>咫言咫语</h2>
     <div class="talk-short"${open?' hidden':''}><p data-talk-reveal>${K(shortScene(cards))}</p>${education?`<p class="talk-education" data-talk-reveal>${K(education)}</p>`:''}</div>
     <div class="talk-full"${open?'':' hidden'}>${paragraphs}</div>
     <button type="button" class="text-btn talk-toggle" data-action="expand-talk" aria-expanded="${open}">${open?'收起全文':'展开这场戏'}</button>

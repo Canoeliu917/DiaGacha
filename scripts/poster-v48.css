@@ -1,0 +1,21 @@
+/* The saved programme is a complete still, including expanded reading references. */
+.poster-static,.poster-static *,.poster-static *::before,.poster-static *::after{animation:none!important;transition:none!important}
+.poster-static .cast-mini,.poster-static .talk,.poster-static .talk-beat,.poster-static .verdict{opacity:1!important;filter:none!important;transform:none!important}
+.poster-static .cast-mini{box-shadow:none!important}
+.poster-static .cast-mini::after,.poster-static .art-wrap::before,.poster-static .art-wrap::after{display:none!important}
+.poster-static .hex-panel{padding:28px 12px}
+.poster-static .hex-chart{width:300px;max-width:none;height:228px}
+.poster-static .hex-radar{width:300px;height:228px}
+.poster-static .hex-corner{width:84px;min-height:44px;margin:0!important}
+.poster-static .hex-label{font-size:14px}
+.poster-static .hex-value{font-size:20px}
+.poster-static .talk,.poster-static .talk-full,.poster-static .talk-references{height:auto;max-height:none;overflow:visible}
+/* Keep adjacent CJK punctuation widths identical in DOM measurement and canvas text. */
+.poster-static .talk-sources{font-size:14px!important;line-height:1.8!important;letter-spacing:0;text-spacing-trim:space-all;font-feature-settings:"chws" 0,"halt" 0;text-align:left}
+.poster-static .talk-references{display:block;clear:both;margin-top:16px;text-spacing-trim:space-all;font-feature-settings:"chws" 0,"halt" 0}
+.poster-static .poster-reference-title{font:inherit;margin:0 0 6px}
+.poster-static .talk-references ul{margin:0;padding-left:20px}
+.poster-static .talk-references li{margin:0 0 7px;overflow-wrap:anywhere}
+.poster-static .poster-seal{clear:both;margin-top:16px;padding-bottom:12px}
+.poster-dialog .poster-save-image{-webkit-touch-callout:default;-webkit-user-select:auto;user-select:auto;touch-action:pan-y}
+.poster-dialog .dock{position:static;margin-top:12px;padding-bottom:0}

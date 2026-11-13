@@ -11,7 +11,21 @@ const cards = JSON.parse(html.match(/var e=JSON\.parse\(`([\s\S]*?)`\)/)[1]);
 const stored = read('docs/cards.json');
 const manifest = read('docs/ACTIVE_CARDS_V39.json');
 const anchors = read('docs/SCORING_ANCHORS.json');
-const reviews = ['PLAYS', 'ROLE_CRAFT', 'FAUST'].flatMap(name => read(`docs/REVIEW_${name}_V43.json`).cards);
+const reviewFiles = [
+  ...['PLAYS', 'ROLE_CRAFT', 'FAUST'].map(name => `docs/REVIEW_${name}_V43.json`),
+  'docs/REVIEW_PLAYS_V48.json',
+];
+const reviewHistory = reviewFiles.flatMap(file => read(file).cards);
+const reviews = [...new Map(reviewHistory.map(review => [review.id, review])).values()];
+const legacyAnchorIds = [
+  'yplay-agamemnon', 'play-thunder', 'play-teahouse', 'play-hamlet', 'play-salesman',
+  'style-stan', 'style-real', 'style-physical', 'xstyle-site', 'ydir-duetline',
+  'dir-montage', 'dir-body', 'dir-solo', 'role-hamlet', 'role-zhou',
+  'xrole-ophelia', 'yrole-horatio', 'role2-claudius', 'role2-polonius', 'role2-gertrude',
+  'role2-laertes', 'yplace-globe', 'place-elsinore', 'place-tea', 'place-zhou',
+  'play-oedipus', 'role-oedipus', 'play-godot', 'role-vladimir', 'role-gogo',
+  'play-cherry', 'role2-lopakhin', 'place-cherry',
+];
 const cardMap = new Map(cards.map(card => [card.id, card]));
 const anchorMap = new Map(anchors.cards.map(card => [card.id, card]));
 const axisScore = values => 50 + 4 * values.reduce((sum, value) => sum + value, 0);
@@ -34,11 +48,15 @@ test('777张数据与运行页攻防档位同步，500常驻及277预留完整�
   }
 });
 
-test('74个锚点均能算回当前两轴，新41张复核和来源已应用而非只改收藏等级', () => {
-  assert.equal(anchors.cards.length, 74);
-  assert.equal(anchorMap.size, 74);
-  assert.equal(reviews.length, 41);
-  assert.equal(new Set(reviews.map(review => review.id)).size, 41);
+test('历史锚点和逐版复核清单完整生效，复评按最新记录覆盖且均能算回当前两轴', () => {
+  const expectedIds = new Set([...legacyAnchorIds, ...reviews.map(review => review.id)]);
+  assert.equal(anchors.cards.length, expectedIds.size);
+  assert.deepEqual([...anchorMap.keys()].sort(), [...expectedIds].sort());
+  for (const file of reviewFiles) {
+    const records = read(file).cards;
+    assert.ok(records.length > 0, file);
+    assert.equal(new Set(records.map(review => review.id)).size, records.length, `${file}: duplicate review`);
+  }
   for (const anchor of anchors.cards) {
     const card = cardMap.get(anchor.id);
     assert.ok(card, anchor.id);
