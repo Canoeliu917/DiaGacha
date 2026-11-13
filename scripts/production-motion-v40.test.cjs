@@ -53,7 +53,7 @@ function harness({ score = 75, legacy = false, spread = false, reduced = false, 
   const dots = cards.map((_,index)=>new Element(['hex-dot'],{axis:String(index)}));
   svg.querySelectorAll=selector=>selector==='[data-axis]'?[...rays,...dots]:selector==='.hex-dot'?dots:selector==='.is-lit'?[...rays,...dots].filter(node=>node.classes.has('is-lit')):[...rays,...dots].filter(node=>selector===`[data-axis="${node.dataset.axis}"]`);
   const heading = new Element(), paragraph = new Element(), hiddenParagraph = new Element();
-  heading.textContent = '演后谈'; paragraph.textContent = '先把钥匙放下。再听对方回答！'; hiddenParagraph.textContent = '展开后才出现。'; hiddenParagraph.hidden = true;
+  heading.textContent = '咫牌联想'; paragraph.textContent = '先把钥匙放下。再听对方回答！'; hiddenParagraph.textContent = '展开后才出现。'; hiddenParagraph.hidden = true;
   const talk = new Element(); talk.querySelectorAll = selector => selector === '[data-talk-reveal]' ? [heading, paragraph, hiddenParagraph] : [];
   const timers = new Map(), frames = new Map(), seen = new Set(), observers = [], litAxes = [], litTimes = [], starTimes = [];
   let now = 0, sequence = 0, cues = [], buttons = [];
@@ -210,15 +210,20 @@ test('无IntersectionObserver时立即启动序列，减动及详情不等待可
   }
 });
 
-test('加分卡面只作一次短促轻震，回到原位且连续点选不叠加震动', () => {
+test('加分卡面仅作560ms一像素柔和回弹，缓慢归位且连续点选不叠加', () => {
   const run=harness({spread:true});run.context.enterProductionV40();run.finish();
   run.context.replayProductionCueV40(run.cues[0].id);
-  const shakes=run.minis.flatMap(card=>card.animations).filter(animation=>animation.options.duration===340);
+  const shakes=run.minis.flatMap(card=>card.animations).filter(animation=>animation.options.duration===560);
   assert.ok(shakes.length);
   for(const animation of shakes){
-    assert.equal(animation.frames[0].transform,'translateX(0)');
-    assert.equal(animation.frames.at(-1).transform,'translateX(0)');
-    assert.ok(animation.frames.every(frame=>Object.keys(frame).join()==='transform'&&!frame.transform.includes('scale')));
+    assert.equal(animation.frames[0].transform,'translateY(0)');
+    assert.equal(animation.frames.at(-1).transform,'translateY(0)');
+    assert.equal(animation.frames.length,3,'只离位和归位一次，不机械往复');
+    assert.ok(animation.frames.every(frame=>/^translateY\(-?[\d.]+(?:px)?\)$/.test(frame.transform)));
+    assert.ok(animation.frames.every(frame=>Math.abs(Number(frame.transform.match(/-?[\d.]+/)[0]))<=1));
+    assert.ok(animation.frames[1].offset<.5,'回到原位的时间长于离位');
+    assert.ok(animation.frames.slice(0,-1).every(frame=>frame.easing==='cubic-bezier(.4,0,.2,1)'),'每段起止速度平顺');
+    assert.ok(animation.options.duration<820,'归位后才进入下一加分项');
     assert.equal(animation.options.delay,undefined,'相关卡同时回应');
   }
   run.context.replayProductionCueV40(run.cues.at(-1).id);
@@ -269,7 +274,7 @@ test('减动和打开详情直接显示最终分，旧五卡只联动存在卡',
   }
 });
 
-test('演后谈只在进入视野时渐显完整句，未展开的全文不提前播放', () => {
+test('咫牌联想只在进入视野时渐显完整句，未展开的全文不提前播放', () => {
   const run = harness(); run.context.enterProductionV40();
   const observer = run.observers[0];
   assert.equal(run.paragraph.markup, undefined);
@@ -281,6 +286,23 @@ test('演后谈只在进入视野时渐显完整句，未展开的全文不提�
   assert.ok(observer.unobserved);
   observer.callback([{ target: run.talk, isIntersecting: true }]);
   assert.ok(run.paragraph.children.every(span => span.animations.length === 1));
+});
+
+test('咫牌联想的名称和连续正文完整保留，含引号、标点和转义字符也不丢失', () => {
+  const run=harness();
+  const paragraphs=['故事联想：一封信。','他说：“别走！”她没有回答；灯仍亮着。','门边写着 <等候> 与 A&B。','末段没有省略号。','戏剧线索：一场等待。'];
+  run.context.nn=()=>paragraphs;
+  run.context.shortScene=()=>paragraphs[0];
+  const markup=run.context.An(run.cards,true);
+  assert.match(markup,/<section class="talk" aria-label="咫牌联想">/);
+  assert.match(markup,/<h2 data-talk-reveal>咫牌联想<\/h2>/);
+  assert.doesNotMatch(markup,/演后谈|<br\s*\/?>/);
+  assert.ok(paragraphs.every(text=>markup.includes(`<p data-talk-reveal>${escapeHtml(text)}</p>`)));
+  run.paragraph.textContent=paragraphs[1];
+  run.context.enterProductionV40();
+  run.observers[0].callback([{target:run.talk,isIntersecting:true}]);
+  assert.equal(run.paragraph.children.map(span=>span.textContent).join(''),paragraphs[1]);
+  assert.doesNotMatch(run.paragraph.markup,/<br|<p|display:/);
 });
 
 test('实际内联总览与节目单模板把所有事件关联到页面上的卡片，五卡分享不补卡', () => {

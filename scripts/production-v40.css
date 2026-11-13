@@ -15,7 +15,7 @@
 .spread-review{padding:14px 0 4px}
 .spread-review .production-review{padding:4px 0 12px}
 .spread-review .production-cues{margin-top:12px}
-.talk-full p,.talk-short p{line-height:1.95;text-wrap:pretty}.talk-beat{opacity:1}
+.talk-full p,.talk-short p{line-height:1.95;text-wrap:wrap;text-align:justify;text-align-last:start;text-justify:inter-character;white-space:normal;word-break:normal;overflow-wrap:anywhere}.talk-beat{display:inline;opacity:1}
 .talk-sources{font-size:12px!important;line-height:1.7!important;color:var(--ink-soft);margin-top:18px!important}
 .talk [hidden]{display:none!important}
 .talk-toggle{margin-top:12px}

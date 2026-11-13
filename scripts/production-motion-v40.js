@@ -57,7 +57,11 @@ function showProductionCueV40(cue,{replay=false}={}){
   selected.forEach(card=>{
     card.style.setProperty('--cue-color',color);
     card.classList.add('is-cue-card');card.classList.toggle('is-cue-bond',cue.kind==='bond');
-    const animation=animateProductionV40(card,[{transform:'translateX(0)'},{transform:'translateX(-1.5px)'},{transform:'translateX(1px)'},{transform:'translateX(-.5px)'},{transform:'translateX(0)'}],{duration:340,easing:'ease-in-out'});
+    const animation=animateProductionV40(card,[
+      {transform:'translateY(0)',offset:0,easing:'cubic-bezier(.4,0,.2,1)'},
+      {transform:'translateY(-1px)',offset:.35,easing:'cubic-bezier(.4,0,.2,1)'},
+      {transform:'translateY(0)',offset:1},
+    ],{duration:560,easing:'linear'});
     if(animation)state.cueAnimations.push(animation);
   });
   const status=screen.querySelector('.production-cue-status');
@@ -169,8 +173,8 @@ function An(cards,open=false){
   const paragraphs=entries.map(text=>`<p data-talk-reveal>${K(text)}</p>`).join('');
   const sources=typeof talkSourcesV40==='function'?talkSourcesV40(cards):'';
   const references=typeof talkReferencesV40==='function'?talkReferencesV40(cards):[];
-  return `<section class="talk" aria-label="演后谈">
-    <h2 data-talk-reveal>演后谈</h2>
+  return `<section class="talk" aria-label="咫牌联想">
+    <h2 data-talk-reveal>咫牌联想</h2>
     <div class="talk-short"${open?' hidden':''}><p data-talk-reveal>${K(shortScene(cards))}</p>${education?`<p class="talk-education" data-talk-reveal>${K(education)}</p>`:''}</div>
     <div class="talk-full"${open?'':' hidden'}>${paragraphs}</div>
     <button type="button" class="text-btn talk-toggle" data-action="expand-talk" aria-expanded="${open}">${open?'收起全文':'展开这场戏'}</button>
