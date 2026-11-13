@@ -1,12 +1,18 @@
 # DiaGacha 版本更新总目
 
-当前公开游戏为 **v51**。**[手机／电脑打开最新版](https://canoeliu917.github.io/DiaGacha/?v=51)** · [最新源码](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38)
+当前公开游戏为 **v52**。**[手机／电脑打开最新版](https://canoeliu917.github.io/DiaGacha/?v=52)** · [最新源码](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38)
 
 本次将 v41–v51 的工作记录补齐，并保留 v21–v40 已有原文。每版可以查看改动、对应提交、源码快照以及有证据的验证结果；日期采用 Git 提交日期（UTC+8），不冒充精确部署时间。v41–v46 依据提交和带版本号的工作／验收文件追溯整理，历史上没有对应 Git tag；旧测试文件存在，不等于此次重新测试了旧版。
 
 书面记录主要从 v21 起留存。约 v2–v20 当时没有独立 changelog；v21–v36 的原始日志随 v37 一起入库，并非每版都有独立代码快照。缺失的过程不补造。旧日志中的“现行”“已完成”指当时状态，后续调整与核查边界以相应新版记录为准。
 
 在线地址始终显示最近发布的游戏，`?v=数字` 只用于刷新缓存；历史版本请看固定提交的源码快照。文档归档更新不改变游戏版本号。[后续版本记录方式](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/changelog/README.md)
+
+## v52
+
+| 版本 | 提交日期 | 更新主题与记录 | 源码快照 |
+| --- | --- | --- | --- |
+| v52 | 2026-11-14 | [224 条与故事契合的主标题、六维组合稳定选题](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/changelog/CHANGELOG-v52.md) | [d8eb867](https://github.com/Canoeliu917/DiaGacha/tree/d8eb8677d54b24d074c8a3372003a819497dc435) |
 
 ## v41–v51
 
