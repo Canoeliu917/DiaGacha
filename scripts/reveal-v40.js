@@ -35,6 +35,7 @@ function restoreRevealIntroV40(){
   if(!host||!flip)return;
   zone.classList.add('reveal-zone-v40');
   flip.classList.add('reveal-v40',`rarity-${card.rarity}`,'no-anim');
+  flip.classList.remove('is-stars-pending', 'is-stars-arriving');
   if(card.rarity==='LR')document.querySelector('.pull-screen')?.classList.add('reveal-black-stage','reveal-restored-v40');
   host.className='pack-preamble reveal-intro-v40';
   host.hidden=true;
@@ -60,6 +61,7 @@ function $() {
   const reduced = J || window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const profile = revealProfileV40(card.rarity, reduced), lines = preambleLines(card);
   const skip = !!booster.skipPreamble;
+  const starEntrance = ['SSR', 'UR', 'LR'].includes(card.rarity) && !reduced && !skip;
   booster.skipPreamble = false;
   const current = () => run === X && Y.booster === booster && booster.phase === 'card' && booster.index === index;
   const later = (fn, delay) => {
@@ -73,13 +75,14 @@ function $() {
   revealCleanupV40 = () => {
     paper?.remove(); effects?.remove();
     if(host)host.hidden=true;
-    flip.classList.remove('is-reveal-climax', 'is-charging');
+    flip.classList.remove('is-reveal-climax', 'is-charging', 'is-stars-pending', 'is-stars-arriving');
     zone.classList.remove('is-preamble', 'is-waiting', `wait-${card.rarity}`);
     screen?.classList.remove('reveal-black-stage');
   };
   if(card.rarity==='LR')screen?.classList.add('reveal-black-stage');
   zone.classList.add('reveal-zone-v40');
   flip.classList.add('reveal-v40', `rarity-${card.rarity}`);
+  if (starEntrance) flip.classList.add('is-stars-pending');
   flip.style.setProperty('--reveal-strength', String(profile.level || 1));
   if (host) {
     host.className = 'pack-preamble reveal-intro-v40';
@@ -97,11 +100,13 @@ function $() {
     if (line) { line.hidden = false; line.classList.remove('is-out');line.classList.add('is-on'); }
   };
   const finish = () => {
+    flip.classList.remove('is-stars-pending');
+    if (starEntrance) flip.classList.add('is-stars-arriving');
     booster.revealDone = true;
     if (!reduced && !skip) Oe(card.rarity);
     if (booster.index >= booster.cards.length - 1 && !(profile.level && (reduced || skip))) later(() => {
       if (!window.__dgNoSpread) enterSpread();
-    }, reduced ? 120 : 1000);
+    }, reduced ? 120 : starEntrance ? 1500 : 1000);
   };
   const showCard = () => {
     flip.classList.remove('is-charging', 'no-anim');

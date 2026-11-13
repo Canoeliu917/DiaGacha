@@ -80,10 +80,17 @@ class Element {
 function runReveal(rarity, { reduced = false, skip = false, last = false } = {}) {
   const card = fixture.e.find(card => card.rarity === rarity), zone = new Element(), flip = new Element(), host = new Element(), screen = new Element();
   zone.querySelector = () => flip;
-  const timers = new Map(); let timerId = 0, now = 0, soundCount = 0;
+  const timers = new Map(), starEvents = [], spreadTimes = []; let timerId = 0, now = 0, soundCount = 0;
+  const addClasses = flip.classList.add;
+  flip.classList.add = (...names) => {
+    for (const name of names.filter(name => name.startsWith('is-stars-'))) {
+      starEvents.push({ name, at: now, paperRemoved: !!flip.children.find(child => child.className === 'reveal-paper-v40')?.removed });
+    }
+    addClasses(...names);
+  };
   const context = vm.createContext({
     X: 0, J: reduced, Y: { booster: { cards: [card, card], index: last?1:0, phase: 'card', revealDone: false, skipPreamble: skip } },
-    K: String, cardEssays: fixture.cardEssays, highStarNotesV40: fixture.highStarNotesV40, De() {}, Oe() { soundCount++; }, enterSpread() {},
+    K: String, cardEssays: fixture.cardEssays, highStarNotesV40: fixture.highStarNotesV40, De() {}, Oe() { soundCount++; }, enterSpread() { spreadTimes.push(now); },
     document: { querySelector: selector => selector === '.pack-zone' ? zone : selector === '.pull-screen' ? screen : host, createElement: () => new Element() },
     matchMedia: () => ({ matches: reduced }),
     setTimeout(fn, delay) { const id = ++timerId; timers.set(id, { fn, at: now + delay }); return id; },
@@ -97,8 +104,103 @@ function runReveal(rarity, { reduced = false, skip = false, last = false } = {})
     timers.delete(id); now = timer.at; timer.fn();
   };
   const finish = () => { for (let i = 0; timers.size && i < 30; i++) tick(); assert.equal(timers.size, 0); };
-  return { context, zone, flip, host, screen, timers, tick, finish, soundCount: () => soundCount, elapsed: () => now };
+  const advance = duration => {
+    const end = now + duration;
+    for (let i = 0; timers.size && Math.min(...[...timers.values()].map(timer => timer.at)) <= end; i++) {
+      assert.ok(i < 30, 'Unexpected repeating reveal timer');
+      tick();
+    }
+    now = end;
+  };
+  const finishCard = () => {
+    for (let i = 0; !context.Y.booster.revealDone && timers.size && i < 30; i++) tick();
+    assert.equal(context.Y.booster.revealDone, true, 'Card reveal must finish before testing its dwell');
+  };
+  return { context, zone, flip, host, screen, timers, tick, finish, finishCard, advance, starEvents, spreadTimes, soundCount: () => soundCount, elapsed: () => now };
 }
+
+test('只有五星至七星等待揭幕，纸幕移除后的完成时刻才逐颗亮星', () => {
+  for (const rarity of ['SSR', 'UR', 'LR']) {
+    const run = runReveal(rarity);
+    const paper = run.flip.children.find(child => child.className === 'reveal-paper-v40');
+    assert.ok(run.flip.classes.has('is-stars-pending'), rarity);
+    assert.ok(!run.flip.classes.has('is-stars-arriving'), rarity);
+    for (let i = 0; !paper.removed && i < 30; i++) {
+      run.tick();
+      assert.ok(!run.flip.classes.has('is-stars-arriving'), `${rarity}: stars must wait for paper removal`);
+      assert.equal(run.context.Y.booster.revealDone, false);
+    }
+    assert.ok(paper.removed, rarity);
+    assert.ok(run.flip.classes.has('is-stars-pending'), rarity);
+    run.tick();
+    assert.equal(run.context.Y.booster.revealDone, true);
+    assert.ok(!run.flip.classes.has('is-stars-pending'));
+    assert.ok(run.flip.classes.has('is-stars-arriving'));
+    assert.deepEqual(run.starEvents.map(event => event.name), ['is-stars-pending', 'is-stars-arriving']);
+    assert.equal(run.starEvents[1].paperRemoved, true, `${rarity}: no arrival behind paper`);
+    assert.equal(run.starEvents[1].at, run.elapsed());
+    run.finish();
+  }
+  for (const rarity of ['C', 'UC', 'R', 'SR']) {
+    const run = runReveal(rarity); run.finish();
+    assert.deepEqual(run.starEvents, [], `${rarity}: one to four stars remain static throughout`);
+    assert.ok(!run.flip.classes.has('is-stars-pending') && !run.flip.classes.has('is-stars-arriving'));
+  }
+});
+
+test('末张高星完成后停留1500ms，七颗星全部亮起后仍有480ms才自动进入总览', () => {
+  const starDuration = Number(css.match(/animation:\s*reveal-star-v51\s+([.\d]+)s/)[1]);
+  const seventhDelay = Number(css.match(/nth-child\(7\)\s*\{\s*animation-delay:\s*([.\d]+)s/)[1]);
+  const lastStarEnds = Math.round((starDuration + seventhDelay) * 1000);
+  assert.ok(1500 - lastStarEnds >= 480, 'CSS stagger must leave a readable fully lit row');
+  for (const rarity of ['SSR', 'UR', 'LR']) {
+    const run = runReveal(rarity, { last: true }); run.finishCard();
+    const finishedAt = run.elapsed();
+    assert.deepEqual(run.spreadTimes, []);
+    run.advance(1499);
+    assert.deepEqual(run.spreadTimes, [], `${rarity}: do not leave during star entrance or dwell`);
+    run.advance(1);
+    assert.deepEqual(run.spreadTimes, [finishedAt + 1500], `${rarity}: exactly one automatic spread`);
+    run.finish();
+    assert.equal(run.spreadTimes.length, 1);
+    assert.equal(run.context.revealTimersV40.size, 0);
+  }
+});
+
+test('高星跳过及减动立即全亮，详情返回不重播，清理可取消pending及自动总览', () => {
+  for (const rarity of ['SSR', 'UR', 'LR']) {
+    for (const option of [{ skip: true, last: true }, { reduced: true, last: true }]) {
+      const run = runReveal(rarity, option);
+      assert.equal(run.context.Y.booster.revealDone, true);
+      assert.deepEqual(run.starEvents, []);
+      assert.ok(!run.flip.classes.has('is-stars-pending') && !run.flip.classes.has('is-stars-arriving'));
+      assert.equal(run.timers.size, 0);
+      run.advance(3000);
+      assert.deepEqual(run.spreadTimes, [], `${rarity}: skipped/reduced last card waits for user`);
+    }
+    const restored = runReveal(rarity); restored.finish();
+    assert.ok(restored.flip.classes.has('is-stars-arriving'));
+    restored.context.Y.view = 'pack';
+    restored.context.restoreRevealIntroV40();
+    restored.context.restoreRevealIntroV40();
+    assert.ok(!restored.flip.classes.has('is-stars-pending') && !restored.flip.classes.has('is-stars-arriving'));
+    assert.deepEqual(restored.starEvents.map(event => event.name), ['is-stars-pending', 'is-stars-arriving']);
+    assert.equal(restored.timers.size, 0);
+    assert.equal(restored.soundCount(), 1);
+    for (const afterReveal of [false, true]) {
+      const cleared = runReveal(rarity, { last: true });
+      if (afterReveal) cleared.finishCard();
+      cleared.context.revealClearV40();
+      assert.ok(!cleared.flip.classes.has('is-stars-pending') && !cleared.flip.classes.has('is-stars-arriving'));
+      assert.equal(cleared.timers.size, 0);
+      assert.equal(cleared.context.revealTimersV40.size, 0);
+      const events = cleared.starEvents.length;
+      cleared.advance(3000);
+      assert.equal(cleared.starEvents.length, events, `${rarity}: cleared entrance cannot restart`);
+      assert.deepEqual(cleared.spreadTimes, [], `${rarity}: navigation must cancel automatic spread`);
+    }
+  }
+});
 
 test('卡面均分后一次只显一句，前句淡出才显后句，最后裂开并露出完整卡面', () => {
   for (const [rarity, lines, waves] of [['SR', 3, 0], ['SSR', 4, 1], ['UR', 5, 2], ['LR', 6, 3]]) {

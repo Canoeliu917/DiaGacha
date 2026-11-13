@@ -50,6 +50,33 @@
   100% { transform: translate(-50%,-50%) scale(1.25,1.5); opacity: 0; }
 }
 .pack-zone.reveal-zone-v40 { overflow: visible; animation: none; }
+/* Rarity remains legible; only the unveiled high-star card counts its stars in. */
+.pack-zone .flip .art-badge { gap: 6px; padding: 5px 7px; max-width: calc(100% - 46px); }
+.pack-zone .flip .art-badge .seal-word { font-size: 17px; font-weight: 750; }
+.pack-zone .flip .art-badge .pips { gap: 2px; }
+.pack-zone .flip .art-badge .pips svg { width: 16px; height: 16px; }
+.pack-zone .flip.reveal-v40 .art-badge { animation: none; opacity: 1; transform: none; filter: none; }
+.pack-zone .flip.is-stars-pending .art-badge .pips svg { opacity: 0; }
+.pack-zone .flip.is-stars-arriving .art-badge .pips svg {
+  animation: reveal-star-v51 .42s cubic-bezier(.16,1,.3,1) both;
+}
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(2) { animation-delay: .1s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(3) { animation-delay: .2s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(4) { animation-delay: .3s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(5) { animation-delay: .4s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(6) { animation-delay: .5s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(7) { animation-delay: .6s; }
+@keyframes reveal-star-v51 {
+  from { opacity: 0; transform: translateY(3px) scale(.8); }
+  to { opacity: 1; transform: none; }
+}
+.pull-screen .spread-card .art-badge { flex-direction: column; align-items: flex-start; gap: 3px; padding: 3px 4px; }
+.pull-screen .spread-card .art-badge .seal-word { font-size: 12px; font-weight: 750; }
+.pull-screen .spread-card .art-badge .pips svg { width: 11px; height: 11px; }
+@media (max-width:600px) {
+  .pull-screen .spread-card .art-badge .seal-word { font-size: 10px; }
+  .pull-screen .spread-card .art-badge .pips svg { width: 8px; height: 8px; }
+}
 .pack-zone.reveal-zone-v40::before, .pack-zone .flip.reveal-v40::after { display: none; }
 .pack-zone .flip.reveal-v40,.pack-zone .flip.reveal-v40.is-flipped { animation: none; }
 .pack-zone .flip.reveal-v40 .halo,
@@ -89,6 +116,7 @@
 @keyframes reveal-wave-v40 { from { transform: scale(.3); opacity: .7; } to { transform: scale(3.25); opacity: 0; } }
 @keyframes reveal-flare-v40 { 0% { opacity: 0; } 25% { opacity: 1; } 100% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) {
+  .pack-zone .flip .art-badge .pips svg { animation: none !important; opacity: 1 !important; transform: none; }
   .reveal-intro-v40 .pre-line { animation: none!important; transform: none; }
   .pack-zone .flip:is(.rarity-UR,.rarity-LR) .pre-line::before,
   .pack-zone .flip:is(.rarity-UR,.rarity-LR) .pre-line::after { display: none; animation: none; }

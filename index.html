@@ -1295,6 +1295,33 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   100% { transform: translate(-50%,-50%) scale(1.25,1.5); opacity: 0; }
 }
 .pack-zone.reveal-zone-v40 { overflow: visible; animation: none; }
+/* Rarity remains legible; only the unveiled high-star card counts its stars in. */
+.pack-zone .flip .art-badge { gap: 6px; padding: 5px 7px; max-width: calc(100% - 46px); }
+.pack-zone .flip .art-badge .seal-word { font-size: 17px; font-weight: 750; }
+.pack-zone .flip .art-badge .pips { gap: 2px; }
+.pack-zone .flip .art-badge .pips svg { width: 16px; height: 16px; }
+.pack-zone .flip.reveal-v40 .art-badge { animation: none; opacity: 1; transform: none; filter: none; }
+.pack-zone .flip.is-stars-pending .art-badge .pips svg { opacity: 0; }
+.pack-zone .flip.is-stars-arriving .art-badge .pips svg {
+  animation: reveal-star-v51 .42s cubic-bezier(.16,1,.3,1) both;
+}
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(2) { animation-delay: .1s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(3) { animation-delay: .2s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(4) { animation-delay: .3s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(5) { animation-delay: .4s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(6) { animation-delay: .5s; }
+.pack-zone .flip.is-stars-arriving .pips svg:nth-child(7) { animation-delay: .6s; }
+@keyframes reveal-star-v51 {
+  from { opacity: 0; transform: translateY(3px) scale(.8); }
+  to { opacity: 1; transform: none; }
+}
+.pull-screen .spread-card .art-badge { flex-direction: column; align-items: flex-start; gap: 3px; padding: 3px 4px; }
+.pull-screen .spread-card .art-badge .seal-word { font-size: 12px; font-weight: 750; }
+.pull-screen .spread-card .art-badge .pips svg { width: 11px; height: 11px; }
+@media (max-width:600px) {
+  .pull-screen .spread-card .art-badge .seal-word { font-size: 10px; }
+  .pull-screen .spread-card .art-badge .pips svg { width: 8px; height: 8px; }
+}
 .pack-zone.reveal-zone-v40::before, .pack-zone .flip.reveal-v40::after { display: none; }
 .pack-zone .flip.reveal-v40,.pack-zone .flip.reveal-v40.is-flipped { animation: none; }
 .pack-zone .flip.reveal-v40 .halo,
@@ -1334,6 +1361,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 @keyframes reveal-wave-v40 { from { transform: scale(.3); opacity: .7; } to { transform: scale(3.25); opacity: 0; } }
 @keyframes reveal-flare-v40 { 0% { opacity: 0; } 25% { opacity: 1; } 100% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) {
+  .pack-zone .flip .art-badge .pips svg { animation: none !important; opacity: 1 !important; transform: none; }
   .reveal-intro-v40 .pre-line { animation: none!important; transform: none; }
   .pack-zone .flip:is(.rarity-UR,.rarity-LR) .pre-line::before,
   .pack-zone .flip:is(.rarity-UR,.rarity-LR) .pre-line::after { display: none; animation: none; }
@@ -2418,7 +2446,7 @@ function figHair(e){
   }
 }
 
-function figFace(face){const eye=`<circle cx="-6" cy="-1" r="2.2" fill="${L}"/><circle cx="6" cy="-1" r="2.2" fill="${L}"/>`;switch(face){case`beard`:return`${eye}<path d="M-10 8 Q0 22 10 8 Q0 14 -10 8" fill="${L}"/>`;case`smile`:return`${eye}<path d="M-6 8 Q0 14 6 8" fill="none" stroke="${V}" stroke-width="2"/>`;case`scream`:return`${eye}<ellipse cx="0" cy="9" rx="5" ry="7" fill="${L}"/>`;case`cold`:return`${eye}<path d="M-5 8 H5" stroke="${L}" stroke-width="2.2"/>`;case`tired`:return`${eye}<path d="M-10 3 H-3 M3 3 H10" stroke="${L}" stroke-width="1.8"/><path d="M-4 9 H4" stroke="${L}" stroke-width="2"/>`;case`sly`:return`<path d="M-10 -10 H-2 M2 -5 H10" stroke="${L}" stroke-width="2.4"/>${eye}<path d="M-3 8 Q3 12 6 7" fill="none" stroke="${V}" stroke-width="2"/>`;case`shy`:return`<circle cx="-11" cy="4" r="4" fill="${V}" opacity=".5"/><circle cx="11" cy="4" r="4" fill="${V}" opacity=".5"/><path d="M-8 -1 H-3 M3 -1 H8" stroke="${L}" stroke-width="2"/><ellipse cx="0" cy="9" rx="3.2" ry="1.8" fill="${V}"/>`;case`storm`:return`<path d="M-12 -8 H-1 M1 -8 H12" stroke="${L}" stroke-width="3.4" stroke-linecap="round"/>${eye}<ellipse cx="0" cy="9" rx="6" ry="2.4" fill="#4a1824"/>`;case`lips`:return`${eye}<ellipse cx="0" cy="9" rx="7" ry="3.2" fill="${V}"/>`;case`pale`:return`${eye}<ellipse cx="0" cy="9" rx="5.5" ry="2.4" fill="${V}"/>`;case`rouge`:return`<circle cx="-11" cy="4" r="4.5" fill="${V}" opacity=".55"/><circle cx="11" cy="4" r="4.5" fill="${V}" opacity=".55"/>${eye}<ellipse cx="0" cy="9" rx="5.5" ry="2.6" fill="${V}"/>`;case`blood`:return`${eye}<path d="M-12 -6 L12 8" stroke="${B}" stroke-width="5" stroke-linecap="round"/>`;case`whitepaint`:return`<circle cx="-10" cy="4" r="5" fill="${V}"/><circle cx="10" cy="4" r="5" fill="${V}"/>${eye}<ellipse cx="0" cy="9" rx="5.5" ry="2.8" fill="${B}"/>`;case`resolve`:return`<path d="M-10 -10 H-2 M2 -10 H10" stroke="${L}" stroke-width="2.6"/>${eye}<ellipse cx="0" cy="9" rx="5" ry="2.2" fill="${V}"/>`;case`wet`:return`${eye}<path d="M-12 -18 L-16 2 M12 -16 L16 4" stroke="#7ea0b8" stroke-width="2.6"/><ellipse cx="0" cy="9" rx="4" ry="2" fill="${V}"/>`;case`quiet`:return`${eye}<path d="M-3 8 H3" stroke="${V}" stroke-width="2"/>`;default:return`${eye}<path d="M-3 8 H3" stroke="${L}" stroke-width="1.8"/>`}}
+function figFace(face){const eye=`<circle cx="-6" cy="-1" r="2.2" fill="${L}"/><circle cx="6" cy="-1" r="2.2" fill="${L}"/>`;switch(face){case`beard`:return`${eye}<path d="M-3 8 Q0 9 3 8" fill="none" stroke="${V}" stroke-width="1.6" stroke-linecap="round"/><path d="M-6 13 L-4 19 L0 22 L4 19 L6 13 L2 14 L-2 14 Z" fill="${L}"/>`;case`smile`:return`${eye}<path d="M-4 8 Q0 10 4 8" fill="none" stroke="${V}" stroke-width="1.6" stroke-linecap="round"/>`;case`scream`:return`${eye}<ellipse cx="0" cy="9" rx="5" ry="7" fill="${L}"/>`;case`cold`:return`${eye}<path d="M-5 8 H5" stroke="${L}" stroke-width="2.2"/>`;case`tired`:return`${eye}<path d="M-10 3 H-3 M3 3 H10" stroke="${L}" stroke-width="1.8"/><path d="M-4 9 H4" stroke="${L}" stroke-width="2"/>`;case`sly`:return`<path d="M-10 -10 H-2 M2 -5 H10" stroke="${L}" stroke-width="2.4"/>${eye}<path d="M-3 8.5 Q1 9.5 4 8" fill="none" stroke="${V}" stroke-width="1.6" stroke-linecap="round"/>`;case`shy`:return`<circle cx="-11" cy="4" r="4" fill="${V}" opacity=".5"/><circle cx="11" cy="4" r="4" fill="${V}" opacity=".5"/><path d="M-8 -1 H-3 M3 -1 H8" stroke="${L}" stroke-width="2"/><ellipse cx="0" cy="9" rx="3.2" ry="1.8" fill="${V}"/>`;case`storm`:return`<path d="M-12 -8 H-1 M1 -8 H12" stroke="${L}" stroke-width="3.4" stroke-linecap="round"/>${eye}<ellipse cx="0" cy="9" rx="6" ry="2.4" fill="#4a1824"/>`;case`lips`:return`${eye}<ellipse cx="0" cy="9" rx="7" ry="3.2" fill="${V}"/>`;case`pale`:return`${eye}<ellipse cx="0" cy="9" rx="5.5" ry="2.4" fill="${V}"/>`;case`rouge`:return`<circle cx="-11" cy="4" r="4.5" fill="${V}" opacity=".55"/><circle cx="11" cy="4" r="4.5" fill="${V}" opacity=".55"/>${eye}<ellipse cx="0" cy="9" rx="5.5" ry="2.6" fill="${V}"/>`;case`blood`:return`${eye}<path d="M-12 -6 L12 8" stroke="${B}" stroke-width="5" stroke-linecap="round"/>`;case`whitepaint`:return`<circle cx="-10" cy="4" r="5" fill="${V}"/><circle cx="10" cy="4" r="5" fill="${V}"/>${eye}<ellipse cx="0" cy="9" rx="5.5" ry="2.8" fill="${B}"/>`;case`resolve`:return`<path d="M-10 -10 H-2 M2 -10 H10" stroke="${L}" stroke-width="2.6"/>${eye}<ellipse cx="0" cy="9" rx="5" ry="2.2" fill="${V}"/>`;case`wet`:return`${eye}<path d="M-12 -18 L-16 2 M12 -16 L16 4" stroke="#7ea0b8" stroke-width="2.6"/><ellipse cx="0" cy="9" rx="4" ry="2" fill="${V}"/>`;case`quiet`:return`${eye}<path d="M-3 8 H3" stroke="${V}" stroke-width="2"/>`;default:return`${eye}<path d="M-3 8 H3" stroke="${L}" stroke-width="1.8"/>`}}
 function figProp(e,x,y,sc){if(!e.prop||e.prop===`none`||typeof yt!==`function`)return ``;return `<g transform="translate(${x} ${y}) scale(${sc||.85})">${yt(e.prop,e.cloth)}</g>`}
 function figLipao(e,c,v){const lean=v%3===1?6:v%3===2?-5:0;return `<g transform="translate(${lean} 0)"><path d="M-14 52 L-16 156 H16 L14 52 Z" fill="${c}"/><path d="M-14 52 L-30 58 L-28 150 L-16 148 Z" fill="${c}"/><path d="M14 52 L30 58 L28 150 L16 148 Z" fill="${c}"/><path d="M-3 52 V156" stroke="${z}" stroke-width="2" opacity=".45"/><path d="M-14 52 L0 62 L14 52" fill="none" stroke="${z}" stroke-width="3"/><path d="M-16 108 H16" stroke="${z}" stroke-width="3.2"/>${figHead(e,0,30,1)}${figProp(e,34,86,.7)}</g>`}
 function figChangqun(e,c,v){const flare=v%3===1?10:v%3===2?-2:4;const acc=v%2?`#e8d5b0`:`#2a2420`;return `<g><path d="M-11 50 H11 L9 76 H-9 Z" fill="${c}"/><path d="M-9 76 Q0 68 9 76 L${48+flare} 156 H${-48-flare} Z" fill="${c}"/><path d="M-8 96 H8" stroke="${acc}" stroke-width="3"/><path d="M-22 56 Q-32 92 -16 98" fill="none" stroke="${c}" stroke-width="7" stroke-linecap="round"/><path d="M22 56 Q32 92 16 98" fill="none" stroke="${c}" stroke-width="7" stroke-linecap="round"/>${figHead(e,0,28,1)}${figProp(e,36,88,.7)}</g>`}
@@ -4779,6 +4807,7 @@ function restoreRevealIntroV40(){
   if(!host||!flip)return;
   zone.classList.add('reveal-zone-v40');
   flip.classList.add('reveal-v40',`rarity-${card.rarity}`,'no-anim');
+  flip.classList.remove('is-stars-pending', 'is-stars-arriving');
   if(card.rarity==='LR')document.querySelector('.pull-screen')?.classList.add('reveal-black-stage','reveal-restored-v40');
   host.className='pack-preamble reveal-intro-v40';
   host.hidden=true;
@@ -4804,6 +4833,7 @@ function $() {
   const reduced = J || window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const profile = revealProfileV40(card.rarity, reduced), lines = preambleLines(card);
   const skip = !!booster.skipPreamble;
+  const starEntrance = ['SSR', 'UR', 'LR'].includes(card.rarity) && !reduced && !skip;
   booster.skipPreamble = false;
   const current = () => run === X && Y.booster === booster && booster.phase === 'card' && booster.index === index;
   const later = (fn, delay) => {
@@ -4817,13 +4847,14 @@ function $() {
   revealCleanupV40 = () => {
     paper?.remove(); effects?.remove();
     if(host)host.hidden=true;
-    flip.classList.remove('is-reveal-climax', 'is-charging');
+    flip.classList.remove('is-reveal-climax', 'is-charging', 'is-stars-pending', 'is-stars-arriving');
     zone.classList.remove('is-preamble', 'is-waiting', `wait-${card.rarity}`);
     screen?.classList.remove('reveal-black-stage');
   };
   if(card.rarity==='LR')screen?.classList.add('reveal-black-stage');
   zone.classList.add('reveal-zone-v40');
   flip.classList.add('reveal-v40', `rarity-${card.rarity}`);
+  if (starEntrance) flip.classList.add('is-stars-pending');
   flip.style.setProperty('--reveal-strength', String(profile.level || 1));
   if (host) {
     host.className = 'pack-preamble reveal-intro-v40';
@@ -4841,11 +4872,13 @@ function $() {
     if (line) { line.hidden = false; line.classList.remove('is-out');line.classList.add('is-on'); }
   };
   const finish = () => {
+    flip.classList.remove('is-stars-pending');
+    if (starEntrance) flip.classList.add('is-stars-arriving');
     booster.revealDone = true;
     if (!reduced && !skip) Oe(card.rarity);
     if (booster.index >= booster.cards.length - 1 && !(profile.level && (reduced || skip))) later(() => {
       if (!window.__dgNoSpread) enterSpread();
-    }, reduced ? 120 : 1000);
+    }, reduced ? 120 : starEntrance ? 1500 : 1000);
   };
   const showCard = () => {
     flip.classList.remove('is-charging', 'no-anim');
