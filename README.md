@@ -1,28 +1,35 @@
-# DiaGacha·咫牌
+# DiaGacha · 咫牌
 
-戏剧混搭抽卡网页游戏。现行版本 **v48**：500 张常驻卡，777 张长期总图鉴。
+戏剧混搭抽卡网页游戏。当前公开游戏为 **v51**（2026-11-14）：500 张常驻卡，777 张长期总图鉴。
 
-在浏览器中直接打开 `index.html` 即可游玩，或使用手机打开：
+## 打开游戏与版本记录
 
-- [DiaGacha · 咫牌（手机入口）](https://canoeliu917.github.io/DiaGacha/)（GitHub Pages，从 `codex/scoring-v38` 分支根目录发布）
-- [原入口](https://diagacha-v38.whole-elk-7752.chatgpt.site)（若出现访问拦截，请使用上方手机入口）
+- **[手机／电脑打开最新版](https://canoeliu917.github.io/DiaGacha/?v=51)**
+- **[全部版本更新记录：v21–v51](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/CHANGELOG.md)**
+- [v51 本次改动与验收](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/changelog/CHANGELOG-v51.md)
+- [最新版完整源码](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38) · [v51 固定源码快照](https://github.com/Canoeliu917/DiaGacha/tree/99392d3509bccf9b2c7fff62acd615794d01316a)
 
-两个域名的收藏分别保存在各自浏览器存储中；切换入口不会删除原网址的收藏。
+当前游戏由 `codex/scoring-v38` 分支根目录发布。仓库默认首页也提供上述导航；查看或下载完整最新版时，请使用“最新版完整源码”。下载后直接在浏览器打开其中的 `index.html` 即可游玩。
 
-## 内容
+游戏入口始终指向最近发布版，网址中的 `?v=51` 仅用于刷新缓存，不能用来切换历史版本。历史版本请通过更新记录中的固定提交和源码快照查看。
 
-- `index.html` — 现行完整游戏（500 张常驻、277 张预留，单文件，v48）
-- [CHANGELOG.md](CHANGELOG.md) — 修改记录总目
-- `changelog/` — 各版本原始修改记录与相关说明，内容未改写
-- `docs/SCORING.md` — 卡牌分数与「这台」评分规则
-- [docs/RUBRIC.md](docs/RUBRIC.md) — 六维量表、剧作家/剧目参考与来源
-- [docs/FACT_AUDIT_V48.md](docs/FACT_AUDIT_V48.md) — 本轮 500 张文案筛查、36 张外部核对及六剧复评记录
-- [docs/BALANCE_REPORT.json](docs/BALANCE_REPORT.json) — 十万包模拟与边界验证
-- `docs/RATES.md` — 抽卡出现率
-- `docs/cards.json` — 卡牌数据
+[原 Sites 入口](https://diagacha-v38.whole-elk-7752.chatgpt.site)仍同步更新；若出现访问拦截，请使用上方 GitHub Pages 手机入口。不同域名的收藏保存在各自浏览器存储中，切换入口不会删除原网址的收藏。
 
-首页小人可随指针轻柔浮动。六卡总览只展示同星与羁绊评价，点击词条时实际关联卡同步轻震；「咫言咫语」页面逐维呈现卡片与六芒星角分，最后成图并计分。4／5／6／7 星分别以 3／4／5／6 句介绍逐句显隐，使用手写感字形、大小对比与错落角度；文字可越出卡边，全部结束后震动开裂亮牌。1 至 7 星依次为白、绿、蓝、紫、橙、彩虹粉、炫光黑，七星保留暗场揭幕。普通 5 星出率为 10%、6 星为 5%。点击 ATK 或 DEF 可分别展开解释；低星同样保留核心知识与出处。「咫言咫语」以明确标注的虚构故事串联六维，另列戏剧科普和阅读参考，编辑依据见 [EDITORIAL_V40.md](docs/EDITORIAL_V40.md)。继续采用整数评分、同星与原作羁绊奖励；总分含奖励最多 100。卡面保留纸片小人画风，已有收藏与旧分享链接仍可读取。
+## v51 更新
 
-数值是游戏编辑判断。80 张有来源的编辑复评与 697 张历史初评分开标记；常驻卡中仍有 420 张属于历史初评。v48 完成 500 张常驻文案筛查，其中 36 张进行了本轮定向外部资料核对，更新或纠正了 23 张文案。其余 464 张本轮未逐张作独立资料核验，不能据此宣称全卡学术审定或零错误。卡面造型审查按轮廓、姿态、服饰与道具进行，不把 SVG 不同或配色不同当作感知相似度证明。
+- 放大抽卡左上角的稀有度称号和星标；手机六卡总览中称号与星列分行，完整保留七颗星。
+- 5／6／7 星在卡面完全揭幕后逐颗亮起，再进入总览；跳过、减少动态和详情返回保留完整显示。
+- 收敛微笑与狡黠笑弧，把黑色新月形“笑口”改为小嘴与独立下巴胡须，覆盖 41 张常驻人物牌。
 
-常驻范围以 `docs/ACTIVE_CARDS_V39.json` 的固定 ID 列表为准。评分复评以 `docs/SCORING_ANCHORS.json` 为准，文案核查记录保存在 `docs/FACT_AUDIT_*_V48.json`；高星构建器 `scripts/build-high-star-copy-v40.cjs` 已读取 v48 增补。维护时同步核对原始卡片、文案覆盖和页面内嵌模块，不重新执行旧版整页安装链，以免覆盖后续内容与界面修正。
+本版 142 项自动检查通过，GitHub Pages 线上文件与验收版本一致。浏览器预览服务连接超时，本版手机动效未完成实际目测，不能据自动检查声称实体 iPhone／微信内核或真实帧率已验证。
+
+## 玩法与资料
+
+一包六张，组成剧目、主演、配角、演法、手段、空间六个维度。卡片综合分取攻防均值四舍五入，按统一档位决定星级；同星和明确原作羁绊可加分，整台含奖励最多 100 分。点击 ATK／DEF 查看解释；“咫言咫语”将虚构故事、戏剧科普和资料参考分开呈现。
+
+- [评分规则](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/docs/SCORING.md) · [六维量表与参考](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/docs/RUBRIC.md) · [抽卡出现率](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/docs/RATES.md)
+- [固定常驻名单](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/docs/ACTIVE_CARDS_V39.json) · [卡片数据](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/docs/cards.json)
+- [500 张核心事实核查说明](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/docs/FACT_AUDIT_V50.md) · [此前 v48 核查记录](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/docs/FACT_AUDIT_V48.md)
+- [后续版本记录方式](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/changelog/README.md)
+
+v50 已整合 500 张常驻卡的逐卡核心事实记录：464 张新增核查，36 张复用此前证据。这不等于通读 500 部原剧或全文逐句认证；部分证据仅覆盖公开摘要、预览与可见段落。评分仍是游戏编辑判断，跨剧故事属于创作联想。人物造型按轮廓、姿态、衣饰和道具区分，不把几何不同冒称为感知相似度低于某个百分比。
