@@ -4,7 +4,10 @@
 
 在浏览器中直接打开 `index.html` 即可游玩，或使用手机打开：
 
-- [DiaGacha · 咫牌](https://diagacha-v38.whole-elk-7752.chatgpt.site)（网址保留旧版名称，内容随版本更新）
+- [DiaGacha · 咫牌（手机入口）](https://canoeliu917.github.io/DiaGacha/)（GitHub Pages，从 `codex/scoring-v38` 分支根目录发布）
+- [原入口](https://diagacha-v38.whole-elk-7752.chatgpt.site)（若出现访问拦截，请使用上方手机入口）
+
+两个域名的收藏分别保存在各自浏览器存储中；切换入口不会删除原网址的收藏。
 
 ## 内容
 
