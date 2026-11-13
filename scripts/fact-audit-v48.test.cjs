@@ -140,7 +140,7 @@ test('补正明确升官图两个职务、波莉之父和哥本哈根第三位�
   assert.match(get('v23-play-copenhagen').note, /史实.*想象/);
 });
 
-test('咫言咫语保留车站核心科普，只汇总当前六卡的已核来源并去重', () => {
+test('独立知识说明保留车站核心事实，故事与当前六卡资料明确分开并去重', () => {
   const source = fs.readFileSync(path.join(root, 'scripts/talk-v39.js'), 'utf8');
   assert.ok(html.replace(/\r/g, '').includes(source.replace(/\r/g, '').trim()), '测试的联想脚本必须已经内联发布');
   const drawn = ['v23-play-busstop', 'style-absurd', 'dir-freeze', 'v23-role-silentman', 'v23-sup-stationmaster', 'place-zoo'].map(get);
@@ -155,8 +155,10 @@ test('咫言咫语保留车站核心科普，只汇总当前六卡的已核来�
   });
   vm.runInContext(source, context);
   const paragraphs = context.nn(drawn);
-  assert.ok(paragraphs[4].includes(drawn[0].note), '科普必须保留完整的当前剧目核心介绍');
-  assert.match(paragraphs[4], /(?:经过|驶过).{0,12}不停/);
+  const reading = context.theatreReadingV40(context.sceneContextV40(drawn));
+  assert.ok(reading.includes(drawn[0].note), '独立知识说明必须保留完整的当前剧目核心介绍');
+  assert.match(reading, /(?:经过|驶过).{0,12}不停/);
+  assert.ok(!paragraphs.some(text => text.startsWith('戏剧线索：')), '原作科普不冒充虚构故事的结局');
   assert.match(paragraphs[0], /虚构/, '联想事件不能伪装成原剧情');
   const references = context.talkReferencesV40(drawn);
   assert.deepEqual(requested, drawn.map(card => card.id));

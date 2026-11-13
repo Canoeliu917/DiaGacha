@@ -1,0 +1,46 @@
+.social-poster-v53{box-sizing:border-box;width:390px;padding:18px;background:#f3efe6;color:#211e19;border:1px solid #d8cbb7;font-family:"Noto Serif SC","Songti SC",serif;line-height:1.5;overflow-wrap:anywhere}
+.social-poster-v53 *{box-sizing:border-box}
+.social-poster-v53 .social-header-v53{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:8px;border-bottom:1px solid #c9b8a2}
+.social-poster-v53 .social-brand-v53{font-family:Arial,sans-serif;font-size:18px;font-weight:700;letter-spacing:-.5px}
+.social-poster-v53 .social-brand-v53 span{margin-left:4px;font-family:"Noto Serif SC","Songti SC",serif;font-size:13px;font-weight:400;letter-spacing:0}
+.social-poster-v53 .social-edition-v53{font-size:10px;letter-spacing:2px;color:#705b45}
+.social-poster-v53 .social-tagline-v53{margin:9px 0 5px;font-size:11px;letter-spacing:.5px;color:#8b302d}
+.stage-persona-v53{margin:14px 0 18px;padding:12px 14px;background:#e9e2d5;border-left:3px solid #9d2e31;color:#29231e}
+.stage-persona-v53 p{margin:0;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.stage-persona-v53 p>span{font:11px/1.5 sans-serif;letter-spacing:.08em;color:#705b45}
+.stage-persona-v53 strong{font-size:22px;font-weight:700}
+.stage-persona-v53 blockquote{margin:7px 0;font-size:14px;line-height:1.7}
+.stage-persona-v53 small{font-size:11px;line-height:1.5;color:#705b45}
+.social-poster-v53 .stage-persona-v53{margin:9px 0 12px;padding:8px 10px}
+.social-poster-v53 .stage-persona-v53 strong{font-size:21px}
+.social-poster-v53 .stage-persona-v53 blockquote{font-size:12px;margin:4px 0;line-height:1.6}
+.social-poster-v53 .stage-persona-v53 small{font-size:9px}
+.social-poster-v53 .social-hero-v53{display:grid;grid-template-columns:minmax(0,1fr) 83px;gap:14px;align-items:center}
+.social-poster-v53 .social-title-v53{margin:0;font-size:25px;font-weight:700;line-height:1.35;letter-spacing:.3px;text-wrap:wrap}
+.social-poster-v53 .social-rating-v53{padding:6px 4px 5px;border-top:3px solid #a03230;border-bottom:1px solid #a03230;text-align:center;color:#a03230}
+.social-poster-v53 .social-rating-v53>span{display:block;font-size:10px;letter-spacing:3px}
+.social-poster-v53 .social-rating-v53>div{display:flex;justify-content:center;align-items:baseline;gap:3px;line-height:1.05}
+.social-poster-v53 .social-score-v53{font-family:Arial,sans-serif;font-size:48px;font-weight:700;letter-spacing:-2px}
+.social-poster-v53 .social-rating-v53 small{font-family:Arial,sans-serif;font-size:9px;letter-spacing:0;color:#705b45}
+.social-poster-v53 .social-rating-v53 strong{display:block;margin-top:3px;font-size:11px;font-weight:500;letter-spacing:4px}
+.social-poster-v53 .social-setting-v53{margin:8px 0 10px;font-size:10px;line-height:1.5;color:#705b45}
+.social-poster-v53 .social-setting-v53>span{padding:0 5px}
+.social-poster-v53 .social-cast-v53{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+.social-poster-v53 .social-card-v53{min-width:0;margin:0;border:1px solid #d1c3ae;border-top:2px solid var(--rarity-color,#d1c3ae);border-radius:3px;background:#fffcf6;overflow:hidden;box-shadow:0 1px 0 #d4c7b6}
+.social-poster-v53 .social-slot-v53{display:flex;justify-content:space-between;align-items:center;gap:3px;min-height:18px;padding:3px 5px 0;font-size:9px;line-height:1;color:#705b45}
+.social-poster-v53 .social-slot-v53 .pips{display:flex;gap:1px;margin:0;color:var(--rarity-color,#705b45);line-height:1}
+.social-poster-v53 .social-card-v53.rarity-C .pips{color:#59544e}
+.social-poster-v53 .social-slot-v53 .pips svg{width:7px;height:7px;flex:0 0 7px}
+.social-poster-v53 .social-art-v53{height:58px;margin:1px 0 0;overflow:hidden}
+.social-poster-v53 .social-art-v53 .art{display:block;width:100%;height:58px;max-height:none;margin:0;border:0;border-radius:0;box-shadow:none}
+.social-poster-v53 .social-card-name-v53{display:flex;align-items:center;justify-content:center;min-height:35px;margin:0;padding:1px 4px 4px;font-size:12px;font-weight:600;line-height:1.35;text-align:center}
+.social-poster-v53 .social-story-v53{margin-top:11px;padding:0 0 10px;border-bottom:1px solid #c9b8a2}
+.social-poster-v53 .social-story-label-v53{display:block;font-size:9px;color:#8b302d;letter-spacing:1px}
+.social-poster-v53 .social-story-v53 p{margin:4px 0 0;font-size:12px;line-height:1.65;text-align:justify}
+.social-poster-v53 .social-footer-v53{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:10px}
+.social-poster-v53 .social-invite-v53{min-width:0;flex:1}
+.social-poster-v53 .social-invite-v53>p{margin:0 0 5px;font-size:16px;font-weight:600;line-height:1.5}
+.social-poster-v53 .social-invite-v53>span{display:block;font-size:9px;line-height:1.6;color:#705b45}
+.social-poster-v53 .social-invite-v53>small{display:block;margin-top:2px;font-size:8px;line-height:1.5;color:#705b45}
+.social-poster-v53 .social-qr-v53{flex:0 0 100px;width:100px;height:100px;padding:0;background:#fff}
+.social-poster-v53 .social-qr-v53 svg{display:block;width:100%;height:100%}

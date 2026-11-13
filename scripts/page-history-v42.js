@@ -1,5 +1,5 @@
 let pageHistoryV42=[],pageCursorV42=-1,turningPageV42=false;
-const pageFieldsV42=['view','index','drawn','pack','packCard','albumDim','albumSort','fromShare','problems','bundle','booster','fromPack','slot','talkOpen','keptShare'];
+const pageFieldsV42=['view','index','drawn','pack','packCard','albumDim','albumSort','albumPage','fromShare','problems','bundle','booster','fromPack','slot','talkOpen','keptShare','rehearsal','rehearsalPreview'];
 function pageSnapshotV42(){
   return JSON.parse(JSON.stringify(Object.fromEntries(pageFieldsV42.map(field=>[field,Y[field]]))));
 }

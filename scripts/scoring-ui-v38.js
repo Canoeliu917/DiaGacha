@@ -128,7 +128,7 @@ function scoringHelp(state) {
       <p>不同同星组可以一起加分，总共最多 +7。每组同星与原作羁绊各有短评，点词条可回看参与卡牌。</p>
     </details>
     <details><summary>抽取与保存</summary>
-      ${ratesHelpV40(activeCards)}
+      ${ratesHelpV53(activeCards)}
       <p>连续 30 包未出 5 星以上、60 包未出 6 星以上时，对应一包会保底。</p>
       <p>收藏和保底保存在当前浏览器；旧五卡分享也能继续看。今日赠礼提高下次综合包的高星机会，单维包次数从任务领取。</p>
     </details>

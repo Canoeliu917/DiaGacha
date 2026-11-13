@@ -33,7 +33,7 @@ check('公开图鉴只显示500张，旧收藏中预留卡ID仍保留',()=>{
   assert.equal(state.pool.length,500);
   assert.equal(state.owned.length,1);
   assert(JSON.parse(stored.get('diamasha.owned')).includes(manifest.reserveIds[0]));
-  const album=game.Wn(state);
+  const album=Array.from({length:Math.ceil(state.poolSize/48)},(_,albumPage)=>game.Wn({...state,albumPage})).join('');
   const visibleIds=[...album.matchAll(/data-action="detail" data-id="([^"]+)"/g)].map(m=>m[1]);
   assert.equal(visibleIds.length,500);
   assert.deepEqual(visibleIds.slice().sort(),manifest.activeIds.slice().sort());
@@ -105,7 +105,7 @@ check('整场及奖励只显示整数，卡面教程集中到首页玩法',()=>{
   assert(help.includes('草台班子'));
   const review=game.An(cards,true);
   assert(review.includes('故事联想'));
-  assert(review.includes('戏剧线索'));
+  assert(!review.includes('戏剧线索：'));
   assert(!review.includes('不再独占')&&!review.includes('里的伦理分歧便会被简化'));
 });
 

@@ -1,0 +1,183 @@
+[
+  {
+    "name": "share-current",
+    "width": 1170,
+    "height": 2691,
+    "qr": "https://canoeliu917.github.io/DiaGacha/?v=53#m=v23-play-viewbridge.style-v21-epistolary.dir-v21-endingloop.v23-role-silentman.v23-sup-zhaosan.place-zeng",
+    "bytes": 617299
+  },
+  {
+    "name": "share-warren",
+    "width": 1170,
+    "height": 2634,
+    "qr": "https://canoeliu917.github.io/DiaGacha/?v=53#m=yplay-mrswarren.style-v21-radiodrama.dir-body.v23-role-serge.role2-liu-siye.place-meixiang",
+    "bytes": 568500
+  },
+  {
+    "name": "share-solo",
+    "width": 1170,
+    "height": 2691,
+    "qr": "https://canoeliu917.github.io/DiaGacha/?v=53#m=play-godot.style-absurd.dir-freeze.role-vladimir.place-road",
+    "bytes": 585290
+  },
+  {
+    "name": "share-long-names",
+    "width": 1170,
+    "height": 2640,
+    "qr": "https://canoeliu917.github.io/DiaGacha/?v=53#m=yplay-redlantern.ystyle-magicreal.v23-dir-misremember.yrole-clytemnestra.role2-juliet-nurse.place-island",
+    "bytes": 609514
+  },
+  {
+    "name": "full-programme",
+    "width": 780,
+    "height": 5740,
+    "bytes": 974083
+  },
+  {
+    "name": "long-name-layout",
+    "page": 320,
+    "width": 320,
+    "names": [
+      {
+        "text": "谁害怕弗吉尼亚·伍尔夫",
+        "w": 75,
+        "sw": 75,
+        "h": 30,
+        "sh": 31
+      },
+      {
+        "text": "克吕泰涅斯特拉",
+        "w": 75,
+        "sw": 75,
+        "h": 30,
+        "sh": 31
+      },
+      {
+        "text": "记忆错位重演",
+        "w": 75,
+        "sw": 75,
+        "h": 15,
+        "sh": 16
+      },
+      {
+        "text": "乳母（朱丽叶）",
+        "w": 75,
+        "sw": 75,
+        "h": 30,
+        "sh": 31
+      },
+      {
+        "text": "魔幻现实主义",
+        "w": 75,
+        "sw": 75,
+        "h": 15,
+        "sh": 16
+      },
+      {
+        "text": "普洛斯彼罗的岛",
+        "w": 75,
+        "sw": 75,
+        "h": 30,
+        "sh": 31
+      }
+    ]
+  },
+  {
+    "name": "long-name-layout",
+    "page": 390,
+    "width": 390,
+    "names": [
+      {
+        "text": "谁害怕弗吉尼亚·伍尔夫",
+        "w": 99,
+        "sw": 99,
+        "h": 30,
+        "sh": 31
+      },
+      {
+        "text": "克吕泰涅斯特拉",
+        "w": 99,
+        "sw": 99,
+        "h": 15,
+        "sh": 16
+      },
+      {
+        "text": "记忆错位重演",
+        "w": 99,
+        "sw": 99,
+        "h": 15,
+        "sh": 16
+      },
+      {
+        "text": "乳母（朱丽叶）",
+        "w": 99,
+        "sw": 99,
+        "h": 15,
+        "sh": 16
+      },
+      {
+        "text": "魔幻现实主义",
+        "w": 99,
+        "sw": 99,
+        "h": 15,
+        "sh": 16
+      },
+      {
+        "text": "普洛斯彼罗的岛",
+        "w": 99,
+        "sw": 99,
+        "h": 15,
+        "sh": 16
+      }
+    ]
+  },
+  {
+    "name": "long-name-layout",
+    "page": 1265,
+    "width": 1280,
+    "names": [
+      {
+        "text": "谁害怕弗吉尼亚·伍尔夫",
+        "w": 221,
+        "sw": 221,
+        "h": 15,
+        "sh": 16
+      },
+      {
+        "text": "克吕泰涅斯特拉",
+        "w": 221,
+        "sw": 221,
+        "h": 15,
+        "sh": 16
+      },
+      {
+        "text": "记忆错位重演",
+        "w": 221,
+        "sw": 221,
+        "h": 15,
+        "sh": 16
+      },
+      {
+        "text": "乳母（朱丽叶）",
+        "w": 221,
+        "sw": 221,
+        "h": 15,
+        "sh": 16
+      },
+      {
+        "text": "魔幻现实主义",
+        "w": 221,
+        "sw": 221,
+        "h": 15,
+        "sh": 16
+      },
+      {
+        "text": "普洛斯彼罗的岛",
+        "w": 221,
+        "sw": 221,
+        "h": 15,
+        "sh": 16
+      }
+    ]
+  }
+]

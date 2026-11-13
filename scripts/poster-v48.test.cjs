@@ -54,7 +54,7 @@ test('生成长图使用当前卡组的完整正文，先展开参考再渲染�
     assert.match(poster.textContent,/最后一句完整保留。读剧参考编剧资料：完整的资料名称咫牌/);
   });
   await h.ctx.sharePoster(h.button,'long');
-  assert.equal(h.state.finished,true);assert.equal(h.state.input.drawn,h.state.cards);assert.equal(h.state.input.talkOpen,true);
+  assert.equal(h.state.finished,true);assert.deepEqual(h.state.input.drawn,h.state.cards);assert.equal(h.state.input.talkOpen,true);
   assert.equal(h.state.options.scale,2);
   const dialog=h.body.querySelector('dialog');assert.ok(dialog?.open);
   assert.match(dialog.html,/<img class="poster-save-image"[^>]+src="data:image\/png;base64,aW1hZ2U="/);
@@ -65,4 +65,17 @@ test('生成失败会恢复保存入口并移除临时长图，不残留遮挡�
   const h=harness(()=>{throw Error('render failed');});await h.ctx.sharePoster(h.button,'long');
   assert.equal(h.button.disabled,false);assert.equal(h.button.textContent,'长按保存长图');
   assert.equal(h.poster.parent,null);assert.equal(h.body.childNodes.length,0);assert.match(h.state.toast,/生成失败/);
+});
+
+test('导出途中改写卡组或离开结果页，不弹出旧图也不覆盖分享缓存',async()=>{
+  for(const next of [[],[{id:'rewritten-card'}]]){
+    let release,started;
+    const entered=new Promise(resolve=>started=resolve),gate=new Promise(resolve=>release=resolve);
+    const h=harness(async()=>{started();await gate;});
+    const pending=h.ctx.sharePoster(h.button,'long');
+    await entered;h.state.cards=next;release();await pending;
+    assert.equal(h.body.querySelector('dialog'),null);
+    assert.equal(h.poster.parent,null);assert.equal(h.button.disabled,false);
+    assert.equal(vm.runInContext('lastSharePoster',h.ctx),null);
+  }
 });

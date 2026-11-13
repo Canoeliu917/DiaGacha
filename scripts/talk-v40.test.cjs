@@ -40,14 +40,14 @@ function checkComplete(drawn){
  assert.equal(talk.shortScene([...drawn].reverse()),talk.shortScene(drawn));
  assert.match(paragraphs[0],/^故事联想：/);
  assert.match(paragraphs[0],/虚构/);
- assert.match(paragraphs[4],/^戏剧线索：/);
- assert.ok(paragraphs[4].length<=300,'科普段不挤占完整故事');
+ assert.doesNotMatch(paragraphs[4],/^戏剧线索：|具体含义是/);
+ assert.ok(paragraphs[4].length<=500,'结局保持完整、可读');
  for(const text of [...paragraphs,talk.shortScene(drawn)]){
   assert.ok(text.length>30);
   assert.match(text,/[。！？][”’」』"]?$/);
   assert.doesNotMatch(text,/undefined|\[object Object\]|\{(?:a|b|prop)\}|。{2}|收回到。/);
  }
- for(const text of [...paragraphs.slice(0,4),talk.shortScene(drawn)]){
+ for(const text of [...paragraphs,talk.shortScene(drawn)]){
   const prose=drawn.reduce((value,card)=>value.replaceAll(card.name,''),text);
   assert.doesNotMatch(prose,/排演|排练|演员|观众|调度|谁先动|空间动作|先交换位置|按.{0,20}方式重新落地|把这一处理放回/);
  }
@@ -58,20 +58,21 @@ test('餐车里的交接具有具体欲望、限制、事件与后果，不再�
  const drawn=draw(examples[0].ids),parts=talk.nn(drawn);
  checkComplete(drawn);
  assert.match(parts[0],/列车.*餐车.*庄园交接/);
- assert.match(parts[1],/点头.*同意.*钥匙/);
- assert.match(parts[2],/到站广播.*拿回钥匙.*压在掌下/);
- assert.match(parts[3],/留下的人怎么办/);
+ assert.match(parts[1],/点头.*同意/);
+ assert.match(parts.join(''),/钥匙/);
+ assert.match(parts[2],/拿回钥匙.*压在掌下/);
+ assert.match(parts.join(''),/到站广播/);
+ assert.match(parts[4],/留下的人怎么办/);
  assert.equal(talk.talkSourcesV40(drawn),'波卓：《等待戈多》；邓肯：《麦克白》');
 });
 test('用户华伦夫人组合从展览资助推进到工钱责任，声音改变信息而非空泛换位',()=>{
  const drawn=draw(examples[1].ids),parts=talk.nn(drawn);checkComplete(drawn);
- assert.match(parts[0],/塞尔吉.*白画.*媚香楼.*认真看待自己的选择.*刘四爷.*挂他的名字/);
+ assert.match(parts[0],/塞尔吉.*白画.*媚香楼.*认真看待自己的选择.*刘四爷.*挂自己的名字/);
  assert.match(parts[1],/未付的工钱.*自己补上/);
  assert.match(parts[1],/塞尔吉按住账簿.*刘四爷伸手遮住那些名字/);
  assert.doesNotMatch(parts[1],/不肯把手收回|暴露了双方都不愿放弃的部分/);
  assert.match(parts[2],/催账的声音.*被一再拖延的报酬/);
- assert.match(parts[3],/缩小展览规模.*挂名的机会.*欠款仍要偿还/);
- assert.match(parts[4],/薇薇.*贫困.*继续经营妓院获利.*经济独立.*广播剧/);
+ assert.match(parts[4],/缩小展览规模.*挂名的机会.*欠款仍要偿还/);
  assert.equal(talk.talkSourcesV40(drawn),'塞尔吉：《艺术》；刘四爷：《骆驼祥子》');
 });
 test('5卡旧局是一个人的故事，不编造第二张人物或原作关系',()=>{
@@ -96,11 +97,11 @@ test('1200组交叉抽样不变更数据，不把卡片排练字段抄进故事'
  const base=draw(examples[0].ids),changed=base.map(c=>({...c,stage:'让演员重新交换位置，给观众看一次调度。',hook:'排练重来。'}));
  assert.deepEqual(talk.nn(changed),talk.nn(base));
 });
-test('六维改变故事或专业解读，单人故事同样接纳演法与手段',()=>{
+test('六维改变故事，单人故事同样接纳演法与手段',()=>{
  const base=draw(examples[0].ids),text=talk.nn(base).join('');
  for(let i=0;i<dimensions.length;i++){const other=pools[i].find(c=>c.id!==base[i].id),changed=base.map((c,j)=>j===i?other:c);assert.notEqual(talk.nn(changed).join(''),text,other.id);}
  const solo=draw(examples[2].ids),alternate=solo.map(c=>c.dimension==='导演手法'?cards.find(c=>c.id==='dir-body'):c);
- assert.notEqual(talk.nn(alternate)[1],talk.nn(solo)[1]);
+ assert.notEqual(talk.nn(alternate).join(''),talk.nn(solo).join(''));
 });
 test('原作与写作方法参考明确分开，只列已核实且与抽卡有关的资料',()=>{
  const refs=talk.talkReferencesV40(draw(examples[1].ids));

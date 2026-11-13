@@ -81,6 +81,7 @@ test('实际总图鉴缩略分支显示四位编号，未收集卡的可访问�
     formatCardNoV43,
   };
   vm.createContext(context);
+  vm.runInContext(fs.readFileSync(path.join(root, 'scripts/ui-v53.js'), 'utf8'), context);
   vm.runInContext(html.slice(start, end), context);
   const markup = context.Wn({
     owned: ['owned'],

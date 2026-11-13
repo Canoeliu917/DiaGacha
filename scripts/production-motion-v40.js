@@ -169,13 +169,13 @@ function spreadReviewV40(cards){
   return `<div class="spread-review">${scoreBreakdown(result,cards,false)}</div>`;
 }
 function An(cards,open=false){
-  const entries=nn(cards),education=entries.length===5?entries[4]:'';
+  const entries=nn(cards);
   const paragraphs=entries.map(text=>`<p data-talk-reveal>${K(text)}</p>`).join('');
   const sources=typeof talkSourcesV40==='function'?talkSourcesV40(cards):'';
   const references=typeof talkReferencesV40==='function'?talkReferencesV40(cards):[];
   return `<section class="talk" aria-label="咫言咫语">
     <h2 data-talk-reveal>咫言咫语</h2>
-    <div class="talk-short"${open?' hidden':''}><p data-talk-reveal>${K(shortScene(cards))}</p>${education?`<p class="talk-education" data-talk-reveal>${K(education)}</p>`:''}</div>
+    <div class="talk-short"${open?' hidden':''}><p data-talk-reveal>${K(shortScene(cards))}</p></div>
     <div class="talk-full"${open?'':' hidden'}>${paragraphs}</div>
     <button type="button" class="text-btn talk-toggle" data-action="expand-talk" aria-expanded="${open}">${open?'收起全文':'展开这场戏'}</button>
     ${sources?`<p class="talk-sources" data-talk-reveal>${K(sources)}</p>`:''}

@@ -1,0 +1,30 @@
+.album-pager-v53{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:20px 0;color:var(--ink-soft);font-size:12px}
+.album-pager-v53 .btn{padding:9px 13px;min-height:42px;white-space:nowrap}
+.home-hook-v53{max-width:310px;margin:12px auto 22px;font-size:14px;line-height:1.8;color:var(--ink-soft);text-wrap:balance}
+.home-hero .gacha{letter-spacing:.12em}
+.resume-v53{width:min(390px,100%);margin:22px auto 0;text-align:left}
+.resume-pack-v53{display:block;width:100%;border:1px solid #b7a48b;background:#eee5d7}
+.resume-pack-v53>span{display:block;margin-top:4px;font-size:12px;font-weight:400;color:var(--ink-soft)}
+.recent-programs-v53{margin-top:15px;font-size:13px}
+.recent-programs-v53 summary{padding:8px 0;cursor:pointer}
+.recent-program-v53{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;padding:12px 0;background:none;border:0;border-bottom:1px solid #d9cbb8;text-align:left;font:inherit;color:var(--ink)}
+.recent-program-v53 span{min-width:0;overflow-wrap:anywhere;line-height:1.7}
+.recent-program-v53 b{flex-shrink:0;color:#9d2e31}
+.storage-note-v53{color:#8b302d;font-size:12px;line-height:1.7}
+.rewrite-panel{margin:26px 0;padding:20px 18px;background:#ede6d9;border:1px solid #d4c4af;border-radius:6px;line-height:1.8}
+.rewrite-panel h2{margin:0 0 8px;font-size:20px}
+.rewrite-panel p{margin:8px 0;font-size:14px;overflow-wrap:anywhere}
+.rewrite-panel label{display:block;margin:14px 0 6px;font-size:13px}
+.rewrite-panel select{display:block;width:100%;max-width:100%;min-height:46px;padding:10px 32px 10px 10px;background:#fffcf6;color:var(--ink);border:1px solid #9e8871;border-radius:4px;font:inherit;font-size:16px}
+.rewrite-panel select:focus-visible{outline:2px solid #9d2e31;outline-offset:3px}
+.rewrite-panel details{margin-top:14px;font-size:12px}
+.rewrite-panel summary{cursor:pointer;min-height:32px}
+.rewrite-panel ul{padding-left:20px}
+.rewrite-preview{border-top:1px solid #d4c4af;margin-top:14px;padding-top:8px}
+.rewrite-preview .btn{width:100%;margin-top:10px;white-space:normal;line-height:1.5}
+.result-screen .cast-mini,.album-hit,.spread-card{transition:transform .24s ease,box-shadow .24s ease}
+.result-screen .mini-name{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;word-break:normal}
+.result-screen .cast-mini:focus-visible,.album-hit:focus-visible,.spread-card:focus-visible{outline:2px solid #9d2e31;outline-offset:3px}
+.btn:focus-visible,.text-btn:focus-visible,.chip-row button:focus-visible{outline:2px solid #9d2e31;outline-offset:3px}
+.production-cue>span:not(.cue-value){white-space:normal}
+@media(prefers-reduced-motion:reduce){.result-screen .cast-mini,.album-hit,.spread-card{transition:none}}

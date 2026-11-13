@@ -5,9 +5,9 @@
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2064%2064%22%20role%3D%22img%22%20aria-label%3D%22DiaGacha%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%23f3efe6%22%2F%3E%3Crect%20x%3D%2214%22%20y%3D%2212%22%20width%3D%2236%22%20height%3D%2240%22%20rx%3D%225%22%20fill%3D%22%23fffcf8%22%20stroke%3D%22%231c1916%22%20stroke-width%3D%222%22%2F%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2230%22%20r%3D%227%22%20fill%3D%22%239c2f2f%22%2F%3E%3C%2Fsvg%3E" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#f3efe6" />
-    <meta name="description" content="DiaGacha · 咫牌。混搭剧场。pull a cast, mash a stage, read the notes." />
+    <meta name="description" content="咫牌：六张卡，开出你的意外好戏。500张戏剧卡，12种本场戏格，换一张收藏改写故事。" />
     <meta property="og:title" content="DiaGacha · 咫牌" />
-    <meta property="og:description" content="混搭剧场。pull a cast, mash a stage, read the notes." />
+    <meta property="og:description" content="六张卡，开出你的意外好戏。抽出本场戏格，分享你的戏剧节目单。" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="DiaGacha" />
     <title>DiaGacha · 咫牌</title>
@@ -1451,6 +1451,104 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 }
 </style>
 <style>
+/* UI_V53_CSS_START */
+.album-pager-v53{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:20px 0;color:var(--ink-soft);font-size:12px}
+.album-pager-v53 .btn{padding:9px 13px;min-height:42px;white-space:nowrap}
+.home-hook-v53{max-width:310px;margin:12px auto 22px;font-size:14px;line-height:1.8;color:var(--ink-soft);text-wrap:balance}
+.home-hero .gacha{letter-spacing:.12em}
+.resume-v53{width:min(390px,100%);margin:22px auto 0;text-align:left}
+.resume-pack-v53{display:block;width:100%;border:1px solid #b7a48b;background:#eee5d7}
+.resume-pack-v53>span{display:block;margin-top:4px;font-size:12px;font-weight:400;color:var(--ink-soft)}
+.recent-programs-v53{margin-top:15px;font-size:13px}
+.recent-programs-v53 summary{padding:8px 0;cursor:pointer}
+.recent-program-v53{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;padding:12px 0;background:none;border:0;border-bottom:1px solid #d9cbb8;text-align:left;font:inherit;color:var(--ink)}
+.recent-program-v53 span{min-width:0;overflow-wrap:anywhere;line-height:1.7}
+.recent-program-v53 b{flex-shrink:0;color:#9d2e31}
+.storage-note-v53{color:#8b302d;font-size:12px;line-height:1.7}
+.rewrite-panel{margin:26px 0;padding:20px 18px;background:#ede6d9;border:1px solid #d4c4af;border-radius:6px;line-height:1.8}
+.rewrite-panel h2{margin:0 0 8px;font-size:20px}
+.rewrite-panel p{margin:8px 0;font-size:14px;overflow-wrap:anywhere}
+.rewrite-panel label{display:block;margin:14px 0 6px;font-size:13px}
+.rewrite-panel select{display:block;width:100%;max-width:100%;min-height:46px;padding:10px 32px 10px 10px;background:#fffcf6;color:var(--ink);border:1px solid #9e8871;border-radius:4px;font:inherit;font-size:16px}
+.rewrite-panel select:focus-visible{outline:2px solid #9d2e31;outline-offset:3px}
+.rewrite-panel details{margin-top:14px;font-size:12px}
+.rewrite-panel summary{cursor:pointer;min-height:32px}
+.rewrite-panel ul{padding-left:20px}
+.rewrite-preview{border-top:1px solid #d4c4af;margin-top:14px;padding-top:8px}
+.rewrite-preview .btn{width:100%;margin-top:10px;white-space:normal;line-height:1.5}
+.result-screen .cast-mini,.album-hit,.spread-card{transition:transform .24s ease,box-shadow .24s ease}
+.result-screen .mini-name{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;word-break:normal}
+.result-screen .cast-mini:focus-visible,.album-hit:focus-visible,.spread-card:focus-visible{outline:2px solid #9d2e31;outline-offset:3px}
+.btn:focus-visible,.text-btn:focus-visible,.chip-row button:focus-visible{outline:2px solid #9d2e31;outline-offset:3px}
+.production-cue>span:not(.cue-value){white-space:normal}
+@media(prefers-reduced-motion:reduce){.result-screen .cast-mini,.album-hit,.spread-card{transition:none}}
+
+/* UI_V53_CSS_END */
+/* SHARE_V53_CSS_START */
+.social-poster-v53{box-sizing:border-box;width:390px;padding:18px;background:#f3efe6;color:#211e19;border:1px solid #d8cbb7;font-family:"Noto Serif SC","Songti SC",serif;line-height:1.5;overflow-wrap:anywhere}
+.social-poster-v53 *{box-sizing:border-box}
+.social-poster-v53 .social-header-v53{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:8px;border-bottom:1px solid #c9b8a2}
+.social-poster-v53 .social-brand-v53{font-family:Arial,sans-serif;font-size:18px;font-weight:700;letter-spacing:-.5px}
+.social-poster-v53 .social-brand-v53 span{margin-left:4px;font-family:"Noto Serif SC","Songti SC",serif;font-size:13px;font-weight:400;letter-spacing:0}
+.social-poster-v53 .social-edition-v53{font-size:10px;letter-spacing:2px;color:#705b45}
+.social-poster-v53 .social-tagline-v53{margin:9px 0 5px;font-size:11px;letter-spacing:.5px;color:#8b302d}
+.stage-persona-v53{margin:14px 0 18px;padding:12px 14px;background:#e9e2d5;border-left:3px solid #9d2e31;color:#29231e}
+.stage-persona-v53 p{margin:0;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.stage-persona-v53 p>span{font:11px/1.5 sans-serif;letter-spacing:.08em;color:#705b45}
+.stage-persona-v53 strong{font-size:22px;font-weight:700}
+.stage-persona-v53 blockquote{margin:7px 0;font-size:14px;line-height:1.7}
+.stage-persona-v53 small{font-size:11px;line-height:1.5;color:#705b45}
+.social-poster-v53 .stage-persona-v53{margin:9px 0 12px;padding:8px 10px}
+.social-poster-v53 .stage-persona-v53 strong{font-size:21px}
+.social-poster-v53 .stage-persona-v53 blockquote{font-size:12px;margin:4px 0;line-height:1.6}
+.social-poster-v53 .stage-persona-v53 small{font-size:9px}
+.social-poster-v53 .social-hero-v53{display:grid;grid-template-columns:minmax(0,1fr) 83px;gap:14px;align-items:center}
+.social-poster-v53 .social-title-v53{margin:0;font-size:25px;font-weight:700;line-height:1.35;letter-spacing:.3px;text-wrap:wrap}
+.social-poster-v53 .social-rating-v53{padding:6px 4px 5px;border-top:3px solid #a03230;border-bottom:1px solid #a03230;text-align:center;color:#a03230}
+.social-poster-v53 .social-rating-v53>span{display:block;font-size:10px;letter-spacing:3px}
+.social-poster-v53 .social-rating-v53>div{display:flex;justify-content:center;align-items:baseline;gap:3px;line-height:1.05}
+.social-poster-v53 .social-score-v53{font-family:Arial,sans-serif;font-size:48px;font-weight:700;letter-spacing:-2px}
+.social-poster-v53 .social-rating-v53 small{font-family:Arial,sans-serif;font-size:9px;letter-spacing:0;color:#705b45}
+.social-poster-v53 .social-rating-v53 strong{display:block;margin-top:3px;font-size:11px;font-weight:500;letter-spacing:4px}
+.social-poster-v53 .social-setting-v53{margin:8px 0 10px;font-size:10px;line-height:1.5;color:#705b45}
+.social-poster-v53 .social-setting-v53>span{padding:0 5px}
+.social-poster-v53 .social-cast-v53{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+.social-poster-v53 .social-card-v53{min-width:0;margin:0;border:1px solid #d1c3ae;border-top:2px solid var(--rarity-color,#d1c3ae);border-radius:3px;background:#fffcf6;overflow:hidden;box-shadow:0 1px 0 #d4c7b6}
+.social-poster-v53 .social-slot-v53{display:flex;justify-content:space-between;align-items:center;gap:3px;min-height:18px;padding:3px 5px 0;font-size:9px;line-height:1;color:#705b45}
+.social-poster-v53 .social-slot-v53 .pips{display:flex;gap:1px;margin:0;color:var(--rarity-color,#705b45);line-height:1}
+.social-poster-v53 .social-card-v53.rarity-C .pips{color:#59544e}
+.social-poster-v53 .social-slot-v53 .pips svg{width:7px;height:7px;flex:0 0 7px}
+.social-poster-v53 .social-art-v53{height:58px;margin:1px 0 0;overflow:hidden}
+.social-poster-v53 .social-art-v53 .art{display:block;width:100%;height:58px;max-height:none;margin:0;border:0;border-radius:0;box-shadow:none}
+.social-poster-v53 .social-card-name-v53{display:flex;align-items:center;justify-content:center;min-height:35px;margin:0;padding:1px 4px 4px;font-size:12px;font-weight:600;line-height:1.35;text-align:center}
+.social-poster-v53 .social-story-v53{margin-top:11px;padding:0 0 10px;border-bottom:1px solid #c9b8a2}
+.social-poster-v53 .social-story-label-v53{display:block;font-size:9px;color:#8b302d;letter-spacing:1px}
+.social-poster-v53 .social-story-v53 p{margin:4px 0 0;font-size:12px;line-height:1.65;text-align:justify}
+.social-poster-v53 .social-footer-v53{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:10px}
+.social-poster-v53 .social-invite-v53{min-width:0;flex:1}
+.social-poster-v53 .social-invite-v53>p{margin:0 0 5px;font-size:16px;font-weight:600;line-height:1.5}
+.social-poster-v53 .social-invite-v53>span{display:block;font-size:9px;line-height:1.6;color:#705b45}
+.social-poster-v53 .social-invite-v53>small{display:block;margin-top:2px;font-size:8px;line-height:1.5;color:#705b45}
+.social-poster-v53 .social-qr-v53{flex:0 0 100px;width:100px;height:100px;padding:0;background:#fff}
+.social-poster-v53 .social-qr-v53 svg{display:block;width:100%;height:100%}
+
+/* Put the title, final score and cast together before the detailed programme. */
+.result-premiere-v53{padding:24px 0 18px;border-bottom:1px solid #d9cbb8;margin-bottom:20px}
+.result-premiere-v53 .result-kicker-v53{margin:0 0 8px;color:#9d2e31;font-size:12px;letter-spacing:.2em}
+.result-premiere-v53 .verdict{margin:0 0 8px;font-size:clamp(25px,5vw,36px);line-height:1.4;text-wrap:balance}
+.result-premiere-v53 .result-hook-v53{margin:0;color:#6f6255;font-size:14px;line-height:1.6}
+.result-final-score-v53{display:flex;align-items:baseline;gap:8px;margin-top:14px;color:#9d2e31}
+.result-final-score-v53 strong{font:700 54px/1 Arial,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.04em}
+.result-final-score-v53 span{font-size:13px}
+.result-final-score-v53 .result-grade-v53{margin-left:auto;border:1px solid #9d2e31;padding:4px 9px;font-size:14px}
+.result-share-actions-v53{display:grid;grid-template-columns:1fr;gap:9px;margin:18px 0 8px}
+.result-share-actions-v53 .btn{width:100%;min-height:46px}
+.result-share-actions-v53 .text-btn{justify-self:center;min-height:38px;text-decoration:underline;text-underline-offset:4px}
+.result-share-note-v53{text-align:center;color:#74695d;font-size:12px;line-height:1.6;margin:0 0 24px}
+.poster-static .result-share-actions-v53,.poster-static .result-share-note-v53{display:none}
+@media(min-width:700px){.result-share-actions-v53{grid-template-columns:minmax(220px,1fr) minmax(180px,1fr);align-items:center}}
+
+/* SHARE_V53_CSS_END */
 /* POSTER_V48_CSS_START */
 /* The saved programme is a complete still, including expanded reading references. */
 .poster-static,.poster-static *,.poster-static *::before,.poster-static *::after{animation:none!important;transition:none!important}
@@ -2065,7 +2163,7 @@ function scoringHelp(state) {
       <p>不同同星组可以一起加分，总共最多 +7。每组同星与原作羁绊各有短评，点词条可回看参与卡牌。</p>
     </details>
     <details><summary>抽取与保存</summary>
-      ${ratesHelpV40(activeCards)}
+      ${ratesHelpV53(activeCards)}
       <p>连续 30 包未出 5 星以上、60 包未出 6 星以上时，对应一包会保底。</p>
       <p>收藏和保底保存在当前浏览器；旧五卡分享也能继续看。今日赠礼提高下次综合包的高星机会，单维包次数从任务领取。</p>
     </details>
@@ -3264,10 +3362,10 @@ let lastSharePoster=null;
 function showPosterDialog(url,mode,button){
   const dialog=document.createElement('dialog');
   dialog.className='poster-dialog';
-  const title=mode===`short`?`长按保存短图`:`长按保存长图`;
-  const alt=mode===`short`?`本局节目单：六张小卡、六芒星、这台分数和综评`:`本局节目单：六张卡、六芒星、这台分数、综评和咫言咫语`;
+  const title=mode===`short`?`朋友圈分享图`:`长按保存长图`;
+  const alt=mode===`short`?`本局分享图：剧名、真实得分、卡组、故事摘要与游戏二维码`:`本局节目单：卡组、六芒星、这台分数、综评和咫言咫语`;
   dialog.setAttribute('aria-label',title);
-  dialog.innerHTML=`<h2>${title}</h2><p>长按下方图片，选择“存储图像”或“保存到相册”。也可以下载原图。</p><img class="poster-save-image" alt="${alt}" src="${url}"><div class="dock"><a class="btn primary" href="${url}" download="DiaGacha-${mode===`short`?`短图`:`节目单`}.png">${mode===`short`?`下载短图`:`下载长图`}</a><button type="button" class="btn ghost">关闭</button></div>`;
+  dialog.innerHTML=`<h2>${title}</h2><p>长按下方图片，选择“存储图像”或“保存到相册”。也可以下载原图。</p><img class="poster-save-image" alt="${alt}" src="${url}"><div class="dock"><a class="btn primary" href="${url}" download="DiaGacha-${mode===`short`?`朋友圈分享图`:`节目单`}.png">${mode===`short`?`下载分享图`:`下载长图`}</a><button type="button" class="btn ghost">关闭</button></div>`;
   dialog.querySelector('button').onclick=()=>dialog.close();
   dialog.addEventListener('close',()=>{dialog.remove();button?.focus?.({preventScroll:true});},{once:true});
   document.body.append(dialog);
@@ -3292,20 +3390,26 @@ function expandPosterDetailsV48(poster){
 }
 async function sharePoster(button,mode=`long`){
   if(button?.disabled)return;
+  const cards=productionCardsV40().slice(),key=cards.map(card=>card.id).join('.');
+  const stillCurrent=()=>productionCardsV40().map(card=>card.id).join('.')===key;
   const label=button?button.textContent:'';
   if(button){button.disabled=true;button.textContent='生成中…';}
   let poster;
   try{
     await document.fonts.ready;
+    if(!stillCurrent())return;
     finishProductionV40();
     // Rebuild a completed programme instead of cloning in-flight opacity and transforms.
     const template=document.createElement('template');
-    template.innerHTML=Un({...ar(),drawn:productionCardsV40(),talkOpen:true});
+    template.innerHTML=mode===`short`?socialPosterV53(cards):Un({...ar(),drawn:cards,talkOpen:true});
     poster=template.content.firstElementChild;
     poster.classList.add('poster-static');
     poster.querySelector('.share-block')?.remove();
     poster.querySelector('.top-actions')?.remove();
     poster.querySelector('.try-own')?.remove();
+    poster.querySelector('.result-share-actions-v53')?.remove();
+    poster.querySelector('.result-share-note-v53')?.remove();
+    poster.querySelector('.rewrite-panel')?.remove();
     const scoringDetails=poster.querySelector('.score-explanation details');
     if(scoringDetails){
       if(mode===`short`)scoringDetails.remove();
@@ -3333,13 +3437,14 @@ async function sharePoster(button,mode=`long`){
     document.body.append(poster);
     const radar=poster.querySelector('.hex-radar');
     if(radar){radar.setAttribute('width','300');radar.setAttribute('height','228');}
-    const canvas=await loadPosterRenderer()(poster,{scale:2,backgroundColor:'#f3efe6',logging:false,windowWidth:390,windowHeight:844,scrollX:0,scrollY:0});
+    const canvas=await loadPosterRenderer()(poster,{scale:mode===`short`?3:2,backgroundColor:'#f3efe6',logging:false,windowWidth:390,windowHeight:844,scrollX:0,scrollY:0});
+    if(!stillCurrent())return;
     const url=canvas.toDataURL('image/png');
     lastSharePoster={url,mode};
     showPosterDialog(url,mode,button);
   }catch(error){
     console.error('Poster generation failed',error);
-    Q((mode===`short`?`短图`:`长图`)+'生成失败，请重试。');
+    Q((mode===`short`?`分享图`:`长图`)+'生成失败，请重试。');
   }finally{
     poster?.remove();
     if(button){button.disabled=false;button.textContent=label;}
@@ -3349,8 +3454,2637 @@ function savePoster(button){
   if(lastSharePoster){showPosterDialog(lastSharePoster.url,lastSharePoster.mode,button);return;}
   sharePoster(button,`long`);
 }
-
 // POSTER_V48_END
+// SHARE_V53_START
+//---------------------------------------------------------------------
+//
+// QR Code Generator for JavaScript
+//
+// Copyright (c) 2009 Kazuhiko Arase
+//
+// URL: http://www.d-project.com/
+//
+// Licensed under the MIT license:
+//  http://www.opensource.org/licenses/mit-license.php
+//
+// The word 'QR Code' is registered trademark of
+// DENSO WAVE INCORPORATED
+//  http://www.denso-wave.com/qrcode/faqpatent-e.html
+//
+//---------------------------------------------------------------------
+
+var qrcode = function() {
+
+  //---------------------------------------------------------------------
+  // qrcode
+  //---------------------------------------------------------------------
+
+  /**
+   * qrcode
+   * @param typeNumber 1 to 40
+   * @param errorCorrectionLevel 'L','M','Q','H'
+   */
+  var qrcode = function(typeNumber, errorCorrectionLevel) {
+
+    var PAD0 = 0xEC;
+    var PAD1 = 0x11;
+
+    var _typeNumber = typeNumber;
+    var _errorCorrectionLevel = QRErrorCorrectionLevel[errorCorrectionLevel];
+    var _modules = null;
+    var _moduleCount = 0;
+    var _dataCache = null;
+    var _dataList = [];
+
+    var _this = {};
+
+    var makeImpl = function(test, maskPattern) {
+
+      _moduleCount = _typeNumber * 4 + 17;
+      _modules = function(moduleCount) {
+        var modules = new Array(moduleCount);
+        for (var row = 0; row < moduleCount; row += 1) {
+          modules[row] = new Array(moduleCount);
+          for (var col = 0; col < moduleCount; col += 1) {
+            modules[row][col] = null;
+          }
+        }
+        return modules;
+      }(_moduleCount);
+
+      setupPositionProbePattern(0, 0);
+      setupPositionProbePattern(_moduleCount - 7, 0);
+      setupPositionProbePattern(0, _moduleCount - 7);
+      setupPositionAdjustPattern();
+      setupTimingPattern();
+      setupTypeInfo(test, maskPattern);
+
+      if (_typeNumber >= 7) {
+        setupTypeNumber(test);
+      }
+
+      if (_dataCache == null) {
+        _dataCache = createData(_typeNumber, _errorCorrectionLevel, _dataList);
+      }
+
+      mapData(_dataCache, maskPattern);
+    };
+
+    var setupPositionProbePattern = function(row, col) {
+
+      for (var r = -1; r <= 7; r += 1) {
+
+        if (row + r <= -1 || _moduleCount <= row + r) continue;
+
+        for (var c = -1; c <= 7; c += 1) {
+
+          if (col + c <= -1 || _moduleCount <= col + c) continue;
+
+          if ( (0 <= r && r <= 6 && (c == 0 || c == 6) )
+              || (0 <= c && c <= 6 && (r == 0 || r == 6) )
+              || (2 <= r && r <= 4 && 2 <= c && c <= 4) ) {
+            _modules[row + r][col + c] = true;
+          } else {
+            _modules[row + r][col + c] = false;
+          }
+        }
+      }
+    };
+
+    var getBestMaskPattern = function() {
+
+      var minLostPoint = 0;
+      var pattern = 0;
+
+      for (var i = 0; i < 8; i += 1) {
+
+        makeImpl(true, i);
+
+        var lostPoint = QRUtil.getLostPoint(_this);
+
+        if (i == 0 || minLostPoint > lostPoint) {
+          minLostPoint = lostPoint;
+          pattern = i;
+        }
+      }
+
+      return pattern;
+    };
+
+    var setupTimingPattern = function() {
+
+      for (var r = 8; r < _moduleCount - 8; r += 1) {
+        if (_modules[r][6] != null) {
+          continue;
+        }
+        _modules[r][6] = (r % 2 == 0);
+      }
+
+      for (var c = 8; c < _moduleCount - 8; c += 1) {
+        if (_modules[6][c] != null) {
+          continue;
+        }
+        _modules[6][c] = (c % 2 == 0);
+      }
+    };
+
+    var setupPositionAdjustPattern = function() {
+
+      var pos = QRUtil.getPatternPosition(_typeNumber);
+
+      for (var i = 0; i < pos.length; i += 1) {
+
+        for (var j = 0; j < pos.length; j += 1) {
+
+          var row = pos[i];
+          var col = pos[j];
+
+          if (_modules[row][col] != null) {
+            continue;
+          }
+
+          for (var r = -2; r <= 2; r += 1) {
+
+            for (var c = -2; c <= 2; c += 1) {
+
+              if (r == -2 || r == 2 || c == -2 || c == 2
+                  || (r == 0 && c == 0) ) {
+                _modules[row + r][col + c] = true;
+              } else {
+                _modules[row + r][col + c] = false;
+              }
+            }
+          }
+        }
+      }
+    };
+
+    var setupTypeNumber = function(test) {
+
+      var bits = QRUtil.getBCHTypeNumber(_typeNumber);
+
+      for (var i = 0; i < 18; i += 1) {
+        var mod = (!test && ( (bits >> i) & 1) == 1);
+        _modules[Math.floor(i / 3)][i % 3 + _moduleCount - 8 - 3] = mod;
+      }
+
+      for (var i = 0; i < 18; i += 1) {
+        var mod = (!test && ( (bits >> i) & 1) == 1);
+        _modules[i % 3 + _moduleCount - 8 - 3][Math.floor(i / 3)] = mod;
+      }
+    };
+
+    var setupTypeInfo = function(test, maskPattern) {
+
+      var data = (_errorCorrectionLevel << 3) | maskPattern;
+      var bits = QRUtil.getBCHTypeInfo(data);
+
+      // vertical
+      for (var i = 0; i < 15; i += 1) {
+
+        var mod = (!test && ( (bits >> i) & 1) == 1);
+
+        if (i < 6) {
+          _modules[i][8] = mod;
+        } else if (i < 8) {
+          _modules[i + 1][8] = mod;
+        } else {
+          _modules[_moduleCount - 15 + i][8] = mod;
+        }
+      }
+
+      // horizontal
+      for (var i = 0; i < 15; i += 1) {
+
+        var mod = (!test && ( (bits >> i) & 1) == 1);
+
+        if (i < 8) {
+          _modules[8][_moduleCount - i - 1] = mod;
+        } else if (i < 9) {
+          _modules[8][15 - i - 1 + 1] = mod;
+        } else {
+          _modules[8][15 - i - 1] = mod;
+        }
+      }
+
+      // fixed module
+      _modules[_moduleCount - 8][8] = (!test);
+    };
+
+    var mapData = function(data, maskPattern) {
+
+      var inc = -1;
+      var row = _moduleCount - 1;
+      var bitIndex = 7;
+      var byteIndex = 0;
+      var maskFunc = QRUtil.getMaskFunction(maskPattern);
+
+      for (var col = _moduleCount - 1; col > 0; col -= 2) {
+
+        if (col == 6) col -= 1;
+
+        while (true) {
+
+          for (var c = 0; c < 2; c += 1) {
+
+            if (_modules[row][col - c] == null) {
+
+              var dark = false;
+
+              if (byteIndex < data.length) {
+                dark = ( ( (data[byteIndex] >>> bitIndex) & 1) == 1);
+              }
+
+              var mask = maskFunc(row, col - c);
+
+              if (mask) {
+                dark = !dark;
+              }
+
+              _modules[row][col - c] = dark;
+              bitIndex -= 1;
+
+              if (bitIndex == -1) {
+                byteIndex += 1;
+                bitIndex = 7;
+              }
+            }
+          }
+
+          row += inc;
+
+          if (row < 0 || _moduleCount <= row) {
+            row -= inc;
+            inc = -inc;
+            break;
+          }
+        }
+      }
+    };
+
+    var createBytes = function(buffer, rsBlocks) {
+
+      var offset = 0;
+
+      var maxDcCount = 0;
+      var maxEcCount = 0;
+
+      var dcdata = new Array(rsBlocks.length);
+      var ecdata = new Array(rsBlocks.length);
+
+      for (var r = 0; r < rsBlocks.length; r += 1) {
+
+        var dcCount = rsBlocks[r].dataCount;
+        var ecCount = rsBlocks[r].totalCount - dcCount;
+
+        maxDcCount = Math.max(maxDcCount, dcCount);
+        maxEcCount = Math.max(maxEcCount, ecCount);
+
+        dcdata[r] = new Array(dcCount);
+
+        for (var i = 0; i < dcdata[r].length; i += 1) {
+          dcdata[r][i] = 0xff & buffer.getBuffer()[i + offset];
+        }
+        offset += dcCount;
+
+        var rsPoly = QRUtil.getErrorCorrectPolynomial(ecCount);
+        var rawPoly = qrPolynomial(dcdata[r], rsPoly.getLength() - 1);
+
+        var modPoly = rawPoly.mod(rsPoly);
+        ecdata[r] = new Array(rsPoly.getLength() - 1);
+        for (var i = 0; i < ecdata[r].length; i += 1) {
+          var modIndex = i + modPoly.getLength() - ecdata[r].length;
+          ecdata[r][i] = (modIndex >= 0)? modPoly.getAt(modIndex) : 0;
+        }
+      }
+
+      var totalCodeCount = 0;
+      for (var i = 0; i < rsBlocks.length; i += 1) {
+        totalCodeCount += rsBlocks[i].totalCount;
+      }
+
+      var data = new Array(totalCodeCount);
+      var index = 0;
+
+      for (var i = 0; i < maxDcCount; i += 1) {
+        for (var r = 0; r < rsBlocks.length; r += 1) {
+          if (i < dcdata[r].length) {
+            data[index] = dcdata[r][i];
+            index += 1;
+          }
+        }
+      }
+
+      for (var i = 0; i < maxEcCount; i += 1) {
+        for (var r = 0; r < rsBlocks.length; r += 1) {
+          if (i < ecdata[r].length) {
+            data[index] = ecdata[r][i];
+            index += 1;
+          }
+        }
+      }
+
+      return data;
+    };
+
+    var createData = function(typeNumber, errorCorrectionLevel, dataList) {
+
+      var rsBlocks = QRRSBlock.getRSBlocks(typeNumber, errorCorrectionLevel);
+
+      var buffer = qrBitBuffer();
+
+      for (var i = 0; i < dataList.length; i += 1) {
+        var data = dataList[i];
+        buffer.put(data.getMode(), 4);
+        buffer.put(data.getLength(), QRUtil.getLengthInBits(data.getMode(), typeNumber) );
+        data.write(buffer);
+      }
+
+      // calc num max data.
+      var totalDataCount = 0;
+      for (var i = 0; i < rsBlocks.length; i += 1) {
+        totalDataCount += rsBlocks[i].dataCount;
+      }
+
+      if (buffer.getLengthInBits() > totalDataCount * 8) {
+        throw 'code length overflow. ('
+          + buffer.getLengthInBits()
+          + '>'
+          + totalDataCount * 8
+          + ')';
+      }
+
+      // end code
+      if (buffer.getLengthInBits() + 4 <= totalDataCount * 8) {
+        buffer.put(0, 4);
+      }
+
+      // padding
+      while (buffer.getLengthInBits() % 8 != 0) {
+        buffer.putBit(false);
+      }
+
+      // padding
+      while (true) {
+
+        if (buffer.getLengthInBits() >= totalDataCount * 8) {
+          break;
+        }
+        buffer.put(PAD0, 8);
+
+        if (buffer.getLengthInBits() >= totalDataCount * 8) {
+          break;
+        }
+        buffer.put(PAD1, 8);
+      }
+
+      return createBytes(buffer, rsBlocks);
+    };
+
+    _this.addData = function(data, mode) {
+
+      mode = mode || 'Byte';
+
+      var newData = null;
+
+      switch(mode) {
+      case 'Numeric' :
+        newData = qrNumber(data);
+        break;
+      case 'Alphanumeric' :
+        newData = qrAlphaNum(data);
+        break;
+      case 'Byte' :
+        newData = qr8BitByte(data);
+        break;
+      case 'Kanji' :
+        newData = qrKanji(data);
+        break;
+      default :
+        throw 'mode:' + mode;
+      }
+
+      _dataList.push(newData);
+      _dataCache = null;
+    };
+
+    _this.isDark = function(row, col) {
+      if (row < 0 || _moduleCount <= row || col < 0 || _moduleCount <= col) {
+        throw row + ',' + col;
+      }
+      return _modules[row][col];
+    };
+
+    _this.getModuleCount = function() {
+      return _moduleCount;
+    };
+
+    _this.make = function() {
+      if (_typeNumber < 1) {
+        var typeNumber = 1;
+
+        for (; typeNumber < 40; typeNumber++) {
+          var rsBlocks = QRRSBlock.getRSBlocks(typeNumber, _errorCorrectionLevel);
+          var buffer = qrBitBuffer();
+
+          for (var i = 0; i < _dataList.length; i++) {
+            var data = _dataList[i];
+            buffer.put(data.getMode(), 4);
+            buffer.put(data.getLength(), QRUtil.getLengthInBits(data.getMode(), typeNumber) );
+            data.write(buffer);
+          }
+
+          var totalDataCount = 0;
+          for (var i = 0; i < rsBlocks.length; i++) {
+            totalDataCount += rsBlocks[i].dataCount;
+          }
+
+          if (buffer.getLengthInBits() <= totalDataCount * 8) {
+            break;
+          }
+        }
+
+        _typeNumber = typeNumber;
+      }
+
+      makeImpl(false, getBestMaskPattern() );
+    };
+
+    _this.createTableTag = function(cellSize, margin) {
+
+      cellSize = cellSize || 2;
+      margin = (typeof margin == 'undefined')? cellSize * 4 : margin;
+
+      var qrHtml = '';
+
+      qrHtml += '<table style="';
+      qrHtml += ' border-width: 0px; border-style: none;';
+      qrHtml += ' border-collapse: collapse;';
+      qrHtml += ' padding: 0px; margin: ' + margin + 'px;';
+      qrHtml += '">';
+      qrHtml += '<tbody>';
+
+      for (var r = 0; r < _this.getModuleCount(); r += 1) {
+
+        qrHtml += '<tr>';
+
+        for (var c = 0; c < _this.getModuleCount(); c += 1) {
+          qrHtml += '<td style="';
+          qrHtml += ' border-width: 0px; border-style: none;';
+          qrHtml += ' border-collapse: collapse;';
+          qrHtml += ' padding: 0px; margin: 0px;';
+          qrHtml += ' width: ' + cellSize + 'px;';
+          qrHtml += ' height: ' + cellSize + 'px;';
+          qrHtml += ' background-color: ';
+          qrHtml += _this.isDark(r, c)? '#000000' : '#ffffff';
+          qrHtml += ';';
+          qrHtml += '"/>';
+        }
+
+        qrHtml += '</tr>';
+      }
+
+      qrHtml += '</tbody>';
+      qrHtml += '</table>';
+
+      return qrHtml;
+    };
+
+    _this.createSvgTag = function(cellSize, margin, alt, title) {
+
+      var opts = {};
+      if (typeof arguments[0] == 'object') {
+        // Called by options.
+        opts = arguments[0];
+        // overwrite cellSize and margin.
+        cellSize = opts.cellSize;
+        margin = opts.margin;
+        alt = opts.alt;
+        title = opts.title;
+      }
+
+      cellSize = cellSize || 2;
+      margin = (typeof margin == 'undefined')? cellSize * 4 : margin;
+
+      // Compose alt property surrogate
+      alt = (typeof alt === 'string') ? {text: alt} : alt || {};
+      alt.text = alt.text || null;
+      alt.id = (alt.text) ? alt.id || 'qrcode-description' : null;
+
+      // Compose title property surrogate
+      title = (typeof title === 'string') ? {text: title} : title || {};
+      title.text = title.text || null;
+      title.id = (title.text) ? title.id || 'qrcode-title' : null;
+
+      var size = _this.getModuleCount() * cellSize + margin * 2;
+      var c, mc, r, mr, qrSvg='', rect;
+
+      rect = 'l' + cellSize + ',0 0,' + cellSize +
+        ' -' + cellSize + ',0 0,-' + cellSize + 'z ';
+
+      qrSvg += '<svg version="1.1" xmlns="http://www.w3.org/2000/svg"';
+      qrSvg += !opts.scalable ? ' width="' + size + 'px" height="' + size + 'px"' : '';
+      qrSvg += ' viewBox="0 0 ' + size + ' ' + size + '" ';
+      qrSvg += ' preserveAspectRatio="xMinYMin meet"';
+      qrSvg += (title.text || alt.text) ? ' role="img" aria-labelledby="' +
+          escapeXml([title.id, alt.id].join(' ').trim() ) + '"' : '';
+      qrSvg += '>';
+      qrSvg += (title.text) ? '<title id="' + escapeXml(title.id) + '">' +
+          escapeXml(title.text) + '</title>' : '';
+      qrSvg += (alt.text) ? '<description id="' + escapeXml(alt.id) + '">' +
+          escapeXml(alt.text) + '</description>' : '';
+      qrSvg += '<rect width="100%" height="100%" fill="white" cx="0" cy="0"/>';
+      qrSvg += '<path d="';
+
+      for (r = 0; r < _this.getModuleCount(); r += 1) {
+        mr = r * cellSize + margin;
+        for (c = 0; c < _this.getModuleCount(); c += 1) {
+          if (_this.isDark(r, c) ) {
+            mc = c*cellSize+margin;
+            qrSvg += 'M' + mc + ',' + mr + rect;
+          }
+        }
+      }
+
+      qrSvg += '" stroke="transparent" fill="black"/>';
+      qrSvg += '</svg>';
+
+      return qrSvg;
+    };
+
+    _this.createDataURL = function(cellSize, margin) {
+
+      cellSize = cellSize || 2;
+      margin = (typeof margin == 'undefined')? cellSize * 4 : margin;
+
+      var size = _this.getModuleCount() * cellSize + margin * 2;
+      var min = margin;
+      var max = size - margin;
+
+      return createDataURL(size, size, function(x, y) {
+        if (min <= x && x < max && min <= y && y < max) {
+          var c = Math.floor( (x - min) / cellSize);
+          var r = Math.floor( (y - min) / cellSize);
+          return _this.isDark(r, c)? 0 : 1;
+        } else {
+          return 1;
+        }
+      } );
+    };
+
+    _this.createImgTag = function(cellSize, margin, alt) {
+
+      cellSize = cellSize || 2;
+      margin = (typeof margin == 'undefined')? cellSize * 4 : margin;
+
+      var size = _this.getModuleCount() * cellSize + margin * 2;
+
+      var img = '';
+      img += '<img';
+      img += '\u0020src="';
+      img += _this.createDataURL(cellSize, margin);
+      img += '"';
+      img += '\u0020width="';
+      img += size;
+      img += '"';
+      img += '\u0020height="';
+      img += size;
+      img += '"';
+      if (alt) {
+        img += '\u0020alt="';
+        img += escapeXml(alt);
+        img += '"';
+      }
+      img += '/>';
+
+      return img;
+    };
+
+    var escapeXml = function(s) {
+      var escaped = '';
+      for (var i = 0; i < s.length; i += 1) {
+        var c = s.charAt(i);
+        switch(c) {
+        case '<': escaped += '&lt;'; break;
+        case '>': escaped += '&gt;'; break;
+        case '&': escaped += '&amp;'; break;
+        case '"': escaped += '&quot;'; break;
+        default : escaped += c; break;
+        }
+      }
+      return escaped;
+    };
+
+    var _createHalfASCII = function(margin) {
+      var cellSize = 1;
+      margin = (typeof margin == 'undefined')? cellSize * 2 : margin;
+
+      var size = _this.getModuleCount() * cellSize + margin * 2;
+      var min = margin;
+      var max = size - margin;
+
+      var y, x, r1, r2, p;
+
+      var blocks = {
+        '██': '█',
+        '█ ': '▀',
+        ' █': '▄',
+        '  ': ' '
+      };
+
+      var blocksLastLineNoMargin = {
+        '██': '▀',
+        '█ ': '▀',
+        ' █': ' ',
+        '  ': ' '
+      };
+
+      var ascii = '';
+      for (y = 0; y < size; y += 2) {
+        r1 = Math.floor((y - min) / cellSize);
+        r2 = Math.floor((y + 1 - min) / cellSize);
+        for (x = 0; x < size; x += 1) {
+          p = '█';
+
+          if (min <= x && x < max && min <= y && y < max && _this.isDark(r1, Math.floor((x - min) / cellSize))) {
+            p = ' ';
+          }
+
+          if (min <= x && x < max && min <= y+1 && y+1 < max && _this.isDark(r2, Math.floor((x - min) / cellSize))) {
+            p += ' ';
+          }
+          else {
+            p += '█';
+          }
+
+          // Output 2 characters per pixel, to create full square. 1 character per pixels gives only half width of square.
+          ascii += (margin < 1 && y+1 >= max) ? blocksLastLineNoMargin[p] : blocks[p];
+        }
+
+        ascii += '\n';
+      }
+
+      if (size % 2 && margin > 0) {
+        return ascii.substring(0, ascii.length - size - 1) + Array(size+1).join('▀');
+      }
+
+      return ascii.substring(0, ascii.length-1);
+    };
+
+    _this.createASCII = function(cellSize, margin) {
+      cellSize = cellSize || 1;
+
+      if (cellSize < 2) {
+        return _createHalfASCII(margin);
+      }
+
+      cellSize -= 1;
+      margin = (typeof margin == 'undefined')? cellSize * 2 : margin;
+
+      var size = _this.getModuleCount() * cellSize + margin * 2;
+      var min = margin;
+      var max = size - margin;
+
+      var y, x, r, p;
+
+      var white = Array(cellSize+1).join('██');
+      var black = Array(cellSize+1).join('  ');
+
+      var ascii = '';
+      var line = '';
+      for (y = 0; y < size; y += 1) {
+        r = Math.floor( (y - min) / cellSize);
+        line = '';
+        for (x = 0; x < size; x += 1) {
+          p = 1;
+
+          if (min <= x && x < max && min <= y && y < max && _this.isDark(r, Math.floor((x - min) / cellSize))) {
+            p = 0;
+          }
+
+          // Output 2 characters per pixel, to create full square. 1 character per pixels gives only half width of square.
+          line += p ? white : black;
+        }
+
+        for (r = 0; r < cellSize; r += 1) {
+          ascii += line + '\n';
+        }
+      }
+
+      return ascii.substring(0, ascii.length-1);
+    };
+
+    _this.renderTo2dContext = function(context, cellSize) {
+      cellSize = cellSize || 2;
+      var length = _this.getModuleCount();
+      for (var row = 0; row < length; row++) {
+        for (var col = 0; col < length; col++) {
+          context.fillStyle = _this.isDark(row, col) ? 'black' : 'white';
+          context.fillRect(col * cellSize, row * cellSize, cellSize, cellSize);
+        }
+      }
+    }
+
+    return _this;
+  };
+
+  //---------------------------------------------------------------------
+  // qrcode.stringToBytes
+  //---------------------------------------------------------------------
+
+  qrcode.stringToBytesFuncs = {
+    'default' : function(s) {
+      var bytes = [];
+      for (var i = 0; i < s.length; i += 1) {
+        var c = s.charCodeAt(i);
+        bytes.push(c & 0xff);
+      }
+      return bytes;
+    }
+  };
+
+  qrcode.stringToBytes = qrcode.stringToBytesFuncs['default'];
+
+  //---------------------------------------------------------------------
+  // qrcode.createStringToBytes
+  //---------------------------------------------------------------------
+
+  /**
+   * @param unicodeData base64 string of byte array.
+   * [16bit Unicode],[16bit Bytes], ...
+   * @param numChars
+   */
+  qrcode.createStringToBytes = function(unicodeData, numChars) {
+
+    // create conversion map.
+
+    var unicodeMap = function() {
+
+      var bin = base64DecodeInputStream(unicodeData);
+      var read = function() {
+        var b = bin.read();
+        if (b == -1) throw 'eof';
+        return b;
+      };
+
+      var count = 0;
+      var unicodeMap = {};
+      while (true) {
+        var b0 = bin.read();
+        if (b0 == -1) break;
+        var b1 = read();
+        var b2 = read();
+        var b3 = read();
+        var k = String.fromCharCode( (b0 << 8) | b1);
+        var v = (b2 << 8) | b3;
+        unicodeMap[k] = v;
+        count += 1;
+      }
+      if (count != numChars) {
+        throw count + ' != ' + numChars;
+      }
+
+      return unicodeMap;
+    }();
+
+    var unknownChar = '?'.charCodeAt(0);
+
+    return function(s) {
+      var bytes = [];
+      for (var i = 0; i < s.length; i += 1) {
+        var c = s.charCodeAt(i);
+        if (c < 128) {
+          bytes.push(c);
+        } else {
+          var b = unicodeMap[s.charAt(i)];
+          if (typeof b == 'number') {
+            if ( (b & 0xff) == b) {
+              // 1byte
+              bytes.push(b);
+            } else {
+              // 2bytes
+              bytes.push(b >>> 8);
+              bytes.push(b & 0xff);
+            }
+          } else {
+            bytes.push(unknownChar);
+          }
+        }
+      }
+      return bytes;
+    };
+  };
+
+  //---------------------------------------------------------------------
+  // QRMode
+  //---------------------------------------------------------------------
+
+  var QRMode = {
+    MODE_NUMBER :    1 << 0,
+    MODE_ALPHA_NUM : 1 << 1,
+    MODE_8BIT_BYTE : 1 << 2,
+    MODE_KANJI :     1 << 3
+  };
+
+  //---------------------------------------------------------------------
+  // QRErrorCorrectionLevel
+  //---------------------------------------------------------------------
+
+  var QRErrorCorrectionLevel = {
+    L : 1,
+    M : 0,
+    Q : 3,
+    H : 2
+  };
+
+  //---------------------------------------------------------------------
+  // QRMaskPattern
+  //---------------------------------------------------------------------
+
+  var QRMaskPattern = {
+    PATTERN000 : 0,
+    PATTERN001 : 1,
+    PATTERN010 : 2,
+    PATTERN011 : 3,
+    PATTERN100 : 4,
+    PATTERN101 : 5,
+    PATTERN110 : 6,
+    PATTERN111 : 7
+  };
+
+  //---------------------------------------------------------------------
+  // QRUtil
+  //---------------------------------------------------------------------
+
+  var QRUtil = function() {
+
+    var PATTERN_POSITION_TABLE = [
+      [],
+      [6, 18],
+      [6, 22],
+      [6, 26],
+      [6, 30],
+      [6, 34],
+      [6, 22, 38],
+      [6, 24, 42],
+      [6, 26, 46],
+      [6, 28, 50],
+      [6, 30, 54],
+      [6, 32, 58],
+      [6, 34, 62],
+      [6, 26, 46, 66],
+      [6, 26, 48, 70],
+      [6, 26, 50, 74],
+      [6, 30, 54, 78],
+      [6, 30, 56, 82],
+      [6, 30, 58, 86],
+      [6, 34, 62, 90],
+      [6, 28, 50, 72, 94],
+      [6, 26, 50, 74, 98],
+      [6, 30, 54, 78, 102],
+      [6, 28, 54, 80, 106],
+      [6, 32, 58, 84, 110],
+      [6, 30, 58, 86, 114],
+      [6, 34, 62, 90, 118],
+      [6, 26, 50, 74, 98, 122],
+      [6, 30, 54, 78, 102, 126],
+      [6, 26, 52, 78, 104, 130],
+      [6, 30, 56, 82, 108, 134],
+      [6, 34, 60, 86, 112, 138],
+      [6, 30, 58, 86, 114, 142],
+      [6, 34, 62, 90, 118, 146],
+      [6, 30, 54, 78, 102, 126, 150],
+      [6, 24, 50, 76, 102, 128, 154],
+      [6, 28, 54, 80, 106, 132, 158],
+      [6, 32, 58, 84, 110, 136, 162],
+      [6, 26, 54, 82, 110, 138, 166],
+      [6, 30, 58, 86, 114, 142, 170]
+    ];
+    var G15 = (1 << 10) | (1 << 8) | (1 << 5) | (1 << 4) | (1 << 2) | (1 << 1) | (1 << 0);
+    var G18 = (1 << 12) | (1 << 11) | (1 << 10) | (1 << 9) | (1 << 8) | (1 << 5) | (1 << 2) | (1 << 0);
+    var G15_MASK = (1 << 14) | (1 << 12) | (1 << 10) | (1 << 4) | (1 << 1);
+
+    var _this = {};
+
+    var getBCHDigit = function(data) {
+      var digit = 0;
+      while (data != 0) {
+        digit += 1;
+        data >>>= 1;
+      }
+      return digit;
+    };
+
+    _this.getBCHTypeInfo = function(data) {
+      var d = data << 10;
+      while (getBCHDigit(d) - getBCHDigit(G15) >= 0) {
+        d ^= (G15 << (getBCHDigit(d) - getBCHDigit(G15) ) );
+      }
+      return ( (data << 10) | d) ^ G15_MASK;
+    };
+
+    _this.getBCHTypeNumber = function(data) {
+      var d = data << 12;
+      while (getBCHDigit(d) - getBCHDigit(G18) >= 0) {
+        d ^= (G18 << (getBCHDigit(d) - getBCHDigit(G18) ) );
+      }
+      return (data << 12) | d;
+    };
+
+    _this.getPatternPosition = function(typeNumber) {
+      return PATTERN_POSITION_TABLE[typeNumber - 1];
+    };
+
+    _this.getMaskFunction = function(maskPattern) {
+
+      switch (maskPattern) {
+
+      case QRMaskPattern.PATTERN000 :
+        return function(i, j) { return (i + j) % 2 == 0; };
+      case QRMaskPattern.PATTERN001 :
+        return function(i, j) { return i % 2 == 0; };
+      case QRMaskPattern.PATTERN010 :
+        return function(i, j) { return j % 3 == 0; };
+      case QRMaskPattern.PATTERN011 :
+        return function(i, j) { return (i + j) % 3 == 0; };
+      case QRMaskPattern.PATTERN100 :
+        return function(i, j) { return (Math.floor(i / 2) + Math.floor(j / 3) ) % 2 == 0; };
+      case QRMaskPattern.PATTERN101 :
+        return function(i, j) { return (i * j) % 2 + (i * j) % 3 == 0; };
+      case QRMaskPattern.PATTERN110 :
+        return function(i, j) { return ( (i * j) % 2 + (i * j) % 3) % 2 == 0; };
+      case QRMaskPattern.PATTERN111 :
+        return function(i, j) { return ( (i * j) % 3 + (i + j) % 2) % 2 == 0; };
+
+      default :
+        throw 'bad maskPattern:' + maskPattern;
+      }
+    };
+
+    _this.getErrorCorrectPolynomial = function(errorCorrectLength) {
+      var a = qrPolynomial([1], 0);
+      for (var i = 0; i < errorCorrectLength; i += 1) {
+        a = a.multiply(qrPolynomial([1, QRMath.gexp(i)], 0) );
+      }
+      return a;
+    };
+
+    _this.getLengthInBits = function(mode, type) {
+
+      if (1 <= type && type < 10) {
+
+        // 1 - 9
+
+        switch(mode) {
+        case QRMode.MODE_NUMBER    : return 10;
+        case QRMode.MODE_ALPHA_NUM : return 9;
+        case QRMode.MODE_8BIT_BYTE : return 8;
+        case QRMode.MODE_KANJI     : return 8;
+        default :
+          throw 'mode:' + mode;
+        }
+
+      } else if (type < 27) {
+
+        // 10 - 26
+
+        switch(mode) {
+        case QRMode.MODE_NUMBER    : return 12;
+        case QRMode.MODE_ALPHA_NUM : return 11;
+        case QRMode.MODE_8BIT_BYTE : return 16;
+        case QRMode.MODE_KANJI     : return 10;
+        default :
+          throw 'mode:' + mode;
+        }
+
+      } else if (type < 41) {
+
+        // 27 - 40
+
+        switch(mode) {
+        case QRMode.MODE_NUMBER    : return 14;
+        case QRMode.MODE_ALPHA_NUM : return 13;
+        case QRMode.MODE_8BIT_BYTE : return 16;
+        case QRMode.MODE_KANJI     : return 12;
+        default :
+          throw 'mode:' + mode;
+        }
+
+      } else {
+        throw 'type:' + type;
+      }
+    };
+
+    _this.getLostPoint = function(qrcode) {
+
+      var moduleCount = qrcode.getModuleCount();
+
+      var lostPoint = 0;
+
+      // LEVEL1
+
+      for (var row = 0; row < moduleCount; row += 1) {
+        for (var col = 0; col < moduleCount; col += 1) {
+
+          var sameCount = 0;
+          var dark = qrcode.isDark(row, col);
+
+          for (var r = -1; r <= 1; r += 1) {
+
+            if (row + r < 0 || moduleCount <= row + r) {
+              continue;
+            }
+
+            for (var c = -1; c <= 1; c += 1) {
+
+              if (col + c < 0 || moduleCount <= col + c) {
+                continue;
+              }
+
+              if (r == 0 && c == 0) {
+                continue;
+              }
+
+              if (dark == qrcode.isDark(row + r, col + c) ) {
+                sameCount += 1;
+              }
+            }
+          }
+
+          if (sameCount > 5) {
+            lostPoint += (3 + sameCount - 5);
+          }
+        }
+      };
+
+      // LEVEL2
+
+      for (var row = 0; row < moduleCount - 1; row += 1) {
+        for (var col = 0; col < moduleCount - 1; col += 1) {
+          var count = 0;
+          if (qrcode.isDark(row, col) ) count += 1;
+          if (qrcode.isDark(row + 1, col) ) count += 1;
+          if (qrcode.isDark(row, col + 1) ) count += 1;
+          if (qrcode.isDark(row + 1, col + 1) ) count += 1;
+          if (count == 0 || count == 4) {
+            lostPoint += 3;
+          }
+        }
+      }
+
+      // LEVEL3
+
+      for (var row = 0; row < moduleCount; row += 1) {
+        for (var col = 0; col < moduleCount - 6; col += 1) {
+          if (qrcode.isDark(row, col)
+              && !qrcode.isDark(row, col + 1)
+              &&  qrcode.isDark(row, col + 2)
+              &&  qrcode.isDark(row, col + 3)
+              &&  qrcode.isDark(row, col + 4)
+              && !qrcode.isDark(row, col + 5)
+              &&  qrcode.isDark(row, col + 6) ) {
+            lostPoint += 40;
+          }
+        }
+      }
+
+      for (var col = 0; col < moduleCount; col += 1) {
+        for (var row = 0; row < moduleCount - 6; row += 1) {
+          if (qrcode.isDark(row, col)
+              && !qrcode.isDark(row + 1, col)
+              &&  qrcode.isDark(row + 2, col)
+              &&  qrcode.isDark(row + 3, col)
+              &&  qrcode.isDark(row + 4, col)
+              && !qrcode.isDark(row + 5, col)
+              &&  qrcode.isDark(row + 6, col) ) {
+            lostPoint += 40;
+          }
+        }
+      }
+
+      // LEVEL4
+
+      var darkCount = 0;
+
+      for (var col = 0; col < moduleCount; col += 1) {
+        for (var row = 0; row < moduleCount; row += 1) {
+          if (qrcode.isDark(row, col) ) {
+            darkCount += 1;
+          }
+        }
+      }
+
+      var ratio = Math.abs(100 * darkCount / moduleCount / moduleCount - 50) / 5;
+      lostPoint += ratio * 10;
+
+      return lostPoint;
+    };
+
+    return _this;
+  }();
+
+  //---------------------------------------------------------------------
+  // QRMath
+  //---------------------------------------------------------------------
+
+  var QRMath = function() {
+
+    var EXP_TABLE = new Array(256);
+    var LOG_TABLE = new Array(256);
+
+    // initialize tables
+    for (var i = 0; i < 8; i += 1) {
+      EXP_TABLE[i] = 1 << i;
+    }
+    for (var i = 8; i < 256; i += 1) {
+      EXP_TABLE[i] = EXP_TABLE[i - 4]
+        ^ EXP_TABLE[i - 5]
+        ^ EXP_TABLE[i - 6]
+        ^ EXP_TABLE[i - 8];
+    }
+    for (var i = 0; i < 255; i += 1) {
+      LOG_TABLE[EXP_TABLE[i] ] = i;
+    }
+
+    var _this = {};
+
+    _this.glog = function(n) {
+
+      if (n < 1) {
+        throw 'glog(' + n + ')';
+      }
+
+      return LOG_TABLE[n];
+    };
+
+    _this.gexp = function(n) {
+
+      while (n < 0) {
+        n += 255;
+      }
+
+      while (n >= 256) {
+        n -= 255;
+      }
+
+      return EXP_TABLE[n];
+    };
+
+    return _this;
+  }();
+
+  //---------------------------------------------------------------------
+  // qrPolynomial
+  //---------------------------------------------------------------------
+
+  function qrPolynomial(num, shift) {
+
+    if (typeof num.length == 'undefined') {
+      throw num.length + '/' + shift;
+    }
+
+    var _num = function() {
+      var offset = 0;
+      while (offset < num.length && num[offset] == 0) {
+        offset += 1;
+      }
+      var _num = new Array(num.length - offset + shift);
+      for (var i = 0; i < num.length - offset; i += 1) {
+        _num[i] = num[i + offset];
+      }
+      return _num;
+    }();
+
+    var _this = {};
+
+    _this.getAt = function(index) {
+      return _num[index];
+    };
+
+    _this.getLength = function() {
+      return _num.length;
+    };
+
+    _this.multiply = function(e) {
+
+      var num = new Array(_this.getLength() + e.getLength() - 1);
+
+      for (var i = 0; i < _this.getLength(); i += 1) {
+        for (var j = 0; j < e.getLength(); j += 1) {
+          num[i + j] ^= QRMath.gexp(QRMath.glog(_this.getAt(i) ) + QRMath.glog(e.getAt(j) ) );
+        }
+      }
+
+      return qrPolynomial(num, 0);
+    };
+
+    _this.mod = function(e) {
+
+      if (_this.getLength() - e.getLength() < 0) {
+        return _this;
+      }
+
+      var ratio = QRMath.glog(_this.getAt(0) ) - QRMath.glog(e.getAt(0) );
+
+      var num = new Array(_this.getLength() );
+      for (var i = 0; i < _this.getLength(); i += 1) {
+        num[i] = _this.getAt(i);
+      }
+
+      for (var i = 0; i < e.getLength(); i += 1) {
+        num[i] ^= QRMath.gexp(QRMath.glog(e.getAt(i) ) + ratio);
+      }
+
+      // recursive call
+      return qrPolynomial(num, 0).mod(e);
+    };
+
+    return _this;
+  };
+
+  //---------------------------------------------------------------------
+  // QRRSBlock
+  //---------------------------------------------------------------------
+
+  var QRRSBlock = function() {
+
+    var RS_BLOCK_TABLE = [
+
+      // L
+      // M
+      // Q
+      // H
+
+      // 1
+      [1, 26, 19],
+      [1, 26, 16],
+      [1, 26, 13],
+      [1, 26, 9],
+
+      // 2
+      [1, 44, 34],
+      [1, 44, 28],
+      [1, 44, 22],
+      [1, 44, 16],
+
+      // 3
+      [1, 70, 55],
+      [1, 70, 44],
+      [2, 35, 17],
+      [2, 35, 13],
+
+      // 4
+      [1, 100, 80],
+      [2, 50, 32],
+      [2, 50, 24],
+      [4, 25, 9],
+
+      // 5
+      [1, 134, 108],
+      [2, 67, 43],
+      [2, 33, 15, 2, 34, 16],
+      [2, 33, 11, 2, 34, 12],
+
+      // 6
+      [2, 86, 68],
+      [4, 43, 27],
+      [4, 43, 19],
+      [4, 43, 15],
+
+      // 7
+      [2, 98, 78],
+      [4, 49, 31],
+      [2, 32, 14, 4, 33, 15],
+      [4, 39, 13, 1, 40, 14],
+
+      // 8
+      [2, 121, 97],
+      [2, 60, 38, 2, 61, 39],
+      [4, 40, 18, 2, 41, 19],
+      [4, 40, 14, 2, 41, 15],
+
+      // 9
+      [2, 146, 116],
+      [3, 58, 36, 2, 59, 37],
+      [4, 36, 16, 4, 37, 17],
+      [4, 36, 12, 4, 37, 13],
+
+      // 10
+      [2, 86, 68, 2, 87, 69],
+      [4, 69, 43, 1, 70, 44],
+      [6, 43, 19, 2, 44, 20],
+      [6, 43, 15, 2, 44, 16],
+
+      // 11
+      [4, 101, 81],
+      [1, 80, 50, 4, 81, 51],
+      [4, 50, 22, 4, 51, 23],
+      [3, 36, 12, 8, 37, 13],
+
+      // 12
+      [2, 116, 92, 2, 117, 93],
+      [6, 58, 36, 2, 59, 37],
+      [4, 46, 20, 6, 47, 21],
+      [7, 42, 14, 4, 43, 15],
+
+      // 13
+      [4, 133, 107],
+      [8, 59, 37, 1, 60, 38],
+      [8, 44, 20, 4, 45, 21],
+      [12, 33, 11, 4, 34, 12],
+
+      // 14
+      [3, 145, 115, 1, 146, 116],
+      [4, 64, 40, 5, 65, 41],
+      [11, 36, 16, 5, 37, 17],
+      [11, 36, 12, 5, 37, 13],
+
+      // 15
+      [5, 109, 87, 1, 110, 88],
+      [5, 65, 41, 5, 66, 42],
+      [5, 54, 24, 7, 55, 25],
+      [11, 36, 12, 7, 37, 13],
+
+      // 16
+      [5, 122, 98, 1, 123, 99],
+      [7, 73, 45, 3, 74, 46],
+      [15, 43, 19, 2, 44, 20],
+      [3, 45, 15, 13, 46, 16],
+
+      // 17
+      [1, 135, 107, 5, 136, 108],
+      [10, 74, 46, 1, 75, 47],
+      [1, 50, 22, 15, 51, 23],
+      [2, 42, 14, 17, 43, 15],
+
+      // 18
+      [5, 150, 120, 1, 151, 121],
+      [9, 69, 43, 4, 70, 44],
+      [17, 50, 22, 1, 51, 23],
+      [2, 42, 14, 19, 43, 15],
+
+      // 19
+      [3, 141, 113, 4, 142, 114],
+      [3, 70, 44, 11, 71, 45],
+      [17, 47, 21, 4, 48, 22],
+      [9, 39, 13, 16, 40, 14],
+
+      // 20
+      [3, 135, 107, 5, 136, 108],
+      [3, 67, 41, 13, 68, 42],
+      [15, 54, 24, 5, 55, 25],
+      [15, 43, 15, 10, 44, 16],
+
+      // 21
+      [4, 144, 116, 4, 145, 117],
+      [17, 68, 42],
+      [17, 50, 22, 6, 51, 23],
+      [19, 46, 16, 6, 47, 17],
+
+      // 22
+      [2, 139, 111, 7, 140, 112],
+      [17, 74, 46],
+      [7, 54, 24, 16, 55, 25],
+      [34, 37, 13],
+
+      // 23
+      [4, 151, 121, 5, 152, 122],
+      [4, 75, 47, 14, 76, 48],
+      [11, 54, 24, 14, 55, 25],
+      [16, 45, 15, 14, 46, 16],
+
+      // 24
+      [6, 147, 117, 4, 148, 118],
+      [6, 73, 45, 14, 74, 46],
+      [11, 54, 24, 16, 55, 25],
+      [30, 46, 16, 2, 47, 17],
+
+      // 25
+      [8, 132, 106, 4, 133, 107],
+      [8, 75, 47, 13, 76, 48],
+      [7, 54, 24, 22, 55, 25],
+      [22, 45, 15, 13, 46, 16],
+
+      // 26
+      [10, 142, 114, 2, 143, 115],
+      [19, 74, 46, 4, 75, 47],
+      [28, 50, 22, 6, 51, 23],
+      [33, 46, 16, 4, 47, 17],
+
+      // 27
+      [8, 152, 122, 4, 153, 123],
+      [22, 73, 45, 3, 74, 46],
+      [8, 53, 23, 26, 54, 24],
+      [12, 45, 15, 28, 46, 16],
+
+      // 28
+      [3, 147, 117, 10, 148, 118],
+      [3, 73, 45, 23, 74, 46],
+      [4, 54, 24, 31, 55, 25],
+      [11, 45, 15, 31, 46, 16],
+
+      // 29
+      [7, 146, 116, 7, 147, 117],
+      [21, 73, 45, 7, 74, 46],
+      [1, 53, 23, 37, 54, 24],
+      [19, 45, 15, 26, 46, 16],
+
+      // 30
+      [5, 145, 115, 10, 146, 116],
+      [19, 75, 47, 10, 76, 48],
+      [15, 54, 24, 25, 55, 25],
+      [23, 45, 15, 25, 46, 16],
+
+      // 31
+      [13, 145, 115, 3, 146, 116],
+      [2, 74, 46, 29, 75, 47],
+      [42, 54, 24, 1, 55, 25],
+      [23, 45, 15, 28, 46, 16],
+
+      // 32
+      [17, 145, 115],
+      [10, 74, 46, 23, 75, 47],
+      [10, 54, 24, 35, 55, 25],
+      [19, 45, 15, 35, 46, 16],
+
+      // 33
+      [17, 145, 115, 1, 146, 116],
+      [14, 74, 46, 21, 75, 47],
+      [29, 54, 24, 19, 55, 25],
+      [11, 45, 15, 46, 46, 16],
+
+      // 34
+      [13, 145, 115, 6, 146, 116],
+      [14, 74, 46, 23, 75, 47],
+      [44, 54, 24, 7, 55, 25],
+      [59, 46, 16, 1, 47, 17],
+
+      // 35
+      [12, 151, 121, 7, 152, 122],
+      [12, 75, 47, 26, 76, 48],
+      [39, 54, 24, 14, 55, 25],
+      [22, 45, 15, 41, 46, 16],
+
+      // 36
+      [6, 151, 121, 14, 152, 122],
+      [6, 75, 47, 34, 76, 48],
+      [46, 54, 24, 10, 55, 25],
+      [2, 45, 15, 64, 46, 16],
+
+      // 37
+      [17, 152, 122, 4, 153, 123],
+      [29, 74, 46, 14, 75, 47],
+      [49, 54, 24, 10, 55, 25],
+      [24, 45, 15, 46, 46, 16],
+
+      // 38
+      [4, 152, 122, 18, 153, 123],
+      [13, 74, 46, 32, 75, 47],
+      [48, 54, 24, 14, 55, 25],
+      [42, 45, 15, 32, 46, 16],
+
+      // 39
+      [20, 147, 117, 4, 148, 118],
+      [40, 75, 47, 7, 76, 48],
+      [43, 54, 24, 22, 55, 25],
+      [10, 45, 15, 67, 46, 16],
+
+      // 40
+      [19, 148, 118, 6, 149, 119],
+      [18, 75, 47, 31, 76, 48],
+      [34, 54, 24, 34, 55, 25],
+      [20, 45, 15, 61, 46, 16]
+    ];
+
+    var qrRSBlock = function(totalCount, dataCount) {
+      var _this = {};
+      _this.totalCount = totalCount;
+      _this.dataCount = dataCount;
+      return _this;
+    };
+
+    var _this = {};
+
+    var getRsBlockTable = function(typeNumber, errorCorrectionLevel) {
+
+      switch(errorCorrectionLevel) {
+      case QRErrorCorrectionLevel.L :
+        return RS_BLOCK_TABLE[(typeNumber - 1) * 4 + 0];
+      case QRErrorCorrectionLevel.M :
+        return RS_BLOCK_TABLE[(typeNumber - 1) * 4 + 1];
+      case QRErrorCorrectionLevel.Q :
+        return RS_BLOCK_TABLE[(typeNumber - 1) * 4 + 2];
+      case QRErrorCorrectionLevel.H :
+        return RS_BLOCK_TABLE[(typeNumber - 1) * 4 + 3];
+      default :
+        return undefined;
+      }
+    };
+
+    _this.getRSBlocks = function(typeNumber, errorCorrectionLevel) {
+
+      var rsBlock = getRsBlockTable(typeNumber, errorCorrectionLevel);
+
+      if (typeof rsBlock == 'undefined') {
+        throw 'bad rs block @ typeNumber:' + typeNumber +
+            '/errorCorrectionLevel:' + errorCorrectionLevel;
+      }
+
+      var length = rsBlock.length / 3;
+
+      var list = [];
+
+      for (var i = 0; i < length; i += 1) {
+
+        var count = rsBlock[i * 3 + 0];
+        var totalCount = rsBlock[i * 3 + 1];
+        var dataCount = rsBlock[i * 3 + 2];
+
+        for (var j = 0; j < count; j += 1) {
+          list.push(qrRSBlock(totalCount, dataCount) );
+        }
+      }
+
+      return list;
+    };
+
+    return _this;
+  }();
+
+  //---------------------------------------------------------------------
+  // qrBitBuffer
+  //---------------------------------------------------------------------
+
+  var qrBitBuffer = function() {
+
+    var _buffer = [];
+    var _length = 0;
+
+    var _this = {};
+
+    _this.getBuffer = function() {
+      return _buffer;
+    };
+
+    _this.getAt = function(index) {
+      var bufIndex = Math.floor(index / 8);
+      return ( (_buffer[bufIndex] >>> (7 - index % 8) ) & 1) == 1;
+    };
+
+    _this.put = function(num, length) {
+      for (var i = 0; i < length; i += 1) {
+        _this.putBit( ( (num >>> (length - i - 1) ) & 1) == 1);
+      }
+    };
+
+    _this.getLengthInBits = function() {
+      return _length;
+    };
+
+    _this.putBit = function(bit) {
+
+      var bufIndex = Math.floor(_length / 8);
+      if (_buffer.length <= bufIndex) {
+        _buffer.push(0);
+      }
+
+      if (bit) {
+        _buffer[bufIndex] |= (0x80 >>> (_length % 8) );
+      }
+
+      _length += 1;
+    };
+
+    return _this;
+  };
+
+  //---------------------------------------------------------------------
+  // qrNumber
+  //---------------------------------------------------------------------
+
+  var qrNumber = function(data) {
+
+    var _mode = QRMode.MODE_NUMBER;
+    var _data = data;
+
+    var _this = {};
+
+    _this.getMode = function() {
+      return _mode;
+    };
+
+    _this.getLength = function(buffer) {
+      return _data.length;
+    };
+
+    _this.write = function(buffer) {
+
+      var data = _data;
+
+      var i = 0;
+
+      while (i + 2 < data.length) {
+        buffer.put(strToNum(data.substring(i, i + 3) ), 10);
+        i += 3;
+      }
+
+      if (i < data.length) {
+        if (data.length - i == 1) {
+          buffer.put(strToNum(data.substring(i, i + 1) ), 4);
+        } else if (data.length - i == 2) {
+          buffer.put(strToNum(data.substring(i, i + 2) ), 7);
+        }
+      }
+    };
+
+    var strToNum = function(s) {
+      var num = 0;
+      for (var i = 0; i < s.length; i += 1) {
+        num = num * 10 + chatToNum(s.charAt(i) );
+      }
+      return num;
+    };
+
+    var chatToNum = function(c) {
+      if ('0' <= c && c <= '9') {
+        return c.charCodeAt(0) - '0'.charCodeAt(0);
+      }
+      throw 'illegal char :' + c;
+    };
+
+    return _this;
+  };
+
+  //---------------------------------------------------------------------
+  // qrAlphaNum
+  //---------------------------------------------------------------------
+
+  var qrAlphaNum = function(data) {
+
+    var _mode = QRMode.MODE_ALPHA_NUM;
+    var _data = data;
+
+    var _this = {};
+
+    _this.getMode = function() {
+      return _mode;
+    };
+
+    _this.getLength = function(buffer) {
+      return _data.length;
+    };
+
+    _this.write = function(buffer) {
+
+      var s = _data;
+
+      var i = 0;
+
+      while (i + 1 < s.length) {
+        buffer.put(
+          getCode(s.charAt(i) ) * 45 +
+          getCode(s.charAt(i + 1) ), 11);
+        i += 2;
+      }
+
+      if (i < s.length) {
+        buffer.put(getCode(s.charAt(i) ), 6);
+      }
+    };
+
+    var getCode = function(c) {
+
+      if ('0' <= c && c <= '9') {
+        return c.charCodeAt(0) - '0'.charCodeAt(0);
+      } else if ('A' <= c && c <= 'Z') {
+        return c.charCodeAt(0) - 'A'.charCodeAt(0) + 10;
+      } else {
+        switch (c) {
+        case ' ' : return 36;
+        case '$' : return 37;
+        case '%' : return 38;
+        case '*' : return 39;
+        case '+' : return 40;
+        case '-' : return 41;
+        case '.' : return 42;
+        case '/' : return 43;
+        case ':' : return 44;
+        default :
+          throw 'illegal char :' + c;
+        }
+      }
+    };
+
+    return _this;
+  };
+
+  //---------------------------------------------------------------------
+  // qr8BitByte
+  //---------------------------------------------------------------------
+
+  var qr8BitByte = function(data) {
+
+    var _mode = QRMode.MODE_8BIT_BYTE;
+    var _data = data;
+    var _bytes = qrcode.stringToBytes(data);
+
+    var _this = {};
+
+    _this.getMode = function() {
+      return _mode;
+    };
+
+    _this.getLength = function(buffer) {
+      return _bytes.length;
+    };
+
+    _this.write = function(buffer) {
+      for (var i = 0; i < _bytes.length; i += 1) {
+        buffer.put(_bytes[i], 8);
+      }
+    };
+
+    return _this;
+  };
+
+  //---------------------------------------------------------------------
+  // qrKanji
+  //---------------------------------------------------------------------
+
+  var qrKanji = function(data) {
+
+    var _mode = QRMode.MODE_KANJI;
+    var _data = data;
+
+    var stringToBytes = qrcode.stringToBytesFuncs['SJIS'];
+    if (!stringToBytes) {
+      throw 'sjis not supported.';
+    }
+    !function(c, code) {
+      // self test for sjis support.
+      var test = stringToBytes(c);
+      if (test.length != 2 || ( (test[0] << 8) | test[1]) != code) {
+        throw 'sjis not supported.';
+      }
+    }('\u53cb', 0x9746);
+
+    var _bytes = stringToBytes(data);
+
+    var _this = {};
+
+    _this.getMode = function() {
+      return _mode;
+    };
+
+    _this.getLength = function(buffer) {
+      return ~~(_bytes.length / 2);
+    };
+
+    _this.write = function(buffer) {
+
+      var data = _bytes;
+
+      var i = 0;
+
+      while (i + 1 < data.length) {
+
+        var c = ( (0xff & data[i]) << 8) | (0xff & data[i + 1]);
+
+        if (0x8140 <= c && c <= 0x9FFC) {
+          c -= 0x8140;
+        } else if (0xE040 <= c && c <= 0xEBBF) {
+          c -= 0xC140;
+        } else {
+          throw 'illegal char at ' + (i + 1) + '/' + c;
+        }
+
+        c = ( (c >>> 8) & 0xff) * 0xC0 + (c & 0xff);
+
+        buffer.put(c, 13);
+
+        i += 2;
+      }
+
+      if (i < data.length) {
+        throw 'illegal char at ' + (i + 1);
+      }
+    };
+
+    return _this;
+  };
+
+  //=====================================================================
+  // GIF Support etc.
+  //
+
+  //---------------------------------------------------------------------
+  // byteArrayOutputStream
+  //---------------------------------------------------------------------
+
+  var byteArrayOutputStream = function() {
+
+    var _bytes = [];
+
+    var _this = {};
+
+    _this.writeByte = function(b) {
+      _bytes.push(b & 0xff);
+    };
+
+    _this.writeShort = function(i) {
+      _this.writeByte(i);
+      _this.writeByte(i >>> 8);
+    };
+
+    _this.writeBytes = function(b, off, len) {
+      off = off || 0;
+      len = len || b.length;
+      for (var i = 0; i < len; i += 1) {
+        _this.writeByte(b[i + off]);
+      }
+    };
+
+    _this.writeString = function(s) {
+      for (var i = 0; i < s.length; i += 1) {
+        _this.writeByte(s.charCodeAt(i) );
+      }
+    };
+
+    _this.toByteArray = function() {
+      return _bytes;
+    };
+
+    _this.toString = function() {
+      var s = '';
+      s += '[';
+      for (var i = 0; i < _bytes.length; i += 1) {
+        if (i > 0) {
+          s += ',';
+        }
+        s += _bytes[i];
+      }
+      s += ']';
+      return s;
+    };
+
+    return _this;
+  };
+
+  //---------------------------------------------------------------------
+  // base64EncodeOutputStream
+  //---------------------------------------------------------------------
+
+  var base64EncodeOutputStream = function() {
+
+    var _buffer = 0;
+    var _buflen = 0;
+    var _length = 0;
+    var _base64 = '';
+
+    var _this = {};
+
+    var writeEncoded = function(b) {
+      _base64 += String.fromCharCode(encode(b & 0x3f) );
+    };
+
+    var encode = function(n) {
+      if (n < 0) {
+        // error.
+      } else if (n < 26) {
+        return 0x41 + n;
+      } else if (n < 52) {
+        return 0x61 + (n - 26);
+      } else if (n < 62) {
+        return 0x30 + (n - 52);
+      } else if (n == 62) {
+        return 0x2b;
+      } else if (n == 63) {
+        return 0x2f;
+      }
+      throw 'n:' + n;
+    };
+
+    _this.writeByte = function(n) {
+
+      _buffer = (_buffer << 8) | (n & 0xff);
+      _buflen += 8;
+      _length += 1;
+
+      while (_buflen >= 6) {
+        writeEncoded(_buffer >>> (_buflen - 6) );
+        _buflen -= 6;
+      }
+    };
+
+    _this.flush = function() {
+
+      if (_buflen > 0) {
+        writeEncoded(_buffer << (6 - _buflen) );
+        _buffer = 0;
+        _buflen = 0;
+      }
+
+      if (_length % 3 != 0) {
+        // padding
+        var padlen = 3 - _length % 3;
+        for (var i = 0; i < padlen; i += 1) {
+          _base64 += '=';
+        }
+      }
+    };
+
+    _this.toString = function() {
+      return _base64;
+    };
+
+    return _this;
+  };
+
+  //---------------------------------------------------------------------
+  // base64DecodeInputStream
+  //---------------------------------------------------------------------
+
+  var base64DecodeInputStream = function(str) {
+
+    var _str = str;
+    var _pos = 0;
+    var _buffer = 0;
+    var _buflen = 0;
+
+    var _this = {};
+
+    _this.read = function() {
+
+      while (_buflen < 8) {
+
+        if (_pos >= _str.length) {
+          if (_buflen == 0) {
+            return -1;
+          }
+          throw 'unexpected end of file./' + _buflen;
+        }
+
+        var c = _str.charAt(_pos);
+        _pos += 1;
+
+        if (c == '=') {
+          _buflen = 0;
+          return -1;
+        } else if (c.match(/^\s$/) ) {
+          // ignore if whitespace.
+          continue;
+        }
+
+        _buffer = (_buffer << 6) | decode(c.charCodeAt(0) );
+        _buflen += 6;
+      }
+
+      var n = (_buffer >>> (_buflen - 8) ) & 0xff;
+      _buflen -= 8;
+      return n;
+    };
+
+    var decode = function(c) {
+      if (0x41 <= c && c <= 0x5a) {
+        return c - 0x41;
+      } else if (0x61 <= c && c <= 0x7a) {
+        return c - 0x61 + 26;
+      } else if (0x30 <= c && c <= 0x39) {
+        return c - 0x30 + 52;
+      } else if (c == 0x2b) {
+        return 62;
+      } else if (c == 0x2f) {
+        return 63;
+      } else {
+        throw 'c:' + c;
+      }
+    };
+
+    return _this;
+  };
+
+  //---------------------------------------------------------------------
+  // gifImage (B/W)
+  //---------------------------------------------------------------------
+
+  var gifImage = function(width, height) {
+
+    var _width = width;
+    var _height = height;
+    var _data = new Array(width * height);
+
+    var _this = {};
+
+    _this.setPixel = function(x, y, pixel) {
+      _data[y * _width + x] = pixel;
+    };
+
+    _this.write = function(out) {
+
+      //---------------------------------
+      // GIF Signature
+
+      out.writeString('GIF87a');
+
+      //---------------------------------
+      // Screen Descriptor
+
+      out.writeShort(_width);
+      out.writeShort(_height);
+
+      out.writeByte(0x80); // 2bit
+      out.writeByte(0);
+      out.writeByte(0);
+
+      //---------------------------------
+      // Global Color Map
+
+      // black
+      out.writeByte(0x00);
+      out.writeByte(0x00);
+      out.writeByte(0x00);
+
+      // white
+      out.writeByte(0xff);
+      out.writeByte(0xff);
+      out.writeByte(0xff);
+
+      //---------------------------------
+      // Image Descriptor
+
+      out.writeString(',');
+      out.writeShort(0);
+      out.writeShort(0);
+      out.writeShort(_width);
+      out.writeShort(_height);
+      out.writeByte(0);
+
+      //---------------------------------
+      // Local Color Map
+
+      //---------------------------------
+      // Raster Data
+
+      var lzwMinCodeSize = 2;
+      var raster = getLZWRaster(lzwMinCodeSize);
+
+      out.writeByte(lzwMinCodeSize);
+
+      var offset = 0;
+
+      while (raster.length - offset > 255) {
+        out.writeByte(255);
+        out.writeBytes(raster, offset, 255);
+        offset += 255;
+      }
+
+      out.writeByte(raster.length - offset);
+      out.writeBytes(raster, offset, raster.length - offset);
+      out.writeByte(0x00);
+
+      //---------------------------------
+      // GIF Terminator
+      out.writeString(';');
+    };
+
+    var bitOutputStream = function(out) {
+
+      var _out = out;
+      var _bitLength = 0;
+      var _bitBuffer = 0;
+
+      var _this = {};
+
+      _this.write = function(data, length) {
+
+        if ( (data >>> length) != 0) {
+          throw 'length over';
+        }
+
+        while (_bitLength + length >= 8) {
+          _out.writeByte(0xff & ( (data << _bitLength) | _bitBuffer) );
+          length -= (8 - _bitLength);
+          data >>>= (8 - _bitLength);
+          _bitBuffer = 0;
+          _bitLength = 0;
+        }
+
+        _bitBuffer = (data << _bitLength) | _bitBuffer;
+        _bitLength = _bitLength + length;
+      };
+
+      _this.flush = function() {
+        if (_bitLength > 0) {
+          _out.writeByte(_bitBuffer);
+        }
+      };
+
+      return _this;
+    };
+
+    var getLZWRaster = function(lzwMinCodeSize) {
+
+      var clearCode = 1 << lzwMinCodeSize;
+      var endCode = (1 << lzwMinCodeSize) + 1;
+      var bitLength = lzwMinCodeSize + 1;
+
+      // Setup LZWTable
+      var table = lzwTable();
+
+      for (var i = 0; i < clearCode; i += 1) {
+        table.add(String.fromCharCode(i) );
+      }
+      table.add(String.fromCharCode(clearCode) );
+      table.add(String.fromCharCode(endCode) );
+
+      var byteOut = byteArrayOutputStream();
+      var bitOut = bitOutputStream(byteOut);
+
+      // clear code
+      bitOut.write(clearCode, bitLength);
+
+      var dataIndex = 0;
+
+      var s = String.fromCharCode(_data[dataIndex]);
+      dataIndex += 1;
+
+      while (dataIndex < _data.length) {
+
+        var c = String.fromCharCode(_data[dataIndex]);
+        dataIndex += 1;
+
+        if (table.contains(s + c) ) {
+
+          s = s + c;
+
+        } else {
+
+          bitOut.write(table.indexOf(s), bitLength);
+
+          if (table.size() < 0xfff) {
+
+            if (table.size() == (1 << bitLength) ) {
+              bitLength += 1;
+            }
+
+            table.add(s + c);
+          }
+
+          s = c;
+        }
+      }
+
+      bitOut.write(table.indexOf(s), bitLength);
+
+      // end code
+      bitOut.write(endCode, bitLength);
+
+      bitOut.flush();
+
+      return byteOut.toByteArray();
+    };
+
+    var lzwTable = function() {
+
+      var _map = {};
+      var _size = 0;
+
+      var _this = {};
+
+      _this.add = function(key) {
+        if (_this.contains(key) ) {
+          throw 'dup key:' + key;
+        }
+        _map[key] = _size;
+        _size += 1;
+      };
+
+      _this.size = function() {
+        return _size;
+      };
+
+      _this.indexOf = function(key) {
+        return _map[key];
+      };
+
+      _this.contains = function(key) {
+        return typeof _map[key] != 'undefined';
+      };
+
+      return _this;
+    };
+
+    return _this;
+  };
+
+  var createDataURL = function(width, height, getPixel) {
+    var gif = gifImage(width, height);
+    for (var y = 0; y < height; y += 1) {
+      for (var x = 0; x < width; x += 1) {
+        gif.setPixel(x, y, getPixel(x, y) );
+      }
+    }
+
+    var b = byteArrayOutputStream();
+    gif.write(b);
+
+    var base64 = base64EncodeOutputStream();
+    var bytes = b.toByteArray();
+    for (var i = 0; i < bytes.length; i += 1) {
+      base64.writeByte(bytes[i]);
+    }
+    base64.flush();
+
+    return 'data:image/gif;base64,' + base64;
+  };
+
+  //---------------------------------------------------------------------
+  // returns qrcode function.
+
+  return qrcode;
+}();
+
+// multibyte support
+!function() {
+
+  qrcode.stringToBytesFuncs['UTF-8'] = function(s) {
+    // http://stackoverflow.com/questions/18729405/how-to-convert-utf8-string-to-byte-array
+    function toUTF8Array(str) {
+      var utf8 = [];
+      for (var i=0; i < str.length; i++) {
+        var charcode = str.charCodeAt(i);
+        if (charcode < 0x80) utf8.push(charcode);
+        else if (charcode < 0x800) {
+          utf8.push(0xc0 | (charcode >> 6),
+              0x80 | (charcode & 0x3f));
+        }
+        else if (charcode < 0xd800 || charcode >= 0xe000) {
+          utf8.push(0xe0 | (charcode >> 12),
+              0x80 | ((charcode>>6) & 0x3f),
+              0x80 | (charcode & 0x3f));
+        }
+        // surrogate pair
+        else {
+          i++;
+          // UTF-16 encodes 0x10000-0x10FFFF by
+          // subtracting 0x10000 and splitting the
+          // 20 bits of 0x0-0xFFFFF into two halves
+          charcode = 0x10000 + (((charcode & 0x3ff)<<10)
+            | (str.charCodeAt(i) & 0x3ff));
+          utf8.push(0xf0 | (charcode >>18),
+              0x80 | ((charcode>>12) & 0x3f),
+              0x80 | ((charcode>>6) & 0x3f),
+              0x80 | (charcode & 0x3f));
+        }
+      }
+      return utf8;
+    }
+    return toUTF8Array(s);
+  };
+
+}();
+
+(function (factory) {
+  if (typeof define === 'function' && define.amd) {
+      define([], factory);
+  } else if (typeof exports === 'object') {
+      module.exports = factory();
+  }
+}(function () {
+    return qrcode;
+}));
+
+function stagePersonaV53(cards){
+  const style=cards.find(card=>card.dimension==='风格体系'),method=cards.find(card=>card.dimension==='导演手法');
+  const text=[method?.name,style?.name,...(style?.tags||[])].join(' ');
+  const types=[
+    [/回环|重复|荒诞|循环/,'回环钉子户','都说该谢幕了，我还想把开场再演一遍。'],
+    [/书信|文献|纪实|档案|法庭/,'证据收藏家','情绪可以上头，关键那张纸不能丢。'],
+    [/声音|声场|广播|音乐|合唱|歌剧/,'声场掌舵人','人还没出场，气氛已经替我开口。'],
+    [/形体|身体|默剧|哑剧|舞蹈|面具/,'身体翻译官','有些话说不出口，就让一个动作替我说。'],
+    [/写意|象征|留白|极简|空台/,'留白造梦师','台上只放一把椅子，剩下的世界请你想象。'],
+    [/梦|超现实|魔幻|表现主义|投影|影像/,'梦境放映员','现实装不下的心事，我换个舞台放映。'],
+    [/间离|史诗|政治|论坛|压迫|介入/,'当场提问者','大家都在等结局，我先问一句：凭什么？'],
+    [/古典|程式|三一律|仪式|能乐|歌舞伎/,'秩序拆装工','规矩我都记得，也知道哪一处值得松动。'],
+    [/即兴|互动|参与|街头|环境|沉浸/,'现场接招王','计划可以改，递过来的戏我先接住。'],
+    [/叙事|讲述|说书|独白|旁白|独角/,'灯下说书人','先别急着散场，我还有一句想告诉你。'],
+    [/现实|自然|生活|市民|心理|斯坦尼/,'人间观察员','别人看大场面，我在看谁悄悄挪了椅子。'],
+    [/.*/,'认真入戏派','哪怕只有一小束光，也要把这一场演认真。'],
+  ];
+  const index=types.findIndex(([pattern])=>pattern.test(text)),[,name,line]=types[index];
+  return {name,line,number:String(index+1).padStart(2,'0'),basis:`${style?.name||'独角演法'} × ${method?.name||'舞台行动'}`};
+}
+
+function stagePersonaMarkupV53(cards){
+  const persona=stagePersonaV53(cards);
+  return `<div class="stage-persona-v53"><p><span>本场戏格 ${K(persona.number)}</span><strong>${K(persona.name)}</strong></p><blockquote>“${K(persona.line)}”</blockquote><small>${K(persona.basis)} · 卡组趣味解读</small></div>`;
+}
+
+function shareUrlV53(cards){
+  const ordered=['剧目','风格体系','导演手法','主演','配角','环境'].map(dimension=>cards.find(card=>card.dimension===dimension)).filter(Boolean);
+  return `https://canoeliu917.github.io/DiaGacha/?v=53#m=${w(ordered)}`;
+}
+
+function shareTextV53(cards){
+  const result=Xt(cards),count=cards.length===6?'六':'五';
+  const persona=stagePersonaV53(cards);
+  return `今晚的戏格：${persona.name}。\n“${persona.line}”\n我这台戏，${result.score} 分 · ${result.scoring.grade}。\n《${dramaticTitleV40(cards)}》\n${shortScene(cards)}\n${count}张卡，开出你的意外好戏。`;
+}
+
+function socialPosterV53(cards){
+  const result=Xt(cards),context=talkCardsV39(cards),count=cards.length===6?'六':'五';
+  const title=dramaticTitleV40(cards).replace(`${context.place.name}｜`,'');
+  const story=shortScene(cards).replace(/^故事联想：/,'').replace(/^取意于《[^》]*》[，。](?:在[^。]*虚构一次相遇。)?/,'').replace(/此为借《[^》]*》展开的虚构故事。$/,'');
+  const cast=['剧目','主演','导演手法','配角','风格体系','环境'].map(dimension=>cards.find(card=>card.dimension===dimension)).filter(Boolean);
+  const qr=qrcode(0,'M');
+  qr.addData(shareUrlV53(cards));
+  qr.make();
+  return `<section class="social-poster-v53" aria-label="本局朋友圈节目单">
+    <header class="social-header-v53"><span class="social-brand-v53">DiaGacha<span>· 咫牌</span></span><span class="social-edition-v53">我的节目单</span></header>
+    <p class="social-tagline-v53">${count}张卡，开出你的意外好戏。</p>
+    ${stagePersonaMarkupV53(cards)}
+    <div class="social-hero-v53">
+      <h1 class="social-title-v53">${K(title)}</h1>
+      <div class="social-rating-v53" aria-label="这台 ${K(result.score)} 分，${K(result.scoring.grade)}"><span>这台</span><div><b class="social-score-v53">${K(result.score)}</b><small>/ 100</small></div><strong>${K(result.scoring.grade)}</strong></div>
+    </div>
+    <p class="social-setting-v53">取意《${K(context.play.name.replace(/^《|》$/g,''))}》<span>·</span>${K(context.place.name)}</p>
+    <div class="social-cast-v53${cards.length===5?' social-five-v53':''}">${cast.map(card=>`<article class="social-card-v53 rarity-${K(card.rarity)}" data-card-id="${K(card.id)}"><div class="social-slot-v53"><span>${K(copyDimension(card.dimension))}</span>${starPips(card.rarity)}</div><div class="social-art-v53">${Ct(card)}</div><p class="social-card-name-v53">${K(card.name)}</p></article>`).join('')}</div>
+    <div class="social-story-v53"><span class="social-story-label-v53">这一场 · 虚构故事</span><p>${K(story)}</p></div>
+    <footer class="social-footer-v53"><div class="social-invite-v53"><p>你的下一台，<br>会是什么好戏？</p><span>长按识别二维码 · 看这台，也开一台</span><small>500 张常驻卡 · 戏剧混搭抽卡</small>${cards.length===5?'<small>旧五卡节目单</small>':''}</div><div class="social-qr-v53">${qr.createSvgTag({cellSize:2,margin:8,scalable:true})}</div></footer>
+  </section>`;
+}
+
+// SHARE_V53_END
+// RELIABILITY_V53_START
+const sessionKeyV53='diamasha.session.v53';
+let sessionV53=readSessionV53(),sessionWrittenV53='',storageFailedV53=false;
+let sheetReturnFocusV53=null,sheetInnerFocusV53=null,reliabilityInstalledV53=false;
+
+function cardsFromIdsV53(ids){
+  if(!Array.isArray(ids)||ids.length>6||new Set(ids).size!==ids.length)return null;
+  const cards=ids.map(id=>e.find(card=>card.id===id));
+  return cards.every(Boolean)?cards:null;
+}
+function savedRehearsalV53(value,cards){
+  const original=cardsFromIdsV53(value?.originalIds);
+  if(!original||!re(e,value.originalIds))return null;
+  const change=value.change;
+  if(change&&(!original.some(card=>card.id===change.fromId&&card.dimension===change.dimension)||!cards.some(card=>card.id===change.toId&&card.dimension===change.dimension)))return null;
+  return {originalIds:original.map(card=>card.id),change:change?{fromId:change.fromId,toId:change.toId,dimension:change.dimension}:null,...(value.locked?{locked:true}:{})};
+}
+function reconcileRehearsalV53(cards=Y.drawn,rehearsal=Y.rehearsal,records=sessionV53.recent){
+  const ordered=(cards||[]).slice().sort((a,b)=>x.findIndex(dim=>dim.key===a.dimension)-x.findIndex(dim=>dim.key===b.dimension));
+  if(!re(e,ordered.map(card=>card.id)))return null;
+  const state=savedRehearsalV53(rehearsal,cards)||{originalIds:cards.map(card=>card.id),change:null};
+  const originalKey=state.originalIds.slice().sort().join('.');
+  if(!state.change&&records.some(row=>(row.rehearsal?.change||row.rehearsal?.locked)&&row.rehearsal.originalIds.slice().sort().join('.')===originalKey))state.locked=true;
+  return state;
+}
+function readSessionV53(){
+  const empty={draft:null,recent:[]};
+  try{
+    const saved=JSON.parse(localStorage.getItem(sessionKeyV53)||'null');
+    if(!saved||typeof saved!=='object')return empty;
+    const recent=(Array.isArray(saved.recent)?saved.recent:[]).filter(row=>row&&Array.isArray(row.ids)&&re(e,row.ids)).slice(0,5).map(row=>{
+      const cards=re(e,row.ids);
+      return {ids:cards.map(card=>card.id),rehearsal:savedRehearsalV53(row.rehearsal,cards),fromShare:!!row.fromShare};
+    });
+    for(const row of recent)row.rehearsal=reconcileRehearsalV53(re(e,row.ids),row.rehearsal,recent);
+    const draft=saved.draft,cards=cardsFromIdsV53(draft?.ids);
+    const valid=draft&&oe.some(pack=>pack.id===draft.pack)&&['sealed','card','spread'].includes(draft.phase)&&cards&&
+      (draft.phase==='sealed'?cards.length===0:cards.length===6&&(draft.pack==='mix'?!!re(e,draft.ids):cards.every(card=>card.dimension===draft.pack)));
+    return {draft:valid?{pack:draft.pack,phase:draft.phase,ids:cards.map(card=>card.id),index:Math.max(0,Math.min(cards.length-1,Number.isInteger(draft.index)?draft.index:0)),tutorial:!!draft.tutorial,tutorialNo:Number(draft.tutorialNo)||0,rehearsal:savedRehearsalV53(draft.rehearsal,cards)}:null,recent};
+  }catch{return empty;}
+}
+function storageFailureV53(){
+  if(storageFailedV53)return;
+  storageFailedV53=true;
+  Q('浏览器暂时无法保存，当前收藏仍在；刷新前请先保留分享图或链接。');
+}
+function saveSessionV53(){
+  const booster=Y.booster;
+  if(Y.view==='pack'&&booster&&['sealed','card','spread'].includes(booster.phase)){
+    sessionV53.draft={pack:Y.pack||'mix',phase:booster.phase,ids:(booster.cards||[]).map(card=>card.id),index:booster.index||0,tutorial:!!booster.tutorial,tutorialNo:booster.tutorialNo||0,rehearsal:savedRehearsalV53(Y.rehearsal,booster.cards||[])};
+  }
+  const completed=Y.view==='result'?Y.drawn:Y.view==='bundle'?Y.bundle:null;
+  if(completed?.length&&sessionV53.draft&&completed.map(card=>card.id).sort().join('.')===sessionV53.draft.ids.slice().sort().join('.'))sessionV53.draft=null;
+  if(Y.view==='result'&&re(e,(Y.drawn||[]).map(card=>card.id))){
+    Y.rehearsal=reconcileRehearsalV53();
+    const ids=Y.drawn.map(card=>card.id),key=ids.join('.');
+    sessionV53.recent=[{ids,rehearsal:savedRehearsalV53(Y.rehearsal,Y.drawn),fromShare:!!Y.fromShare},...sessionV53.recent.filter(row=>row.ids.join('.')!==key)].slice(0,5);
+    for(const row of sessionV53.recent)row.rehearsal=reconcileRehearsalV53(re(e,row.ids),row.rehearsal);
+  }
+  const serialized=JSON.stringify(sessionV53);
+  if(serialized===sessionWrittenV53)return;
+  try{localStorage.setItem(sessionKeyV53,serialized);sessionWrittenV53=serialized;}
+  catch{storageFailureV53();}
+}
+function resumePackV53(){
+  const saved=sessionV53.draft;
+  if(!saved)return;
+  const cards=cardsFromIdsV53(saved.ids);
+  if(!cards)return;
+  Object.assign(Y,{view:'pack',pack:saved.pack,packCard:null,sheet:null,index:0,fromPack:false,fromShare:false,keptShare:null,talkOpen:false,bundle:[],drawn:saved.phase==='spread'&&saved.pack==='mix'?cards:[],rehearsal:reconcileRehearsalV53(cards,saved.rehearsal),rehearsalPreview:null,
+    booster:{phase:saved.phase,cards,index:saved.index,tutorial:saved.tutorial,tutorialNo:saved.tutorialNo,revealDone:saved.phase!=='sealed',askSkip:false,skipPreamble:false,showShare:false}});
+  lastSharePoster=null;
+  or();Z();
+}
+function restoreProgramV53(index){
+  const saved=sessionV53.recent[index],cards=saved&&re(e,saved.ids);
+  if(!cards)return;
+  Object.assign(Y,{view:'result',drawn:cards,index:cards.length-1,sheet:null,booster:null,fromPack:false,fromShare:saved.fromShare,keptShare:null,talkOpen:false,rehearsal:reconcileRehearsalV53(cards,saved.rehearsal),rehearsalPreview:null});
+  lastSharePoster=null;
+  history.pushState({lineup:w(cards)},'','#m='+w(cards));Z();
+}
+function savedRehearsalForCardsV53(cards){
+  const key=cards.map(card=>card.id).sort().join('.');
+  const saved=[...sessionV53.recent,sessionV53.draft].find(row=>row&&row.ids.slice().sort().join('.')===key);
+  const state=reconcileRehearsalV53(cards,saved?.rehearsal);
+  return saved||state?.locked?state:null;
+}
+function renderResumeV53(){
+  if(!sessionV53.draft&&!sessionV53.recent.length)return '';
+  const draft=sessionV53.draft;
+  const progress=draft?(draft.phase==='sealed'?'还没拆封':draft.phase==='spread'?'卡牌已齐，看看这台戏':`翻到第 ${draft.index+1} / ${draft.ids.length} 张`):'';
+  return `<section class="resume-v53" aria-label="继续游戏">${draft?`<button class="btn resume-pack-v53" data-action="resume-pack">继续上次开包 <span>${progress}</span></button>`:''}${sessionV53.recent.length?`<details class="recent-programs-v53"><summary>最近的节目单 · ${sessionV53.recent.length}</summary><div>${sessionV53.recent.map((row,index)=>{const cards=re(e,row.ids);return `<button class="recent-program-v53" data-action="recent-show" data-index="${index}"><span>${K(dramaticTitleV40(cards))}</span><b>${Xt(cards).score} 分</b></button>`;}).join('')}</div></details>`:''}${storageFailedV53?'<p class="storage-note-v53">本次内容暂存在当前页面，浏览器尚未保存。</p>':''}</section>`;
+}
+
+function focusMarkV53(node){
+  return node?{node,data:{...node.dataset},tag:node.tagName}:null;
+}
+function findFocusV53(mark,scope=document){
+  if(!mark)return null;
+  if(mark.node.isConnected&&scope.contains?.(mark.node))return mark.node;
+  if(!mark.data.action)return null;
+  return [...scope.querySelectorAll('[data-action]')].find(node=>node.tagName===mark.tag&&Object.entries(mark.data).every(([key,value])=>node.dataset[key]===value));
+}
+function sheetFocusableV53(sheet){
+  return [...sheet.querySelectorAll('button:not([disabled]),summary,a[href],input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"])')].filter(node=>!node.hidden&&node.getClientRects().length);
+}
+function captureSheetFocusV53(){
+  const sheet=document.querySelector('.sheet');
+  if(!sheet&&Y.sheet){sheetReturnFocusV53=focusMarkV53(document.activeElement);sheetInnerFocusV53=null;}
+  else if(sheet&&Y.sheet)sheetInnerFocusV53=sheet.contains(document.activeElement)?focusMarkV53(document.activeElement):null;
+}
+function restoreSheetFocusV53(){
+  const sheet=document.querySelector('.sheet');
+  if(sheet&&Y.sheet){
+    sheet.setAttribute('tabindex','-1');
+    (findFocusV53(sheetInnerFocusV53,sheet)||sheetFocusableV53(sheet)[0]||sheet).focus({preventScroll:true});
+  }else if(sheetReturnFocusV53){
+    const target=findFocusV53(sheetReturnFocusV53)||document.querySelector('#app button');
+    sheetReturnFocusV53=null;sheetInnerFocusV53=null;
+    target?.focus({preventScroll:true});
+  }
+}
+function sheetKeydownV53(event){
+  const sheet=document.querySelector('.sheet');
+  if(!sheet||!Y.sheet)return;
+  if(event.key==='Escape'){
+    event.preventDefault();event.stopImmediatePropagation();
+    Y.sheet=null;Z({preserveScroll:true});
+  }else if(event.key==='Tab'){
+    const items=sheetFocusableV53(sheet),first=items[0]||sheet,last=items.at(-1)||sheet;
+    if(!sheet.contains(document.activeElement)||(event.shiftKey?document.activeElement===first:document.activeElement===last)||!items.length){
+      event.preventDefault();(event.shiftKey?last:first).focus({preventScroll:true});
+    }
+  }
+}
+function installReliabilityV53(){
+  if(reliabilityInstalledV53)return;
+  reliabilityInstalledV53=true;
+  document.addEventListener('keydown',sheetKeydownV53,true);
+  window.addEventListener('pagehide',saveSessionV53);
+}
+// RELIABILITY_V53_END
+// GAMEPLAY_V53_START
+// Keep five-, six- and seven-star rates; spread crowded lower tiers across more cards.
+const LOW_CARD_CAP_V53=.08;
+function balancedWeightsV53(pool,dimension,table,resolveTier=ee){
+  const cards=pool.filter(card=>card.dimension===dimension);
+  const rows=cards.map(card=>({card,chance:0}));
+  const byId=new Map(rows.map(row=>[row.card.id,row]));
+  for(const [rarity,percent] of Object.entries(table)){
+    const tier=resolveTier(cards,rarity);
+    for(const card of tier)byId.get(card.id).chance+=percent/100/tier.length;
+  }
+  let remaining=rows.filter(row=>['C','UC','R','SR'].includes(row.card.rarity));
+  let budget=remaining.reduce((sum,row)=>sum+row.chance,0);
+  while(remaining.length){
+    const weight=remaining.reduce((sum,row)=>sum+row.chance,0);
+    const scale=budget/weight;
+    const crowded=remaining.filter(row=>row.chance*scale>LOW_CARD_CAP_V53+1e-12);
+    if(!crowded.length){for(const row of remaining)row.chance*=scale;break;}
+    const fixed=new Set(crowded);
+    for(const row of crowded)row.chance=LOW_CARD_CAP_V53;
+    budget-=crowded.length*LOW_CARD_CAP_V53;
+    remaining=remaining.filter(row=>!fixed.has(row));
+  }
+  return Object.keys(table).flatMap(rarity=>rows.filter(row=>row.card.rarity===rarity));
+}
+function drawBalancedV53(pool,dimension,table,rng=Math.random){
+  const rows=balancedWeightsV53(pool,dimension,table);
+  let roll=rng();
+  for(const row of rows)if((roll-=row.chance)<0)return row.card;
+  return rows[rows.length-1].card;
+}
+function actualRatesV53(pool,dimension,table){
+  const rates=Object.fromEntries(Object.keys(table).map(rarity=>[rarity,0]));
+  for(const row of balancedWeightsV53(pool,dimension,table))rates[row.card.rarity]+=row.chance*100;
+  return rates;
+}
+function ratesHelpV53(pool){
+  const ranks=Object.keys(DiaRatesV40.standard);
+  const percent=value=>Number(value.toFixed(2))+'%';
+  return `<p>综合包每维一张。普通包的 5／6／7 星单席概率为 10%／5%／1%；今日赠礼的下一综合包为 18%／9%／4%。</p>
+    <p>为让更多卡有机会出现，1–4 星单张卡在同一维度的基础概率最多 8%。先按原星级权重与缺档回退分配，再把超出的概率按权重分给该维其余未到上限的 1–4 星卡。高星概率保持不变；保底与指定维度奖励仍可替换当包卡片。</p>
+    <details><summary>查看各维实际出率</summary>${Object.entries(DiaRatesV40).map(([kind,table])=>`<div class="rates-table-scroll"><table><caption>${kind==='standard'?'普通综合包':'今日赠礼综合包'} · 保底替换前，百分比保留两位小数</caption><thead><tr><th scope="col">维度</th>${ranks.map((_,i)=>`<th scope="col">${i+1} 星</th>`).join('')}</tr></thead><tbody>${x.map(dim=>{
+      const rates=actualRatesV53(pool,dim.key,table);
+      return `<tr><th scope="row">${K(copyDimension(dim.key))}</th>${ranks.map(rank=>`<td>${percent(rates[rank])}</td>`).join('')}</tr>`;
+    }).join('')}</tbody></table></div>`).join('')}</details><p>单维包每包六张、同包不重复；仍按原档位权重抽取，实际频率会受去重影响，不计入综合包保底。</p>`;
+}
+
+function createRehearsalV53(cards){return {originalIds:cards.map(card=>card.id),change:null};}
+function rewriteOptionsV53(cards,pool,ownedIds){
+  const owned=new Set(ownedIds),dimensions=new Set(cards.map(card=>card.dimension));
+  const current=new Set(cards.map(card=>card.id));
+  return pool.filter(card=>owned.has(card.id)&&dimensions.has(card.dimension)&&!current.has(card.id));
+}
+function previewRewriteV53(cards,pool,ownedIds,rehearsal,replacementId,score=productionScore){
+  if(rehearsal?.change||rehearsal?.locked)return null;
+  const candidate=rewriteOptionsV53(cards,pool,ownedIds).find(card=>card.id===replacementId);
+  if(!candidate)return null;
+  const original=cards.find(card=>card.dimension===candidate.dimension);
+  const drawn=cards.map(card=>card.dimension===candidate.dimension?candidate:card);
+  const before=score(cards),after=score(drawn);
+  return {drawn,before,after,delta:after.score-before.score,change:{fromId:original.id,toId:candidate.id,dimension:candidate.dimension}};
+}
+function applyRewriteV53(cards,pool,ownedIds,rehearsal,replacementId,score=productionScore){
+  const preview=previewRewriteV53(cards,pool,ownedIds,rehearsal,replacementId,score);
+  if(!preview)return null;
+  return {...preview,rehearsal:{originalIds:(rehearsal?.originalIds||cards.map(card=>card.id)).slice(),change:preview.change}};
+}
+function renderRehearsalV53(state,pool=e,score=productionScore){
+  const cards=state.drawn;
+  if(![5,6].includes(cards?.length))return '';
+  const rehearsal=state.rehearsal||createRehearsalV53(cards);
+  const originals=rehearsal.originalIds.map(id=>pool.find(card=>card.id===id));
+  const originalScore=score(originals).score;
+  const record=`<details><summary>查看初始卡组 · ${originalScore} 分</summary><ul>${originals.map(card=>`<li>${K(copyDimension(card.dimension))}：${K(card.name)}</li>`).join('')}</ul></details>`;
+  if(rehearsal.change){
+    const from=pool.find(card=>card.id===rehearsal.change.fromId),to=pool.find(card=>card.id===rehearsal.change.toId);
+    return `<section class="rewrite-panel" tabindex="-1"><h2>这一幕，经过你的选择</h2><p>${K(copyDimension(to.dimension))}：${K(from.name)} → ${K(to.name)}</p><p>初始卡组 ${originalScore} 分 → 改写后 ${score(cards).score} 分。本场换卡已用，故事与分享内容均采用当前卡组。</p>${record}</section>`;
+  }
+  if(rehearsal.locked)return `<section class="rewrite-panel" tabindex="-1"><h2>改写这一幕</h2><p>这台戏已经改写过一次，当前查看初始卡组。本场换卡已用，可以在最近节目单中继续查看改写后的版本。</p>${record}</section>`;
+  const options=rewriteOptionsV53(cards,pool,state.owned||[]);
+  if(!options.length)return `<section class="rewrite-panel"><h2>改写这一幕</h2><p>本场可以用已收藏的同维卡换一张。现在还没有可替换的收藏，继续收集后，就能试试不同人物或情境。</p>${record}</section>`;
+  const selected=state.rehearsalPreview||'';
+  const preview=previewRewriteV53(cards,pool,state.owned||[],rehearsal,selected,score);
+  const signed=value=>value>0?'+'+value:String(value);
+  const selector=cards.map(current=>{
+    const choices=options.filter(card=>card.dimension===current.dimension);
+    return choices.length?`<optgroup label="${K(copyDimension(current.dimension))} · 当前 ${K(current.name)}">${choices.map(card=>`<option value="${K(card.id)}"${card.id===selected?' selected':''}>${K(card.name)}</option>`).join('')}</optgroup>`:'';
+  }).join('');
+  const comparison=preview?`<div class="rewrite-preview" aria-live="polite"><p>${K(pool.find(card=>card.id===preview.change.fromId).name)} → ${K(pool.find(card=>card.id===preview.change.toId).name)}</p><h3>${K(dramaticTitleV40(preview.drawn))}</h3><p>${K(shortScene(preview.drawn))}</p><p>整台 ${preview.before.score} → ${preview.after.score} 分（${signed(preview.delta)}）；同星奖励 ${preview.before.resonance} → ${preview.after.resonance}，羁绊奖励 ${preview.before.bonds} → ${preview.after.bonds}。</p><p>分数升降都可以选择；确认后，这一幕会采用上面的故事。</p><button type="button" class="btn primary" data-action="rewrite-confirm">就用这张，改写这一幕</button></div>`:'';
+  return `<section class="rewrite-panel"><h2>改写这一幕</h2><p>换一张，故事会怎么变？从已收藏的同维卡中选一张，先看分数变化，再决定。本场只可确认一次。</p><label for="rewrite-choice-v53">选择已收藏的卡</label><select id="rewrite-choice-v53" data-rewrite-choice><option value="">先选一张看看</option>${selector}</select>${comparison}${record}</section>`;
+}
+function handleRehearsalV53(action,target){
+  if(!['rewrite-preview','rewrite-confirm'].includes(action))return false;
+  if(Y.view!=='result')return true;
+  Y.rehearsal ||= createRehearsalV53(Y.drawn);
+  if(action==='rewrite-preview'){
+    Y.rehearsalPreview=target.value;
+    Z({preserveScroll:true});
+    document.getElementById('rewrite-choice-v53')?.focus({preventScroll:true});
+    return true;
+  }
+  const result=applyRewriteV53(Y.drawn,e,Y.owned,Y.rehearsal,Y.rehearsalPreview);
+  if(!result){Q('请先选择一张已收藏的同维卡；本场只能确认一次。');return true;}
+  finishProductionV40();
+  Y.drawn=result.drawn;Y.rehearsal=result.rehearsal;Y.rehearsalPreview='';Y.fromShare=false;
+  lastSharePoster=null;
+  const lineup=w(Y.drawn);
+  try{sessionStorage.setItem('diamasha.owner',lineup);}catch{}
+  history.replaceState({...history.state,lineup},'',`#m=${lineup}`);
+  Z({preserveScroll:true});
+  document.querySelector('.rewrite-panel')?.focus({preventScroll:true});
+  Q('已改写这一幕，分享与长图也会使用这组卡。');
+  return true;
+}
+
+if(typeof module!=='undefined'&&module.exports)module.exports={balancedWeightsV53,drawBalancedV53,actualRatesV53,createRehearsalV53,rewriteOptionsV53,previewRewriteV53,applyRewriteV53,renderRehearsalV53,handleRehearsalV53};
+// GAMEPLAY_V53_END
+// UI_V53_START
+function albumPageV53(cards,page){
+  const pages=Math.max(1,Math.ceil(cards.length/48));
+  const current=Math.min(pages-1,Math.max(0,Math.floor(Number(page)||0)));
+  return {cards:cards.slice(current*48,(current+1)*48),current,pages,total:cards.length};
+}
+function albumPagerV53(page){
+  if(page.pages===1)return '';
+  return `<nav class="album-pager-v53" aria-label="图鉴分页"><button type="button" class="btn ghost" data-action="album-page" data-page="${page.current-1}"${page.current===0?' disabled':''}>上一页</button><span aria-live="polite">${page.current+1} / ${page.pages} 页 · ${page.total} 张</span><button type="button" class="btn ghost" data-action="album-page" data-page="${page.current+1}"${page.current+1===page.pages?' disabled':''}>下一页</button></nav>`;
+}
+// UI_V53_END
 function roundedPolyPath(pts,corner){
   if(!pts||pts.length<3)return ``;
   const c=corner==null?16:corner,parts=[];
@@ -3571,12 +6305,14 @@ function Nn(e){let rows=e.sheet.rows||[],rowHtml=e=>{let t=`<span class="task-wa
           <span class="name-zh">咫牌</span>
         </h1>
         <div class="parade" aria-label="十位戏剧人物，点按打招呼">${St()}</div>
-        <p class="home-intro">戏剧抽卡游戏</p>
-        <button type="button" class="btn gacha" data-action="gacha">开抽！！</button>
+        <p class="home-intro">六张卡，开出你的意外好戏。</p>
+        <p class="home-hook-v53">抽一台戏，认领今晚的戏格。<br>从收藏里换一张，看看故事怎么变。</p>
+        <button type="button" class="btn gacha" data-action="gacha">开一台好戏</button>
+        ${renderResumeV53()}
         <p class="dia-set">diagram · dialogue · diagonal · diary</p>
       </div>
     </section>`}function Vn(e){let t=e.booster||{phase:`sealed`,cards:[],index:0,tutorial:!0,revealDone:!1,askSkip:!1},isDim=e.pack&&e.pack!==`mix`,n=!!t.tutorial,r=t.tutorialNo||(e.mixCount||0)+ +(t.phase===`sealed`),a={key:isDim?e.packName||`单维包`:`综合卡池`,seal:``,lead:isDim?``:n?`六维成台`:`六张随机`,atk:``,def:``},dimShort=(x.find(d=>d.key===e.pack)||{}).short||``,pitySSR=Math.max(1,30-(e.loop?.pitySSR||0)),pityUR=Math.max(1,60-(e.loop?.pityUR||0)),line=isDim?`一次开六张${K(dimShort)}卡。`:n?`新手第${K(r)}台，一次开六张成一台。再开 ${K(pitySSR)} 包必出压轴以上，再开 ${K(pityUR)} 包必出独步或绝唱。`:`一次开六张。再开 ${K(pitySSR)} 包必出压轴以上，再开 ${K(pityUR)} 包必出独步或绝唱。`,o=t.phase===`card`?t.cards[t.index]:null,s=o&&ue(o.rarity)&&!t.revealDone,c=o?t.cards.slice(0,t.index+1).map((e,ci)=>`<li><button type="button" class="dealt-chip rarity-${K(e.rarity)}${ci===t.index?` is-now`:``}" data-action="detail" data-id="${K(e.id)}"><b>${K(e.name)}</b><small>${K(b[e.rarity])}</small>${starPips(e.rarity)}</button></li>`).join(``):``,l=t.askSkip?`<div class="skip-ask">
-        <p>前三稀有还会单独亮一下。连压轴、独步、绝唱也跳过？</p>
+        <p>高星卡还会单独亮相。要连同压轴、独步、绝唱一起跳过吗？</p>
         <div class="reveal-actions">
           <button type="button" class="btn primary" data-action="skip-all">全部跳过</button>
           <button type="button" class="btn ghost" data-action="skip-cancel">先看这张</button>
@@ -3590,13 +6326,13 @@ function Nn(e){let rows=e.sheet.rows||[],rowHtml=e=>{let t=`<span class="task-wa
         <div class="pack-spread">${(isDim||(t.cards||[]).length!==6?(t.cards||[]).map(card=>({card,weightLabel:copyDimension(card.dimension)})):displayCastMinis(t.cards)).map(({card:s},i)=>`<button type="button" class="spread-card rarity-${K(s.rarity)}" style="--spread-i:${i}" data-action="detail" data-id="${K(s.id)}" aria-label="看${K(s.name)}，${K(b[s.rarity]||s.rarity)}">${spreadFace(s)}</button>`).join(``)}</div>
         ${!isDim&&(t.cards||[]).length===6?spreadReviewV40(t.cards):''}
         <div class="spread-actions">
-          ${isDim?``:`<button type="button" class="btn primary" data-action="share-cast">分享卡组</button>`}
-          <button type="button" class="btn ${isDim?`primary`:`ghost`}" data-action="${isDim?`view-bundle`:`view-talk`}">${isDim?`看这一包`:`查看咫言咫语`}</button>
+          <button type="button" class="btn primary" data-action="${isDim?`view-bundle`:`view-talk`}">${isDim?`看这一包`:`揭晓本场戏格`}</button>
+          ${isDim?``:`<button type="button" class="btn ghost" data-action="share-cast">分享卡组</button>`}
         </div>
         ${!isDim&&t.showShare?`<section class="share-block spread-share">
           <h2>把节目单递出去</h2>
           <div class="dock share-dock">
-            <button type="button" class="btn ghost" data-action="again">再开一桌</button>
+            <button type="button" class="btn ghost" data-action="again">再开一台</button>
             <button type="button" class="btn ghost" data-action="poster">长按保存长图</button>
             <button type="button" class="btn ghost" data-action="copy">复制链接</button>
             <button type="button" class="btn ghost" data-action="native-share">转发给朋友</button>
@@ -3661,24 +6397,37 @@ function Un(e){let t=e.drawn,result=Xt(t),n=result.score,i=displayCastMinis(t).m
       ${q(e).replace('DiaGacha</span>','DiaGacha·咫牌</span>')}
       <div class="result-wrap">
         ${e.fromShare?`<div class="try-own"><button type="button" class="btn primary" data-action="try-own">我也开一台</button></div>`:``}
+        <div class="result-premiere-v53">
+          <p class="result-kicker-v53">今晚的意外好戏</p>
+          <h1 class="verdict">${K(dramaticTitleV40(t))}</h1>
+          <p class="result-hook-v53">${t.length===5?'五':'六'}张卡，开出你的意外好戏。</p>
+          <div class="result-final-score-v53" aria-label="这台最终得分 ${K(n)}，满分 100">
+            <span>这台</span><strong>${K(n)}</strong><span>/ 100</span><span class="result-grade-v53">${K(result.scoring.grade)}</span>
+          </div>
+        </div>
+        ${stagePersonaMarkupV53(t)}
         <div class="cast-row${t.length===6?` six-cast`:``}">${i}</div>
         ${t.length===5?`<p class="legacy-cast">这一台没有配角入册</p>`:``}
-        ${hexRadar(t)}
-        <p class="show-score" aria-label="这台分数"><span>这台</span><b>${K(n)}</b></p>
-        ${scoreBreakdown(result.scoring,t)}
-        <h1 class="verdict">${K(dramaticTitleV40(t))}</h1>
         ${An(t,e.talkOpen)}
+        <div class="result-share-actions-v53">
+          <button type="button" class="btn primary" data-action="poster-short">生成朋友圈分享图</button>
+          <button type="button" class="text-btn" data-action="copy-social">复制朋友圈文案</button>
+        </div>
+        <p class="result-share-note-v53">保存这一台，邀朋友也开一场戏。</p>
+        ${renderRehearsalV53(e)}
+        ${hexRadar(t)}
+        ${scoreBreakdown(result.scoring,t)}
         <section class="share-block">
           <h2>把节目单递出去</h2>
           <div class="dock share-dock">
-            <button type="button" class="btn ghost" data-action="again">再开一桌</button>
+            <button type="button" class="btn ghost" data-action="again">再开一台</button>
             <button type="button" class="btn ghost" data-action="poster">长按保存长图</button>
             <button type="button" class="btn ghost" data-action="copy">复制链接</button>
             <button type="button" class="btn ghost" data-action="native-share">转发给朋友</button>
           </div>
         </section>
       </div>
-    </section>`}function Wn(e,bag=false){let t=new Set(e.owned||[]),n=e.albumDim||`全部`,r=e.albumSort||`no`,i={C:0,UC:1,R:2,SR:3,SSR:4,UR:5,LR:6},a=(e.pool||[]).filter(e=>(!bag||t.has(e.id))&&(n===`全部`||e.dimension===n));a=a.slice().sort((e,t)=>r===`no`?(e.no||999)-(t.no||999):r===`score`?T(t)-T(e)||(e.no||999)-(t.no||999):i[t.rarity]-i[e.rarity]||T(t)-T(e)||(e.no||999)-(t.no||999));let o=[`全部`,...x.map(e=>e.key)].map(e=>`<button type="button" data-action="filter" data-dim="${K(e)}" aria-pressed="${e===n?`true`:`false`}">${K(({剧目:`剧本`,风格体系:`演法`,导演手法:`手段`,主演:`主角`,配角:`配角`,环境:`空间`})[e]||e)}</button>`).join(``),s=a.map(e=>{const owned=t.has(e.id);return bag?`
+    </section>`}function Wn(e,bag=false){let t=new Set(e.owned||[]),n=e.albumDim||`全部`,r=e.albumSort||`no`,i={C:0,UC:1,R:2,SR:3,SSR:4,UR:5,LR:6},a=(e.pool||[]).filter(e=>(!bag||t.has(e.id))&&(n===`全部`||e.dimension===n));a=a.slice().sort((e,t)=>r===`no`?(e.no||999)-(t.no||999):r===`score`?T(t)-T(e)||(e.no||999)-(t.no||999):i[t.rarity]-i[e.rarity]||T(t)-T(e)||(e.no||999)-(t.no||999));let o=[`全部`,...x.map(e=>e.key)].map(e=>`<button type="button" data-action="filter" data-dim="${K(e)}" aria-pressed="${e===n?`true`:`false`}">${K(({剧目:`剧本`,风格体系:`演法`,导演手法:`手段`,主演:`主角`,配角:`配角`,环境:`空间`})[e]||e)}</button>`).join(``),page=albumPageV53(a,e.albumPage),s=page.cards.map(e=>{const owned=t.has(e.id);return bag?`
         <article class="album-card rarity-${K(e.rarity)}">
           <button type="button" class="album-hit" data-action="detail" data-id="${K(e.id)}">
             <span class="art-wrap">${Ct(e)}</span>
@@ -3706,7 +6455,9 @@ function Un(e){let t=e.drawn,result=Xt(t),n=result.score,i=displayCastMinis(t).m
           <button type="button" data-action="sort" data-sort="no" aria-pressed="${r===`no`?`true`:`false`}">按序号</button>
         </div>
         ${bag&&!a.length?`<p class="sheet-note">${c?`这个种类还没有收集到卡。`:`背包还是空的，开一包收集你的第一张卡。`}</p>`:``}
+        ${albumPagerV53(page)}
         <div class="album-grid">${s}</div>
+        ${albumPagerV53(page)}
       </div>
     </section>`}function Gn(){return`
     <section class="screen simple-screen" data-screen="badlink">
@@ -3740,7 +6491,7 @@ function hasAtLeast(cards,min){return cards.some(card=>rarityRank(card.rarity)>=
 function Cboosted(rng=Math.random){let table=DiaRatesV40.gift,t=rng()*100;for(let r of v)if((t-=table[r])<0)return r;return v[0]}
 function pickDimCard(pool,dim,rarity,rng){let subset=pool.filter(card=>card.dimension===dim);return pickScoredCard(ee(subset,rarity),rng)}
 function forceSeat(cards,pool,minRarity,preferDim,rng=Math.random){let idx=preferDim?cards.findIndex(card=>card.dimension===preferDim):-1;if(idx<0)idx=cards.reduce((best,card,i)=>rarityRank(card.rarity)<rarityRank(cards[best].rarity)?i:best,0);let dim=cards[idx].dimension,used=new Set(cards.map(card=>card.id)),bucket=pool.filter(card=>card.dimension===dim&&rarityRank(card.rarity)>=rarityRank(minRarity)&&!used.has(card.id));if(!bucket.length)bucket=pool.filter(card=>card.dimension===dim&&rarityRank(card.rarity)>=rarityRank(minRarity));if(bucket.length)cards[idx]=pickScoredCard(bucket,rng);return cards}
-function drawMixPack(pool,rng=Math.random){let loop=currentLoop(),cards=x.map(dim=>{let min=loop.pendingDim===dim.key?`SSR`:null,rolled=loop.blessedNext?Cboosted(rng):C(rng);if(min&&rarityRank(rolled)<rarityRank(min))rolled=min;return pickDimCard(pool,dim.key,rolled,rng)});let nextSSR=loop.pitySSR+1,nextUR=loop.pityUR+1,natUR=hasAtLeast(cards,`UR`),natSSR=hasAtLeast(cards,`SSR`);if(!natUR&&nextUR>=60)forceSeat(cards,pool,`UR`,loop.pendingDim,rng);else if(!natSSR&&nextSSR>=30)forceSeat(cards,pool,`SSR`,loop.pendingDim,rng);if(loop.pendingDim){let seat=cards.find(card=>card.dimension===loop.pendingDim);if(seat&&rarityRank(seat.rarity)>=rarityRank(`SSR`))loop.pendingDim=``}loop.blessedNext=!1;if(hasAtLeast(cards,`UR`))loop.pityUR=0;else loop.pityUR=nextUR;if(hasAtLeast(cards,`SSR`))loop.pitySSR=0;else loop.pitySSR=nextSSR;saveLoop(loop);return cards}
+function drawMixPack(pool,rng=Math.random){let loop=currentLoop(),cards=x.map(dim=>{let min=loop.pendingDim===dim.key?`SSR`:null,card=drawBalancedV53(pool,dim.key,loop.blessedNext?DiaRatesV40.gift:y,rng);return min&&rarityRank(card.rarity)<rarityRank(min)?pickDimCard(pool,dim.key,min,rng):card});let nextSSR=loop.pitySSR+1,nextUR=loop.pityUR+1,natUR=hasAtLeast(cards,`UR`),natSSR=hasAtLeast(cards,`SSR`);if(!natUR&&nextUR>=60)forceSeat(cards,pool,`UR`,loop.pendingDim,rng);else if(!natSSR&&nextSSR>=30)forceSeat(cards,pool,`SSR`,loop.pendingDim,rng);if(loop.pendingDim){let seat=cards.find(card=>card.dimension===loop.pendingDim);if(seat&&rarityRank(seat.rarity)>=rarityRank(`SSR`))loop.pendingDim=``}loop.blessedNext=!1;if(hasAtLeast(cards,`UR`))loop.pityUR=0;else loop.pityUR=nextUR;if(hasAtLeast(cards,`SSR`))loop.pitySSR=0;else loop.pitySSR=nextSSR;saveLoop(loop);return cards}
 function checkMilestones(){let loop=currentLoop(),n=(Y.owned||[]).filter(id=>activeCardIdsV39.has(id)).length,marks=[100,300,500];for(let mark of marks){let key=String(mark);if(n>=mark&&!loop.milestones[key]){loop.milestones[key]=!0;loop.pendingMilestone=mark;if(!loop.cosmetics.includes(`seal-`+key))loop.cosmetics.push(`seal-`+key);saveLoop(loop);Y.sheet={kind:`milestone`,mark};return !0}}return !1}
 function claimDaily(){let loop=currentLoop();if(loop.dailyClaimed)return !1;loop.dailyClaimed=!0;loop.dailyDate=shanghaiDate();loop.blessedNext=!0;saveLoop(loop);Y.task.charges+=1;O(Y.task);return !0}
 // V39_COPY_START
@@ -4419,23 +7170,23 @@ const sceneArcsV40 = {
     opening: '{a}召来{b}，要求把一段旧事说清，声称只要找到最后的证人，这里就能恢复平静。',
     exchange: '{b}不肯回答那个预先写好答案的问题，反问{a}当时站在哪里；{a}把记有证词的纸推回去，坚持先查别人。',
     reveal: '两人重走那天的路线，{a}为了纠正{b}的一处细节，脱口说出只有在场者才知道的话。追问者突然成了必须解释的人。',
-    ending: '{b}没有替他宣布结论，只把空着的位置让出来。{a}终于坐下，把刚才逼别人回答的问题，完整地问了自己一遍。',
+    ending: '{b}没有替{a}宣布结论，只把空着的位置让出来。{a}终于坐下，把刚才逼别人回答的问题，完整地问了自己一遍。',
     teaser: '{a}逼{b}补全一份证词，纠正细节时却暴露了自己的位置；原本准备给别人的审问，终于轮到自己回答。',
   },
   'play-hamlet': {
     title: '看戏的人先站了起来', premise: '借表演试探隐情、又无法轻易把反应当作证据的困境', prop: '写着戏词的纸',
     opening: '{a}邀请{b}看一段短戏，说只想请对方纠正几个细节，却把最刺痛人的一刻留到最后。',
     exchange: '{b}察觉自己被盯着，要求{a}也入戏；试探者只好亲手演出自己原本藏在台词后的指控。',
-    reveal: '短戏还没结束，{b}先打断了它。{a}立刻把中断当成答案，{b}却要求重演，指出他删掉了最关键的一句话。',
+    reveal: '短戏还没结束，{b}先打断了它。{a}立刻把中断当成答案，{b}却要求重演，指出{a}删掉了最关键的一句话。',
     ending: '{a}读完被删掉的那句话，发现它会使自己的指控失去把握。{b}带走了那份戏词，要求下次见面时，先拿出证据。',
-    teaser: '{a}排了一段戏试探{b}，对方却要他也入戏；一次意外停演把试探翻了面，谁在隐藏，谁在逼人认罪，突然都不再清楚。',
+    teaser: '{a}排了一段戏试探{b}，对方却要{a}也入戏；一次意外停演把试探翻了面，谁在隐藏，谁在逼人认罪，突然都不再清楚。',
   },
   'play-macbeth': {
     title: '坐上那个位置以后', premise: '夺取权位之后，恐惧反过来支配行动的进程', prop: '象征席位的名牌',
     opening: '{a}盯住那个还空着的位置，请{b}替自己确认：只要先坐下，其他人就会承认。',
     exchange: '{b}要求{a}说明原来坐在那里的人为何不再回来；{a}绕开这句问话，忙着把名牌摆正。',
-    reveal: '位置终于归了{a}，他却不再容许{b}靠近。每一次脚步声都使他转身，刚才为他作证的人也成了需要防备的人。',
-    ending: '{b}停止保证安全，把那张名牌留在原处。{a}有了想要的位置，却必须不停站起来检查身后，直到天亮，他也没能安心坐下来。',
+    reveal: '位置终于归了{a}，却不再容许{b}靠近。每一次脚步声都使{a}转身，刚才为{a}作证的人也成了需要防备的人。',
+    ending: '{b}停止保证安全，把那张名牌留在原处。{a}有了想要的位置，却必须不停站起来检查身后，直到天亮，仍没能安心坐下来。',
     teaser: '{a}请{b}帮助确认一个席位，坐稳后却开始防备这位见证者；权位到手，安静先被赶了出去。',
   },
   'play-godot': {
@@ -4483,7 +7234,7 @@ const sceneArcsV40 = {
     opening: '{a}把一页成绩摊给{b}，等着一句“你做得很好”；{b}却来谈今天已经无法继续的生活。',
     exchange: '{a}不断把话题带回过去的机会，{b}每说一个眼前的困难，就被更辉煌的旧事盖过去。',
     reveal: '{b}合上本子，承认自己达不到那些期待，也不想再靠它们证明两人的关系。{a}最想听的成功消息，变成了一次拒绝继续表演成功。',
-    ending: '{a}重新打开本子，却没有找到能接下这句话的一页。{b}停在近处，等他不用成绩作开头，再叫自己一次。',
+    ending: '{a}重新打开本子，却没有找到能接下这句话的一页。{b}停在近处，等{a}不用成绩作开头，再叫自己一次。',
     teaser: '{a}等{b}带来成功的消息，对方却承认再也演不下去；那本用来证明价值的成绩册，突然找不到可以翻开的下一页。',
   },
   'play-goodperson': {
@@ -4492,7 +7243,7 @@ const sceneArcsV40 = {
     exchange: '{b}拿出刚才得到的承诺，{a}换了站姿和口气，声称现在必须按另一套规矩办事。',
     reveal: '{b}没有接受这个突如其来的新身份，而是准确复述了刚才那句温柔的话。同一个身体，无法同时躲开求助与追责。',
     ending: '{a}卸掉第二副口气，把仅剩的东西放在两人中间。{b}第一次看见答应帮助的人也无处可退，争执从谁更善良，变成这份生计究竟怎样维持。',
-    teaser: '{a}先答应帮助{b}，又换一副面孔收回承诺；对方认出了同一个人，逼他同时面对自己的善意和明天的生计。',
+    teaser: '{a}先答应帮助{b}，又换一副面孔收回承诺；对方认出了同一个人，逼{a}同时面对自己的善意和明天的生计。',
   },
   'play-lear': {
     title: '分完以后，谁肯让一个位置', premise: '把爱当作可计量的表白、交出权力后才看清依靠的悲剧', prop: '标出各人份额的图',
@@ -4547,7 +7298,7 @@ const sceneArcsV40 = {
     opening: '{a}为{b}准备了一段新戏，口头上请对方评价作品，真正等的却是一句愿意留下。',
     exchange: '{b}认真谈起另一种向往，{a}把每句意见都听成对自己的拒绝，于是不断重开那段已经演完的戏。',
     reveal: '{b}终于说明，喜欢作品并不等于答应陪伴。{a}停在幕布前，发现自己一直在用一个问题索取另一个问题的答案。',
-    ending: '{b}离开观看的位置，{a}仍把幕布开着，却不再重复邀请。那段无人接话的结尾，第一次成为他必须自己完成的演出。',
+    ending: '{b}离开观看的位置，{a}仍把幕布开着，却不再重复邀请。那段无人接话的结尾，第一次成为{a}必须自己完成的演出。',
     teaser: '{a}请{b}来看一段新戏，却把所有评论都听成是否愿意留下；当作品和爱情终于被分开回答，开着的幕布只剩一个人收场。',
   },
   'play-rhino': {
@@ -4571,7 +7322,7 @@ const sceneArcsV40 = {
 // These are new fictional encounters. Groups select a conflict, not a substitute synopsis.
 const storySeedsV40={
   money:{title:'这笔钱究竟替谁说话',prop:'一本收支账簿',
-    opening:'{a}带着一笔钱来找{b}，想资助一件自己珍视的东西，却要求不要留下出资人的姓名。{b}答应保密，仍拿出账簿，请他写明这笔钱从哪里来。',
+    opening:'{a}带着一笔钱来找{b}，想资助一件自己珍视的东西，却要求不要留下出资人的姓名。{b}答应保密，仍拿出账簿，请{a}写明这笔钱从哪里来。',
     exchange:'{a}把数目一再加大，以为争执只是价钱没有谈拢。{b}却翻出另一笔尚未付清的欠款：受人称赞的慷慨，原来可以与别人迟迟拿不到的钱记在同一页上。',
     reveal:'{a}终于承认，自己也曾靠这笔不愿说明来路的钱过日子。{b}原本只想替生意收款，此时却发现自己同样不能把责任全推给付钱的人。',
     ending:'两人没有把账簿烧掉，也没有替彼此写下清白的结论。他们先把欠款列出来，再讨论剩下的钱能做什么；那件本来准备用来赢得称赞的好事，被推迟到债还清以后。',
@@ -4579,8 +7330,8 @@ const storySeedsV40={
   secret:{title:'少掉的那一页是谁拿走的',prop:'缺了一页的记录',
     opening:'{a}带来一份缺页的记录，请{b}证明自己没有说谎。{b}认得纸上的字，却声称不记得缺掉的那一页。',
     exchange:'{a}逐项核对日期，发现{b}记得每一笔无关紧要的小事，偏偏把决定责任的那一天忘了。继续追问，可能毁掉两人仅存的信任；停止追问，又会让另一个无辜的人承担后果。',
-    reveal:'{b}终于拿出藏起的那一页。它证明{a}没有做过被指控的事，也证明他当时知道真相，却选择了沉默。',
-    ending:'{a}把散页装回记录，没有撕掉对自己不利的部分。{b}陪他把完整记录交出去，两人都不知道这能否换来原谅，至少下一个读到它的人不必再替他们补写谎话。',
+    reveal:'{b}终于拿出藏起的那一页。它证明{a}没有做过被指控的事，也证明{a}当时知道真相，却选择了沉默。',
+    ending:'{a}把散页装回记录，没有撕掉对自己不利的部分。{b}陪{a}把完整记录交出去，两人都不知道这能否换来原谅，至少下一个读到它的人不必再替他们补写谎话。',
     teaser:'{a}请{b}用一份记录洗清嫌疑，缺失的那页却握在对方手中。真相能解除一项指控，也会揭开一次更难解释的沉默。'},
   choice:{title:'替别人作出的决定被退回来了',prop:'已经写好的约定',
     opening:'{a}拿着一份写好的约定来见{b}，说自己已经把未来安排妥当，只等对方同意。{b}发现上面没有一项是自己亲口提出的。',
@@ -4596,10 +7347,10 @@ const storySeedsV40={
     teaser:'{b}向{a}求一夜容身，拿不出可供交换的东西。危险逼近后，谁在施舍、谁在保护谁，变得不再那么容易分清。'},
   identity:{title:'借来的名字还回去以后',prop:'写着另一个名字的名牌',
     opening:'{a}借用一个更容易获得信任的名字来见{b}。事情起初十分顺利，直到{b}问起一段只有名字真正的主人才能回答的往事。',
-    exchange:'{a}编出的细节越多，{b}的疑问也越具体。他开始明白，自己借来的不只是名声，还有一份从未经历过、却必须负责的过去。',
+    exchange:'{a}编出的细节越多，{b}的疑问也越具体。{a}开始明白，自己借来的不只是名声，还有一份从未经历过、却必须负责的过去。',
     reveal:'{b}说出了真正的名字，承认早就识破了伪装，只想知道{a}会在什么时候停止。最难堪的不是谎话被揭穿，而是那份自己以为赢来的尊重，从头到尾都建立在对方的等待上。',
-    ending:'{a}摘下名牌，重新介绍了自己。{b}没有保证仍给他同样的机会，却肯听他说完一个没有借用任何人经历的理由。',
-    teaser:'{a}靠一个借来的名字赢得{b}的信任，却被一段从未经历过的往事困住。摘掉名牌以后，他必须用真正的自己再争取一次机会。'},
+    ending:'{a}摘下名牌，重新介绍了自己。{b}没有保证仍给{a}同样的机会，却肯听{a}说完一个没有借用任何人经历的理由。',
+    teaser:'{a}靠一个借来的名字赢得{b}的信任，却被一段从未经历过的往事困住。摘掉名牌以后，{a}必须用真正的自己再争取一次机会。'},
   waiting:{title:'等来的答复和想象的不一样',prop:'一封迟迟未拆的信',
     opening:'{a}和{b}守着一封刚送到的信，谁都知道它可能结束漫长的等待，却都请对方先拆。',
     exchange:'{a}已经为好消息安排好了今后的生活，{b}却偷偷准备了离开的东西。两人一边说无论结果怎样都能接受，一边只谈自己愿意听见的答案。',
@@ -4616,7 +7367,7 @@ const storyGroupsV40={
   waiting:'play-sisters xplay-vanya xplay-bald xplay-chairs yplay-endgame yplay-krapp play-v21-noexit play-v21-happydays play-v21-heartbreak play-v21-zoostory v23-play-busstop v23-play-dreamlike v23-play-iceman',
 };
 
-function sceneTextV40(text,context){return text.replace(/\{(a|b|prop)\}/g,(_,key)=>context[key]);}
+function sceneTextV40(text,context){return text.replace(/\{(a|b|prop|place)\}/g,(_,key)=>key==='place'?context.place.name:context[key]);}
 function sceneArcV40(context){
   if(sceneArcsV40[context.play.id])return sceneArcsV40[context.play.id];
   const kind=Object.keys(storyGroupsV40).find(key=>storyGroupsV40[key].split(' ').includes(context.play.id));
@@ -4629,49 +7380,218 @@ function sceneContextV40(cards){
   context.arc=sceneArcV40(context);context.prop=context.arc.prop;
   return context;
 }
-function storyPlaceV40({place,a,b}){
+function storyPlaceV40(context){
+  const {place,a,b}=context;
+  const shelter=context.arc===storySeedsV40.shelter;
   if(place.id==='place-v21-diningcar')return {open:`列车还没到站，${a}在餐车里等到了${b}。窄桌上放不下太多东西，这次见面也不能无限拖延。`,turn:'到站广播响起，邻桌的人开始收拾行李，他们必须在列车停下之前把事情说清。'};
   if(place.id==='place-meixiang')return {open:`夜里的媚香楼仍有歌声，${a}和${b}却顾不上听。他们把谈话留在一间灯还亮着的屋里，希望楼下的人不要过问。`,turn:'楼下的歌声停了，屋里的争执突然传得很远。刚才还能压低声音掩饰的事，现在连窗外都可能听见。'};
-  if(/车|站|船|港|码头|机场/.test(place.name))return {open:`${a}赶到${place.name}时，${b}已经准备离开。错过这次见面，下一封回信不知还要等多久。`,turn:'远处响起催促启程的声音。两人都明白，这次不能再靠“以后再谈”搪塞过去。'};
-  if(/牢|监|审|法庭|刑/.test(place.name))return {open:`在${place.name}，${a}终于获准与${b}见面。能说话的时间不多，每一句都可能被门外的人听见。`,turn:'门外的人来催结束谈话。留下误会容易，补上解释的机会却未必还有。'};
-  if(/路|街|广场|市集|桥|庭院/.test(place.name))return {open:`${a}在${place.name}拦住了${b}。本想私下解决的事，因为来往的人不断停留，渐渐无法保密。`,turn:'有人停下来问发生了什么。两人原本只想说给对方听的话，不得不接受旁人的追问。'};
-  if(/家|厅|客厅|房|寓|宿舍/.test(place.name))return {open:`${a}来到${place.name}找${b}，门开着，却没人先说欢迎。屋里还留着日常生活的痕迹，使这次严肃的见面更加难以开口。`,turn:'门外传来钥匙碰响的声音，再拖下去，这件事就不再只由他们两个人知道。'};
+  if(/车|站|船|港|码头|机场/.test(place.name))return {open:shelter?`${a}在${place.name}守着仅剩的储备，${b}赶来请求同行。离启程已经不久，是否留下这个人必须现在决定。`:`${a}赶到${place.name}时，${b}已经准备离开。错过这次见面，下一封回信不知还要等多久。`,turn:'远处响起催促启程的声音。两人都明白，这次不能再靠“以后再谈”搪塞过去。'};
+  if(/牢|监|审|法庭|刑/.test(place.name))return {open:`在${place.name}，${a}终于获准与${b}见面。这次见面的时间不多，来回的动静随时会惊动门外的人。`,turn:'门外的人来催结束谈话。留下误会容易，补上解释的机会却未必还有。'};
+  if(/路|街|广场|市集|桥|庭院/.test(place.name))return {open:`${a}在${place.name}拦住了${b}。本想私下解决的事，因为来往的人不断停留，渐渐无法保密。`,turn:'有人停下来问发生了什么。两人原本只想私下处理的事，不得不接受旁人的追问。'};
+  if(/家|厅|客厅|房|寓|宿舍/.test(place.name))return {open:`${a}来到${place.name}找${b}，门开着，却没人先说欢迎。屋里还留着日常生活的痕迹，使这次严肃的见面更加难以开始。`,turn:'门外传来钥匙碰响的声音，再拖下去，这件事就不再只由他们两个人知道。'};
   return {open:`${a}与${b}约在${place.name}见面。附近没有可以代为传话的人，这次必须由他们自己把条件说清。`,turn:`${place.name}渐渐安静下来。${b}提醒${a}，今天总得带着一个明确的答复离开。`};
 }
 
-function storyMethodV40({method,a,b,prop}){
-  const name=method.name;
-  if(/形体|手势|身体|无言/.test(name))return `${a}不再解释，只伸手按住${prop}；${b}没有抢夺，却也不肯把手收回。事情还没谈妥，那件东西已经暴露了双方都不愿放弃的部分。`;
-  if(/小道具|道具易主|物件传递|道具延展/.test(name))return `${a}把${prop}悄悄挪到自己面前，以为这样就能抢先作主。${b}没有接过递来的杯子，反而要求把东西放回两人都碰得到的地方。`;
-  if(/录|文档|证词|字幕|读提示/.test(name))return `${b}找到先前留下的一段文字，当着${a}的面逐字读出。它与刚才的说法有一处对不上，两人都无法再声称只是记错了。`;
-  if(/倒叙|闪回|记忆|重演/.test(name))return `${b}提起两人第一次谈到此事的那个晚上。${a}记得的是一项已经得到同意的决定，${b}记得的却是一句根本没被听完的拒绝。`;
-  if(/光|黑场|暗转|烟雾|遮挡|幕/.test(name))return `光线忽然暗下去，${a}以为${b}已经离开，低声说出了方才不肯承认的担忧。回答从近处传来：对方一直没有走。`;
-  if(/声音|拟音|画外音|麦克风|旁唱|合唱|伴唱|齐唱|乐师|歌队/.test(name))return `一阵声音打断了争执。${a}停下后才听清，${b}已经把同一个问题问了三次；最响亮的那句辩解，始终没有回答它。`;
-  if(/分饰|互换|假面|变装/.test(name))return `${b}假定自己才是提出要求的人，请${a}当面作答。${a}立即说出了反对的理由，随后才意识到，那正是自己刚才不肯让对方说完的话。`;
-  if(/独白|潜台词|对白|同句|台词|旁白/.test(name))return `${a}终于把藏在客气话后面的要求说出口。${b}也不再回答那些礼貌的铺垫，直接说明自己最怕失去什么。`;
-  if(/停|定格|慢动作|沉默|冷场|对视/.test(name))return `${b}没有立刻答应。沉默里，${a}几次想催促，最后却先补出了自己一直省略的条件。`;
-  if(/观众|群众|群像|破墙|论坛|旁观|接力/.test(name))return `旁边有人复述了${a}刚才的承诺。${b}借着这句话要求说清条件，私下还能含混过去的说法，此刻已有第三个人记住。`;
-  if(/雨|水池|火/.test(name))return `外面的动静逼得两人先护住${prop}。${a}发现${b}也在保护同一件东西，才肯把方才的责备缓一缓，听对方解释。`;
-  return `${a}想尽快结束争执，${b}却指出${prop}还没有交代清楚。若只谈一时的输赢，明天还会有人为今天没有说完的话付出代价。`;
+// Each beat changes an action or a piece of information in this fictional encounter.
+const methodBeatsV53={
+  'dir-wall':'{a}没有向旁人求证，只盯着{b}的反应；{b}也不能借一句玩笑把问题带过去。',
+  'dir-alien':'{b}停下原来的动作，把刚才的条件逐项列开。换一种摆法，{a}才看清便宜究竟落在谁手里。',
+  'dir-ritual':'每次交接前，两人都要把{prop}摆回原位。这一次{b}没有照做，{a}只好先解释那条规矩。',
+  'dir-montage':'眼前的交接与先前的承诺交替浮现；当两个时刻紧挨在一起，{a}不能再把改口当成小事。',
+  'dir-body':'{a}按住{prop}，{b}把手停在半途。两人都没有再解释，谁肯先松手成了眼前的回答。',
+  'dir-solo':'{a}暂时避开{b}的目光，整理自己一直没有承认的要求；回到对方面前时，原先的回避已经用不下去。',
+  'dir-convention':'两人先约定，碰到{prop}就算接下责任。{a}随后想把一次触碰解释成无意，{b}却不肯改掉约定。',
+  'dir-call':'{b}请近处一个人见证刚才的条件；那人没有立刻表态，{a}也失去了替旁人宣布同意的方便。',
+  'xdir-toplight':'头顶的光落在{prop}上，脸上的表情却看不清。{b}不再猜{a}是不是心软，直接等那个迟迟没有完成的动作。',
+  'xdir-spot':'{a}挪开一步，亮处却仍跟着{prop}；想藏进暗处的那个小动作，恰好被{b}看见。',
+  'xdir-backturn':'{a}背过身，以为这样就算结束；{b}没有追过去，只把{prop}放在转身必经的位置。',
+  'xdir-changeset':'两人把隔在中间的东西搬开，彼此都看着对方动手。刚才藏在遮挡后的小动作，这回再也做不成了。',
+  'xdir-enter':'一个原本只在旁边等候的人被请来接住{prop}。{a}才发现，一旦有第三个人经手，就不能只按自己的说法算。',
+  'xdir-repeat':'同样的交接又来了一遍。{b}这次没有伸手，{a}熟练的动作停在半途，才发现先前的配合并非理所当然。',
+  'xdir-bang':'近处的歌声把刚才的客气话接了下去，唱出的却是它的代价。{a}想略过的部分，被{b}重新摆到面前。',
+  'xdir-drum':'一下一下的敲击催着交接，{a}几乎顺着节拍伸手。{b}故意错开一拍，让匆忙掩住的条件重新显出来。',
+  'xdir-zoubian':'四周暗下来，两人只能放慢脚步辨认去路。{a}急着带走{prop}，却不得不等{b}先让出安全的位置。',
+  'xdir-sleeve':'{a}把伸出的手当作索取，{b}却翻转手掌，指向尚未处理的那一处。一个误读的手势，让交接多停了一会儿。',
+  'xdir-facechange':'{b}的目光落到{prop}上，原先的笑意停了。{a}顺着那道目光看过去，才意识到自己漏掉了什么。',
+  'xdir-nian':'{a}急着把条件接连摆出来，{b}却在最关键的地方留出空隙。被匆忙带过的那一项，终于需要单独答复。',
+  'xdir-mirror':'{b}照着{a}刚才的样子伸手，又在相同的位置收回。{a}从对面看见自己的做法，才明白它为什么令人难堪。',
+  'xdir-group':'近处的人先后停下手里的事，各自等一个与自己有关的结果。{a}与{b}才发现，这次交接早已不只影响两个人。',
+  'xdir-improvbit':'{b}突然提出一个先前没谈过的条件。{a}准备好的答复用不上了，只能当场决定自己肯退到哪里。',
+  'xdir-voiceover':'看不见的地方传来催促，{a}以为是有人替自己撑腰。{b}却先辨认声音的来处，不肯让一句场外的话代替证据。',
+  'ydir-lingzi':'{a}一直注意着{b}的脸，直到对方低头看向{prop}。真正没有解决的事，原来就在两人一直避开的地方。',
+  'ydir-fanwork':'{a}借{prop}隔开一段距离，{b}没有越过去。原本想保护自己的动作，也挡住了这次见面可能达成的交接。',
+  'ydir-handkerchief':'{a}把{prop}挪到自己面前；{b}没有接过递来的杯子，反而要求把东西放回两人都碰得到的地方。',
+  'ydir-dachushou':'两人同时伸手，又各自停住。第二次靠近时，{b}先收回一步，迫使{a}看清抢到东西以后还要面对谁。',
+  'ydir-diaomao':'{a}急着追上去，脚下一绊。{b}停下了离开的动作，却没有因此答应刚才的条件。',
+  'ydir-jiangshi':'{a}向后退时失去支撑，身体僵直地倒向后方；{b}先让出位置扶稳对方，争执只能暂时停下。',
+  'ydir-qiangbei':'{a}躲开伸来的手，失去平衡，肩背先贴到地上。{b}把{prop}移远，免得下一次争抢再伤到人。',
+  'ydir-darkchange':'暗下去的那一刻，两人都停住。亮起时{prop}换了位置，{a}与{b}不得不先核对黑暗里发生的事。',
+  'ydir-qieguang':'一侧忽然暗下去，另一侧亮起来。{a}想继续原来的动作，却发现{b}已站在能看清交接的位置。',
+  'ydir-backlight':'亮光从背后照来，{b}只看得见{a}的轮廓。表情无法作保证，是否把{prop}交出来才有分量。',
+  'ydir-gauze':'隔着薄纱，{a}以为{b}没有留意；纱后的光一亮，那个准备藏起的动作便再也掩不住。',
+  'ydir-liftstage':'脚下的平台缓缓改变高度，两人再也不能平视着完成交接。{b}停下来，等{a}先回到能互相够到的位置。',
+  'ydir-wagontage':'载着东西的平台被推向另一边，{a}还没作出决定，{prop}就要离开伸手可及的地方。{b}停下平台，等一个明确的答复。',
+  'ydir-jijifeng':'两人的动作越来越快，几乎只剩抢先一步。{b}忽然停住，{a}才发现自己还没弄清抢的究竟是什么。',
+  'ydir-shoujiu':'{a}把{prop}移到后面的幕布近旁，想把事情暂且遮住；{b}仍留在幕前，等待那件事被重新带回来。',
+  'ydir-chujiang':'{a}向一侧离开，{b}却从另一侧绕回来。两条路在{prop}前相交，谁也没能靠换个出口避过这次答复。',
+  'ydir-duetline':'{a}提出一项要求，{b}便追问它由谁承担；几次来回以后，原本笼统的承诺终于变成可以逐项核对的条件。',
+  'ydir-bansing':'近处的伴唱没有随着争执变响，反而慢下来。{a}原本想一带而过的停顿，被{b}完整地等了下来。',
+  'ydir-qichang':'周围的人唱着同一段旋律，节奏整齐得容不下迟疑。{b}偏偏停了手，{a}才注意到并不是每个人都愿意照做。',
+  'ydir-coldstage':'没有人接下最后那个要求。{a}几次想催促，最后先补出了自己一直省略的条件，{b}这才重新看向对方。',
+  'ydir-footlight':'低处的光把影子投得很大，{a}的一个小动作显得像要阻拦。{b}等对方的手停稳，才判断是否继续靠近。',
+  'ydir-facelight':'正面的光使两人的表情无处躲藏。{a}还想保持客气，{b}已经看见那个与承诺不相称的迟疑。',
+  'ydir-smoke':'薄雾掩住了去路，{a}没法确认{b}是否还在近处。直到雾散开，两人才发现谁也没有真正离开。',
+  'ydir-legdrop':'{b}走到侧面的幕布后，{a}只能看见仍留在外面的{prop}。人已经可以离开，未处理的事却还得留在眼前。',
+  'ydir-paoyuan':'{a}几步追到{b}面前，却一时接不上原先准备好的理由。{b}没有继续走，等这次追赶变成一个说得清的请求。',
+  'ydir-rankou':'{b}留意到{a}脸上被刻意加深的岁月痕迹，起初的判断动摇了。两人只好把外表放在一旁，重新核对事情本身。',
+  'dir-v21-testimony':'两人各自重新列出同一件事的经过，日期相同，遗漏的部分却不同。{a}不再急着定论，先让{b}补完那一段。',
+  'dir-v21-samewords':'同一项承诺又出现一次。先前它让{b}安心，现在却像催促；{a}只好解释，变的是条件，还是自己的打算。',
+  'dir-v21-livefoley':'一阵熟悉的响动使{a}转身，{b}却让开一步，露出制造声音的东西。两人刚才据此作出的判断不得不重来。',
+  'dir-v21-timecut':'下一刻已经过去很久，{prop}仍在原地。等待被省去，迟迟没有兑现的承诺却更清楚地留在两人之间。',
+  'dir-v21-soundimage':'远处仍是热闹的声音，眼前的交接却停住了。{a}不能再借那阵热闹假装一切顺利，{b}也没有配合着继续。',
+  'dir-v21-livesubtitles':'刚才的条件被逐字写出来，先前没听清的部分终于可以核对。{b}指出其中一处，{a}无法再用语气掩过那项要求。',
+  'dir-v21-linerelay':'一个人提出的条件由另一个人接着补完。等整句话成形，{a}与{b}才发现，各自以为省去不说的部分并不相同。',
+  'dir-v21-proptransfer':'{prop}终于从{a}手边移到{b}手边。两人没有马上离开，因为东西换了主人，责任却还没有说清。',
+  'dir-v21-emptychair':'{a}转向一个空着的位置，才意识到最需要答复的人并未到场。{b}把交接暂且停住，不肯替缺席者作保证。',
+  'dir-v21-unreliable':'{a}的说法十分完整，{prop}留下的细节却对不上。{b}没有马上指责，只把两处差异并排放着，等一个解释。',
+  'dir-v21-selectivereplay':'两人重新走过那次交接，{a}只想重复最有利的一段。{b}停在被跳过的位置，等那部分也被补回来。',
+  'dir-v21-simultaneoussolos':'两份各自完整的解释同时展开，谁也没接住另一边的问题。{a}先停下来，{b}的要求才第一次有机会被完整理解。',
+  'dir-v21-occlusion':'{a}挪开挡住视线的东西，{prop}的一处细节露出来。{b}原先准备好的答复因此失效，只能从这里重新解释。',
+  'dir-v21-compression':'可站的位置越来越窄，两人连转身都得互相让一步。{a}原本打算拖过去的交接，现在必须在近处完成。',
+  'dir-v21-endingloop':'两人又做了一次见面时的交接动作。这回{b}没有像最初那样接手，{a}才看见刚才的争执究竟改变了什么。',
+  'v23-dir-pool':'脚步在浅水里留下波纹，{a}想悄悄靠近也被{b}察觉。两人先护住{prop}，才重新处理彼此的分歧。',
+  'v23-dir-readstage':'{b}先把约定的步骤摊开，再一项项照着做。轮到{a}时，文字与实际动作的差别终于藏不住了。',
+  'v23-dir-allwatch':'两人以为已经谈妥，却发现近处一直有人注视着交接。{a}准备私下省去的条件，现在需要当着这些人的面补齐。',
+  'v23-dir-objectchain':'{prop}经过几双手才回到两人面前。{b}逐一追问交接的经过，{a}不能再把最后一次拿到它当成全部事实。',
+  'v23-dir-countdown':'剩下的时间被一格格划掉，{a}还在斟酌，{b}已经准备离开。今天不作决定，也会成为一个有后果的决定。',
+  'v23-dir-floorplan':'两人把各自认可的边界画在地上。{a}向前一步，恰好踩到{b}不肯让出的地方，原本含糊的争执有了具体位置。',
+  'v23-dir-soundfirst':'门外的脚步声先传来，来人还没露面。{a}误以为{b}已经离开，回头才发现对方仍在；两人趁来人出现以前，把尚未说明的条件摆明。',
+  'v23-dir-silentopen':'见面后两人都没有急着表达要求，只看着{prop}。{b}先把它移开一点，{a}便知道今天不能按原来的办法办。',
+  'v23-dir-revolving':'两人几次从同一个出口进进出出，总在错过对方。最后{b}停在{prop}旁边，{a}才没法再借赶路推迟交接。',
+  'v23-dir-misremember':'两人按各自的记忆重走那段经过，同一个位置竟落在不同的时刻。{a}先停下争辩，请{b}指出记忆开始分岔的地方。',
+};
+
+const styleBeatsV53={
+  'style-stan':'{a}不再急着证明自己有理，先确认{b}最怕失去什么。知道了这件事，同样的要求便不能照原样提出。',
+  'style-epic':'一项原本像是私事的条件，牵出了谁有资格决定的规矩。{b}把规矩指给{a}看，拒绝独自承担它的后果。',
+  'style-absurd':'两人终于约好下一步，手却又回到最初的位置。事情没有向前，连那句“马上就好”也显得可疑。',
+  'style-real':'{b}算起明天需要付出的时间和钱。{a}这才发现，眼前这次让步，会具体改变另一个人的日子。',
+  'style-xieyi':'{prop}被移开一小段，两人之间就多出一道谁也不肯越过的界线。地方没变，相互靠近却比刚才更难了。',
+  'style-poor':'周围的东西都暂且搁下，只剩两个人和{prop}。{a}再没有别的东西可拿来转移{b}的注意。',
+  'style-kabuki':'{a}把自己的把握表现得过于夸张，反而让{b}注意到藏不住的犹豫。那个大动作没能替小小的疑点作解释。',
+  'style-black':'两人忙着替最坏的结果寻找一个体面的名字，忙到连自己也觉得荒唐。那点笑意没有减轻谁要付出的代价。',
+  'style-physical':'{b}向后退，{a}便向前一步；退到无处可退时，两人才发现一直被称作商量的事已经成了逼迫。',
+  'xstyle-kunqu':'眼前一个细节牵出更早的约定。{a}以为今天才开始的问题，原来已经让{b}等了很久。',
+  'xstyle-chuanju':'两人没有替以后作保证，只完成眼前这一步。至于是否还会再见，{a}与{b}都没有把答案替对方填好。',
+  'xstyle-yuju':'两人把所有借口收回到这一次见面里。{a}不能另约时间，{b}也不能靠换一个地方避开眼前的问题。',
+  'xstyle-huangmei':'这次见面被中断，隔了一段时间才接上。{prop}仍在，{b}对同一项条件的态度却已经变了。',
+  'xstyle-shadow':'两道影子靠近时仿佛已经握手，真正的手却还停在半途。{a}与{b}都不能把看起来和解当作已经和解。',
+  'xstyle-puppetry':'两人先后整理这次见面的经过，同一件事竟有两个开头。{a}意识到，自己也可能只保留了方便解释的部分。',
+  'xstyle-forum':'{b}试着换一种办法完成刚才被阻止的行动。障碍仍在，{a}却第一次看见除了照办或离开以外的可能。',
+  'xstyle-site':'{place}原有的出入规矩限制着这次见面。{a}以为能私下完成的交接，到了这里就绕不开{b}要面对的人。',
+  'xstyle-walk':'两人边走边处理争执，每走到一个新的转角，{a}就得重新确认{b}是否还愿意同行。',
+  'xstyle-soundth':'脚步越来越近，{a}先据声音猜了一个结果。等{b}停在面前，两人才发现那份判断来得太早。',
+  'xstyle-political':'{b}追问谁订下了这条规矩，又是谁能例外。{a}原本只想解决眼前的事，现在还得说明自己的资格从何而来。',
+  'xstyle-comedy':'两人都忙着替对方留面子，结果同时伸手，又同时缩回。这个小小的狼狈让{a}先放下了端着的姿态。',
+  'xstyle-danceplay':'两人的步子原本能相互接住，到了交接时却错开。{b}不再跟上，{a}只好停住那个以为对方必会配合的动作。',
+  'xstyle-nanxi':'{a}处理眼前的交接，{b}还惦记着另一边未完成的事情。两个期限撞在一起，谁也不能只按自己的进度来。',
+  'xstyle-zaju':'两人把经过分成几段重新核对。每换到下一段，{a}就得放下一个先前以为已经成立的解释。',
+  'xstyle-lab':'{b}提出先试一次，不让任何人预先宣布结果。尝试暴露了{a}没考虑到的阻力，原来的办法必须改动。',
+  'xstyle-bunraku':'动作、声响与讲述各自推进，{a}的解释还在继续，伸出的手却已停下。{b}先接住那个动作里的犹豫。',
+  'ystyle-qinqiang':'{a}准备再用一次从前奏效的办法，手伸到半途又收回。{b}看见的变化很小，却足以让这次交接继续。',
+  'ystyle-yueopera':'无论条件怎样改，{a}始终没有放弃最初想得到的东西。{b}顺着这一点追问，终于把彼此的底线分清。',
+  'ystyle-errenzhuan':'没有第三个人替双方缓和。{a}每作一次决定，都得立刻面对{b}的反应，没法把责任转给一个不在场的人。',
+  'ystyle-zangxi':'眼前一个熟悉的动作使{a}想起曾经受过的委屈。{b}并不知道这段往事，只能从突然停住的交接里看出分量。',
+  'ystyle-budaixi':'{b}没有照着{a}安排的步骤办，而是先处理自己的难处。原以为只是来帮忙的人，成了这次见面无法绕开的决定者。',
+  'ystyle-kyogen':'{a}把条件包装得十分周到，{b}只照原样执行了一遍，其中的自相矛盾就暴露了出来。',
+  'ystyle-takarazuka':'{a}停下急于辩解的冲动，重新看了一遍自己的做法。站远一点以后，原先听起来公道的条件显出了偏心。',
+  'ystyle-waterpuppet':'{b}让出一条路，却仍挡在{prop}前。{a}分清了那是允许离开，不是同意把东西带走。',
+  'ystyle-wenmingxi':'两人原先只约好了大致步骤，细处留到见面再商量。真正碰上分歧时，{a}才发现{b}理解的是另一种安排。',
+  'ystyle-livingnews':'附近刚发生的事情传来，使这次交接多了新的代价。{a}与{b}必须重新核对条件，不能照着旧约定继续。',
+  'ystyle-street':'路过的人开始留意这次交接。{a}原本只想私下含混过去的部分，{b}如今可以要求当面弄清。',
+  'ystyle-mystery':'两人把一次普通交接看作对许诺的检验。{a}不能只求眼前过关，{b}也要承担守住承诺的代价。',
+  'ystyle-passion':'{b}明知留下会受损，仍没有把责任推开。{a}因此无法再用一句“各有难处”把这次见面结束。',
+  'ystyle-lightopera':'轻快的曲调还在，交接却迟迟没有完成。{a}试着把局面弄得轻松，{b}却没有跟着略过那项条件。',
+  'ystyle-object':'两人先后放开{prop}，它留在中间，像一个不能再被打断的回答。{a}与{b}这才看清各自一直在争什么。',
+  'ystyle-install':'四周的物件改变了去路，两人必须绕行才能再次靠近。{a}以为只需伸手的交接，变成了谁先愿意多走几步。',
+  'ystyle-image':'{b}停在刚才被阻拦的位置，让{a}看清两人之间的距离。没有新的解释，那个静止的姿态已经把不平等摆了出来。',
+  'ystyle-magicreal':'{prop}像是忽然重了许多，谁也不能轻易拿走。两人没有追问这个奇异变化，先承认了自己不愿承担的重量。',
+  'ystyle-criticalreal':'{b}说明，这次吃亏并不是第一次。{a}顺着那些相似的经历看过去，才发现眼前的冲突还有一条始终没变的规矩。',
+  'ystyle-poeticreal':'两人停止争执后，{prop}仍留在原处。{a}去整理那个小小的细节，{b}没有阻止，关系先在这个动作里缓了一点。',
+  'ystyle-ritualstyle':'两人照惯例把动作做完，{b}却没有完成最后一步。{a}必须先处理分歧，才能让那套熟悉的程序继续。',
+  'ystyle-manner':'{a}越讲究礼数，{b}越仔细核对礼数背后的要求。客气保持住了，谁占便宜却再也藏不住。',
+  'ystyle-drawingroom':'两人都不愿让这次见面失了体面，连推拒也十分周到。{b}最后把{prop}摆到正中，才让客套暂且停下来。',
+  'ystyle-shinkoku':'{a}以为局面已经稳住，{b}却在最后一步停手。先前看似无关的小事，这时成了继续交接必须跨过的障碍。',
+  'ystyle-sanskrit':'{a}为避免一个后果作出选择，却因此碰上更难回避的问题。{b}把前后两步连起来，迫使对方承认自己的行动也有责任。',
+  'ystyle-huagu':'{b}把能等多久、能带走什么一项项摆明。{a}这才发现，自己准备的办法并不适用于眼前的时间和地方。',
+  'style-v21-epistolary':'{b}取出一封没寄出的信。{a}才知道，今天才摆到面前的请求，对方已经独自斟酌过许多次。',
+  'style-v21-courtroom':'两人把猜测与已经发生的事分开。{a}少了一项指责，{b}也失去了一个可以含混过去的借口。',
+  'style-v21-mystery':'{b}补出一个先前没有提到的细节，{a}原来笃定的判断立刻多了另一种解释。两人必须再核对一次经过。',
+  'style-v21-fable':'两人都能指出对方的道理，却不愿先承担自己的那一份。{prop}在中间停着，把漂亮的解释变成了一个具体的选择。',
+  'style-v21-family':'{b}把日后仍要共同面对的生活摆进这次争执。{a}不能只求今天占上风，还得想明天怎样再次见面。',
+  'style-v21-psychothriller':'{a}注意到一处细节变了，却无法确定是不是自己记错。{b}越急着安抚，这个疑点就越难被轻轻带过。',
+  'style-v21-metatheatre':'两人发现自己一直在照着别人期待的样子应对。{b}先停下那套熟练的反应，{a}也不得不重新表达真正的要求。',
+  'style-v21-autobiographical':'{b}拿自己的经历作理由，{a}却从中察觉到从未被征求意见的另一面。私人记忆不能自动替眼前的决定作证。',
+  'style-v21-polyphonic':'两人终于完整理解了对方的理由，却仍没有得出同一个结论。{a}与{b}各保留一项要求，继续交接必须同时容纳这两件事。',
+  'style-v21-maximalist':'好几处动静同时逼近，两人各自顾着最担心的一件事。{b}把{prop}留在两人中间，才让分散的注意重新回到交接。',
+  'style-v21-rehearsaldrama':'同一段交接试了几次，{a}总在相同的地方停住。{b}不再催着重来，先追问那一步为什么始终做不到。',
+  'style-v21-radiodrama':'门外的脚步由远及近，最后停住。{a}看不见来人，只能和{b}先完成手边的交接，免得未说清的事又被旁人带走。',
+  'style-v21-stagedreading':'两人把写下的条件按次序重新过了一遍。{a}原本依靠态度表达的诚意，现在必须在字句里找到对应。',
+  'style-v21-signedtheatre':'{b}伸手指向身侧的位置，{a}却误以为是在示意离开。等两人重新确认手势，这次交接才不再建立在误会之上。',
+  'style-v21-sensory':'{prop}触手的感觉使{a}停了一下，先前被压住的记忆涌了上来。{b}没有催促，等那个动作自己继续。',
+  'v23-style-chamber':'两人离得很近，一次细微的回避也能被察觉。{a}想维持的平静，偏偏在{b}伸手的那一刻露出了裂缝。',
+  'v23-style-total':'声响催着行动，光线却照出{b}没有伸出的手。{a}不能只顺着气氛继续，还得接住眼前这个明确的拒绝。',
+  'v23-style-verbatim':'两人重新核对先前留下的原话，连停顿也没有略去。{a}想改得体面一点，{b}却坚持保留当时的说法。',
+  'v23-style-bourgeois-tragedy':'这次交接牵动的是两人日后的生计与名誉。{a}意识到，眼前看似不大的让步，对{b}可能是承担不起的损失。',
+  'v23-style-historyplay':'两人把眼前的选择与曾经发生的事对照。{a}不愿重走旧路，{b}却提醒，害怕重复并不能替这次行动作决定。',
+  'v23-style-intercultural':'同一个示意在两人那里有不同的含义。{a}先收回自己的解释，请{b}把习惯说明白，交接才有了共同认可的办法。',
+  'v23-style-visual':'{a}把{prop}移到两人都看得见的地方。{b}没有立即接手，那个空出来的位置比先前的解释更清楚。',
+  'v23-style-translation':'同一句条件被换了一种说法，{b}才发现少了一项限制。{a}把被省掉的部分补回去，两人才能决定是否继续。',
+};
+
+function storyMethodV40(context){
+  const beat=methodBeatsV53[context.method.id]||'{a}准备继续交接，{b}却停在{prop}前，要求先把遗漏的条件补齐。';
+  return sceneTextV40(beat,context);
+}
+function storyStyleV40(context){
+  const beat=styleBeatsV53[context.style.id]||'{a}把请求重新摆到{b}面前。这次双方先说明各自要承担什么，再决定是否继续。';
+  return sceneTextV40(beat,context);
 }
 
-function storyStyleV40({style,a,b,prop}){
-  const name=style.name;
-  if(/广播|声音/.test(name))return `两人的声音隔着一道门传来，${a}起初把${b}的停顿听成同意。门打开以后，那句一直没说完的话终于清楚了：同情可以给，答应却还没有。`;
-  if(/街头|广场|社区|政治|史诗|文献|纪实|逐字|活报/.test(name))return `事情不再只有他们自己知道。有人问${a}准备怎样兑现承诺，也有人问${b}，除了责备对方，自己愿意承担哪一部分。`;
-  if(/荒诞|极简|黑色|小丑|闹剧|滑稽/.test(name))return `两人把客气话说得越来越周全，${prop}却仍夹在他们中间。${b}忽然笑了：再说十遍“都好商量”，也不能替任何人作出决定。`;
-  if(/书信/.test(name))return `${b}拿出一封没寄出的信，${a}才知道，今天这番争执早已在对方心里发生过许多次。信里没有当面的强硬，只有一个反复被划掉又写上的请求。`;
-  if(/悬疑|惊悚|法庭/.test(name))return `${a}问起一个先前忽略的细节，${b}的回答使双方都停了下来。原来他们一直以为对方知道的那件事，从未被真正说出口。`;
-  if(/默剧|身体|舞剧|手语|形象|视觉|剪影/.test(name))return `${b}不再争辩，把${prop}留给${a}检查。看清它以后，${a}那句准备好的指责没有再说出口。`;
-  if(/歌剧|音乐|喜歌|轻歌|诗剧|古典诗学/.test(name))return `${a}记起一句旧歌，本想借它把谈话说得轻松些。${b}却接出了被他省掉的下一句，歌里没有说完的遗憾，恰好是眼前尚未解决的事。`;
-  if(/魔幻|象征|表现|寓言|梦|科幻/.test(name))return `${a}一度觉得${prop}比刚才更沉，仿佛连没说出口的话也压在上面。${b}问他还要不要继续，他才意识到，自己不能把决定交给一个想象中的征兆。`;
-  if(/喜剧|即兴|双人|风俗|客厅/.test(name))return `两人都想给自己留些体面，解释却越说越露怯。${b}先承认了一件不光彩的小事，${a}忍不住笑出声，终于也说出了自己原本打算藏住的部分。`;
-  return `${a}本以为把理由说明白，${b}就该接受。直到听见对方讲起明天的打算，他才发现，这个决定改变的不只是一场谈话，还有别人接下来要过的日子。`;
-}
 
 function characterMotiveV40(card,other){
   const a=card.name;
   const motives={
+
+    'role-fanyi':`${a}不肯再次被安排站到一旁，这次先要${other}正面承认自己的要求。`,
+    'xrole-ophelia':`${a}已经很难再凭一句保证安心，因此先观察${other}是否愿意兑现眼前的小事。`,
+    'role-yuji':`${a}把要求放进手势和实际行动里，不让自己无法出声成为别人代作决定的理由。`,
+    'v23-role-silentman':`${a}没有加入争辩，而是先走向可以离开的地方，让${other}看见等待并非唯一的选择。`,
+    'role-doue':`${a}宁愿暂时承受不利，也不肯让一个无辜的人替自己付出代价。`,
+    'role-shen':`${a}想帮人，却先看了一眼自己仅剩的东西；答应${other}以后，明天的生活也得有人承担。`,
+    'role-shiping':`${a}先辨认眼前留下的旧痕迹，没有接受${other}那种把过去一笔带过的办法。`,
+    'role-ladym':`${a}急于让事情向前，却反复检查手边已经完成的步骤，仿佛仍有一处无法收拾干净。`,
+    'role-willy':`${a}仍想从${other}的反应中得到一点认可，因而比别人更难承认这次没有办成。`,
+    'role-courage':`${a}先盘算交接以后还剩多少生计，不能只凭一时的感动答应${other}。`,
+    'role-blanche':`${a}努力把见面维持得体面，只有${other}追问细节时，那个小心护住的解释才开始动摇。`,
+    'xrole-juliet':`${a}不愿再让别人的禁令替自己选择，先要求${other}认真对待眼前这个决定。`,
+    'xrole-eliza':`${a}已经不满足于被称赞做得好，这次更在意自己有没有决定接下来生活的权利。`,
+    'xrole-hedda':`${a}不愿只等${other}安排结果，开始留意自己手里还有哪一处能改变局面。`,
+    'xrole-harpagon':`${a}先把可能损失的东西收近，${other}每要求让出一点，都得重新解释交换的条件。`,
+    'xrole-tartuffe':`${a}把自己的要求包装得十分正当，却始终没有松开最有利的那一项。`,
+    'xrole-figaro':`${a}先顺着规矩往下做，再从规矩相互冲突的地方寻找能让${other}退一步的机会。`,
+    'xrole-cordelia':`${a}不肯为争取好处增加夸张的保证，宁愿让${other}从实际行动里判断。`,
+    'xrole-xiangzi':`${a}想靠自己把事情办妥，却不得不认真盘算，付出这一次以后还剩多少重新开始的力气。`,
+    'xrole-huniu':`${a}不愿把机会让给迟疑，先把要求摆到${other}眼前，等一个能够立即实行的答复。`,
+    'xrole-juexin':`${a}习惯先顾全别人，伸手答应以前却又停下，发现这次退让仍会伤到自己在意的人。`,
+    'xrole-hongniang':`${a}先弄清双方各怕什么，再决定怎样传递这次要求，不肯只替${other}跑一趟就算了事。`,
+    'v23-role-eddie':`${a}把自己的干涉看作保护，${other}越想独自决定，越使这份保护显出控制。`,
+    'v23-role-joekeller':`${a}想先保住眼前安稳的生活，面对细节时却格外谨慎，担心一次追问会牵出更大的责任。`,
+    'role2-kristine-linde':`${a}不愿让${other}继续靠隐瞒维持平静，宁肯把难处摆明，再决定两个人能做什么。`,
+    'role2-ismene':`${a}先看见行动可能招来的危险，却又无法轻易转身，留下${other}独自承担。`,
+    'role2-lopakhin':`${a}先提出一项能立即实行的办法，不愿陪${other}只谈舍不得而不作决定。`,
+    'role2-cassandra':`${a}想让眼前的危险被认真对待，最难忍受的是${other}已经看见却仍装作没有关系。`,
+    'v23-sup-catherine':`${a}希望自己能独立选择，不愿每提出一个愿望，都先向${other}证明没有背叛。`,
     'xrole-pozzo':`${a}惯于替别人发号施令，很难把${other}的迟疑当作平等的拒绝。`,
     'role2-duncan':`${a}愿意先相信礼貌与善意，因此直到条件被说破，才察觉自己可能判断错了。`,
     'role-hamlet':`${a}想得到一个可靠的答案，却又怀疑眼前每个看似自然的反应。`,
@@ -4685,7 +7605,7 @@ function characterMotiveV40(card,other){
     'role-gogo':`${a}更在意眼下的疲惫与安顿，不愿让宏大的理由盖过此刻真实的难受。`,
     'v23-role-serge':`${a}要的并不只是一次赞同，而是别人承认他有权作出自己的判断。`,
     'role2-liu-siye':`${a}习惯把生意与家事都纳入自己能掌握的秩序，因此尤其不愿把决定权交出去。`,
-    'role2-creon':`${a}把个人的让步看作所有规矩松动的开端，这使他很难只把眼前的请求当作一件小事。`,
+    'role2-creon':`${a}把个人的让步看作所有规矩松动的开端，这使${a}很难只把眼前的请求当作一件小事。`,
   };
   return motives[card.id]||'';
 }
@@ -4694,26 +7614,176 @@ function warrenStoryV40(context){
   const {a,b,place,style,lead,method}=context;
   const sound=/广播|声音/.test(style.name);
   const exchange=/形体|手势|身体|无言/.test(method.name)
-    ? `${a}按住账簿，指着几笔欠账；${b}伸手遮住那些名字，把话题转回展览。${a}没有接他递来的资助款，仍指着账上尚未付清的数目。`
+    ? `${a}按住账簿，指着几笔欠账；${b}伸手遮住那些名字，把话题转回展览。${a}没有接${b}递来的资助款，仍指着账上尚未付清的数目。`
     : storyMethodV40(context);
   const purpose=lead.id==='v23-role-serge'
-    ? `${a}带着自己珍爱的白画来到${place.name}，想办一次小展览，让别人认真看待自己的选择。${b}愿意负担费用，条件是展览必须挂他的名字。`
-    : `${a}带着一幅画来到${place.name}，想办一次小展览。${b}愿意负担费用，条件是展览必须挂他的名字。`;
+    ? `${a}带着自己珍爱的白画来到${place.name}，想办一次小展览，让别人认真看待自己的选择。${b}愿意负担费用，条件是展览必须挂自己的名字。`
+    : `${a}带着一幅画来到${place.name}，想办一次小展览。${b}愿意负担费用，条件是展览必须挂自己的名字。`;
   return [
     `故事联想：取意于《华伦夫人的职业》，把不同作品中的人物放进一个虚构故事。${purpose}${a}起初觉得，这只是替对方留一点体面，至少终于有人肯为那幅画认真花钱。`,
-    `${a}随后发现，${b}的账簿里还压着几笔未付的工钱。他问这些人什么时候能拿到钱，${b}反问：展览不花这笔钱，你愿意自己补上吗？${exchange}`,
-    sound?`门外传来催账的声音。${a}起初只听见${b}笑着说“不会少你的”，随后听见脚步远去，笑声也立刻消失。他这才明白，自己盼望的资助，可能正是别人被一再拖延的报酬。`:`${a}终于承认，自己从前也曾接受同样来路的钱，只在轮到别人获利时才急着讲道德。${b}的讥讽击中了事实，却不能使那几笔拖欠的工钱自动消失。`,
-    `${a}把画带回去，决定先缩小展览规模。他没有因此变成一个毫无牵连的清白人：自己也曾把赞助当作别人应给的认可。${b}失去了挂名的机会，账上的欠款仍要偿还；两人各失去了一样想要的东西，却都不能再把代价推给门外等工钱的人。`,
+    `${a}随后发现，${b}的账簿里还压着几笔未付的工钱。${a}问这些人什么时候能拿到钱，${b}反问：展览不花这笔钱，你愿意自己补上吗？${exchange}`,
+    sound?`门外传来催账的声音。${a}起初只听见${b}笑着说“不会少你的”，随后听见脚步远去，笑声也立刻消失。${a}这才明白，自己盼望的资助，可能正是别人被一再拖延的报酬。`:`${a}终于承认，自己从前也曾接受同样来路的钱，只在轮到别人获利时才急着讲道德。${b}的讥讽击中了事实，却不能使那几笔拖欠的工钱自动消失。`,
+    `${a}把画带回去，决定先缩小展览规模。${a}没有因此变成一个毫无牵连的清白人：自己也曾把赞助当作别人应给的认可。${b}失去了挂名的机会，账上的欠款仍要偿还；两人各失去了一样想要的东西，却都不能再把代价推给门外等工钱的人。`,
   ];
 }
 
+function quietCharacterV53(card){return ['role-yuji','v23-role-silentman'].includes(card?.id);}
+function storyKeyV53(c){return !c.support?'solo':c.play.id==='yplay-mrswarren'?'warren':sceneArcsV40[c.play.id]?c.play.id:Object.keys(storySeedsV40).find(key=>storySeedsV40[key]===c.arc);}
+
+// Written and physical exchanges preserve the selected conflict without giving a non-speaking character dialogue.
+const quietStoriesV53={
+  'play-cherry':[
+    '{a}为庄园交接摆了一顿送别饭，请{b}留下见证。钥匙被放到两人中间，空着的席位看起来仍像在等待客人。',
+    '{a}把交接书推过来，{b}却指着尚未吃完的饭。一个人想先完成让权，另一个人仍以为留下是被允许的。',
+    '{b}伸手取回钥匙，{a}却按住不放。饭桌上的客气安排突然失效，谁是主人、谁必须离开，已经由这个动作分清。',
+    '{b}把“留下的人怎么办”写在交接书的空处。{a}停下招待的动作，第一次正面处理那顿送别饭一直遮住的问题。'],
+  'play-oedipus':[
+    '{a}带来一份旧案记录，请{b}补出最后一段经过。两人照着记录在地上标位置，起初所有疑点都指向别处。',
+    '{b}把一个标记推到{a}面前，要确认当时的位置。{a}将标记推回，仍把证词摆向另一个方向。',
+    '两人重走那条路线，{a}主动纠正了一处只有在场者才知道的细节。手刚伸出去，追问便已经落回自己身上。',
+    '{b}让出核对记录的位置，没有代替任何人作结论。{a}坐下，把原本准备要求别人解释的部分，逐项标在自己的名字旁。'],
+  'play-hamlet':[
+    '{a}给{b}看一段写好的交接过程，想从对方的反应中找出隐情。{b}把其中一个位置空出来，请{a}亲自补上。',
+    '两人照着纸上的次序行动，{a}逐渐发现，自己也必须亲手完成那段原本只想用来试探别人的经过。',
+    '{b}突然停住，指向被删掉的一行。{a}先把中断当成了答案，重新看过纸上的空缺后，却无法再坚持原先的判断。',
+    '缺掉的内容终于被补回，{b}带走那份记录。{a}留在原处，下一次若还要追问，就必须拿出比一次停手更可靠的证据。'],
+  'play-macbeth':[
+    '{a}把自己的名牌摆到空着的席位前，请{b}见证。{b}没有阻止，却指向先前坐在那里的人的位置。',
+    '{a}避开这个示意，只顾把名牌摆正。{b}每靠近一步，{a}就把手伸向席位，仿佛还需要再争一次。',
+    '席位终于归了{a}，脚步声却不断使人回头。刚才的见证者也被挡在近处，{b}明白自己已经成了被防备的人。',
+    '{b}把名牌留在原处，不再作安全的保证。到了天亮，{a}仍反复起身查看身后，想要的位置到手了，却没能安心坐下。'],
+  'play-godot':[
+    '{a}给没到的人留了一个位置，{b}收拾好东西等着离开。{a}又指向手边的一件小事，两人于是把行程往后推。',
+    '那件事已经做完，{a}又去确认来人的方向。{b}把东西拿起再放下，离开的决定始终没有变成真正的一步。',
+    '两人同时迎向远处的动静，却只找回自己先前留下的标记。要等的人没来，手里反而多了一件还得放回去的东西。',
+    '{a}与{b}都朝离开的方向点了头，脚却留在原处。最后，标记又被放回那个空位，两人仍替没来的人留着地方。'],
+  'play-doll':[
+    '{a}把自己的行李放到身旁，交给{b}一张列着问题的纸。{b}想沿用熟悉的安抚动作，却没有得到从前的回应。',
+    '{b}逐项指着那些周全的安排，{a}则把从未征得同意的地方圈出。圈得越多，那件准备带走的行李就越难被忽略。',
+    '{b}写下“一切照旧”，{a}却把这四个字单独划了出来。需要改变的不只是一项安排，还有决定什么才算正常的权利。',
+    '{a}收回问题和行李，没有再交代自己的去向。{b}停在空出来的位置旁，终于不能把对方留下当作不必征求意见的事。'],
+  'play-teahouse':[
+    '{a}照旧摆好杯子，请{b}坐下，想让今日的生意继续。{b}却带来新的规矩，把空着的杯子又推了回来。',
+    '{a}一项项调整桌上的安排，只求这位客人留下。{b}几次准备落座，又被新条件逼得站起，杯子始终没有用上。',
+    '安排终于谈妥，{a}转向门口准备迎客，外面却已没有人等候。忙了一整场的让步，没能换来继续做生意的机会。',
+    '{b}帮助摆完最后一只杯子，却没有坐下。{a}向空着的入口作了一个招呼的手势，等不到回应，才把杯子慢慢收回。'],
+  'play-thunder':[
+    '{a}按惯例接待{b}，来人却先抚过一件旧物，又在纸上写出一个被避而不谈的名字。两人都停在了那件东西旁。',
+    '{a}试图把见面恢复成普通的问候，{b}却将旧物转回从前的方向。整齐的摆设里，那段被抹去的生活重新显了出来。',
+    '{a}伸手盖住那个名字，这个动作反而使{b}确认，对方并没有忘记。所谓记不清，只是一直不愿让那段过去重新出现。',
+    '{b}走回原先被赶开的地方，不再解释旧物。{a}若想恢复从前的安排，就得先经过这个仍站在面前的人。'],
+  'play-peony':[
+    '{a}递给{b}一张等候签名的纸，指向写着安全离开的那一行。{b}没有马上动笔，而是从头重新核对每一个字。',
+    '纸上的内容比先前答应的更多，{b}把多出的部分指给{a}看。两人都停在那处空白，谁也不能把签名当成普通手续。',
+    '{b}试着将整张纸带走，{a}立刻伸手拦下。原来需要被留下的不是事情的经过，而是一个可以展示给别人的名字。',
+    '{b}收回笔，让名字停在未落下的地方。{a}必须重新处理眼前的选择：允许这个人离开，还是继续索取服从的证明。'],
+  'play-salesman':[
+    '{a}摊开记录成绩的本子，等着{b}给予肯定。{b}却把今天急需处理的事情摆到旁边，既没点头，也没有称赞。',
+    '{a}每翻出一段过去的成绩，{b}就指向一件眼前的困难。两人都想得到回应，桌上却像放着两种互不相干的生活。',
+    '{b}合上本子，写明自己达不到那些期待，也不想再靠成功证明关系。{a}等来的回应，偏偏是拒绝继续表演成功。',
+    '{a}再次打开本子，却找不到能接住这个答复的一页。{b}仍留在近处，等对方放下成绩，重新看见站在面前的这个人。'],
+  'play-goodperson':[
+    '{a}把仅剩的物资递向{b}，递到半途却停住了。答应出去的帮助，也正是自己明天必须依靠的东西。',
+    '{a}换了站姿，把先前允许的交接推开，像换了一个作主的人。{b}却指向刚才留下的承诺，不肯把责任交给一个新身份。',
+    '{b}重做了一遍最初获得帮助的动作，{a}再也无法装成另一人。同一个身体，既承受索取，也承受刚才许诺的后果。',
+    '{a}把物资放回两人中间，卸下那副强硬的姿态。{b}第一次看清答应帮忙的人同样没有退路，争执才转向明天究竟怎样生活。'],
+  'play-lear':[
+    '{a}把标出份额的图交给{b}，等待足够热切的表态。{b}没有增加讨好的动作，而是指向图外，询问分完以后谁还能留下。',
+    '{a}继续划出最后一块地方，以为自己的位置无需另作安排。{b}却把已经给出去的份额一一标明，没有替对方留白。',
+    '最后一块也被分出，{a}准备回到自己的位置，才发现图上已经没有属于自己的地方。先前的承诺并不能自动变成接纳。',
+    '{a}放下图，向{b}伸手请求一个具体的位置。{b}是否愿意侧身相让，比开场时所有动听的表态都更能说明关系。'],
+  'play-othello':[
+    '{a}拿出一方手帕，请{b}解释它为何到了自己手里。{b}把几次交接的位置标出来，想让对方看完整条路线。',
+    '{a}每次都停在最后一个位置，坚持那已经足够。{b}不肯让这个结尾代替全部经过，两人只好从这里倒着重走。',
+    '走回一次先前无人留意的停顿，两人发现手帕曾被移过位置。东西是真的，{a}替它补上的那段故事却并不完整。',
+    '{b}把手帕留在原地，请{a}先看向自己，再判断那件东西。物证还在，凭它夺走对方解释机会的把握却已经消失。'],
+  'play-antigone':[
+    '{a}捧着一把土，请{b}让路。{b}却将禁令举到两人中间，要求先确认哪些行动不被允许。',
+    '{a}看完禁令，仍没有放下手里的土。{b}把这个坚持记录下来，原本只有一步路的请求，逐渐变成追究违令的证据。',
+    '{b}示意{a}低头，{a}却借这个俯身的动作把土覆了下去。命令没有撤回，被禁止的那件事已经完成。',
+    '{a}直起身，不再请求通行。{b}必须决定是否亲手抹去眼前的土，接下来的责任终于不能再交给一条抽象禁令。'],
+  'play-xixiang':[
+    '{a}托{b}转交一封不能公开的信，只允许送到，不允许拆开。{b}没有马上接手，先指向可能拦下这趟传递的地方。',
+    '{b}一次次把信退回来，要求{a}先说明由谁承担被发现的后果。信越显得重要，传话的人就越不能被当成没有代价的帮手。',
+    '信终于被送出，{b}却原样带了回来。收信的人留下短短的要求：必须亲自到场，不能再只靠一封信决定两人的未来。',
+    '{a}收起信，跟着{b}走向原先不敢靠近的位置。最后的答复没有留在纸上，必须由在场的人看清彼此是否愿意继续。'],
+  'play-visit':[
+    '{a}提出一项有回报的条件，请{b}转告其他人。{b}当场拒绝，却没有退回写着许诺的那张纸。',
+    '{b}开始安排许诺兑现后的生活，仍坚持没有答应。{a}指向这些安排，等待对方说明谁将为它们承担代价。',
+    '{b}发现每个人都在等别人先表示同意，自己先前的拒绝已经被略过去。好处的去向清清楚楚，责任却始终没有主人。',
+    '{a}将条件原样摆回面前，{b}这次不能借大家的沉默代答。那些已经开始享用的好处，仍在等一个明确负责的名字。'],
+  'play-glass':[
+    '{a}拿出平日藏着的小兽给{b}看，容许对方靠近自己的角落。{b}小心接住，那点珍藏第一次离开了原来的位置。',
+    '{b}邀请{a}试着走出来，两人的距离缩短了。{a}暂时忘记护住小兽，一个没有留意的动作使它受了损。',
+    '{b}把自己另有去处的消息留在纸上，{a}才知道这次靠近并不是新的承诺。破损的珍藏与不得不接受的离别同时留了下来。',
+    '{a}没有阻拦{b}离开，独自给小兽找一个还能站稳的位置。来客走远后，这个微小的整理动作仍在继续。'],
+  'xplay-seagull':[
+    '{a}为{b}准备了一段新作，递出评看的邀请。表面等的是意见，真正希望得到的却是对方愿意留下的表示。',
+    '{b}认真给出意见，{a}却把每处修改都看成拒绝。那段已经完成的东西被一次次重新摆开，答复仍没有到达彼此想要的位置。',
+    '{b}把喜欢作品与答应陪伴分成两项，分别作了回答。{a}才看清，自己一直用一个问题索取另一个问题的答案。',
+    '{b}离开观看的位置，{a}没有再重复邀请。那段无人接话的结尾仍留着，这一次必须由自己把它完成。'],
+  'play-rhino':[
+    '{a}把礼物交给{b}，表示不需要回报，身体却挡住了离开的方向。{b}没有把收下东西当成答应留下。',
+    '{a}将为对方做过的事一项项列出，{b}却只指向被挡住的路。每多一份付出，能退开的距离反而更少。',
+    '{b}把礼物放下，重新标明自己的选择。{a}终于无法把客气或沉默再算成期待中的同意，交接停在了明确的拒绝上。',
+    '{a}必须先让开一步，才能知道{b}是否还愿意回来。两人没有拥抱收场，留下的通路比礼物与表白更需要被看见。'],
+  'play-medea':[
+    '{a}将行李放到门边，请{b}容许最后一点停留。{b}点头，以为只要给出这个期限，这次送行就算足够体面。',
+    '{a}逐件取出曾经共同使用的东西，{b}却只指向离开的时间。一个人正在清算过去，另一个人只想尽快完成送行。',
+    '{a}突然把行李全部摊开，拒绝让共同生活被一次整齐的搬走遮住。{b}才发现，允许停留并不能替对方决定怎样使用这段时间。',
+    '{b}停下催促，{a}仍没把旧物放回去。那些曾经共同用过的东西留在中间，这场驱逐再也无法被包装成两不相欠。'],
+  money:[
+    '{a}带着一笔钱来资助{b}，却不愿留下姓名。{b}把账簿翻开，请对方先写明来处，再决定这笔钱能不能接。',
+    '{a}把数目一再加大，{b}却指向同页的欠账。原来想靠慷慨换来的认可，并不能让别人一直拿不到的报酬消失。',
+    '{a}在账旁标出自己也曾受益的部分，{b}也不能再把责任全推给出资人。一本账簿把两人的牵连并排留了下来。',
+    '两人先列清欠款，再讨论余下的钱能做什么。没有谁在账上写下清白的结论，那件好事只能等债务被处理以后继续。'],
+  secret:[
+    '{a}带来一份缺页的记录，请{b}帮助洗清嫌疑。{b}辨认出了纸上的字，却避开了中间那一处空白。',
+    '{a}逐项标出日期，{b}记得无关紧要的细节，却偏偏略过决定责任的那天。不补上这一页，就还会有人替他们承担后果。',
+    '{b}终于交出藏起的那一页。它证明{a}没有做过被指控的事，也留下了当时明知真相却选择不介入的记录。',
+    '{a}把散页装回去，保留了对自己不利的部分。{b}陪着将完整记录交出，两人没有要求立刻被原谅，但下一个人不必再靠猜测补完真相。'],
+  choice:[
+    '{a}带来一份已经写好的约定，请{b}签下名字。{b}从头看完，才发现这份周全的未来里没有一项经过自己的同意。',
+    '{a}指着那些优厚的条件，{b}却在旁边写下一个问题：如果拒绝，关系是否仍能继续。原先顺利的安排停在这里。',
+    '{b}划掉最有利的一项，宁愿承担损失，也不肯把选择交出去。{a}第一次看到，给予得更多并不意味着能替对方决定。',
+    '{a}留下约定让{b}修改，带走未被接受的礼物。第二天的回信只有一项新条件：下次先询问，而不是先安排。'],
+  shelter:[
+    '{a}守着仅剩的储备，打算独自撑过这一夜。{b}请求分走一半，却拿不出能立即兑现的交换条件。',
+    '两人把东西摆到中间，{a}仍没有松手。{b}指向自己已经无处可去的方向，那份拒绝也因此变得不再轻松。',
+    '外面的动静逼近，{b}先担起一件危险的事。{a}看见眼前的人并非只来索取，独自保住储备也未必能保住安全。',
+    '两人重新分好今夜要用的东西，没有许下长久的保证。天亮时储备比从前更少，{a}却不必再独自确认门外的动静。'],
+  identity:[
+    '{a}借用另一个名字来见{b}，起初很容易便获得了接纳。{b}随后取出与那个名字有关的旧物，等待对方辨认。',
+    '{a}试图补出更多细节，{b}却把疑问标得越来越具体。借来的名声连着一段自己没有经历过的过去，无法只取好处。',
+    '{b}写下{a}真正的名字，表明早已识破，只是在等对方何时停止。那份以为已经赢来的尊重，原来始终没有真正到手。',
+    '{a}摘下名牌，重新留下自己的名字与来意。{b}没有保证给予相同的机会，却肯继续看完这个不再借别人经历的理由。'],
+  waiting:[
+    '{a}与{b}守着刚刚送到的信，谁都没有先拆。两人知道它可能结束等待，却各自把开信的机会让给对方。',
+    '{a}准备着收到好消息后的日子，{b}却把离开的东西放到近处。两人看起来都能接受结果，实际只准备了自己愿意面对的那一种。',
+    '信终于打开，里面没有承诺，只解释了迟迟没有答复的原因。{b}承认早已猜到，只是不愿先打破两人共同维持的希望。',
+    '两人完整看完信，没再替寄信的人补上借口。{b}拿起行李，{a}留下整理那些为未来准备的东西，离开与留下终于成为各自的选择。'],
+  warren:[
+    '{a}带着一幅画来到{place}，想办一次小展览。{b}愿意出资，却在约定上写下要求：展览必须挂自己的名字。',
+    '{a}发现账簿里还压着几笔未付的工钱，把那些名字指给{b}看。{b}则把展览费用推回面前，询问拒绝这笔钱后由谁补上。',
+    '{a}没有否认自己也曾接受同样来路的钱。{b}指出这份牵连，却不能因此划掉账上的欠款，两人的理由都遇到了实在的代价。',
+    '{a}带回画，决定缩小展览规模。{b}失去挂名的机会，工钱仍须偿还，谁也不能靠这次交接把责任推给等候报酬的人。'],
+};
+
+function quietStoryV53(c){
+  const beats=quietStoriesV53[storyKeyV53(c)];
+  return beats.map(text=>sceneTextV40(text,c));
+}
+
+
 function soloStoryV40(context){
   const {play,lead,place}=context,a=lead.name;
+  const quiet=quietCharacterV53(lead);
   return [
-    `故事联想：取意于《${play.name}》，以下为虚构的新故事。${a}独自留在${place.name}，等一封始终没有送到的回信。这一次，没有人能替他决定还要等多久。`,
-    `${a}把准备寄出的第二封信写了又改，发现自己要求对方解释的事，也从未在第一封信里坦白。${/光|暗|黑/.test(context.method.name)?'灯忽然熄了，他在黑暗中说出纸上不敢写的那句话。':/身体|形体|手势|无言/.test(context.method.name)?'他把信塞进信封，又抽出来撕开封口，双手反复的动作比任何解释都诚实。':'他没有继续添字，先把每一句请求后面省去的条件补写出来。'}`,
-    `天快亮时，${a}重新读完旧信，没有再把沉默解释成某种秘密的保证。${/声音|广播/.test(context.style.name)?'窗外的脚步几次使他误以为送信的人来了；听清声音渐渐远去，他才不再替每个动静编造一个好消息。':/荒诞|极简/.test(context.style.name)?'他写下“明天再说”，发现上一页、上上页也写着同样的话。这一次，他把日期写了上去。':'他把真正想问的问题写在纸上，第一次没有替收信的人预先写好答案。'}`,
-    `${a}带着新信离开${place.name}，原来的问题仍没有解决，但等待不再占去他的全部生活。下一次回信到来时，他希望自己已经能承受一个不同的回答。`,
+    `故事联想：取意于《${play.name}》，以下为虚构的新故事。${a}独自留在${place.name}，等一封没有送到的回信。没人能替这次等待规定结束的时候。`,
+    `${a}把第二封信写了又改，发现要求对方解释的事，自己也从未在第一封信里坦白。${characterMotiveV40(lead,'收信的人')}`,
+    /光|暗|黑/.test(context.method.name)?`灯忽然暗下去，${a}${quiet?'在黑暗中摸索着收好信纸，等亮起后补写那句一直没敢留下的话':'在黑暗中承认了那句纸上一直没敢留下的话'}。等光回来，空着的一行终于有了内容。`:/身体|形体|手势|无言/.test(context.method.name)?`${a}把信塞进信封，又抽出来拆开封口。反复的动作让问题变得清楚：寄出去就要容许一个自己不能决定的答案。`:`${a}没有继续增加要求，先把每一项请求后面省略的条件补上。写到最后，才看清自己也需要为这封信承担什么。`,
+    /声音|广播/.test(context.style.name)?`窗外的脚步几次使${a}抬头，随后又渐渐远去。没有回信到来，那些被当成好消息的动静，终于恢复了普通的声响。`:/荒诞|极简/.test(context.style.name)?`${a}又写下“明天再说”，才发现上一页也是同样的话。这次没有继续空着日期，等待第一次有了自己划下的界限。`:`天快亮时，${a}重新读完旧信，不再把沉默当成一种保证。真正想问的问题被留在纸上，收信人的答案则仍然空着。`,
+    `${a}带着新信离开${place.name}。问题还没解决，等待却不再占去全部生活；下一次回信到来时，至少这封信已经没有替对方预先作答。`,
   ];
 }
 function theatreReadingV40(context){
@@ -4723,29 +7793,41 @@ function theatreReadingV40(context){
     return `戏剧线索：《华伦夫人的职业》中，薇薇理解母亲早年的贫困处境，却不能接受她仍继续经营妓院获利，最终选择经济独立。作品把贫困如何限制选择、获利以后是否仍要负责，放进同一场母女争论。这则联想把问题转给接受赞助的人：拒绝一笔钱之后，能否承担自己的选择？${radio}`;
   }
   const theme=arc.premise?`《${play.name}》提供的联想入口，是${arc.premise}。`:`这则故事从《${play.name}》延伸出一个问题：当愿望需要别人付出代价时，谁有权决定？`;
-  const firstSentence=text=>copySentenceV39(String(text||'').match(/[^。！？]+[。！？]?/)?.[0]||'');
+  const firstSentence=text=>copySentenceV39((String(text||'').match(/[^。！？]+[。！？]?/g)||[]).find(sentence=>!/^一种舞台手段[。！？]?$/.test(sentence.trim()))||'');
   const note=firstSentence(style.note||style.blurb);
   const methodNote=firstSentence(method.note||method.blurb);
   return `戏剧线索：${copySentenceV39(play.note||play.blurb)}${theme}${note?`${style.name}：${note}`:''}${methodNote?`${method.name}的具体含义是：${methodNote}`:'人物是否改变决定，仍要从愿望、阻力和代价之间的关系来理解。'}`;
 }
 function nn(cards){
-  const context=sceneContextV40(cards),{play,arc,a,b}=context;
-  if(!context.support)return [...soloStoryV40(context),theatreReadingV40(context)];
-  if(play.id==='yplay-mrswarren')return [...warrenStoryV40(context),theatreReadingV40(context)];
-  const space=storyPlaceV40(context);
+  const c=sceneContextV40(cards),{play,arc,a,b}=c;
+  if(!c.support)return soloStoryV40(c);
+  const quiet=quietCharacterV53(c.lead)||quietCharacterV53(c.support);
+  if(quiet){
+    const [opening,exchange,reveal,ending]=quietStoryV53(c),space=storyPlaceV40(c);
+    return [`故事联想：取意于《${play.name}》，以下相遇与事件均为虚构。${space.open}${opening}`,
+      exchange+characterMotiveV40(c.lead,b),storyMethodV40(c)+reveal,space.turn+storyStyleV40(c)+characterMotiveV40(c.support,a),ending];
+  }
+  if(play.id==='yplay-mrswarren'){
+    const [opening,exchange,reveal,ending]=warrenStoryV40(c);
+    return [opening,exchange,reveal,storyStyleV40(c)+characterMotiveV40(c.support,a),ending];
+  }
+  const space=storyPlaceV40(c);
   return [
-    `故事联想：取意于《${play.name}》，以下相遇与事件均为虚构。${space.open}${sceneTextV40(arc.opening,context)}${characterMotiveV40(context.lead,b)}`,
-    `${sceneTextV40(arc.exchange,context)}${characterMotiveV40(context.support,a)}${storyMethodV40(context)}`,
-    `${space.turn}${sceneTextV40(arc.reveal,context)}${storyStyleV40(context)}`,
-    sceneTextV40(arc.ending,context),
-    theatreReadingV40(context),
+    `故事联想：取意于《${play.name}》，以下相遇与事件均为虚构。${space.open}${sceneTextV40(arc.opening,c)}`,
+    characterMotiveV40(c.lead,b)+sceneTextV40(arc.exchange,c)+characterMotiveV40(c.support,a),
+    storyMethodV40(c)+sceneTextV40(arc.reveal,c),
+    space.turn+storyStyleV40(c),
+    sceneTextV40(arc.ending,c),
   ];
 }
 function shortScene(cards){
-  const context=sceneContextV40(cards),{play,place,arc,support,a,b}=context;
-  if(!support)return `故事联想：取意于《${play.name}》。${a}独自在${place.name}等一封没有到来的回信，却在重读旧信时发现，自己也一直没有坦白真正的问题。等下去还是寄出另一封信，终于只能由他自己决定。`;
-  if(play.id==='yplay-mrswarren')return `故事联想：${a}想在${place.name}办一次画展，${b}愿意出资，却要把自己的名字挂上去。门外催讨工钱的人让这份慷慨变了意味：${a}若拒绝赞助，就得缩小自己的愿望；${b}也不能拿一次善举抵消拖欠。此为借《${play.name}》展开的虚构故事。`;
-  return `故事联想：取意于《${play.name}》，在${place.name}虚构一次相遇。${sceneTextV40(arc.teaser,context)}`;
+  const c=sceneContextV40(cards),{play,place,arc,support,a,b}=c;
+  if(!support){const parts=soloStoryV40(c);return `故事联想：取意于《${play.name}》，以下为虚构故事。${a}独自在${place.name}等回信，准备寄出的第二封信改了又改，最难留下的恰是自己一直没坦白的问题。${parts[2]}${parts[3]}${parts[4]}`;}
+  const first=text=>text.match(/[^。！？]+[。！？]?/)?.[0]||'';
+  const effects=storyMethodV40(c)+storyStyleV40(c)+first(storyPlaceV40(c).turn);
+  if(quietCharacterV53(c.lead)||quietCharacterV53(support))return `故事联想：取意于《${play.name}》，在${place.name}虚构一次相遇。${quietStoryV53(c)[0]}${effects}${quietStoryV53(c)[2]}`;
+  if(play.id==='yplay-mrswarren')return `故事联想：${a}想在${place.name}办画展，${b}愿意出资，却要把自己的名字挂上去。催讨工钱的人使这份慷慨变了意味，拒绝赞助就得缩小展览。${effects}此为借《${play.name}》展开的虚构故事。`;
+  return `故事联想：取意于《${play.name}》，在${place.name}虚构一次相遇。${sceneTextV40(arc.teaser,c)}${effects}`;
 }
 // Titles follow the same story branches as nn; card IDs keep replays and posters stable.
 const storyTitlesV52 = {
@@ -5063,9 +8145,9 @@ if(typeof module!=='undefined'&&module.exports)module.exports={copySentenceV39,s
 
 applyCopyOverridesV39(e,cardEssays);
 // V39_COPY_END
-var Xn=`diamasha.owned`,J=window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,Zn=document.querySelector(`#app`),Qn=document.getElementById(`toast`);function $n(){try{let e=JSON.parse(localStorage.getItem(Xn)||`[]`);return new Set(Array.isArray(e)?e:[])}catch{return new Set}}function er(e){let t=$n();t.add(e);try{localStorage.setItem(Xn,JSON.stringify([...t]))}catch{}Y.owned=[...t]}var Y={view:`home`,index:0,drawn:[],pack:`mix`,packCard:null,albumDim:`全部`,albumSort:`no`,owned:[...$n()],fromShare:!1,sheet:null,problems:[],task:Me(),bundle:[],booster:null,fromPack:!1,slot:``,loop:loadLoop(),talkOpen:!1,keptShare:null},X=0,tr=!1,nr=0;function rr(e){let t=`m=${e}`;if(location.protocol===`file:`)return`#${t}`;let n=new URL(location.href);return n.search=``,n.hash=t,n.toString()}function ir(e){try{return sessionStorage.getItem(`diamasha.owner`)!==e}catch{return!0}}function ar(){let t=Y.view===`result`&&[5,6].includes(Y.drawn.length)?w(Y.drawn):``,n=null;if(Y.sheet?.kind===`help`&&(n={kind:`help`}),Y.sheet?.kind===`tasks`&&(n={kind:`tasks`,rows:Pe(Y.task,Y.owned.length),charges:Y.task.charges}),Y.sheet?.kind===`packs`&&(n={kind:`packs`}),Y.sheet?.kind===`card`){let t=e.find(e=>e.id===Y.sheet.id);t&&(n={kind:`card`,card:t,tag:Y.sheet.tag||``,conceal:!!Y.sheet.conceal})}return{view:Y.view,muted:Ce(),index:Y.index,drawn:Y.drawn,current:Y.drawn[Y.index]||null,fromShare:Y.fromShare,sheet:n,share:t?rr(t):``,canShare:typeof navigator.share==`function`,poolSize:activeCards.length,problems:Y.problems,pack:Y.pack,packName:(oe.find(e=>e.id===Y.pack)||{}).name||``,packCard:Y.packCard,charges:Y.task.charges,bundle:Y.bundle,booster:Y.booster,fromPack:Y.fromPack,mixCount:Y.task.mix,albumDim:Y.albumDim,albumSort:Y.albumSort,owned:Y.owned.filter(id=>activeCardIdsV39.has(id)),pool:activeCards,slot:Y.slot||``,loop:currentLoop(),talkOpen:!!Y.talkOpen,taskRows:Pe(Y.task,Y.owned.length),fromShare:Y.fromShare}}function Z({preserveScroll:e=!1}={}){X+=1,tr=!1;revealClearV40();stopProductionV40();stopHomeFloatV40();const top=e?document.scrollingElement?.scrollTop??0:0,sheetTop=e?document.querySelector('.sheet')?.scrollTop??0:0;recordPageV42();Zn.innerHTML=qn(ar());restoreRevealIntroV40();startHomeFloatV40();document.body.classList.toggle('sheet-open',!!Y.sheet);if(document.scrollingElement)document.scrollingElement.scrollTop=top;const sheet=document.querySelector('.sheet');if(e&&sheet)sheet.scrollTop=sheetTop;if(Y.view===`result`&&(Y.drawn||[]).length)queueTalkEnter();else if(Y.view===`pack`&&Y.booster?.phase===`spread`)enterProductionV40();}
+var Xn=`diamasha.owned`,J=window.matchMedia(`(prefers-reduced-motion: reduce)`).matches,Zn=document.querySelector(`#app`),Qn=document.getElementById(`toast`);function $n(){try{let e=JSON.parse(localStorage.getItem(Xn)||`[]`);return new Set(Array.isArray(e)?e:[])}catch{return new Set}}function er(id){const owned=new Set([...$n(),...(Y.owned||[])]);owned.add(id);Y.owned=[...owned];try{localStorage.setItem(Xn,JSON.stringify(Y.owned))}catch{storageFailureV53()}}var Y={view:`home`,index:0,drawn:[],pack:`mix`,packCard:null,albumDim:`全部`,albumSort:`no`,albumPage:0,owned:[...$n()],fromShare:!1,sheet:null,problems:[],task:Me(),bundle:[],booster:null,fromPack:!1,slot:``,loop:loadLoop(),talkOpen:!1,keptShare:null,rehearsal:null,rehearsalPreview:''},X=0,tr=!1,nr=0;function rr(e){let t=`m=${e}`;if(location.protocol===`file:`)return`#${t}`;let n=new URL(location.href);return n.search=``,n.hash=t,n.toString()}function ir(e){try{return sessionStorage.getItem(`diamasha.owner`)!==e}catch{return!0}}function ar(){let t=Y.view===`result`&&[5,6].includes(Y.drawn.length)?w(Y.drawn):``,n=null;if(Y.sheet?.kind===`help`&&(n={kind:`help`}),Y.sheet?.kind===`tasks`&&(n={kind:`tasks`,rows:Pe(Y.task,Y.owned.length),charges:Y.task.charges}),Y.sheet?.kind===`packs`&&(n={kind:`packs`}),Y.sheet?.kind===`card`){let t=e.find(e=>e.id===Y.sheet.id);t&&(n={kind:`card`,card:t,tag:Y.sheet.tag||``,conceal:!!Y.sheet.conceal})}return{view:Y.view,muted:Ce(),index:Y.index,drawn:Y.drawn,current:Y.drawn[Y.index]||null,fromShare:Y.fromShare,sheet:n,share:t?rr(t):``,canShare:typeof navigator.share==`function`,poolSize:activeCards.length,problems:Y.problems,pack:Y.pack,packName:(oe.find(e=>e.id===Y.pack)||{}).name||``,packCard:Y.packCard,charges:Y.task.charges,bundle:Y.bundle,booster:Y.booster,fromPack:Y.fromPack,mixCount:Y.task.mix,albumDim:Y.albumDim,albumSort:Y.albumSort,albumPage:Y.albumPage,owned:Y.owned.filter(id=>activeCardIdsV39.has(id)),pool:activeCards,slot:Y.slot||``,loop:currentLoop(),talkOpen:!!Y.talkOpen,rehearsal:Y.rehearsal,rehearsalPreview:Y.rehearsalPreview,taskRows:Pe(Y.task,Y.owned.length),fromShare:Y.fromShare}}function Z({preserveScroll:e=!1}={}){captureSheetFocusV53();X+=1,tr=!1;revealClearV40();stopProductionV40();stopHomeFloatV40();const top=e?document.scrollingElement?.scrollTop??0:0,sheetTop=e?document.querySelector('.sheet')?.scrollTop??0:0;if(Y.view==='result')Y.rehearsal=reconcileRehearsalV53();recordPageV42();saveSessionV53();document.querySelector('.poster-dialog')?.close();Zn.innerHTML=qn(ar());restoreRevealIntroV40();startHomeFloatV40();document.body.classList.toggle('sheet-open',!!Y.sheet);const screen=Zn.querySelector('.screen');if(screen)screen.inert=!!Y.sheet;restoreSheetFocusV53();if(document.scrollingElement)document.scrollingElement.scrollTop=top;const sheet=document.querySelector('.sheet');if(e&&sheet)sheet.scrollTop=sheetTop;if(Y.view===`result`&&(Y.drawn||[]).length)queueTalkEnter();else if(Y.view===`pack`&&Y.booster?.phase===`spread`)enterProductionV40();}
 function revealTagTip(){const sheet=document.querySelector('.sheet'),tip=sheet?.querySelector('.tag-tip');if(!tip)return;const bounds=sheet.getBoundingClientRect(),rect=tip.getBoundingClientRect();if(rect.bottom>bounds.bottom-12)sheet.scrollTop+=rect.bottom-bounds.bottom+12;else if(rect.top<bounds.top+12)sheet.scrollTop+=rect.top-bounds.top-12;}
-function Q(e){Qn&&(Qn.textContent=e,Qn.classList.add(`show`),window.clearTimeout(nr),nr=window.setTimeout(()=>Qn.classList.remove(`show`),1600))}function or(){(location.hash||location.search)&&history.pushState(null,``,location.pathname)}function sr(){if(tr||Y.view!==`pull`||Y.drawn[Y.index])return;let t=x[Y.index],n=te(e,t.key);Y.drawn[Y.index]=n,er(n.id),tr=!0;let r=X,i=document.querySelector(`.flip`),a=i?.querySelector(`.flip-front`);if(!i||!a){tr=!1;return}a.innerHTML=`<button type="button" class="front-hit" data-action="detail" data-id="${K(n.id)}" aria-label="看${K(n.name)}的释义">${Cn(n)}</button>`,i.classList.add(`rarity-${n.rarity}`,`is-charging`);let o=i.querySelector(`[data-action='open']`);o&&(o.disabled=!0),De(n.rarity);window.setTimeout(()=>{r===X&&(i.classList.remove(`is-charging`),i.classList.add(`is-flipped`,`is-burst`))},J?0:Jn[n.rarity]||0),window.setTimeout(()=>{if(r!==X)return;Oe(n.rarity);let e=document.getElementById(`reveal-panel`);e&&(e.innerHTML=Dn(n,Y.index===x.length-1),e.className=`reveal-panel tone-${n.rarity}`),tr=!1,e?.querySelector(`[data-action='keep']`)?.focus({preventScroll:!0})},J?20:Yn[n.rarity]||800)}function cr(){lastSharePoster=null,Y.view=`pack`,Y.pack=`mix`,Y.packCard=null,Y.sheet=null,Y.fromPack=!1,Y.booster={phase:`sealed`,cards:[],index:0,tutorial:de(Y.task.mix),tutorialNo:Y.task.mix+1,revealDone:!1,askSkip:!1},or(),Z()}function preambleLines(card) {
+function Q(e){Qn&&(Qn.textContent=e,Qn.classList.add(`show`),window.clearTimeout(nr),nr=window.setTimeout(()=>Qn.classList.remove(`show`),1600))}function or(){(location.hash||location.search)&&history.pushState(null,``,location.pathname)}function sr(){if(tr||Y.view!==`pull`||Y.drawn[Y.index])return;let t=x[Y.index],n=te(e,t.key);Y.drawn[Y.index]=n,er(n.id),tr=!0;let r=X,i=document.querySelector(`.flip`),a=i?.querySelector(`.flip-front`);if(!i||!a){tr=!1;return}a.innerHTML=`<button type="button" class="front-hit" data-action="detail" data-id="${K(n.id)}" aria-label="看${K(n.name)}的释义">${Cn(n)}</button>`,i.classList.add(`rarity-${n.rarity}`,`is-charging`);let o=i.querySelector(`[data-action='open']`);o&&(o.disabled=!0),De(n.rarity);window.setTimeout(()=>{r===X&&(i.classList.remove(`is-charging`),i.classList.add(`is-flipped`,`is-burst`))},J?0:Jn[n.rarity]||0),window.setTimeout(()=>{if(r!==X)return;Oe(n.rarity);let e=document.getElementById(`reveal-panel`);e&&(e.innerHTML=Dn(n,Y.index===x.length-1),e.className=`reveal-panel tone-${n.rarity}`),tr=!1,e?.querySelector(`[data-action='keep']`)?.focus({preventScroll:!0})},J?20:Yn[n.rarity]||800)}function cr(){Y.rehearsal=null;Y.rehearsalPreview='';lastSharePoster=null,Y.view=`pack`,Y.pack=`mix`,Y.packCard=null,Y.sheet=null,Y.fromPack=!1,Y.booster={phase:`sealed`,cards:[],index:0,tutorial:de(Y.task.mix),tutorialNo:Y.task.mix+1,revealDone:!1,askSkip:!1},or(),Z()}function preambleLines(card) {
   const count = { SR: 3, SSR: 4, UR: 5, LR: 6 }[card?.rarity] || 0;
   if (!count) return [];
   const sentences = text => (String(text || '').match(/[^。！？!?\n]+[。！？!?]+[”’」』）)]*|[^。！？!?\n]+$/g) || [])
@@ -5273,16 +8355,17 @@ function hexFinish(){
 
 function paintRadar(prog,all){const area=document.querySelector('.hex-area');if(!area)return;const raw=area.getAttribute('data-base-points')||area.dataset.basePoints||``;if(!raw.trim())return;area.dataset.basePoints=raw.trim();const cx=170,cy=128;const base=raw.trim().split(/\s+/).map(pair=>pair.split(`,`).map(Number));const n=base.length;const src=all==null?(prog||window.__dgRadarProg||Array(n).fill(0)):Array(n).fill(all);const t=i=>Math.max(0,Math.min(1,Number(src[i])||0));const pts=base.map((pt,i)=>{const k=t(i);return [cx+(pt[0]-cx)*k,cy+(pt[1]-cy)*k]});if(typeof roundedPolyPath===`function`)area.setAttribute(`d`,'M'+pts.map(p=>p.join(',')).join(' L')+' Z');else area.setAttribute(`points`,pts.map(pt=>pt.join(`,`)).join(` `));document.querySelectorAll(`.hex-dot`).forEach((dot,i)=>{const k=t(i),x=Number(dot.dataset.baseCx),y=Number(dot.dataset.baseCy);dot.setAttribute(`cx`,String(cx+(x-cx)*k));dot.setAttribute(`cy`,String(cy+(y-cy)*k));dot.style.opacity=k<0.08?`0`:`1`});document.querySelectorAll(`.hex-corner .hex-value`).forEach((el,i)=>{const m=Number(el.dataset.final)||0,k=t(i);el.textContent=k<=0?``:String(Math.round(m*k))});window.__dgRadarProg=base.map((_,i)=>t(i))}function applyRadar(p){const area=document.querySelector('.hex-area');const raw=(area&&(area.getAttribute('data-base-points')||area.dataset.basePoints))||``;const n=raw.trim().split(/\s+/).filter(Boolean).length;paintRadar(Array(n).fill(p))}function setRadarAxis(i,p){const area=document.querySelector('.hex-area');const raw=(area&&(area.getAttribute('data-base-points')||area.dataset.basePoints))||``;const n=raw.trim().split(/\s+/).filter(Boolean).length;const prog=(window.__dgRadarProg||Array(n).fill(0)).slice();prog[i]=p;paintRadar(prog)}function queueTalkEnter(){enterProductionV40();}
 window.__dgDebug={open(cards,index=0,opts={}){if(!Array.isArray(cards)||!cards.length)return;Y.view=`pack`;Y.pack=opts.pack||`mix`;Y.packName=opts.packName||``;Y.packCard=null;Y.sheet=null;Y.fromPack=!1;Y.booster={phase:`card`,cards,index:Math.max(0,Math.min(index,cards.length-1)),tutorial:!1,tutorialNo:0,revealDone:!1,askSkip:!1,skipPreamble:!!opts.skipPreamble};if(opts.holdAfter!=null)window.__dgHoldAfter=opts.holdAfter;else delete window.__dgHoldAfter;Z();$()},openResult(cards,opts={}){if(!Array.isArray(cards)||!cards.length)return;Y.drawn=cards.slice();Y.view=`result`;Y.fromShare=!!opts.fromShare;Y.talkOpen=!1;Y.sheet=null;Y.fromPack=!0;Y.talkEnterDone=null;Y.talkEnterStarted=null;try{if(opts.forgetSeen){const key=w(Y.drawn);const arr=JSON.parse(sessionStorage.getItem(`diamasha.talkSeen`)||`[]`).filter(k=>k!==key);sessionStorage.setItem(`diamasha.talkSeen`,JSON.stringify(arr))}}catch{}if(opts.holdAt!=null)window.__dgTalkHold=opts.holdAt;else delete window.__dgTalkHold;window.__dgTalkForceFull=!!opts.forceFull;Z()}};
-var lr=!1;function ur(){if(!Y.booster||Y.booster.phase!==`sealed`)return;if(Y.pack&&Y.pack!==`mix`){if(!Be(Y.task)){Y.sheet={kind:`tasks`},Z();return}let t=vr(se(activeCards,Y.pack),6);t.forEach(card=>er(card.id)),O(Y.task),Y.booster.cards=t,Y.booster.phase=`card`,Y.booster.index=0,Y.booster.revealDone=!1,Y.booster.askSkip=!1,checkMilestones(),Z(),$();return}let t=drawMixPack(activeCards);t.forEach(card=>er(card.id)),Le(Y.task),O(Y.task),Y.fromShare=!1,Y.keptShare=null,Y.booster.cards=t,Y.booster.phase=`card`,Y.booster.index=0,Y.booster.revealDone=!1,Y.booster.askSkip=!1,checkMilestones(),Z(),$()}function dr(){if(!Y.booster||Y.booster.phase!==`sealed`||lr)return;let e=document.querySelector(`.pack-deck`);e&&!J?(lr=!0,e.classList.add(`is-dealing`),window.setTimeout(()=>{lr=!1,ur()},380)):ur()}function fr(e){if(pe(e))return e;let t=x.map(t=>(e||[]).find(e=>e&&e.dimension===t.key)),n=new Set(t.filter(Boolean).map(e=>e.id));return t.every(Boolean)&&n.size===t.length?t:null}function enterSpread(){let e=Y.booster;if(!e||e.phase===`spread`)return;if(!e.cards||!e.cards.length){pr();return}e.phase=`spread`,e.revealDone=!0,e.askSkip=!1,e.showShare=!1;if(!(Y.pack&&Y.pack!==`mix`)){let t=fr(e.cards||[]);t&&(Y.drawn=t)}Z()}function pr(){if(Y.pack&&Y.pack!==`mix`){Y.bundle=Y.booster?.cards||[],Y.booster=null,Y.view=`bundle`,Y.sheet=null,Z();return}let e=fr(Y.booster?.cards||[]);Y.booster=null,e?(Y.drawn=e,Y.index=x.length-1,Y.fromPack=!0,xr()):(Y.view=`home`,Z())}function mr(){let e=Y.booster;!e||e.askSkip||e.phase!==`card`||e.index<=0||(--e.index,e.revealDone=!1,e.askSkip=!1,e.skipPreamble=!1,Z(),$())}function hr(e){let t=Y.booster;if(!t||t.askSkip)return;if(t.phase===`sealed`){dr();return}if(t.phase!==`card`)return;let n=t.cards[t.index];n&&ue(n.rarity)&&!t.revealDone&&!e?Q(`这张要看完，或点下一张`):t.index>=t.cards.length-1?enterSpread():(t.index+=1,t.revealDone=!1,t.askSkip=!1,t.skipPreamble=!1,Z(),$())}function gr(){let e=Y.booster;if(!e||e.phase!==`card`)return;let t=e.cards[e.index];if(t&&ue(t.rarity)&&!e.revealDone){e.askSkip=!0,Z();return}let n=e.index+1;for(;n<e.cards.length&&!ue(e.cards[n].rarity);)n+=1;n>=e.cards.length?enterSpread():(e.index=n,e.revealDone=!1,e.askSkip=!1,e.skipPreamble=!1,Z(),$())}function _r(){enterSpread()}function vr(e,t){let n=[],r=new Set,i=0;for(;n.length<t&&i<t*40;){i+=1;let t=ce(e);t&&!r.has(t.id)&&(r.add(t.id),n.push(t))}if(n.length<t)for(let i of e){if(n.length>=t)break;r.has(i.id)||(r.add(i.id),n.push(i))}return n}function yr(t){if(!(Y.task.charges>=1)){Y.sheet={kind:`tasks`},Z();return}Y.view=`pack`,Y.pack=t,Y.packCard=null,Y.sheet=null,Y.fromPack=!1,Y.bundle=null,Y.booster={phase:`sealed`,cards:[],index:0,tutorial:!1,tutorialNo:0,revealDone:!1,askSkip:!1},or(),Z()}function br(e){return ze(Y.task,e,Y.owned.length)?(O(Y.task),Q(`领到 1 次单维包`),!0):!1}function xr(){lastSharePoster=null;let e=w(Y.drawn);!Y.task.lineup&&!Y.task.claimed.lineup&&(Re(Y.task),O(Y.task),Q(`咫言咫语读完了，去任务里领一次单维包`));try{sessionStorage.setItem(`diamasha.owner`,e)}catch{}Y.view=`result`,Y.fromShare=!1,Y.talkOpen=!1,Y.sheet=null,history.pushState({lineup:e},``,`#m=${e}`),Z()}async function Sr(){let e=rr(w(Y.drawn));try{await navigator.clipboard.writeText(e),Cr()}catch{let t=document.createElement(`textarea`);t.value=e,t.setAttribute(`readonly`,``),t.style.cssText=`position:fixed;left:-9999px;top:0`,document.body.append(t),t.select();let n=!1;try{n=document.execCommand(`copy`)}catch{n=!1}t.remove();n?Cr():Q(`请长按链接自行复制`)}}
-async function shareOrCopy(){let e=rr(w(Y.drawn));if(typeof navigator.share==`function`){try{await navigator.share({title:`DiaGacha · 咫牌`,text:h(Y.drawn),url:e});return}catch(t){if(t?.name===`AbortError`)return}}await Sr()}function Cr(){Ie(Y.task),O(Y.task),br(`copy`)||Q(`链接已复制`)}function wr(){let t=ne(location.hash,location.search);if(t.kind===`none`)return Y.view===`result`||Y.view===`badlink`?(Y.view=`home`,Y.drawn=[],Y.sheet=null,Y.fromShare=!1,!0):!1;if(t.kind===`bad`)return Y.view=`badlink`,Y.sheet=null,!0;let n=re(e,t.ids);if(!n)return Y.view=`badlink`,Y.sheet=null,!0;let r=w(n);return Y.view===`result`&&[5,6].includes(Y.drawn.length)&&w(Y.drawn)===r?!1:(Y.drawn=n,Y.view=`result`,Y.sheet=null,Y.index=x.length-1,Y.fromShare=ir(r),!0)}function Tr(e){let t=e.target.closest(`[data-action]`);if(!t||!Zn.contains(t))return;let n=t.dataset.action;if(n===`page-back`||n===`page-forward`){turnPageV42(n===`page-back`?-1:1);return;}if(n===`close-sheet`){if(t.classList.contains(`overlay`)&&e.target!==t)return;Y.sheet=null,Z({preserveScroll:!0}),Y.view===`pack`&&Y.booster?.phase===`card`&&!Y.booster.revealDone&&$()}else if(n===`mute`){let e=we();document.querySelectorAll(`[data-action='mute']`).forEach(t=>{t.setAttribute(`aria-pressed`,e?`true`:`false`),t.setAttribute(`aria-label`,e?`打开声音`:`关闭声音`),t.innerHTML=dn(e)})}else if(n===`tag`){let e=t.dataset.id,n=t.dataset.tag;Y.sheet=Y.sheet?.kind===`card`&&Y.sheet.id===e&&Y.sheet.tag===n?{kind:`card`,id:e}:{kind:`card`,id:e,tag:n},Z({preserveScroll:!0});revealTagTip()}else if(n===`help`)Y.sheet={kind:`help`},Z({preserveScroll:!0});else if(n===`tasks`)Y.sheet={kind:`tasks`},Z({preserveScroll:!0});else if(n===`packs`)Y.sheet={kind:`packs`},Z({preserveScroll:!0});else if(n===`did-share`)Fe(Y.task),O(Y.task),br(`share`)||Q(Y.task.claimed.share?`这个任务领过了`:`还不能领`),Z({preserveScroll:!0});else if(n===`did-copy`)Ie(Y.task),O(Y.task),br(`copy`)||Q(Y.task.claimed.copy?`这个任务领过了`:`还不能领`),Z({preserveScroll:!0});else if(n===`claim`)br(t.dataset.id)||Q(`还不能领`),Z({preserveScroll:!0});else if(n===`gacha`)cr();else if(n===`detail`){if(Y.view===`pack`&&Y.booster?.phase===`card`&&!Y.booster.revealDone){gr();return}Y.sheet={kind:`card`,id:t.dataset.id,conceal:Y.view===`album`&&!(Y.owned||[]).includes(t.dataset.id)},Z({preserveScroll:!0});}else if(n===`open`)Y.view===`pack`?dr():sr();else if(n===`open-booster`)dr();else if(n===`advance`)hr(!1);else if(n===`prev-card`)mr();else if(n===`next-card`)hr(!0);else if(n===`skip-anim`)gr();else if(n===`skip-all`)_r();else if(n===`skip-cancel`)Y.booster&&(Y.booster.askSkip=!1,Y.booster.skipPreamble=!0),Z(),$();else if(n===`pack`){let e=t.dataset.pack||`mix`;if(e!==`mix`){yr(e);return}cr()}else if(n===`repack`){if(Y.pack&&Y.pack!==`mix`)yr(Y.pack);else cr()}else if(n===`album`)Y.view=`album`,Y.sheet=null,Z();else if(n===`bag`)Y.view=`bag`,Y.sheet=null,Y.albumDim=`全部`,Y.albumSort=`rarity`,Z();else if(n===`filter`)Y.albumDim=t.dataset.dim||`全部`,Z({preserveScroll:!0});else if(n===`sort`)Y.albumSort=t.dataset.sort||`rarity`,Z({preserveScroll:!0});else if(n===`keep`){if(!Y.drawn[Y.index])return;if(Y.index<x.length-1){Y.index+=1,Z();return}xr()}else if(n===`start`||n===`again`){Y.index=0,Y.drawn=[],Y.fromShare=!1,Y.talkOpen=!1,cr();}else if(n===`home`||n===`leave`)Y.view=`home`,Y.drawn=[],Y.index=0,Y.sheet=null,Y.fromShare=!1,Y.fromPack=!1,Y.booster=null,or(),Z();else if(n===`copy`)Sr();else if(n===`poster`)sharePoster(t,`long`);
+var lr=!1;function ur(){if(!Y.booster||Y.booster.phase!==`sealed`)return;if(Y.pack&&Y.pack!==`mix`){if(!Be(Y.task)){Y.sheet={kind:`tasks`},Z();return}let t=vr(se(activeCards,Y.pack),6);t.forEach(card=>er(card.id)),O(Y.task),Y.booster.cards=t,Y.booster.phase=`card`,Y.booster.index=0,Y.booster.revealDone=!1,Y.booster.askSkip=!1,checkMilestones(),Z(),$();return}let t=drawMixPack(activeCards);t.forEach(card=>er(card.id)),Le(Y.task),O(Y.task),Y.fromShare=!1,Y.keptShare=null,Y.rehearsal=createRehearsalV53(t),Y.rehearsalPreview='',Y.booster.cards=t,Y.booster.phase=`card`,Y.booster.index=0,Y.booster.revealDone=!1,Y.booster.askSkip=!1,checkMilestones(),Z(),$()}function dr(){if(!Y.booster||Y.booster.phase!==`sealed`||lr)return;let e=document.querySelector(`.pack-deck`);e&&!J?(lr=!0,e.classList.add(`is-dealing`),window.setTimeout(()=>{lr=!1,ur()},380)):ur()}function fr(e){if(pe(e))return e;let t=x.map(t=>(e||[]).find(e=>e&&e.dimension===t.key)),n=new Set(t.filter(Boolean).map(e=>e.id));return t.every(Boolean)&&n.size===t.length?t:null}function enterSpread(){let e=Y.booster;if(!e||e.phase===`spread`)return;if(!e.cards||!e.cards.length){pr();return}e.phase=`spread`,e.revealDone=!0,e.askSkip=!1,e.showShare=!1;if(!(Y.pack&&Y.pack!==`mix`)){let t=fr(e.cards||[]);t&&(Y.drawn=t)}Z()}function pr(){if(Y.pack&&Y.pack!==`mix`){Y.bundle=Y.booster?.cards||[],Y.booster=null,Y.view=`bundle`,Y.sheet=null,Z();return}let e=fr(Y.booster?.cards||[]);Y.booster=null,e?(Y.drawn=e,Y.index=x.length-1,Y.fromPack=!0,xr()):(Y.view=`home`,Z())}function mr(){let e=Y.booster;!e||e.askSkip||e.phase!==`card`||e.index<=0||(--e.index,e.revealDone=!1,e.askSkip=!1,e.skipPreamble=!1,Z(),$())}function hr(e){let t=Y.booster;if(!t||t.askSkip)return;if(t.phase===`sealed`){dr();return}if(t.phase!==`card`)return;let n=t.cards[t.index];n&&ue(n.rarity)&&!t.revealDone&&!e?Q(`这张要看完，或点下一张`):t.index>=t.cards.length-1?enterSpread():(t.index+=1,t.revealDone=!1,t.askSkip=!1,t.skipPreamble=!1,Z(),$())}function gr(){let e=Y.booster;if(!e||e.phase!==`card`)return;let t=e.cards[e.index];if(t&&ue(t.rarity)&&!e.revealDone){e.askSkip=!0,Z();return}let n=e.index+1;for(;n<e.cards.length&&!ue(e.cards[n].rarity);)n+=1;n>=e.cards.length?enterSpread():(e.index=n,e.revealDone=!1,e.askSkip=!1,e.skipPreamble=!1,Z(),$())}function _r(){enterSpread()}function vr(e,t){let n=[],r=new Set,i=0;for(;n.length<t&&i<t*40;){i+=1;let t=ce(e);t&&!r.has(t.id)&&(r.add(t.id),n.push(t))}if(n.length<t)for(let i of e){if(n.length>=t)break;r.has(i.id)||(r.add(i.id),n.push(i))}return n}function yr(t){if(!(Y.task.charges>=1)){Y.sheet={kind:`tasks`},Z();return}Y.view=`pack`,Y.pack=t,Y.packCard=null,Y.sheet=null,Y.fromPack=!1,Y.bundle=null,Y.booster={phase:`sealed`,cards:[],index:0,tutorial:!1,tutorialNo:0,revealDone:!1,askSkip:!1},or(),Z()}function br(e){return ze(Y.task,e,Y.owned.length)?(O(Y.task),Q(`领到 1 次单维包`),!0):!1}function xr(){lastSharePoster=null;let e=w(Y.drawn);!Y.task.lineup&&!Y.task.claimed.lineup&&(Re(Y.task),O(Y.task),Q(`咫言咫语读完了，去任务里领一次单维包`));try{sessionStorage.setItem(`diamasha.owner`,e)}catch{}Y.view=`result`,Y.fromShare=!1,Y.talkOpen=!1,Y.sheet=null,history.pushState({lineup:e},``,`#m=${e}`),Z()}async function Sr(text){let e=text||rr(w(Y.drawn));try{await navigator.clipboard.writeText(e),Cr(!!text)}catch{let t=document.createElement(`textarea`);t.value=e,t.setAttribute(`readonly`,``),t.style.cssText=`position:fixed;left:-9999px;top:0`,document.body.append(t),t.select();let n=!1;try{n=document.execCommand(`copy`)}catch{n=!1}t.remove();n?Cr(!!text):Q(`请长按链接自行复制`)}}
+async function shareOrCopy(){let e=shareUrlV53(Y.drawn);if(typeof navigator.share==`function`){try{await navigator.share({title:dramaticTitleV40(Y.drawn),text:shareTextV53(Y.drawn),url:e});return}catch(t){if(t?.name===`AbortError`)return}}await Sr()}function Cr(isText=false){Ie(Y.task),O(Y.task),br(`copy`)||Q(isText?`朋友圈文案已复制`:`链接已复制`)}function wr(){let t=ne(location.hash,location.search);if(t.kind===`none`)return Y.view===`result`||Y.view===`badlink`?(Y.view=`home`,Y.drawn=[],Y.sheet=null,Y.fromShare=!1,!0):!1;if(t.kind===`bad`)return Y.view=`badlink`,Y.sheet=null,!0;let n=re(e,t.ids);if(!n)return Y.view=`badlink`,Y.sheet=null,!0;let r=w(n);return Y.view===`result`&&[5,6].includes(Y.drawn.length)&&w(Y.drawn)===r?!1:(Y.drawn=n,Y.rehearsal=savedRehearsalForCardsV53(n)||createRehearsalV53(n),Y.rehearsalPreview='',Y.view=`result`,Y.sheet=null,Y.index=x.length-1,Y.fromShare=ir(r),!0)}function Tr(e){let t=e.target.closest(`[data-action]`);if(!t||!Zn.contains(t))return;let n=t.dataset.action;if(handleRehearsalV53(n,t))return;if(n===`resume-pack`){resumePackV53();return;}if(n===`recent-show`){restoreProgramV53(Number(t.dataset.index));return;}if(n===`page-back`||n===`page-forward`){turnPageV42(n===`page-back`?-1:1);return;}if(n===`close-sheet`){if(t.classList.contains(`overlay`)&&e.target!==t)return;Y.sheet=null,Z({preserveScroll:!0}),Y.view===`pack`&&Y.booster?.phase===`card`&&!Y.booster.revealDone&&$()}else if(n===`mute`){let e=we();document.querySelectorAll(`[data-action='mute']`).forEach(t=>{t.setAttribute(`aria-pressed`,e?`true`:`false`),t.setAttribute(`aria-label`,e?`打开声音`:`关闭声音`),t.innerHTML=dn(e)})}else if(n===`tag`){let e=t.dataset.id,n=t.dataset.tag;Y.sheet=Y.sheet?.kind===`card`&&Y.sheet.id===e&&Y.sheet.tag===n?{kind:`card`,id:e}:{kind:`card`,id:e,tag:n},Z({preserveScroll:!0});revealTagTip()}else if(n===`help`)Y.sheet={kind:`help`},Z({preserveScroll:!0});else if(n===`tasks`)Y.sheet={kind:`tasks`},Z({preserveScroll:!0});else if(n===`packs`)Y.sheet={kind:`packs`},Z({preserveScroll:!0});else if(n===`did-share`)Fe(Y.task),O(Y.task),br(`share`)||Q(Y.task.claimed.share?`这个任务领过了`:`还不能领`),Z({preserveScroll:!0});else if(n===`did-copy`)Ie(Y.task),O(Y.task),br(`copy`)||Q(Y.task.claimed.copy?`这个任务领过了`:`还不能领`),Z({preserveScroll:!0});else if(n===`claim`)br(t.dataset.id)||Q(`还不能领`),Z({preserveScroll:!0});else if(n===`gacha`)cr();else if(n===`detail`){if(Y.view===`pack`&&Y.booster?.phase===`card`&&!Y.booster.revealDone){gr();return}Y.sheet={kind:`card`,id:t.dataset.id,conceal:Y.view===`album`&&!(Y.owned||[]).includes(t.dataset.id)},Z({preserveScroll:!0});}else if(n===`open`)Y.view===`pack`?dr():sr();else if(n===`open-booster`)dr();else if(n===`advance`)hr(!1);else if(n===`prev-card`)mr();else if(n===`next-card`)hr(!0);else if(n===`skip-anim`)gr();else if(n===`skip-all`)_r();else if(n===`skip-cancel`)Y.booster&&(Y.booster.askSkip=!1,Y.booster.skipPreamble=!0),Z(),$();else if(n===`pack`){let e=t.dataset.pack||`mix`;if(e!==`mix`){yr(e);return}cr()}else if(n===`repack`){if(Y.pack&&Y.pack!==`mix`)yr(Y.pack);else cr()}else if(n===`album`)Y.view=`album`,Y.albumPage=0,Y.sheet=null,Z();else if(n===`bag`)Y.view=`bag`,Y.albumPage=0,Y.sheet=null,Y.albumDim=`全部`,Y.albumSort=`rarity`,Z();else if(n===`album-page`)Y.albumPage=Number(t.dataset.page)||0,Z();else if(n===`filter`)Y.albumDim=t.dataset.dim||`全部`,Y.albumPage=0,Z({preserveScroll:!0});else if(n===`sort`)Y.albumSort=t.dataset.sort||`rarity`,Y.albumPage=0,Z({preserveScroll:!0});else if(n===`keep`){if(!Y.drawn[Y.index])return;if(Y.index<x.length-1){Y.index+=1,Z();return}xr()}else if(n===`start`||n===`again`){Y.index=0,Y.drawn=[],Y.fromShare=!1,Y.talkOpen=!1,cr();}else if(n===`home`||n===`leave`)Y.view=`home`,Y.drawn=[],Y.index=0,Y.sheet=null,Y.fromShare=!1,Y.fromPack=!1,Y.booster=null,or(),Z();else if(n===`copy`)Sr();else if(n===`poster`)sharePoster(t,`long`);
     else if(n===`poster-short`)sharePoster(t,`short`);
+    else if(n===`copy-social`)Sr(shareTextV53(Y.drawn)+`\n`+shareUrlV53(Y.drawn));
     else if(n===`save-poster`)savePoster(t);
     else if(n===`production-cue`)replayProductionCueV40(t.dataset.cueId);
     else if(n===`expand-talk`){Y.talkOpen=!Y.talkOpen;Z({preserveScroll:!0});}
     else if(n===`try-own`){Y.keptShare=Y.drawn.slice();Y.view=`pack`;Y.pack=`mix`;Y.packCard=null;Y.sheet=null;Y.fromPack=!1;Y.talkOpen=!1;Y.booster={phase:`sealed`,cards:[],index:0,tutorial:de(Y.task.mix),tutorialNo:Y.task.mix+1,revealDone:!1,askSkip:!1};Z();}
     else if(n===`daily-claim`){claimDaily()?Q(`今日赠礼已领：下次综合包机会更好，并加 1 次单维包`):Q(`今日已领`);Z({preserveScroll:!0});}
     else if(n===`milestone-pick`){let loop=currentLoop();loop.pendingDim=t.dataset.dim||``;loop.pendingMilestone=0;saveLoop(loop);Y.sheet=null;Q(`下次综合包的这一维，必出压轴以上`);Z({preserveScroll:!0});}
-    else if(n===`milestone-skip`){let loop=currentLoop();loop.pendingMilestone=0;saveLoop(loop);Y.sheet=null;Z({preserveScroll:!0});}else if(n===`share-cast`){if(Y.booster)Y.booster.showShare=!0;if(!(Y.pack&&Y.pack!==`mix`)){let e=fr(Y.booster?.cards||[]);e&&(Y.drawn=e)}Z({preserveScroll:!0});document.querySelector(`.spread-share`)?.scrollIntoView({block:`nearest`})}else if(n===`view-talk`||n===`view-bundle`)pr();else if(n===`native-share`)shareOrCopy()}function Er(){let t=he(e);t.length?(console.error(t),Y.view=`badpool`,Y.problems=t,Z()):(wr(),Z(),window.addEventListener(`hashchange`,()=>{wr()&&Z()}),window.addEventListener(`popstate`,()=>{wr()&&Z()}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&Y.sheet&&(Y.sheet=null,Z({preserveScroll:!0}))}))}// V40_RUNTIME_START
+    else if(n===`milestone-skip`){let loop=currentLoop();loop.pendingMilestone=0;saveLoop(loop);Y.sheet=null;Z({preserveScroll:!0});}else if(n===`share-cast`){if(Y.booster)Y.booster.showShare=!0;if(!(Y.pack&&Y.pack!==`mix`)){let e=fr(Y.booster?.cards||[]);e&&(Y.drawn=e)}Z({preserveScroll:!0});document.querySelector(`.spread-share`)?.scrollIntoView({block:`nearest`})}else if(n===`view-talk`||n===`view-bundle`)pr();else if(n===`native-share`)shareOrCopy()}function Er(){installReliabilityV53();Zn.addEventListener('change',event=>{if(event.target.matches('[data-rewrite-choice]'))handleRehearsalV53('rewrite-preview',event.target)});let t=he(e);t.length?(console.error(t),Y.view=`badpool`,Y.problems=t,Z()):(wr(),Z(),window.addEventListener(`hashchange`,()=>{wr()&&Z()}),window.addEventListener(`popstate`,()=>{wr()&&Z()}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&Y.sheet&&(Y.sheet=null,Z({preserveScroll:!0}))}))}// V40_RUNTIME_START
 // Use the same source catalogue as the scoring records in browser and tests.
 const statSourcesV40 = typeof SCORING_SOURCES !== 'undefined' ? SCORING_SOURCES : typeof module !== 'undefined' && module.exports ? require('../docs/SCORING_ANCHORS.json').sources : {};
 
@@ -10983,13 +14066,13 @@ function spreadReviewV40(cards){
   return `<div class="spread-review">${scoreBreakdown(result,cards,false)}</div>`;
 }
 function An(cards,open=false){
-  const entries=nn(cards),education=entries.length===5?entries[4]:'';
+  const entries=nn(cards);
   const paragraphs=entries.map(text=>`<p data-talk-reveal>${K(text)}</p>`).join('');
   const sources=typeof talkSourcesV40==='function'?talkSourcesV40(cards):'';
   const references=typeof talkReferencesV40==='function'?talkReferencesV40(cards):[];
   return `<section class="talk" aria-label="咫言咫语">
     <h2 data-talk-reveal>咫言咫语</h2>
-    <div class="talk-short"${open?' hidden':''}><p data-talk-reveal>${K(shortScene(cards))}</p>${education?`<p class="talk-education" data-talk-reveal>${K(education)}</p>`:''}</div>
+    <div class="talk-short"${open?' hidden':''}><p data-talk-reveal>${K(shortScene(cards))}</p></div>
     <div class="talk-full"${open?'':' hidden'}>${paragraphs}</div>
     <button type="button" class="text-btn talk-toggle" data-action="expand-talk" aria-expanded="${open}">${open?'收起全文':'展开这场戏'}</button>
     ${sources?`<p class="talk-sources" data-talk-reveal>${K(sources)}</p>`:''}
@@ -11096,7 +14179,7 @@ function startHomeFloatV40(){
 }
 
 let pageHistoryV42=[],pageCursorV42=-1,turningPageV42=false;
-const pageFieldsV42=['view','index','drawn','pack','packCard','albumDim','albumSort','fromShare','problems','bundle','booster','fromPack','slot','talkOpen','keptShare'];
+const pageFieldsV42=['view','index','drawn','pack','packCard','albumDim','albumSort','albumPage','fromShare','problems','bundle','booster','fromPack','slot','talkOpen','keptShare','rehearsal','rehearsalPreview'];
 function pageSnapshotV42(){
   return JSON.parse(JSON.stringify(Object.fromEntries(pageFieldsV42.map(field=>[field,Y[field]]))));
 }

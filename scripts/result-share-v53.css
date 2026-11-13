@@ -1,0 +1,15 @@
+/* Put the title, final score and cast together before the detailed programme. */
+.result-premiere-v53{padding:24px 0 18px;border-bottom:1px solid #d9cbb8;margin-bottom:20px}
+.result-premiere-v53 .result-kicker-v53{margin:0 0 8px;color:#9d2e31;font-size:12px;letter-spacing:.2em}
+.result-premiere-v53 .verdict{margin:0 0 8px;font-size:clamp(25px,5vw,36px);line-height:1.4;text-wrap:balance}
+.result-premiere-v53 .result-hook-v53{margin:0;color:#6f6255;font-size:14px;line-height:1.6}
+.result-final-score-v53{display:flex;align-items:baseline;gap:8px;margin-top:14px;color:#9d2e31}
+.result-final-score-v53 strong{font:700 54px/1 Arial,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.04em}
+.result-final-score-v53 span{font-size:13px}
+.result-final-score-v53 .result-grade-v53{margin-left:auto;border:1px solid #9d2e31;padding:4px 9px;font-size:14px}
+.result-share-actions-v53{display:grid;grid-template-columns:1fr;gap:9px;margin:18px 0 8px}
+.result-share-actions-v53 .btn{width:100%;min-height:46px}
+.result-share-actions-v53 .text-btn{justify-self:center;min-height:38px;text-decoration:underline;text-underline-offset:4px}
+.result-share-note-v53{text-align:center;color:#74695d;font-size:12px;line-height:1.6;margin:0 0 24px}
+.poster-static .result-share-actions-v53,.poster-static .result-share-note-v53{display:none}
+@media(min-width:700px){.result-share-actions-v53{grid-template-columns:minmax(220px,1fr) minmax(180px,1fr);align-items:center}}

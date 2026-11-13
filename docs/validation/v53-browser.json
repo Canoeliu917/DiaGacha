@@ -1,0 +1,109 @@
+[
+  {
+    "label": "home",
+    "page": 390,
+    "width": 390,
+    "bad": []
+  },
+  {
+    "label": "reload-same-pack-no-extra-charge",
+    "ids": [
+      "play-v21-henryiv",
+      "ystyle-object",
+      "xdir-drum",
+      "v23-role-hickey",
+      "v23-sup-stationmaster",
+      "yplace-gongtang"
+    ],
+    "mix": 1
+  },
+  {
+    "label": "result",
+    "page": 390,
+    "width": 390,
+    "bad": []
+  },
+  {
+    "label": "one-card-rewrite-and-refresh",
+    "before": [
+      "play-v21-henryiv",
+      "ystyle-object",
+      "xdir-drum",
+      "v23-role-hickey",
+      "v23-sup-stationmaster",
+      "yplace-gongtang"
+    ],
+    "after": [
+      "play-oedipus",
+      "ystyle-object",
+      "xdir-drum",
+      "v23-role-hickey",
+      "v23-sup-stationmaster",
+      "yplace-gongtang"
+    ],
+    "score": 81
+  },
+  {
+    "label": "dialog-focus-inert-tab-escape",
+    "pass": true
+  },
+  {
+    "label": "result-320",
+    "page": 320,
+    "width": 320,
+    "bad": []
+  },
+  {
+    "label": "story-320",
+    "page": 320,
+    "width": 320,
+    "bad": []
+  },
+  {
+    "label": "result-390",
+    "page": 390,
+    "width": 390,
+    "bad": []
+  },
+  {
+    "label": "story-390",
+    "page": 390,
+    "width": 390,
+    "bad": []
+  },
+  {
+    "label": "result-768",
+    "page": 753,
+    "width": 768,
+    "bad": []
+  },
+  {
+    "label": "story-768",
+    "page": 753,
+    "width": 768,
+    "bad": []
+  },
+  {
+    "label": "result-1280",
+    "page": 1265,
+    "width": 1280,
+    "bad": []
+  },
+  {
+    "label": "story-1280",
+    "page": 1265,
+    "width": 1280,
+    "bad": []
+  },
+  {
+    "label": "album-390",
+    "page": 390,
+    "width": 390,
+    "bad": []
+  },
+  {
+    "label": "album-page-filter-reset",
+    "cardsPerPage": 48,
+    "cpu4xTwoFramesMs": 109.90000000037253
+  }
+]
