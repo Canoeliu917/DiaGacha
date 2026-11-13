@@ -1,4 +1,4 @@
-// Generated from high-star copy sources, FACT_AUDIT_*_V48.json and SCORING_ANCHORS.json. Edit the sources, then rebuild.
+// Generated from high-star copy sources, FACT_AUDIT_*_V48/V49.json and SCORING_ANCHORS.json. Edit the sources, then rebuild.
 const highStarCopyV40 = {
   "style-stan": [
     "一句“别走”可以用来挽留、试探，也可以成为命令，台词的字面并不能替演员完成选择。对方是否停下、是否相信，才让这一句获得可以追踪的结果。",
@@ -288,7 +288,7 @@ const highStarCopyV40 = {
   ],
   "xplay-sang": [
     "故事发生在1968—1969年的黄土高原。为了凑齐福林娶青女的费用，十二岁的月娃被拿去作童养媳；婚嫁成了交易，女孩的去向由家人的生计决定。队长李金斗既为乡亲张罗活路，也维护让妇女和外姓人受压的旧规矩，不能简单看作一个恶人。",
-    "外姓人王志科受到宗族排挤；为了县里的庆典，村民又被迫交出赖以耕作的牛豁子。两件事彼此映照，显出村庄在伤害别人时也损伤了自身的生存根基。徐晓钟的演出以多个事件并置成群像，歌队穿插叙述和评论，把观众从个人遭遇引向对乡村秩序的思考。这出戏值得追问的，是善意、贫困和旧习如何纠缠，为什么同一个人既是受困者，又会成为伤害别人的一环。"
+    "外姓人王志科受到宗族排挤；公社开会要招待来客，村民又被迫交出赖以耕作的老牛“豁子”。两件事彼此映照，显出村庄在伤害别人时也损伤了自身的生存根基。徐晓钟的演出以多个事件并置成群像，歌队穿插叙述和评论，把观众从个人遭遇引向对乡村秩序的思考。这出戏值得追问的，是善意、贫困和旧习如何纠缠，为什么同一个人既是受困者，又会成为伤害别人的一环。"
   ],
   "xplay-shangyang": [
     "建立新秩序的人必须相信规则能够超越个人，否则所有改革都只是换一张发号施令的脸。等到这套秩序也成为威胁自身的力量，理想与代价才在同一个人身上完成相遇。",
@@ -517,8 +517,8 @@ const highStarCopyV40 = {
     "四凤与周家其他人并不拥有同样多的消息，因此一段亲密关系在她眼里和在长辈眼里有着不同重量。她越认真地打算未来，观众越能感到那些未被说出的旧事正在逼近她。"
   ],
   "xrole-zhulian": [
-    "珠帘秀的台词先属于纸面，出口以后却变成她本人必须承担的行动。看客与权势听见的是同一句话，赋予它的后果却截然不同。她让表演显出一种无法由作者代劳的勇气：借来的声音，也要由自己的身体抵达别人。",
-    "田汉把珠帘秀与关汉卿写在共同的创作关系里，剧本需要演员才能进入公共空间。她的价值不只在于支持作者，也在于把自己的判断放进每一次公开表演。"
+    "朱帘秀的台词先属于纸面，出口以后却变成她本人必须承担的行动。看客与权势听见的是同一句话，赋予它的后果却截然不同。她让表演显出一种无法由作者代劳的勇气：借来的声音，也要由自己的身体抵达别人。",
+    "田汉把朱帘秀与关汉卿写在共同的创作关系里，剧本需要演员才能进入公共空间。她的价值不只在于支持作者，也在于把自己的判断放进每一次公开表演。"
   ],
   "xrole-yangxiu": [
     "他以为说中对方的心意是在证明亲近，却没有权力决定这种亲近是否被允许。聪明一旦越过身份划定的界限，答案越准确，提问的人就越无处藏身。",
@@ -973,7 +973,7 @@ const highStarCopyV40 = {
     "错位需要让两套信息各自能够被辨认，观众才有可能比较它们。欢快的声音与失落的动作并列，可以显出公共气氛和私人感受的差别；若差异没有具体所指，声画分离便容易只剩突兀的效果。"
   ],
   "dir-v21-livesubtitles": [
-    "文字看似固定了内容，却也剥离了声音的一部分情感。观众在阅读与观看之间切换，语言的权威因此可以被重新审视。",
+    "字幕让对白、说话者和重要声音信息能够被阅读，是许多观众进入演出的必要通道。作为创作材料时，字幕也可以与角色形成回应；但艺术处理需要让观众仍能分清谁在说什么，而不是把理解障碍当作唯一效果。",
     "字幕会把转瞬即逝的发言留在眼前，阅读节奏因而可能与说话节奏产生距离。文字保留了哪一部分、人物如何面对已经显出的那句话，都会影响其戏剧作用；字幕既可帮助理解，也可以成为被角色观察和回应的对象。"
   ],
   "v23-style-total": [
@@ -1283,8 +1283,8 @@ const highStarCopyV40 = {
     "这张空间卡适合观察解释与裁定之间的不对等：说话的人承担叙述的代价，听话的人却可能掌握下一步。故事若让规则发生变化，同一条界线也会显出新的意义；这里讨论的是虚构场景的关系组织。"
   ],
   "place-v21-willroom": [
-    "死亡并未终止一个人对家庭的影响，反而使某些命令不能再被商量。众人对逝者的记忆在利益面前出现不同版本。沉默也成为一种表态，因为没有人能完全置身分配之外。谁被留下、谁被略过，都在这间房里获得新的意义。",
-    "宣读让在场者同时听到一份安排，却不保证他们对同一句话有共同理解。亲属可以争论理由，纸上的决定却不能像普通谈话那样立即向说话者追问。",
+    "死亡并未终止一个人对家庭的影响，却让活人失去了当面向他追问的机会。众人对逝者的记忆在利益面前出现不同版本。谁被留下、谁被略过，都会改变在场者对往日关系的理解。",
+    "宣读让在场者同时听到一份安排，却不保证他们对同一句话有共同理解。亲属可以争论理由，却已无法向逝者当面询问心意。",
     "座位、纸页与迟迟不肯离去的人，使抽象的继承关系获得可见形态。戏剧不必停在谁得到多少，更可以追问一份分配怎样改变兄弟、伴侣或照料者对往日生活的理解。"
   ],
   "place-v21-publicbath": [
@@ -1320,7 +1320,7 @@ const highStarCopyV40 = {
     "叙述经历需要时间，急迫的处境却使每一次补充说明都显得昂贵。接待者是否认真听完、求助者是否愿意继续解释，会让程序性的对话发展成信任与怀疑的故事。"
   ],
   "place-v22-observatory": [
-    "圆顶把人送进一种近乎神圣的尺度：星光遥远，呼吸却近在耳边。寻找规律的目光并不能取消今晚必须做出的决定。当穹缝漏下光来，它照见的不是宇宙的答案，而是两个人仍要互相承担的距离。",
+    "圆顶把人送进一种近乎神圣的尺度：星光遥远，呼吸却近在耳边。寻找规律的目光并不能取消今晚必须做出的决定。观测窗缓缓开启，两个人却仍难向彼此说清眼前的心事。",
     "观测使人物有了共同注视的对象，也可能让他们暂时避开彼此的眼睛。对于必须谈清的私事，望向远处既可以是陪伴，也可能是一种回避。",
     "圆顶、仪器和转动的观察方向组织了人物停留的位置，谈话不必靠来回走动才能发生变化。外部尺度越宏大，眼前一个无法代替别人作出的决定就越具体，环境由此映照人的局限。"
   ],
@@ -1333,6 +1333,9 @@ const highStarCopyV40 = {
     "众人都说自己有急事：要办事、要见人、要进入另一种生活，却不断把希望交给下一辆车。过站不停的车辆使等待不再是交通小插曲，而成为选择困境；已经耗掉的时间越多，承认等待落空就越困难。",
     "这部戏把平常的候车经验变形，时间可以突然跨过漫长年月，几个人的语言、身体和声音也能并置。群像没有整齐地轮流交代人生，观众要从争执、重复和自我辩解里辨认各自的位置。先锋之处在观看规则的改变，而不只是题材新奇。",
     "沉默的人的离开，让行动与众人的议论形成对照。看完之后可以追问：我们是在为出发作准备，还是已经学会用准备来延迟出发？从这张卡认识荒诞、群像和戏剧时间，也能看见中国实验戏剧如何把熟悉的日常变成令人不安的问题。"
+  ],
+  "yplace-fachang": [
+    "等待号令把所有剩余的时间都变成最后的时间，一句话因而可能同时是辩白、告别与遗言。若故事采用公开行刑的场面，围观者便也成为见证者，他们的沉默会进入这场冲突。"
   ]
 };
 const highStarSourceDataV40 = {
@@ -1344,6 +1347,10 @@ const highStarSourceDataV40 = {
     {
       "title": "克伦堡官方：哈姆雷特与艾尔西诺",
       "url": "https://kronborg.dk/en/knowledge/who-is-hamlet"
+    },
+    {
+      "title": "Folger Shakespeare Library：《哈姆雷特》原文",
+      "url": "https://www.folger.edu/explore/shakespeares-works/Hamlet/read/"
     },
     {
       "title": "Royal Shakespeare Company：Hamlet 的艾尔西诺城堡与舞台环境",
@@ -1362,7 +1369,7 @@ const highStarSourceDataV40 = {
   ],
   "style-stan": [
     {
-      "title": "西澳课程与标准局：斯坦尼斯拉夫斯基的表演方法",
+      "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
       "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
     },
     {
@@ -1386,12 +1393,184 @@ const highStarSourceDataV40 = {
   ],
   "xplay-sang": [
     {
-      "title": "中国文联：徐晓钟《桑树坪纪事》剧目记录",
+      "title": "中国文联：《桑树坪纪事》陈子度、杨健、朱晓平等创作资料",
       "url": "https://www.cflac.org.cn/wywzt/2018/ytdj/xj/xxz/grzp/201803/t20180329_401234.html"
     },
     {
       "title": "徐晓钟《在兼容与结合中嬗变——话剧〈桑树坪纪事〉实验报告》（南京大学藏文献）",
       "url": "https://njucml.nju.edu.cn/_upload/article/files/3b/d2/936d32204dccb88d72610a8aae60/06da3e90-0204-4001-8169-de76f1428e78.pdf"
+    },
+    {
+      "title": "中央戏剧学院：中国文艺评论专访徐晓钟，导演解释《桑树坪纪事》的围猎结构",
+      "url": "https://www.chntheatre.edu.cn/cn/mei/detail/21860.html"
+    },
+    {
+      "title": "林伟瑜：从写意到意境，戏剧研究37期，桑树坪纪事剧本及舞台分析，页81—85",
+      "url": "https://theatre.ntu.edu.tw/journal/text/pdf/37/37-2.pdf"
+    }
+  ],
+  "play-oedipus": [
+    {
+      "title": "MIT Internet Classics Archive：Sophocles《Oedipus the King》原作英译",
+      "url": "https://classics.mit.edu/Sophocles/oedipus.html"
+    }
+  ],
+  "play-teahouse": [
+    {
+      "title": "国家大剧院：《茶馆》演出介绍与剧情",
+      "url": "https://en.chncpa.org/whatson/zdyc/201907/t20190716_206182.shtml"
+    },
+    {
+      "title": "国家大剧院 2019 秋季演出季手册：《茶馆》人物与裕泰茶馆",
+      "url": "https://www.chncpa.org/ycgp_220/jmcxz/201607/P020190902597561079651.pdf"
+    },
+    {
+      "title": "杭州职业技术学院：中国现当代文学课程“十七年戏剧的繁荣”",
+      "url": "https://jwky.hzvtc.cn/__local/B/EE/E1/63BE59FF99C566CB66047E35750_E93B19A3_3438E8.pdf"
+    },
+    {
+      "title": "北京人民艺术剧院：老舍与《茶馆》创演",
+      "url": "https://www.bjry.com/actor/html/2015/06/2015060515.html"
+    }
+  ],
+  "play-hamlet": [
+    {
+      "title": "Folger Shakespeare Library：《哈姆雷特》原文与逐场梗概",
+      "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/"
+    },
+    {
+      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
+      "url": "https://www.rsc.org.uk/hamlet/"
+    },
+    {
+      "title": "Royal Shakespeare Company：Hamlet 人物关系",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+    },
+    {
+      "title": "Shakespeare’s Globe：Globe Theatre 空间、观众与历史",
+      "url": "https://www.shakespearesglobe.com/discover/about-us/globe-theatre/"
+    }
+  ],
+  "play-thunder": [
+    {
+      "title": "中央戏剧学院：2024 年《雷雨》教学演出、周朴园与周公馆剧情",
+      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/22315.html"
+    },
+    {
+      "title": "日本国立情报学研究所书目：《雷雨：四幕话剧》1957版",
+      "url": "https://ci.nii.ac.jp/ncid/BA60610080"
+    },
+    {
+      "title": "中央戏剧学院：2026 年《雷雨》创排、文本身体空间与蒙太奇",
+      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/25324.html"
+    }
+  ],
+  "play-macbeth": [
+    {
+      "title": "Folger Shakespeare Library：《麦克白》原文与逐场梗概",
+      "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/read/"
+    }
+  ],
+  "play-godot": [
+    {
+      "title": "Concord授权出版：《等待戈多》剧情与人物",
+      "url": "https://www.concordtheatricals.com/p/98125/waiting-for-godot"
+    },
+    {
+      "title": "UCLA：Waiting for Godot 的教学、循环结构与身体幽默",
+      "url": "https://newsroom.ucla.edu/stories/ucla-students-benefit-from-professional-theater-production-of-becketts-waiting-for-godot"
+    },
+    {
+      "title": "英国国家剧院档案：1987年《Waiting for Godot》制作与角色",
+      "url": "https://catalogue.nationaltheatre.org.uk/calmview/Record.aspx?id=937&src=CalmView.Performance"
+    }
+  ],
+  "play-peony": [
+    {
+      "title": "Concord授权出版：《萨勒姆的女巫》剧情",
+      "url": "https://www.concordtheatricals.com/p/7459/the-crucible"
+    },
+    {
+      "title": "San José State University教学方案：《萨勒姆的女巫》认罪情节",
+      "url": "https://www.sjsu.edu/faculty/mary.warner/StudentLinks/2007_Spring/LEdmondsunitplan.htm"
+    }
+  ],
+  "play-doll": [
+    {
+      "title": "易卜生《玩偶之家》三幕原剧，R. Farquharson Sharp英译",
+      "url": "https://www.gutenberg.org/cache/epub/2542/pg2542-images.html"
+    }
+  ],
+  "play-salesman": [
+    {
+      "title": "Concord授权出版：《推销员之死》剧情",
+      "url": "https://www.concordtheatricals.com/p/7462/death-of-a-salesman"
+    },
+    {
+      "title": "The Pulitzer Prizes：1949 年戏剧奖《推销员之死》",
+      "url": "https://www.pulitzer.org/winners/arthur-miller"
+    }
+  ],
+  "play-doue": [
+    {
+      "title": "关汉卿《窦娥冤》原剧，第三、四折",
+      "url": "https://zh.wikisource.org/wiki/竇娥冤"
+    }
+  ],
+  "play-goodperson": [
+    {
+      "title": "Concord：布莱希特《四川好人》授权剧情",
+      "url": "https://www.concordtheatricals.com/s/9070/good-person-of-setzuan-manheimwillett-trans"
+    }
+  ],
+  "play-cherry": [
+    {
+      "title": "契诃夫《樱桃园》四幕原剧，Julius West英译",
+      "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+    },
+    {
+      "title": "MIT OpenCourseWare：Script Analysis，《The Cherry Orchard》结构讨论",
+      "url": "https://ocw.mit.edu/courses/21m-710-script-analysis-fall-2005/pages/calendar/"
+    },
+    {
+      "title": "Royal Shakespeare Company：The Cherry Orchard 剧情与洛巴辛",
+      "url": "https://www.rsc.org.uk/the-cherry-orchard"
+    }
+  ],
+  "play-xixiang": [
+    {
+      "title": "国家大剧院：王实甫《西厢记》原作与昆曲版本说明",
+      "url": "https://www.chncpa.org/ycxm/201102/t20110221_149588.html"
+    }
+  ],
+  "play-visit": [
+    {
+      "title": "Union University 剧院：《贵妇还乡》剧情说明",
+      "url": "https://uu.edu/theatre/pdfs/TheVisit_Synopsis_Sp12.pdf"
+    },
+    {
+      "title": "OCR 戏剧课程《贵妇还乡》教师指南",
+      "url": "https://www.ocr.org.uk/Images/281621-the-visit.pdf"
+    }
+  ],
+  "play-sunrise": [
+    {
+      "title": "国家大剧院2026年2—3月剧目展：话剧《日出》剧情",
+      "url": "https://www.chncpa.org/cgylx/yszl/zlsj/syzl/202602/t20260205_286250.shtml"
+    },
+    {
+      "title": "日本国立情报学研究所书目：《日出：四幕话剧》1957版",
+      "url": "https://ci.nii.ac.jp/ncid/BA86281326"
+    }
+  ],
+  "play-yuanye": [
+    {
+      "title": "对外经济贸易大学图书馆：曹禺《原野》版本剧情提要",
+      "url": "https://opac.uibe.edu.cn/opac/book/9c335363b7412f0d7f2ae4b48618c22b"
+    },
+    {
+      "title": "山东大学：论恐惧的形态及其悲剧意义，引用曹禺《原野·附记》",
+      "url": "https://www.lhp.sdu.edu.cn/__local/C/04/4D/6FDB966139A06CCDB541BEF1AEE_BCAB9E1D_FB10A8.pdf?e=.pdf"
     }
   ],
   "play-rhino": [
@@ -1408,6 +1587,50 @@ const highStarSourceDataV40 = {
       "url": "https://dwbgs.hbue.edu.cn/45/f4/c11263a345588/page.htm"
     }
   ],
+  "play-glass": [
+    {
+      "title": "A Noise Within：《玻璃动物园》学习指南",
+      "url": "https://www.anoisewithin.org/wp-content/uploads/2018/12/SGSpring_18-19-TheGlassMenagerie_FINAL1-002.pdf"
+    },
+    {
+      "title": "A Noise Within：《玻璃动物园》2019 观众手册",
+      "url": "https://www.anoisewithin.org/wp-content/uploads/2019/01/AGSpring_18-19-TheGlassMenagerie_FINAL2.pdf"
+    }
+  ],
+  "play-lear": [
+    {
+      "title": "Folger Shakespeare Library：《李尔王》原文与逐场梗概",
+      "url": "https://www.folger.edu/explore/shakespeares-works/king-lear/read/"
+    }
+  ],
+  "play-antigone": [
+    {
+      "title": "MIT Internet Classics Archive：《安提戈涅》原剧英译",
+      "url": "https://classics.mit.edu/Sophocles/antigone.html"
+    }
+  ],
+  "play-orphan": [
+    {
+      "title": "纪君祥《冤报冤赵氏孤儿》原剧，第二至五折",
+      "url": "https://zh.wikisource.org/wiki/趙氏孤兒"
+    }
+  ],
+  "play-peach": [
+    {
+      "title": "复旦大学：章培恒《桃花扇与史实的巨大差别》",
+      "url": "https://www.gdwx.fudan.edu.cn/7a/c6/c3810a31430/page.htm"
+    },
+    {
+      "title": "广东药科大学：经典阅读《桃花扇》剧情介绍",
+      "url": "https://gdlm.gdipu.edu.cn/info/1026/1497.htm"
+    }
+  ],
+  "play-palace": [
+    {
+      "title": "易卜生《建筑大师》原剧，Gosse / Archer英译",
+      "url": "https://www.gutenberg.org/files/4070/4070-h/4070-h.htm"
+    }
+  ],
   "play-secret": [
     {
       "title": "台中国家歌剧院：《暗恋桃花源》作品简介",
@@ -1416,6 +1639,534 @@ const highStarSourceDataV40 = {
     {
       "title": "表演工作坊：《暗恋桃花源》纪念版主创署名及戏中戏结构",
       "url": "https://www.opentix.life/event/2001257814444711937"
+    }
+  ],
+  "play-beijing": [
+    {
+      "title": "文化和旅游部：央华《北京人》演出剧情",
+      "url": "https://www.mct.gov.cn/ggfw/zyjzzt/yanchu/yanchuwqhg/202211/t20221101_937099.html"
+    },
+    {
+      "title": "人民文学出版社《北京人：三幕剧》1994版书目及数字化摘要",
+      "url": "https://books.google.com/books/about/北京人.html?id=DuAuAQAAIAAJ"
+    },
+    {
+      "title": "大庆师范学院《中国话剧名作鉴赏》公开课程说明",
+      "url": "https://www.chinaooc.com.cn/course/68003e14b836e5522a7564e1"
+    }
+  ],
+  "play-baimao": [
+    {
+      "title": "中国歌剧舞剧院：复排歌剧《白毛女》创作署名与完整剧情",
+      "url": "https://www.cnoddt.cn/zggjwjy/gej/201505/1b8ab91ca2344a108c4acf7e9390fa0c.shtml"
+    },
+    {
+      "title": "国家大剧院：《白毛女》1945年新歌剧创作介绍",
+      "url": "https://www.chncpa.org/zxdtxlm/rdjjjhlm/rdjj_wx/202106/t20210603_232470.shtml"
+    }
+  ],
+  "play-street": [
+    {
+      "title": "Concord授权出版：《欲望号街车》",
+      "url": "https://www.concordtheatricals.com/p/98265/a-streetcar-named-desire"
+    },
+    {
+      "title": "École Polytechnique：《欲望号街车》第九场阅读指南，纸灯罩情节",
+      "url": "https://portail.polytechnique.edu/editions/sites/editions/files/content/pages/documents/2024-12/extrait_87.pdf"
+    }
+  ],
+  "play-sisters": [
+    {
+      "title": "契诃夫《三姐妹》原作，Constance Garnett 英译",
+      "url": "https://www.ibiblio.org/eldritch/ac/sisters.htm"
+    }
+  ],
+  "play-butterfly": [
+    {
+      "title": "易卜生《海达·高布乐》原剧，Gosse / Archer英译",
+      "url": "https://www.gutenberg.org/files/4093/4093-h/4093-h.htm"
+    },
+    {
+      "title": "易卜生《海达·高布乐》原作英译，Collected Works 第10卷",
+      "url": "https://www.gutenberg.org/files/74237/74237-h/74237-h.htm"
+    }
+  ],
+  "xplay-faust": [
+    {
+      "title": "歌德《浮士德》第一部原作，Bayard Taylor 英译",
+      "url": "https://www.gutenberg.org/cache/epub/14591/pg14591-images.html"
+    },
+    {
+      "title": "歌德《浮士德》第二部德文原作，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/2230/pg2230-images.html"
+    }
+  ],
+  "xplay-seagull": [
+    {
+      "title": "契诃夫《海鸥》原作英译",
+      "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
+    }
+  ],
+  "xplay-vanya": [
+    {
+      "title": "契诃夫《万尼亚舅舅》原作英译",
+      "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+    }
+  ],
+  "xplay-tartuffe": [
+    {
+      "title": "莫里哀《伪君子》原作英译",
+      "url": "https://www.gutenberg.org/cache/epub/2027/pg2027-images.html"
+    }
+  ],
+  "xplay-miser": [
+    {
+      "title": "莫里哀《吝啬鬼》原剧",
+      "url": "https://www.gutenberg.org/cache/epub/6923/pg6923-images.html"
+    }
+  ],
+  "xplay-figaro": [
+    {
+      "title": "Concord：博马舍《费加罗的婚礼》剧本授权介绍",
+      "url": "https://www.concordtheatricals.com/s/14640/the-marriage-of-figaro"
+    }
+  ],
+  "xplay-galileo": [
+    {
+      "title": "Northwestern University：Life of Galileo 演出与科学冲突",
+      "url": "https://www.mccormick.northwestern.edu/etopia/past-performances/life-of-galileo.html"
+    },
+    {
+      "title": "St Leonard’s College 教学资料：Life of Galileo 的冲突与后果（Engage Education）",
+      "url": "https://cpb-ap-se2.wpmucdn.com/learn.stleonards.vic.edu.au/dist/7/135/files/2016/03/Life-of-Galileo-Encountering-Conflict.pdf"
+    }
+  ],
+  "xplay-rhino": [
+    {
+      "title": "Concord授权出版：尤内斯库《犀牛》",
+      "url": "https://www.concordtheatricals.com/p/2112/rhinoceros"
+    }
+  ],
+  "xplay-bald": [
+    {
+      "title": "Concord授权出版：《秃头歌女》Allen英译",
+      "url": "https://www.concordtheatricals.com/p/3070/the-bald-soprano-trans-allen"
+    },
+    {
+      "title": "Otterbein University戏剧系：《秃头歌女》演出档案与剧情",
+      "url": "https://digitalcommons.otterbein.edu/production_1960-1961/4/"
+    }
+  ],
+  "xplay-chairs": [
+    {
+      "title": "Royal Court演出档案：《椅子》",
+      "url": "https://livingarchive.royalcourttheatre.com/plays/the-chairs/"
+    },
+    {
+      "title": "Harvard Crimson现场剧评：《椅子》的演说家终场",
+      "url": "https://www.thecrimson.com/article/1961/12/13/the-chairs-and-the-maids/"
+    }
+  ],
+  "xplay-longday": [
+    {
+      "title": "Concord授权出版：《进入黑夜的漫长旅程》",
+      "url": "https://www.concordtheatricals.com/p/98198/long-days-journey-into-night"
+    }
+  ],
+  "xplay-pygmalion": [
+    {
+      "title": "萧伯纳《皮格马利翁》原作",
+      "url": "https://www.gutenberg.org/cache/epub/3825/pg3825-images.html"
+    }
+  ],
+  "xplay-merchant": [
+    {
+      "title": "Folger Shakespeare Library：《威尼斯商人》原文与逐场梗概",
+      "url": "https://www.folger.edu/explore/shakespeares-works/the-merchant-of-venice/read/"
+    }
+  ],
+  "xplay-romeo": [
+    {
+      "title": "Folger Shakespeare Library：《罗密欧与朱丽叶》原文与逐场梗概",
+      "url": "https://www.folger.edu/explore/shakespeares-works/romeo-and-juliet/read/"
+    },
+    {
+      "title": "RSC：Romeo and Juliet 分场剧情",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/story/scene-by-scene"
+    }
+  ],
+  "xplay-jia": [
+    {
+      "title": "上海戏剧学院：表演系2020级《雷雨》《日出》《家》教学演出及版本说明",
+      "url": "https://by.sta.edu.cn/cf/34/c5234a118580/page.htm"
+    }
+  ],
+  "xplay-quyuan": [
+    {
+      "title": "华东师范大学：郭沫若《屈原》历史剧与历史想象研究",
+      "url": "https://chinese-thought.ecnu.edu.cn/_upload/article/files/00/73/5bf16f98422194a64f8b0225171a/91e64df1-2553-4527-98da-99927ad5fef4.pdf"
+    },
+    {
+      "title": "上海戏剧学院：张瑞芳饰演《屈原》婵娟的回忆",
+      "url": "https://www.sta.edu.cn/71/34/c1579a28980/page.htm"
+    },
+    {
+      "title": "重庆中国三峡博物馆：郭沫若修改手迹本《屈原》",
+      "url": "https://www.3gmuseum.cn/web/article/1430010528247287808/web/content_1430010528247287808.html"
+    },
+    {
+      "title": "大庆师范学院《中国话剧名作鉴赏》公开课程说明",
+      "url": "https://www.chinaooc.com.cn/course/68003e14b836e5522a7564e1"
+    }
+  ],
+  "xplay-guantheplay": [
+    {
+      "title": "田汉基金会：田汉《关汉卿》自序，1961年人民文学出版社版原序",
+      "url": "https://www.tianhanfoundation.org/news_35/375.html"
+    },
+    {
+      "title": "田汉基金会：《关汉卿》作品介绍",
+      "url": "https://www.tianhanfoundation.org/news_28/194.html"
+    }
+  ],
+  "xplay-camel": [
+    {
+      "title": "新华社：北京人艺《骆驼祥子》演出历史与梅阡改编",
+      "url": "https://www.xinhuanet.com/2021-05/16/c_1127453047.htm"
+    },
+    {
+      "title": "国家大剧院：北京人艺《骆驼祥子》版本、人物和开放式结局",
+      "url": "https://www.chncpa.org/zxdt_331/zxdtlm/yczx_332/201608/t20160823_98146.shtml"
+    }
+  ],
+  "xplay-lou": [
+    {
+      "title": "国家大剧院：北京人艺《天下第一楼》作者与完整剧情",
+      "url": "https://www.chncpa.org/ycxm/201211/t20121108_148589.html"
+    }
+  ],
+  "xplay-doggy": [
+    {
+      "title": "林伟瑜：从写意到意境，狗儿爷涅槃的剧本及演出分析，《戏剧研究》37期",
+      "url": "https://theatre.ntu.edu.tw/journal/text/pdf/37/37-2.pdf"
+    },
+    {
+      "title": "大庆师范学院《中国话剧名作鉴赏》公开课程说明",
+      "url": "https://www.chinaooc.com.cn/course/68003e14b836e5522a7564e1"
+    }
+  ],
+  "xplay-shangyang": [
+    {
+      "title": "南京大学中国新文学研究中心：《姚远剧作论》之《商鞅》人物与剧情分析",
+      "url": "https://njucml.nju.edu.cn/5e/80/c22609a351872/page.htm"
+    },
+    {
+      "title": "中国文联文艺研修院：《商鞅》观摩与主创交流资料",
+      "url": "https://www.alac.org.cn/project/news_details_44_46780.html"
+    }
+  ],
+  "xplay-caoyang": [
+    {
+      "title": "中国文联：陈亚先谈《曹操与杨修》的创作前后",
+      "url": "https://www.cflac.org.cn/zt/2008-11/13/content_14908242.htm"
+    },
+    {
+      "title": "南京大学：陈军《诗意的自由与现实的枷锁——从曹操与杨修到贞观盛事》",
+      "url": "https://njucml.nju.edu.cn/5a/f8/c22623a350968/page.htm"
+    }
+  ],
+  "xplay-liqiu": [
+    {
+      "title": "山西财经大学《立秋》剧组：寻找《立秋》传承人",
+      "url": "https://tw.sxufe.edu.cn/info/1025/7857.htm"
+    },
+    {
+      "title": "山西省话剧院《立秋》演出资料、演职员表（新浪存档）",
+      "url": "https://ent.sina.com.cn/h/2005-04-05/2049694741.html?from=wap"
+    }
+  ],
+  "yplay-prometheus": [
+    {
+      "title": "MIT Internet Classics Archive：《被缚的普罗米修斯》原作英译",
+      "url": "https://classics.mit.edu/Aeschylus/prometheus.html"
+    }
+  ],
+  "yplay-birds": [
+    {
+      "title": "MIT Internet Classics Archive：《鸟》原剧英译",
+      "url": "https://classics.mit.edu/Aristophanes/birds.html"
+    }
+  ],
+  "yplay-phedre": [
+    {
+      "title": "American Repertory Theater：拉辛《费德尔》剧情与演职表",
+      "url": "https://americanrepertorytheater.org/shows-events/phaedra/"
+    }
+  ],
+  "yplay-threepenny": [
+    {
+      "title": "库尔特·魏尔基金会：《三毛钱歌剧》主创与逐幕剧情",
+      "url": "https://www.kwf.org/works/die-dreigroschenoper/"
+    }
+  ],
+  "yplay-endgame": [
+    {
+      "title": "亚历山大图书馆：《终局》逐段剧情梗概",
+      "url": "https://www.bibalex.org/libraries/NewsImages/2013100714582140715_1310BeckettEndgame.pdf"
+    }
+  ],
+  "yplay-krapp": [
+    {
+      "title": "Royal Court首演档案：《克拉普的最后录音带》",
+      "url": "https://livingarchive.royalcourttheatre.com/plays/krapps-last-tape/"
+    }
+  ],
+  "yplay-enemy": [
+    {
+      "title": "易卜生《人民公敌》《野鸭》原作英译，Collected Works 第8卷",
+      "url": "https://www.gutenberg.org/cache/epub/70577/pg70577-images.html"
+    }
+  ],
+  "yplay-peer": [
+    {
+      "title": "易卜生《培尔·金特》原作英译，Collected Works 第4卷",
+      "url": "https://www.gutenberg.org/files/66239/66239-h/66239-h.htm"
+    }
+  ],
+  "yplay-inspector": [
+    {
+      "title": "果戈理《钦差大臣》原剧",
+      "url": "https://www.gutenberg.org/cache/epub/3735/pg3735-images.html"
+    }
+  ],
+  "yplay-mrswarren": [
+    {
+      "title": "萧伯纳《华伦夫人的职业》原作",
+      "url": "https://www.gutenberg.org/cache/epub/1097/pg1097-images.html"
+    }
+  ],
+  "yplay-tempest": [
+    {
+      "title": "Folger Shakespeare Library：《暴风雨》原文与逐场梗概",
+      "url": "https://www.folger.edu/explore/shakespeares-works/the-tempest/read/"
+    }
+  ],
+  "yplay-richard": [
+    {
+      "title": "Folger Shakespeare Library：《理查三世》原文与逐场梗概",
+      "url": "https://www.folger.edu/explore/shakespeares-works/richard-iii/read/"
+    }
+  ],
+  "yplay-caesar": [
+    {
+      "title": "Folger Shakespeare Library：《裘力斯·凯撒》原文与逐场梗概",
+      "url": "https://www.folger.edu/explore/shakespeares-works/julius-caesar/read/"
+    }
+  ],
+  "yplay-caiwenji": [
+    {
+      "title": "郭沫若：序《蔡文姬》，人民日报1959年5月16日第7版数字重刊",
+      "url": "https://cn.govopendata.com/renminribao/1959/05/16/7/"
+    },
+    {
+      "title": "黄冈师范学院所载音乐教材：《蔡文姬》第五幕《重睹芳华》说明",
+      "url": "https://music.hgnu.edu.cn/_upload/article/files/09/d4/faf43ffb4e08b61cf64ee0adaf16/9e893fdc-b47f-484c-a549-e41df3b03d96.pdf"
+    },
+    {
+      "title": "内蒙古文联：于平讨论郭沫若《蔡文姬》与文姬归汉题材",
+      "url": "https://www.imflac.org.cn/pinglun/11177.html"
+    }
+  ],
+  "yplay-eaves": [
+    {
+      "title": "中国人民大学文学院：《空间的俘虏——上海屋檐下中的空间探究》",
+      "url": "https://wenxueyuan.ruc.edu.cn/UploadFile/20150524/20150524110730660.pdf"
+    },
+    {
+      "title": "沈芸：《我又见到了我的祖父夏衍》，关于上海屋檐下人物和舞台的回忆",
+      "url": "https://wenxueyuan.ruc.edu.cn/UploadFile/20150705/20150705012522524.pdf"
+    }
+  ],
+  "yplay-promotion": [
+    {
+      "title": "彭林祥：《升官图》的问世与上演，《文艺报》2016年6月24日",
+      "url": "https://image.chinawriter.com.cn/61/2016/0624/U3875P843T61D1643F788DT20160624064112.pdf"
+    }
+  ],
+  "yplay-wotu": [
+    {
+      "title": "刘恒：《窝头会馆》原剧书摘，文艺报／作家出版社2024版",
+      "url": "https://wyb.chinawriter.com.cn/Pad/content/202411/01/content76782.html"
+    },
+    {
+      "title": "北京市文化和旅游局：《窝头会馆》三幕剧情介绍",
+      "url": "https://lyzz.visitbeijing.com.cn/news/detail?id=24991"
+    }
+  ],
+  "yplay-jiang": [
+    {
+      "title": "南京大学转载温方伊访谈：《蒋公的面子》的校园创作与历史细节",
+      "url": "https://www.nju.edu.cn/info/3191/194991.htm"
+    },
+    {
+      "title": "清华大学艺术教育中心：《蒋公的面子》的两个时代与三位教授",
+      "url": "https://www.hall.tsinghua.edu.cn/info/xwkx/1411"
+    }
+  ],
+  "yplay-pipa": [
+    {
+      "title": "斯特林堡《朱莉小姐》（Countess Julie）原剧英译",
+      "url": "https://www.gutenberg.org/files/8499/8499-h/8499-h.htm"
+    }
+  ],
+  "yplay-whitesnake": [
+    {
+      "title": "易卜生《人民公敌》《野鸭》原作英译，Collected Works 第8卷",
+      "url": "https://www.gutenberg.org/cache/epub/70577/pg70577-images.html"
+    }
+  ],
+  "yplay-fifteen": [
+    {
+      "title": "谢立丹《造谣学校》原剧",
+      "url": "https://www.gutenberg.org/cache/epub/1929/pg1929.html"
+    }
+  ],
+  "yplay-farewell": [
+    {
+      "title": "孟买大学 MA English Drama 教材：《大胆妈妈》分场剧情",
+      "url": "https://mu.ac.in/wp-content/uploads/2024/06/MA-Part-I-DRAMA-3_240113_072137.pdf"
+    },
+    {
+      "title": "Zoë Wanamaker 官方演出档案：RSC《大胆妈妈》",
+      "url": "https://www.zoewanamaker.com/stage.php?name=Mother_Courage_and_Her_Children"
+    },
+    {
+      "title": "UMass DEFA Film Library：Ralf Remshardt 研究《大胆妈妈》的文本与原版演出",
+      "url": "https://www.umass.edu/defa/sites/default/files/Mother%20Courage%20and%20Her%20Children%20on%20Stage%20and%20Screen_by%20Ralf%20Remshardt/index.pdf"
+    }
+  ],
+  "yplay-drunken": [
+    {
+      "title": "MIT Internet Classics Archive：《厄勒克特拉》原剧英译",
+      "url": "https://classics.mit.edu/Sophocles/electra.html"
+    }
+  ],
+  "yplay-redlantern": [
+    {
+      "title": "Edward Albee Society：《谁害怕弗吉尼亚·伍尔夫》剧情及文本分析",
+      "url": "https://edwardalbeesociety.org/works/whos-afraid-of-virginia-woolf/"
+    }
+  ],
+  "play-v21-justes": [
+    {
+      "title": "Théâtre des Martyrs：加缪《正义者》剧情与创作阐述",
+      "url": "https://theatre-martyrs.be/spectacles/26-27-les-justes/"
+    }
+  ],
+  "play-v21-caligula": [
+    {
+      "title": "Concord：加缪《卡利古拉》授权剧情",
+      "url": "https://www.concordtheatricals.com/s/1171/caligula"
+    },
+    {
+      "title": "加缪研究学会：《卡利古拉》版本与死亡观",
+      "url": "https://www.etudes-camusiennes.fr/caligula-1944/"
+    }
+  ],
+  "play-v21-malentendu": [
+    {
+      "title": "Rowohlt 戏剧出版社：《误会》完整核心剧情",
+      "url": "https://www.rowohlt-theaterverlag.de/theaterstueck/das-missverstaendnis-2620"
+    }
+  ],
+  "play-v21-maids": [
+    {
+      "title": "Concord：《女仆》授权剧情与人物表",
+      "url": "https://www.concordtheatricals.com/p/9285/the-maids"
+    }
+  ],
+  "play-v21-happydays": [
+    {
+      "title": "Concord授权出版：《快乐的日子》剧情与人物",
+      "url": "https://www.concordtheatricals.com/p/6787/happy-days"
+    }
+  ],
+  "play-v21-heartbreak": [
+    {
+      "title": "萧伯纳《伤心之家》原剧及序言",
+      "url": "https://www.gutenberg.org/cache/epub/3543/pg3543-images.html"
+    }
+  ],
+  "play-v21-majorbarbara": [
+    {
+      "title": "萧伯纳《巴巴拉少校》原剧",
+      "url": "https://www.gutenberg.org/cache/epub/3790/pg3790-images.html"
+    }
+  ],
+  "play-v21-henryiv": [
+    {
+      "title": "Concord：皮兰德娄《亨利四世》授权介绍",
+      "url": "https://www.concordtheatricals.com/p/4450/emperor-henry-iv"
+    },
+    {
+      "title": "Johns Hopkins 学术文献 Pretenders to the Throne：Enrico IV 分析",
+      "url": "https://jscholarship.library.jhu.edu/bitstreams/ab5bb9aa-095c-48c8-8590-cf8baa9b1cb7/download"
+    }
+  ],
+  "play-v21-unburied": [
+    {
+      "title": "Finborough Theatre：萨特《死无葬身之地》剧情与演出档案",
+      "url": "https://www.finboroughtheatre.co.uk/productions/men-without-shadows-morts-sans-sepulture"
+    }
+  ],
+  "play-v21-americandream": [
+    {
+      "title": "Edward Albee Society：《美国梦》剧情与创作前言",
+      "url": "https://edwardalbeesociety.org/works/the-american-dream/"
+    }
+  ],
+  "v23-play-allmysons": [
+    {
+      "title": "Concord授权出版：《都是我的儿子》剧情与人物",
+      "url": "https://www.concordtheatricals.com/p/6567/all-my-sons"
+    }
+  ],
+  "v23-play-copenhagen": [
+    {
+      "title": "中国国家话剧院：《哥本哈根》走进成都，三个人物及亡灵叙述框架",
+      "url": "https://www.ntcc.com.cn/zggjhjy/jyxw/201512/abd6fdb5e4cf4d16b1475fa4b856a5cc.shtml"
+    },
+    {
+      "title": "陈戎女、郑芳菲：戏剧《哥本哈根》中的解构主义，上海社会科学院文学研究所",
+      "url": "https://wxs.sass.org.cn/2023/0529/c6913a543168/page.htm"
+    }
+  ],
+  "v23-play-woyzeck": [
+    {
+      "title": "Reclam 出版社：毕希纳作品介绍中的《沃伊采克》事实",
+      "url": "https://www.reclam.de/autor-innen/von-a-bis-z/buechner"
+    },
+    {
+      "title": "毕希纳《沃伊采克》德文原文",
+      "url": "https://projekt-gutenberg.org/authors/georg-buechner/books/buechners-woyzeck/chapter/3/"
+    }
+  ],
+  "v23-play-danton": [
+    {
+      "title": "Methuen Drama / Bloomsbury：《丹东之死》剧情与作者",
+      "url": "https://www.bloomsbury.com/uk/dantons-death-9781408135594/"
+    }
+  ],
+  "v23-play-equus": [
+    {
+      "title": "Concord授权出版：《恋马狂》剧情与人物",
+      "url": "https://www.concordtheatricals.com/p/2822/equus"
+    }
+  ],
+  "v23-play-art": [
+    {
+      "title": "Concord授权出版：雷扎《艺术》剧情与人物",
+      "url": "https://www.concordtheatricals.com/p/13005/art"
     }
   ],
   "v23-play-busstop": [
@@ -1446,16 +2197,6 @@ const highStarSourceDataV40 = {
       "url": "https://www.opentix.life/event/1546343317931937794"
     }
   ],
-  "yplay-jiang": [
-    {
-      "title": "南京大学转载温方伊访谈：《蒋公的面子》的校园创作与历史细节",
-      "url": "https://www.nju.edu.cn/info/3191/194991.htm"
-    },
-    {
-      "title": "清华大学艺术教育中心：《蒋公的面子》的两个时代与三位教授",
-      "url": "https://www.hall.tsinghua.edu.cn/info/xwkx/1411"
-    }
-  ],
   "v23-play-livefield": [
     {
       "title": "文化和旅游部：国家话剧院重排《生死场》，改编关系与叙事手段",
@@ -1466,26 +2207,30 @@ const highStarSourceDataV40 = {
       "url": "https://www.ntcc.com.cn/zggjhjy/jyxw/201507/fd8862b8f00d4586a0c725fdb1e12a2f.shtml"
     }
   ],
-  "yplay-promotion": [
+  "v23-play-iceman": [
     {
-      "title": "彭林祥：《升官图》的问世与上演，《文艺报》2016年6月24日",
-      "url": "https://image.chinawriter.com.cn/61/2016/0624/U3875P843T61D1643F788DT20160624064112.pdf"
+      "title": "Goodman Theatre：《送冰的人来了》制作与剧情",
+      "url": "https://www.goodmantheatre.org/show/the-iceman-cometh/"
     }
   ],
-  "yplay-threepenny": [
+  "v23-play-springawake": [
     {
-      "title": "库尔特·魏尔基金会：《三毛钱歌剧》主创与逐幕剧情",
-      "url": "https://www.kwf.org/works/die-dreigroschenoper/"
-    }
-  ],
-  "v23-play-copenhagen": [
-    {
-      "title": "中国国家话剧院：《哥本哈根》走进成都，三个人物及亡灵叙述框架",
-      "url": "https://www.ntcc.com.cn/zggjhjy/jyxw/201512/abd6fdb5e4cf4d16b1475fa4b856a5cc.shtml"
+      "title": "Reclam：《春醒》原剧版本介绍及结尾",
+      "url": "https://www.reclam.de/produktdetail/fruehlings-erwachen-9783150079515"
     },
     {
-      "title": "陈戎女、郑芳菲：戏剧《哥本哈根》中的解构主义，上海社会科学院文学研究所",
-      "url": "https://wxs.sass.org.cn/2023/0529/c6913a543168/page.htm"
+      "title": "Bloomsbury：《春醒》剧情",
+      "url": "https://www.bloomsbury.com/uk/springs-awakening-9781557832450/"
+    }
+  ],
+  "v23-play-viewbridge": [
+    {
+      "title": "英国国家剧院学习指南：《桥头眺望》（Bloomsbury托管）",
+      "url": "https://www.bloomsbury.com/media/u4wdmp4t/nt_a-view-from-the-bridge-learning-guide.pdf"
+    },
+    {
+      "title": "South London Theatre导演导读：《桥头眺望》人物关系",
+      "url": "https://www.southlondontheatre.co.uk/directors-preview-a-view-from-the-bridge/"
     }
   ],
   "role-oedipus": [
@@ -1498,16 +2243,660 @@ const highStarSourceDataV40 = {
       "url": "https://classics.mit.edu/Sophocles/oedipus.html"
     }
   ],
+  "role-nora": [
+    {
+      "title": "易卜生《玩偶之家》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/2542/pg2542-images.html"
+    }
+  ],
+  "role-hamlet": [
+    {
+      "title": "Royal Shakespeare Company：Hamlet 人物关系",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+    },
+    {
+      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
+      "url": "https://www.rsc.org.uk/hamlet/"
+    }
+  ],
+  "role-fanyi": [
+    {
+      "title": "清华大学出版社《戏剧》教材节选：《雷雨》人物关系与剧情",
+      "url": "https://www.tup.com.cn/upload/books/yz/072257-01.pdf"
+    },
+    {
+      "title": "陆炜：《雷雨》的性解读，南京大学中国新文学研究中心",
+      "url": "https://njucml.nju.edu.cn/5a/51/c22619a350801/page.htm"
+    }
+  ],
+  "role-macbeth": [
+    {
+      "title": "Royal Shakespeare Company：《macbeth》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+    }
+  ],
+  "role-doue": [
+    {
+      "title": "陈颀：司法冤案与儒家礼法——以《窦娥冤》为例，北京大学法学期刊",
+      "url": "https://journal.pkulaw.cn/PDFFiles/司法冤案与儒家礼法.pdf"
+    },
+    {
+      "title": "宿州市司法局：贪赃枉法、善意伪证、“以理杀人”与窦娥冤",
+      "url": "https://sfj.ahsz.gov.cn/pfzl/fzwh/192962851.html"
+    }
+  ],
   "role-liniang": [
     {
       "title": "Pearson Edexcel：《萨勒姆的女巫》指定剧本指南，第四幕梗概",
       "url": "https://qualifications.pearson.com/content/dam/pdf/GCSE/Drama/2016/teaching-and-learning-materials/GCSE-Drama-The-Crucible-guide-Issue%203-Aug-2021.pdf"
     }
   ],
+  "role-ladym": [
+    {
+      "title": "Royal Shakespeare Company: Macbeth character relationships",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+    },
+    {
+      "title": "Royal Shakespeare Company: Macbeth character analysis",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/analysis"
+    }
+  ],
+  "role-wang": [
+    {
+      "title": "老舍《茶馆》第一幕原文，安卡拉大学开放课程资料",
+      "url": "https://acikders.ankara.edu.tr/pluginfile.php/160877/mod_resource/content/1/茶馆%20老舍.pdf"
+    },
+    {
+      "title": "人民网：一样的《茶馆》，不一样的“川味”，康顺子第二幕身份",
+      "url": "https://culture.people.com.cn/n1/2017/1207/c1013-29690543.html"
+    },
+    {
+      "title": "梁冠华：二十年“茶”味越品越浓，演员访谈，北京日报／中国作家网",
+      "url": "https://www.chinawriter.com.cn/n1/2019/0222/c419389-30896835.html"
+    },
+    {
+      "title": "清华大学图书馆：《茶馆》经典舞台电影放映介绍",
+      "url": "https://lib.tsinghua.edu.cn/info/1068/5143.htm"
+    }
+  ],
+  "role-shen": [
+    {
+      "title": "MIT：《The Good Person of Szechwan》分场梗概",
+      "url": "https://www.mit.edu/course/21/21.german/OldFiles/www/WuWei5.html"
+    }
+  ],
+  "role-zhou": [
+    {
+      "title": "清华大学出版社《戏剧》教材节选：《雷雨》人物关系与剧情",
+      "url": "https://www.tup.com.cn/upload/books/yz/072257-01.pdf"
+    },
+    {
+      "title": "李家瑞：从对待鲁侍萍感情的真伪谈周朴园性格的复杂性，四川师院学报",
+      "url": "https://wkxb.sicnu.edu.cn/Publish/201605/20160526111025625.pdf"
+    },
+    {
+      "title": "中央戏剧学院：2024 年《雷雨》教学演出、周朴园与周公馆剧情",
+      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/22315.html"
+    }
+  ],
+  "role-willy": [
+    {
+      "title": "Weston Playhouse：《Death of a Salesman》教学册（含 Royal Lyceum 梗概）",
+      "url": "https://static1.squarespace.com/static/5015c31fe4b00a22f5ca3112/t/644e78aead7bae3d45c23bd4/1682864303677/Death%2Bof%2BSalesman%2B(Study%2BGuide-Abbreviated).pdf"
+    },
+    {
+      "title": "Utah Shakespeare Festival: Death of a Salesman synopsis",
+      "url": "https://www.bard.org/study-guides/synopsis-death-of-a-salesman/"
+    }
+  ],
+  "role-anti": [
+    {
+      "title": "索福克勒斯《安提戈涅》原剧，MIT",
+      "url": "https://classics.mit.edu/Sophocles/antigone.html"
+    }
+  ],
+  "role-bailu": [
+    {
+      "title": "清华大学艺术教育中心：曹禺经典话剧《日出》剧目简介",
+      "url": "https://www.hall.tsinghua.edu.cn/info/dy/5584"
+    },
+    {
+      "title": "中国海洋大学：为找寻日出之时的那一丝微光，校园演出记录",
+      "url": "https://news.ouc.edu.cn/2018/0617/c78a79489/page.htm"
+    }
+  ],
+  "role-gogo": [
+    {
+      "title": "《等待戈多》2024伦敦制作官方学习指南",
+      "url": "https://waitingforgodotplay.com/content/uploads/2025/01/WFG24_Q3_024_Education-pack_A4_AW.pdf"
+    },
+    {
+      "title": "UCLA：Waiting for Godot 的教学、循环结构与身体幽默",
+      "url": "https://newsroom.ucla.edu/stories/ucla-students-benefit-from-professional-theater-production-of-becketts-waiting-for-godot"
+    },
+    {
+      "title": "英国国家剧院档案：1987年《Waiting for Godot》制作与角色",
+      "url": "https://catalogue.nationaltheatre.org.uk/calmview/Record.aspx?id=937&src=CalmView.Performance"
+    }
+  ],
+  "role-shiping": [
+    {
+      "title": "清华大学出版社《戏剧》教材节选：《雷雨》人物关系与剧情",
+      "url": "https://www.tup.com.cn/upload/books/yz/072257-01.pdf"
+    },
+    {
+      "title": "李家瑞：从对待鲁侍萍感情的真伪谈周朴园性格的复杂性，四川师院学报",
+      "url": "https://wkxb.sicnu.edu.cn/Publish/201605/20160526111025625.pdf"
+    }
+  ],
+  "role-xiangjun": [
+    {
+      "title": "国立台湾戏曲学院《桃花扇》节目册：人物关系与拒婚血扇",
+      "url": "https://rb009.tcpa.edu.tw/var/file/12/1012/img/618/742628789.pdf"
+    },
+    {
+      "title": "清华大学艺术教育中心：《桃花扇》寄扇、题画等折子剧情",
+      "url": "https://www.hall.tsinghua.edu.cn/info/yc/3072"
+    }
+  ],
+  "role-chengying": [
+    {
+      "title": "高益荣、赵莎莎：“赵氏孤儿”书写中情与理的两维考量，陕西师范大学学报",
+      "url": "https://www.xuebao.snnu.edu.cn/info/1072/6402.htm"
+    },
+    {
+      "title": "纪君祥《赵氏孤儿》节选，高等教育出版社教材章节",
+      "url": "https://oss0.changxianggu.com/book/chapter/269_9787040191790.pdf"
+    }
+  ],
+  "role-yuji": [
+    {
+      "title": "布莱希特《Mother Courage and Her Children》Eric Bentley 译本，学院课程文本",
+      "url": "https://elearning.raghunathpurcollege.ac.in/files/1068BEC815874692530.pdf"
+    }
+  ],
+  "role-lear": [
+    {
+      "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+    }
+  ],
+  "role-courage": [
+    {
+      "title": "布莱希特《Mother Courage and Her Children》Eric Bentley 译本，学院课程文本",
+      "url": "https://elearning.raghunathpurcollege.ac.in/files/1068BEC815874692530.pdf"
+    }
+  ],
+  "role-blanche": [
+    {
+      "title": "Concord Theatricals：《A Streetcar Named Desire》",
+      "url": "https://www.concordtheatricals.com/p/98265/a-streetcar-named-desire"
+    },
+    {
+      "title": "École Polytechnique Editions：《A Streetcar Named Desire: From Pen to Prop》节选（引用威廉斯对第十场的说明）",
+      "url": "https://portail.polytechnique.edu/editions/sites/editions/files/content/pages/documents/2024-12/extrait_87.pdf"
+    },
+    {
+      "title": "Utah Shakespeare Festival: A Streetcar Named Desire synopsis",
+      "url": "https://www.bard.org/study-guides/synopsis-a-streetcar-named-desire/"
+    }
+  ],
+  "role-mengmei": [
+    {
+      "title": "Bristol Old Vic：《The Crucible》Education Pack",
+      "url": "https://bristololdvic.org.uk/index.php/actions/supercoolTools/downloadFile?id=8389"
+    }
+  ],
+  "role-zhu": [
+    {
+      "title": "易卜生《海达·高布乐》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/4093/pg4093-images.html"
+    }
+  ],
+  "role-vladimir": [
+    {
+      "title": "《等待戈多》2024伦敦制作官方学习指南",
+      "url": "https://waitingforgodotplay.com/content/uploads/2025/01/WFG24_Q3_024_Education-pack_A4_AW.pdf"
+    },
+    {
+      "title": "UCLA：Waiting for Godot 的教学、循环结构与身体幽默",
+      "url": "https://newsroom.ucla.edu/stories/ucla-students-benefit-from-professional-theater-production-of-becketts-waiting-for-godot"
+    },
+    {
+      "title": "英国国家剧院档案：1987年《Waiting for Godot》制作与角色",
+      "url": "https://catalogue.nationaltheatre.org.uk/calmview/Record.aspx?id=937&src=CalmView.Performance"
+    }
+  ],
+  "xrole-ophelia": [
+    {
+      "title": "Royal Shakespeare Company：Hamlet 人物关系",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+    }
+  ],
+  "xrole-juliet": [
+    {
+      "title": "Royal Shakespeare Company：《romeo-and-juliet》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/character/relationships"
+    },
+    {
+      "title": "Royal Shakespeare Company: Romeo and Juliet character analysis",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/character/analysis"
+    },
+    {
+      "title": "Royal Shakespeare Company: Romeo and Juliet story timeline",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/story/timeline"
+    }
+  ],
+  "xrole-eliza": [
+    {
+      "title": "George Bernard Shaw: Pygmalion, original play and sequel, Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/3825/3825-h/3825-h.htm"
+    }
+  ],
+  "xrole-hedda": [
+    {
+      "title": "易卜生《海达·高布乐》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/4093/pg4093-images.html"
+    }
+  ],
+  "xrole-harpagon": [
+    {
+      "title": "莫里哀《吝啬鬼》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/6923/6923-h/6923-h.htm"
+    }
+  ],
+  "xrole-tartuffe": [
+    {
+      "title": "莫里哀《伪君子》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/2027/pg2027.html"
+    }
+  ],
+  "xrole-figaro": [
+    {
+      "title": "Théâtre de Liège：Beaumarchais 教学册",
+      "url": "https://theatredeliege.be/wp-content/uploads/2014/11/CP-Beaumarchais.pdf"
+    }
+  ],
+  "xrole-mephisto": [
+    {
+      "title": "歌德《浮士德》第一部原文英译",
+      "url": "https://www.gutenberg.org/cache/epub/3023/pg3023.html"
+    }
+  ],
+  "xrole-cordelia": [
+    {
+      "title": "Royal Shakespeare Company: King Lear character relationships",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+    }
+  ],
+  "xrole-pozzo": [
+    {
+      "title": "《等待戈多》2024伦敦制作官方学习指南",
+      "url": "https://waitingforgodotplay.com/content/uploads/2025/01/WFG24_Q3_024_Education-pack_A4_AW.pdf"
+    },
+    {
+      "title": "The Shakespeare Theatre of New Jersey: Waiting for Godot 2023 Know-the-Show Guide, synopsis p.7",
+      "url": "https://www.shakespearenj.org/assets/doc/GODOT-KTS-2023-FINAL-301d6e32f5.pdf"
+    }
+  ],
+  "xrole-lucky": [
+    {
+      "title": "《等待戈多》2024伦敦制作官方学习指南",
+      "url": "https://waitingforgodotplay.com/content/uploads/2025/01/WFG24_Q3_024_Education-pack_A4_AW.pdf"
+    },
+    {
+      "title": "The Shakespeare Theatre of New Jersey: Waiting for Godot 2023 Know-the-Show Guide, synopsis p.7",
+      "url": "https://www.shakespearenj.org/assets/doc/GODOT-KTS-2023-FINAL-301d6e32f5.pdf"
+    }
+  ],
+  "xrole-chunxiang": [
+    {
+      "title": "Strindberg Museum：Kristin in Miss Julie",
+      "url": "https://www.strindbergsmuseet.se/wp-content/uploads/2024/11/Kristin_in_Miss_Julie.pdf"
+    }
+  ],
+  "xrole-hongniang": [
+    {
+      "title": "江苏省演艺集团《西厢记》剧情简介：传书递柬与拷红",
+      "url": "https://www.jsyanyi.cn/jpjmxq/122.html"
+    }
+  ],
+  "xrole-xiangzi": [
+    {
+      "title": "郭晨子：新版话剧《骆驼祥子》——不仅仅是一台戏，中国文艺评论网",
+      "url": "https://www.zgwypl.com/content/details10_442246.html"
+    },
+    {
+      "title": "曲彤：《骆驼祥子》乡下人进城叙事研究，学术期刊论文",
+      "url": "https://journal.kci.go.kr/clsyn/archive/articlePdf?artiId=ART003150777"
+    }
+  ],
+  "xrole-huniu": [
+    {
+      "title": "郭晨子：新版话剧《骆驼祥子》——不仅仅是一台戏，中国文艺评论网",
+      "url": "https://www.zgwypl.com/content/details10_442246.html"
+    },
+    {
+      "title": "中国作家网：重读《骆驼祥子》——虎妞、虎姑娘与刘姑娘",
+      "url": "https://www.chinawriter.com.cn/n1/2026/0616/c419384-40741021.html"
+    }
+  ],
+  "xrole-sifeng": [
+    {
+      "title": "清华大学出版社《戏剧》教材节选：《雷雨》人物关系与剧情",
+      "url": "https://www.tup.com.cn/upload/books/yz/072257-01.pdf"
+    },
+    {
+      "title": "陆炜：《雷雨》的性解读，南京大学中国新文学研究中心",
+      "url": "https://njucml.nju.edu.cn/5a/51/c22619a350801/page.htm"
+    }
+  ],
+  "xrole-juexin": [
+    {
+      "title": "曹禺全集第三卷：《家》人物表及正文，花山文艺出版社1995年版扫描镜像",
+      "url": "https://ivantsoi.myds.me/web/schoolebook/pdf/008003.pdf"
+    },
+    {
+      "title": "上海交通大学中国语言文学系：《家》阅读与人物讨论",
+      "url": "https://chinese.sjtu.edu.cn/Web/Show/72"
+    }
+  ],
+  "xrole-chanjuan": [
+    {
+      "title": "盐田档案与史志信息网：郭沫若历史剧《屈原》剧情",
+      "url": "https://www.yantian.gov.cn/ytdayszxxw/lsjt/content/post_11737588.html"
+    },
+    {
+      "title": "吴曼曼：论郭沫若制作《湘累》与《屈原》中的屈原诠释与自我模拟，成功大学中文学报",
+      "url": "https://chinese.ncku.edu.tw/var/file/142/1142/img/4253/7803.pdf"
+    }
+  ],
+  "xrole-zhulian": [
+    {
+      "title": "田汉基金会：田汉作品信息《关汉卿》，朱帘秀支持创作与承担演出",
+      "url": "https://tianhanfoundation.org/news_28/194.html"
+    },
+    {
+      "title": "田汉：《关汉卿》自序，田汉基金会",
+      "url": "https://www.tianhanfoundation.org/news_35/375.html"
+    },
+    {
+      "title": "夏庭芝《青楼集·珠帘秀》原文，中国古典戏曲资料库",
+      "url": "https://ccddb.net/青樓集/珠簾秀"
+    }
+  ],
+  "xrole-cao": [
+    {
+      "title": "上海京剧院新编京剧《曹操与杨修》演出资料，新浪演出信息转载",
+      "url": "https://ent.sina.com.cn/j/2009-01-07/16282332316.shtml?from=wap"
+    },
+    {
+      "title": "京剧《曹操与杨修》：从传统走向现代，荔枝艺评",
+      "url": "https://news.jstv.com/a/20161210/1481276267276.shtml"
+    }
+  ],
+  "xrole-yangxiu": [
+    {
+      "title": "上海京剧院新编京剧《曹操与杨修》演出资料，新浪演出信息转载",
+      "url": "https://ent.sina.com.cn/j/2009-01-07/16282332316.shtml?from=wap"
+    },
+    {
+      "title": "京剧《曹操与杨修》：从传统走向现代，荔枝艺评",
+      "url": "https://news.jstv.com/a/20161210/1481276267276.shtml"
+    }
+  ],
+  "xrole-gouer": [
+    {
+      "title": "王一川：“两个结合”与中国现实主义文艺的五种理论范式，中国作家网",
+      "url": "https://www.chinawriter.com.cn/n1/2024/1017/c459179-40341242.html"
+    }
+  ],
+  "xrole-shang": [
+    {
+      "title": "上海话剧艺术中心：《商鞅》首演三十周年纪念演出官方发布",
+      "url": "https://www.sohu.com/a/957359039_740643"
+    },
+    {
+      "title": "西北大学现代学院：话剧作品中的反神权意识——评话剧《商鞅》",
+      "url": "https://www.xdxd.cn/jxtd/jgyd/jlyd/2024-12-02/61915.html"
+    }
+  ],
+  "yrole-clytemnestra": [
+    {
+      "title": "Duke University：埃斯库罗斯《阿伽门农》逐段梗概",
+      "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
+    }
+  ],
+  "yrole-witches": [
+    {
+      "title": "Royal Shakespeare Company：《macbeth》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+    }
+  ],
+  "yrole-horatio": [
+    {
+      "title": "Royal Shakespeare Company：Hamlet 人物关系",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+    },
+    {
+      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
+      "url": "https://www.rsc.org.uk/hamlet/"
+    }
+  ],
+  "yrole-prospero": [
+    {
+      "title": "RSC / Folger 莎士比亚原剧及人物资料",
+      "url": "https://www.folger.edu/explore/shakespeares-works/the-tempest/read/5/1/"
+    }
+  ],
+  "yrole-ariel": [
+    {
+      "title": "RSC / Folger 莎士比亚原剧及人物资料",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/the-tempest/character/relationships"
+    }
+  ],
+  "yrole-richardiii": [
+    {
+      "title": "RSC / Folger 莎士比亚原剧及人物资料",
+      "url": "https://www.folger.edu/explore/shakespeares-works/richard-iii/"
+    },
+    {
+      "title": "Royal Shakespeare Company: Richard III synopsis",
+      "url": "https://www.rsc.org.uk/richard-iii/"
+    },
+    {
+      "title": "Folger Shakespeare Library: About Richard III",
+      "url": "https://www.folger.edu/explore/shakespeares-works/richard-iii/about-shakespeares-richard-iii/"
+    }
+  ],
+  "yrole-falstaff": [
+    {
+      "title": "RSC / Folger 莎士比亚原剧及人物资料",
+      "url": "https://www.folger.edu/explore/shakespeares-works/henry-iv-part-1/read/5/1/"
+    }
+  ],
+  "yrole-helmer": [
+    {
+      "title": "易卜生《玩偶之家》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/2542/pg2542-images.html"
+    }
+  ],
+  "yrole-stockmann": [
+    {
+      "title": "易卜生《人民公敌》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/2446/2446-h/2446-h.htm"
+    }
+  ],
+  "yrole-khlestakov": [
+    {
+      "title": "果戈理《钦差大臣》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/3735/pg3735-images.html"
+    }
+  ],
+  "yrole-qiuhu": [
+    {
+      "title": "国家大剧院：《原野》演出人物表与剧情",
+      "url": "https://www.chncpa.org/ycxm/201203/t20120320_147400.html"
+    },
+    {
+      "title": "喻汀芷：《原野》——一场出色的困兽犹斗，国际演艺评论家协会香港分会",
+      "url": "https://www.iatc.com.hk/doc/106726"
+    }
+  ],
+  "yrole-juehui": [
+    {
+      "title": "曹禺全集第三卷：《家》人物表及正文，花山文艺出版社1995年版扫描镜像",
+      "url": "https://ivantsoi.myds.me/web/schoolebook/pdf/008003.pdf"
+    },
+    {
+      "title": "上海交通大学中国语言文学系：《家》阅读与人物讨论",
+      "url": "https://chinese.sjtu.edu.cn/Web/Show/72"
+    }
+  ],
+  "yrole-baisuzhen": [
+    {
+      "title": "易卜生《野鸭》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/70577/70577-h/70577-h.htm"
+    }
+  ],
+  "yrole-guifei": [
+    {
+      "title": "索福克勒斯《厄勒克特拉》原剧，MIT",
+      "url": "https://classics.mit.edu/Sophocles/electra.html"
+    }
+  ],
+  "yrole-bawang": [
+    {
+      "title": "布莱希特《Mother Courage and Her Children》Eric Bentley 译本，学院课程文本",
+      "url": "https://elearning.raghunathpurcollege.ac.in/files/1068BEC815874692530.pdf"
+    }
+  ],
+  "yrole-liangshanbo": [
+    {
+      "title": "易卜生《海达·高布乐》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/4093/pg4093-images.html"
+    }
+  ],
+  "yrole-tietmei": [
+    {
+      "title": "Edward Albee Society：《Who’s Afraid of Virginia Woolf?》剧情与研究",
+      "url": "https://edwardalbeesociety.org/works/whos-afraid-of-virginia-woolf/"
+    }
+  ],
+  "yrole-aqing": [
+    {
+      "title": "Edward Albee Society：《Who’s Afraid of Virginia Woolf?》剧情与研究",
+      "url": "https://edwardalbeesociety.org/works/whos-afraid-of-virginia-woolf/"
+    }
+  ],
+  "yrole-zijirong": [
+    {
+      "title": "Edward Albee Society：《Who’s Afraid of Virginia Woolf?》剧情与研究",
+      "url": "https://edwardalbeesociety.org/works/whos-afraid-of-virginia-woolf/"
+    }
+  ],
+  "yrole-malu": [
+    {
+      "title": "清华大学艺术教育中心：《恋爱的犀牛》登陆清华，马路与明明人物关系",
+      "url": "https://www.hall.tsinghua.edu.cn/info/xwkx/1432"
+    },
+    {
+      "title": "清华大学艺术教育中心：《恋爱的犀牛》主创及剧情",
+      "url": "https://www.hall.tsinghua.edu.cn/info/jz/1379"
+    }
+  ],
+  "yrole-houfangyu": [
+    {
+      "title": "国立台湾戏曲学院《桃花扇》节目册：人物关系与拒婚血扇",
+      "url": "https://rb009.tcpa.edu.tw/var/file/12/1012/img/618/742628789.pdf"
+    },
+    {
+      "title": "清华大学艺术教育中心：《桃花扇》寄扇、题画等折子剧情",
+      "url": "https://www.hall.tsinghua.edu.cn/info/yc/3072"
+    }
+  ],
+  "yrole-dorine": [
+    {
+      "title": "莫里哀《伪君子》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/2027/pg2027.html"
+    }
+  ],
+  "yrole-mackheath": [
+    {
+      "title": "Indianapolis Opera：《The Threepenny Opera》节目册剧情",
+      "url": "https://www.indyopera.org/uploads/1/2/0/7/12072196/thethreepennyopera_programbook_web.pdf"
+    }
+  ],
+  "yrole-hamm": [
+    {
+      "title": "Milwaukee Repertory Theater：《终局》剧情及人物指南",
+      "url": "https://media.milwaukeerep.com/filer_public/3c/38/3c3871fe-680b-42f2-8495-377c53c9389b/endgamesg.pdf"
+    }
+  ],
+  "yrole-linda": [
+    {
+      "title": "Weston Playhouse：《Death of a Salesman》教学册（含 Royal Lyceum 梗概）",
+      "url": "https://static1.squarespace.com/static/5015c31fe4b00a22f5ca3112/t/644e78aead7bae3d45c23bd4/1682864303677/Death%2Bof%2BSalesman%2B(Study%2BGuide-Abbreviated).pdf"
+    }
+  ],
+  "yrole-brutus": [
+    {
+      "title": "Royal Shakespeare Company：《julius-caesar》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/julius-caesar/character/relationships"
+    }
+  ],
+  "yrole-solveig": [
+    {
+      "title": "易卜生《培尔·金特》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/66239/pg66239-images.html"
+    }
+  ],
+  "yrole-wukong": [
+    {
+      "title": "Folger：《暴风雨》第一幕第二场",
+      "url": "https://www.folger.edu/explore/shakespeares-works/the-tempest/read/1/2/"
+    }
+  ],
   "yrole-kuangzhong": [
     {
       "title": "谢立丹《造谣学校》原文，第四幕第三场，Project Gutenberg",
       "url": "https://www.gutenberg.org/cache/epub/1929/pg1929.html"
+    }
+  ],
+  "role2-creon": [
+    {
+      "title": "索福克勒斯《安提戈涅》原剧，MIT",
+      "url": "https://classics.mit.edu/Sophocles/antigone.html"
+    }
+  ],
+  "role2-ismene": [
+    {
+      "title": "索福克勒斯《安提戈涅》原剧，MIT",
+      "url": "https://classics.mit.edu/Sophocles/antigone.html"
+    }
+  ],
+  "role2-juliet-nurse": [
+    {
+      "title": "Royal Shakespeare Company：《romeo-and-juliet》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/character/relationships"
+    }
+  ],
+  "role2-mercutio": [
+    {
+      "title": "Royal Shakespeare Company：《romeo-and-juliet》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/character/relationships"
+    }
+  ],
+  "role2-banquo": [
+    {
+      "title": "Royal Shakespeare Company：《macbeth》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+    }
+  ],
+  "role2-macduff": [
+    {
+      "title": "Royal Shakespeare Company：《macbeth》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
     }
   ],
   "role2-laertes": [
@@ -1524,10 +2913,684 @@ const highStarSourceDataV40 = {
       "url": "https://www.rsc.org.uk/hamlet/"
     }
   ],
-  "v23-sup-harryhope": [
+  "role2-polonius": [
     {
-      "title": "奥尼尔《送冰的人来了》原文，第一幕及第三幕，Project Gutenberg Australia",
-      "url": "https://gutenberg.net.au/ebooks04/0400021h.html"
+      "title": "Royal Shakespeare Company：Hamlet 人物关系",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+    }
+  ],
+  "role2-gertrude": [
+    {
+      "title": "Royal Shakespeare Company：Hamlet 人物关系",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+    }
+  ],
+  "role2-claudius": [
+    {
+      "title": "Royal Shakespeare Company：Hamlet 人物关系",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
+    }
+  ],
+  "role2-goneril": [
+    {
+      "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+    }
+  ],
+  "role2-regan": [
+    {
+      "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+    }
+  ],
+  "role2-edmund": [
+    {
+      "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+    }
+  ],
+  "role2-kent": [
+    {
+      "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+    }
+  ],
+  "role2-fool-lear": [
+    {
+      "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+    }
+  ],
+  "role2-gloucester": [
+    {
+      "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+    }
+  ],
+  "role2-edgar": [
+    {
+      "title": "Royal Shakespeare Company：《king-lear》人物关系及行动说明",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
+    }
+  ],
+  "role2-malcolm": [
+    {
+      "title": "Royal Shakespeare Company: Macbeth character relationships",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+    },
+    {
+      "title": "Folger Shakespeare Library: Macbeth Act 4 Scene 3, original play text",
+      "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/read/4/3/"
+    }
+  ],
+  "role2-duncan": [
+    {
+      "title": "Royal Shakespeare Company: Macbeth character relationships",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
+    }
+  ],
+  "role2-cassandra": [
+    {
+      "title": "Duke University：埃斯库罗斯《阿伽门农》逐段梗概",
+      "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
+    }
+  ],
+  "role2-agamemnon": [
+    {
+      "title": "Duke University：埃斯库罗斯《阿伽门农》逐段梗概",
+      "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
+    }
+  ],
+  "role2-aegisthus": [
+    {
+      "title": "Duke University：埃斯库罗斯《阿伽门农》逐段梗概",
+      "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
+    }
+  ],
+  "role2-martha-misunderstanding": [
+    {
+      "title": "Rowohlt Theater Verlag：《Das Missverständnis》",
+      "url": "https://www.rowohlt-theaterverlag.de/theaterstueck/das-missverstaendnis-2620"
+    }
+  ],
+  "role2-kristine-linde": [
+    {
+      "title": "易卜生《玩偶之家》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/2542/pg2542-images.html"
+    }
+  ],
+  "role2-krogstad": [
+    {
+      "title": "易卜生《玩偶之家》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/2542/pg2542-images.html"
+    }
+  ],
+  "role2-lopakhin": [
+    {
+      "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+    },
+    {
+      "title": "Royal Shakespeare Company：The Cherry Orchard 剧情与洛巴辛",
+      "url": "https://www.rsc.org.uk/the-cherry-orchard"
+    }
+  ],
+  "role2-gayev": [
+    {
+      "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+    }
+  ],
+  "role2-varya": [
+    {
+      "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+    }
+  ],
+  "role2-anya-cherry": [
+    {
+      "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+    }
+  ],
+  "role2-trofimov": [
+    {
+      "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+    }
+  ],
+  "role2-serebryakov": [
+    {
+      "title": "契诃夫《万尼亚舅舅》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+    }
+  ],
+  "role2-sonya": [
+    {
+      "title": "契诃夫《万尼亚舅舅》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+    }
+  ],
+  "role2-yelena": [
+    {
+      "title": "契诃夫《万尼亚舅舅》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+    }
+  ],
+  "role2-tuzenbach": [
+    {
+      "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+    }
+  ],
+  "role2-solyony": [
+    {
+      "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+    }
+  ],
+  "role2-vershinin": [
+    {
+      "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+    }
+  ],
+  "role2-andrei-three-sisters": [
+    {
+      "title": "契诃夫《樱桃园》及《三姐妹》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+    }
+  ],
+  "role2-treplev": [
+    {
+      "title": "契诃夫《海鸥》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
+    }
+  ],
+  "role2-arkadina": [
+    {
+      "title": "契诃夫《海鸥》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
+    }
+  ],
+  "role2-nina": [
+    {
+      "title": "契诃夫《海鸥》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
+    }
+  ],
+  "role2-trigorin": [
+    {
+      "title": "契诃夫《海鸥》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
+    }
+  ],
+  "role2-mayor-inspector": [
+    {
+      "title": "果戈理《钦差大臣》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/3735/pg3735-images.html"
+    }
+  ],
+  "role2-hippolytus": [
+    {
+      "title": "拉辛《费德尔》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1977/pg1977-images.html"
+    }
+  ],
+  "role2-oenone": [
+    {
+      "title": "拉辛《费德尔》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1977/pg1977-images.html"
+    }
+  ],
+  "role2-theseus": [
+    {
+      "title": "拉辛《费德尔》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1977/pg1977-images.html"
+    }
+  ],
+  "role2-clov": [
+    {
+      "title": "Milwaukee Repertory Theater：《终局》剧情及人物指南",
+      "url": "https://media.milwaukeerep.com/filer_public/3c/38/3c3871fe-680b-42f2-8495-377c53c9389b/endgamesg.pdf"
+    }
+  ],
+  "role2-nagg": [
+    {
+      "title": "Milwaukee Repertory Theater：《终局》剧情及人物指南",
+      "url": "https://media.milwaukeerep.com/filer_public/3c/38/3c3871fe-680b-42f2-8495-377c53c9389b/endgamesg.pdf"
+    }
+  ],
+  "role2-nell": [
+    {
+      "title": "Milwaukee Repertory Theater：《终局》剧情及人物指南",
+      "url": "https://media.milwaukeerep.com/filer_public/3c/38/3c3871fe-680b-42f2-8495-377c53c9389b/endgamesg.pdf"
+    }
+  ],
+  "role2-jean-rhinoceros": [
+    {
+      "title": "Royal Court Theatre：Rhinoceros Background Pack",
+      "url": "https://d19lfjg8hluhfw.cloudfront.net/wp-content/uploads/2016/09/25191802/Rhinoceros-Resource-Pack1.pdf"
+    }
+  ],
+  "role2-fire-chief": [
+    {
+      "title": "MGL 剧院：《The Bald Soprano》剧情介绍",
+      "url": "https://www.mgl.si/en/shows/plesasta-pevka/"
+    }
+  ],
+  "role2-claire-maids": [
+    {
+      "title": "Concord Theatricals：《The Maids》授权简介",
+      "url": "https://www.concordtheatricals.com/p/9285/the-maids"
+    }
+  ],
+  "role2-solange": [
+    {
+      "title": "Concord Theatricals：《The Maids》授权简介",
+      "url": "https://www.concordtheatricals.com/p/9285/the-maids"
+    },
+    {
+      "title": "A Noise Within：《The Maids》Audience Guide 人物表",
+      "url": "https://www.anoisewithin.org/wp-content/uploads/2016/08/16-17AudienceGuide_TheMaids.pdf"
+    }
+  ],
+  "role2-li-shiqing": [
+    {
+      "title": "曹禺《日出》节选教学材料：黄省三与李石清对话",
+      "url": "https://www.lyglxy.com/uploads/editor/file/20241023/1729665869337948.pdf"
+    },
+    {
+      "title": "中国海洋大学：为找寻日出之时的那一丝微光，校园演出记录",
+      "url": "https://news.ouc.edu.cn/2018/0617/c78a79489/page.htm"
+    }
+  ],
+  "role2-huang-shengsan": [
+    {
+      "title": "曹禺《日出》节选教学材料：黄省三与李石清对话",
+      "url": "https://www.lyglxy.com/uploads/editor/file/20241023/1729665869337948.pdf"
+    },
+    {
+      "title": "中国海洋大学：为找寻日出之时的那一丝微光，校园演出记录",
+      "url": "https://news.ouc.edu.cn/2018/0617/c78a79489/page.htm"
+    }
+  ],
+  "role2-fang-dasheng": [
+    {
+      "title": "清华大学艺术教育中心：曹禺经典话剧《日出》剧目简介",
+      "url": "https://www.hall.tsinghua.edu.cn/info/dy/5584"
+    }
+  ],
+  "role2-jiao-mother": [
+    {
+      "title": "国家大剧院：《原野》演出人物表与剧情",
+      "url": "https://www.chncpa.org/ycxm/201203/t20120320_147400.html"
+    },
+    {
+      "title": "贵州广播电视台：一鸢戏剧五周年，焦母扮演者访谈",
+      "url": "https://www.gzstv.com/a/099d654e3c4944b0897ed1b968979e1c"
+    }
+  ],
+  "role2-jiao-daxing": [
+    {
+      "title": "国家大剧院：《原野》演出人物表与剧情",
+      "url": "https://www.chncpa.org/ycxm/201203/t20120320_147400.html"
+    },
+    {
+      "title": "喻汀芷：《原野》——一场出色的困兽犹斗，国际演艺评论家协会香港分会",
+      "url": "https://www.iatc.com.hk/doc/106726"
+    }
+  ],
+  "role2-bai-shazi": [
+    {
+      "title": "国家大剧院：《原野》演出人物表与剧情",
+      "url": "https://www.chncpa.org/ycxm/201203/t20120320_147400.html"
+    },
+    {
+      "title": "喻汀芷：《原野》——一场出色的困兽犹斗，国际演艺评论家协会香港分会",
+      "url": "https://www.iatc.com.hk/doc/106726"
+    }
+  ],
+  "role2-zeng-siyi": [
+    {
+      "title": "文化和旅游部：北京央华时代制作话剧《北京人》详细剧情与角色关系",
+      "url": "https://www.mct.gov.cn/ggfw/zyjzzt/yanchu/yanchuwqhg/202211/t20221101_937099.html"
+    }
+  ],
+  "role2-zeng-hao": [
+    {
+      "title": "文化和旅游部：北京央华时代制作话剧《北京人》详细剧情与角色关系",
+      "url": "https://www.mct.gov.cn/ggfw/zyjzzt/yanchu/yanchuwqhg/202211/t20221101_937099.html"
+    }
+  ],
+  "role2-ruizhen": [
+    {
+      "title": "文化和旅游部：北京央华时代制作话剧《北京人》详细剧情与角色关系",
+      "url": "https://www.mct.gov.cn/ggfw/zyjzzt/yanchu/yanchuwqhg/202211/t20221101_937099.html"
+    }
+  ],
+  "role2-liu-mazi": [
+    {
+      "title": "中国政法大学汉语言文学课程教学大纲：《茶馆》戏剧语言分析",
+      "url": "https://jwc.cupl.edu.cn/__local/2/FA/EA/892D0D949118612A6016F8B71CE_DEDC092E_6C5F8D.pdf?e=.pdf"
+    },
+    {
+      "title": "人民网：一样的《茶馆》，不一样的“川味”，康顺子第二幕身份",
+      "url": "https://culture.people.com.cn/n1/2017/1207/c1013-29690543.html"
+    }
+  ],
+  "role2-kang-shunzi": [
+    {
+      "title": "中国政法大学汉语言文学课程教学大纲：《茶馆》戏剧语言分析",
+      "url": "https://jwc.cupl.edu.cn/__local/2/FA/EA/892D0D949118612A6016F8B71CE_DEDC092E_6C5F8D.pdf?e=.pdf"
+    },
+    {
+      "title": "人民网：一样的《茶馆》，不一样的“川味”，康顺子第二幕身份",
+      "url": "https://culture.people.com.cn/n1/2017/1207/c1013-29690543.html"
+    }
+  ],
+  "role2-liu-siye": [
+    {
+      "title": "郭晨子：新版话剧《骆驼祥子》——不仅仅是一台戏，中国文艺评论网",
+      "url": "https://www.zgwypl.com/content/details10_442246.html"
+    },
+    {
+      "title": "中国作家网：重读《骆驼祥子》——虎妞、虎姑娘与刘姑娘",
+      "url": "https://www.chinawriter.com.cn/n1/2026/0616/c419384-40741021.html"
+    }
+  ],
+  "role2-xiao-fuzi": [
+    {
+      "title": "郭晨子：新版话剧《骆驼祥子》——不仅仅是一台戏，中国文艺评论网",
+      "url": "https://www.zgwypl.com/content/details10_442246.html"
+    },
+    {
+      "title": "曲彤：《骆驼祥子》乡下人进城叙事研究，学术期刊论文",
+      "url": "https://journal.kci.go.kr/clsyn/archive/articlePdf?artiId=ART003150777"
+    }
+  ],
+  "role2-kuang-fu": [
+    {
+      "title": "张晓欧：夏衍《上海屋檐下》的经典化历程，中国作家网",
+      "url": "https://www.chinawriter.com.cn/n1/2022/0706/c442005-32467627.html"
+    },
+    {
+      "title": "中国人民大学文学院：空间的俘虏——《上海屋檐下》中的空间探究",
+      "url": "https://wenxueyuan.ruc.edu.cn/UploadFile/20150524/20150524110730660.pdf"
+    }
+  ],
+  "role2-yang-caiyu": [
+    {
+      "title": "中国人民大学文学院：空间的俘虏——《上海屋檐下》中的空间探究",
+      "url": "https://wenxueyuan.ruc.edu.cn/UploadFile/20150524/20150524110730660.pdf"
+    },
+    {
+      "title": "中国作家网：夏衍的文学地图，林志成与杨彩玉的家庭关系",
+      "url": "https://www.chinawriter.com.cn/n1/2020/1028/c404064-31908680.html"
+    }
+  ],
+  "role2-lin-zhicheng": [
+    {
+      "title": "张晓欧：夏衍《上海屋檐下》的经典化历程，中国作家网",
+      "url": "https://www.chinawriter.com.cn/n1/2022/0706/c442005-32467627.html"
+    },
+    {
+      "title": "中国作家网：夏衍的文学地图，林志成与杨彩玉的家庭关系",
+      "url": "https://www.chinawriter.com.cn/n1/2020/1028/c404064-31908680.html"
+    }
+  ],
+  "role2-huang-jiamei": [
+    {
+      "title": "刘涛：《以话剧抗战——论夏衍抗战时期的几个话剧》，文艺报2012年10月17日",
+      "url": "https://image.chinawriter.com.cn/61/2012/1017/U3875P843T61D861F788DT20121017072629.pdf"
+    }
+  ],
+  "role2-qi-yongnian": [
+    {
+      "title": "王一川：“两个结合”与中国现实主义文艺的五种理论范式，中国作家网",
+      "url": "https://www.chinawriter.com.cn/n1/2024/1017/c459179-40341242.html"
+    }
+  ],
+  "role2-xiu-dingxin": [
+    {
+      "title": "上海戏剧学院：何冀平“当代戏剧创作名家讲坛”实录，修鼎新的作者发声功能",
+      "url": "https://www.sta.edu.cn/cc/ac/c1546a117932/page.htm"
+    }
+  ],
+  "role2-xia-professor": [
+    {
+      "title": "南京大学转载导演吕效平采访：《蒋公的面子》导演：戏剧是把灵魂放在火上烤",
+      "url": "https://www.nju.edu.cn/info/3191/193181.htm"
+    }
+  ],
+  "role2-shi-professor": [
+    {
+      "title": "南京大学转载导演吕效平采访：《蒋公的面子》导演：戏剧是把灵魂放在火上烤",
+      "url": "https://www.nju.edu.cn/info/3191/193181.htm"
+    }
+  ],
+  "role2-mifeng": [
+    {
+      "title": "三联书店《剑桥A Level中文文学》试读章节：《绝对信号》人物与剧情",
+      "url": "https://www.jointpublishing.com/JointPublishing2013/media/Joint-Publishing/9789620446269-text.pdf?ext=.pdf"
+    },
+    {
+      "title": "罗长青：从就业制度的角度解读《绝对信号》，北京社会科学2011年第3期",
+      "url": "https://media6.open.com.cn/media001/2203/dongshi/zgddwxzpx/study/chapter09/download/从就业制度的角度解读绝对信号--罗长青.pdf"
+    }
+  ],
+  "role-v21-unclevanya": [
+    {
+      "title": "契诃夫《万尼亚舅舅》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+    }
+  ],
+  "role-v21-astrov": [
+    {
+      "title": "契诃夫《万尼亚舅舅》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+    }
+  ],
+  "role-v21-berenger": [
+    {
+      "title": "Royal Court Theatre：Rhinoceros Background Pack",
+      "url": "https://d19lfjg8hluhfw.cloudfront.net/wp-content/uploads/2016/09/25191802/Rhinoceros-Resource-Pack1.pdf"
+    }
+  ],
+  "role-v21-phedre": [
+    {
+      "title": "拉辛《费德尔》原剧，Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/1977/pg1977-images.html"
+    }
+  ],
+  "role-v21-caligularole": [
+    {
+      "title": "Concord Theatricals：《Caligula》授权简介",
+      "url": "https://www.concordtheatricals.com/p/1171/caligula"
+    }
+  ],
+  "role-v21-marytyrone": [
+    {
+      "title": "Concord Theatricals：《Long Day’s Journey into Night》",
+      "url": "https://www.concordtheatricals.com/p/98198/long-days-journey-into-night"
+    }
+  ],
+  "role-v21-edmundtyrone": [
+    {
+      "title": "Concord Theatricals：《Long Day’s Journey into Night》",
+      "url": "https://www.concordtheatricals.com/p/98198/long-days-journey-into-night"
+    }
+  ],
+  "role-v21-amanda": [
+    {
+      "title": "A Noise Within：《The Glass Menagerie》Audience Guide",
+      "url": "https://cdn.anoisewithin.org/wp-content/uploads/2018/12/AGSpring_18-19-TheGlassMenagerie_FINAL1.pdf"
+    }
+  ],
+  "role-v21-tomglass": [
+    {
+      "title": "A Noise Within：《The Glass Menagerie》Audience Guide",
+      "url": "https://cdn.anoisewithin.org/wp-content/uploads/2018/12/AGSpring_18-19-TheGlassMenagerie_FINAL1.pdf"
+    }
+  ],
+  "role-v21-winnie": [
+    {
+      "title": "Sydney Theatre Company：《快乐的日子》On Cue学习指南",
+      "url": "https://www.sydneytheatre.com.au/-/media/project/sydney-theatre-company/sydney-theatre-company/pdf/2025/education/happy-days/2025_ed_happy-days_on-cue.pdf"
+    }
+  ],
+  "role-v21-jimglass": [
+    {
+      "title": "A Noise Within：《The Glass Menagerie》Audience Guide",
+      "url": "https://cdn.anoisewithin.org/wp-content/uploads/2018/12/AGSpring_18-19-TheGlassMenagerie_FINAL1.pdf"
+    }
+  ],
+  "v23-role-joekeller": [
+    {
+      "title": "The Old Vic：《All My Sons》教学册",
+      "url": "https://assets.oldvictheatre.com/app/uploads/2025/06/ALL-MY-SONS-TEACHING-RESOURCE-compressed.pdf"
+    }
+  ],
+  "v23-role-heisenberg": [
+    {
+      "title": "Concord Theatricals：Michael Frayn《Copenhagen》版权资料与剧情说明",
+      "url": "https://www.concordtheatricals.co.uk/p/2869/copenhagen"
+    },
+    {
+      "title": "Central Square Theater：《Copenhagen》制作方剧情说明",
+      "url": "https://www.centralsquaretheater.org/shows/copenhagen/"
+    }
+  ],
+  "v23-role-woyzeck": [
+    {
+      "title": "Pearson Edexcel：《沃伊采克》指定剧本指南",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/gce-woyzeck.pdf"
+    }
+  ],
+  "v23-role-danton": [
+    {
+      "title": "Bloomsbury／Methuen Drama：毕希纳《Danton's Death》出版说明",
+      "url": "https://www.bloomsbury.com/uk/dantons-death-9781408135594/"
+    },
+    {
+      "title": "BüchnerBühne：《Büchner与政治——以Dantons Tod为例》分幕梗概，第3页",
+      "url": "https://buechnerfindetstatt.de/downloads/Buechner%2Bdie_Politik_am_Beispiel_Danton-Transcript.pdf"
+    }
+  ],
+  "v23-role-eddie": [
+    {
+      "title": "South London Theatre：《A View from the Bridge》剧情及人物",
+      "url": "https://www.southlondontheatre.co.uk/event/auditions-a-view-from-the-bridge/"
+    }
+  ],
+  "v23-role-hickey": [
+    {
+      "title": "Goodman Theatre：《The Iceman Cometh》",
+      "url": "https://www.goodmantheatre.org/show/the-iceman-cometh/"
+    }
+  ],
+  "v23-role-melchior": [
+    {
+      "title": "Frank Wedekind：Spring's Awakening，Samuel A. Eliot, Jr.英译原剧，第一幕第二场及第三幕第一场",
+      "url": "https://www.gutenberg.org/files/76872/76872-h/76872-h.htm"
+    }
+  ],
+  "v23-role-alan": [
+    {
+      "title": "Pearson Edexcel官方《Equus》Set Text Guide：Alan人物说明及第19—21、32—34场",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/a-level-set-text-guide-equus.pdf"
+    },
+    {
+      "title": "Concord Theatricals：Peter Shaffer《Equus》版权资料与人物表",
+      "url": "https://www.concordtheatricals.com/p/2822/equus"
+    }
+  ],
+  "v23-role-dreamdoctor": [
+    {
+      "title": "香港话剧团：《如梦之梦》故事概要及角色表",
+      "url": "https://www.hkrep.com/tc/Others/Adlad-Cast-List-And-Synopsis.html"
+    }
+  ],
+  "v23-role-jinzhi": [
+    {
+      "title": "中国国家话剧院：《生死场》经典保留剧目，田沁鑫改编版完整剧情",
+      "url": "https://www.ntcc.com.cn/zggjhjy/sscu/xcjmcontent.shtml"
+    }
+  ],
+  "v23-role-silentman": [
+    {
+      "title": "高行健《车站》原剧上篇，努努书坊全文镜像",
+      "url": "https://www.kanunu8.com/book3/7148/158529.html"
+    },
+    {
+      "title": "戏剧盒《车站》教育资料",
+      "url": "https://www.dramabox.org/edukit/bus-stop_ch.pdf"
+    }
+  ],
+  "v23-role-serge": [
+    {
+      "title": "Concord Theatricals：《Art》授权剧情",
+      "url": "https://www.concordtheatricals.com/p/13005/art"
+    }
+  ],
+  "v23-sup-kate": [
+    {
+      "title": "The Old Vic：《All My Sons》教学册",
+      "url": "https://assets.oldvictheatre.com/app/uploads/2025/06/ALL-MY-SONS-TEACHING-RESOURCE-compressed.pdf"
+    }
+  ],
+  "v23-sup-bohr": [
+    {
+      "title": "Concord Theatricals：Michael Frayn《Copenhagen》版权资料与剧情说明",
+      "url": "https://www.concordtheatricals.co.uk/p/2869/copenhagen"
+    },
+    {
+      "title": "Central Square Theater：《Copenhagen》制作方剧情说明",
+      "url": "https://www.centralsquaretheater.org/shows/copenhagen/"
+    }
+  ],
+  "v23-sup-marie": [
+    {
+      "title": "Pearson Edexcel：《Woyzeck》人物与分场指南",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/gce-woyzeck.pdf"
+    }
+  ],
+  "v23-sup-robespierre": [
+    {
+      "title": "Bloomsbury／Methuen Drama：毕希纳《Danton's Death》出版说明",
+      "url": "https://www.bloomsbury.com/uk/dantons-death-9781408135594/"
+    },
+    {
+      "title": "BüchnerBühne：《Büchner与政治——以Dantons Tod为例》分幕梗概，第3页",
+      "url": "https://buechnerfindetstatt.de/downloads/Buechner%2Bdie_Politik_am_Beispiel_Danton-Transcript.pdf"
+    }
+  ],
+  "v23-sup-catherine": [
+    {
+      "title": "South London Theatre：《A View from the Bridge》剧情及人物",
+      "url": "https://www.southlondontheatre.co.uk/event/auditions-a-view-from-the-bridge/"
+    }
+  ],
+  "v23-sup-nurse": [
+    {
+      "title": "Pearson Edexcel官方《Equus》Set Text Guide：第2、6、22及26场",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/a-level-set-text-guide-equus.pdf"
+    },
+    {
+      "title": "Concord Theatricals：Peter Shaffer《Equus》版权资料与人物表",
+      "url": "https://www.concordtheatricals.com/p/2822/equus"
+    }
+  ],
+  "v23-sup-moritz": [
+    {
+      "title": "Frank Wedekind：Spring's Awakening，Samuel A. Eliot, Jr.英译原剧，第一幕第二场、第二幕第五及第七场、第三幕第二及第七场",
+      "url": "https://www.gutenberg.org/files/76872/76872-h/76872-h.htm"
+    }
+  ],
+  "v23-sup-zhaosan": [
+    {
+      "title": "中国国家话剧院：《生死场》经典保留剧目，田沁鑫改编版完整剧情",
+      "url": "https://www.ntcc.com.cn/zggjhjy/sscu/xcjmcontent.shtml"
     }
   ],
   "v23-sup-stationmaster": [
@@ -1540,14 +3603,22 @@ const highStarSourceDataV40 = {
       "url": "https://www.dramabox.org/edukit/bus-stop_ch.pdf"
     }
   ],
-  "style-physical": [
+  "v23-sup-harryhope": [
     {
-      "title": "Grotowski Institute — poor theatre",
-      "url": "https://grotowski.net/en/encyclopedia/poor-theatre"
-    },
+      "title": "奥尼尔《送冰的人来了》原文，第一幕及第三幕，Project Gutenberg Australia",
+      "url": "https://gutenberg.net.au/ebooks04/0400021h.html"
+    }
+  ],
+  "v23-sup-marc": [
     {
-      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
-      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
+      "title": "Concord Theatricals：《Art》授权剧情",
+      "url": "https://www.concordtheatricals.com/p/13005/art"
+    }
+  ],
+  "style-epic": [
+    {
+      "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
     }
   ],
   "style-absurd": [
@@ -1556,16 +3627,942 @@ const highStarSourceDataV40 = {
       "url": "https://www.bloomsbury.com/uk/theatre-of-the-absurd-9781472577023/"
     }
   ],
+  "style-real": [
+    {
+      "title": "AQA：A-level Drama and Theatre 专业词汇",
+      "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+    },
+    {
+      "title": "北京人民艺术剧院：老舍与《茶馆》创演",
+      "url": "https://www.bjry.com/actor/html/2015/06/2015060515.html"
+    },
+    {
+      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
+      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
+    }
+  ],
+  "style-xieyi": [
+    {
+      "title": "林克欢／PAR：黄佐临写意戏剧观及其本人论述",
+      "url": "https://par.npac-ntch.org/cn/article/doc/D99EPH3JMX"
+    }
+  ],
+  "style-poor": [
+    {
+      "title": "Grotowski Institute — poor theatre",
+      "url": "https://grotowski.net/en/encyclopedia/poor-theatre"
+    }
+  ],
+  "dir-wall": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    },
+    {
+      "title": "National Theatre: Public Acts Toolkit, fourth wall glossary, p.78",
+      "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/NationalTheatre_PublicActs_Toolkit---No-page-39-40.pdf"
+    },
+    {
+      "title": "National Theatre: Practitioners in Practice — Katie Mitchell, place, time and immediate circumstances, p.14",
+      "url": "https://images.nationaltheatre.org.uk/uploads/2024/03/KatieMitchell-PractitionersinPractice-PDF-2024.pdf"
+    }
+  ],
+  "dir-alien": [
+    {
+      "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+    }
+  ],
+  "dir-ritual": [
+    {
+      "title": "Richard Schechner：Living a Double Consciousness，Teaching Ritual 原著预览",
+      "url": "https://api.pageplace.de/preview/DT0400.9780198039211_A23605945/preview-9780198039211_A23605945.pdf"
+    }
+  ],
+  "dir-montage": [
+    {
+      "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+    },
+    {
+      "title": "中央戏剧学院：2026 年《雷雨》创排、文本身体空间与蒙太奇",
+      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/25324.html"
+    }
+  ],
+  "dir-body": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    },
+    {
+      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
+      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
+    }
+  ],
+  "style-kabuki": [
+    {
+      "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+    }
+  ],
+  "style-black": [
+    {
+      "title": "Cambridge Dictionary：Black humour",
+      "url": "https://dictionary.cambridge.org/dictionary/english/black-humour"
+    }
+  ],
+  "style-physical": [
+    {
+      "title": "Grotowski Institute — poor theatre",
+      "url": "https://grotowski.net/en/encyclopedia/poor-theatre"
+    },
+    {
+      "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+    },
+    {
+      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
+      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
+    }
+  ],
+  "dir-solo": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    },
+    {
+      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
+      "url": "https://www.rsc.org.uk/hamlet/"
+    }
+  ],
+  "dir-convention": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "dir-call": [
+    {
+      "title": "David Farmer／Drama Resource：Forum Theatre",
+      "url": "https://dramaresource.com/forum-theatre/"
+    },
+    {
+      "title": "Jana Natya Manch 自述：The street actor and the audience",
+      "url": "https://artsandculture.google.com/story/awXBx5aAoRYA8A"
+    }
+  ],
+  "xstyle-kunqu": [
+    {
+      "title": "English Theatre Frankfurt：《Other Desert Cities》教学资料，analytical drama 说明",
+      "url": "https://www.english-theatre.de/wp-content/uploads/2015/04/s-Support-Pack.pdf"
+    }
+  ],
+  "xstyle-chuanju": [
+    {
+      "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+      "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+    },
+    {
+      "title": "Manchester University Press：Julian Barnes 研究中开放结局的具体分析",
+      "url": "https://www.cambridge.org/core/books/abs/julian-barnes/tell-me-yours-italictalking-it-over-and-love-etcitalic/4856CD0FF04EF0FCF0FAE2627ABEA8C5"
+    },
+    {
+      "title": "Henrik Ibsen: A Doll’s House, original play in English translation, Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/2542/2542-h/2542-h.htm"
+    }
+  ],
+  "xstyle-yuju": [
+    {
+      "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+    }
+  ],
+  "xstyle-huangmei": [
+    {
+      "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+    },
+    {
+      "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+      "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+    }
+  ],
+  "xstyle-shadow": [
+    {
+      "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+    }
+  ],
+  "xstyle-puppetry": [
+    {
+      "title": "David Farmer／Drama Resource：Narration",
+      "url": "https://dramaresource.com/narration/"
+    },
+    {
+      "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+      "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+    }
+  ],
+  "xstyle-forum": [
+    {
+      "title": "David Farmer／Drama Resource：Forum Theatre",
+      "url": "https://dramaresource.com/forum-theatre/"
+    }
+  ],
+  "xstyle-site": [
+    {
+      "title": "Wildworks：场域特定作品的方法与机构介绍",
+      "url": "https://dev.wildworks.org.uk/about-us/"
+    },
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    },
+    {
+      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
+      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
+    },
+    {
+      "title": "Shakespeare’s Globe：Globe Theatre 空间、观众与历史",
+      "url": "https://www.shakespearesglobe.com/discover/about-us/globe-theatre/"
+    }
+  ],
+  "xstyle-walk": [
+    {
+      "title": "AQA：A-level Drama and Theatre 专业词汇",
+      "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+    },
+    {
+      "title": "Theatres Trust: What are the types of theatre stages and auditoria?",
+      "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+    }
+  ],
+  "xstyle-soundth": [
+    {
+      "title": "Complicité：《The Encounter》创作者官方介绍",
+      "url": "https://www.complicite.org/work/the-encounter/"
+    }
+  ],
+  "xstyle-political": [
+    {
+      "title": "AQA：A-level Drama and Theatre 专业词汇",
+      "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+    }
+  ],
+  "xstyle-comedy": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "xstyle-danceplay": [
+    {
+      "title": "中央戏剧学院：舞剧系课程、人物塑造与舞剧叙事",
+      "url": "https://en.chntheatre.edu.cn/department/114.html"
+    }
+  ],
+  "xstyle-nanxi": [
+    {
+      "title": "Folger Shakespeare Library：《李尔王》原文及分场梗概",
+      "url": "https://www.folger.edu/explore/shakespeares-works/king-lear/read/"
+    },
+    {
+      "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+      "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+    }
+  ],
+  "xstyle-zaju": [
+    {
+      "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+      "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+    }
+  ],
+  "xstyle-lab": [
+    {
+      "title": "NYU Tisch：Experimental Theatre Wing 的身体、声音与创作训练",
+      "url": "https://tisch.nyu.edu/special-programs/high-school-programs/drama"
+    }
+  ],
+  "xstyle-bunraku": [
+    {
+      "title": "Japan Arts Council — Invitation to Bunraku: Performers",
+      "url": "https://www2.ntj.jac.go.jp/unesco/bunraku/en/performer/index.html"
+    }
+  ],
+  "xdir-toplight": [
+    {
+      "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+    }
+  ],
+  "xdir-spot": [
+    {
+      "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+    }
+  ],
+  "xdir-backturn": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    },
+    {
+      "title": "AQA：GCSE Drama 专业词汇",
+      "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary"
+    }
+  ],
+  "xdir-changeset": [
+    {
+      "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+    }
+  ],
+  "xdir-enter": [
+    {
+      "title": "David Farmer／Drama Resource：Forum Theatre",
+      "url": "https://dramaresource.com/forum-theatre/"
+    }
+  ],
+  "xdir-repeat": [
+    {
+      "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+      "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+    }
+  ],
+  "xdir-bang": [
+    {
+      "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+    }
+  ],
+  "xdir-drum": [
+    {
+      "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+    }
+  ],
+  "xdir-zoubian": [
+    {
+      "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+      "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+    },
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "xdir-sleeve": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "xdir-facechange": [
+    {
+      "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+      "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+    }
+  ],
+  "xdir-nian": [
+    {
+      "title": "AQA：A-level Drama and Theatre 专业词汇",
+      "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+    },
+    {
+      "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+      "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+    }
+  ],
+  "xdir-mirror": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "xdir-group": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "xdir-improvbit": [
+    {
+      "title": "AQA：A-level Drama and Theatre 专业词汇",
+      "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+    },
+    {
+      "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+    }
+  ],
+  "xdir-voiceover": [
+    {
+      "title": "Cambridge Dictionary：Voice-over，借用词的基本含义",
+      "url": "https://dictionary.cambridge.org/dictionary/english/voice-over"
+    },
+    {
+      "title": "AQA：GCSE Drama 专业词汇",
+      "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary"
+    }
+  ],
+  "ystyle-qinqiang": [
+    {
+      "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+      "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+    }
+  ],
+  "ystyle-yueopera": [
+    {
+      "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+      "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+    }
+  ],
+  "ystyle-errenzhuan": [
+    {
+      "title": "Cambridge Dictionary：Two-hander",
+      "url": "https://dictionary.cambridge.org/dictionary/english/two-hander"
+    }
+  ],
+  "ystyle-zangxi": [
+    {
+      "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+      "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+    }
+  ],
+  "ystyle-budaixi": [
+    {
+      "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+      "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+    }
+  ],
+  "ystyle-kyogen": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "ystyle-takarazuka": [
+    {
+      "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+    }
+  ],
+  "ystyle-waterpuppet": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "ystyle-wenmingxi": [
+    {
+      "title": "宋宝珍／中国文联：中国话剧早期实践与文明戏幕表制",
+      "url": "https://www.cflac.org.cn/zt/100hj/content_Article_200704021015.htm"
+    }
+  ],
   "ystyle-livingnews": [
     {
       "title": "Library of Congress — Living Newspaper",
       "url": "https://www.loc.gov/exhibits/federal-theatre-project/living-newspaper.html"
     }
   ],
+  "ystyle-street": [
+    {
+      "title": "Jana Natya Manch 自述：The street actor and the audience",
+      "url": "https://artsandculture.google.com/story/awXBx5aAoRYA8A"
+    }
+  ],
+  "ystyle-mystery": [
+    {
+      "title": "York Mystery Plays：中世纪圣经联剧与街头演出项目",
+      "url": "https://www.yorkmysteryplays.co.uk/"
+    }
+  ],
+  "ystyle-passion": [
+    {
+      "title": "Oberammergau Passion Play：官方剧情梗概",
+      "url": "https://www.passionsspiele-oberammergau.de/en/play/plot"
+    }
+  ],
+  "ystyle-lightopera": [
+    {
+      "title": "English National Opera：The Beginner’s Guide to Operetta",
+      "url": "https://www.eno.org/discover-opera/articles/the-beginners-guide-to-operetta/"
+    }
+  ],
+  "ystyle-object": [
+    {
+      "title": "Compagnie Gare Centrale：Object Theatre，刊载物体剧场实践者的术语讨论",
+      "url": "https://garecentrale.be/wp/en/portfolio_page/object-theatre/"
+    },
+    {
+      "title": "日本演剧学会期刊：物を尊敬する演劇——オブジェクトシアターの実践と思想",
+      "url": "https://www.jstage.jst.go.jp/article/jjstr/81/0/81_55/_article/-char/ja"
+    }
+  ],
+  "ystyle-install": [
+    {
+      "title": "Roll 工作室：Theatre Picasso 装置与观看动线的设计说明",
+      "url": "https://www.roll-office.org/en/projects/theatre-picasso"
+    },
+    {
+      "title": "Wildworks：场域特定作品的方法与机构介绍",
+      "url": "https://dev.wildworks.org.uk/about-us/"
+    }
+  ],
+  "ystyle-image": [
+    {
+      "title": "David Farmer／Drama Resource：Image Theatre",
+      "url": "https://dramaresource.com/image-theatre/"
+    }
+  ],
+  "ystyle-magicreal": [
+    {
+      "title": "Cambridge University Press：Magical Realism and Literature 导论",
+      "url": "https://www.cambridge.org/core/books/abs/magical-realism-and-literature/introduction/1A17BC1D603AF34F3A67989354559CF2"
+    }
+  ],
+  "ystyle-criticalreal": [
+    {
+      "title": "Oxford Handbook of Modern Irish Theatre：The Abbey and the Idea of a Theatre",
+      "url": "https://academic.oup.com/edited-volume/38167/chapter-abstract/332998717"
+    },
+    {
+      "title": "恩格斯致玛格丽特·哈克奈斯书信，1888 年 4 月：典型人物与典型环境",
+      "url": "https://www.marxists.org/archive/marx/works/1888/letters/88_04_15.htm"
+    }
+  ],
+  "ystyle-poeticreal": [
+    {
+      "title": "R. B. Parker：The Rose Tattoo and Comedy of the Grotesque，引用 Williams 的创作说明",
+      "url": "https://cdn.craft.cloud/97cd51c5-b816-4a93-aea9-fd7e2c5e47da/assets/TWAR-2003_06-Parker-RoseTattooComedyofGrotesque.pdf"
+    }
+  ],
+  "ystyle-ritualstyle": [
+    {
+      "title": "Richard Schechner：Living a Double Consciousness，Teaching Ritual 原著预览",
+      "url": "https://api.pageplace.de/preview/DT0400.9780198039211_A23605945/preview-9780198039211_A23605945.pdf"
+    }
+  ],
+  "ystyle-manner": [
+    {
+      "title": "Cambridge Dictionary：Comedy of manners",
+      "url": "https://dictionary.cambridge.org/dictionary/english/comedy-of-manners"
+    },
+    {
+      "title": "Concord Theatricals：Noël Coward《Hands Across the Sea》作品介绍",
+      "url": "https://www.concordtheatricals.com/p/2077/hands-across-the-sea"
+    }
+  ],
+  "ystyle-drawingroom": [
+    {
+      "title": "Jonathan Law 编：The Methuen Drama Dictionary of the Theatre，drawing-room comedy／drama 条目",
+      "url": "https://lib.zu.edu.pk/ebookdata/Media%20Sciences/Media/The%20Methuen%20Drama%20Dictionary%20of%20the%20Theatre%20by%20Jonathan%20Law.pdf"
+    },
+    {
+      "title": "Concord Theatricals：Noël Coward《Hands Across the Sea》作品介绍",
+      "url": "https://www.concordtheatricals.com/p/2077/hands-across-the-sea"
+    }
+  ],
+  "ystyle-shinkoku": [
+    {
+      "title": "Cambridge Companion to English Melodrama：Introduction",
+      "url": "https://www.cambridge.org/core/books/cambridge-companion-to-english-melodrama/introduction/295FF7706A2FF1CC4460C2FEA92E2C04"
+    },
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "ystyle-sanskrit": [
+    {
+      "title": "亚里士多德《诗学》原文英译，MIT Internet Classics Archive",
+      "url": "https://classics.mit.edu/Aristotle/poetics.1.1.html"
+    }
+  ],
+  "ystyle-huagu": [
+    {
+      "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+      "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+    },
+    {
+      "title": "Royal Shakespeare Company: Building our Company / Macbeth, given circumstances and actor behaviour",
+      "url": "https://cdn2.rsc.org.uk/sitefinity/education-pdfs/associate-schools/example-notes-and-texts---macbeth.pdf"
+    },
+    {
+      "title": "National Theatre: Practitioners in Practice — Katie Mitchell, place, time and immediate circumstances, p.14",
+      "url": "https://images.nationaltheatre.org.uk/uploads/2024/03/KatieMitchell-PractitionersinPractice-PDF-2024.pdf"
+    }
+  ],
+  "ydir-lingzi": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "ydir-fanwork": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "ydir-handkerchief": [
+    {
+      "title": "Theatrecrafts：道具词汇，Hand Props 与演出使用记录",
+      "url": "https://theatrecrafts.com/pages/home/topics/props/glossary/"
+    }
+  ],
+  "ydir-dachushou": [
+    {
+      "title": "Royal Conservatoire of Scotland：舞台打斗编排、人物与情境训练",
+      "url": "https://www.rcs.ac.uk/courses/stage-combat-certification-sword-and-shield-18-short-courses/"
+    }
+  ],
+  "ydir-diaomao": [
+    {
+      "title": "Society of American Fight Directors：Glossary，Fall、Shoulder Roll 与 Forward Roll 条目",
+      "url": "https://www.safd.org/media/5975/full-revised-safd-glossary_3.pdf"
+    }
+  ],
+  "ydir-jiangshi": [
+    {
+      "title": "Society of American Fight Directors：Glossary，Fall、Shoulder Roll 与 Forward Roll 条目",
+      "url": "https://www.safd.org/media/5975/full-revised-safd-glossary_3.pdf"
+    }
+  ],
+  "ydir-qiangbei": [
+    {
+      "title": "Society of American Fight Directors：Glossary，Fall、Shoulder Roll 与 Forward Roll 条目",
+      "url": "https://www.safd.org/media/5975/full-revised-safd-glossary_3.pdf"
+    }
+  ],
+  "ydir-darkchange": [
+    {
+      "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+    }
+  ],
+  "ydir-qieguang": [
+    {
+      "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+    },
+    {
+      "title": "AQA：GCSE Drama 专业词汇",
+      "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary"
+    }
+  ],
+  "ydir-backlight": [
+    {
+      "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+    }
+  ],
+  "ydir-gauze": [
+    {
+      "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+    }
+  ],
+  "ydir-liftstage": [
+    {
+      "title": "Waagner-Biro Stage Systems：Theatre Basel 升降台及舞台平台工程记录",
+      "url": "https://www.waagner-biro-stage.com/en/projects/theater-basel/"
+    }
+  ],
+  "ydir-wagontage": [
+    {
+      "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+    }
+  ],
+  "ydir-jijifeng": [
+    {
+      "title": "AQA：A-level Drama and Theatre 专业词汇",
+      "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+    },
+    {
+      "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+      "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+    }
+  ],
+  "ydir-shoujiu": [
+    {
+      "title": "Rose Brand：Stage Curtains，遮挡幕与背景幕的用途",
+      "url": "https://rosebrand.com/custom-curtain-services/stage-curtains-backdrops-drapery/stage-curtains"
+    }
+  ],
+  "ydir-chujiang": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    }
+  ],
+  "ydir-duetline": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    },
+    {
+      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
+      "url": "https://www.rsc.org.uk/hamlet/"
+    },
+    {
+      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
+      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
+    }
+  ],
+  "ydir-bansing": [
+    {
+      "title": "Berklee Online：Vocal Production 中背景人声、和声与主要人声的关系",
+      "url": "https://online.berklee.edu/courses/vocal-production"
+    }
+  ],
+  "ydir-qichang": [
+    {
+      "title": "Carnegie Hall：Building on Melody—Melodic Layers，齐唱与和声",
+      "url": "https://www.carnegiehall.org/Education/Programs/Link-Up/National-Program/The-Orchestra-Sings/Building-on-Melody-Melodic-Layers"
+    }
+  ],
+  "ydir-coldstage": [
+    {
+      "title": "Theatrecrafts：Dramatic Pause 条目",
+      "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary-beginners/"
+    }
+  ],
+  "ydir-footlight": [
+    {
+      "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+    }
+  ],
+  "ydir-facelight": [
+    {
+      "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+      "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+    }
+  ],
+  "ydir-smoke": [
+    {
+      "title": "Rosco：Fog FAQ，雾效和光束可见度",
+      "url": "https://us.rosco.com/en/rosco-fog-faqs"
+    }
+  ],
+  "ydir-legdrop": [
+    {
+      "title": "Rose Brand：Stage Curtains，遮挡幕与背景幕的用途",
+      "url": "https://rosebrand.com/custom-curtain-services/stage-curtains-backdrops-drapery/stage-curtains"
+    }
+  ],
+  "ydir-paoyuan": [
+    {
+      "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+      "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+    },
+    {
+      "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+      "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+    }
+  ],
+  "ydir-rankou": [
+    {
+      "title": "Kryolan：Theatrical Character，年龄妆与灯光、假发、观看距离",
+      "url": "https://uk.kryolan.com/event/theatrical-character-53"
+    }
+  ],
+  "style-v21-epistolary": [
+    {
+      "title": "Concord Theatricals：A.R. Gurney《Love Letters》作品与演出形式",
+      "url": "https://www.concordtheatricals.com/s/13753/love-letters"
+    }
+  ],
+  "style-v21-courtroom": [
+    {
+      "title": "Agatha Christie 官方：《Witness for the Prosecution》法庭剧介绍",
+      "url": "https://www.agathachristie.com/en/theatre/witness-for-the-prosecution"
+    }
+  ],
+  "style-v21-mystery": [
+    {
+      "title": "Agatha Christie 官方：《The Mousetrap》悬疑结构介绍",
+      "url": "https://www.agathachristie.com/stories/the-mousetrap"
+    }
+  ],
+  "style-v21-fable": [
+    {
+      "title": "Concord Theatricals：《Animal Farm》寓言戏剧改编与类型",
+      "url": "https://www.concordtheatricals.com/p/2338/animal-farm-bond"
+    }
+  ],
+  "style-v21-family": [
+    {
+      "title": "Concord Theatricals：Arthur Miller《All My Sons》家庭与社会责任冲突",
+      "url": "https://www.concordtheatricals.com/p/6567/all-my-sons"
+    }
+  ],
+  "style-v21-psychothriller": [
+    {
+      "title": "Concord Theatricals：《Deceived》心理惊悚剧的认知与信任",
+      "url": "https://www.concordtheatricals.com/s/97454/deceived?variantId=139716"
+    }
+  ],
+  "style-v21-metatheatre": [
+    {
+      "title": "Cambridge University Press：《Pirandello in Context》Metatheatre 章节摘要",
+      "url": "https://www.cambridge.org/core/books/abs/pirandello-in-context/metatheatre/63AC54D090F25936577C55EBEA279EC9"
+    }
+  ],
+  "style-v21-autobiographical": [
+    {
+      "title": "The Drama Review：Linda Montano 自传性表演研究",
+      "url": "https://www.cambridge.org/core/journals/the-drama-review-tdr/article/abs/mitchells-death-linda-montanos-autobiographical-performance/7EA34EFFA71BB9F6C8D61AF2E80A494C"
+    }
+  ],
+  "style-v21-polyphonic": [
+    {
+      "title": "Dick McCaw《Bakhtin and Theatre》，Routledge 原著出版社介绍",
+      "url": "https://www.routledge.com/Bakhtin-and-Theatre-Dialogues-with-Stanislavski-Meyerhold-and-Grotows/Mccaw/p/book/9781138891449"
+    },
+    {
+      "title": "Cambridge University Press：Performance and Postsocialism in Postmillennial China，《美好的一天》多声部实践",
+      "url": "https://www.cambridge.org/core/elements/performance-and-postsocialism-in-postmillennial-china/F23B70C5F6A71209E8B2B2894F6F107F"
+    }
+  ],
+  "style-v21-maximalist": [
+    {
+      "title": "Bristol Old Vic Theatre School：设计师 Lillyanna Bryan 对其 maximalist style 的说明",
+      "url": "https://oldvic.ac.uk/student/lillyanna-bryan/"
+    }
+  ],
+  "style-v21-rehearsaldrama": [
+    {
+      "title": "Concord Theatricals：Michael Frayn《Noises Off》排戏与戏中戏",
+      "url": "https://www.concordtheatricals.com/s/2894/noises-off"
+    }
+  ],
+  "style-v21-radiodrama": [
+    {
+      "title": "BBC Writersroom：Radio Drama Format，声音与音乐提示规范",
+      "url": "https://downloads.bbc.co.uk/writersroom/scripts/radious.pdf"
+    }
+  ],
   "style-v21-stagedreading": [
     {
       "title": "Shakespeare’s Globe — Read Not Dead",
       "url": "https://www.shakespearesglobe.com/discover/read-not-dead/"
+    }
+  ],
+  "style-v21-signedtheatre": [
+    {
+      "title": "National Theatre of the Deaf：手语剧场工作坊与 visual theatre techniques",
+      "url": "https://old.ntd.org/ntd_workshops.html"
+    },
+    {
+      "title": "National Theatre of the Deaf：ASL 与口语共同构成演出的项目说明",
+      "url": "https://old.ntd.org/ntd_productions.html"
+    }
+  ],
+  "style-v21-sensory": [
+    {
+      "title": "Senzorium 剧团：感官语言、触觉、嗅觉与现场互动",
+      "url": "https://www.senzorium.com/en/about-2/"
+    }
+  ],
+  "dir-v21-testimony": [
+    {
+      "title": "Concord Theatricals：Fay 与 Michael Kanin《Rashomon》，相互矛盾的证词重演",
+      "url": "https://www.concordtheatricals.com/p/5276/rashomon"
+    }
+  ],
+  "dir-v21-samewords": [
+    {
+      "title": "Royal Shakespeare Company：Rehearsal Room Approaches，改变读法与空间关系的练习",
+      "url": "https://www.rsc.org.uk/learn/schools-and-teachers/teacher-resources/rehearsal-room-approaches-to-shakespeare/introducing-rehearsal-room-approaches"
+    }
+  ],
+  "dir-v21-livefoley": [
+    {
+      "title": "National Theatre：Katie Mitchell Practitioners in Practice，Foley 与多层现场影像",
+      "url": "https://images.nationaltheatre.org.uk/uploads/2024/03/KatieMitchell-PractitionersinPractice-PDF-2024.pdf"
+    }
+  ],
+  "dir-v21-timecut": [
+    {
+      "title": "Concord Theatricals：J.B. Priestley《Time and the Conways》的时间结构",
+      "url": "https://www.concordtheatricals.com/p/8759/time-and-the-conways"
+    }
+  ],
+  "dir-v21-soundimage": [
+    {
+      "title": "National Theatre：Katie Mitchell Practitioners in Practice，Foley 与多层现场影像",
+      "url": "https://images.nationaltheatre.org.uk/uploads/2024/03/KatieMitchell-PractitionersinPractice-PDF-2024.pdf"
+    },
+    {
+      "title": "Adobe：J cuts and L cuts，下一场声音先于图像到达",
+      "url": "https://helpx.adobe.com/ca/premiere/desktop/edit-projects/trim-clips/perform-j-cuts-and-l-cuts.html"
+    }
+  ],
+  "dir-v21-livesubtitles": [
+    {
+      "title": "Stagetext：Theatre Captioning，剧场字幕的预备、同步与无障碍用途",
+      "url": "https://www.stagetext.org/for-venues/theatre-captioning/"
+    },
+    {
+      "title": "Stagetext：For Venues，区分剧本字幕与现场语音转写",
+      "url": "https://www.stagetext.org/for-venues/"
+    }
+  ],
+  "dir-v21-linerelay": [
+    {
+      "title": "David Farmer：Story Orchestra，多人接力讲述练习",
+      "url": "https://dramaresource.com/story-orchestra/"
+    }
+  ],
+  "dir-v21-proptransfer": [
+    {
+      "title": "Royal Shakespeare Company：《Othello》手帕交接及其戏剧后果",
+      "url": "https://www.rsc.org.uk/othello/past-productions/other-productions"
+    }
+  ],
+  "dir-v21-emptychair": [
+    {
+      "title": "Royal Court Living Archive：《The Chairs》空椅与不可见宾客",
+      "url": "https://livingarchive.royalcourttheatre.com/plays/the-chairs/"
+    }
+  ],
+  "dir-v21-unreliable": [
+    {
+      "title": "Concord Theatricals：Lauren Gunderson《Natural Shocks》不可靠叙述者",
+      "url": "https://www.concordtheatricals.com/s/98750/natural-shocks"
+    }
+  ],
+  "dir-v21-selectivereplay": [
+    {
+      "title": "Concord Theatricals：David Ives《Sure Thing》，铃声中断与重试",
+      "url": "https://www.concordtheatricals.com/p/101202/sure-thing"
+    }
+  ],
+  "dir-v21-simultaneoussolos": [
+    {
+      "title": "Cambridge University Press：Performance and Postsocialism in Postmillennial China，《美好的一天》多声部实践",
+      "url": "https://www.cambridge.org/core/elements/performance-and-postsocialism-in-postmillennial-china/F23B70C5F6A71209E8B2B2894F6F107F"
+    }
+  ],
+  "dir-v21-occlusion": [
+    {
+      "title": "Rosco / Houston Ballet 灯光设计师：利用纱幕和灯光显露钟面人物",
+      "url": "https://spectrum.rosco.com/index.php/2018/11/creating-nutcracker-magic-with-rosco-litepad?hs_amp=true"
+    }
+  ],
+  "dir-v21-compression": [
+    {
+      "title": "Complicité：Devising Notes for Teachers，Concentrating the Space 练习",
+      "url": "https://www.complicite.org/wp-content/uploads/2023/03/1439372000Complicite_Teachers_pack.pdf"
+    }
+  ],
+  "dir-v21-endingloop": [
+    {
+      "title": "Allan Lewis：Ionesco，纽约市立大学教学文献所载《秃头歌女》循环结尾分析",
+      "url": "https://files.eportfolios.macaulay.cuny.edu/wp-content/uploads/sites/1982/2011/08/15183005/Ionesco-Article.pdf"
     }
   ],
   "v23-style-chamber": [
@@ -1580,493 +4577,114 @@ const highStarSourceDataV40 = {
       "url": "https://totaltheatre.org.uk/archive/features/what-total-theatre"
     }
   ],
+  "v23-style-verbatim": [
+    {
+      "title": "National Theatre / Nick Hern Books：Robin Belfield《Telling the Truth: How to Make Verbatim Theatre》",
+      "url": "https://shop.nationaltheatre.org.uk/products/telling-the-truth-how-to-make-verbatim-theatre"
+    }
+  ],
+  "v23-style-bourgeois-tragedy": [
+    {
+      "title": "Cambridge University Press：《A Companion to the Works of Gotthold Ephraim Lessing》市民悲剧说明",
+      "url": "https://www.cambridge.org/core/books/companion-to-the-works-of-gotthold-ephraim-lessing/57B6F937E76874958D9CDFAB1E76493B"
+    },
+    {
+      "title": "Cambridge University Press：Emma Whipday《Shakespeare’s Domestic Tragedies》原书节选",
+      "url": "https://assets.cambridge.org/97811084/74030/excerpt/9781108474030_excerpt.pdf"
+    }
+  ],
+  "v23-style-historyplay": [
+    {
+      "title": "Royal Shakespeare Company：Tragedies, Comedies and Histories，戏剧类型与分类",
+      "url": "https://www.rsc.org.uk/shakespeares-plays/tragedies-comedies-histories"
+    }
+  ],
+  "v23-style-intercultural": [
+    {
+      "title": "Theatre Research International：Intercultural Theatre? A Streetcar Named Desire on the Turkish Stage",
+      "url": "https://www.cambridge.org/core/journals/theatre-research-international/article/abs/intercultural-theatre-a-streetcar-named-desire-on-the-turkish-stage/1BF5DB60B6CD64F4237790F31BA24330"
+    }
+  ],
+  "v23-style-visual": [
+    {
+      "title": "New Theatre Quarterly：Performing A Taste of Millefeuille，视觉剧场的图像、动作与跨文化实践",
+      "url": "https://www.cambridge.org/core/journals/new-theatre-quarterly/article/performing-a-taste-of-millefeuille-puppetry-performativity-and-crosscultural-adaptation/797F8FD87D6723DCF265E630A36CEFAE"
+    }
+  ],
+  "v23-style-translation": [
+    {
+      "title": "Cambridge University Press：Experiments in Surtitling，现场多语翻译与听看关系",
+      "url": "https://www.cambridge.org/core/books/abs/performance-and-translation-in-a-global-age/experiments-in-surtitling/965CE1CA73FD14BBCBB1BA74D58C14AC"
+    }
+  ],
+  "v23-dir-pool": [
+    {
+      "title": "Concord Theatricals：Mary Zimmerman《Metamorphoses》舞台水池说明",
+      "url": "https://www.concordtheatricals.com/s/31254/metamorphoses-zimmerman"
+    }
+  ],
+  "v23-dir-readstage": [
+    {
+      "title": "Concord Theatricals：Israel Horovitz《Stage Directions》，把舞台提示读给观众",
+      "url": "https://www.concordtheatricals.com/s/101743/stage-directions"
+    }
+  ],
+  "v23-dir-allwatch": [
+    {
+      "title": "Royal Shakespeare Company：《As You Like It》2023教学包，演员全程在场观看",
+      "url": "https://www.rsc.org.uk/learn/schools-and-teachers/teacher-resources/as-you-like-it-teacher-pack-2023"
+    }
+  ],
+  "v23-dir-objectchain": [
+    {
+      "title": "Royal Shakespeare Company：《Othello》逐场剧情，手帕在人物间的流转",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/othello/story/scene-by-scene"
+    }
+  ],
+  "v23-dir-countdown": [
+    {
+      "title": "Robert Icke 导演官网所收《Oedipus》制作评论，舞台倒计时钟",
+      "url": "https://roberticke.com/reviews/oedipus.pdf"
+    }
+  ],
+  "v23-dir-floorplan": [
+    {
+      "title": "Complicité：《Endgame》资源包，地面胶带网格练习",
+      "url": "https://www.complicite.org/wp-content/uploads/2023/07/Endgame-Resource-Pack.pdf"
+    }
+  ],
+  "v23-dir-soundfirst": [
+    {
+      "title": "Adobe：J cuts and L cuts，下一场声音先于图像到达",
+      "url": "https://helpx.adobe.com/ca/premiere/desktop/edit-projects/trim-clips/perform-j-cuts-and-l-cuts.html"
+    }
+  ],
+  "v23-dir-silentopen": [
+    {
+      "title": "Shakespeare Birthplace Trust：表演教学中的静默、静止与行动",
+      "url": "https://media.shakespeare.org.uk/documents/PFS-Learning_Outcomes-Game_2.pdf"
+    }
+  ],
+  "v23-dir-revolving": [
+    {
+      "title": "Theatrecrafts：Scenic Automation 术语中的 revolve 与景片运动",
+      "url": "https://theatrecrafts.com/pages/home/topics/automation-scenic/glossary/"
+    },
+    {
+      "title": "Concord Theatricals：Michael Frayn《Noises Off》排戏与戏中戏",
+      "url": "https://www.concordtheatricals.com/s/2894/noises-off"
+    }
+  ],
+  "v23-dir-misremember": [
+    {
+      "title": "Concord Theatricals：Fay 与 Michael Kanin《Rashomon》，相互矛盾的证词重演",
+      "url": "https://www.concordtheatricals.com/p/5276/rashomon"
+    }
+  ],
   "place-v22-radiobooth": [
     {
       "title": "伦敦南岸大学：Radio Studio and Control Room",
       "url": "https://www.lsbu.ac.uk/student-life/facilities/facility-finder/radio-studio-control-room"
-    }
-  ],
-  "xplace-convent": [],
-  "play-thunder": [
-    {
-      "title": "中央戏剧学院：2026 年《雷雨》创排、文本身体空间与蒙太奇",
-      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/25324.html"
-    },
-    {
-      "title": "中央戏剧学院：2024 年《雷雨》教学演出、周朴园与周公馆剧情",
-      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/22315.html"
-    }
-  ],
-  "play-teahouse": [
-    {
-      "title": "北京人民艺术剧院：老舍与《茶馆》创演",
-      "url": "https://www.bjry.com/actor/html/2015/06/2015060515.html"
-    },
-    {
-      "title": "国家大剧院 2019 秋季演出季手册：《茶馆》人物与裕泰茶馆",
-      "url": "https://www.chncpa.org/ycgp_220/jmcxz/201607/P020190902597561079651.pdf"
-    }
-  ],
-  "play-hamlet": [
-    {
-      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
-      "url": "https://www.rsc.org.uk/hamlet/"
-    },
-    {
-      "title": "Royal Shakespeare Company：Hamlet 人物关系",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
-    },
-    {
-      "title": "Shakespeare’s Globe：Globe Theatre 空间、观众与历史",
-      "url": "https://www.shakespearesglobe.com/discover/about-us/globe-theatre/"
-    }
-  ],
-  "play-salesman": [
-    {
-      "title": "The Pulitzer Prizes：1949 年戏剧奖《推销员之死》",
-      "url": "https://www.pulitzer.org/winners/arthur-miller"
-    }
-  ],
-  "style-real": [
-    {
-      "title": "北京人民艺术剧院：老舍与《茶馆》创演",
-      "url": "https://www.bjry.com/actor/html/2015/06/2015060515.html"
-    },
-    {
-      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
-      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
-    }
-  ],
-  "xstyle-site": [
-    {
-      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
-      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
-    },
-    {
-      "title": "Shakespeare’s Globe：Globe Theatre 空间、观众与历史",
-      "url": "https://www.shakespearesglobe.com/discover/about-us/globe-theatre/"
-    }
-  ],
-  "ydir-duetline": [
-    {
-      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
-      "url": "https://www.rsc.org.uk/hamlet/"
-    },
-    {
-      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
-      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
-    }
-  ],
-  "dir-montage": [
-    {
-      "title": "中央戏剧学院：2026 年《雷雨》创排、文本身体空间与蒙太奇",
-      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/25324.html"
-    }
-  ],
-  "dir-body": [
-    {
-      "title": "RADA：MA Theatre Lab Programme Specification（2024）",
-      "url": "https://www.rada.ac.uk/documents/1254/MA_Theatre_Lab_programme_specification_updated_May_2024_1.pdf"
-    }
-  ],
-  "dir-solo": [
-    {
-      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
-      "url": "https://www.rsc.org.uk/hamlet/"
-    }
-  ],
-  "role-hamlet": [
-    {
-      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
-      "url": "https://www.rsc.org.uk/hamlet/"
-    },
-    {
-      "title": "Royal Shakespeare Company：Hamlet 人物关系",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
-    }
-  ],
-  "role-zhou": [
-    {
-      "title": "中央戏剧学院：2024 年《雷雨》教学演出、周朴园与周公馆剧情",
-      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/22315.html"
-    }
-  ],
-  "xrole-ophelia": [
-    {
-      "title": "Royal Shakespeare Company：Hamlet 人物关系",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
-    }
-  ],
-  "yrole-horatio": [
-    {
-      "title": "Royal Shakespeare Company：Hamlet 人物关系",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
-    },
-    {
-      "title": "Royal Shakespeare Company：Hamlet 剧情、人物与独白",
-      "url": "https://www.rsc.org.uk/hamlet/"
-    }
-  ],
-  "role2-claudius": [
-    {
-      "title": "Royal Shakespeare Company：Hamlet 人物关系",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
-    }
-  ],
-  "role2-polonius": [
-    {
-      "title": "Royal Shakespeare Company：Hamlet 人物关系",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
-    }
-  ],
-  "role2-gertrude": [
-    {
-      "title": "Royal Shakespeare Company：Hamlet 人物关系",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/hamlet/character/relationships"
-    }
-  ],
-  "place-tea": [
-    {
-      "title": "国家大剧院 2019 秋季演出季手册：《茶馆》人物与裕泰茶馆",
-      "url": "https://www.chncpa.org/ycgp_220/jmcxz/201607/P020190902597561079651.pdf"
-    },
-    {
-      "title": "北京人民艺术剧院：老舍与《茶馆》创演",
-      "url": "https://www.bjry.com/actor/html/2015/06/2015060515.html"
-    }
-  ],
-  "place-zhou": [
-    {
-      "title": "中央戏剧学院：2024 年《雷雨》教学演出、周朴园与周公馆剧情",
-      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/22315.html"
-    }
-  ],
-  "play-oedipus": [
-    {
-      "title": "MIT Internet Classics Archive：Sophocles《Oedipus the King》原作英译",
-      "url": "https://classics.mit.edu/Sophocles/oedipus.html"
-    }
-  ],
-  "play-godot": [
-    {
-      "title": "UCLA：Waiting for Godot 的教学、循环结构与身体幽默",
-      "url": "https://newsroom.ucla.edu/stories/ucla-students-benefit-from-professional-theater-production-of-becketts-waiting-for-godot"
-    },
-    {
-      "title": "英国国家剧院档案：1987年《Waiting for Godot》制作与角色",
-      "url": "https://catalogue.nationaltheatre.org.uk/calmview/Record.aspx?id=937&src=CalmView.Performance"
-    }
-  ],
-  "role-vladimir": [
-    {
-      "title": "UCLA：Waiting for Godot 的教学、循环结构与身体幽默",
-      "url": "https://newsroom.ucla.edu/stories/ucla-students-benefit-from-professional-theater-production-of-becketts-waiting-for-godot"
-    },
-    {
-      "title": "英国国家剧院档案：1987年《Waiting for Godot》制作与角色",
-      "url": "https://catalogue.nationaltheatre.org.uk/calmview/Record.aspx?id=937&src=CalmView.Performance"
-    }
-  ],
-  "role-gogo": [
-    {
-      "title": "UCLA：Waiting for Godot 的教学、循环结构与身体幽默",
-      "url": "https://newsroom.ucla.edu/stories/ucla-students-benefit-from-professional-theater-production-of-becketts-waiting-for-godot"
-    },
-    {
-      "title": "英国国家剧院档案：1987年《Waiting for Godot》制作与角色",
-      "url": "https://catalogue.nationaltheatre.org.uk/calmview/Record.aspx?id=937&src=CalmView.Performance"
-    }
-  ],
-  "play-cherry": [
-    {
-      "title": "MIT OpenCourseWare：Script Analysis，《The Cherry Orchard》结构讨论",
-      "url": "https://ocw.mit.edu/courses/21m-710-script-analysis-fall-2005/pages/calendar/"
-    },
-    {
-      "title": "Royal Shakespeare Company：The Cherry Orchard 剧情与洛巴辛",
-      "url": "https://www.rsc.org.uk/the-cherry-orchard"
-    }
-  ],
-  "role2-lopakhin": [
-    {
-      "title": "Royal Shakespeare Company：The Cherry Orchard 剧情与洛巴辛",
-      "url": "https://www.rsc.org.uk/the-cherry-orchard"
-    }
-  ],
-  "place-cherry": [
-    {
-      "title": "MIT OpenCourseWare：Script Analysis，《The Cherry Orchard》结构讨论",
-      "url": "https://ocw.mit.edu/courses/21m-710-script-analysis-fall-2005/pages/calendar/"
-    },
-    {
-      "title": "Royal Shakespeare Company：The Cherry Orchard 剧情与洛巴辛",
-      "url": "https://www.rsc.org.uk/the-cherry-orchard"
-    }
-  ],
-  "xplay-quyuan": [
-    {
-      "title": "重庆中国三峡博物馆：郭沫若修改手迹本《屈原》",
-      "url": "https://www.3gmuseum.cn/web/article/1430010528247287808/web/content_1430010528247287808.html"
-    },
-    {
-      "title": "大庆师范学院《中国话剧名作鉴赏》公开课程说明",
-      "url": "https://www.chinaooc.com.cn/course/68003e14b836e5522a7564e1"
-    }
-  ],
-  "yplay-mrswarren": [
-    {
-      "title": "萧伯纳《华伦夫人的职业》原作",
-      "url": "https://www.gutenberg.org/cache/epub/1097/pg1097-images.html"
-    }
-  ],
-  "yplay-prometheus": [
-    {
-      "title": "MIT Internet Classics Archive：《被缚的普罗米修斯》原作英译",
-      "url": "https://classics.mit.edu/Aeschylus/prometheus.html"
-    }
-  ],
-  "yplay-redlantern": [
-    {
-      "title": "Edward Albee Society：《谁害怕弗吉尼亚·伍尔夫》剧情及文本分析",
-      "url": "https://edwardalbeesociety.org/works/whos-afraid-of-virginia-woolf/"
-    }
-  ],
-  "yplay-peer": [
-    {
-      "title": "易卜生《培尔·金特》原作英译，Collected Works 第4卷",
-      "url": "https://www.gutenberg.org/files/66239/66239-h/66239-h.htm"
-    }
-  ],
-  "yplay-farewell": [
-    {
-      "title": "UMass DEFA Film Library：Ralf Remshardt 研究《大胆妈妈》的文本与原版演出",
-      "url": "https://www.umass.edu/defa/sites/default/files/Mother%20Courage%20and%20Her%20Children%20on%20Stage%20and%20Screen_by%20Ralf%20Remshardt/index.pdf"
-    }
-  ],
-  "play-glass": [
-    {
-      "title": "A Noise Within：《玻璃动物园》2019 观众手册",
-      "url": "https://www.anoisewithin.org/wp-content/uploads/2019/01/AGSpring_18-19-TheGlassMenagerie_FINAL2.pdf"
-    }
-  ],
-  "xplay-romeo": [
-    {
-      "title": "RSC：Romeo and Juliet 分场剧情",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/story/scene-by-scene"
-    }
-  ],
-  "xplay-galileo": [
-    {
-      "title": "Northwestern University：Life of Galileo 演出与科学冲突",
-      "url": "https://www.mccormick.northwestern.edu/etopia/past-performances/life-of-galileo.html"
-    },
-    {
-      "title": "St Leonard’s College 教学资料：Life of Galileo 的冲突与后果（Engage Education）",
-      "url": "https://cpb-ap-se2.wpmucdn.com/learn.stleonards.vic.edu.au/dist/7/135/files/2016/03/Life-of-Galileo-Encountering-Conflict.pdf"
-    }
-  ],
-  "xplay-doggy": [
-    {
-      "title": "林伟瑜：从写意到意境，狗儿爷涅槃的剧本及演出分析，《戏剧研究》37期",
-      "url": "https://theatre.ntu.edu.tw/journal/text/pdf/37/37-2.pdf"
-    },
-    {
-      "title": "大庆师范学院《中国话剧名作鉴赏》公开课程说明",
-      "url": "https://www.chinaooc.com.cn/course/68003e14b836e5522a7564e1"
-    }
-  ],
-  "xplay-pygmalion": [
-    {
-      "title": "萧伯纳《皮格马利翁》原作",
-      "url": "https://www.gutenberg.org/cache/epub/3825/pg3825-images.html"
-    }
-  ],
-  "xplay-tartuffe": [
-    {
-      "title": "莫里哀《伪君子》原作英译",
-      "url": "https://www.gutenberg.org/cache/epub/2027/pg2027-images.html"
-    }
-  ],
-  "yplay-enemy": [
-    {
-      "title": "易卜生《人民公敌》《野鸭》原作英译，Collected Works 第8卷",
-      "url": "https://www.gutenberg.org/cache/epub/70577/pg70577-images.html"
-    }
-  ],
-  "yplay-whitesnake": [
-    {
-      "title": "易卜生《人民公敌》《野鸭》原作英译，Collected Works 第8卷",
-      "url": "https://www.gutenberg.org/cache/epub/70577/pg70577-images.html"
-    }
-  ],
-  "play-sisters": [
-    {
-      "title": "契诃夫《三姐妹》原作，Constance Garnett 英译",
-      "url": "https://www.ibiblio.org/eldritch/ac/sisters.htm"
-    }
-  ],
-  "xplay-vanya": [
-    {
-      "title": "契诃夫《万尼亚舅舅》原作英译",
-      "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
-    }
-  ],
-  "play-butterfly": [
-    {
-      "title": "易卜生《海达·高布乐》原作英译，Collected Works 第10卷",
-      "url": "https://www.gutenberg.org/files/74237/74237-h/74237-h.htm"
-    }
-  ],
-  "xplay-seagull": [
-    {
-      "title": "契诃夫《海鸥》原作英译",
-      "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
-    }
-  ],
-  "play-beijing": [
-    {
-      "title": "文化和旅游部：央华《北京人》演出剧情",
-      "url": "https://www.mct.gov.cn/ggfw/zyjzzt/yanchu/yanchuwqhg/202211/t20221101_937099.html"
-    },
-    {
-      "title": "大庆师范学院《中国话剧名作鉴赏》公开课程说明",
-      "url": "https://www.chinaooc.com.cn/course/68003e14b836e5522a7564e1"
-    }
-  ],
-  "play-sunrise": [
-    {
-      "title": "国家大剧院2026年2—3月剧目展：话剧《日出》剧情",
-      "url": "https://www.chncpa.org/cgylx/yszl/zlsj/syzl/202602/t20260205_286250.shtml"
-    }
-  ],
-  "role-wang": [
-    {
-      "title": "梁冠华：二十年“茶”味越品越浓，演员访谈，北京日报／中国作家网",
-      "url": "https://www.chinawriter.com.cn/n1/2019/0222/c419389-30896835.html"
-    },
-    {
-      "title": "清华大学图书馆：《茶馆》经典舞台电影放映介绍",
-      "url": "https://lib.tsinghua.edu.cn/info/1068/5143.htm"
-    }
-  ],
-  "xrole-lucky": [
-    {
-      "title": "The Shakespeare Theatre of New Jersey: Waiting for Godot 2023 Know-the-Show Guide, synopsis p.7",
-      "url": "https://www.shakespearenj.org/assets/doc/GODOT-KTS-2023-FINAL-301d6e32f5.pdf"
-    }
-  ],
-  "xrole-cordelia": [
-    {
-      "title": "Royal Shakespeare Company: King Lear character relationships",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/king-lear/character/relationships"
-    }
-  ],
-  "yrole-richardiii": [
-    {
-      "title": "Royal Shakespeare Company: Richard III synopsis",
-      "url": "https://www.rsc.org.uk/richard-iii/"
-    },
-    {
-      "title": "Folger Shakespeare Library: About Richard III",
-      "url": "https://www.folger.edu/explore/shakespeares-works/richard-iii/about-shakespeares-richard-iii/"
-    }
-  ],
-  "role-willy": [
-    {
-      "title": "Utah Shakespeare Festival: Death of a Salesman synopsis",
-      "url": "https://www.bard.org/study-guides/synopsis-death-of-a-salesman/"
-    }
-  ],
-  "role-blanche": [
-    {
-      "title": "Utah Shakespeare Festival: A Streetcar Named Desire synopsis",
-      "url": "https://www.bard.org/study-guides/synopsis-a-streetcar-named-desire/"
-    }
-  ],
-  "xrole-pozzo": [
-    {
-      "title": "The Shakespeare Theatre of New Jersey: Waiting for Godot 2023 Know-the-Show Guide, synopsis p.7",
-      "url": "https://www.shakespearenj.org/assets/doc/GODOT-KTS-2023-FINAL-301d6e32f5.pdf"
-    }
-  ],
-  "xrole-eliza": [
-    {
-      "title": "George Bernard Shaw: Pygmalion, original play and sequel, Project Gutenberg",
-      "url": "https://www.gutenberg.org/files/3825/3825-h/3825-h.htm"
-    }
-  ],
-  "role-ladym": [
-    {
-      "title": "Royal Shakespeare Company: Macbeth character analysis",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/analysis"
-    },
-    {
-      "title": "Royal Shakespeare Company: Macbeth character relationships",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
-    }
-  ],
-  "xrole-juliet": [
-    {
-      "title": "Royal Shakespeare Company: Romeo and Juliet character analysis",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/character/analysis"
-    },
-    {
-      "title": "Royal Shakespeare Company: Romeo and Juliet story timeline",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/romeo-and-juliet/story/timeline"
-    }
-  ],
-  "role2-duncan": [
-    {
-      "title": "Royal Shakespeare Company: Macbeth character relationships",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
-    }
-  ],
-  "role2-malcolm": [
-    {
-      "title": "Royal Shakespeare Company: Macbeth character relationships",
-      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/character/relationships"
-    },
-    {
-      "title": "Folger Shakespeare Library: Macbeth Act 4 Scene 3, original play text",
-      "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/read/4/3/"
-    }
-  ],
-  "dir-wall": [
-    {
-      "title": "National Theatre: Public Acts Toolkit, fourth wall glossary, p.78",
-      "url": "https://images.nationaltheatre.org.uk/uploads/2025/09/NationalTheatre_PublicActs_Toolkit---No-page-39-40.pdf"
-    },
-    {
-      "title": "National Theatre: Practitioners in Practice — Katie Mitchell, place, time and immediate circumstances, p.14",
-      "url": "https://images.nationaltheatre.org.uk/uploads/2024/03/KatieMitchell-PractitionersinPractice-PDF-2024.pdf"
-    }
-  ],
-  "ystyle-huagu": [
-    {
-      "title": "Royal Shakespeare Company: Building our Company / Macbeth, given circumstances and actor behaviour",
-      "url": "https://cdn2.rsc.org.uk/sitefinity/education-pdfs/associate-schools/example-notes-and-texts---macbeth.pdf"
-    },
-    {
-      "title": "National Theatre: Practitioners in Practice — Katie Mitchell, place, time and immediate circumstances, p.14",
-      "url": "https://images.nationaltheatre.org.uk/uploads/2024/03/KatieMitchell-PractitionersinPractice-PDF-2024.pdf"
-    }
-  ],
-  "xstyle-walk": [
-    {
-      "title": "Theatres Trust: What are the types of theatre stages and auditoria?",
-      "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
-    }
-  ],
-  "xstyle-chuanju": [
-    {
-      "title": "Henrik Ibsen: A Doll’s House, original play in English translation, Project Gutenberg",
-      "url": "https://www.gutenberg.org/files/2542/2542-h/2542-h.htm"
-    }
-  ],
-  "place-proscenium": [
-    {
-      "title": "Theatres Trust: What are the types of theatre stages and auditoria?",
-      "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
     }
   ],
   "place-blackbox": [
@@ -2075,10 +4693,206 @@ const highStarSourceDataV40 = {
       "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
     }
   ],
+  "place-proscenium": [
+    {
+      "title": "Theatres Trust: What are the types of theatre stages and auditoria?",
+      "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+    }
+  ],
+  "place-dunsinane": [
+    {
+      "title": "RSC：《麦克白》剧情时间线",
+      "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/story/timeline"
+    }
+  ],
   "place-parlor": [
     {
       "title": "Henrik Ibsen: A Doll’s House, original play in English translation, Project Gutenberg",
       "url": "https://www.gutenberg.org/files/2542/2542-h/2542-h.htm"
+    }
+  ],
+  "place-exec": [
+    {
+      "title": "香港教育局《法场》原曲选与《窦娥冤》第三折说明",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/secondary-edu/lang/chi_chapter/P090.pdf"
+    }
+  ],
+  "place-sichuan": [
+    {
+      "title": "Bloomsbury／Methuen：Brecht Collected Plays Six，序言及原作序场试读",
+      "url": "https://api.pageplace.de/preview/DT0400.9781408177433_A23935581/preview-9781408177433_A23935581.pdf"
+    }
+  ],
+  "place-cherry": [
+    {
+      "title": "契诃夫《樱桃园》原作，Julius West英译，第一、三、四幕",
+      "url": "https://www.gutenberg.org/files/7986/7986-h/7986-h.htm"
+    },
+    {
+      "title": "MIT OpenCourseWare：Script Analysis，《The Cherry Orchard》结构讨论",
+      "url": "https://ocw.mit.edu/courses/21m-710-script-analysis-fall-2005/pages/calendar/"
+    },
+    {
+      "title": "Royal Shakespeare Company：The Cherry Orchard 剧情与洛巴辛",
+      "url": "https://www.rsc.org.uk/the-cherry-orchard"
+    }
+  ],
+  "place-gullen": [
+    {
+      "title": "Wabash College戏剧制作：《The Visit》故事说明",
+      "url": "https://www.wabash.edu/academics/theater/visit"
+    }
+  ],
+  "place-zoo": [
+    {
+      "title": "南洋艺术学院《恋爱的犀牛》2019演出节目册：人物表",
+      "url": "https://c42-archive-prod-files-acl.s3.ap-southeast-1.amazonaws.com/public/2022-10/20191107-nafa-rhi-pg1.pdf?VersionId=l1Un3a4tIubAfCUTTR4GJArANT6BtxJq"
+    }
+  ],
+  "place-forest": [
+    {
+      "title": "王琦：“父权制”游魂下的《原野》，南开大学转载研究",
+      "url": "https://nxwx.nankai.edu.cn/2017/0612/c12604a184141/page.htm"
+    }
+  ],
+  "place-heath": [
+    {
+      "title": "Folger Shakespeare Library：《李尔王》第三幕第二场原文",
+      "url": "https://www.folger.edu/explore/shakespeares-works/king-lear/read/3/2/"
+    }
+  ],
+  "place-meixiang": [
+    {
+      "title": "香港康文署中国戏曲节：《桃花扇·题画》官方节目说明",
+      "url": "https://www.cof.gov.hk/2024/assets/doc/2011/Leaflet/COF2011_03_%E6%88%B2%E4%BB%A5%E4%BA%BA%E5%82%B3%E5%B4%91%E5%8A%87%E7%B6%93%E5%85%B8%E6%8A%98%E5%AD%90%E6%88%B2%E5%B1%95%E6%BC%94_Leaflet.pdf"
+    }
+  ],
+  "place-island": [
+    {
+      "title": "Folger Shakespeare Library：《暴风雨》第一幕第二场及全剧分场梗概",
+      "url": "https://www.folger.edu/explore/shakespeares-works/the-tempest/read/1/2/"
+    }
+  ],
+  "xplace-dock": [
+    {
+      "title": "交通部航港局：航港知道，棧橋／碼頭释义",
+      "url": "https://www.motcmpb.gov.tw/Center?ChildChildNodeId=311&ChildNodeId=305&NodeId=34&SiteId=1"
+    }
+  ],
+  "xplace-attic": [
+    {
+      "title": "教育部《重编国语辞典修订本》：阁楼",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=68182&la=0&powerMode=0"
+    }
+  ],
+  "xplace-balcony": [
+    {
+      "title": "Cambridge Dictionary：balcony，建筑义",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/balcony"
+    }
+  ],
+  "xplace-market": [
+    {
+      "title": "Cambridge Dictionary：market，交易场所义",
+      "url": "https://dictionary.cambridge.org/dictionary/english/market"
+    }
+  ],
+  "xplace-factory": [
+    {
+      "title": "Cambridge Dictionary：factory",
+      "url": "https://dictionary.cambridge.org/dictionary/english/factory"
+    }
+  ],
+  "xplace-ancestral": [
+    {
+      "title": "教育部《重编国语辞典修订本》：祠堂",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=140469&la=0&powerMode=0"
+    }
+  ],
+  "xplace-grave": [
+    {
+      "title": "Cambridge Dictionary：cemetery",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/cemetery"
+    }
+  ],
+  "xplace-shrine": [
+    {
+      "title": "Cambridge Dictionary：temple，宗教建筑义",
+      "url": "https://dictionary.cambridge.org/dictionary/english/temple"
+    }
+  ],
+  "xplace-carriage": [
+    {
+      "title": "Cambridge Dictionary：carriage，铁路客车义",
+      "url": "https://dictionary.cambridge.org/us/dictionary/learner-english/carriage"
+    }
+  ],
+  "xplace-rooftop": [
+    {
+      "title": "Cambridge Dictionary：roof",
+      "url": "https://dictionary.cambridge.org/dictionary/english/roof"
+    }
+  ],
+  "xplace-kitchen": [
+    {
+      "title": "Cambridge Dictionary：kitchen",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/kitchen?topic=rooms"
+    }
+  ],
+  "xplace-convent": [
+    {
+      "title": "Cambridge Dictionary：monastery；Cambridge University Press修道院研究试读",
+      "url": "https://assets.cambridge.org/97805217/39085/excerpt/9780521739085_excerpt.pdf"
+    }
+  ],
+  "yplace-crossroad": [
+    {
+      "title": "Cambridge Dictionary：crossroads",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/crossroads?topic=turning-points-and-deciding-moments"
+    }
+  ],
+  "yplace-huafang": [
+    {
+      "title": "教育部《国语辞典简编本》：画舫",
+      "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20211&la=0&powerMode=0"
+    }
+  ],
+  "yplace-gongtang": [
+    {
+      "title": "教育部台湾客语辞典：公堂",
+      "url": "https://hakkadict.moe.edu.tw/search_result/?id=9248"
+    }
+  ],
+  "yplace-zhongjun": [
+    {
+      "title": "教育部《重編國語辭典修訂本》：中軍帳",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=119944&la=0&powerMode=0"
+    }
+  ],
+  "yplace-jindian": [
+    {
+      "title": "故宫博物院：太和殿",
+      "url": "https://www.dpm.org.cn/explore/building/236465.html"
+    }
+  ],
+  "yplace-shikumen": [
+    {
+      "title": "上海市民政局：有朋来，到共享客厅烧桌好菜",
+      "url": "https://mzj.sh.gov.cn/lnb-xw/20200824/b540ac87c23f40a5b60d96ffa6f65571.html"
+    }
+  ],
+  "place-zhou": [
+    {
+      "title": "清华大学：《雷雨》全剧上演",
+      "url": "https://www.tsinghua.edu.cn/info/1181/45847.htm"
+    },
+    {
+      "title": "南京大学中国现代文学研究中心：陆炜《雷雨》的性解读（原剧家具与关窗情节细读）",
+      "url": "https://njucml.nju.edu.cn/5a/51/c22608a350801/page.htm"
+    },
+    {
+      "title": "中央戏剧学院：2024 年《雷雨》教学演出、周朴园与周公馆剧情",
+      "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/22315.html"
     }
   ],
   "place-stella": [
@@ -2091,14 +4905,202 @@ const highStarSourceDataV40 = {
       "url": "https://www.bard.org/study-guides/synopsis-a-streetcar-named-desire/"
     }
   ],
-  "xplay-faust": [
+  "place-zeng": [
     {
-      "title": "歌德《浮士德》第一部原作，Bayard Taylor 英译",
-      "url": "https://www.gutenberg.org/cache/epub/14591/pg14591-images.html"
+      "title": "央华戏剧：赖声川《北京人》导演创作笔记（发布于凤凰网）",
+      "url": "https://ishare.ifeng.com/c/s/7du2qsbFHUj"
+    }
+  ],
+  "place-tea": [
+    {
+      "title": "人民教育出版社《语文·选择性必修下册》：《茶馆》及学习提示（第68页）",
+      "url": "https://forum.rdfzer.com/uploads/short-url/4KvVeVOnNyHPRo87DC2JSJfeWi7.pdf"
     },
     {
-      "title": "歌德《浮士德》第二部德文原作，Project Gutenberg",
-      "url": "https://www.gutenberg.org/cache/epub/2230/pg2230-images.html"
+      "title": "胡晓璐：《茶馆》所呈现出的艺术特色，《语文教学与研究》2022年第8期",
+      "url": "https://m.fx361.com/news/2022/0530/22003873.html"
+    },
+    {
+      "title": "国家大剧院 2019 秋季演出季手册：《茶馆》人物与裕泰茶馆",
+      "url": "https://www.chncpa.org/ycgp_220/jmcxz/201607/P020190902597561079651.pdf"
+    },
+    {
+      "title": "北京人民艺术剧院：老舍与《茶馆》创演",
+      "url": "https://www.bjry.com/actor/html/2015/06/2015060515.html"
+    }
+  ],
+  "place-baihua": [
+    {
+      "title": "上海市绿化和市容管理局：古建筑艺术之亭",
+      "url": "https://lhsr.sh.gov.cn/jnylwh/20221019/1c7a868327484638b45840204aeb62fa.html"
+    }
+  ],
+  "yplace-well": [
+    {
+      "title": "臺南市政府文化局：《臺南府城古井誌》古井的构造与设备节录",
+      "url": "https://nanying.pixnet.net/blog/posts/46691292"
+    }
+  ],
+  "yplace-chengmen": [
+    {
+      "title": "教育部《重編國語辭典修訂本》：城門",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=124367&q=1&word=%E9%96%80"
+    }
+  ],
+  "xplace-snowfield": [
+    {
+      "title": "国际灌溉排水委员会：Multilingual Technical Dictionary，Snowfield",
+      "url": "https://www.mtd.icid-ciid.org/view.php?kwid=822&lang=en&references=0&type=latest"
+    }
+  ],
+  "xplace-mine": [
+    {
+      "title": "Cambridge Dictionary：mine（HOLE）",
+      "url": "https://dictionary.cambridge.org/dictionary/english/mine"
+    }
+  ],
+  "yplace-cafe": [
+    {
+      "title": "Cambridge Dictionary：café",
+      "url": "https://dictionary.cambridge.org/dictionary/english/cafe?topic=restaurants-and-cafes"
+    }
+  ],
+  "yplace-deck": [
+    {
+      "title": "Cambridge Dictionary：deck（FLOOR）",
+      "url": "https://dictionary.cambridge.org/dictionary/english/deck?topic=parts-of-ships-and-boats"
+    }
+  ],
+  "yplace-cliff": [
+    {
+      "title": "Cambridge Dictionary：cliff",
+      "url": "https://dictionary.cambridge.org/dictionary/english/cliff"
+    }
+  ],
+  "yplace-altar": [
+    {
+      "title": "Cambridge Dictionary：altar",
+      "url": "https://dictionary.cambridge.org/us/dictionary/english/altar"
+    }
+  ],
+  "yplace-fachang": [
+    {
+      "title": "教育部《重編國語辭典修訂本》：法場",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=33773&q=1&word=32"
+    }
+  ],
+  "yplace-dungeon": [
+    {
+      "title": "Cambridge Dictionary：dungeon",
+      "url": "https://dictionary.cambridge.org/dictionary/english/dungeon"
+    }
+  ],
+  "yplace-stable": [
+    {
+      "title": "Cambridge Dictionary：stable（BUILDING）",
+      "url": "https://dictionary.cambridge.org/dictionary/english/stable"
+    }
+  ],
+  "yplace-ballroom": [
+    {
+      "title": "Cambridge Dictionary：ballroom",
+      "url": "https://dictionary.cambridge.org/dictionary/english/ballroom"
+    }
+  ],
+  "yplace-office": [
+    {
+      "title": "Cambridge Dictionary：office（WORK PLACE）",
+      "url": "https://dictionary.cambridge.org/dictionary/english/office"
+    }
+  ],
+  "yplace-workshop": [
+    {
+      "title": "Cambridge Dictionary：workshop（ROOM WITH TOOLS）",
+      "url": "https://dictionary.cambridge.org/dictionary/english/workshop"
+    }
+  ],
+  "place-v21-bordercheckpoint": [
+    {
+      "title": "GOV.UK：Entering the UK — At border control",
+      "url": "https://www.gov.uk/uk-border-control/at-border-control"
+    }
+  ],
+  "place-v21-willroom": [
+    {
+      "title": "GOV.UK：Making a will — Write your will",
+      "url": "https://www.gov.uk/make-will/writing-your-will"
+    }
+  ],
+  "place-v21-publicbath": [
+    {
+      "title": "Cambridge Dictionary：bathhouse",
+      "url": "https://dictionary.cambridge.org/dictionary/english/bathhouse?topic=public-buildings"
+    }
+  ],
+  "place-v21-funeralhome": [
+    {
+      "title": "上海市民政局：关于本市殡仪服务的便民问答",
+      "url": "https://mzj.sh.gov.cn/binzang-grbs/20241021/54bc5a46aac14b0f807bcb9294e454af.html"
+    }
+  ],
+  "place-v21-lostproperty": [
+    {
+      "title": "港铁：Lost Property Registration（个人资料声明）",
+      "url": "https://lpms.mtr.com.hk/Home/"
+    }
+  ],
+  "place-v21-photostudio": [
+    {
+      "title": "Science Museum Group：Photographic Studio painted backdrop，1980-823/2",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8453101/photographic-studio-painted-backdrop"
+    }
+  ],
+  "place-v21-diningcar": [
+    {
+      "title": "Amtrak：Traditional Dining",
+      "url": "https://www.amtrak.com/onboard/meals-dining/dining-car"
+    }
+  ],
+  "place-v21-archive": [
+    {
+      "title": "National Archives：Arrangement",
+      "url": "https://www.archives.gov/research/catalog/lcdrg/elements/arrangement"
+    },
+    {
+      "title": "National Archives：Researching Accessioned Records",
+      "url": "https://www.archives.gov/records-mgmt/accessioning/research"
+    }
+  ],
+  "place-v22-gallery": [
+    {
+      "title": "UK Parliament：Access to debates and committees",
+      "url": "https://www.parliament.uk/visiting/access/disabled-access/access-debates-and-committees/"
+    }
+  ],
+  "place-v22-cage": [
+    {
+      "title": "National Coal Mining Museum：Underground Tour — Frequently Asked Questions",
+      "url": "https://www.ncm.org.uk/underground-tours/underground-tour-frequently-asked-questions/"
+    },
+    {
+      "title": "岳阳市政府：关于金属非金属矿山禁止使用的设备及工艺目录第一批的说明（罐笼定义）",
+      "url": "https://www.yueyang.gov.cn/ztxx/63315/63319/content_1875715.html"
+    }
+  ],
+  "place-v22-embassyhall": [
+    {
+      "title": "GOV.UK：Who the FCDO can support abroad",
+      "url": "https://www.gov.uk/guidance/who-the-fcdo-can-support-abroad"
+    }
+  ],
+  "place-v22-observatory": [
+    {
+      "title": "ESO：ELT Dome",
+      "url": "https://elt.eso.org/telescope/dome/"
+    },
+    {
+      "title": "ESO：VLT Telescope dome shutters opening",
+      "url": "https://www.eso.org/public/videos/vlt-dome-shutters-open/"
     }
   ]
 };

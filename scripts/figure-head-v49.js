@@ -1,12 +1,14 @@
 /* Shared paper head: rear hair stays behind the face; fringes and hats clear the eyes. */
 function figHead(e,x,y,sc,flip){
   const skin=pt[e.skin]||pt.fair,f=flip?` scale(-1,1)`:``;
-  return `<g transform="translate(${x} ${y}) scale(${sc||1})${f}">${figHairBack(e)}<circle cx="0" cy="0" r="18" fill="${skin}"/>${figHair(e)}${figFace(e.face)}</g>`;
+  const tilt=e.headTilt?` rotate(${Math.max(-8,Math.min(8,e.headTilt))})`:``;
+  return `<g transform="translate(${x} ${y}) scale(${sc||1})${f}${tilt}">${figHairBack(e)}<circle cx="0" cy="0" r="18" fill="${skin}"/>${figHair(e)}${figFace(e.face)}</g>`;
 }
 function figHairBack(e){
   const h=e.head||e.hair||`crop`,ink=L;
   switch(h){
-    case`long`:case`wave`:return `<path d="M-16 -12 C-27 5 -23 70 -14 96 H-6 C-7 54 -14 30 -14 14 C-12 0 -11 -8 -8 -12 Z M16 -12 C27 5 23 70 14 96 H6 C7 54 14 30 14 14 C12 0 11 -8 8 -12 Z" fill="${ink}"/>`;
+    case`long`:return `<path d="M-16 -12 C-26 3 -22 46 -17 68 L-10 73 L-8 66 C-13 43 -17 15 -8 -12 Z M16 -12 C26 3 22 46 17 68 L10 73 L8 66 C13 43 17 15 8 -12 Z" fill="${ink}"/>`;
+    case`wave`:return `<path d="M-16 -12 C-30 1 -17 16 -25 29 C-32 42 -16 52 -22 65 L-13 70 C-1 53 -18 42 -13 29 C-6 14 -15 2 -8 -12 Z M16 -12 C30 1 17 16 25 29 C32 42 16 52 22 65 L13 70 C1 53 18 42 13 29 C6 14 15 2 8 -12 Z" fill="${ink}"/>`;
     case`braid`:return `<path d="M19 -5 Q27 18 21 39 Q27 58 19 85" fill="none" stroke="${ink}" stroke-width="6" stroke-linecap="round"/>`;
     case`queue`:return `<path d="M15 -8 H22 L20 70 H15 Z" fill="${ink}"/>`;
     case`bun`:return `<circle cx="0" cy="-22" r="8" fill="${ink}"/>`;
@@ -22,12 +24,15 @@ function figHair(e){
   const h=e.head||e.hair||`crop`,ink=L;
   const crop=`<path d="M-17 -6 Q0 -24 17 -6 Q0 -11 -17 -6" fill="${ink}"/>`;
   switch(h){
-    case`long`:case`wave`:return `<path d="M-17 -7 Q0 -23 17 -7 Q0 -13 -17 -7" fill="${ink}"/>`;
+    case`long`:return `<path d="M-17 -7 Q0 -23 17 -7 L3 -12 L0 -17 L-3 -12 Z" fill="${ink}"/>`;
+    case`wave`:return `<path d="M-17 -7 Q-18 -20 0 -19 Q16 -22 17 -7 Q7 -13 2 -8 Q-4 -17 -17 -7" fill="${ink}"/>`;
     case`bun`:case`braid`:case`topknot`:case`queue`:return `<path d="M-16 -7 Q0 -21 16 -7 Q0 -12 -16 -7" fill="${ink}"/>`;
-    case`bowl`:case`crop`:case`short`:return crop;
+    case`crop`:return crop;
+    case`short`:return `<path d="M-17 -7 L-13 -16 L-5 -18 L-1 -23 L6 -19 L14 -17 L17 -7 L7 -11 L1 -9 L-6 -12 Z" fill="${ink}"/>`;
+    case`bowl`:return `<path d="M-18 -7 Q-19 -25 0 -25 Q19 -25 18 -7 Z" fill="${ink}"/>`;
     case`sidepart`:return `<path d="M-16 -6 Q-2 -26 6 -12 Q16 -22 16 -6 Q4 -10 -16 -6" fill="${ink}"/>`;
     case`wild`:return `<path d="M-18 -6 L-26 -26 L-8 -12 L0 -30 L10 -12 L26 -24 L16 -6 Z" fill="${ink}"/>`;
-    case`white`:return `<path d="M-17 -6 Q0 -24 17 -6 Q0 -11 -17 -6" fill="#f7f4ee"/>`;
+    case`white`:return `<path d="M-17 -6 Q0 -24 17 -6 Q0 -11 -17 -6" fill="#d6d2c8" stroke="#89877f" stroke-width="1.1"/>`;
     case`bald`:return ``;
     case`bowler`:return `<ellipse cx="0" cy="-11" rx="22" ry="4" fill="${ink}"/><path d="M-14 -11 Q0 -31 14 -11 Z" fill="${ink}"/>`;
     case`cap`:return `<path d="M-20 -7 H20 L16 -19 H-16 Z M-8 -19 H8 V-25 H-8 Z" fill="${ink}"/>`;

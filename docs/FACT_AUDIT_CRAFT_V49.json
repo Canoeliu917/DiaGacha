@@ -1,0 +1,4367 @@
+{
+  "version": 49,
+  "checkedAt": "2026-11-13",
+  "scope": "500 张常驻卡中全部 150 张演法／手段卡，逐卡核心定义及术语边界外部资料核对",
+  "expectedCount": 150,
+  "coveredIds": [
+    "style-stan",
+    "style-epic",
+    "style-absurd",
+    "style-real",
+    "style-xieyi",
+    "style-poor",
+    "dir-wall",
+    "dir-alien",
+    "dir-ritual",
+    "dir-montage",
+    "dir-body",
+    "style-kabuki",
+    "style-black",
+    "style-physical",
+    "dir-solo",
+    "dir-convention",
+    "dir-call",
+    "xstyle-kunqu",
+    "xstyle-chuanju",
+    "xstyle-yuju",
+    "xstyle-huangmei",
+    "xstyle-shadow",
+    "xstyle-puppetry",
+    "xstyle-forum",
+    "xstyle-site",
+    "xstyle-walk",
+    "xstyle-soundth",
+    "xstyle-political",
+    "xstyle-comedy",
+    "xstyle-danceplay",
+    "xstyle-nanxi",
+    "xstyle-zaju",
+    "xstyle-lab",
+    "xstyle-bunraku",
+    "xdir-toplight",
+    "xdir-spot",
+    "xdir-backturn",
+    "xdir-changeset",
+    "xdir-enter",
+    "xdir-repeat",
+    "xdir-bang",
+    "xdir-drum",
+    "xdir-zoubian",
+    "xdir-sleeve",
+    "xdir-facechange",
+    "xdir-nian",
+    "xdir-mirror",
+    "xdir-group",
+    "xdir-improvbit",
+    "xdir-voiceover",
+    "ystyle-qinqiang",
+    "ystyle-yueopera",
+    "ystyle-errenzhuan",
+    "ystyle-zangxi",
+    "ystyle-budaixi",
+    "ystyle-kyogen",
+    "ystyle-takarazuka",
+    "ystyle-waterpuppet",
+    "ystyle-wenmingxi",
+    "ystyle-livingnews",
+    "ystyle-street",
+    "ystyle-mystery",
+    "ystyle-passion",
+    "ystyle-lightopera",
+    "ystyle-object",
+    "ystyle-install",
+    "ystyle-image",
+    "ystyle-magicreal",
+    "ystyle-criticalreal",
+    "ystyle-poeticreal",
+    "ystyle-ritualstyle",
+    "ystyle-manner",
+    "ystyle-drawingroom",
+    "ystyle-shinkoku",
+    "ystyle-sanskrit",
+    "ystyle-huagu",
+    "ydir-lingzi",
+    "ydir-fanwork",
+    "ydir-handkerchief",
+    "ydir-dachushou",
+    "ydir-diaomao",
+    "ydir-jiangshi",
+    "ydir-qiangbei",
+    "ydir-darkchange",
+    "ydir-qieguang",
+    "ydir-backlight",
+    "ydir-gauze",
+    "ydir-liftstage",
+    "ydir-wagontage",
+    "ydir-jijifeng",
+    "ydir-shoujiu",
+    "ydir-chujiang",
+    "ydir-duetline",
+    "ydir-bansing",
+    "ydir-qichang",
+    "ydir-coldstage",
+    "ydir-footlight",
+    "ydir-facelight",
+    "ydir-smoke",
+    "ydir-legdrop",
+    "ydir-paoyuan",
+    "ydir-rankou",
+    "style-v21-epistolary",
+    "style-v21-courtroom",
+    "style-v21-mystery",
+    "style-v21-fable",
+    "style-v21-family",
+    "style-v21-psychothriller",
+    "style-v21-metatheatre",
+    "style-v21-autobiographical",
+    "style-v21-polyphonic",
+    "style-v21-maximalist",
+    "style-v21-rehearsaldrama",
+    "style-v21-radiodrama",
+    "style-v21-stagedreading",
+    "style-v21-signedtheatre",
+    "style-v21-sensory",
+    "dir-v21-testimony",
+    "dir-v21-samewords",
+    "dir-v21-livefoley",
+    "dir-v21-timecut",
+    "dir-v21-soundimage",
+    "dir-v21-livesubtitles",
+    "dir-v21-linerelay",
+    "dir-v21-proptransfer",
+    "dir-v21-emptychair",
+    "dir-v21-unreliable",
+    "dir-v21-selectivereplay",
+    "dir-v21-simultaneoussolos",
+    "dir-v21-occlusion",
+    "dir-v21-compression",
+    "dir-v21-endingloop",
+    "v23-style-chamber",
+    "v23-style-total",
+    "v23-style-verbatim",
+    "v23-style-bourgeois-tragedy",
+    "v23-style-historyplay",
+    "v23-style-intercultural",
+    "v23-style-visual",
+    "v23-style-translation",
+    "v23-dir-pool",
+    "v23-dir-readstage",
+    "v23-dir-allwatch",
+    "v23-dir-objectchain",
+    "v23-dir-countdown",
+    "v23-dir-floorplan",
+    "v23-dir-soundfirst",
+    "v23-dir-silentopen",
+    "v23-dir-revolving",
+    "v23-dir-misremember"
+  ],
+  "reviews": [
+    {
+      "id": "style-stan",
+      "name": "斯坦尼体系",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+          "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+        }
+      ],
+      "factsChecked": [
+        "规定情境、目标和行动是体系的组成；并非只要求演员复制现实表面。"
+      ],
+      "classification": "表演体系",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-epic",
+      "name": "史诗剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+        }
+      ],
+      "factsChecked": [
+        "布莱希特的叙述、歌唱和中断服务于观众判断社会关系。"
+      ],
+      "classification": "剧场观念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-absurd",
+      "name": "荒诞派",
+      "status": "verified-reused-v48",
+      "sources": [
+        {
+          "title": "Martin Esslin — The Theatre of the Absurd, Bloomsbury Academic",
+          "url": "https://www.bloomsbury.com/uk/theatre-of-the-absurd-9781472577023/"
+        }
+      ],
+      "factsChecked": [
+        "艾斯林以批评著作提出该称谓；不宜规定诸作家都采用同一结构。"
+      ],
+      "classification": "批评术语",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "reusedFromV48": true,
+      "previousAudit": "docs/FACT_AUDIT_CRAFT_V48.json"
+    },
+    {
+      "id": "style-real",
+      "name": "现实主义",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "AQA：A-level Drama and Theatre 专业词汇",
+          "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+        }
+      ],
+      "factsChecked": [
+        "现实主义追求可信的生活呈现；定义不限于布景逼真。"
+      ],
+      "classification": "艺术倾向",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-xieyi",
+      "name": "写意戏剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "林克欢／PAR：黄佐临写意戏剧观及其本人论述",
+          "url": "https://par.npac-ntch.org/cn/article/doc/D99EPH3JMX"
+        }
+      ],
+      "factsChecked": [
+        "写意强调突破写实外象，以省略、象征和流动时空组织表达。"
+      ],
+      "classification": "戏剧观念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-poor",
+      "name": "质朴戏剧",
+      "status": "verified-reused-v48",
+      "sources": [
+        {
+          "title": "Grotowski Institute — poor theatre",
+          "url": "https://grotowski.net/en/encyclopedia/poor-theatre"
+        }
+      ],
+      "factsChecked": [
+        "质朴戏剧削减非必要成分、重视演员与观众关系，不等于禁用技术。"
+      ],
+      "classification": "剧场观念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "reusedFromV48": true,
+      "previousAudit": "docs/FACT_AUDIT_CRAFT_V48.json"
+    },
+    {
+      "id": "dir-wall",
+      "name": "第四堵墙",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "第四堵墙是观演间的假想屏障，不是实际四面墙。"
+      ],
+      "classification": "戏剧惯例",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-alien",
+      "name": "间离术",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+        }
+      ],
+      "factsChecked": [
+        "间离使熟悉事物重新可被审视，不把演员变成没有感情的人。"
+      ],
+      "classification": "表演与叙事手法",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-ritual",
+      "name": "仪式调度",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Richard Schechner：Living a Double Consciousness，Teaching Ritual 原著预览",
+          "url": "https://api.pageplace.de/preview/DT0400.9780198039211_A23605945/preview-9780198039211_A23605945.pdf"
+        }
+      ],
+      "factsChecked": [
+        "仪式可具有重复和共同程序；本卡的调度名称不是独立学派。"
+      ],
+      "classification": "描述性游戏练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "dir-montage",
+      "name": "蒙太奇",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+        }
+      ],
+      "factsChecked": [
+        "布莱希特实践包含蒙太奇、片段并置及非线性结构。"
+      ],
+      "classification": "叙事组织手法",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-body",
+      "name": "形体无言",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "非语言表达可依赖身体和手势；本卡不等同全部身体剧场。"
+      ],
+      "classification": "描述性游戏练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "style-kabuki",
+      "name": "夸张演技",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+        }
+      ],
+      "factsChecked": [
+        "Berkoff 的夸张身体和声音是明确案例；夸张不专属某一剧种。"
+      ],
+      "classification": "表演处理",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-black",
+      "name": "黑色幽默",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：Black humour",
+          "url": "https://dictionary.cambridge.org/dictionary/english/black-humour"
+        }
+      ],
+      "factsChecked": [
+        "黑色幽默以幽默方式面对严肃、悲伤或残酷内容。"
+      ],
+      "classification": "审美与喜剧手法",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-physical",
+      "name": "身体剧场",
+      "status": "verified-reused-v48",
+      "sources": [
+        {
+          "title": "Grotowski Institute — poor theatre",
+          "url": "https://grotowski.net/en/encyclopedia/poor-theatre"
+        },
+        {
+          "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+        }
+      ],
+      "factsChecked": [
+        "身体为组织叙事的重要材料；Complicité 的实践同时使用语言与技术。"
+      ],
+      "classification": "创作实践",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "reusedFromV48": true,
+      "previousAudit": "docs/FACT_AUDIT_CRAFT_V48.json"
+    },
+    {
+      "id": "dir-solo",
+      "name": "独白直给",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "独白可以向观众或同台人物说；“直给”限定的是本卡的直面观众方式。"
+      ],
+      "classification": "描述性游戏练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "dir-convention",
+      "name": "假定性公开",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "多角色与元戏剧可公开表演约定；不是所有假定性都须当众解释。"
+      ],
+      "classification": "描述性游戏练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "dir-call",
+      "name": "点名观众",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "David Farmer／Drama Resource：Forum Theatre",
+          "url": "https://dramaresource.com/forum-theatre/"
+        },
+        {
+          "title": "Jana Natya Manch 自述：The street actor and the audience",
+          "url": "https://artsandculture.google.com/story/awXBx5aAoRYA8A"
+        }
+      ],
+      "factsChecked": [
+        "直接向观众提问或邀请参与有实践依据；点名不是论坛戏剧的必备程序。"
+      ],
+      "classification": "描述性游戏练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "xstyle-kunqu",
+      "name": "回顾式",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "English Theatre Frankfurt：《Other Desert Cities》教学资料，analytical drama 说明",
+          "url": "https://www.english-theatre.de/wp-content/uploads/2015/04/s-Support-Pack.pdf"
+        }
+      ],
+      "factsChecked": [
+        "分析式结构通过当下行动逐步揭开开场前发生的事件。"
+      ],
+      "classification": "结构方式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-chuanju",
+      "name": "开放结局",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+          "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+        },
+        {
+          "title": "Manchester University Press：Julian Barnes 研究中开放结局的具体分析",
+          "url": "https://www.cambridge.org/core/books/abs/julian-barnes/tell-me-yours-italictalking-it-over-and-love-etcitalic/4856CD0FF04EF0FCF0FAE2627ABEA8C5"
+        }
+      ],
+      "factsChecked": [
+        "开放结局保留未定性；外部叙事研究给出实例，戏剧结尾怎样收束仍是结构选择。"
+      ],
+      "classification": "结构方式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-yuju",
+      "name": "独幕剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "独幕按幕数界定；不能从一幕推出只有一个地点。"
+      ],
+      "classification": "篇幅与结构类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-huangmei",
+      "name": "多幕剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+        },
+        {
+          "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+          "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+        }
+      ],
+      "factsChecked": [
+        "幕与场是结构分段；多幕不等于每幕都必须换地点。"
+      ],
+      "classification": "篇幅与结构类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-shadow",
+      "name": "剪影叙事",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "剪影依赖轮廓与明暗关系；本卡把该视觉手段用于叙事。"
+      ],
+      "classification": "描述性游戏练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "xstyle-puppetry",
+      "name": "叙述者",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "David Farmer／Drama Resource：Narration",
+          "url": "https://dramaresource.com/narration/"
+        },
+        {
+          "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+          "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+        }
+      ],
+      "factsChecked": [
+        "叙述者可由行动中的人物或场外讲述者担任，立场不必全知。"
+      ],
+      "classification": "叙事角色",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-forum",
+      "name": "论坛戏剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "David Farmer／Drama Resource：Forum Theatre",
+          "url": "https://dramaresource.com/forum-theatre/"
+        }
+      ],
+      "factsChecked": [
+        "波瓦的论坛戏剧允许观众替换受压角色，试验不同的行动。"
+      ],
+      "classification": "被压迫者剧场方法",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-site",
+      "name": "站点特定",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Wildworks：场域特定作品的方法与机构介绍",
+          "url": "https://dev.wildworks.org.uk/about-us/"
+        },
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "场域特定创作与特定地点发生关系；不是仅把舞台搬到户外。"
+      ],
+      "classification": "场域创作方式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-walk",
+      "name": "行走剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "AQA：A-level Drama and Theatre 专业词汇",
+          "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+        }
+      ],
+      "factsChecked": [
+        "行走剧场由观众跟随演出移动，路线是观演组织的一部分。"
+      ],
+      "classification": "观演组织方式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-soundth",
+      "name": "声音剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Complicité：《The Encounter》创作者官方介绍",
+          "url": "https://www.complicite.org/work/the-encounter/"
+        }
+      ],
+      "factsChecked": [
+        "声音可建构可移动的想象空间；《The Encounter》提供具体实践依据。"
+      ],
+      "classification": "描述性创作取向",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "xstyle-political",
+      "name": "政治剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "AQA：A-level Drama and Theatre 专业词汇",
+          "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+        }
+      ],
+      "factsChecked": [
+        "政治剧场关心政治立场、权力和公共议题，未规定唯一表演技术。"
+      ],
+      "classification": "题材与创作立场",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-comedy",
+      "name": "喜剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "喜剧以幽默组织人物和处境，历史类型并非只有一种结局形式。"
+      ],
+      "classification": "戏剧类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-danceplay",
+      "name": "舞剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "中央戏剧学院：舞剧系课程、人物塑造与舞剧叙事",
+          "url": "https://en.chntheatre.edu.cn/department/114.html"
+        }
+      ],
+      "factsChecked": [
+        "舞剧用舞蹈表演塑造人物、展开叙事，并结合音乐与舞台设计。"
+      ],
+      "classification": "戏剧与舞蹈类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-nanxi",
+      "name": "多线情节",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《李尔王》原文及分场梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/king-lear/read/"
+        },
+        {
+          "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+          "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+        }
+      ],
+      "factsChecked": [
+        "《李尔王》的两个父子女故事互相连接，是并行人物线索的具体例证。"
+      ],
+      "classification": "结构方式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-zaju",
+      "name": "分场结构",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+          "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+        }
+      ],
+      "factsChecked": [
+        "分幕分场用于组织事件顺序和信息；场的划分有多种依据。"
+      ],
+      "classification": "结构方式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-lab",
+      "name": "实验剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "NYU Tisch：Experimental Theatre Wing 的身体、声音与创作训练",
+          "url": "https://tisch.nyu.edu/special-programs/high-school-programs/drama"
+        }
+      ],
+      "factsChecked": [
+        "实验实践可重新试验身体、声音和创作方法，不是一种固定造型。"
+      ],
+      "classification": "创作实践统称",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xstyle-bunraku",
+      "name": "文乐",
+      "status": "verified-reused-v48",
+      "sources": [
+        {
+          "title": "Japan Arts Council — Invitation to Bunraku: Performers",
+          "url": "https://www2.ntj.jac.go.jp/unesco/bunraku/en/performer/index.html"
+        }
+      ],
+      "factsChecked": [
+        "文乐三业为太夫、三味线与操偶；主要人偶常由三人协作。"
+      ],
+      "classification": "传统表演形式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "reusedFromV48": true,
+      "previousAudit": "docs/FACT_AUDIT_CRAFT_V48.json"
+    },
+    {
+      "id": "xdir-toplight",
+      "name": "顶光",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "顶光自表演区上方照射，角度会改变面部阴影。"
+      ],
+      "classification": "灯光术语",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xdir-spot",
+      "name": "追光",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "追光的光束可随演员移动，而非所有聚光灯都会追踪。"
+      ],
+      "classification": "灯光术语",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xdir-backturn",
+      "name": "背身",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        },
+        {
+          "title": "AQA：GCSE Drama 专业词汇",
+          "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary"
+        }
+      ],
+      "factsChecked": [
+        "演员朝向与身体语言能够传意；背身没有固定情绪含义。"
+      ],
+      "classification": "表演处理",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xdir-changeset",
+      "name": "当众换景",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "可在观众看得见的情况下换景，台词也可同时继续。"
+      ],
+      "classification": "换景方式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xdir-enter",
+      "name": "观众入戏",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "David Farmer／Drama Resource：Forum Theatre",
+          "url": "https://dramaresource.com/forum-theatre/"
+        }
+      ],
+      "factsChecked": [
+        "参与式方法允许观众进入行动；本卡的一般邀请不冒称论坛戏剧全套流程。"
+      ],
+      "classification": "描述性游戏练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "xdir-repeat",
+      "name": "重复段落",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+          "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+        }
+      ],
+      "factsChecked": [
+        "重复可作为戏剧结构手段；重复次数与人物反应属于创作选择。"
+      ],
+      "classification": "结构手法",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xdir-bang",
+      "name": "旁唱评论",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+        }
+      ],
+      "factsChecked": [
+        "歌唱可以评论并打断行动；本卡描述这一用法，不设独立流派。"
+      ],
+      "classification": "描述性游戏练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "xdir-drum",
+      "name": "节奏提示",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "声音和动作均可成为 cue；本卡选择节奏声作为行动提示。"
+      ],
+      "classification": "演出提示方式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xdir-zoubian",
+      "name": "夜行调度",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+          "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+        },
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "夜间条件与移动路线可结合塑造情境；无固定的通用夜行步法。"
+      ],
+      "classification": "描述性游戏练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "xdir-sleeve",
+      "name": "手势语法",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "手势用身体动作传达意义；“语法”不是跨文化通用手势词典。"
+      ],
+      "classification": "描述性游戏练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "xdir-facechange",
+      "name": "情绪突变",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+          "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+        }
+      ],
+      "factsChecked": [
+        "行动段落可因目标或动机变化而转折；不只替换面部表情。"
+      ],
+      "classification": "表演处理",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xdir-nian",
+      "name": "台词节奏",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "AQA：A-level Drama and Theatre 专业词汇",
+          "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+        },
+        {
+          "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+          "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+        }
+      ],
+      "factsChecked": [
+        "台词速度、停顿和动机可共同组织节奏；节奏不等于一味加快。"
+      ],
+      "classification": "表演处理",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xdir-mirror",
+      "name": "镜像",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "镜像包括模仿动作或表情；本卡的不同步是基于镜像的创作变化。"
+      ],
+      "classification": "表演练习与构图",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xdir-group",
+      "name": "群像",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "群体协作可构成整体表达；并不要求每个角色分得同样篇幅。"
+      ],
+      "classification": "人物组织方式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xdir-improvbit",
+      "name": "即兴插入",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "AQA：A-level Drama and Theatre 专业词汇",
+          "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+        },
+        {
+          "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "即兴是现场生成言语或动作；演出中插入仍须遵守约定。"
+      ],
+      "classification": "表演处理",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "xdir-voiceover",
+      "name": "画外音",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：Voice-over，借用词的基本含义",
+          "url": "https://dictionary.cambridge.org/dictionary/english/voice-over"
+        },
+        {
+          "title": "AQA：GCSE Drama 专业词汇",
+          "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary"
+        }
+      ],
+      "factsChecked": [
+        "画外音基本指未见发声者的言语；本卡将这一名称借用于舞台声音处理。"
+      ],
+      "classification": "声音处理",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-qinqiang",
+      "name": "人物弧光",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+          "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+        }
+      ],
+      "factsChecked": [
+        "人物可通过行动、动机与关系发展；人物弧光不是人人必须改过自新的规则。"
+      ],
+      "classification": "人物结构概念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-yueopera",
+      "name": "贯穿行动",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+          "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+        }
+      ],
+      "factsChecked": [
+        "贯穿行动关联人物各阶段目标与总体追求。"
+      ],
+      "classification": "表演体系概念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-errenzhuan",
+      "name": "双人剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：Two-hander",
+          "url": "https://dictionary.cambridge.org/dictionary/english/two-hander"
+        }
+      ],
+      "factsChecked": [
+        "双人戏按两名演员的演出配置识别；不是只要某场有两人就算。"
+      ],
+      "classification": "演出与剧本规模",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-zangxi",
+      "name": "情绪记忆",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+          "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+        }
+      ],
+      "factsChecked": [
+        "情绪记忆借相近个人体验帮助人物塑造；体系后来仍有发展。"
+      ],
+      "classification": "演员训练概念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-budaixi",
+      "name": "配角功能",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "AQA：戏剧结构、人物、舞台手段与语言的分析指南",
+          "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/teach/teaching-guide-ao2"
+        }
+      ],
+      "factsChecked": [
+        "配角的作用需与其行动动机、人物关系相连；不能只计台词数。"
+      ],
+      "classification": "人物分析概念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-kyogen",
+      "name": "讽刺短剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "讽刺可使用夸张和反讽揭示社会习惯；短剧是篇幅限定。"
+      ],
+      "classification": "喜剧形式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-takarazuka",
+      "name": "演员距离",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+        }
+      ],
+      "factsChecked": [
+        "布莱希特的演员／角色双重呈现说明“展示角色”的可能；非情绪冷淡。"
+      ],
+      "classification": "描述性游戏概念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "ystyle-waterpuppet",
+      "name": "场面调度",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "调度组织位置与运动，使人物关系在舞台空间中可见。"
+      ],
+      "classification": "导演与舞台术语",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-wenmingxi",
+      "name": "文明戏",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "宋宝珍／中国文联：中国话剧早期实践与文明戏幕表制",
+          "url": "https://www.cflac.org.cn/zt/100hj/content_Article_200704021015.htm"
+        }
+      ],
+      "factsChecked": [
+        "文明戏与中国早期话剧实践相连，常见幕表及即兴表演。"
+      ],
+      "classification": "中国早期话剧形态",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-livingnews",
+      "name": "活报剧",
+      "status": "verified-reused-v48",
+      "sources": [
+        {
+          "title": "Library of Congress — Living Newspaper",
+          "url": "https://www.loc.gov/exhibits/federal-theatre-project/living-newspaper.html"
+        }
+      ],
+      "factsChecked": [
+        "Living Newspaper 以资料和公共议题入戏，不一律短小即演即弃。"
+      ],
+      "classification": "时事戏剧形式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "reusedFromV48": true,
+      "previousAudit": "docs/FACT_AUDIT_CRAFT_V48.json"
+    },
+    {
+      "id": "ystyle-street",
+      "name": "街头剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Jana Natya Manch 自述：The street actor and the audience",
+          "url": "https://artsandculture.google.com/story/awXBx5aAoRYA8A"
+        }
+      ],
+      "factsChecked": [
+        "街头剧与现场观众直接共享公共空间，流动与环境干扰影响表达。"
+      ],
+      "classification": "公共空间表演",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-mystery",
+      "name": "神秘剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "York Mystery Plays：中世纪圣经联剧与街头演出项目",
+          "url": "https://www.yorkmysteryplays.co.uk/"
+        }
+      ],
+      "factsChecked": [
+        "约克圣经联剧由创世演至末日审判；这里的“神秘”并非侦探悬疑。"
+      ],
+      "classification": "历史戏剧类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-passion",
+      "name": "受难剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Oberammergau Passion Play：官方剧情梗概",
+          "url": "https://www.passionsspiele-oberammergau.de/en/play/plot"
+        }
+      ],
+      "factsChecked": [
+        "受难剧处理基督受难；官方案例含最后晚餐、钉十字架与复活。"
+      ],
+      "classification": "宗教戏剧类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-lightopera",
+      "name": "轻歌剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "English National Opera：The Beginner’s Guide to Operetta",
+          "url": "https://www.eno.org/discover-opera/articles/the-beginners-guide-to-operetta/"
+        }
+      ],
+      "factsChecked": [
+        "轻歌剧常结合歌曲与说白，19 世纪奥芬巴赫为重要发展者。"
+      ],
+      "classification": "音乐戏剧类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-object",
+      "name": "物体剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Compagnie Gare Centrale：Object Theatre，刊载物体剧场实践者的术语讨论",
+          "url": "https://garecentrale.be/wp/en/portfolio_page/object-theatre/"
+        },
+        {
+          "title": "日本演剧学会期刊：物を尊敬する演劇——オブジェクトシアターの実践と思想",
+          "url": "https://www.jstage.jst.go.jp/article/jjstr/81/0/81_55/_article/-char/ja"
+        }
+      ],
+      "factsChecked": [
+        "物体剧场研究并表演普通物件，不要求先制成人形偶。"
+      ],
+      "classification": "物体表演实践",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-install",
+      "name": "装置剧场",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Roll 工作室：Theatre Picasso 装置与观看动线的设计说明",
+          "url": "https://www.roll-office.org/en/projects/theatre-picasso"
+        },
+        {
+          "title": "Wildworks：场域特定作品的方法与机构介绍",
+          "url": "https://dev.wildworks.org.uk/about-us/"
+        }
+      ],
+      "factsChecked": [
+        "装置可与现场场景、观看路径相连；Wildworks 明述其演出中的装置与场面组合。"
+      ],
+      "classification": "描述性创作取向",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "ystyle-image",
+      "name": "形象剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "David Farmer／Drama Resource：Image Theatre",
+          "url": "https://dramaresource.com/image-theatre/"
+        }
+      ],
+      "factsChecked": [
+        "波瓦的形象剧场以身体塑像探索关系，可进一步动态化。"
+      ],
+      "classification": "被压迫者剧场方法",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-magicreal",
+      "name": "魔幻现实主义",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge University Press：Magical Realism and Literature 导论",
+          "url": "https://www.cambridge.org/core/books/abs/magical-realism-and-literature/introduction/1A17BC1D603AF34F3A67989354559CF2"
+        }
+      ],
+      "factsChecked": [
+        "魔幻现实主义把超常事件与日常现实并置，常不将两者截然分开。"
+      ],
+      "classification": "审美与叙事方式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-criticalreal",
+      "name": "批判现实主义",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Oxford Handbook of Modern Irish Theatre：The Abbey and the Idea of a Theatre",
+          "url": "https://academic.oup.com/edited-volume/38167/chapter-abstract/332998717"
+        },
+        {
+          "title": "恩格斯致玛格丽特·哈克奈斯书信，1888 年 4 月：典型人物与典型环境",
+          "url": "https://www.marxists.org/archive/marx/works/1888/letters/88_04_15.htm"
+        }
+      ],
+      "factsChecked": [
+        "批判现实主义用于戏剧史研究；典型环境与人物的理论表述可追至恩格斯论现实主义的书信。"
+      ],
+      "classification": "文学艺术史概念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-poeticreal",
+      "name": "诗意现实主义",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "R. B. Parker：The Rose Tattoo and Comedy of the Grotesque，引用 Williams 的创作说明",
+          "url": "https://cdn.craft.cloud/97cd51c5-b816-4a93-aea9-fd7e2c5e47da/assets/TWAR-2003_06-Parker-RoseTattooComedyofGrotesque.pdf"
+        }
+      ],
+      "factsChecked": [
+        "Williams 的创作说明展示现实细节与诗性处理可并存，非要求台词押韵。"
+      ],
+      "classification": "描述性审美取向",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "ystyle-ritualstyle",
+      "name": "仪式戏剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Richard Schechner：Living a Double Consciousness，Teaching Ritual 原著预览",
+          "url": "https://api.pageplace.de/preview/DT0400.9780198039211_A23605945/preview-9780198039211_A23605945.pdf"
+        }
+      ],
+      "factsChecked": [
+        "仪式可宗教、世俗或私人；重复和程序不自动等于某个宗教仪式。"
+      ],
+      "classification": "创作实践统称",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-manner",
+      "name": "风俗喜剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：Comedy of manners",
+          "url": "https://dictionary.cambridge.org/dictionary/english/comedy-of-manners"
+        },
+        {
+          "title": "Concord Theatricals：Noël Coward《Hands Across the Sea》作品介绍",
+          "url": "https://www.concordtheatricals.com/p/2077/hands-across-the-sea"
+        }
+      ],
+      "factsChecked": [
+        "风俗喜剧讽刺特定群体的社会行为；Coward 的社交误认提供具体参照。"
+      ],
+      "classification": "喜剧类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-drawingroom",
+      "name": "客厅喜剧",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Jonathan Law 编：The Methuen Drama Dictionary of the Theatre，drawing-room comedy／drama 条目",
+          "url": "https://lib.zu.edu.pk/ebookdata/Media%20Sciences/Media/The%20Methuen%20Drama%20Dictionary%20of%20the%20Theatre%20by%20Jonathan%20Law.pdf"
+        },
+        {
+          "title": "Concord Theatricals：Noël Coward《Hands Across the Sea》作品介绍",
+          "url": "https://www.concordtheatricals.com/p/2077/hands-across-the-sea"
+        }
+      ],
+      "factsChecked": [
+        "客厅喜剧与英国上层中产社交环境有关；不宜等同所有室内喜剧。"
+      ],
+      "classification": "历史类型称谓",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-shinkoku",
+      "name": "通俗情节剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge Companion to English Melodrama：Introduction",
+          "url": "https://www.cambridge.org/core/books/cambridge-companion-to-english-melodrama/introduction/295FF7706A2FF1CC4460C2FEA92E2C04"
+        },
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "通俗情节剧强调强烈情境与情绪感染；历史形态结合音乐与多种舞台形式。"
+      ],
+      "classification": "戏剧类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-sanskrit",
+      "name": "古典诗学",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "亚里士多德《诗学》原文英译，MIT Internet Classics Archive",
+          "url": "https://classics.mit.edu/Aristotle/poetics.1.1.html"
+        }
+      ],
+      "factsChecked": [
+        "《诗学》论模仿行动、情节、突转与发现，并重视事件之间的因果。"
+      ],
+      "classification": "戏剧理论",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ystyle-huagu",
+      "name": "规定情境",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+          "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+        }
+      ],
+      "factsChecked": [
+        "规定情境包含文本中的时空、事件、他人言行等人物行动条件。"
+      ],
+      "classification": "表演体系概念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-lingzi",
+      "name": "视线引导",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "焦点可通过表演引向某人或物；观众目光不会被机械地强制统一。"
+      ],
+      "classification": "导演与表演处理",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-fanwork",
+      "name": "道具延展",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "道具可被人物直接用于行动；“延展”指本卡安排的身体与物件关系。"
+      ],
+      "classification": "描述性游戏练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "ydir-handkerchief",
+      "name": "小道具",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：道具词汇，Hand Props 与演出使用记录",
+          "url": "https://theatrecrafts.com/pages/home/topics/props/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "演员直接操作的物件属于手道具，演出前须确认摆放与使用。"
+      ],
+      "classification": "道具术语",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-dachushou",
+      "name": "打斗节拍",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Royal Conservatoire of Scotland：舞台打斗编排、人物与情境训练",
+          "url": "https://www.rcs.ac.uk/courses/stage-combat-certification-sword-and-shield-18-short-courses/"
+        }
+      ],
+      "factsChecked": [
+        "舞台打斗以设计和排练呈现攻守，并服务具体人物与场景。"
+      ],
+      "classification": "舞台打斗编排",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-diaomao",
+      "name": "跌倒动作",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Society of American Fight Directors：Glossary，Fall、Shoulder Roll 与 Forward Roll 条目",
+          "url": "https://www.safd.org/media/5975/full-revised-safd-glossary_3.pdf"
+        }
+      ],
+      "factsChecked": [
+        "舞台跌倒以控制制造失控的观感；与真实摔伤不是同一件事。"
+      ],
+      "classification": "舞台身体动作",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-jiangshi",
+      "name": "直体后倒",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Society of American Fight Directors：Glossary，Fall、Shoulder Roll 与 Forward Roll 条目",
+          "url": "https://www.safd.org/media/5975/full-revised-safd-glossary_3.pdf"
+        }
+      ],
+      "factsChecked": [
+        "资料支持“受控倒地”的类别；“直体后倒”是本卡造型名，不是普适动作教程。"
+      ],
+      "classification": "描述性动作造型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "ydir-qiangbei",
+      "name": "肩倒",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Society of American Fight Directors：Glossary，Fall、Shoulder Roll 与 Forward Roll 条目",
+          "url": "https://www.safd.org/media/5975/full-revised-safd-glossary_3.pdf"
+        }
+      ],
+      "factsChecked": [
+        "专业词汇含肩向翻滚；本卡“肩倒”概括造型，不等同某个戏曲程式。"
+      ],
+      "classification": "描述性动作造型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "ydir-darkchange",
+      "name": "暗转",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "暗转可在降光或黑场完成转换，并非所有转换都须全暗。"
+      ],
+      "classification": "换景方式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-qieguang",
+      "name": "切光",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+        },
+        {
+          "title": "AQA：GCSE Drama 专业词汇",
+          "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/gcse/drama/teach/subject-specific-vocabulary"
+        }
+      ],
+      "factsChecked": [
+        "快速切换照明可改变焦点；切光不必等同全台熄灭。"
+      ],
+      "classification": "灯光控制",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-backlight",
+      "name": "逆光",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "逆光从演员后方勾勒轮廓，面部可见度取决于其他照明。"
+      ],
+      "classification": "灯光术语",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-gauze",
+      "name": "纱幕",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "纱幕透明感取决于前后照明，不能只靠幕布本身保证显隐。"
+      ],
+      "classification": "舞台材料",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-liftstage",
+      "name": "升降台",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Waagner-Biro Stage Systems：Theatre Basel 升降台及舞台平台工程记录",
+          "url": "https://www.waagner-biro-stage.com/en/projects/theater-basel/"
+        }
+      ],
+      "factsChecked": [
+        "升降平台可改变表演面高度，工程实例可核；权力象征是创作解释。"
+      ],
+      "classification": "舞台机械",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-wagontage",
+      "name": "车台",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：舞台监督词汇（Act、Scene Change、Dim Out、Truck 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/stage-management/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "车台是便于移动部分布景的平台，可由人力或机械移动。"
+      ],
+      "classification": "舞台机械",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-jijifeng",
+      "name": "加速节奏",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "AQA：A-level Drama and Theatre 专业词汇",
+          "url": "https://www.aqa.org.uk/resources/drama-and-performing-arts/as-and-a-level/drama-and-theatre/teach/subject-specific-vocabulary"
+        },
+        {
+          "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+          "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+        }
+      ],
+      "factsChecked": [
+        "速度指动作或语言的速率，与音量不同；加速是本卡的处理方向。"
+      ],
+      "classification": "节奏处理",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-shoujiu",
+      "name": "底幕",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Rose Brand：Stage Curtains，遮挡幕与背景幕的用途",
+          "url": "https://rosebrand.com/custom-curtain-services/stage-curtains-backdrops-drapery/stage-curtains"
+        }
+      ],
+      "factsChecked": [
+        "背景幕可构成后部视觉界面；遮挡用途依实际幕布与位置而定。"
+      ],
+      "classification": "舞台幕布",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-chujiang",
+      "name": "双侧上下场",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "舞台方向与出入路线属于调度；两侧没有预设善恶含义。"
+      ],
+      "classification": "描述性调度练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "ydir-duetline",
+      "name": "对白",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "factsChecked": [
+        "对白是两名或更多人物之间的交流，回应与态度构成人物关系。"
+      ],
+      "classification": "戏剧语言",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-bansing",
+      "name": "伴唱",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Berklee Online：Vocal Production 中背景人声、和声与主要人声的关系",
+          "url": "https://online.berklee.edu/courses/vocal-production"
+        }
+      ],
+      "factsChecked": [
+        "背景声乐可补充旋律和主要人声，不等于全体同唱同一声部。"
+      ],
+      "classification": "声乐组织",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-qichang",
+      "name": "齐唱",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Carnegie Hall：Building on Melody—Melodic Layers，齐唱与和声",
+          "url": "https://www.carnegiehall.org/Education/Programs/Link-Up/National-Program/The-Orchestra-Sings/Building-on-Melody-Melodic-Layers"
+        }
+      ],
+      "factsChecked": [
+        "齐唱共唱同一旋律，与分声部和声不同；团结或强制一致是剧情解释。"
+      ],
+      "classification": "声乐组织",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-coldstage",
+      "name": "冷场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：Dramatic Pause 条目",
+          "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary-beginners/"
+        }
+      ],
+      "factsChecked": [
+        "有意停顿可以制造期待；不能把所有安静场面都判作失败冷场。"
+      ],
+      "classification": "演出状态与处理",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-footlight",
+      "name": "脚光",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "脚光位于台口低处，可补偿上方光的阴影，不固定表示邪恶。"
+      ],
+      "classification": "灯光术语",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-facelight",
+      "name": "面光",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+        }
+      ],
+      "factsChecked": [
+        "面光来自观众方向照向舞台；表情可见度与光位配合有关。"
+      ],
+      "classification": "灯光术语",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-smoke",
+      "name": "烟雾",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Rosco：Fog FAQ，雾效和光束可见度",
+          "url": "https://us.rosco.com/en/rosco-fog-faqs"
+        }
+      ],
+      "factsChecked": [
+        "舞台雾效影响光束和轮廓可见度；悬念是结合剧情后的效果。"
+      ],
+      "classification": "舞台视觉效果",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-legdrop",
+      "name": "边幕",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Rose Brand：Stage Curtains，遮挡幕与背景幕的用途",
+          "url": "https://rosebrand.com/custom-curtain-services/stage-curtains-backdrops-drapery/stage-curtains"
+        }
+      ],
+      "factsChecked": [
+        "遮挡幕隔开观众视线与后台；边幕负责侧台范围。"
+      ],
+      "classification": "舞台幕布",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "ydir-paoyuan",
+      "name": "急奔调度",
+      "status": "verified-new-with-qualification",
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        },
+        {
+          "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+          "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+        }
+      ],
+      "factsChecked": [
+        "快速移动仍需与行动目标和空间路线相连；卡名不冒称独立程式。"
+      ],
+      "classification": "描述性调度练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ],
+      "qualification": "外部资料核对的是所借用的表演机制；本游戏的卡名与具体小场景不因此成为统一的学术术语或历史事实。"
+    },
+    {
+      "id": "ydir-rankou",
+      "name": "年龄妆",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Kryolan：Theatrical Character，年龄妆与灯光、假发、观看距离",
+          "url": "https://uk.kryolan.com/event/theatrical-character-53"
+        }
+      ],
+      "factsChecked": [
+        "年龄妆涉及阴影、高光与毛发，需考虑舞台灯光及观看距离。"
+      ],
+      "classification": "人物造型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-epistolary",
+      "name": "书信体戏剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：A.R. Gurney《Love Letters》作品与演出形式",
+          "url": "https://www.concordtheatricals.com/s/13753/love-letters"
+        }
+      ],
+      "factsChecked": [
+        "书信可以直接构成舞台文本并组织人物跨时段关系，《Love Letters》为明确案例。",
+        "卡片所说延误、误读是可用的叙事条件，不是所有书信体作品的必要情节；练习保留写信和读信的时间差。"
+      ],
+      "classification": "题材与结构描述",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-courtroom",
+      "name": "法庭剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Agatha Christie 官方：《Witness for the Prosecution》法庭剧介绍",
+          "url": "https://www.agathachristie.com/en/theatre/witness-for-the-prosecution"
+        }
+      ],
+      "factsChecked": [
+        "原作权利方明确把《控方证人》称作 courtroom drama，证词、陪审判断与裁决为核心。",
+        "站位随证词改变是卡片练习；法庭剧不等于真实庭审记录或统一表演流派。"
+      ],
+      "classification": "戏剧类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-mystery",
+      "name": "悬疑剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Agatha Christie 官方：《The Mousetrap》悬疑结构介绍",
+          "url": "https://www.agathachristie.com/stories/the-mousetrap"
+        }
+      ],
+      "factsChecked": [
+        "《捕鼠器》官方剧情明确由逐步披露过去、身份与动机组织悬念。",
+        "隐藏、释放与误导信息能构成悬疑；同一物件意义变化为创作示例，不是任何悬疑剧都必须使用的道具机制。"
+      ],
+      "classification": "戏剧类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-fable",
+      "name": "寓言剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：《Animal Farm》寓言戏剧改编与类型",
+          "url": "https://www.concordtheatricals.com/p/2338/animal-farm-bond"
+        }
+      ],
+      "factsChecked": [
+        "授权出版社将《动物庄园》舞台改编标为 fable／folktale，并用动物故事指向社会权力。",
+        "寓言以具体故事承载概括意义的说明有实践依据；类型角色不是必须单薄无变化。"
+      ],
+      "classification": "戏剧类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-family",
+      "name": "家庭剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：Arthur Miller《All My Sons》家庭与社会责任冲突",
+          "url": "https://www.concordtheatricals.com/p/6567/all-my-sons"
+        }
+      ],
+      "factsChecked": [
+        "《都是我的儿子》以家庭亲密、商业责任与战争后果相互牵动，支持卡片的家庭与公共秩序关联。",
+        "家庭剧是题材／剧作组织类别；卡片并未宣称所有家庭结构都只有血缘或相同结局。"
+      ],
+      "classification": "戏剧类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-psychothriller",
+      "name": "心理惊悚剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：《Deceived》心理惊悚剧的认知与信任",
+          "url": "https://www.concordtheatricals.com/s/97454/deceived?variantId=139716"
+        }
+      ],
+      "factsChecked": [
+        "《煤气灯》改编《Deceived》明确以主人公怀疑感知、他人操控及信任不稳制造惊悚。",
+        "物件被不同描述是原创示例，心理惊悚不等于必须把精神疾病写成恐怖来源。"
+      ],
+      "classification": "戏剧类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-metatheatre",
+      "name": "元戏剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge University Press：《Pirandello in Context》Metatheatre 章节摘要",
+          "url": "https://www.cambridge.org/core/books/abs/pirandello-in-context/metatheatre/63AC54D090F25936577C55EBEA279EC9"
+        }
+      ],
+      "factsChecked": [
+        "元戏剧的学术讨论涉及虚构、扮演、戏剧制作与现实边界，卡片核心定义相符。",
+        "角色自觉只是可能方式，角色迟疑自己的台词为卡片练习，不冒充所有元戏剧的固定程序。"
+      ],
+      "classification": "批评概念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-autobiographical",
+      "name": "自传剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "The Drama Review：Linda Montano 自传性表演研究",
+          "url": "https://www.cambridge.org/core/journals/the-drama-review-tdr/article/abs/mitchells-death-linda-montanos-autobiographical-performance/7EA34EFFA71BB9F6C8D61AF2E80A494C"
+        }
+      ],
+      "factsChecked": [
+        "自传性表演确以创作者的过去与当下生活作材料，私人经历可以被组织为公共演出。",
+        "个人记忆仍需选择、编排；高星文案没有把自传等同完整、无偏差的史料。"
+      ],
+      "classification": "创作材料与形式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-polyphonic",
+      "name": "复调剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Dick McCaw《Bakhtin and Theatre》，Routledge 原著出版社介绍",
+          "url": "https://www.routledge.com/Bakhtin-and-Theatre-Dialogues-with-Stanislavski-Meyerhold-and-Grotows/Mccaw/p/book/9781138891449"
+        },
+        {
+          "title": "Cambridge University Press：Performance and Postsocialism in Postmillennial China，《美好的一天》多声部实践",
+          "url": "https://www.cambridge.org/core/elements/performance-and-postsocialism-in-postmillennial-china/F23B70C5F6A71209E8B2B2894F6F107F"
+        }
+      ],
+      "factsChecked": [
+        "巴赫金思想与剧场的关系属于理论借用和再阐释，不能直接给“复调剧场”编造统一创始史。",
+        "《美好的一天》让多个人的独立讲述并存，证实多声部实践；并存不必等于所有台词同时可听清。",
+        "本卡用复调描述多立场的组织，保留独立性、交替与重叠的讲解。"
+      ],
+      "classification": "描述性创作称谓",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-maximalist",
+      "name": "极繁主义剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Bristol Old Vic Theatre School：设计师 Lillyanna Bryan 对其 maximalist style 的说明",
+          "url": "https://oldvic.ac.uk/student/lillyanna-bryan/"
+        }
+      ],
+      "factsChecked": [
+        "舞台设计实践使用 maximalist style 描述繁复的质感、色彩与形态，属于美学形容。",
+        "未将单一设计师的风格当成“极繁主义剧场”统一历史；卡片密度、层次与观看选择为编辑性创作建议。"
+      ],
+      "classification": "描述性美学称谓",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-rehearsaldrama",
+      "name": "排练场戏剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：Michael Frayn《Noises Off》排戏与戏中戏",
+          "url": "https://www.concordtheatricals.com/s/2894/noises-off"
+        }
+      ],
+      "factsChecked": [
+        "《糊涂戏班》以演员排戏、台前幕后关系与戏中戏构成剧情。",
+        "“排练场戏剧”在本卡是对故事结构的称呼，不是让游戏玩家执行排练的指令，也不是独立统一流派。"
+      ],
+      "classification": "题材与结构描述",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-radiodrama",
+      "name": "广播剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "BBC Writersroom：Radio Drama Format，声音与音乐提示规范",
+          "url": "https://downloads.bbc.co.uk/writersroom/scripts/radious.pdf"
+        }
+      ],
+      "factsChecked": [
+        "BBC 广播剧脚本规范并列人物对白、音乐和音效，并要求音效与对白共同工作。",
+        "听觉组织人物与空间正确；高星文案强调声源远近和清晰关系，没有声称广播剧必须堆叠声音。"
+      ],
+      "classification": "媒介形式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-stagedreading",
+      "name": "读剧",
+      "status": "verified-v48-reused",
+      "reusedFromV48": true,
+      "sources": [
+        {
+          "title": "Shakespeare’s Globe — Read Not Dead",
+          "url": "https://www.shakespearesglobe.com/discover/read-not-dead/"
+        }
+      ],
+      "factsChecked": [
+        "环球剧院 Read Not Dead 以持稿读演呈现早期现代剧本；读剧不只用于未完成新作。",
+        "V48 修订已进入当前 essay 与 highStar，持稿、有限行动与声音组织的说明保持一致。"
+      ],
+      "classification": "复用已完成外部核验",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-signedtheatre",
+      "name": "手语剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "National Theatre of the Deaf：手语剧场工作坊与 visual theatre techniques",
+          "url": "https://old.ntd.org/ntd_workshops.html"
+        },
+        {
+          "title": "National Theatre of the Deaf：ASL 与口语共同构成演出的项目说明",
+          "url": "https://old.ntd.org/ntd_productions.html"
+        }
+      ],
+      "factsChecked": [
+        "美国国家聋人剧院以 ASL 的语言结构与视觉剧场技巧开展训练，并有手语、口语共同构成的作品。",
+        "手语并非任意手势或口语的附属；卡片提及字幕与口语可参与，而没有把世界各地手语说成同一种语言。"
+      ],
+      "classification": "语言与剧场实践",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "style-v21-sensory",
+      "name": "感官剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Senzorium 剧团：感官语言、触觉、嗅觉与现场互动",
+          "url": "https://www.senzorium.com/en/about-2/"
+        }
+      ],
+      "factsChecked": [
+        "从业剧团说明感官语言包括嗅觉、触觉、味觉与观演互动，支持卡片对多感官材料的界定。",
+        "触发某一种记忆或感情不是必然结果，高星段落已强调个体差异。"
+      ],
+      "classification": "剧场实践",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-testimony",
+      "name": "复述证词",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：Fay 与 Michael Kanin《Rashomon》，相互矛盾的证词重演",
+          "url": "https://www.concordtheatricals.com/p/5276/rashomon"
+        }
+      ],
+      "factsChecked": [
+        "舞台《罗生门》把同一事件的矛盾证词分别重演，支持比较观察位置与叙述利益。",
+        "本卡的重复细节和暂不裁定为练习选择；不声称所有证言都不可靠或事实不可知。"
+      ],
+      "classification": "描述性创作手段",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-samewords",
+      "name": "同句异义",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：Rehearsal Room Approaches，改变读法与空间关系的练习",
+          "url": "https://www.rsc.org.uk/learn/schools-and-teachers/teacher-resources/rehearsal-room-approaches-to-shakespeare/introducing-rehearsal-room-approaches"
+        }
+      ],
+      "factsChecked": [
+        "RSC 教学让相同文本以背对、低语、移动等不同关系与方式重读，检查新意义。",
+        "本卡把前后相同台词置入改变的处境，属于语境与行动练习，不是历史流派名。"
+      ],
+      "classification": "创作练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-livefoley",
+      "name": "现场拟音",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "National Theatre：Katie Mitchell Practitioners in Practice，Foley 与多层现场影像",
+          "url": "https://images.nationaltheatre.org.uk/uploads/2024/03/KatieMitchell-PractitionersinPractice-PDF-2024.pdf"
+        }
+      ],
+      "factsChecked": [
+        "国家剧院的 Katie Mitchell 教材具体列出拟音演员用日常材料实时制造服饰、动作和物件声。",
+        "可见材料与想象声源不必相同；卡片描述现场拟音的双重观看关系有对应实践。"
+      ],
+      "classification": "舞台技术与表演手段",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-timecut",
+      "name": "时间跳接",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：J.B. Priestley《Time and the Conways》的时间结构",
+          "url": "https://www.concordtheatricals.com/p/8759/time-and-the-conways"
+        }
+      ],
+      "factsChecked": [
+        "普里斯特利《时间与康威一家》将相隔多年的人物处境直接相邻，证明舞台可用时间跳转组织比较。",
+        "道具连接两个时段只是本卡练习，跳接不要求固定年数或一律破坏因果。"
+      ],
+      "classification": "叙事手段",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-soundimage",
+      "name": "声画错位",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "National Theatre：Katie Mitchell Practitioners in Practice，Foley 与多层现场影像",
+          "url": "https://images.nationaltheatre.org.uk/uploads/2024/03/KatieMitchell-PractitionersinPractice-PDF-2024.pdf"
+        },
+        {
+          "title": "Adobe：J cuts and L cuts，下一场声音先于图像到达",
+          "url": "https://helpx.adobe.com/ca/premiere/desktop/edit-projects/trim-clips/perform-j-cuts-and-l-cuts.html"
+        }
+      ],
+      "factsChecked": [
+        "Katie Mitchell 教材分别组织身体行动、内心旁白、拟音与影像，技术上可将声画分层；Adobe 文档明确声画可在不同时间转换。",
+        "“错位”是本卡选择制造差距的用途，文献不证明所有分层都必然冲突；保留清楚叙事依据这一限制。"
+      ],
+      "classification": "描述性视听手段",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-livesubtitles",
+      "name": "实时字幕",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Stagetext：Theatre Captioning，剧场字幕的预备、同步与无障碍用途",
+          "url": "https://www.stagetext.org/for-venues/theatre-captioning/"
+        },
+        {
+          "title": "Stagetext：For Venues，区分剧本字幕与现场语音转写",
+          "url": "https://www.stagetext.org/for-venues/"
+        }
+      ],
+      "factsChecked": [
+        "剧场字幕首先有帮助聋人、重听观众获取对白、音效等信息的无障碍用途。",
+        "有剧本的演出常事先制作字幕并现场同步；即兴谈话的实时字幕可以由速记员现场转写。",
+        "不宜只把字幕写成误读与语气剥离的艺术装置，也不宜把全部字幕等同现场语音识别。"
+      ],
+      "classification": "无障碍与视听技术",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-linerelay",
+      "name": "台词接力",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "David Farmer：Story Orchestra，多人接力讲述练习",
+          "url": "https://dramaresource.com/story-orchestra/"
+        }
+      ],
+      "factsChecked": [
+        "David Farmer 的 Story Orchestra 练习让讲述在参与者之间交接，甚至在句中切换并保持叙事连贯。",
+        "本卡把这一组合原理用于台词和人物立场；名称为描述，未归给某一大师的固定术语。"
+      ],
+      "classification": "创作练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-proptransfer",
+      "name": "道具易主",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《Othello》手帕交接及其戏剧后果",
+          "url": "https://www.rsc.org.uk/othello/past-productions/other-productions"
+        }
+      ],
+      "factsChecked": [
+        "RSC 以苔丝狄蒙娜的手帕由艾米莉娅交给伊阿古，展示道具交接如何进入人物阴谋与关系。",
+        "物件转移可改变占有与信息，但不必每次都改变法律意义的所有权；本卡意在舞台关系。"
+      ],
+      "classification": "描述性创作手段",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-emptychair",
+      "name": "空椅对话",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Royal Court Living Archive：《The Chairs》空椅与不可见宾客",
+          "url": "https://livingarchive.royalcourttheatre.com/plays/the-chairs/"
+        }
+      ],
+      "factsChecked": [
+        "皇家宫廷剧院《椅子》档案提供演员面对不可见来客、空椅参与交流的舞台实例。",
+        "本卡为空间与想象对手的表演练习，不宣称治疗效果，也不把它等同心理治疗的空椅技术。"
+      ],
+      "classification": "创作练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-unreliable",
+      "name": "不可靠叙述",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：Lauren Gunderson《Natural Shocks》不可靠叙述者",
+          "url": "https://www.concordtheatricals.com/s/98750/natural-shocks"
+        }
+      ],
+      "factsChecked": [
+        "出版社对《Natural Shocks》明确使用不可靠叙述者，叙述逐步改变观众对其危险处境的理解。",
+        "错误、遮蔽与观众信任关系是相符的叙事概念；并非要求观众永远无法辨认真相。"
+      ],
+      "classification": "叙事概念",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-selectivereplay",
+      "name": "选择性重演",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：David Ives《Sure Thing》，铃声中断与重试",
+          "url": "https://www.concordtheatricals.com/p/101202/sure-thing"
+        }
+      ],
+      "factsChecked": [
+        "《Sure Thing》以铃声打断失误并让交流重试，是部分对话选择性重演的明确例子。",
+        "本卡关于记忆或权力的解释是一种使用方向，不是这种机制的唯一意义。"
+      ],
+      "classification": "创作练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-simultaneoussolos",
+      "name": "同时独白",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge University Press：Performance and Postsocialism in Postmillennial China，《美好的一天》多声部实践",
+          "url": "https://www.cambridge.org/core/elements/performance-and-postsocialism-in-postmillennial-china/F23B70C5F6A71209E8B2B2894F6F107F"
+        }
+      ],
+      "factsChecked": [
+        "剑桥研究具体记载《美好的一天》多人同时独白，各用独立频率供观众切换聆听。",
+        "并行独白可以保留不同叙述；不必让所有声音混成无法分辨的同一声道。"
+      ],
+      "classification": "描述性声音组织",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-occlusion",
+      "name": "遮挡揭示",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Rosco / Houston Ballet 灯光设计师：利用纱幕和灯光显露钟面人物",
+          "url": "https://spectrum.rosco.com/index.php/2018/11/creating-nutcracker-magic-with-rosco-litepad?hs_amp=true"
+        }
+      ],
+      "factsChecked": [
+        "休斯敦芭蕾设计师说明《胡桃夹子》用纱幕和照明让先前不明显的人脸逐渐显露。",
+        "卡片将遮蔽与显露用于信息分配；特定物件意义由具体剧情决定，不是照明材料本身保证。"
+      ],
+      "classification": "描述性舞台手段",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-compression",
+      "name": "空间压缩",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Complicité：Devising Notes for Teachers，Concentrating the Space 练习",
+          "url": "https://www.complicite.org/wp-content/uploads/2023/03/1439372000Complicite_Teachers_pack.pdf"
+        }
+      ],
+      "factsChecked": [
+        "Complicité 练习明确缩小可用区域，让演员探索有限空间中的身体接近和相互反应。",
+        "本卡关于避让、方向和共用范围的说明符合此类练习；紧张感是可能效果而非所有身体的固定反应。"
+      ],
+      "classification": "创作练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "dir-v21-endingloop",
+      "name": "结尾回环",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Allan Lewis：Ionesco，纽约市立大学教学文献所载《秃头歌女》循环结尾分析",
+          "url": "https://files.eportfolios.macaulay.cuny.edu/wp-content/uploads/sites/1982/2011/08/15183005/Ionesco-Article.pdf"
+        }
+      ],
+      "factsChecked": [
+        "尤内斯库研究指出《秃头歌女》结尾的循环重现，支持首尾相应或再启动的戏剧结构。",
+        "回环可以提示变化，也可以提示停滞；原注“已经不能”不宜成为所有回环结尾的必然判断。"
+      ],
+      "classification": "叙事结构",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-style-chamber",
+      "name": "室内剧",
+      "status": "verified-v48-reused",
+      "reusedFromV48": true,
+      "sources": [
+        {
+          "title": "Lynn R. Wilkinson — The Chamber Plays, The Cambridge Companion to August Strindberg",
+          "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-august-strindberg/chamber-plays/DEAAB35D95B1FC574CBE41BE2C36AE5C"
+        }
+      ],
+      "factsChecked": [
+        "剑桥斯特林堡研究强调少量人物、亲密氛围与凝练形式，室内布景常见而非唯一判据。",
+        "当前 note 已删除封闭房间和必须近距离的绝对化定义；stage 仍是一个具体提议。"
+      ],
+      "classification": "复用已完成外部核验",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-style-total",
+      "name": "总体戏剧",
+      "status": "verified-v48-reused",
+      "reusedFromV48": true,
+      "sources": [
+        {
+          "title": "Dorothy Max Prior — What is Total Theatre?",
+          "url": "https://totaltheatre.org.uk/archive/features/what-total-theatre"
+        }
+      ],
+      "factsChecked": [
+        "Total Theatre 自身术语讨论承认不同历史与实践定义，强调多种媒介的整体协作。",
+        "当前 note 与高星段落不再要求所有媒介同时、等量出现。"
+      ],
+      "classification": "复用已完成外部核验",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-style-verbatim",
+      "name": "逐字剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "National Theatre / Nick Hern Books：Robin Belfield《Telling the Truth: How to Make Verbatim Theatre》",
+          "url": "https://shop.nationaltheatre.org.uk/products/telling-the-truth-how-to-make-verbatim-theatre"
+        }
+      ],
+      "factsChecked": [
+        "逐字剧场使用真实人物在实际情境中说过的话，由演员再现；材料仍要选择和组织。",
+        "持稿、念错即更正不是统一演出规则；修改练习以区别核对材料与舞台呈现方式。"
+      ],
+      "classification": "记录性戏剧形式",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-style-bourgeois-tragedy",
+      "name": "市民悲剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge University Press：《A Companion to the Works of Gotthold Ephraim Lessing》市民悲剧说明",
+          "url": "https://www.cambridge.org/core/books/companion-to-the-works-of-gotthold-ephraim-lessing/57B6F937E76874958D9CDFAB1E76493B"
+        },
+        {
+          "title": "Cambridge University Press：Emma Whipday《Shakespeare’s Domestic Tragedies》原书节选",
+          "url": "https://assets.cambridge.org/97811084/74030/excerpt/9781108474030_excerpt.pdf"
+        }
+      ],
+      "factsChecked": [
+        "市民悲剧是戏剧史与剧作类型概念，不是演员的一种演法。",
+        "其核心扩展了悲剧主体与家庭、名誉、财产等生活冲突；不应据此认定所有家庭悲剧都属于同一历史流派。"
+      ],
+      "classification": "戏剧史类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-style-historyplay",
+      "name": "历史剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：Tragedies, Comedies and Histories，戏剧类型与分类",
+          "url": "https://www.rsc.org.uk/shakespeares-plays/tragedies-comedies-histories"
+        }
+      ],
+      "factsChecked": [
+        "RSC 明确把 histories 作为剧作分类，与演技方法不同。",
+        "历史题材可以回应当代，舞台服装混搭是创作选择；不能把历史剧情直接当成历史纪录。"
+      ],
+      "classification": "戏剧题材与类型",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-style-intercultural",
+      "name": "跨文化剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatre Research International：Intercultural Theatre? A Streetcar Named Desire on the Turkish Stage",
+          "url": "https://www.cambridge.org/core/journals/theatre-research-international/article/abs/intercultural-theatre-a-streetcar-named-desire-on-the-turkish-stage/1BF5DB60B6CD64F4237790F31BA24330"
+        }
+      ],
+      "factsChecked": [
+        "跨文化剧场涉及不同文化的文本、传统、语言与表演元素的转移、解释和相遇。",
+        "研究特别提醒源文化与目标文化之间并非单向挪用；现有高星文案注意了来历与权力关系。"
+      ],
+      "classification": "跨文化创作实践",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-style-visual",
+      "name": "视觉戏剧",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "New Theatre Quarterly：Performing A Taste of Millefeuille，视觉剧场的图像、动作与跨文化实践",
+          "url": "https://www.cambridge.org/core/journals/new-theatre-quarterly/article/performing-a-taste-of-millefeuille-puppetry-performativity-and-crosscultural-adaptation/797F8FD87D6723DCF265E630A36CEFAE"
+        }
+      ],
+      "factsChecked": [
+        "创作者参与的研究具体描述图像驱动、动作、静默与空间质感组织视觉剧场，同时仍使用精简口语。",
+        "视觉戏剧强调图像可承担叙事，不必强制眼睛先于耳朵，也不要求排除台词。"
+      ],
+      "classification": "创作倾向",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-style-translation",
+      "name": "翻译剧场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Cambridge University Press：Experiments in Surtitling，现场多语翻译与听看关系",
+          "url": "https://www.cambridge.org/core/books/abs/performance-and-translation-in-a-global-age/experiments-in-surtitling/965CE1CA73FD14BBCBB1BA74D58C14AC"
+        }
+      ],
+      "factsChecked": [
+        "字幕与现场多语实践可以让观众同时听见、看见翻译过程，相关研究讨论这种中介关系。",
+        "“翻译剧场”在本卡特指把翻译过程放入事件的做法，不等于所有翻译剧本或公认独立流派。"
+      ],
+      "classification": "描述性创作称谓",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-dir-pool",
+      "name": "水池舞台",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：Mary Zimmerman《Metamorphoses》舞台水池说明",
+          "url": "https://www.concordtheatricals.com/s/31254/metamorphoses-zimmerman"
+        }
+      ],
+      "factsChecked": [
+        "Mary Zimmerman《变形记》的授权介绍明确舞台大水池是一种原始制作方案，也注明并非每次制作都必须有。",
+        "本卡把真实水体作为舞台条件正确；水池不必须在中央／前区，也不宜把没膝深度作为标准练习要求。"
+      ],
+      "classification": "舞台材料与设计",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-dir-readstage",
+      "name": "演员读提示",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：Israel Horovitz《Stage Directions》，把舞台提示读给观众",
+          "url": "https://www.concordtheatricals.com/s/101743/stage-directions"
+        }
+      ],
+      "factsChecked": [
+        "Horovitz《舞台提示》让本来不供观众听见的提示进入人物发言，确有把提示转为表演的实践。",
+        "念出之后再执行是本卡可选练习；提示也可以与实际动作不同，不把顺序规定为通用规则。"
+      ],
+      "classification": "描述性表演手段",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-dir-allwatch",
+      "name": "全员旁观",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《As You Like It》2023教学包，演员全程在场观看",
+          "url": "https://www.rsc.org.uk/learn/schools-and-teachers/teacher-resources/as-you-like-it-teacher-pack-2023"
+        }
+      ],
+      "factsChecked": [
+        "RSC《皆大欢喜》2023制作明确演员全程留在台上并观看他人演出。",
+        "留在可见处是表演安排；不必意味着故事中的角色都亲眼看见所有秘密。"
+      ],
+      "classification": "描述性调度手段",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-dir-objectchain",
+      "name": "物件传递链",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《Othello》逐场剧情，手帕在人物间的流转",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/othello/story/scene-by-scene"
+        }
+      ],
+      "factsChecked": [
+        "RSC《奥赛罗》分场资料追踪手帕经过苔丝狄蒙娜、艾米莉娅、伊阿古、卡西奥与比安卡相关场景，意义随流转被误判。",
+        "本卡把多次交接组成练习，未声称物件本身会判断事实；“更诚实”属比喻。"
+      ],
+      "classification": "创作练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-dir-countdown",
+      "name": "反向计时",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Robert Icke 导演官网所收《Oedipus》制作评论，舞台倒计时钟",
+          "url": "https://roberticke.com/reviews/oedipus.pdf"
+        }
+      ],
+      "factsChecked": [
+        "Robert Icke 导演官网收录的制作评论明确《俄狄浦斯》演出使用可见倒计时钟。",
+        "数字公开剩余时间能组织期待，但“必须在归零前完成”只是本卡设定，不是戏剧倒计时唯一用途。"
+      ],
+      "classification": "描述性时间设计",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-dir-floorplan",
+      "name": "地面作图",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Complicité：《Endgame》资源包，地面胶带网格练习",
+          "url": "https://www.complicite.org/wp-content/uploads/2023/07/Endgame-Resource-Pack.pdf"
+        }
+      ],
+      "factsChecked": [
+        "Complicité《终局》资源包以胶带在地面标出九格，通过暂停和行走探索空间关系。",
+        "把线进一步当作房间或边界是本卡练习；越过任何舞台标线并不自动等同人物在故事里越界。"
+      ],
+      "classification": "创作练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-dir-soundfirst",
+      "name": "声音先行",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Adobe：J cuts and L cuts，下一场声音先于图像到达",
+          "url": "https://helpx.adobe.com/ca/premiere/desktop/edit-projects/trim-clips/perform-j-cuts-and-l-cuts.html"
+        }
+      ],
+      "factsChecked": [
+        "Adobe 原厂说明 J cut 的原理为下一场声音早于其图像，支持声画先后进入所制造的期待。",
+        "本卡借用这一时序原理作为舞台声音提示练习，不声称 J cut 本身是专属戏剧术语；脚步先于开门为具体示例。"
+      ],
+      "classification": "跨媒介创作练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-dir-silentopen",
+      "name": "静默开场",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Shakespeare Birthplace Trust：表演教学中的静默、静止与行动",
+          "url": "https://media.shakespeare.org.uk/documents/PFS-Learning_Outcomes-Game_2.pdf"
+        }
+      ],
+      "factsChecked": [
+        "莎士比亚故居基金会表演教学把静默、静止、身体行动列为可组织舞台意义的手段。",
+        "开场不说话是本卡的组合练习，没有必须持续若干分钟的标准。"
+      ],
+      "classification": "创作练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-dir-revolving",
+      "name": "旋转门进出",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Theatrecrafts：Scenic Automation 术语中的 revolve 与景片运动",
+          "url": "https://theatrecrafts.com/pages/home/topics/automation-scenic/glossary/"
+        },
+        {
+          "title": "Concord Theatricals：Michael Frayn《Noises Off》排戏与戏中戏",
+          "url": "https://www.concordtheatricals.com/s/2894/noises-off"
+        }
+      ],
+      "factsChecked": [
+        "剧场技术资料确认回转舞台／景片可把空间转入观众视野；门的进出与误会亦见于戏中戏闹剧。",
+        "本卡“旋转门进出”是把转动景片和循环出入口组合的调度设想，不把转台、旋转门当作同一设备。"
+      ],
+      "classification": "组合调度练习",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    },
+    {
+      "id": "v23-dir-misremember",
+      "name": "记忆错位重演",
+      "status": "verified-new",
+      "sources": [
+        {
+          "title": "Concord Theatricals：Fay 与 Michael Kanin《Rashomon》，相互矛盾的证词重演",
+          "url": "https://www.concordtheatricals.com/p/5276/rashomon"
+        }
+      ],
+      "factsChecked": [
+        "舞台《罗生门》以当事人重演互相矛盾的事件版本，能直接对照本卡的核心机制。",
+        "差异可能来自立场、自我保护或误认，不应先规定每个人都在故意说谎。"
+      ],
+      "classification": "描述性叙事手段",
+      "fieldsRead": [
+        "name",
+        "note",
+        "observe",
+        "stage",
+        "essay",
+        "highStar"
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "id": "dir-ritual",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡用“仪式调度”称呼以重复动作、队形、节奏和共同程序组织场面的处理。程序被遵守或打破时，人物与群体的关系便有了可见的变化。"
+      },
+      "sources": [
+        {
+          "title": "Richard Schechner：Living a Double Consciousness，Teaching Ritual 原著预览",
+          "url": "https://api.pageplace.de/preview/DT0400.9780198039211_A23605945/preview-9780198039211_A23605945.pdf"
+        }
+      ],
+      "reason": "仪式研究支持重复、程序等特征，不支持把这一卡名包装成统一学派。"
+    },
+    {
+      "id": "dir-body",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡用“形体无言”称呼以身体动作、姿态、呼吸和节奏承担主要表达，减少或不用对白的处理。它可以用于一段场面，并不代表整部作品都必须无声。"
+      },
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "reason": "明确创作处理的范围；身体剧场、哑剧和无对白片段不能简单画等号。"
+    },
+    {
+      "id": "dir-solo",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡的“独白直给”指人物直接面向观众说出一段独白，把说明、辩护或坦白交给当下的观看者。一般的独白也可以说给同台人物听，或呈现人物的独处思绪。"
+      },
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "reason": "区分独白的一般定义与本卡特指的直接面向观众。"
+    },
+    {
+      "id": "dir-convention",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡用“假定性公开”描述主动让观众看见表演约定的处理，例如当众转换角色、让同一物件承担不同用途，或显露场景如何被搭建。观众知道这是虚构，仍可参与理解人物的处境。"
+      },
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "reason": "假定性是广泛的戏剧属性；公开制作约定是其中一种选择，不是所有演出的必要程序。"
+    },
+    {
+      "id": "dir-call",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡的“点名观众”是一种直接交流练习：演员向某位观众提出问题、请求或选择，并根据回应继续行动。邀请应允许拒绝，参与也不自动意味着观众决定全剧走向。"
+      },
+      "sources": [
+        {
+          "title": "David Farmer／Drama Resource：Forum Theatre",
+          "url": "https://dramaresource.com/forum-theatre/"
+        },
+        {
+          "title": "Jana Natya Manch 自述：The street actor and the audience",
+          "url": "https://artsandculture.google.com/story/awXBx5aAoRYA8A"
+        }
+      ],
+      "reason": "明确为游戏练习，区分一般直接交流与论坛戏剧等特定方法。"
+    },
+    {
+      "id": "xstyle-shadow",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡以“剪影叙事”描述利用人物或物件轮廓讲述事件的处理。灯光、遮挡与动作方向共同影响辨认，人物身份和关系仍需由前后情境提供线索。"
+      },
+      "sources": [
+        {
+          "title": "Theatrecrafts：灯光技术词汇（Downlight、Followspot、Backlight、Footlights、Gauze 等条目）",
+          "url": "https://theatrecrafts.com/pages/home/topics/lighting/glossary/"
+        }
+      ],
+      "reason": "外部资料核对剪影的视觉机制，不把组合卡名冒称独立剧种。"
+    },
+    {
+      "id": "xdir-enter",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡的“观众入戏”是一种参与安排：邀请观众以行动、回应或临时身份进入场面。参与的范围需要明确，也应允许只观看；它可以借鉴参与式剧场，但不是某种固定流程。"
+      },
+      "sources": [
+        {
+          "title": "David Farmer／Drama Resource：Forum Theatre",
+          "url": "https://dramaresource.com/forum-theatre/"
+        }
+      ],
+      "reason": "参与式剧场有多种方法，邀请观众不能直接等同波瓦论坛戏剧。"
+    },
+    {
+      "id": "xdir-bang",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡用“旁唱评论”描述歌唱与场内行动相互评说的处理。歌声可以概括事件、提出异议或显出人物没有说出的判断，不必只作情绪伴奏。"
+      },
+      "sources": [
+        {
+          "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+        }
+      ],
+      "reason": "歌唱评论有明确剧场实践依据；此卡名为功能描述。"
+    },
+    {
+      "id": "xdir-zoubian",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡的“夜行调度”是对夜间行动的一种创作安排：通过路线、步速、停顿以及光声条件，让人物在看不清、怕被发现或急于抵达的处境中行动。没有一套适用于所有作品的夜行步法。"
+      },
+      "sources": [
+        {
+          "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+          "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+        },
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "reason": "依据规定情境与调度资料限定为游戏处理，不将旧内部 ID 暗示的戏曲程式冒作通用定义。"
+    },
+    {
+      "id": "xdir-sleeve",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡用“手势语法”描述一场戏如何建立和改变手势之间的联系。伸手、收回、指向或拒绝接触，都要结合人物处境来理解；它不是跨文化通用的手势词典。"
+      },
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "reason": "手势的意义依赖场景和文化，不能暗示固定通用编码。"
+    },
+    {
+      "id": "ystyle-takarazuka",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡用“演员距离”讨论演员怎样在投入人物与展示、观察人物之间作出选择。布莱希特式表演提供了重要参照，但距离并不等于冷淡，也不能只按情绪的强弱判断。"
+      },
+      "sources": [
+        {
+          "title": "Pearson 官方 Practitioner Guide：Brecht、Berkoff、Complicité 章节",
+          "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Drama-and-Theatre/2016/teaching-and-learning-materials/Practitioner-guide.pdf"
+        }
+      ],
+      "reason": "描述表演关系，避免把卡名写成独立流派或可机械量化的情绪尺度。"
+    },
+    {
+      "id": "ystyle-install",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡以“装置剧场”描述装置艺术与现场表演相互构成的创作方式。材料、光声和观众的行走路径都可能参与叙事，人物表演与装置的关系因作品而异，不必遵守同一种程式。"
+      },
+      "sources": [
+        {
+          "title": "Roll 工作室：Theatre Picasso 装置与观看动线的设计说明",
+          "url": "https://www.roll-office.org/en/projects/theatre-picasso"
+        },
+        {
+          "title": "Wildworks：场域特定作品的方法与机构介绍",
+          "url": "https://dev.wildworks.org.uk/about-us/"
+        }
+      ],
+      "reason": "资料可证实装置与剧场经验的交叉，不能推出统一的装置剧场学派。"
+    },
+    {
+      "id": "ystyle-poeticreal",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡以“诗意现实主义”描述兼顾生活质感与诗性表达的创作倾向，常以意象、节奏及含蓄细节扩展日常场面的情绪和联想。这里讨论戏剧中的审美取向，不专指同名的电影史流派。"
+      },
+      "sources": [
+        {
+          "title": "R. B. Parker：The Rose Tattoo and Comedy of the Grotesque，引用 Williams 的创作说明",
+          "url": "https://cdn.craft.cloud/97cd51c5-b816-4a93-aea9-fd7e2c5e47da/assets/TWAR-2003_06-Parker-RoseTattooComedyofGrotesque.pdf"
+        }
+      ],
+      "reason": "术语在不同艺术史语境中含义不同；保留现有戏剧分析而限定本卡用法。"
+    },
+    {
+      "id": "ystyle-drawingroom",
+      "kind": "类型定义补正",
+      "fields": {
+        "note": "常用于谈论英国近现代社交喜剧的称谓，与优雅的客厅、上层中产生活和体面话语有关，诺埃尔·考沃德的作品是常见参照。来访、误认与婚恋常制造冲突，但不是所有发生在室内的喜剧都属于这一类型。"
+      },
+      "sources": [
+        {
+          "title": "Jonathan Law 编：The Methuen Drama Dictionary of the Theatre，drawing-room comedy／drama 条目",
+          "url": "https://lib.zu.edu.pk/ebookdata/Media%20Sciences/Media/The%20Methuen%20Drama%20Dictionary%20of%20the%20Theatre%20by%20Jonathan%20Law.pdf"
+        },
+        {
+          "title": "Concord Theatricals：Noël Coward《Hands Across the Sea》作品介绍",
+          "url": "https://www.concordtheatricals.com/p/2077/hands-across-the-sea"
+        }
+      ],
+      "reason": "旧定义过宽，容易把任何家庭室内喜剧都归为客厅喜剧。"
+    },
+    {
+      "id": "ydir-fanwork",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡用“道具延展”描述把物件作为身体行动延伸的处理，以它建立指向、距离或阻挡关系。物件原有功能与人物此时的用法可以互相呼应，也可以形成反差。"
+      },
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "reason": "道具参与行动有术语依据；延展是本卡描述的创作方向。"
+    },
+    {
+      "id": "ydir-jiangshi",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡的“直体后倒”指以较直的身体外形呈现向后倒下的动作造型，不是规范动作教程。倒地动作需要专业设计与排练，可表达失去支撑、惊讶或偶化等情境，不能只凭造型判断人物已死亡。"
+      },
+      "sources": [
+        {
+          "title": "Society of American Fight Directors：Glossary，Fall、Shoulder Roll 与 Forward Roll 条目",
+          "url": "https://www.safd.org/media/5975/full-revised-safd-glossary_3.pdf"
+        }
+      ],
+      "reason": "外源只能确认受控倒地类别，不能认证此中文卡名是一项统一训练术语；取消无依据的常用场景断言。"
+    },
+    {
+      "id": "ydir-qiangbei",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡用“肩倒”概括以肩背方向呈现翻滚或倒地的动作造型，不把它等同于某个戏曲程式。它依赖专门排练，躲避、受阻或失衡的具体含义须由前因和对手反应建立。"
+      },
+      "sources": [
+        {
+          "title": "Society of American Fight Directors：Glossary，Fall、Shoulder Roll 与 Forward Roll 条目",
+          "url": "https://www.safd.org/media/5975/full-revised-safd-glossary_3.pdf"
+        }
+      ],
+      "reason": "专业词汇存在肩向翻滚，但本卡不是标准动作教学，也不能从旧 ID 反推为抢背。"
+    },
+    {
+      "id": "ydir-chujiang",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡的“双侧上下场”是一种路线安排：利用舞台两侧通道组织演员进入与离开，让空间方向和人物去向容易辨认。左右没有普遍固定的善恶或阵营含义，需要由这一场演出建立。"
+      },
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        }
+      ],
+      "reason": "保留现有含义，明确这是调度练习而非普适舞台方位程式。"
+    },
+    {
+      "id": "ydir-paoyuan",
+      "kind": "术语边界说明",
+      "fields": {
+        "note": "本卡的“急奔调度”是一种快速移动的路线安排，用于表现追赶、逃离或赶时间。行动的目标、障碍和抵达后的反应，比跑动距离本身更能说明情势。"
+      },
+      "sources": [
+        {
+          "title": "Cambridge International Drama 9482：戏剧术语表，2027—2029 版",
+          "url": "https://www.cambridgeinternational.org/Images/721647-2027-2029-reference-list.pdf"
+        },
+        {
+          "title": "西澳课程与评估局：Stanislavski 的行动、规定情境、情绪记忆、贯穿行动与节奏",
+          "url": "https://k10outline.scsa.wa.edu.au/home/teaching/curriculum-browser/the-arts/arts-overview/glossary/processes-developed-by-stanislavski"
+        }
+      ],
+      "reason": "限定为描述性调度名称，避免把游戏组合名称冒充公认流派。"
+    },
+    {
+      "id": "style-v21-polyphonic",
+      "fields": {
+        "note": "本卡以“复调剧场”描述多声部的创作方式：让不同人物保留各自的立场与节奏，不急于用单一解释收束冲突。它不是一套要求所有人同时说话的固定表演程式。"
+      },
+      "sources": [
+        {
+          "title": "Dick McCaw《Bakhtin and Theatre》，Routledge 原著出版社介绍",
+          "url": "https://www.routledge.com/Bakhtin-and-Theatre-Dialogues-with-Stanislavski-Meyerhold-and-Grotows/Mccaw/p/book/9781138891449"
+        },
+        {
+          "title": "Cambridge University Press：Performance and Postsocialism in Postmillennial China，《美好的一天》多声部实践",
+          "url": "https://www.cambridge.org/core/elements/performance-and-postsocialism-in-postmillennial-china/F23B70C5F6A71209E8B2B2894F6F107F"
+        }
+      ],
+      "reason": "交代理论借用与描述性质，避免让玩家误以为存在统一的同名流派或必备程式。"
+    },
+    {
+      "id": "style-v21-maximalist",
+      "fields": {
+        "note": "本卡用“极繁主义剧场”描述一种追求繁复密度的舞台美学：密集的形象、声音与行动交织，使观众在多个信息中心之间选择。它是描述性称谓，不规定固定的表演程式。"
+      },
+      "sources": [
+        {
+          "title": "Bristol Old Vic Theatre School：设计师 Lillyanna Bryan 对其 maximalist style 的说明",
+          "url": "https://oldvic.ac.uk/student/lillyanna-bryan/"
+        }
+      ],
+      "reason": "外部资料支持极繁风格的使用，不足以把此名称写成边界统一的戏剧流派。"
+    },
+    {
+      "id": "style-v21-rehearsaldrama",
+      "fields": {
+        "note": "本卡把以排练为故事内容的作品称为“排练场戏剧”。演员之间的关系与戏中角色的关系可以互相渗透，一次中断或重来便可能暴露台词之外的冲突。"
+      },
+      "sources": [
+        {
+          "title": "Concord Theatricals：Michael Frayn《Noises Off》排戏与戏中戏",
+          "url": "https://www.concordtheatricals.com/s/2894/noises-off"
+        }
+      ],
+      "reason": "明确描述范围，避免把题材称谓写成公认固定流派。"
+    },
+    {
+      "id": "dir-v21-livesubtitles",
+      "fields": {
+        "note": "在演出进行时同步显示对白、说话者及必要的声音信息，帮助观众阅读和理解。剧本字幕常预先整理后现场跟随台词，现场转写则适用于即兴言说；字幕也可以参与作品的视觉表达。",
+        "essay": "字幕让对白、说话者和重要声音信息能够被阅读，是许多观众进入演出的必要通道。作为创作材料时，字幕也可以与角色形成回应；但艺术处理需要让观众仍能分清谁在说什么，而不是把理解障碍当作唯一效果。"
+      },
+      "sources": [
+        {
+          "title": "Stagetext：Theatre Captioning，剧场字幕的预备、同步与无障碍用途",
+          "url": "https://www.stagetext.org/for-venues/theatre-captioning/"
+        },
+        {
+          "title": "Stagetext：For Venues，区分剧本字幕与现场语音转写",
+          "url": "https://www.stagetext.org/for-venues/"
+        }
+      ],
+      "reason": "补上无障碍核心用途，区分预制同步字幕与即时转写；同步长文，避免把字幕一概定义为误读装置。",
+      "highStar": [
+        "字幕让对白、说话者和重要声音信息能够被阅读，是许多观众进入演出的必要通道。作为创作材料时，字幕也可以与角色形成回应；但艺术处理需要让观众仍能分清谁在说什么，而不是把理解障碍当作唯一效果。",
+        "字幕会把转瞬即逝的发言留在眼前，阅读节奏因而可能与说话节奏产生距离。文字保留了哪一部分、人物如何面对已经显出的那句话，都会影响其戏剧作用；字幕既可帮助理解，也可以成为被角色观察和回应的对象。"
+      ]
+    },
+    {
+      "id": "dir-v21-endingloop",
+      "fields": {
+        "note": "结尾回环让终场回应开场的形象或言语。重复可以让观众比较人物已经发生的变化，也可以显出他们仍被困在原来的循环里。",
+        "observe": "再次回到熟悉的形象，观众可以比较什么改变了、什么仍然没有改变。"
+      },
+      "sources": [
+        {
+          "title": "Allan Lewis：Ionesco，纽约市立大学教学文献所载《秃头歌女》循环结尾分析",
+          "url": "https://files.eportfolios.macaulay.cuny.edu/wp-content/uploads/sites/1982/2011/08/15183005/Ionesco-Article.pdf"
+        }
+      ],
+      "reason": "回环既可强调变化也可强调不变，补足原定义遗漏的循环停滞用途。"
+    },
+    {
+      "id": "v23-style-verbatim",
+      "fields": {
+        "stage": "排练时可对照录音或誊写稿核对措辞、停顿与语气；演出是否持稿，由具体形式决定。"
+      },
+      "sources": [
+        {
+          "title": "National Theatre / Nick Hern Books：Robin Belfield《Telling the Truth: How to Make Verbatim Theatre》",
+          "url": "https://shop.nationaltheatre.org.uk/products/telling-the-truth-how-to-make-verbatim-theatre"
+        }
+      ],
+      "reason": "原练习容易被读成逐字剧场必须持稿并现场纠错，改为材料核对建议。"
+    },
+    {
+      "id": "v23-style-bourgeois-tragedy",
+      "fields": {
+        "note": "一种戏剧史中的悲剧类型，突破悲剧只能以王侯为主角的等级观念，把市民生活、家庭伦理、名誉与财产冲突带入悲剧。莱辛的相关剧作是重要例子。"
+      },
+      "sources": [
+        {
+          "title": "Cambridge University Press：《A Companion to the Works of Gotthold Ephraim Lessing》市民悲剧说明",
+          "url": "https://www.cambridge.org/core/books/companion-to-the-works-of-gotthold-ephraim-lessing/57B6F937E76874958D9CDFAB1E76493B"
+        },
+        {
+          "title": "Cambridge University Press：Emma Whipday《Shakespeare’s Domestic Tragedies》原书节选",
+          "url": "https://assets.cambridge.org/97811084/74030/excerpt/9781108474030_excerpt.pdf"
+        }
+      ],
+      "reason": "修正“一种演法”的类型混淆，保留通俗解释并交代可查的历史参照。"
+    },
+    {
+      "id": "v23-style-historyplay",
+      "fields": {
+        "note": "本卡指以历史人物或事件为材料的戏剧创作。作品可以借过去回应当代问题，也会取舍、重组或虚构情节；剧中呈现与可考史实需要分清。"
+      },
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：Tragedies, Comedies and Histories，戏剧类型与分类",
+          "url": "https://www.rsc.org.uk/shakespeares-plays/tragedies-comedies-histories"
+        }
+      ],
+      "reason": "移除“一种演法”，区分历史材料、创作解释与事实。"
+    },
+    {
+      "id": "v23-style-intercultural",
+      "fields": {
+        "note": "跨文化的剧场创作实践，让不同表演传统、语言或身体训练相遇。创作者需要理解各自的来历，处理翻译、学习与挪用之间的差别，不能只把不同文化的外观拼在一起。"
+      },
+      "sources": [
+        {
+          "title": "Theatre Research International：Intercultural Theatre? A Streetcar Named Desire on the Turkish Stage",
+          "url": "https://www.cambridge.org/core/journals/theatre-research-international/article/abs/intercultural-theatre-a-streetcar-named-desire-on-the-turkish-stage/1BF5DB60B6CD64F4237790F31BA24330"
+        }
+      ],
+      "reason": "修正“一种演法”的简化，保留现有差异与相遇主题。"
+    },
+    {
+      "id": "v23-style-visual",
+      "fields": {
+        "note": "以图像、构图、身体与物件变化承担重要叙事的剧场创作。作品可以减少对白，也可以让语言、声音与视觉材料协作；关键在于画面怎样形成行动与关系。"
+      },
+      "sources": [
+        {
+          "title": "New Theatre Quarterly：Performing A Taste of Millefeuille，视觉剧场的图像、动作与跨文化实践",
+          "url": "https://www.cambridge.org/core/journals/new-theatre-quarterly/article/performing-a-taste-of-millefeuille-puppetry-performativity-and-crosscultural-adaptation/797F8FD87D6723DCF265E630A36CEFAE"
+        }
+      ],
+      "reason": "取消必须先看后听的绝对化感官顺序，保留视觉叙事核心。"
+    },
+    {
+      "id": "v23-style-translation",
+      "fields": {
+        "note": "本卡把翻译过程本身成为剧情的创作称为“翻译剧场”：字幕、转述、误听与补译可以改变人物行动。它与单纯把外语剧本译成另一种语言上演有所区别。",
+        "observe": "当信息必须经别人转述，谁能解释、谁能追问，就可能改变人物间的权力。"
+      },
+      "sources": [
+        {
+          "title": "Cambridge University Press：Experiments in Surtitling，现场多语翻译与听看关系",
+          "url": "https://www.cambridge.org/core/books/abs/performance-and-translation-in-a-global-age/experiments-in-surtitling/965CE1CA73FD14BBCBB1BA74D58C14AC"
+        }
+      ],
+      "reason": "明确卡片命名范围；取消“听不懂并不妨碍理解”的泛化断言。"
+    },
+    {
+      "id": "v23-dir-pool",
+      "fields": {
+        "note": "在舞台上使用经过设计的真实水体，让行走、接触和物件移动留下水声、波纹或湿痕。水的位置、深度与使用方式由具体制作决定。",
+        "stage": "让一次触碰水面的动作接续对话，比较波纹与停顿怎样改变人物间的距离。"
+      },
+      "sources": [
+        {
+          "title": "Concord Theatricals：Mary Zimmerman《Metamorphoses》舞台水池说明",
+          "url": "https://www.concordtheatricals.com/s/31254/metamorphoses-zimmerman"
+        }
+      ],
+      "reason": "消除水池固定位置与没膝深度的无依据限制，保留真实水体和人物动作相互影响的练习。"
+    },
+    {
+      "id": "v23-dir-allwatch",
+      "fields": {
+        "note": "让暂时不参与当前场景的演员仍留在观众可见处，观看或回应正在进行的表演。这种安排可以增加被注视的压力，但不必意味着戏中角色知道了所有秘密。"
+      },
+      "sources": [
+        {
+          "title": "Royal Shakespeare Company：《As You Like It》2023教学包，演员全程在场观看",
+          "url": "https://www.rsc.org.uk/learn/schools-and-teachers/teacher-resources/as-you-like-it-teacher-pack-2023"
+        }
+      ],
+      "reason": "区分演员可见的旁观与角色在剧情里实际知情，避免混淆两层约定。"
+    },
+    {
+      "id": "v23-dir-floorplan",
+      "fields": {
+        "note": "用粉笔、胶带或投影在地面标出房间、边界或路线。先建立线条在故事中的约定，人物的跨越、停步或改线才会成为可辨认的行动。"
+      },
+      "sources": [
+        {
+          "title": "Complicité：《Endgame》资源包，地面胶带网格练习",
+          "url": "https://www.complicite.org/wp-content/uploads/2023/07/Endgame-Resource-Pack.pdf"
+        }
+      ],
+      "reason": "补足舞台约定，避免把所有地面标记都解释为剧情边界。"
+    },
+    {
+      "id": "v23-dir-silentopen",
+      "fields": {
+        "note": "开场暂不使用对白，先以身体、光线和空间关系建立人物处境。静默可以很短，也可以持续较久；第一句话何时出现，应由行动需要决定。"
+      },
+      "sources": [
+        {
+          "title": "Shakespeare Birthplace Trust：表演教学中的静默、静止与行动",
+          "url": "https://media.shakespeare.org.uk/documents/PFS-Learning_Outcomes-Game_2.pdf"
+        }
+      ],
+      "reason": "取消“若干分钟”这一无来源的时长规定。"
+    },
+    {
+      "id": "v23-dir-revolving",
+      "fields": {
+        "note": "本卡的循环进出练习，可以用旋转门、转动景片或重复的出入口路线，让人物错过、重逢或被迫中断对话。不同装置和路线可以产生相似节奏，但并不是同一种舞台设备。"
+      },
+      "sources": [
+        {
+          "title": "Theatrecrafts：Scenic Automation 术语中的 revolve 与景片运动",
+          "url": "https://theatrecrafts.com/pages/home/topics/automation-scenic/glossary/"
+        },
+        {
+          "title": "Concord Theatricals：Michael Frayn《Noises Off》排戏与戏中戏",
+          "url": "https://www.concordtheatricals.com/s/2894/noises-off"
+        }
+      ],
+      "reason": "交代游戏组合性质，避免把不同技术装置混作固定术语。"
+    },
+    {
+      "id": "v23-dir-misremember",
+      "fields": {
+        "note": "让同一段往事按不同人物的记忆重演，使细节的差异可被比较。差异可能来自误认、遗忘或自我保护，观众据线索判断，不能只因版本不同就认定有人说谎。"
+      },
+      "sources": [
+        {
+          "title": "Concord Theatricals：Fay 与 Michael Kanin《Rashomon》，相互矛盾的证词重演",
+          "url": "https://www.concordtheatricals.com/p/5276/rashomon"
+        }
+      ],
+      "reason": "与现有高星长文保持一致，避免把所有记忆差异归结为有意自保。"
+    }
+  ],
+  "summary": {
+    "reviewedCount": 150,
+    "reusedV48Count": 8,
+    "newExternalCheckCount": 142,
+    "correctionCount": 36,
+    "scoreChanges": 0
+  },
+  "reviewMethod": {
+    "runtimeInput": "work/fact-audit-v49/craft-current.json；由 index 的卡片数据叠加当前 copy overrides、essay 与 high-star copy 导出",
+    "fields": [
+      "name",
+      "note",
+      "observe",
+      "stage",
+      "essay",
+      "highStar"
+    ],
+    "verification": "每卡列出具体核对点和外部来源。公共术语可共用原始教育文献；各卡分别说明该文献支持哪条定义。",
+    "creativeNames": "对描述性或游戏自拟名称核对其基础手段，不伪造独立流派；必要时在 note 交代本卡用法。",
+    "v48Reuse": "复用已核对的 8 条记录，并对照最新运行文本确认旧修订仍在。",
+    "interpretation": "创作练习、可能的戏剧效果和比喻属于解释，不作为史实、原作情节或观众必然反应来核验。"
+  },
+  "limits": [
+    "逐卡核对核心定义、归属与机制；observe、stage、essay、highStar 中的假想小场景及美学评论是游戏创作，不冒充原典案例或必然心理效果。",
+    "描述性卡名只核对所借用的戏剧机制，并明确其在本游戏中的范围；没有把找不到统一定义的名称虚构成流派。",
+    "UNIMA 物体剧场百科访问返回 403，未把该未读页面列为本轮证据；改用创作团体刊载说明及日本演剧学会公开摘要。",
+    "部分出版社资料只开放摘要或原著预览；该类条目只据可见内容核对，不宣称读过付费全文。剑桥术语 PDF 已下载并逐项检索正文。",
+    "部分官方站点正文读取不稳定，以其可见检索摘要核对相应明示事实；记录链接指向具体资料或词条，不用搜索页代替来源。",
+    "本核对未重算或认证 ATK／DEF、星级和稀有度，也未把资料审核等同零错误保证。",
+    "逐卡阅读 name/note/observe/stage/essay/highStar，并用可追溯的资料核对术语边界或相关舞台实践。",
+    "描述性名称与原创练习以“相关实践有依据、命名及具体安排属于本卡”处理；不把找到相似例子说成存在同名统一流派。",
+    "原卡看点和长文中的比喻、可能效果是编辑评论，不能作为历史事实或每次演出都必然成立的规则。",
+    "本报告不修改游戏分数、星级、稀有度或页面。"
+  ]
+}

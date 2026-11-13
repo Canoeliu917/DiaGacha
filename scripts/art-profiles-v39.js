@@ -400,6 +400,23 @@
     return body;
   }
   function records(){return root.ART_PROFILE_DATA_V39||(typeof ART_PROFILE_DATA_V39!=='undefined'?ART_PROFILE_DATA_V39:{});}
+  function rolePortrait(rec,figure,glyph){
+    const side=rec.portraitLayout==='left'?-1:rec.portraitLayout==='right'?1:0;
+    const x=side*25,emblemX=side?-side*89:-91;
+    const object=typeof figV39Object==='function'?figV39Object:root.figV39Object;
+    let body=`<ellipse cx="${x}" cy="166" rx="64" ry="4" fill="#ded1b8"/>`;
+    if(rec.name==='三女巫')body+=[-64,0,64].map((dx,i)=>move(figure(rec),dx,32-i*9,.75)).join('');
+    else if(['纳格','奈尔','温妮'].includes(rec.name))body+=`<svg x="${x-100}" y="-8" width="200" height="118" viewBox="-100 -8 200 118" overflow="hidden">${move(figure(rec),0,-2,1.08)}</svg>`;
+    else body+=move(figure(rec),x,-2,1.07);
+    if(rec.propMode==='emblem'&&rec.prop!=='none'&&object){
+      body+=`<g data-role-emblem="${rec.prop}" transform="translate(${emblemX} 70) scale(.9)">${object(rec.prop,rec.cloth,ink,'#efe6d4','#c6a15a')}</g>`;
+    }
+    const names=(rec.symbols||[]).filter(name=>name&&name!=='none'&&name!==rec.prop&&!(['纳格','奈尔','温妮'].includes(rec.name)&&['trash','mound'].includes(name)));
+    if(names.length)body+=`<g data-role-context="${names[0]}" opacity=".8">${move(symbol(names[0],glyph),side?emblemX:94,134,.48)}</g>`;
+    if(rec.name==='温妮')body+=move(raw.mound(),x,131,1.5);
+    if(rec.name==='纳格'||rec.name==='奈尔')body+=move(shape('M-44 103 H44 L37 167 H-37 Z','#89918b')+`<ellipse cx="0" cy="103" rx="44" ry="7" fill="#aaa895" stroke="${ink}" stroke-width="2.2"/>`+line('M-25 116 L-22 156 M0 116 V156 M25 116 L22 156',ink,2),x);
+    return `<g data-portrait-v50="${rec.portraitLayout}">${body}</g>`;
+  }
   const api={
     get(value){return records()[typeof value==='string'?value:value.id]},
     apply(target,cards){
@@ -417,6 +434,9 @@
       if(rec.kind==='play'&&rec.cast&&rec.cast.length){
         if(typeof figure!=='function')throw new Error('Missing paper figure renderer');
         body=playScene(rec,figure,glyph);
+      }else if(rec.fig&&rec.portraitLayout){
+        if(typeof figure!=='function')throw new Error('Missing paper figure renderer');
+        body=rolePortrait(rec,figure,glyph);
       }else if(rec.fig){
         if(typeof figure!=='function')throw new Error('Missing paper figure renderer');
         const ground=`<ellipse cx="0" cy="160" rx="68" ry="6" fill="#ded1b8"/>`;

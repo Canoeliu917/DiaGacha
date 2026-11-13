@@ -15,7 +15,7 @@ assert.equal(byId.size,777);
 assert.equal(sources.length,260);
 assert.equal(active.size,500);
 const figs=new Set('lipao changqun duanda jiazhou doupeng xizhuang laozuo pizhe poyi dayi lifu zhifu changshan qipao magua gongzhuang baiyi jinpao tongqun zuozi goulou'.split(' '));
-const pose=new Set('stand step reach raise guard hold fold bow'.split(' '));
+const pose=new Set('stand step reach raise guard hold fold bow offer clutch refuse listen point conceal open stride'.split(' '));
 const costumes=new Set('plain royal formal work worn mourning layered puritan'.split(' '));
 for(const c of cards){
   const p=byId.get(c.id); assert(p,c.id); assert.equal(p.name,c.name); assert.equal(p.dimension,c.dimension);

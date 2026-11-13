@@ -1,0 +1,1378 @@
+{
+  "version": 49,
+  "reviewedOn": "2026-11-13",
+  "scope": "65张常驻空间卡逐卡阅读运行态note、observe、stage、essay及实际显示的高星长文；65张均有外部资料核验记录，其中复用V48的6张，新增59张。",
+  "status": "complete",
+  "coveredIds": [
+    "place-tea",
+    "place-elsinore",
+    "place-zhou",
+    "place-dunsinane",
+    "place-parlor",
+    "place-exec",
+    "place-sichuan",
+    "place-cherry",
+    "place-gullen",
+    "place-zoo",
+    "place-forest",
+    "place-heath",
+    "place-meixiang",
+    "place-baihua",
+    "place-stella",
+    "place-blackbox",
+    "place-proscenium",
+    "place-island",
+    "place-zeng",
+    "xplace-dock",
+    "xplace-attic",
+    "xplace-balcony",
+    "xplace-market",
+    "xplace-factory",
+    "xplace-ancestral",
+    "xplace-grave",
+    "xplace-shrine",
+    "xplace-carriage",
+    "xplace-rooftop",
+    "xplace-kitchen",
+    "xplace-convent",
+    "xplace-snowfield",
+    "xplace-mine",
+    "yplace-crossroad",
+    "yplace-globe",
+    "yplace-huafang",
+    "yplace-well",
+    "yplace-gongtang",
+    "yplace-jindian",
+    "yplace-zhongjun",
+    "yplace-shikumen",
+    "yplace-chengmen",
+    "yplace-fachang",
+    "yplace-cafe",
+    "yplace-deck",
+    "yplace-cliff",
+    "yplace-altar",
+    "yplace-dungeon",
+    "yplace-stable",
+    "yplace-ballroom",
+    "yplace-office",
+    "yplace-workshop",
+    "place-v21-bordercheckpoint",
+    "place-v21-willroom",
+    "place-v21-publicbath",
+    "place-v21-funeralhome",
+    "place-v21-lostproperty",
+    "place-v21-photostudio",
+    "place-v21-diningcar",
+    "place-v21-archive",
+    "place-v22-gallery",
+    "place-v22-radiobooth",
+    "place-v22-cage",
+    "place-v22-embassyhall",
+    "place-v22-observatory"
+  ],
+  "evidenceCheckedIds": [
+    "place-v22-radiobooth",
+    "yplace-globe",
+    "place-blackbox",
+    "place-proscenium",
+    "place-dunsinane",
+    "place-elsinore",
+    "place-parlor",
+    "place-exec",
+    "place-sichuan",
+    "place-cherry",
+    "place-gullen",
+    "place-zoo",
+    "place-forest",
+    "place-heath",
+    "place-meixiang",
+    "place-island",
+    "xplace-dock",
+    "xplace-attic",
+    "xplace-balcony",
+    "xplace-market",
+    "xplace-factory",
+    "xplace-ancestral",
+    "xplace-grave",
+    "xplace-shrine",
+    "xplace-carriage",
+    "xplace-rooftop",
+    "xplace-kitchen",
+    "xplace-convent",
+    "yplace-crossroad",
+    "yplace-huafang",
+    "yplace-gongtang",
+    "yplace-zhongjun",
+    "yplace-jindian",
+    "yplace-shikumen",
+    "place-zhou",
+    "place-stella",
+    "place-zeng",
+    "place-tea",
+    "place-baihua",
+    "yplace-well",
+    "yplace-chengmen",
+    "xplace-snowfield",
+    "xplace-mine",
+    "yplace-cafe",
+    "yplace-deck",
+    "yplace-cliff",
+    "yplace-altar",
+    "yplace-fachang",
+    "yplace-dungeon",
+    "yplace-stable",
+    "yplace-ballroom",
+    "yplace-office",
+    "yplace-workshop",
+    "place-v21-bordercheckpoint",
+    "place-v21-willroom",
+    "place-v21-publicbath",
+    "place-v21-funeralhome",
+    "place-v21-lostproperty",
+    "place-v21-photostudio",
+    "place-v21-diningcar",
+    "place-v21-archive",
+    "place-v22-gallery",
+    "place-v22-cage",
+    "place-v22-embassyhall",
+    "place-v22-observatory"
+  ],
+  "reusedEvidenceIds": [
+    "place-v22-radiobooth",
+    "yplace-globe",
+    "place-blackbox",
+    "place-proscenium",
+    "place-dunsinane",
+    "place-elsinore"
+  ],
+  "newEvidenceCheckedIds": [
+    "place-parlor",
+    "place-exec",
+    "place-sichuan",
+    "place-cherry",
+    "place-gullen",
+    "place-zoo",
+    "place-forest",
+    "place-heath",
+    "place-meixiang",
+    "place-island",
+    "xplace-dock",
+    "xplace-attic",
+    "xplace-balcony",
+    "xplace-market",
+    "xplace-factory",
+    "xplace-ancestral",
+    "xplace-grave",
+    "xplace-shrine",
+    "xplace-carriage",
+    "xplace-rooftop",
+    "xplace-kitchen",
+    "xplace-convent",
+    "yplace-crossroad",
+    "yplace-huafang",
+    "yplace-gongtang",
+    "yplace-zhongjun",
+    "yplace-jindian",
+    "yplace-shikumen",
+    "place-zhou",
+    "place-stella",
+    "place-zeng",
+    "place-tea",
+    "place-baihua",
+    "yplace-well",
+    "yplace-chengmen",
+    "xplace-snowfield",
+    "xplace-mine",
+    "yplace-cafe",
+    "yplace-deck",
+    "yplace-cliff",
+    "yplace-altar",
+    "yplace-fachang",
+    "yplace-dungeon",
+    "yplace-stable",
+    "yplace-ballroom",
+    "yplace-office",
+    "yplace-workshop",
+    "place-v21-bordercheckpoint",
+    "place-v21-willroom",
+    "place-v21-publicbath",
+    "place-v21-funeralhome",
+    "place-v21-lostproperty",
+    "place-v21-photostudio",
+    "place-v21-diningcar",
+    "place-v21-archive",
+    "place-v22-gallery",
+    "place-v22-cage",
+    "place-v22-embassyhall",
+    "place-v22-observatory"
+  ],
+  "reviews": [
+    {
+      "id": "place-v22-radiobooth",
+      "sources": [
+        {
+          "title": "伦敦南岸大学：Radio Studio and Control Room",
+          "url": "https://www.lsbu.ac.uk/student-life/facilities/facility-finder/radio-studio-control-room"
+        }
+      ],
+      "factsChecked": [
+        "广播控制室承担监听、混音与播出控制，需与发声的录音或直播空间区分；配置可合设。",
+        "现行长文已落实V48修正；公告遇到突发消息是明确标注的虚构联想。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "reused-v48",
+      "interpretationBoundary": "舞台意象和排演建议是游戏编辑的解读，不是原作原句或唯一实施方式。"
+    },
+    {
+      "id": "yplace-globe",
+      "sources": [
+        {
+          "title": "Shakespeare’s Globe：Globe Theatre",
+          "url": "https://www.shakespearesglobe.com/discover/about-us/globe-theatre/"
+        }
+      ],
+      "factsChecked": [
+        "1599年原环球剧场与1997年开放的重建剧场不是同一栋保存至今的建筑。",
+        "露天中央庭院、伸出式舞台和多层看台有依据；秘密朝三侧说是创作练习。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "reused-v48",
+      "interpretationBoundary": "舞台意象和排演建议是游戏编辑的解读，不是原作原句或唯一实施方式。"
+    },
+    {
+      "id": "place-blackbox",
+      "sources": [
+        {
+          "title": "Theatres Trust：舞台与观众厅形制",
+          "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+        }
+      ],
+      "factsChecked": [
+        "黑匣子剧场通常为可灵活配置表演区和座席的空间，不限定单一观众方向。",
+        "围坐、对坐或单侧座席是可选布局；所有黑匣子都必然亲近的说法未被采用。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "reused-v48",
+      "interpretationBoundary": "舞台意象和排演建议是游戏编辑的解读，不是原作原句或唯一实施方式。"
+    },
+    {
+      "id": "place-proscenium",
+      "sources": [
+        {
+          "title": "Theatres Trust：舞台与观众厅形制",
+          "url": "https://www.theatrestrust.org.uk/discover-theatres/theatre-faqs/170-what-are-the-types-of-theatre-stages-and-auditoria"
+        }
+      ],
+      "factsChecked": [
+        "镜框式舞台以台口组织表演与观众的主要正面观看关系。",
+        "纵深与遮挡可参与构图，但该形制不强制写实表演风格。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "reused-v48",
+      "interpretationBoundary": "舞台意象和排演建议是游戏编辑的解读，不是原作原句或唯一实施方式。"
+    },
+    {
+      "id": "place-dunsinane",
+      "sources": [
+        {
+          "title": "RSC：《麦克白》剧情时间线",
+          "url": "https://www.rsc.org.uk/shakespeare-learning-zone/macbeth/story/timeline"
+        }
+      ],
+      "factsChecked": [
+        "《麦克白》末幕的据守地点为邓西嫩；进军者持伯南森林树枝隐蔽兵力，使树林移动的预言表面应验。",
+        "长文关于安全判断失效是基于情节的解读，树枝影子为游戏创作建议。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "reused-v48",
+      "interpretationBoundary": "舞台意象和排演建议是游戏编辑的解读，不是原作原句或唯一实施方式。"
+    },
+    {
+      "id": "place-elsinore",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《哈姆雷特》原文",
+          "url": "https://www.folger.edu/explore/shakespeares-works/Hamlet/read/"
+        }
+      ],
+      "factsChecked": [
+        "《哈姆雷特》的城垛守夜、第三幕第四场王后内室帷幕后偷听与波洛涅斯之死、戏中戏观察国王均有原作依据。",
+        "现文正确区分剧本中的艾尔西诺与现实克伦堡，未把建筑现存布局当作原剧舞台地图。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "reused-v48",
+      "interpretationBoundary": "舞台意象和排演建议是游戏编辑的解读，不是原作原句或唯一实施方式。"
+    },
+    {
+      "id": "place-parlor",
+      "sources": [
+        {
+          "title": "易卜生《玩偶之家》原作英译，第一至三幕",
+          "url": "https://www.gutenberg.org/files/2542/2542-h/2542-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "戏发生在海尔茂家，客厅通向门厅与书房；圣诞树、信箱和门在舞台说明与行动中出现。",
+        "信箱钥匙由丈夫保管；娜拉以塔兰泰拉舞练习拖延他读信，终场离家关门。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "“每扇门通向丈夫规则”是空间权力的比喻，不是每扇门的字面用途。"
+    },
+    {
+      "id": "place-exec",
+      "sources": [
+        {
+          "title": "香港教育局《法场》原曲选与《窦娥冤》第三折说明",
+          "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/resources/secondary-edu/lang/chi_chapter/P090.pdf"
+        }
+      ],
+      "factsChecked": [
+        "关汉卿《窦娥冤》第三折呈现临刑，窦娥发出血溅白练、六月降雪与大旱三年三愿。",
+        "雪与血的当场异象及三年旱灾将官府行刑与后续冤案昭雪相连。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "“说给天地听”和延长终局是文本结构解读，不是现实刑场制度。"
+    },
+    {
+      "id": "place-sichuan",
+      "sources": [
+        {
+          "title": "Bloomsbury／Methuen：Brecht Collected Plays Six，序言及原作序场试读",
+          "url": "https://api.pageplace.de/preview/DT0400.9781408177433_A23935581/preview-9781408177433_A23935581.pdf"
+        }
+      ],
+      "factsChecked": [
+        "《四川好人》副题及编者说明将其称为寓言剧；序场位于四川省会的一条街。",
+        "王卖水、诸神寻找借宿者并考察善人，与沈黛生计困境相连。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "“虚构城镇”表示寓言化舞台空间，并非否认真实四川；不以本剧作为地方风俗实录。"
+    },
+    {
+      "id": "place-cherry",
+      "sources": [
+        {
+          "title": "契诃夫《樱桃园》原作，Julius West英译，第一、三、四幕",
+          "url": "https://www.gutenberg.org/files/7986/7986-h/7986-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "庄园和樱桃园面临抵押债务及拍卖，洛巴辛提出砍树分租避暑别墅用地。",
+        "洛巴辛后来买下庄园，末幕出现砍树声，旧主人离开。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "望向同一片园子的调度是游戏建议；记忆与财产的对比为文本解读。"
+    },
+    {
+      "id": "place-gullen",
+      "sources": [
+        {
+          "title": "Wabash College戏剧制作：《The Visit》故事说明",
+          "url": "https://www.wabash.edu/academics/theater/visit"
+        }
+      ],
+      "factsChecked": [
+        "迪伦马特《贵妇还乡》的居伦是衰败小镇，等待旧居民克莱尔带来金钱。",
+        "捐款与杀死旧情人的条件相连，小镇居民面临金钱和道德选择的冲突。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "“道德的地面塌下去”是修辞；不将音乐剧版的具体改编设定代入原剧。"
+    },
+    {
+      "id": "place-zoo",
+      "sources": [
+        {
+          "title": "南洋艺术学院《恋爱的犀牛》2019演出节目册：人物表",
+          "url": "https://c42-archive-prod-files-acl.s3.ap-southeast-1.amazonaws.com/public/2022-10/20191107-nafa-rhi-pg1.pdf?VersionId=l1Un3a4tIubAfCUTTR4GJArANT6BtxJq"
+        }
+      ],
+      "factsChecked": [
+        "马路的人物身份是动物园犀牛饲养员，动物园与犀牛照料是原作关联。",
+        "现卡没有指认真实城市某家动物园或规定该剧唯一实景布局。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "“挨着城市的夜”“同一张地图”是诗意写法；围栏隔开人物为创作建议。"
+    },
+    {
+      "id": "place-forest",
+      "sources": [
+        {
+          "title": "王琦：“父权制”游魂下的《原野》，南开大学转载研究",
+          "url": "https://nxwx.nankai.edu.cn/2017/0612/c12604a184141/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "曹禺《原野》中仇虎与花金子逃亡，仇虎受恐惧和负罪感困扰。",
+        "黑林子的重重幻影与仇虎最终难以逃出、自戕的结局相连。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "“森林现实支撑变弱”为表现主义空间解读；同一段路出现两遍是游戏设想。"
+    },
+    {
+      "id": "place-heath",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《李尔王》第三幕第二场原文",
+          "url": "https://www.folger.edu/explore/shakespeares-works/king-lear/read/3/2/"
+        }
+      ],
+      "factsChecked": [
+        "李尔在风暴中与弄人同行，肯特找到他们并引向茅屋。",
+        "失去家中庇护后，身体受寒与王权失效并置，支持卡片的脆弱处境。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "“把国王打回人”是评论；顶风搀扶为创作方案，不伪称原作逐字舞台指示。"
+    },
+    {
+      "id": "place-meixiang",
+      "sources": [
+        {
+          "title": "香港康文署中国戏曲节：《桃花扇·题画》官方节目说明",
+          "url": "https://www.cof.gov.hk/2024/assets/doc/2011/Leaflet/COF2011_03_%E6%88%B2%E4%BB%A5%E4%BA%BA%E5%82%B3%E5%B4%91%E5%8A%87%E7%B6%93%E5%85%B8%E6%8A%98%E5%AD%90%E6%88%B2%E5%B1%95%E6%BC%94_Leaflet.pdf"
+        }
+      ],
+      "factsChecked": [
+        "孔尚任《桃花扇》的媚香楼与李香君相关，侯方域归来寻她时已人去楼空。",
+        "官方折子说明将侯李爱情与南明覆亡相连，支持私人情感和外部政治相遇的概括。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "楼上拒绝邀请是游戏安排；未把现代复建建筑当作剧中原址的完整复原。"
+    },
+    {
+      "id": "place-island",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《暴风雨》第一幕第二场及全剧分场梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/the-tempest/read/1/2/"
+        }
+      ],
+      "factsChecked": [
+        "普洛斯彼罗被放逐后与女儿生活在岛上，使用法术并命令爱丽儿安排来客。",
+        "卡利班在其到来前已生活于岛上；后续假面剧、宽恕和放弃法术均在岛上展开。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "“晚期总结”是文学评价，不是作者自述；空间隔离和控制相遇是有情节依据的解读。"
+    },
+    {
+      "id": "xplace-dock",
+      "sources": [
+        {
+          "title": "交通部航港局：航港知道，棧橋／碼頭释义",
+          "url": "https://www.motcmpb.gov.tw/Center?ChildChildNodeId=311&ChildNodeId=305&NodeId=34&SiteId=1"
+        }
+      ],
+      "factsChecked": [
+        "码头及栈桥可供泊船、人员上下和货物装卸。",
+        "送别、登船、离岸属于可利用这些条件形成的情境。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "告别与跳板的戏剧意义是编辑联想，不说明所有码头都采用同一登船设施。"
+    },
+    {
+      "id": "xplace-attic",
+      "sources": [
+        {
+          "title": "教育部《重编国语辞典修订本》：阁楼",
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=68182&la=0&powerMode=0"
+        }
+      ],
+      "factsChecked": [
+        "阁楼指屋内架起的较低楼层；本卡采用屋顶下阁楼的常见形态。",
+        "储物、独处及屋顶斜面是所选场景条件，不是所有阁楼不可缺少的要素。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "藏匿声响与秘密为虚构情境；不把诗意低屋顶写成统一建筑标准。"
+    },
+    {
+      "id": "xplace-balcony",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：balcony，建筑义",
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/balcony"
+        }
+      ],
+      "factsChecked": [
+        "阳台是附着于建筑上层外侧、通常有栏杆或围护的平台。",
+        "楼上楼下的高度差和室内外联系与该空间的常见形态一致。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "示爱、公开宣告和越界资格为可能情境；未声称《罗密欧与朱丽叶》原文写有阳台。"
+    },
+    {
+      "id": "xplace-market",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：market，交易场所义",
+          "url": "https://dictionary.cambridge.org/dictionary/english/market"
+        }
+      ],
+      "factsChecked": [
+        "集市是人们聚集买卖物品的场所或活动，可包括摊位及公共通道。",
+        "当前长文以讨价还价、围观和传闻组织虚构冲突，不指认特定历史事件。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "流言传播速度和消息先于送信人是创作设想。"
+    },
+    {
+      "id": "xplace-factory",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：factory",
+          "url": "https://dictionary.cambridge.org/dictionary/english/factory"
+        }
+      ],
+      "factsChecked": [
+        "工厂是制造货物的建筑或建筑群，常依靠机器和工人生产。",
+        "机器、班次与共同劳动作为本卡所选生产场景成立。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "不据此声称所有工厂都嘈杂或禁止私人交谈；感情与生计关系为编辑联想。"
+    },
+    {
+      "id": "xplace-ancestral",
+      "sources": [
+        {
+          "title": "教育部《重编国语辞典修订本》：祠堂",
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=140469&la=0&powerMode=0"
+        }
+      ],
+      "factsChecked": [
+        "祠堂可祭祀祖先，也可供奉先贤烈士；本卡明确采用家族祖祠情境。",
+        "祖宗牌位与宗族身份可作为该场景的物件及关系条件。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "婚姻去留裁断、谁有权发言是虚构戏剧情境，不泛化为所有祠堂的固定制度。"
+    },
+    {
+      "id": "xplace-grave",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：cemetery",
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/cemetery"
+        }
+      ],
+      "factsChecked": [
+        "墓地是安葬逝者的土地或场所，来访悼念与墓碑可见于该空间。",
+        "现文中的姓名、来访者及未说完的话未指向具体作品的独有事件。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "放下未寄出的信为创作建议。"
+    },
+    {
+      "id": "xplace-shrine",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：temple，宗教建筑义",
+          "url": "https://dictionary.cambridge.org/dictionary/english/temple"
+        }
+      ],
+      "factsChecked": [
+        "神庙用于宗教崇拜或供奉神明。",
+        "祈愿、问卜、庇护的出现取决于具体宗教与作品，原文已使用“可以”。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "献物等待回应为戏剧安排，不宣称所有神庙提供神谕或庇护。"
+    },
+    {
+      "id": "xplace-carriage",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：carriage，铁路客车义",
+          "url": "https://dictionary.cambridge.org/us/dictionary/learner-english/carriage"
+        }
+      ],
+      "factsChecked": [
+        "铁路客车车厢供乘客乘坐，是列车的组成部分。",
+        "本卡采用载客同行而非货运车厢情境，下一站构成暂时共处的时间边界。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "陌生人说出秘密是联想，不是乘车必然行为。"
+    },
+    {
+      "id": "xplace-rooftop",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：roof",
+          "url": "https://dictionary.cambridge.org/dictionary/english/roof"
+        }
+      ],
+      "factsChecked": [
+        "屋顶覆盖建筑顶部，具体形状与是否可供人活动依建筑而异。",
+        "现卡屋顶交谈采用可进入的屋顶场景，并非所有屋顶都可上人。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "边缘放慢脚步及承诺被放大属于戏剧设想；不作为建筑使用建议。"
+    },
+    {
+      "id": "xplace-kitchen",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：kitchen",
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/kitchen?topic=rooms"
+        }
+      ],
+      "factsChecked": [
+        "厨房用于储存、准备和烹制食物，存在烹饪与清洗等劳动。",
+        "本卡选择家庭厨房，未把商业厨房或机构厨房全部包含进家庭设定。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "主仆关系只是一种可写情境，并非所有家庭厨房都有主仆。"
+    },
+    {
+      "id": "xplace-convent",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：monastery；Cambridge University Press修道院研究试读",
+          "url": "https://assets.cambridge.org/97805217/39085/excerpt/9780521739085_excerpt.pdf"
+        }
+      ],
+      "factsChecked": [
+        "修道院可为共同宗教生活的单栋或多栋场所，历史形态和成员构成并不统一。",
+        "V48后现文已限定具体制度随传统不同，并明确秘密会面等只是作品可能采用的安排。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "安静、钟声限时为编辑解读与创作建议，不宣称所有修道院执行完全相同禁闭或作息制度。"
+    },
+    {
+      "id": "yplace-crossroad",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：crossroads",
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/crossroads?topic=turning-points-and-deciding-moments"
+        }
+      ],
+      "factsChecked": [
+        "十字路口的核心含义为两条道路相交处。",
+        "不同来路与可选出口支持人物相遇及分道的空间设定。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "把选择变成地点是评论，未将特定交叉路口附会为《俄狄浦斯王》原作地点。"
+    },
+    {
+      "id": "yplace-huafang",
+      "sources": [
+        {
+          "title": "教育部《国语辞典简编本》：画舫",
+          "url": "https://dict.concised.moe.edu.tw/dictView.jsp?ID=20211&la=0&powerMode=0"
+        }
+      ],
+      "factsChecked": [
+        "画舫是装饰华丽的游船。",
+        "水上移动、岸边观看与游览的场景条件符合船只形态。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "灯影歌声和宴饮为场景选择，不是每艘画舫的强制用途。"
+    },
+    {
+      "id": "yplace-gongtang",
+      "sources": [
+        {
+          "title": "教育部台湾客语辞典：公堂",
+          "url": "https://hakkadict.moe.edu.tw/search_result/?id=9248"
+        }
+      ],
+      "factsChecked": [
+        "公堂指官府或法庭的大堂，支持传统审案厅堂的基本定义。",
+        "本卡采用问供、举证与裁判的戏剧情境，未标明现代庭审规则。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "具体席位和发言次序随时代、制度及作品不同，不是所有古代审案的统一程序。"
+    },
+    {
+      "id": "yplace-zhongjun",
+      "sources": [
+        {
+          "title": "教育部《重編國語辭典修訂本》：中軍帳",
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=119944&la=0&powerMode=0"
+        }
+      ],
+      "factsChecked": [
+        "中军帐指军队主帅的营帐，卡片未把它误作普通士兵住所。",
+        "卡片的议事、军令和传令者围绕主帅营帐展开；地图上的争执与实际人员伤亡是创作设想，没有冒称某次历史战役。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "辞典证实空间身份；地图、军报及人物冲突为可采用的戏剧情境。"
+    },
+    {
+      "id": "yplace-jindian",
+      "sources": [
+        {
+          "title": "故宫博物院：太和殿",
+          "url": "https://www.dpm.org.cn/explore/building/236465.html"
+        }
+      ],
+      "factsChecked": [
+        "太和殿俗称金銮殿，设宝座、丹陛等，承担皇帝即位和节庆朝贺等重要典礼。",
+        "卡片将金殿作为帝王朝会及接见的戏剧空间，未将所有宫廷日常办公都定位在太和殿。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "金殿是戏剧里的宫廷意象，不等同于一座建筑的全部实际用途；谁站在台阶上等关系为演绎。"
+    },
+    {
+      "id": "yplace-shikumen",
+      "sources": [
+        {
+          "title": "上海市民政局：有朋来，到共享客厅烧桌好菜",
+          "url": "https://mzj.sh.gov.cn/lnb-xw/20200824/b540ac87c23f40a5b60d96ffa6f65571.html"
+        }
+      ],
+      "factsChecked": [
+        "宏兴里老式石库门存在一栋多户居住及共用厨房、卫生设施、过道的真实生活形态。",
+        "当前卡片限定为这里呈现的共同生活场景，未将所有石库门住宅一概定义为多人合租。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "邻居听见秘密、私人争执变成公共议论是基于共享空间的创作联想，不是建筑的必然社会效果。"
+    },
+    {
+      "id": "place-zhou",
+      "sources": [
+        {
+          "title": "清华大学：《雷雨》全剧上演",
+          "url": "https://www.tsinghua.edu.cn/info/1181/45847.htm"
+        },
+        {
+          "title": "南京大学中国现代文学研究中心：陆炜《雷雨》的性解读（原剧家具与关窗情节细读）",
+          "url": "https://njucml.nju.edu.cn/5a/51/c22608a350801/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "《雷雨》为曹禺作品，周公馆客厅确为周、鲁两家关系交锋的重要舞台地点。",
+        "卡片使用主要行动空间之一的表述，没有抹去鲁家等其他地点；家庭秩序与旧事暴露的解读符合剧中喝药、相认的行动。",
+        "原剧旧家具、照片和关窗习惯关联侍萍往事；本卡未声称家具在这间客厅原封不动摆放了三十年。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "家具、来客路线与控制记忆的关系是空间解读；具体移动家具的练习不是原剧事件复述。"
+    },
+    {
+      "id": "place-stella",
+      "sources": [
+        {
+          "title": "National Theatre：A Streetcar Named Desire Learning Guide（第5、12页）",
+          "url": "https://www.bloomsbury.com/media/vajmwkyp/nt_a-streetcar-named-desire-learning-guide_rs.pdf"
+        }
+      ],
+      "factsChecked": [
+        "斯特拉与斯坦利居于新奥尔良，布兰奇到访妹妹的公寓；导读剧情第12页明确只有两间房及薄帘隔开的睡眠位置。",
+        "狭小住处缺少私密性，布兰奇进入后与斯坦利发生家庭领地和身份冲突；卡片的出处及核心空间结构成立。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "本次已下载并读取官方PDF；舞台旋转、无实体墙属于2014制作，不泛化为原剧所有版本。卡片的隐私压迫属可据原剧作出的解读。"
+    },
+    {
+      "id": "place-zeng",
+      "sources": [
+        {
+          "title": "央华戏剧：赖声川《北京人》导演创作笔记（发布于凤凰网）",
+          "url": "https://ishare.ifeng.com/c/s/7du2qsbFHUj"
+        }
+      ],
+      "factsChecked": [
+        "《北京人》的曾家花厅属于曹禺所写曾家旧宅，是全剧集中的行动区域。",
+        "导演以原剧空间分析指出曾家部分院落已经出租，与家族衰落相连；古老陈设及衰败气息不是任意换成现代公共空间。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "此出处是剧团发布、含导演本人笔记的一手制作资料；搬行李绕家具是本游戏创作练习，不冒称曹禺原有调度。"
+    },
+    {
+      "id": "place-tea",
+      "sources": [
+        {
+          "title": "人民教育出版社《语文·选择性必修下册》：《茶馆》及学习提示（第68页）",
+          "url": "https://forum.rdfzer.com/uploads/short-url/4KvVeVOnNyHPRo87DC2JSJfeWi7.pdf"
+        },
+        {
+          "title": "胡晓璐：《茶馆》所呈现出的艺术特色，《语文教学与研究》2022年第8期",
+          "url": "https://m.fx361.com/news/2022/0530/22003873.html"
+        }
+      ],
+      "factsChecked": [
+        "作品以老北京裕泰茶馆为舞台，三幕展示清末至民国社会和各色人物生活变化。",
+        "三个时代的经营、陈设与茶客变化是原剧空间组织的核心；卡片未将裕泰误指为现实吴裕泰茶庄。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "教材PDF全文较大，核对了可检索的原文学习提示及学术文章对三幕布景的逐幕分析；桌椅引发的身份联想不是额外历史事实。"
+    },
+    {
+      "id": "place-baihua",
+      "sources": [
+        {
+          "title": "上海市绿化和市容管理局：古建筑艺术之亭",
+          "url": "https://lhsr.sh.gov.cn/jnylwh/20221019/1c7a868327484638b45840204aeb62fa.html"
+        }
+      ],
+      "factsChecked": [
+        "园林中的亭可供休憩和观景，是园林建筑类型；当前名称为花亭。",
+        "卡片中的宴席已摆而赴约者未到，是自行设定的等待情境，没有再冒称《贵妃醉酒》中的特定百花亭剧情。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "来源支持建筑用途，具体宴饮和失约情境为创作联想。"
+    },
+    {
+      "id": "yplace-well",
+      "sources": [
+        {
+          "title": "臺南市政府文化局：《臺南府城古井誌》古井的构造与设备节录",
+          "url": "https://nanying.pixnet.net/blog/posts/46691292"
+        }
+      ],
+      "factsChecked": [
+        "井台可指井边取水、洗涤使用的地面空间，与井栏、井口本身有区别。",
+        "地方古井研究明确记载井盘又称井台，公用井的取水洗涤活动联系家族和村落日常；聚会交流的设想有生活基础。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "桶绳响后所有人回头、消息传开属于戏剧情境，不能理解为任何村落水井必有此社会行为。"
+    },
+    {
+      "id": "yplace-chengmen",
+      "sources": [
+        {
+          "title": "教育部《重編國語辭典修訂本》：城門",
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=124367&q=1&word=%E9%96%80"
+        }
+      ],
+      "factsChecked": [
+        "城门是城堡或城墙的出入口，卡片以通行和城内外边界为基本空间关系。",
+        "城门开闭与守卫决定通行的情节没有绑定某座城或某项现代制度。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "一纸命令改变去留、城内外身份转换是编写的戏剧可能，不是每座城门的统一历史事件。"
+    },
+    {
+      "id": "xplace-snowfield",
+      "sources": [
+        {
+          "title": "国际灌溉排水委员会：Multilingual Technical Dictionary，Snowfield",
+          "url": "https://www.mtd.icid-ciid.org/view.php?kwid=822&lang=en&references=0&type=latest"
+        }
+      ],
+      "factsChecked": [
+        "雪原的空间核心是大片连绵积雪覆盖；卡片未将其与冰川或海冰直接等同。",
+        "地标减少及雪上足迹是采用积雪景观构成的观察，现文使用可能而非规定所有雪原都没有地标。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "词典检索摘要可读取，直接页面访问超时；脚印成为证词属比喻，足迹能否保存仍受风雪与融化影响。"
+    },
+    {
+      "id": "xplace-mine",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：mine（HOLE）",
+          "url": "https://dictionary.cambridge.org/dictionary/english/mine"
+        }
+      ],
+      "factsChecked": [
+        "矿井对应为采掘煤、金属、盐等而形成的地下孔道系统，符合卡片的地下采掘区设定。",
+        "卡片用有限照明、通路与作业声塑造所选地下空间；没有把所有采矿方式都说成露天或所有矿井结构都相同。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "事故、劳动者命运和共同呼吸为戏剧联想，本文不作矿业技术或安全指南。"
+    },
+    {
+      "id": "yplace-cafe",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：café",
+          "url": "https://dictionary.cambridge.org/dictionary/english/cafe?topic=restaurants-and-cafes"
+        }
+      ],
+      "factsChecked": [
+        "咖啡馆属于提供饮品、简餐及坐席的营业场所，可容纳停留和交谈。",
+        "卡片未将咖啡馆冒指某部剧的固定地点；相邻桌子使陌生人听见谈话属于选定的空间关系。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "等人、约会和闲谈中暴露关系是创作情境，不是咖啡馆的强制社会功能。"
+    },
+    {
+      "id": "yplace-deck",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：deck（FLOOR）",
+          "url": "https://dictionary.cambridge.org/dictionary/english/deck?topic=parts-of-ships-and-boats"
+        }
+      ],
+      "factsChecked": [
+        "甲板是船体两侧之间铺设的层面，不必全部露天；当前卡片已明确选择露天甲板。",
+        "栏杆、舱口及在航船上的共同旅程适合该空间设定，没有误将甲板只解释为船头。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "海风、共同旅程与无法随时离去是所选航行情境，不等于所有停泊船舶都无法离开。"
+    },
+    {
+      "id": "yplace-cliff",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：cliff",
+          "url": "https://dictionary.cambridge.org/dictionary/english/cliff"
+        }
+      ],
+      "factsChecked": [
+        "悬崖的基本地貌特征是陡峭、高差明显的岩壁和边缘，既可位于山地也可在海岸。",
+        "卡片以边缘和有限退路构造紧张关系，未把悬崖局限为海边或特定原剧地点。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "人物决定、勇气与退路的说法是象征性解读。"
+    },
+    {
+      "id": "yplace-altar",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：altar",
+          "url": "https://dictionary.cambridge.org/us/dictionary/english/altar"
+        }
+      ],
+      "factsChecked": [
+        "祭坛是举行宗教仪式、放置有关物品的台式结构，卡片的仪式空间定位成立。",
+        "现文围绕祭品、仪式参与者和站位展开，未直接宣称所有祭坛都进行人祭。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "个人损失与集体名义相冲突是本游戏选择的一种故事主题；不是对任何特定宗教习俗的概括。"
+    },
+    {
+      "id": "yplace-fachang",
+      "sources": [
+        {
+          "title": "教育部《重編國語辭典修訂本》：法場",
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=33773&q=1&word=32"
+        }
+      ],
+      "factsChecked": [
+        "法场在本卡采用的义项是执行死刑的场地，基本定义正确。",
+        "原长文将众人见证写成行刑秩序的普遍要求，超出了地点定义；应限定为故事选择公开行刑的情境。"
+      ],
+      "status": "correction-proposed",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "告别、申辩和最后号令是可用于创作的情境；不将公开围观概括为所有时代、所有行刑制度的规则。"
+    },
+    {
+      "id": "yplace-dungeon",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：dungeon",
+          "url": "https://dictionary.cambridge.org/dictionary/english/dungeon"
+        }
+      ],
+      "factsChecked": [
+        "地牢对应地下囚禁空间，常见于城堡；卡片的地下及城堡内部定位与词义吻合。",
+        "受限的出口和被关押者的行动边界属于该场景成立的基础，没有绑定某国现行监狱制度。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "黑暗、守门人与获释选择是采用地牢意象的戏剧情境，不是所有历史地牢的完整建筑描述。"
+    },
+    {
+      "id": "yplace-stable",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：stable（BUILDING）",
+          "url": "https://dictionary.cambridge.org/dictionary/english/stable"
+        }
+      ],
+      "factsChecked": [
+        "马厩是饲养、安置马匹的建筑，照料牲口与相关劳作是这一空间的核心功能。",
+        "缰具、饲料和照料时间作为人物行动的基础与马厩用途相符；秘密会面不冒称某部原作的既有剧情。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "低身份者掌握消息、厅堂地位暂时倒转是所选故事的社会关系，不概括所有照料马匹的人。"
+    },
+    {
+      "id": "yplace-ballroom",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：ballroom",
+          "url": "https://dictionary.cambridge.org/dictionary/english/ballroom"
+        }
+      ],
+      "factsChecked": [
+        "舞厅为跳舞使用的室内场所，卡片以社交、邀请舞伴和他人目光组织关系。",
+        "选择舞伴带出亲近或拒绝符合这一创作情境，但不应误读为所有舞厅仅允许某一种舞蹈。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "情爱和社交地位的竞争属于戏剧联想，并非舞厅定义本身。"
+    },
+    {
+      "id": "yplace-office",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：office（WORK PLACE）",
+          "url": "https://dictionary.cambridge.org/dictionary/english/office"
+        }
+      ],
+      "factsChecked": [
+        "办公室是机构或个人处理工作事务的房间或区域，桌面、电话、文件属于常见工作条件。",
+        "卡片选择的是办事者和来访者之间的事务关系，没有把所有办公室都定义成政府审批场所。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "文件压缩人生、拖延耗尽希望为主题性表达，不能当成所有办公人员的行为描述。"
+    },
+    {
+      "id": "yplace-workshop",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：workshop（ROOM WITH TOOLS）",
+          "url": "https://dictionary.cambridge.org/dictionary/english/workshop"
+        }
+      ],
+      "factsChecked": [
+        "本卡车间采用制造、加工或修理物品的空间义，使用工具、机器与工序，未误解为戏剧工作坊。",
+        "协作、生产节奏和噪声形成所选情境的交流限制，与工业车间基本条件相符。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "共同劳动不保证理解、停机后爆发争执是创作设想，不是生产场所必然出现的现象。"
+    },
+    {
+      "id": "place-v21-bordercheckpoint",
+      "sources": [
+        {
+          "title": "GOV.UK：Entering the UK — At border control",
+          "url": "https://www.gov.uk/uk-border-control/at-border-control"
+        }
+      ],
+      "factsChecked": [
+        "边境检查涉及旅行证件及身份核验，现文以证件、等候线和通行条件组成空间。",
+        "具体剧本中的规则变化和人物急迫已在高星长文限定为虚构场景，没有宣称一个名字或印章可在所有边境直接决定去留。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "引用只支撑核验证件的基本用途，不把英国程序推广到所有国家，也不提供旅行或移民操作建议。"
+    },
+    {
+      "id": "place-v21-willroom",
+      "sources": [
+        {
+          "title": "GOV.UK：Making a will — Write your will",
+          "url": "https://www.gov.uk/make-will/writing-your-will"
+        }
+      ],
+      "factsChecked": [
+        "遗嘱可安排死后受益人与遗产执行者，因而可成为家人关系冲突的故事材料。",
+        "遗嘱宣读室并非该来源所确立的统一法定设施；本卡应明确为剧中让有关人员共同听取遗嘱的虚构房间。"
+      ],
+      "status": "correction-proposed",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "不从戏剧场景推导任何地方必须聚众宣读、遗嘱绝对不得争议或全部有效的法律结论。"
+    },
+    {
+      "id": "place-v21-publicbath",
+      "sources": [
+        {
+          "title": "Cambridge Dictionary：bathhouse",
+          "url": "https://dictionary.cambridge.org/dictionary/english/bathhouse?topic=public-buildings"
+        }
+      ],
+      "factsChecked": [
+        "公共浴室是供人洗浴的公共建筑，卡片选择共享设施和身体距离为情境基础。",
+        "衣物减少不等于身份消失是社会主题性解读；现文没有宣称所有公共浴室均混浴或没有隔间。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "裸露、防备和礼让为所选共享洗浴场景，具体设施与习俗随地方和时代变化。"
+    },
+    {
+      "id": "place-v21-funeralhome",
+      "sources": [
+        {
+          "title": "上海市民政局：关于本市殡仪服务的便民问答",
+          "url": "https://mzj.sh.gov.cn/binzang-grbs/20241021/54bc5a46aac14b0f807bcb9294e454af.html"
+        }
+      ],
+      "factsChecked": [
+        "殡仪馆办理遗体接运、礼厅预订及相关殡殓事务，卡片的手续和告别功能成立。",
+        "亲友等待与悲伤的心理节奏是创作层面的冲突，未将每位家属的情感或每个地区的流程规定成同一模式。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "来源只用来确认场所职能；长文不是殡葬办理指南。"
+    },
+    {
+      "id": "place-v21-lostproperty",
+      "sources": [
+        {
+          "title": "港铁：Lost Property Registration（个人资料声明）",
+          "url": "https://lpms.mtr.com.hk/Home/"
+        }
+      ],
+      "factsChecked": [
+        "失物服务用于登记、寻找和认领遗失物品，处理过程包含认领者身份核验。",
+        "原注释说一句描述足以证明归属过于绝对；现实核验可涉及物品特征、遗失经过及身份资料，应改为需要核实。"
+      ],
+      "status": "correction-proposed",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "不同人认领同一物件是虚构的冲突；不把本卡文案当作任何机构的完整认领条件。"
+    },
+    {
+      "id": "place-v21-photostudio",
+      "sources": [
+        {
+          "title": "Science Museum Group：Photographic Studio painted backdrop，1980-823/2",
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8453101/photographic-studio-painted-backdrop"
+        }
+      ],
+      "factsChecked": [
+        "馆藏实物证明照相馆使用绘画背景布，卡片以背景布、留影和旧照片组织空间有实际物质基础。",
+        "照片固定一次拍摄时刻，与之后人物生活不同是创作中可用的时间关系；卡片未指定此馆藏或某个摄影师经历。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "记忆不合、认领或拒绝过去的自己为原创联想；不能由一个时代的样本概括全部摄影工艺。"
+    },
+    {
+      "id": "place-v21-diningcar",
+      "sources": [
+        {
+          "title": "Amtrak：Traditional Dining",
+          "url": "https://www.amtrak.com/onboard/meals-dining/dining-car"
+        }
+      ],
+      "factsChecked": [
+        "餐车提供列车旅途中的餐饮和桌边服务，卡片中行旅、桌席和窗外景色的组合符合用途。",
+        "陌生旅客共享或相邻桌席是一种可成立的故事安排，不宣称所有列车都强制拼桌。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "谈话停在旧事、旅途中的短暂关系属于创作联想；不依据某条线路菜单或营业时间作剧情通则。"
+    },
+    {
+      "id": "place-v21-archive",
+      "sources": [
+        {
+          "title": "National Archives：Arrangement",
+          "url": "https://www.archives.gov/research/catalog/lcdrg/elements/arrangement"
+        },
+        {
+          "title": "National Archives：Researching Accessioned Records",
+          "url": "https://www.archives.gov/records-mgmt/accessioning/research"
+        }
+      ],
+      "factsChecked": [
+        "档案的排列次序和分类帮助使用者定位材料，现文以保存、整理、查阅与编号组织空间。",
+        "档案利用可能涉及申请及权限，来源区分不同材料的研究条件；卡片没有把所有资料均可任意拿走当作常规。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "一份记录不能自动代表一个人的全部生活是阅读方法与戏剧主题，非对某宗真实档案的结论。"
+    },
+    {
+      "id": "place-v22-gallery",
+      "sources": [
+        {
+          "title": "UK Parliament：Access to debates and committees",
+          "url": "https://www.parliament.uk/visiting/access/disabled-access/access-debates-and-committees/"
+        }
+      ],
+      "factsChecked": [
+        "英国议会公开旁听区可观看议事，访客须安静，不参与辩论，支持卡片观看与直接发言分离的基本关系。",
+        "旁听席与议员席分开，能形成上方观察与下方发言的舞台对照；卡片未声称旁听者直接投票。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "以英国议会为具体资料参照，不将高处座席或玻璃隔断视作所有议会的固定布局；无力感是创作解读。"
+    },
+    {
+      "id": "place-v22-cage",
+      "sources": [
+        {
+          "title": "National Coal Mining Museum：Underground Tour — Frequently Asked Questions",
+          "url": "https://www.ncm.org.uk/underground-tours/underground-tour-frequently-asked-questions/"
+        },
+        {
+          "title": "岳阳市政府：关于金属非金属矿山禁止使用的设备及工艺目录第一批的说明（罐笼定义）",
+          "url": "https://www.yueyang.gov.cn/ztxx/63315/63319/content_1875715.html"
+        }
+      ],
+      "factsChecked": [
+        "矿井中用于人员上下的提升容器确有狭窄站立空间及共同升降条件，博物馆将这种设施称为cage。",
+        "中文矿业资料常称罐笼，用于提升人员、材料等；原注释只有比喻，应补充正式术语，不能把它混同于任意施工吊篮。"
+      ],
+      "status": "correction-proposed",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "突然停止、私怨与互助是虚构的故事情境；不对矿井设备安全或实际逃生路线作技术陈述。"
+    },
+    {
+      "id": "place-v22-embassyhall",
+      "sources": [
+        {
+          "title": "GOV.UK：Who the FCDO can support abroad",
+          "url": "https://www.gov.uk/guidance/who-the-fcdo-can-support-abroad"
+        }
+      ],
+      "factsChecked": [
+        "使领馆提供的帮助有明确对象和权限边界，并不是所有来访者都能自动获得庇护或居留。",
+        "现文已经写明这里设想的接待求助者空间，高星文再次限定虚构场景；无需把故事房间误认成各国使馆统一设施。"
+      ],
+      "status": "verified-retained",
+      "verificationMode": "new-source-index-excerpt",
+      "interpretationBoundary": "不将文学中的避难厅解释为外交庇护权或现行申请流程；人物能否留下只在虚构故事内部成立。"
+    },
+    {
+      "id": "place-v22-observatory",
+      "sources": [
+        {
+          "title": "ESO：ELT Dome",
+          "url": "https://elt.eso.org/telescope/dome/"
+        },
+        {
+          "title": "ESO：VLT Telescope dome shutters opening",
+          "url": "https://www.eso.org/public/videos/vlt-dome-shutters-open/"
+        }
+      ],
+      "factsChecked": [
+        "天文观测圆顶用于保护望远镜，观测开口和可转动部分帮助望远镜朝向天空，ESO结构说明有直接支持。",
+        "原文穹顶裂开的缝隙易误作建筑开裂；应称观测窗或观测开口，舞台上照亮人物的光也不宜冒称真实星光照明效果。"
+      ],
+      "status": "correction-proposed",
+      "verificationMode": "new-source-check",
+      "interpretationBoundary": "星空与私人决定的尺度反差为原创联想；不把所有天文台或所有望远镜都限定为同款圆顶。"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "yplace-fachang",
+      "fields": {
+        "essay": "等待号令把所有剩余的时间都变成最后的时间，一句话因而可能同时是辩白、告别与遗言。若故事采用公开行刑的场面，围观者便也成为见证者，他们的沉默会进入这场冲突。"
+      },
+      "sources": [
+        {
+          "title": "教育部《重編國語辭典修訂本》：法場",
+          "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=33773&q=1&word=32"
+        }
+      ],
+      "reason": "把众人见证限定为作品采用的公开行刑情境，避免把围观写成所有行刑制度的要求。",
+      "highStar": [
+        "等待号令把所有剩余的时间都变成最后的时间，一句话因而可能同时是辩白、告别与遗言。若故事采用公开行刑的场面，围观者便也成为见证者，他们的沉默会进入这场冲突。"
+      ]
+    },
+    {
+      "id": "place-v21-willroom",
+      "fields": {
+        "note": "这里设想一间让有关人员共同听取遗嘱的房间。逝者对财产的安排被说出口时，亲情、照料与期待开始互相试探。",
+        "essay": "死亡并未终止一个人对家庭的影响，却让活人失去了当面向他追问的机会。众人对逝者的记忆在利益面前出现不同版本。谁被留下、谁被略过，都会改变在场者对往日关系的理解。"
+      },
+      "sources": [
+        {
+          "title": "GOV.UK：Making a will — Write your will",
+          "url": "https://www.gov.uk/make-will/writing-your-will"
+        }
+      ],
+      "reason": "补足虚构空间定位；遗嘱可安排死后事务，但并不因此构成统一的法定宣读室或不可争议的命令。",
+      "highStar": [
+        "死亡并未终止一个人对家庭的影响，却让活人失去了当面向他追问的机会。众人对逝者的记忆在利益面前出现不同版本。谁被留下、谁被略过，都会改变在场者对往日关系的理解。",
+        "宣读让在场者同时听到一份安排，却不保证他们对同一句话有共同理解。亲属可以争论理由，却已无法向逝者当面询问心意。",
+        "座位、纸页与迟迟不肯离去的人，使抽象的继承关系获得可见形态。戏剧不必停在谁得到多少，更可以追问一份分配怎样改变兄弟、伴侣或照料者对往日生活的理解。"
+      ]
+    },
+    {
+      "id": "place-v21-lostproperty",
+      "fields": {
+        "note": "接收、保管并协助认领遗失物品的服务场所。认领通常需要核对物品特征、遗失经过及相关身份信息；在故事里，说清一个细节也可能牵出一段不愿再提的往事。"
+      },
+      "sources": [
+        {
+          "title": "港铁：Lost Property Registration（个人资料声明）",
+          "url": "https://lpms.mtr.com.hk/Home/"
+        }
+      ],
+      "reason": "不能把一句口头描述写成普遍足以证明所有权的条件；保留由物件牵出人生故事的联想。"
+    },
+    {
+      "id": "place-v22-cage",
+      "fields": {
+        "note": "矿井竖井中升降人员或物料的提升容器，常称罐笼。这里设想几名乘员共同上下的旅程：站立空间有限，谁也不能独自改变这一程的方向。"
+      },
+      "sources": [
+        {
+          "title": "National Coal Mining Museum：Underground Tour — Frequently Asked Questions",
+          "url": "https://www.ncm.org.uk/underground-tours/underground-tour-frequently-asked-questions/"
+        },
+        {
+          "title": "岳阳市政府：关于金属非金属矿山禁止使用的设备及工艺目录第一批的说明（罐笼定义）",
+          "url": "https://www.yueyang.gov.cn/ztxx/63315/63319/content_1875715.html"
+        }
+      ],
+      "reason": "补充矿业通用术语及用途，将共同处境明确为本卡选择的乘员场景。"
+    },
+    {
+      "id": "place-v22-observatory",
+      "fields": {
+        "note": "保护望远镜的穹形建筑，可通过观测开口朝向天空；一些圆顶还能随观测方向转动。用于故事时，遥远星空与近在身旁的人形成尺度反差，一句私心显得很小，却仍无法回避。",
+        "stage": "让观测窗缓缓打开，再用舞台光线显出两个人不愿对视的脸。",
+        "essay": "圆顶把人送进一种近乎神圣的尺度：星光遥远，呼吸却近在耳边。寻找规律的目光并不能取消今晚必须做出的决定。观测窗缓缓开启，两个人却仍难向彼此说清眼前的心事。"
+      },
+      "sources": [
+        {
+          "title": "ESO：ELT Dome",
+          "url": "https://elt.eso.org/telescope/dome/"
+        },
+        {
+          "title": "ESO：VLT Telescope dome shutters opening",
+          "url": "https://www.eso.org/public/videos/vlt-dome-shutters-open/"
+        }
+      ],
+      "reason": "把建筑开裂误读改成观测开口，补充圆顶的实际用途，并将人物照明明确为舞台处理。",
+      "highStar": [
+        "圆顶把人送进一种近乎神圣的尺度：星光遥远，呼吸却近在耳边。寻找规律的目光并不能取消今晚必须做出的决定。观测窗缓缓开启，两个人却仍难向彼此说清眼前的心事。",
+        "观测使人物有了共同注视的对象，也可能让他们暂时避开彼此的眼睛。对于必须谈清的私事，望向远处既可以是陪伴，也可能是一种回避。",
+        "圆顶、仪器和转动的观察方向组织了人物停留的位置，谈话不必靠来回走动才能发生变化。外部尺度越宏大，眼前一个无法代替别人作出的决定就越具体，环境由此映照人的局限。"
+      ]
+    }
+  ],
+  "limits": [
+    "通用空间以词义、建筑或机构功能为核查对象；虚构人物、对话、冲突和象征性解读不冒充现实制度或原作情节。",
+    "V48复用条目不计为本轮新打开资料。",
+    "不修改人物、分数、艺术或index。",
+    "new-source-index-excerpt表示本轮读取了来源可检索正文或摘要，但部分站点直接打开被403拦截或超时；不冒称已阅读全文。具体核验范围以每卡factsChecked为准。",
+    "原作地点核对出处与当前长文出现的具体事件；通用空间核对名称、用途和关系条件。寓意、舞台构想和心理反应属于有基础的编辑联想，不称为文献证明的唯一解释。"
+  ],
+  "summary": {
+    "activeCards": 65,
+    "reviewedCards": 65,
+    "reusedV48": 6,
+    "newExternalChecks": 59,
+    "correctionCards": 5,
+    "scoreOrArtChanges": false
+  }
+}

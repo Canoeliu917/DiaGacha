@@ -142,7 +142,7 @@ test('补正明确升官图两个职务、波莉之父和哥本哈根第三位�
 
 test('咫言咫语保留车站核心科普，只汇总当前六卡的已核来源并去重', () => {
   const source = fs.readFileSync(path.join(root, 'scripts/talk-v39.js'), 'utf8');
-  assert.ok(html.includes(source.trim()), '测试的联想脚本必须已经内联发布');
+  assert.ok(html.replace(/\r/g, '').includes(source.replace(/\r/g, '').trim()), '测试的联想脚本必须已经内联发布');
   const drawn = ['v23-play-busstop', 'style-absurd', 'dir-freeze', 'v23-role-silentman', 'v23-sup-stationmaster', 'place-zoo'].map(get);
   const requested = [];
   const context = vm.createContext({

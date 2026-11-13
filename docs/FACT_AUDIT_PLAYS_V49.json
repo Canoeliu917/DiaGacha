@@ -1,0 +1,2733 @@
+{
+  "version": "V49",
+  "reviewedOn": "2026-11-13",
+  "scope": "100张常驻剧目逐卡外部事实核验",
+  "method": "原剧、剧院、出版方或学术资料与运行时文案逐卡对照。只核验可辨认事实；观剧角度、评价与创作设想不冒充原剧情。分数本轮不变。",
+  "snapshot": "work/fact-audit-v49/plays-latest.json",
+  "reviews": [
+    {
+      "id": "play-oedipus",
+      "name": "俄狄浦斯王",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "MIT Internet Classics Archive：《俄狄浦斯王》原剧英译",
+          "url": "https://classics.mit.edu/Sophocles/oedipus.html"
+        }
+      ],
+      "factsChecked": [
+        "索福克勒斯、忒拜瘟疫及俄狄浦斯追查拉伊俄斯旧案",
+        "传令人与牧人证词指向他的出身、弑父与娶母"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心身份与事件符合原剧；舞台建议和观剧阐释按编辑分析保留。"
+    },
+    {
+      "id": "play-teahouse",
+      "name": "茶馆",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "国家大剧院：《茶馆》演出介绍与剧情",
+          "url": "https://en.chncpa.org/whatson/zdyc/201907/t20190716_206182.shtml"
+        },
+        {
+          "title": "国家大剧院：2019秋季演出册《茶馆》剧情",
+          "url": "https://www.chncpa.org/ycgp_220/jmcxz/201607/P020190902597561079651.pdf"
+        },
+        {
+          "title": "杭州职业技术学院：中国现当代文学课程“十七年戏剧的繁荣”",
+          "url": "https://jwky.hzvtc.cn/__local/B/EE/E1/63BE59FF99C566CB66047E35750_E93B19A3_3438E8.pdf"
+        }
+      ],
+      "factsChecked": [
+        "作者老舍，三幕分别跨越清末、军阀时期和抗战胜利后。",
+        "裕泰茶馆与王利发经营困境贯穿群像；结尾店被侵占，老友作象征性的自我送葬。",
+        "入座路线是卡片明确提出的排演设想，未当作原剧固定调度。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "play-hamlet",
+      "name": "哈姆雷特",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《哈姆雷特》原文与逐场梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/"
+        }
+      ],
+      "factsChecked": [
+        "莎士比亚及丹麦王子背景",
+        "父王鬼魂指认克劳狄斯，戏中戏试探罪行",
+        "误杀波洛涅斯以及终场毒剑、毒酒造成连环死亡"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "作者、人物关系与主要事件符合来源；观剧解读和舞台建议属于编辑性分析。"
+    },
+    {
+      "id": "play-thunder",
+      "name": "雷雨",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "中央戏剧学院：2024教学演出《雷雨》及完整剧情",
+          "url": "https://www.chntheatre.edu.cn/cn/xiao/detail/22315.html"
+        },
+        {
+          "title": "日本国立情报学研究所书目：《雷雨：四幕话剧》1957版",
+          "url": "https://ci.nii.ac.jp/ncid/BA60610080"
+        }
+      ],
+      "factsChecked": [
+        "曹禺四幕话剧；周朴园、侍萍以及周萍、四凤的旧事和血缘构成危机。",
+        "主体事件在炎热的一天集中展开，旧家具、生活习惯与被隐瞒的往事相连。",
+        "高星段落中用家常规矩打断对话是排演提议，不写成既定剧情。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "play-macbeth",
+      "name": "麦克白",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《麦克白》原文与逐场梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/read/"
+        }
+      ],
+      "factsChecked": [
+        "莎士比亚及苏格兰武将麦克白",
+        "女巫预言与夫妇谋杀邓肯夺位",
+        "继续迫害班柯、麦克德夫家人，最终败于麦克德夫"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "作者、人物关系与主要事件符合来源；观剧解读和舞台建议属于编辑性分析。"
+    },
+    {
+      "id": "play-godot",
+      "name": "等待戈多",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord授权出版：《等待戈多》剧情与人物",
+          "url": "https://www.concordtheatricals.com/p/98125/waiting-for-godot"
+        },
+        {
+          "title": "UCLA：《等待戈多》教学与舞台结构",
+          "url": "https://newsroom.ucla.edu/stories/ucla-students-benefit-from-professional-theater-production-of-becketts-waiting-for-godot"
+        }
+      ],
+      "factsChecked": [
+        "贝克特、弗拉季米尔与爱斯特拉冈、树旁等待",
+        "波卓与幸运儿来访，等待对象未出现；重复行为与两幕结构"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    },
+    {
+      "id": "play-peony",
+      "name": "萨勒姆的女巫",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord授权出版：《萨勒姆的女巫》剧情",
+          "url": "https://www.concordtheatricals.com/p/7459/the-crucible"
+        },
+        {
+          "title": "San José State University教学方案：《萨勒姆的女巫》认罪情节",
+          "url": "https://www.sjsu.edu/faculty/mary.warner/StudentLinks/2007_Spring/LEdmondsunitplan.htm"
+        }
+      ],
+      "factsChecked": [
+        "米勒取材1692年萨勒姆猎巫事件的戏剧而非史实逐字复现",
+        "少女指控与普罗克托被捕，拒绝以虚假认罪保命"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    },
+    {
+      "id": "play-doll",
+      "name": "玩偶之家",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "易卜生《玩偶之家》三幕原剧，R. Farquharson Sharp英译",
+          "url": "https://www.gutenberg.org/cache/epub/2542/pg2542-images.html"
+        }
+      ],
+      "factsChecked": [
+        "娜拉秘密筹借治病旅费、丈夫获知后的指责",
+        "第三幕长谈、娜拉要求独立认识自己并离开丈夫与孩子"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "对照原剧核对主要人物、因果及末场，未发现需更正的事实。观剧阐释和排演设想不视为史料断言。"
+    },
+    {
+      "id": "play-salesman",
+      "name": "推销员之死",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord授权出版：《推销员之死》剧情",
+          "url": "https://www.concordtheatricals.com/p/7462/death-of-a-salesman"
+        }
+      ],
+      "factsChecked": [
+        "米勒及威利·洛曼的推销员身份",
+        "成功梦想破灭、妻儿关系与过去经验进入当下冲突"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    },
+    {
+      "id": "play-doue",
+      "name": "窦娥冤",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "关汉卿《窦娥冤》原剧，第三、四折",
+          "url": "https://zh.wikisource.org/wiki/竇娥冤"
+        }
+      ],
+      "factsChecked": [
+        "窦娥为免婆婆受刑而认罪，实际被张驴儿陷害。",
+        "临刑三愿确为血上白练、六月飞雪、亢旱三年。",
+        "父亲窦天章在第四折重审卷宗、查明冤案；不是临刑当场获救。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "play-goodperson",
+      "name": "四川好人",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord：布莱希特《四川好人》授权剧情",
+          "url": "https://www.concordtheatricals.com/s/9070/good-person-of-setzuan-manheimwillett-trans"
+        }
+      ],
+      "factsChecked": [
+        "作者布莱希特；沈黛获神赠款开烟店，善意援助引来索取。",
+        "沈黛假扮表哥隋达维持生意，两身份属同一人物。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "play-cherry",
+      "name": "樱桃园",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "契诃夫《樱桃园》四幕原剧，Julius West英译",
+          "url": "https://www.gutenberg.org/cache/epub/7986/pg7986-images.html"
+        }
+      ],
+      "factsChecked": [
+        "庄园欠债将被拍卖，罗巴辛提出砍园建别墅方案",
+        "第三幕罗巴辛宣布买下庄园，第四幕斧声与离别"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    },
+    {
+      "id": "play-xixiang",
+      "name": "西厢记",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "国家大剧院：王实甫《西厢记》原作与昆曲版本说明",
+          "url": "https://www.chncpa.org/ycxm/201102/t20110221_149588.html"
+        }
+      ],
+      "factsChecked": [
+        "元杂剧原作者王实甫，张生、崔莺莺与红娘为核心人物。",
+        "红娘帮助传书与私会，情人面对崔母安排婚姻的阻力。",
+        "已区分王实甫原作和网页所列王仁杰等昆曲改编主创。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "play-visit",
+      "name": "贵妇还乡",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Union University 剧院：《贵妇还乡》剧情说明",
+          "url": "https://uu.edu/theatre/pdfs/TheVisit_Synopsis_Sp12.pdf"
+        },
+        {
+          "title": "OCR 戏剧课程《贵妇还乡》教师指南",
+          "url": "https://www.ocr.org.uk/Images/281621-the-visit.pdf"
+        }
+      ],
+      "factsChecked": [
+        "作者迪伦马特，原作悲喜剧；克莱尔返乡以捐款换伊尔之死。",
+        "居伦镇民先拒绝再赊购、寻求利益，卡文未混入后来音乐剧的改名和金额。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "play-sunrise",
+      "name": "日出",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "国家大剧院：《日出》陈白露、小东西与方达生的剧情介绍",
+          "url": "https://www.chncpa.org/cgylx/yszl/zlsj/syzl/202602/t20260205_286250.shtml"
+        },
+        {
+          "title": "日本国立情报学研究所书目：《日出：四幕话剧》1957版",
+          "url": "https://ci.nii.ac.jp/ncid/BA86281326"
+        }
+      ],
+      "factsChecked": [
+        "作者曹禺，原剧四幕；陈白露依附潘月亭等权贵，小东西受到剥削。",
+        "陈白露曾试图帮助小东西，最终未能救下她；潘月亭破产之后陈白露自杀。",
+        "高星段落将不同阶层并置和善意的局限作为评论，未添加未核实情节。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "play-yuanye",
+      "name": "原野",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "对外经济贸易大学图书馆：曹禺《原野》版本剧情提要",
+          "url": "https://opac.uibe.edu.cn/opac/book/9c335363b7412f0d7f2ae4b48618c22b"
+        },
+        {
+          "title": "山东大学：论恐惧的形态及其悲剧意义，引用曹禺《原野·附记》",
+          "url": "https://www.lhp.sdu.edu.cn/__local/C/04/4D/6FDB966139A06CCDB541BEF1AEE_BCAB9E1D_FB10A8.pdf?e=.pdf"
+        }
+      ],
+      "factsChecked": [
+        "曹禺话剧，仇虎对焦家复仇，与金子逃亡。",
+        "杀死焦大星后的心理谴责与黑林中的幻觉、迷路有原剧依据。",
+        "曹禺附记提及第三幕鼓声及借鉴《琼斯皇帝》的表现手段，短评中的鼓声并非凭空添加。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "play-rhino",
+      "name": "恋爱的犀牛",
+      "verificationStatus": "verified-v48-reused",
+      "sources": [
+        {
+          "title": "清华大学艺术教育中心：《恋爱的犀牛》主创与剧情介绍",
+          "url": "https://www.hall.tsinghua.edu.cn/info/jz/1379"
+        },
+        {
+          "title": "孟京辉戏剧工作室转载：廖一梅谈《恋爱的犀牛》的表达与版本变化",
+          "url": "https://www.trueart.com/news/242468.html"
+        },
+        {
+          "title": "湖北经济学院：《恋爱的犀牛》校园公演与人物介绍",
+          "url": "https://dwbgs.hbue.edu.cn/45/f4/c11263a345588/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "廖一梅编剧、孟京辉导演及1999年首演",
+        "马路与明明各自得不到回应的感情",
+        "原剧情的绑架与后来演出版本对现实情节的弱化",
+        "水与跑步机属于具体版本，不能泛化为原作必备舞台"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行文案已包含前轮核验修订，沿用已读外部证据。"
+    },
+    {
+      "id": "play-glass",
+      "name": "玻璃动物园",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "A Noise Within：《玻璃动物园》学习指南",
+          "url": "https://www.anoisewithin.org/wp-content/uploads/2018/12/SGSpring_18-19-TheGlassMenagerie_FINAL1-002.pdf"
+        }
+      ],
+      "factsChecked": [
+        "威廉斯的回忆剧，汤姆讲述母亲阿曼达与姐姐劳拉",
+        "母亲催促、汤姆邀请吉姆晚餐；共舞使玻璃独角兽角折断",
+        "吉姆已订婚、汤姆离家而回忆中的内疚未结束"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "人物、事件和文体信息符合来源；未照搬宣传性最高级或不可靠的首演日期。"
+    },
+    {
+      "id": "play-lear",
+      "name": "李尔王",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《李尔王》原文与逐场梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/king-lear/read/"
+        }
+      ],
+      "factsChecked": [
+        "莎士比亚及李尔分国",
+        "考狄利娅因不肯夸大表白遭放逐",
+        "高纳里尔与里根拒绝赡养，暴风雨与终场父女死亡"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "作者、人物关系与主要事件符合来源；观剧解读和舞台建议属于编辑性分析。"
+    },
+    {
+      "id": "play-antigone",
+      "name": "安提戈涅",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "MIT Internet Classics Archive：《安提戈涅》原剧英译",
+          "url": "https://classics.mit.edu/Sophocles/antigone.html"
+        }
+      ],
+      "factsChecked": [
+        "索福克勒斯及克瑞翁对波吕涅刻斯的禁葬令",
+        "安提戈涅埋葬兄长并以亲缘和神圣义务反驳禁令"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心身份与事件符合原剧；舞台建议和观剧阐释按编辑分析保留。"
+    },
+    {
+      "id": "play-orphan",
+      "name": "赵氏孤儿",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "纪君祥《冤报冤赵氏孤儿》原剧，第二至五折",
+          "url": "https://zh.wikisource.org/wiki/趙氏孤兒"
+        }
+      ],
+      "factsChecked": [
+        "纪君祥元杂剧版本中，程婴以自己的亲生孩子替代赵氏遗孤；不混同史书或其他改编。",
+        "程婴养育孤儿，第二折明确预期二十年后报仇，后续以画卷讲出灭门真相。",
+        "屠岸贾为灭赵氏的对手，亲情与身份的评论由上述结构展开。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "play-peach",
+      "name": "桃花扇",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "复旦大学：章培恒《桃花扇与史实的巨大差别》",
+          "url": "https://www.gdwx.fudan.edu.cn/7a/c6/c3810a31430/page.htm"
+        },
+        {
+          "title": "广东药科大学：经典阅读《桃花扇》剧情介绍",
+          "url": "https://gdlm.gdipu.edu.cn/info/1026/1497.htm"
+        }
+      ],
+      "factsChecked": [
+        "孔尚任传奇以侯方域、李香君离合串联南明兴亡。",
+        "李香君拒绝逼婚而撞伤、血溅扇面，杨龙友将血痕点染成桃花。",
+        "只核对传奇情节，不将作者虚构的血扇等细节说成侯李真实生平。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "play-palace",
+      "name": "建筑大师",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "易卜生《建筑大师》原剧，Gosse / Archer英译",
+          "url": "https://www.gutenberg.org/files/4070/4070-h/4070-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "索尔尼斯压制拉格纳等年轻竞争者",
+        "希尔达唤起他登塔的记忆与雄心",
+        "终场攀塔挂花环、坠落身亡"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "对照原剧核对主要人物、因果及末场，未发现需更正的事实。观剧阐释和排演设想不视为史料断言。"
+    },
+    {
+      "id": "play-secret",
+      "name": "暗恋桃花源",
+      "verificationStatus": "verified-v48-reused",
+      "sources": [
+        {
+          "title": "台中国家歌剧院：《暗恋桃花源》作品简介",
+          "url": "https://www.npac-ntt.org/program/events/c-TAB0YpD3oZH"
+        },
+        {
+          "title": "表演工作坊：《暗恋桃花源》纪念版主创署名及戏中戏结构",
+          "url": "https://www.opentix.life/event/2001257814444711937"
+        }
+      ],
+      "factsChecked": [
+        "赖声川规划、导演及原始剧组共同构思署名",
+        "1986年首演",
+        "争用同一舞台的外层故事及悲喜双线结构"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行文案已包含前轮核验修订，沿用已读外部证据。"
+    },
+    {
+      "id": "play-beijing",
+      "name": "北京人",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "文化和旅游部：话剧《北京人》剧情与创作介绍",
+          "url": "https://www.mct.gov.cn/ggfw/zyjzzt/yanchu/yanchuwqhg/202211/t20221101_937099.html"
+        },
+        {
+          "title": "人民文学出版社《北京人：三幕剧》1994版书目及数字化摘要",
+          "url": "https://books.google.com/books/about/北京人.html?id=DuAuAQAAIAAJ"
+        }
+      ],
+      "factsChecked": [
+        "曹禺三幕话剧，以曾家衰败、债务和家庭关系为背景。",
+        "愫方与瑞贞在结尾离开，文清走向毁灭；卡片未把所有年轻人概括为成功出走。",
+        "高星介绍讨论旧礼法、婚配与责任，未增加具体历史断言。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "play-baimao",
+      "name": "白毛女",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "中国歌剧舞剧院：复排歌剧《白毛女》创作署名与完整剧情",
+          "url": "https://www.cnoddt.cn/zggjwjy/gej/201505/1b8ab91ca2344a108c4acf7e9390fa0c.shtml"
+        },
+        {
+          "title": "国家大剧院：《白毛女》1945年新歌剧创作介绍",
+          "url": "https://www.chncpa.org/zxdtxlm/rdjjjhlm/rdjj_wx/202106/t20210603_232470.shtml"
+        }
+      ],
+      "factsChecked": [
+        "对应鲁艺集体创作、贺敬之与丁毅执笔的新歌剧，未混为后来的芭蕾版本。",
+        "喜儿被卖入黄家受欺压，逃往山中，白发形象被误认为白毛仙姑；大春等找到她。",
+        "卖身契约与重获人的生活均有剧情依据；没有将戏剧里的白发成因包装成医学常识。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "play-street",
+      "name": "欲望号街车",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord授权出版：《欲望号街车》",
+          "url": "https://www.concordtheatricals.com/p/98265/a-streetcar-named-desire"
+        },
+        {
+          "title": "École Polytechnique：《欲望号街车》第九场阅读指南，纸灯罩情节",
+          "url": "https://portail.polytechnique.edu/editions/sites/editions/files/content/pages/documents/2024-12/extrait_87.pdf"
+        }
+      ],
+      "factsChecked": [
+        "威廉斯及布兰奇、斯特拉、斯坦利的关系",
+        "布兰奇失去旧家后投奔妹妹、过去暴露并精神崩溃",
+        "第九场米契揭去纸灯罩，布兰奇恐惧暴露在直射光下"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "人物、事件和文体信息符合来源；未照搬宣传性最高级或不可靠的首演日期。"
+    },
+    {
+      "id": "play-sisters",
+      "name": "三姐妹",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "契诃夫《三姐妹》原剧，Constance Garnett英译",
+          "url": "https://www.ibiblio.org/eldritch/ac/sisters.htm"
+        }
+      ],
+      "factsChecked": [
+        "奥尔加、玛莎、伊琳娜的莫斯科记忆与回归愿望",
+        "娜塔莎改变家中空间，驻军离去",
+        "图森巴赫死于决斗，伊琳娜的未来计划被打断"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "对照原剧核对主要人物、因果及末场，未发现需更正的事实。观剧阐释和排演设想不视为史料断言。"
+    },
+    {
+      "id": "play-butterfly",
+      "name": "海达·高布乐",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "易卜生《海达·高布乐》原剧，Gosse / Archer英译",
+          "url": "https://www.gutenberg.org/files/4093/4093-h/4093-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "海达与泰斯曼的婚姻、勒夫堡和泰娅合作手稿",
+        "海达烧毁手稿并交出手枪",
+        "布拉克掌握手枪线索，以丑闻控制海达；海达最终自杀"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "对照原剧核对主要人物、因果及末场，未发现需更正的事实。观剧阐释和排演设想不视为史料断言。"
+    },
+    {
+      "id": "xplay-faust",
+      "name": "浮士德",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "歌德《浮士德》第一部英译原文",
+          "url": "https://www.gutenberg.org/cache/epub/14591/pg14591-images.html"
+        },
+        {
+          "title": "歌德《浮士德》第二部德文原文第五幕",
+          "url": "https://www.gutenberg.org/cache/epub/2230/pg2230-images.html"
+        }
+      ],
+      "factsChecked": [
+        "作者歌德，浮士德与梅菲斯特订约，第一部格蕾琴悲剧。",
+        "第二部第五幕梅菲斯特等迫迁导致老夫妻与旅客死亡；浮士德将掘墓误认掘渠。",
+        "结尾格蕾琴以忏悔者出现、引领向上，当前救赎意象描述不误作现实复活。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "xplay-seagull",
+      "name": "海鸥",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "契诃夫《海鸥》四幕原剧英译",
+          "url": "https://www.gutenberg.org/cache/epub/1754/pg1754-images.html"
+        }
+      ],
+      "factsChecked": [
+        "特里波列夫的新戏、妮娜对演员生活与特里果林的向往",
+        "海鸥被射杀、制成标本、再次出现的结构",
+        "妮娜重逢后继续演戏，末场众人游戏时传来场外枪声"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "对照原剧核对主要人物、因果及末场，未发现需更正的事实。观剧阐释和排演设想不视为史料断言。"
+    },
+    {
+      "id": "xplay-vanya",
+      "name": "万尼亚舅舅",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "契诃夫《万尼亚舅舅》四幕原剧英译",
+          "url": "https://www.gutenberg.org/cache/epub/1756/pg1756-images.html"
+        }
+      ],
+      "factsChecked": [
+        "多年供养教授与庄园出售引发的争执",
+        "万尼亚开枪未中，教授夫妇离去",
+        "结尾万尼亚和索尼娅恢复账目与劳动"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "对照原剧核对主要人物、因果及末场，未发现需更正的事实。观剧阐释和排演设想不视为史料断言。"
+    },
+    {
+      "id": "xplay-tartuffe",
+      "name": "伪君子",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "莫里哀《伪君子》原剧",
+          "url": "https://www.gutenberg.org/cache/epub/2027/pg2027-images.html"
+        }
+      ],
+      "factsChecked": [
+        "作者莫里哀，奥尔贡盲信答尔丢夫并安排女儿嫁给他。",
+        "第三幕确已决定签赠产契约，第四幕承认赠与已成，不能将家产说成仅险些交出。",
+        "桌下偷听揭穿伪善，末幕君主撤销赠产契约并命拘捕答尔丢夫。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "修正赠产已发生与婚事尚未成的区别。"
+    },
+    {
+      "id": "xplay-miser",
+      "name": "吝啬鬼",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "莫里哀《吝啬鬼》原剧",
+          "url": "https://www.gutenberg.org/cache/epub/6923/pg6923-images.html"
+        }
+      ],
+      "factsChecked": [
+        "作者莫里哀，阿巴贡与儿子均爱玛丽雅娜，安排儿女婚姻时着重钱财。",
+        "钱匣被盗触发阿巴贡失控；人物表及第四幕支持卡片核心叙述。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读与排演建议不作原剧情事实断言。"
+    },
+    {
+      "id": "xplay-figaro",
+      "name": "费加罗的婚礼",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord：博马舍《费加罗的婚礼》剧本授权介绍",
+          "url": "https://www.concordtheatricals.com/s/14640/the-marriage-of-figaro"
+        }
+      ],
+      "factsChecked": [
+        "博马舍原喜剧区别于莫扎特据其改编的歌剧。",
+        "费加罗与苏珊娜将结婚，伯爵企图占有苏珊娜；费加罗与女性角色合作反制。",
+        "来源为 Joan Holden 英语改编授权页，本次只使用其与原剧一致的核心关系，不挪用该版本恢复的删节情节。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读与排演建议不作原剧情事实断言。"
+    },
+    {
+      "id": "xplay-galileo",
+      "name": "伽利略传",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Northwestern ETOPiA：《伽利略传》演出介绍",
+          "url": "https://www.mccormick.northwestern.edu/etopia/past-performances/life-of-galileo.html"
+        },
+        {
+          "title": "St Leonard’s College：布莱希特《伽利略传》文本冲突教学资料",
+          "url": "https://cpb-ap-se2.wpmucdn.com/learn.stleonards.vic.edu.au/dist/7/135/files/2016/03/Life-of-Galileo-Encountering-Conflict.pdf"
+        }
+      ],
+      "factsChecked": [
+        "布莱希特戏剧中的望远镜观察、教会威胁及撤回主张。",
+        "伽利略向安德烈承认恐惧酷刑，秘密手稿继续流传；不能把戏中人物生平直接等同历史科学家。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "xplay-rhino",
+      "name": "犀牛",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord授权出版：尤内斯库《犀牛》",
+          "url": "https://www.concordtheatricals.com/p/2112/rhinoceros"
+        }
+      ],
+      "factsChecked": [
+        "本卡为尤内斯库作品，区别于廖一梅《恋爱的犀牛》",
+        "法国小城居民变形，贝朗热最后仍保留人形和身份"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    },
+    {
+      "id": "xplay-bald",
+      "name": "秃头歌女",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord授权出版：《秃头歌女》Allen英译",
+          "url": "https://www.concordtheatricals.com/p/3070/the-bald-soprano-trans-allen"
+        },
+        {
+          "title": "Otterbein University戏剧系：《秃头歌女》演出档案与剧情",
+          "url": "https://digitalcommons.otterbein.edu/production_1960-1961/4/"
+        }
+      ],
+      "factsChecked": [
+        "尤内斯库、史密斯夫妇和马丁夫妇的访谈",
+        "无效对话、终场由马丁夫妇复述开头台词的循环"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    },
+    {
+      "id": "xplay-chairs",
+      "name": "椅子",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Royal Court演出档案：《椅子》",
+          "url": "https://livingarchive.royalcourttheatre.com/plays/the-chairs/"
+        },
+        {
+          "title": "Harvard Crimson现场剧评：《椅子》的演说家终场",
+          "url": "https://www.thecrimson.com/article/1961/12/13/the-chairs-and-the-maids/"
+        }
+      ],
+      "factsChecked": [
+        "尤内斯库、老夫妻、为看不见的宾客增添椅子",
+        "等待演说家传达老人的信息，演说最终不能有效传达"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    },
+    {
+      "id": "xplay-longday",
+      "name": "进入黑夜的漫长旅程",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord授权出版：《进入黑夜的漫长旅程》",
+          "url": "https://www.concordtheatricals.com/p/98198/long-days-journey-into-night"
+        }
+      ],
+      "factsChecked": [
+        "奥尼尔自传性剧作，泰隆家庭的爱与怨恨",
+        "詹姆斯饮酒、玛丽吗啡依赖、埃德蒙患病、杰米的挫败"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "人物、事件和文体信息符合来源；未照搬宣传性最高级或不可靠的首演日期。"
+    },
+    {
+      "id": "xplay-pygmalion",
+      "name": "皮格马利翁",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "萧伯纳《皮格马利翁》原剧",
+          "url": "https://www.gutenberg.org/cache/epub/3825/pg3825-images.html"
+        }
+      ],
+      "factsChecked": [
+        "作者萧伯纳，伊莉莎为卖花女，希金斯为语音学家。",
+        "第五幕伊莉莎争取独立并提出以所学语音知识谋生；不能把故事简单当成实验成功后的爱情配对。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读与排演建议不作原剧情事实断言。"
+    },
+    {
+      "id": "xplay-merchant",
+      "name": "威尼斯商人",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《威尼斯商人》原文与逐场梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/the-merchant-of-venice/read/"
+        }
+      ],
+      "factsChecked": [
+        "莎士比亚及安东尼奥为巴萨尼奥向夏洛克借债",
+        "一磅肉契约与官司",
+        "鲍西娅乔装律师参与审判"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "作者、人物关系与主要事件符合来源；观剧解读和舞台建议属于编辑性分析。"
+    },
+    {
+      "id": "xplay-romeo",
+      "name": "罗密欧与朱丽叶",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《罗密欧与朱丽叶》原文与逐场梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/romeo-and-juliet/read/"
+        }
+      ],
+      "factsChecked": [
+        "莎士比亚及蒙太古、凯普莱特家族世仇",
+        "秘密婚礼、提伯尔特死亡与罗密欧被逐",
+        "药物假死和传信失败导致双双死亡"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "作者、人物关系与主要事件符合来源；观剧解读和舞台建议属于编辑性分析。"
+    },
+    {
+      "id": "xplay-jia",
+      "name": "家",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "上海戏剧学院：表演系2020级《雷雨》《日出》《家》教学演出及版本说明",
+          "url": "https://by.sta.edu.cn/cf/34/c5234a118580/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "曹禺根据巴金同名小说改编，话剧集中处理觉新、瑞珏、梅等人物。",
+        "高家青年面对家长制、包办婚姻与爱情的不同命运，当前卡片未将小说全部事件直接移植为舞台事件。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "xplay-quyuan",
+      "name": "屈原",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "华东师范大学：郭沫若《屈原》历史剧与历史想象研究",
+          "url": "https://chinese-thought.ecnu.edu.cn/_upload/article/files/00/73/5bf16f98422194a64f8b0225171a/91e64df1-2553-4527-98da-99927ad5fef4.pdf"
+        },
+        {
+          "title": "上海戏剧学院：张瑞芳饰演《屈原》婵娟的回忆",
+          "url": "https://www.sta.edu.cn/71/34/c1579a28980/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "郭沫若历史剧将朝廷诬陷、屈原被囚与婵娟饮毒集中在戏剧结构中。",
+        "婵娟之死是剧中事件，不是屈原传记可直接核实的史实。",
+        "现有长文已明确不能把剧中安排直接当作屈原生平，保留这一边界。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "xplay-guantheplay",
+      "name": "关汉卿",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "田汉基金会：田汉《关汉卿》自序，1961年人民文学出版社版原序",
+          "url": "https://www.tianhanfoundation.org/news_35/375.html"
+        },
+        {
+          "title": "田汉基金会：《关汉卿》作品介绍",
+          "url": "https://www.tianhanfoundation.org/news_28/194.html"
+        }
+      ],
+      "factsChecked": [
+        "田汉话剧将关汉卿创作、演出《窦娥冤》与权臣迫害联系起来。",
+        "作者自序使用“朱帘秀”，并说明人物关系和部分迫害事件有戏剧想象。",
+        "把原注的“珠帘秀”统一为原剧名“朱帘秀”，增加“剧中”以免把剧情误作可靠传记。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "纠正田汉原剧中的人物用字，明确此处叙述剧中事件。"
+    },
+    {
+      "id": "xplay-camel",
+      "name": "骆驼祥子",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "新华社：北京人艺《骆驼祥子》演出历史与梅阡改编",
+          "url": "https://www.xinhuanet.com/2021-05/16/c_1127453047.htm"
+        },
+        {
+          "title": "国家大剧院：北京人艺《骆驼祥子》版本、人物和开放式结局",
+          "url": "https://www.chncpa.org/zxdt_331/zxdtlm/yczx_332/201608/t20160823_98146.shtml"
+        }
+      ],
+      "factsChecked": [
+        "老舍小说为原作，梅阡改编的北京人艺话剧为卡片所指版本。",
+        "祥子买车谋求独立、反复受挫，虎妞与小福子关系是其生活危机的一部分。",
+        "人艺不同复排曾调整结尾，卡片没有把小说末尾或某次复排的单一结局写死。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "xplay-lou",
+      "name": "天下第一楼",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "国家大剧院：北京人艺《天下第一楼》作者与完整剧情",
+          "url": "https://www.chncpa.org/ycxm/201211/t20121108_148589.html"
+        }
+      ],
+      "factsChecked": [
+        "作者何冀平，福聚德掌柜卢孟实经营烤鸭店。",
+        "唐家少爷与店内外权力冲突使卢孟实经营成果被毁；手艺、生意、东家与掌柜的矛盾有剧情依据。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "xplay-sang",
+      "name": "桑树坪纪事",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "中国文联：《桑树坪纪事》陈子度、杨健、朱晓平等创作资料",
+          "url": "https://www.cflac.org.cn/wywzt/2018/ytdj/xj/xxz/grzp/201803/t20180329_401234.html"
+        },
+        {
+          "title": "中央戏剧学院：中国文艺评论专访徐晓钟，导演解释《桑树坪纪事》的围猎结构",
+          "url": "https://www.chntheatre.edu.cn/cn/mei/detail/21860.html"
+        },
+        {
+          "title": "林伟瑜：从写意到意境，戏剧研究37期，桑树坪纪事剧本及舞台分析，页81—85",
+          "url": "https://theatre.ntu.edu.tw/journal/text/pdf/37/37-2.pdf"
+        }
+      ],
+      "factsChecked": [
+        "三位编剧与朱晓平小说改编来源；1968—1969年背景和十二岁月娃被送去作童养媳均有明确记载。",
+        "福林、青女、李金斗、王志科及耕牛豁子事件逐项对照导演口述与剧本研究。",
+        "摊派耕牛的背景是公社开会招待来宾，原长文“县里的庆典”不准确，改成公社开会。",
+        "群像事件并置、歌队和评论性结构是徐晓钟演出特征，未泛称为唯一合法演法。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "修正高星长文中会议层级；其余人物、年龄与结构事实得到对应证据支持。"
+    },
+    {
+      "id": "xplay-doggy",
+      "name": "狗儿爷涅槃",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "林伟瑜：从写意到意境，戏剧研究37期，狗儿爷涅槃的剧本和演出分析，页69—72",
+          "url": "https://theatre.ntu.edu.tw/journal/text/pdf/37/37-2.pdf"
+        }
+      ],
+      "factsChecked": [
+        "作者锦云，现实烧门楼的框架与主人公经历的回忆相互交错。",
+        "狗儿爷执着土地与旧地主门楼，儿子对土地的新用途触发父子矛盾。",
+        "剧本第15、16场和林兆华舞台处理对狗儿爷离去确有差异，现有文案保留开放性而不断言死亡。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "xplay-shangyang",
+      "name": "商鞅",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "南京大学中国新文学研究中心：《姚远剧作论》之《商鞅》人物与剧情分析",
+          "url": "https://njucml.nju.edu.cn/5e/80/c22609a351872/page.htm"
+        },
+        {
+          "title": "中国文联文艺研修院：《商鞅》观摩与主创交流资料",
+          "url": "https://www.alac.org.cn/project/news_details_44_46780.html"
+        }
+      ],
+      "factsChecked": [
+        "姚远话剧以商鞅生涯、秦国变法、与权贵结怨及新君继位后的败亡为主线。",
+        "戏剧包含虚构身世和人物关系；当前卡片只概括剧中的制度、权力与生命代价。",
+        "没有把特定舞台结尾的箭镞或史书车裂方式泛化为所有版本。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "xplay-caoyang",
+      "name": "曹操与杨修",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "中国文联：陈亚先谈《曹操与杨修》的创作前后",
+          "url": "https://www.cflac.org.cn/zt/2008-11/13/content_14908242.htm"
+        },
+        {
+          "title": "南京大学：陈军《诗意的自由与现实的枷锁——从曹操与杨修到贞观盛事》",
+          "url": "https://njucml.nju.edu.cn/5a/f8/c22623a350968/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "陈亚先编剧的上海京剧院京剧，作者和剧种匹配。",
+        "曹操赏识杨修又拒绝他越过权威，鸡肋、擅作退兵准备与最后处死杨修为剧情关系。",
+        "“知音”与权力的评论属于对人物关系的阐释，不冒充史实因果。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "xplay-liqiu",
+      "name": "立秋",
+      "verificationStatus": "verified-v48-reused",
+      "sources": [
+        {
+          "title": "山西财经大学《立秋》剧组：寻找《立秋》传承人",
+          "url": "https://tw.sxufe.edu.cn/info/1025/7857.htm"
+        },
+        {
+          "title": "山西省话剧院《立秋》演出资料、演职员表（新浪存档）",
+          "url": "https://ent.sina.com.cn/h/2005-04-05/2049694741.html?from=wap"
+        }
+      ],
+      "factsChecked": [
+        "丰德票号与马洪翰人物",
+        "姚宝瑄、卫中编剧署名及家庭经营危机"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行文案已包含前轮核验修订，沿用已读外部证据。"
+    },
+    {
+      "id": "yplay-prometheus",
+      "name": "被缚的普罗米修斯",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "MIT Internet Classics Archive：《被缚的普罗米修斯》原剧英译",
+          "url": "https://classics.mit.edu/Aeschylus/prometheus.html"
+        }
+      ],
+      "factsChecked": [
+        "传统埃斯库罗斯署名；本卡保留归属争议措辞",
+        "盗火助人受罚、伊俄来访、拒绝向赫尔墨斯透露宙斯婚姻的秘密",
+        "终场雷霆地震，没有在本剧内获得释放"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心身份与事件符合原剧；舞台建议和观剧阐释按编辑分析保留。"
+    },
+    {
+      "id": "yplay-agamemnon",
+      "name": "阿伽门农",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "MIT Internet Classics Archive：《阿伽门农》原剧英译",
+          "url": "https://classics.mit.edu/Aeschylus/agamemnon.html"
+        },
+        {
+          "title": "杜克大学古典学课程：《阿伽门农》逐场梗概",
+          "url": "https://people.duke.edu/~wj25/UC_Web_Site/tragedy/summaries/agamemnon.html"
+        }
+      ],
+      "factsChecked": [
+        "埃斯库罗斯及阿伽门农从特洛亚归来",
+        "烽火、王后劝踏紫色织物、卡珊德拉预言死亡",
+        "王后杀夫并以伊菲革涅亚之死辩护，埃癸斯托斯接续家族复仇"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心身份与事件符合原剧；舞台建议和观剧阐释按编辑分析保留。"
+    },
+    {
+      "id": "yplay-birds",
+      "name": "鸟",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "MIT Internet Classics Archive：《鸟》原剧英译",
+          "url": "https://classics.mit.edu/Aristophanes/birds.html"
+        }
+      ],
+      "factsChecked": [
+        "阿里斯托芬及两名逃离雅典生活的访客",
+        "向群鸟提议在天空筑城，以阻断祭烟迫使众神服从"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心身份与事件符合原剧；舞台建议和观剧阐释按编辑分析保留。"
+    },
+    {
+      "id": "yplay-phedre",
+      "name": "费德尔",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "American Repertory Theater：拉辛《费德尔》剧情与演职表",
+          "url": "https://americanrepertorytheater.org/shows-events/phaedra/"
+        }
+      ],
+      "factsChecked": [
+        "拉辛版本中费德尔爱上继子希波吕托斯，忒修斯死讯是误传。",
+        "欧诺娜获费德尔允许诬告继子，忒修斯归来后的误信造成灾难；未混同欧里庇得斯版本。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读与排演建议不作原剧情事实断言。"
+    },
+    {
+      "id": "yplay-threepenny",
+      "name": "三毛钱歌剧",
+      "verificationStatus": "verified-v48-reused",
+      "sources": [
+        {
+          "title": "库尔特·魏尔基金会：《三毛钱歌剧》主创与逐幕剧情",
+          "url": "https://www.kwf.org/works/die-dreigroschenoper/"
+        }
+      ],
+      "factsChecked": [
+        "布莱希特、魏尔和豪普特曼的创作合作及《乞丐歌剧》来源",
+        "皮丘姆是波莉的父亲，不是麦克希思的父亲"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行文案已包含前轮核验修订，沿用已读外部证据。"
+    },
+    {
+      "id": "yplay-endgame",
+      "name": "终局",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "亚历山大图书馆：《终局》逐段剧情梗概",
+          "url": "https://www.bibalex.org/libraries/NewsImages/2013100714582140715_1310BeckettEndgame.pdf"
+        }
+      ],
+      "factsChecked": [
+        "贝克特及汉姆、克洛夫、纳格、内尔的关系",
+        "汉姆失明且坐轮椅、父母住垃圾桶",
+        "克洛夫反复宣布离开，结尾仍在门旁观看"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    },
+    {
+      "id": "yplay-krapp",
+      "name": "克拉普的最后录音带",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Royal Court首演档案：《克拉普的最后录音带》",
+          "url": "https://livingarchive.royalcourttheatre.com/plays/krapps-last-tape/"
+        }
+      ],
+      "factsChecked": [
+        "贝克特独角戏、69岁的克拉普生日录音仪式",
+        "播放30年前自己的录音，回听、嘲讽过去并录下当下声音"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    },
+    {
+      "id": "yplay-enemy",
+      "name": "人民公敌",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "易卜生《人民公敌》原剧，《Collected Works》第8卷",
+          "url": "https://www.gutenberg.org/cache/epub/70577/pg70577-images.html"
+        }
+      ],
+      "factsChecked": [
+        "斯多克芒医生发现浴场水受污染",
+        "整改费用触及纳税人与地方收入，媒体和市民转向反对",
+        "公众大会、家庭职业损失及结尾决定留下"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "对照原剧核对主要人物、因果及末场，未发现需更正的事实。观剧阐释和排演设想不视为史料断言。"
+    },
+    {
+      "id": "yplay-peer",
+      "name": "培尔·金特",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "易卜生《培尔·金特》原剧，《Collected Works》第4卷",
+          "url": "https://www.gutenberg.org/files/66239/66239-h/66239-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "培尔离乡漫游、发迹与破产、晚年归来",
+        "剥洋葱与身份层层剥除的自问",
+        "纽扣匠审问、索尔维格接纳，剧终仍有未完成的召唤"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "对照原剧核对主要人物、因果及末场，未发现需更正的事实。观剧阐释和排演设想不视为史料断言。"
+    },
+    {
+      "id": "yplay-inspector",
+      "name": "钦差大臣",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "果戈理《钦差大臣》原剧",
+          "url": "https://www.gutenberg.org/cache/epub/3735/pg3735-images.html"
+        }
+      ],
+      "factsChecked": [
+        "果戈理喜剧，赫列斯达可夫被误认钦差，官员向他行贿。",
+        "末场宪兵宣布奉皇命自彼得堡来的官员要见众人，紧接静场，符合僵住的描述。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "yplay-mrswarren",
+      "name": "华伦夫人的职业",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "萧伯纳《华伦夫人的职业》原剧",
+          "url": "https://www.gutenberg.org/cache/epub/1097/pg1097-images.html"
+        }
+      ],
+      "factsChecked": [
+        "作者萧伯纳，母亲经营妓院供养薇薇。",
+        "末幕薇薇区分母亲过去迫于贫困与如今继续经营，退回生活费并选择工作。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读与排演建议不作原剧情事实断言。"
+    },
+    {
+      "id": "yplay-tempest",
+      "name": "暴风雨",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《暴风雨》原文与逐场梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/the-tempest/read/"
+        }
+      ],
+      "factsChecked": [
+        "莎士比亚及流亡的米兰公爵普洛斯彼罗",
+        "风暴将安东尼奥、阿隆索等带到岛上",
+        "赦免仇敌、放弃魔法、释放爱丽儿并准备返回"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "作者、人物关系与主要事件符合来源；观剧解读和舞台建议属于编辑性分析。"
+    },
+    {
+      "id": "yplay-richard",
+      "name": "理查三世",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《理查三世》原文与逐场梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/richard-iii/read/"
+        }
+      ],
+      "factsChecked": [
+        "莎士比亚及格洛斯特公爵理查的王位阴谋",
+        "克拉伦斯及王子遇害，理查夺取王位",
+        "里奇蒙德击败理查，理查死亡"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "作者、人物关系与主要事件符合来源；观剧解读和舞台建议属于编辑性分析。"
+    },
+    {
+      "id": "yplay-caesar",
+      "name": "裘力斯·凯撒",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Folger Shakespeare Library：《裘力斯·凯撒》原文与逐场梗概",
+          "url": "https://www.folger.edu/explore/shakespeares-works/julius-caesar/read/"
+        }
+      ],
+      "factsChecked": [
+        "莎士比亚及布鲁图斯、卡西乌斯的反王权动机",
+        "凯撒遇刺与安东尼葬礼演说改变民众态度",
+        "腓立比战败与布鲁图斯、卡西乌斯死亡"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "作者、人物关系与主要事件符合来源；观剧解读和舞台建议属于编辑性分析。"
+    },
+    {
+      "id": "yplay-caiwenji",
+      "name": "蔡文姬",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "郭沫若：序《蔡文姬》，人民日报1959年5月16日第7版数字重刊",
+          "url": "https://cn.govopendata.com/renminribao/1959/05/16/7/"
+        },
+        {
+          "title": "黄冈师范学院所载音乐教材：《蔡文姬》第五幕《重睹芳华》说明",
+          "url": "https://music.hgnu.edu.cn/_upload/article/files/09/d4/faf43ffb4e08b61cf64ee0adaf16/9e893fdc-b47f-484c-a549-e41df3b03d96.pdf"
+        },
+        {
+          "title": "内蒙古文联：于平讨论郭沫若《蔡文姬》与文姬归汉题材",
+          "url": "https://www.imflac.org.cn/pinglun/11177.html"
+        }
+      ],
+      "factsChecked": [
+        "卡片对应郭沫若历史剧，非程砚秋京剧或同题材舞剧。",
+        "归汉、舍别孩子与承续父亲著述是该剧的核心选择；教材对第五幕续修父业作明确说明。",
+        "作者序言承认把个人经验融入历史戏剧，卡片未宣称剧情就是无争议的历史事实。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "yplay-eaves",
+      "name": "上海屋檐下",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "中国人民大学文学院：《空间的俘虏——上海屋檐下中的空间探究》",
+          "url": "https://wenxueyuan.ruc.edu.cn/UploadFile/20150524/20150524110730660.pdf"
+        },
+        {
+          "title": "沈芸：《我又见到了我的祖父夏衍》，关于上海屋檐下人物和舞台的回忆",
+          "url": "https://wenxueyuan.ruc.edu.cn/UploadFile/20150705/20150705012522524.pdf"
+        }
+      ],
+      "factsChecked": [
+        "夏衍话剧写上海弄堂五户人家一天的生活，雨天和共用住宅为基本环境。",
+        "匡复出狱回来，发现妻子杨彩玉已与友人林志成结合，形成与邻里群像相交的事件。",
+        "失业、贫困和屋檐下相互听见的私人生活与当前卡片相符；不采用论文开头“1934”与正文“1937”自相矛盾的年份细节。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "yplay-promotion",
+      "name": "升官图",
+      "verificationStatus": "verified-v48-reused",
+      "sources": [
+        {
+          "title": "彭林祥：《升官图》的问世与上演，《文艺报》2016年6月24日",
+          "url": "https://image.chinawriter.com.cn/61/2016/0624/U3875P843T61D1643F788DT20160624064112.pdf"
+        }
+      ],
+      "factsChecked": [
+        "陈白尘作者及梦境结构",
+        "两个盗贼分别冒充知县和秘书长，并非两个同职县官"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行文案已包含前轮核验修订，沿用已读外部证据。"
+    },
+    {
+      "id": "yplay-wotu",
+      "name": "窝头会馆",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "刘恒：《窝头会馆》原剧书摘，文艺报／作家出版社2024版",
+          "url": "https://wyb.chinawriter.com.cn/Pad/content/202411/01/content76782.html"
+        },
+        {
+          "title": "北京市文化和旅游局：《窝头会馆》三幕剧情介绍",
+          "url": "https://lyzz.visitbeijing.com.cn/news/detail?id=24991"
+        }
+      ],
+      "factsChecked": [
+        "原剧作者刘恒，首幕明确1948年夏、北平南城小院背景，后续到秋冬。",
+        "原剧列明苑国钟房主、租户与患痨病的苑江淼，租房、疾病、生计均有直接依据。",
+        "邻里讥讽和互相依赖是戏剧关系的评论，未将卡片隐喻“抽屉”说成实际布景。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心事实与所查原剧、剧院或学术资料相符；观剧角度与排演建议按评论／设想理解。"
+    },
+    {
+      "id": "yplay-jiang",
+      "name": "蒋公的面子",
+      "verificationStatus": "verified-v48-reused",
+      "sources": [
+        {
+          "title": "南京大学转载温方伊访谈：《蒋公的面子》的校园创作与历史细节",
+          "url": "https://www.nju.edu.cn/info/3191/194991.htm"
+        },
+        {
+          "title": "清华大学艺术教育中心：《蒋公的面子》的两个时代与三位教授",
+          "url": "https://www.hall.tsinghua.edu.cn/info/xwkx/1411"
+        }
+      ],
+      "factsChecked": [
+        "温方伊编剧、吕效平导演及2012年校园创作背景",
+        "三教授姓名为时任道、夏小山、卞从周",
+        "1943年赴宴争议与1967年回忆的双重时间",
+        "取意于校园轶事，戏剧虚构不能直接当作校史实录"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行文案已包含前轮核验修订，沿用已读外部证据。"
+    },
+    {
+      "id": "yplay-pipa",
+      "name": "朱莉小姐",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "斯特林堡《朱莉小姐》（Countess Julie）原剧英译",
+          "url": "https://www.gutenberg.org/files/8499/8499-h/8499-h.htm"
+        }
+      ],
+      "factsChecked": [
+        "作者斯特林堡，人物表含朱莉、男仆让与厨娘克里斯廷。",
+        "圣约翰仲夏夜厨房情节，越界亲近及天亮后的出走幻想、阶级权力收紧。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "yplay-whitesnake",
+      "name": "野鸭",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "易卜生《野鸭》原剧，《Collected Works》第8卷",
+          "url": "https://www.gutenberg.org/cache/epub/70577/pg70577-images.html"
+        }
+      ],
+      "factsChecked": [
+        "格莱格斯进入艾克达尔家庭并要求坦白过去",
+        "阁楼野鸭、海特薇受父亲拒绝后的牺牲想法",
+        "海特薇中枪身亡及莱凌、格莱格斯对悲剧的不同解释"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "对照原剧核对主要人物、因果及末场，未发现需更正的事实。观剧阐释和排演设想不视为史料断言。"
+    },
+    {
+      "id": "yplay-fifteen",
+      "name": "造谣学校",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "谢立丹《造谣学校》原剧",
+          "url": "https://www.gutenberg.org/cache/epub/1929/pg1929.html"
+        }
+      ],
+      "factsChecked": [
+        "作者谢立丹，蒂兹尔夫妇、约瑟夫与查尔斯·萨菲斯为主要人物。",
+        "第四幕屏风遮藏、偷听与查尔斯推开屏风暴露伪善，支持卡文信息差的解读。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读与排演建议不作原剧情事实断言。"
+    },
+    {
+      "id": "yplay-farewell",
+      "name": "大胆妈妈",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "孟买大学 MA English Drama 教材：《大胆妈妈》分场剧情",
+          "url": "https://mu.ac.in/wp-content/uploads/2024/06/MA-Part-I-DRAMA-3_240113_072137.pdf"
+        },
+        {
+          "title": "Zoë Wanamaker 官方演出档案：RSC《大胆妈妈》",
+          "url": "https://www.zoewanamaker.com/stage.php?name=Mother_Courage_and_Her_Children"
+        }
+      ],
+      "factsChecked": [
+        "作者布莱希特，三十年战争中随军售货的大娘与三个孩子。",
+        "艾利夫、瑞士奶酪和卡特琳先后死亡；卡特琳击鼓示警遭射杀。",
+        "结尾母亲付钱安葬女儿后独自拉车继续前行。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "yplay-drunken",
+      "name": "厄勒克特拉",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "MIT Internet Classics Archive：《厄勒克特拉》原剧英译",
+          "url": "https://classics.mit.edu/Sophocles/electra.html"
+        }
+      ],
+      "factsChecked": [
+        "本卡为索福克勒斯版，非欧里庇得斯或后世改编",
+        "厄勒克特拉公开哀悼阿伽门农，俄瑞斯忒斯回宫复仇"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "核心身份与事件符合原剧；舞台建议和观剧阐释按编辑分析保留。"
+    },
+    {
+      "id": "yplay-redlantern",
+      "name": "谁害怕弗吉尼亚·伍尔夫",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Edward Albee Society：《谁害怕弗吉尼亚·伍尔夫》逐幕分析",
+          "url": "https://edwardalbeesociety.org/works/whos-afraid-of-virginia-woolf/"
+        }
+      ],
+      "factsChecked": [
+        "阿尔比三幕剧，乔治玛莎邀请尼克和哈尼",
+        "玛莎向外人提到虚构儿子而越过夫妻约定",
+        "第三幕乔治宣布儿子死亡，终止幻象，宾客离去"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "人物、事件和文体信息符合来源；未照搬宣传性最高级或不可靠的首演日期。"
+    },
+    {
+      "id": "play-v21-justes",
+      "name": "正义者",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Théâtre des Martyrs：加缪《正义者》剧情与创作阐述",
+          "url": "https://theatre-martyrs.be/spectacles/26-27-les-justes/"
+        }
+      ],
+      "factsChecked": [
+        "作者加缪，革命者准备1905年莫斯科刺杀大公。",
+        "卡利亚耶夫见马车内有儿童而面临不能任意牺牲无辜者的伦理选择，符合卡文。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "play-v21-caligula",
+      "name": "卡利古拉",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord：加缪《卡利古拉》授权剧情",
+          "url": "https://www.concordtheatricals.com/s/1171/caligula"
+        },
+        {
+          "title": "加缪研究学会：《卡利古拉》版本与死亡观",
+          "url": "https://www.etudes-camusiennes.fr/caligula-1944/"
+        }
+      ],
+      "factsChecked": [
+        "作者加缪，皇帝将逻辑与绝对权力推向杀戮，最后遇刺。",
+        "死亡认识是其权力实验的思想动因；卡文是对加缪剧作的解释，并非古罗马史实。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "play-v21-malentendu",
+      "name": "误会",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Rowohlt 戏剧出版社：《误会》完整核心剧情",
+          "url": "https://www.rowohlt-theaterverlag.de/theaterstueck/das-missverstaendnis-2620"
+        }
+      ],
+      "factsChecked": [
+        "作者加缪，扬归家未说明身份，母亲与姐姐玛尔塔经营偏僻旅店。",
+        "两人一贯谋财杀客，杀死扬后才从证件发现身份，符合卡文相认延误。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "play-v21-maids",
+      "name": "女仆",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord：《女仆》授权剧情与人物表",
+          "url": "https://www.concordtheatricals.com/p/9285/the-maids"
+        }
+      ],
+      "factsChecked": [
+        "作者热内，克莱尔和索朗日为两姐妹女仆。",
+        "女主人不在时扮演主仆，角色游戏逐步朝实际谋杀女主人推进。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "play-v21-happydays",
+      "name": "快乐的日子",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord授权出版：《快乐的日子》剧情与人物",
+          "url": "https://www.concordtheatricals.com/p/6787/happy-days"
+        }
+      ],
+      "factsChecked": [
+        "贝克特及温妮、威利二人关系",
+        "温妮身体被埋、利用熟悉物件与持续言语维持日常；不采用该页不可靠的“最后一部剧”宣传表述"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    },
+    {
+      "id": "play-v21-heartbreak",
+      "name": "伤心之家",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "萧伯纳《伤心之家》原剧及序言",
+          "url": "https://www.gutenberg.org/cache/epub/3543/pg3543-images.html"
+        }
+      ],
+      "factsChecked": [
+        "作者萧伯纳，肖托弗家宅中发生爱丽、赫克托、曼根等人的情感错位。",
+        "原序将家宅与战前欧洲有闲文化社会联系；卡文中的社会讽刺是观剧解读。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读与排演建议不作原剧情事实断言。"
+    },
+    {
+      "id": "play-v21-majorbarbara",
+      "name": "巴巴拉少校",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "萧伯纳《巴巴拉少校》原剧",
+          "url": "https://www.gutenberg.org/cache/epub/3790/pg3790-images.html"
+        }
+      ],
+      "factsChecked": [
+        "巴巴拉属于救世军，父亲安德谢夫经营军火。",
+        "第二幕救世军接纳军火商与酒商捐款，巴巴拉明确质疑善款来源；卡文未误称其身份为军队少校。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读与排演建议不作原剧情事实断言。"
+    },
+    {
+      "id": "play-v21-henryiv",
+      "name": "亨利四世",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord：皮兰德娄《亨利四世》授权介绍",
+          "url": "https://www.concordtheatricals.com/p/4450/emperor-henry-iv"
+        },
+        {
+          "title": "Johns Hopkins 学术文献 Pretenders to the Throne：Enrico IV 分析",
+          "url": "https://jscholarship.library.jhu.edu/bitstreams/ab5bb9aa-095c-48c8-8590-cf8baa9b1cb7/download"
+        }
+      ],
+      "factsChecked": [
+        "作者皮兰德娄，主人公为意大利现代男子长期扮作神圣罗马皇帝，非莎士比亚同名剧。",
+        "坠马后一度误认身份，后来恢复清醒却继续扮演，符合清醒与逃避的纠缠。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "play-v21-unburied",
+      "name": "死无葬身之地",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Finborough Theatre：萨特《死无葬身之地》剧情与演出档案",
+          "url": "https://www.finboroughtheatre.co.uk/productions/men-without-shadows-morts-sans-sepulture"
+        }
+      ],
+      "factsChecked": [
+        "作者萨特，1944年法国抵抗者解放村庄失败后被捕。",
+        "被捕者面临逐一审讯、沉默或交代的后果，卡文未混入其他萨特剧作。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "play-v21-americandream",
+      "name": "美国梦",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Edward Albee Society：《美国梦》剧情与创作前言",
+          "url": "https://edwardalbeesociety.org/works/the-american-dream/"
+        }
+      ],
+      "factsChecked": [
+        "阿尔比、妈妈爸爸奶奶、巴克太太和青年",
+        "家庭收养与退换的荒诞故事，消费满足与亲密关系的替代"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "人物、事件和文体信息符合来源；未照搬宣传性最高级或不可靠的首演日期。"
+    },
+    {
+      "id": "v23-play-allmysons",
+      "name": "都是我的儿子",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord授权出版：《都是我的儿子》剧情与人物",
+          "url": "https://www.concordtheatricals.com/p/6567/all-my-sons"
+        }
+      ],
+      "factsChecked": [
+        "米勒；乔·凯勒与合伙人制造飞机零件，裂纹汽缸盖导致飞行员死亡",
+        "责任推给史蒂夫，克里斯与安的婚事揭开旧案与拉里的命运"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    },
+    {
+      "id": "v23-play-copenhagen",
+      "name": "哥本哈根",
+      "verificationStatus": "verified-v48-reused",
+      "sources": [
+        {
+          "title": "中国国家话剧院：《哥本哈根》走进成都，三个人物及亡灵叙述框架",
+          "url": "https://www.ntcc.com.cn/zggjhjy/jyxw/201512/abd6fdb5e4cf4d16b1475fa4b856a5cc.shtml"
+        },
+        {
+          "title": "陈戎女、郑芳菲：戏剧《哥本哈根》中的解构主义，上海社会科学院文学研究所",
+          "url": "https://wxs.sass.org.cn/2023/0529/c6913a543168/page.htm"
+        }
+      ],
+      "factsChecked": [
+        "弗雷恩创作与1941年会面的历史背景",
+        "三个谈话人物包含玻尔妻子玛格丽特",
+        "亡灵对话是戏剧框架，不能把整出戏缩成现实中两个男人重演谈话"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行文案已包含前轮核验修订，沿用已读外部证据。"
+    },
+    {
+      "id": "v23-play-woyzeck",
+      "name": "沃伊采克",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Reclam 出版社：毕希纳作品介绍中的《沃伊采克》事实",
+          "url": "https://www.reclam.de/autor-innen/von-a-bis-z/buechner"
+        },
+        {
+          "title": "毕希纳《沃伊采克》德文原文",
+          "url": "https://projekt-gutenberg.org/authors/georg-buechner/books/buechners-woyzeck/chapter/3/"
+        }
+      ],
+      "factsChecked": [
+        "毕希纳未完成剧，贫困士兵受上级羞辱并参加医生实验。",
+        "玛丽与鼓手长交往，沃伊采克最终刺杀玛丽；压迫解释不等于免除其施暴责任。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "v23-play-danton",
+      "name": "丹东之死",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Methuen Drama / Bloomsbury：《丹东之死》剧情与作者",
+          "url": "https://www.bloomsbury.com/uk/dantons-death-9781408135594/"
+        }
+      ],
+      "factsChecked": [
+        "作者毕希纳，1794年法国革命清洗背景。",
+        "丹东反思流血，罗伯斯庇尔坚持革命纯洁，两位昔日同道的政治冲突通向处决。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "事实核对通过；观剧解读和排演建议保持为解释性文字。"
+    },
+    {
+      "id": "v23-play-equus",
+      "name": "恋马狂",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord授权出版：《恋马狂》剧情与人物",
+          "url": "https://www.concordtheatricals.com/p/2822/equus"
+        }
+      ],
+      "factsChecked": [
+        "彼得·谢弗，艾伦刺盲六匹马",
+        "精神科医生马丁·戴萨特追查事件，治疗同时触动自己的价值困境"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "人物、事件和文体信息符合来源；未照搬宣传性最高级或不可靠的首演日期。"
+    },
+    {
+      "id": "v23-play-art",
+      "name": "艺术",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Concord授权出版：雷扎《艺术》剧情与人物",
+          "url": "https://www.concordtheatricals.com/p/13005/art"
+        }
+      ],
+      "factsChecked": [
+        "雅丝米娜·雷扎；塞尔吉购买白底白斜线画作",
+        "马克否定其价值，伊万力求两边讨好",
+        "审美分歧转为友谊冲突，画布画笔的试探检验关系"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "人物、事件和文体信息符合来源；未照搬宣传性最高级或不可靠的首演日期。"
+    },
+    {
+      "id": "v23-play-busstop",
+      "name": "车站",
+      "verificationStatus": "verified-v48-reused",
+      "sources": [
+        {
+          "title": "韩惠景：《高行健〈车站〉的语义考察》，中国学报48，2003",
+          "url": "https://kiss.kstudy.com/Detail/Ar?key=2264430"
+        },
+        {
+          "title": "PAR表演艺术杂志：另辟一条无人的蹊径——《车站》的声音、身体与空间实验",
+          "url": "https://par.npac-ntch.org/tw/article/doc/D99EPH3LTK"
+        },
+        {
+          "title": "林兆华口述访谈：与高行健合作《车站》的结构探索",
+          "url": "https://ent.sina.com.cn/v/33920.html"
+        }
+      ],
+      "factsChecked": [
+        "高行健编剧与林兆华导演",
+        "车辆经过而不停，不能改写成一辆车都未出现",
+        "短暂候车夸张为漫长年月",
+        "沉默的人离开与群体等待的对照"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行文案已包含前轮核验修订，沿用已读外部证据。"
+    },
+    {
+      "id": "v23-play-dreamlike",
+      "name": "如梦之梦",
+      "verificationStatus": "verified-v48-reused",
+      "sources": [
+        {
+          "title": "香港话剧团：《如梦之梦》作品及演出介绍",
+          "url": "https://www.hkrep.com/tc/Season-Programme/Main-Stage-Productions/Dream-like-dream.html"
+        },
+        {
+          "title": "香港话剧团：《如梦之梦》故事概要及角色表",
+          "url": "https://www.hkrep.com/tc/Others/Adlad-Cast-List-And-Synopsis.html"
+        },
+        {
+          "title": "表演工作坊：《如梦之梦》环绕舞台与莲花池观众席",
+          "url": "https://www.opentix.life/event/1546343317931937794"
+        }
+      ],
+      "factsChecked": [
+        "赖声川主创",
+        "年轻女医生听五号病人，五号不是五个情人",
+        "五号病人、江红、顾香兰之间的叙述联系",
+        "中央莲花池及环绕观演，具体城市、语言、时长随版本变化"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行文案已包含前轮核验修订，沿用已读外部证据。"
+    },
+    {
+      "id": "v23-play-livefield",
+      "name": "生死场",
+      "verificationStatus": "verified-v48-reused",
+      "sources": [
+        {
+          "title": "文化和旅游部：国家话剧院重排《生死场》，改编关系与叙事手段",
+          "url": "https://www.mct.gov.cn/whzx/zsdw/zggjhjy/201506/t20150625_776340.html"
+        },
+        {
+          "title": "中国国家话剧院：《生死场》重登舞台，田沁鑫的文学改编",
+          "url": "https://www.ntcc.com.cn/zggjhjy/jyxw/201507/fd8862b8f00d4586a0c725fdb1e12a2f.shtml"
+        }
+      ],
+      "factsChecked": [
+        "萧红小说原著、田沁鑫编剧导演及1999年首演",
+        "金枝和成业的恋爱连接赵三、二里半两家，是话剧的改编安排",
+        "插叙、倒叙和定格的材料组织",
+        "侵略改变村民日常，不能把改编人物关系反写为小说原貌"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行文案已包含前轮核验修订，沿用已读外部证据。"
+    },
+    {
+      "id": "v23-play-iceman",
+      "name": "送冰的人来了",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Goodman Theatre：《送冰的人来了》制作与剧情",
+          "url": "https://www.goodmantheatre.org/show/the-iceman-cometh/"
+        }
+      ],
+      "factsChecked": [
+        "奥尼尔、哈里·霍普酒馆的酒客与梦想",
+        "推销员希基惯常带来狂欢，这次戒酒归来并要击碎众人的幻想"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "人物、事件和文体信息符合来源；未照搬宣传性最高级或不可靠的首演日期。"
+    },
+    {
+      "id": "v23-play-springawake",
+      "name": "春醒",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "Reclam：《春醒》原剧版本介绍及结尾季节",
+          "url": "https://www.reclam.de/produktdetail/fruehlings-erwachen-9783150079515"
+        },
+        {
+          "title": "Bloomsbury / Applause：《春醒》剧情",
+          "url": "https://www.bloomsbury.com/uk/springs-awakening-9781557832450/"
+        }
+      ],
+      "factsChecked": [
+        "作者韦德金德，温德拉死于堕胎，莫里茨自杀，梅尔希奥在蒙面人介入后选择生活。",
+        "原剧结尾为十一月墓地，旧文“春天尚未过完”容易被当作事件季节，改成具体人物命运，避免含混。"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "改写易被误读为剧情季节的抒情句，并明确人物事件。"
+    },
+    {
+      "id": "v23-play-viewbridge",
+      "name": "桥头眺望",
+      "verificationStatus": "verified-new",
+      "sources": [
+        {
+          "title": "英国国家剧院学习指南：《桥头眺望》（Bloomsbury托管）",
+          "url": "https://www.bloomsbury.com/media/u4wdmp4t/nt_a-view-from-the-bridge-learning-guide.pdf"
+        },
+        {
+          "title": "South London Theatre导演导读：《桥头眺望》人物关系",
+          "url": "https://www.southlondontheatre.co.uk/directors-preview-a-view-from-the-bridge/"
+        }
+      ],
+      "factsChecked": [
+        "米勒；埃迪与贝雅特丽丝抚养外甥女凯瑟琳",
+        "妻子的西西里表亲马尔科、鲁道夫投奔，凯瑟琳与鲁道夫相爱",
+        "埃迪嫉妒升级，向移民当局告密并引发冲突"
+      ],
+      "fieldsRead": [
+        "note",
+        "observe",
+        "essay",
+        "highStar"
+      ],
+      "result": "现行核心事实与来源吻合；理论解读仅作观剧角度，不增加剧情断言。"
+    }
+  ],
+  "corrections": [
+    {
+      "id": "xplay-tartuffe",
+      "fields": {
+        "note": "莫里哀的喜剧。奥尔贡迷信伪善的答尔丢夫，要把女儿嫁给他，还签下赠与家产的契约。家人揭穿骗局后，仍须面对契约带来的危机。"
+      },
+      "sources": [
+        {
+          "title": "莫里哀《伪君子》原剧，第三幕末、第四幕末及第五幕",
+          "url": "https://www.gutenberg.org/cache/epub/2027/pg2027-images.html"
+        }
+      ],
+      "reason": "原句“险些交出女儿和家产”把已经签下的赠产契约与尚未完成的婚约混写。"
+    },
+    {
+      "id": "v23-play-springawake",
+      "fields": {
+        "note": "韦德金德的青春悲剧。梅尔希奥、莫里茨与温德拉在身体觉醒时得不到坦诚的解释，家庭和学校以禁忌、羞耻与惩罚回应他们。莫里茨自杀，温德拉死于堕胎；梅尔希奥在结尾选择继续生活。"
+      },
+      "sources": [
+        {
+          "title": "Reclam：《春醒》原剧版本介绍及结尾",
+          "url": "https://www.reclam.de/produktdetail/fruehlings-erwachen-9783150079515"
+        },
+        {
+          "title": "Bloomsbury：《春醒》剧情",
+          "url": "https://www.bloomsbury.com/uk/springs-awakening-9781557832450/"
+        }
+      ],
+      "reason": "原句“春天尚未过完就有人离去”把题名隐喻写成含混的剧情季节；改为可核实的核心人物与命运。"
+    },
+    {
+      "id": "xplay-guantheplay",
+      "fields": {
+        "note": "田汉的话剧。剧中关汉卿因冤案创作《窦娥冤》，与演员朱帘秀一起承受权贵施加的禁演与迫害。"
+      },
+      "sources": [
+        {
+          "title": "田汉基金会：田汉《关汉卿》自序，1961年人民文学出版社版原序",
+          "url": "https://www.tianhanfoundation.org/news_35/375.html"
+        },
+        {
+          "title": "田汉基金会：《关汉卿》作品介绍",
+          "url": "https://www.tianhanfoundation.org/news_28/194.html"
+        }
+      ],
+      "reason": "按田汉自序统一剧中人名“朱帘秀”；以“剧中”区分历史剧的创作安排与关汉卿可考传记。"
+    },
+    {
+      "id": "xplay-sang",
+      "fields": {},
+      "highStar": [
+        "故事发生在1968—1969年的黄土高原。为了凑齐福林娶青女的费用，十二岁的月娃被拿去作童养媳；婚嫁成了交易，女孩的去向由家人的生计决定。队长李金斗既为乡亲张罗活路，也维护让妇女和外姓人受压的旧规矩，不能简单看作一个恶人。",
+        "外姓人王志科受到宗族排挤；公社开会要招待来客，村民又被迫交出赖以耕作的老牛“豁子”。两件事彼此映照，显出村庄在伤害别人时也损伤了自身的生存根基。徐晓钟的演出以多个事件并置成群像，歌队穿插叙述和评论，把观众从个人遭遇引向对乡村秩序的思考。这出戏值得追问的，是善意、贫困和旧习如何纠缠，为什么同一个人既是受困者，又会成为伤害别人的一环。"
+      ],
+      "sources": [
+        {
+          "title": "中国文联：《桑树坪纪事》陈子度、杨健、朱晓平等创作资料",
+          "url": "https://www.cflac.org.cn/wywzt/2018/ytdj/xj/xxz/grzp/201803/t20180329_401234.html"
+        },
+        {
+          "title": "中央戏剧学院：中国文艺评论专访徐晓钟，导演解释《桑树坪纪事》的围猎结构",
+          "url": "https://www.chntheatre.edu.cn/cn/mei/detail/21860.html"
+        },
+        {
+          "title": "林伟瑜：从写意到意境，戏剧研究37期，桑树坪纪事剧本及舞台分析，页81—85",
+          "url": "https://theatre.ntu.edu.tw/journal/text/pdf/37/37-2.pdf"
+        }
+      ],
+      "reason": "原剧为公社开会并招待县、地区来宾而摊派耕牛，不是“县里的庆典”；保留其余已经核实的长文。"
+    }
+  ],
+  "coveredIds": [
+    "play-oedipus",
+    "play-teahouse",
+    "play-hamlet",
+    "play-thunder",
+    "play-macbeth",
+    "play-godot",
+    "play-peony",
+    "play-doll",
+    "play-salesman",
+    "play-doue",
+    "play-goodperson",
+    "play-cherry",
+    "play-xixiang",
+    "play-visit",
+    "play-sunrise",
+    "play-yuanye",
+    "play-rhino",
+    "play-glass",
+    "play-lear",
+    "play-antigone",
+    "play-orphan",
+    "play-peach",
+    "play-palace",
+    "play-secret",
+    "play-beijing",
+    "play-baimao",
+    "play-street",
+    "play-sisters",
+    "play-butterfly",
+    "xplay-faust",
+    "xplay-seagull",
+    "xplay-vanya",
+    "xplay-tartuffe",
+    "xplay-miser",
+    "xplay-figaro",
+    "xplay-galileo",
+    "xplay-rhino",
+    "xplay-bald",
+    "xplay-chairs",
+    "xplay-longday",
+    "xplay-pygmalion",
+    "xplay-merchant",
+    "xplay-romeo",
+    "xplay-jia",
+    "xplay-quyuan",
+    "xplay-guantheplay",
+    "xplay-camel",
+    "xplay-lou",
+    "xplay-sang",
+    "xplay-doggy",
+    "xplay-shangyang",
+    "xplay-caoyang",
+    "xplay-liqiu",
+    "yplay-prometheus",
+    "yplay-agamemnon",
+    "yplay-birds",
+    "yplay-phedre",
+    "yplay-threepenny",
+    "yplay-endgame",
+    "yplay-krapp",
+    "yplay-enemy",
+    "yplay-peer",
+    "yplay-inspector",
+    "yplay-mrswarren",
+    "yplay-tempest",
+    "yplay-richard",
+    "yplay-caesar",
+    "yplay-caiwenji",
+    "yplay-eaves",
+    "yplay-promotion",
+    "yplay-wotu",
+    "yplay-jiang",
+    "yplay-pipa",
+    "yplay-whitesnake",
+    "yplay-fifteen",
+    "yplay-farewell",
+    "yplay-drunken",
+    "yplay-redlantern",
+    "play-v21-justes",
+    "play-v21-caligula",
+    "play-v21-malentendu",
+    "play-v21-maids",
+    "play-v21-happydays",
+    "play-v21-heartbreak",
+    "play-v21-majorbarbara",
+    "play-v21-henryiv",
+    "play-v21-unburied",
+    "play-v21-americandream",
+    "v23-play-allmysons",
+    "v23-play-copenhagen",
+    "v23-play-woyzeck",
+    "v23-play-danton",
+    "v23-play-equus",
+    "v23-play-art",
+    "v23-play-busstop",
+    "v23-play-dreamlike",
+    "v23-play-livefield",
+    "v23-play-iceman",
+    "v23-play-springawake",
+    "v23-play-viewbridge"
+  ],
+  "evidenceCheckedIds": [
+    "play-oedipus",
+    "play-teahouse",
+    "play-hamlet",
+    "play-thunder",
+    "play-macbeth",
+    "play-godot",
+    "play-peony",
+    "play-doll",
+    "play-salesman",
+    "play-doue",
+    "play-goodperson",
+    "play-cherry",
+    "play-xixiang",
+    "play-visit",
+    "play-sunrise",
+    "play-yuanye",
+    "play-rhino",
+    "play-glass",
+    "play-lear",
+    "play-antigone",
+    "play-orphan",
+    "play-peach",
+    "play-palace",
+    "play-secret",
+    "play-beijing",
+    "play-baimao",
+    "play-street",
+    "play-sisters",
+    "play-butterfly",
+    "xplay-faust",
+    "xplay-seagull",
+    "xplay-vanya",
+    "xplay-tartuffe",
+    "xplay-miser",
+    "xplay-figaro",
+    "xplay-galileo",
+    "xplay-rhino",
+    "xplay-bald",
+    "xplay-chairs",
+    "xplay-longday",
+    "xplay-pygmalion",
+    "xplay-merchant",
+    "xplay-romeo",
+    "xplay-jia",
+    "xplay-quyuan",
+    "xplay-guantheplay",
+    "xplay-camel",
+    "xplay-lou",
+    "xplay-sang",
+    "xplay-doggy",
+    "xplay-shangyang",
+    "xplay-caoyang",
+    "xplay-liqiu",
+    "yplay-prometheus",
+    "yplay-agamemnon",
+    "yplay-birds",
+    "yplay-phedre",
+    "yplay-threepenny",
+    "yplay-endgame",
+    "yplay-krapp",
+    "yplay-enemy",
+    "yplay-peer",
+    "yplay-inspector",
+    "yplay-mrswarren",
+    "yplay-tempest",
+    "yplay-richard",
+    "yplay-caesar",
+    "yplay-caiwenji",
+    "yplay-eaves",
+    "yplay-promotion",
+    "yplay-wotu",
+    "yplay-jiang",
+    "yplay-pipa",
+    "yplay-whitesnake",
+    "yplay-fifteen",
+    "yplay-farewell",
+    "yplay-drunken",
+    "yplay-redlantern",
+    "play-v21-justes",
+    "play-v21-caligula",
+    "play-v21-malentendu",
+    "play-v21-maids",
+    "play-v21-happydays",
+    "play-v21-heartbreak",
+    "play-v21-majorbarbara",
+    "play-v21-henryiv",
+    "play-v21-unburied",
+    "play-v21-americandream",
+    "v23-play-allmysons",
+    "v23-play-copenhagen",
+    "v23-play-woyzeck",
+    "v23-play-danton",
+    "v23-play-equus",
+    "v23-play-art",
+    "v23-play-busstop",
+    "v23-play-dreamlike",
+    "v23-play-livefield",
+    "v23-play-iceman",
+    "v23-play-springawake",
+    "v23-play-viewbridge"
+  ],
+  "summary": {
+    "totalActivePlays": 100,
+    "newIndividualExternalReviews": 90,
+    "reusedV48IndividualExternalReviews": 10,
+    "correctedCards": 4,
+    "scopeBoundary": "逐卡核对运行时核心事实及长介绍中的可辨认事实；来源包括原剧相关段落、创作者说明、剧院与出版社资料、学术研究，不声称逐部通读完整原剧或消除一切解释分歧。"
+  }
+}

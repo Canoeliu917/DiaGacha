@@ -25,13 +25,14 @@ var FIGURE_FEATURES_V39 = {
   zuozi: {name:"坐姿",outline:"低矮椅坐",neck:"弯腰襟口",hem:"折膝前伸",sleeve:"屈肘搭膝",pose:"hold"},
   goulou: {name:"佝偻",outline:"前屈弓背",neck:"低头垂领",hem:"屈膝短步",sleeve:"前伸撑杖",pose:"bow"}
 };
-var FIGURE_POSES_V39 = ["stand","step","reach","raise","guard","hold","fold","bow"];
+var FIGURE_POSES_V39 = ["stand","step","reach","raise","guard","hold","fold","bow","offer","clutch","refuse","listen","point","conceal","open","stride"];
 var FIGURE_COSTUMES_V39 = ["plain","royal","formal","work","worn","mourning","layered","puritan"];
 
 function figV39Path(d,fill,stroke,width){return `<path d="${d}" fill="${fill||'none'}"${stroke?` stroke="${stroke}" stroke-width="${width||2}" stroke-linecap="round" stroke-linejoin="round"`:``}/>`}
 function figV39Circle(x,y,r,fill){return `<circle cx="${x}" cy="${y}" r="${r}" fill="${fill}"/>`}
 
 function figV39Legs(pose,top,ink,wide){
+  if(pose===`stride`)return figV39Path(`M-13 ${top} H-1 L-26 145 L-42 157 H-53 L-33 138 Z M3 ${top} H15 L34 144 H49 V154 H26 L9 130 Z`,ink);
   if(pose===`step`)return figV39Path(`M-13 ${top} H-2 L-20 150 L-34 157 H-43 L-27 143 Z M3 ${top} H14 L26 148 H38 V156 H18 L7 132 Z`,ink);
   return figV39Path(wide?`M-20 ${top} H-3 L-5 154 H-29 L-25 147 Z M3 ${top} H20 L25 147 L30 154 H5 Z`:`M-14 ${top} H-3 L-5 150 L-13 157 H-23 L-16 146 Z M3 ${top} H14 L16 148 L24 157 H4 Z`,ink);
 }
@@ -45,14 +46,22 @@ function figV39Arms(e,c,pose,skin){
     guard:[`M-20 58 L-30 83 L8 84`,`M20 58 L30 75 L5 99`,[8,84],[5,99]],
     hold:[`M-20 58 L-32 83 L-9 97`,`M20 58 L32 83 L9 97`,[-9,97],[9,97]],
     fold:[`M-20 58 L-24 88 L12 91`,`M20 58 L24 82 L-7 92`,[12,91],[-7,92]],
-    bow:[`M-20 64 L-34 92 L-25 118`,`M20 64 L31 91 L16 113`,[-25,118],[16,113]]
+    bow:[`M-20 64 L-34 92 L-25 118`,`M20 64 L31 91 L16 113`,[-25,118],[16,113]],
+    offer:[`M-20 58 L-29 84 L-5 98`,`M20 58 L35 79 L58 65`,[-5,98],[58,65]],
+    clutch:[`M-20 58 L-31 79 L8 82`,`M20 58 L30 86 L-3 74`,[8,82],[-3,74]],
+    refuse:[`M-20 58 L-36 75 L-46 55`,`M20 58 L35 80 L48 59`,[-46,55],[48,59]],
+    listen:[`M-20 58 L-30 84 L-17 106`,`M20 58 L34 43 L22 28`,[-17,106],[22,28]],
+    point:[`M-20 58 L-31 83 L-9 101`,`M20 58 L40 53 L64 45`,[-9,101],[64,45]],
+    conceal:[`M-20 58 L-35 86 L-18 112`,`M20 58 L29 86 L14 111`,[-18,112],[14,111]],
+    open:[`M-20 58 L-41 69 L-62 58`,`M20 58 L41 69 L62 58`,[-62,58],[62,58]],
+    stride:[`M-20 58 L-36 72 L-48 52`,`M20 58 L39 77 L50 100`,[-48,52],[50,100]]
   };
   const a=paths[pose]||paths.stand;
   const bare=[`pizhe`,`qipao`,`gongzhuang`,`tongqun`].includes(e.fig);
   return figV39Path(a[0],null,bare?skin:c,bare?5:7)+figV39Path(a[1],null,bare?skin:c,bare?5:7)+figV39Circle(...a[2],3.4,skin)+figV39Circle(...a[3],3.4,skin);
 }
 
-function figV39Clothes(type,c,pose,ink,paper,gold){
+function figV39Clothes(type,c,pose,ink,paper,gold,e={}){
   const p=figV39Path, legs=(top,wide=false)=>figV39Legs(pose,top,ink,wide);
   switch(type){
     case `lipao`:return p(`M-17 50 L-35 58 L-40 136 L-23 145 L-19 92 L-21 156 H21 L19 92 L23 145 L40 136 L35 58 L17 50 Z`,c)+p(`M-13 50 L10 81 L16 53 M-19 102 H19`,null,gold,3)+p(`M0 81 V155`,null,gold,2);
@@ -74,8 +83,8 @@ function figV39Clothes(type,c,pose,ink,paper,gold){
     case `baiyi`:return legs(139)+p(`M-15 54 H15 L17 140 H-17 Z`,c)+p(`M-27 49 L-10 54 L-3 78 L-6 141 L-32 150 Z M27 49 L10 54 L3 78 L6 141 L32 150 Z`,paper)+p(`M-11 54 L-18 73 L-7 84 M11 54 L18 73 L7 84 M-25 102 H-12 V116 H-25 M12 102 H25 V116 H12`,null,gold,2.2);
     case `jinpao`:return p(`M-24 50 L-34 82 L-26 156 H26 L34 82 L24 50 Z`,c)+p(`M-30 30 Q-27 -2 0 -3 Q27 -2 30 30 L37 72 L16 80 L0 58 L-16 80 L-37 72 Z`,paper)+p(`M-22 32 Q0 18 22 32 L16 61 H-16 Z`,c)+p(`M-25 83 L-17 144 M25 83 L17 144`,null,gold,2.5);
     case `tongqun`:return p(`M-21 50 H21 L24 72 L15 76 L17 154 H-17 L-15 76 L-24 72 Z`,c)+p(`M-12 51 Q0 62 12 51 M-16 86 H16 M-17 141 H17`,null,paper,3)+p(`M-8 93 V133 M0 93 V133 M8 93 V133`,null,gold,2);
-    case `zuozi`:return p(`M-31 74 H-24 V156 H-31 Z M24 74 H31 V156 H24 Z M-31 74 H31 V84 H-31 Z M-33 119 H33 V128 H-33 Z`,gold)+p(`M-18 66 H18 L25 115 L36 126 L28 139 L9 125 L-8 128 L-31 147 L-43 138 L-23 116 Z`,c)+p(`M25 136 L28 155 H16 L12 133 M-31 139 L-43 155 H-54 L-41 132`,ink)+p(`M-13 71 L0 91 L13 71`,null,paper,3);
-    case `goulou`:return p(`M-22 71 Q-4 49 20 58 L35 102 L19 123 L18 142 L6 154 H-6 L5 135 L3 120 L-13 133 L-25 153 H-38 L-25 124 L-26 99 Z`,c)+p(`M11 118 L23 132 L18 155 H6 L12 135 L1 126`,ink)+p(`M-17 83 L6 80 L12 100 L-12 108 Z`,paper)+p(`M40 82 Q48 76 50 85 V157`,null,gold,5);
+    case `zuozi`:return (['纳格','奈尔','温妮'].includes(e.name)?``:p(`M-31 74 H-24 V156 H-31 Z M24 74 H31 V156 H24 Z M-31 74 H31 V84 H-31 Z M-33 119 H33 V128 H-33 Z`,gold))+p(`M-18 66 H18 L25 115 L36 126 L28 139 L9 125 L-8 128 L-31 147 L-43 138 L-23 116 Z`,c)+p(`M25 136 L28 155 H16 L12 133 M-31 139 L-43 155 H-54 L-41 132`,ink)+p(`M-13 71 L0 91 L13 71`,null,paper,3);
+    case `goulou`:return p(`M-22 71 Q-4 49 20 58 L35 102 L19 123 L18 142 L6 154 H-6 L5 135 L3 120 L-13 133 L-25 153 H-38 L-25 124 L-26 99 Z`,c)+p(`M11 118 L23 132 L18 155 H6 L12 135 L1 126`,ink)+p(`M-17 83 L6 80 L12 100 L-12 108 Z`,paper)+(e.propMode?``:p(`M40 82 Q48 76 50 85 V157`,null,gold,5));
     default:return ``;
   }
 }
@@ -168,10 +177,11 @@ function figBodyV39(e){
   const pose=FIGURE_POSES_V39.includes(e.pose)?e.pose:FIGURE_FEATURES_V39[type].pose;
   const c=e.cloth||`#3a3a48`,ink=typeof L===`string`?L:`#1c1916`,paper=`#efe6d4`,gold=typeof z===`string`?z:`#c6a15a`;
   const skin=typeof pt!==`undefined`?(pt[e.skin]||pt.fair):`#e8c4a0`;
-  let body=figV39Clothes(type,c,pose,ink,paper,gold);
+  let body=figV39Clothes(type,c,pose,ink,paper,gold,e);
   const rgb=/^#[0-9a-f]{6}$/i.test(c)?[1,3,5].map(i=>parseInt(c.slice(i,i+2),16)):[];
   if(rgb.length&&rgb.reduce((a,b)=>a+b,0)/3>205)body=`<g stroke="${ink}" stroke-width="1.5" stroke-linejoin="round">${body}</g>`;
   if(type!==`zuozi`&&type!==`goulou`)body+=figV39Arms({...e,fig:type},c,pose,skin)+figV39Costume(e.costume,type,c,paper,gold,ink);
+  else if(type===`zuozi`&&FIGURE_POSES_V39.indexOf(pose)>=8)body+=`<g transform="translate(0 17)">${figV39Arms({...e,fig:type},c,pose,skin)}</g>`;
   else if(type===`zuozi`){
     const folded=pose===`fold`,guarded=pose===`guard`;
     body+=figV39Path(folded?`M-19 75 L-28 94 M19 75 L28 94`:guarded?`M-19 75 L-31 98 M19 75 L34 90`:`M-19 75 L-30 100 M19 75 L30 100`,null,c,7);
@@ -179,18 +189,36 @@ function figBodyV39(e){
     const hands=folded?[[17,105],[-17,101]]:guarded?[[-8,105],[17,66]]:[[-8,105],[8,105]];
     body+=hands.map(([x,y])=>figV39Circle(x,y,3.4,skin)).join(``);
   }
+  else if(type===`goulou`&&e.propMode&&pose!==`bow`)body+=`<g transform="translate(12 14) scale(.85)">${figV39Costume(e.costume,type,c,paper,gold,ink)}${figV39Arms(e,c,pose,skin)}</g>`;
   else body+=figV39Path(`M12 75 L30 92 L45 88`,null,c,7)+figV39Circle(45,88,3.4,skin);
   const head=type===`zuozi`?[0,45,1]:type===`goulou`?[14,42,.95]:pose===`bow`?[0,34,1]:[0,28,1];
   body+=figHead({...e,head:e.head===`broken-crown`?`white`:e.head,face:e.face===`blind`?`tired`:e.face},...head);
   if(e.head===`broken-crown`)body+=`<g transform="translate(${head[0]} ${head[1]}) scale(${head[2]})">${figV39Path(`M-21 -10 L-24 -27 L-10 -17 L-4 -31 L2 -18 L7 -24 L11 -17 L22 -23 L19 -7 L4 -10 L1 -20 L-4 -10 Z`,gold)}</g>`;
   if(e.face===`blind`)body+=`<g transform="translate(${head[0]} ${head[1]}) scale(${head[2]})">${figV39Path(`M-18 -7 L18 -5 L18 4 L-18 2 Z`,paper)}${figV39Path(`M-18 -3 L18 0`,null,ink,2)}</g>`;
-  const object=figV39Object(e.prop,c,ink,paper,gold);
+  const object=e.propMode===`emblem`?``:figV39Object(e.prop,c,ink,paper,gold);
   if(object){
-    const anchor=e.prop===`staff`?[45,92,.9]:pose===`hold`?[0,type===`zuozi`?110:97,.8]:pose===`raise`?[48,32,.68]:pose===`reach`?[57,80,.7]:[40,103,.8];
-    body+=`<g data-figure-prop="${e.prop}" transform="translate(${anchor[0]} ${anchor[1]}) scale(${anchor[2]})">${object}</g>`;
+    let anchor=e.prop===`staff`?[45,92,.9]:pose===`hold`?[0,type===`zuozi`?110:97,.8]:pose===`raise`?[48,32,.68]:pose===`reach`?[57,80,.7]:[40,103,.8];
+    if(e.propMode===`held`){
+      const hands={stand:[27,107],step:[47,68],reach:[61,76],raise:[46,27],guard:[5,99],hold:[0,97],fold:[-7,92],bow:[16,113],offer:[58,65],clutch:[-3,74],refuse:[48,59],listen:[-17,106],point:[64,45],conceal:[14,111],open:[62,58],stride:[50,100]};
+      const hand=type===`goulou`?(pose!==`bow`?[12+hands[pose][0]*.85,14+hands[pose][1]*.85]:[45,88]):type===`zuozi`?(FIGURE_POSES_V39.indexOf(pose)>=8?[hands[pose][0],hands[pose][1]+17]:pose===`guard`?[17,66]:pose===`fold`?[-17,101]:[8,105]):hands[pose];
+      const grip={cup:[23,0],case:[0,-21],bag:[0,-34],lantern:[0,-30],dagger:[0,23],sword:[0,23],blade:[0,23],fan:[0,23],bloodfan:[0,23],quill:[-10,32],candle:[0,18],torch:[0,18],flower:[-4,28],hammer:[0,24],mirror:[0,28],cane:[0,-32],umbrella:[0,27],key:[-14,0],jester:[0,18]}[e.prop]||[0,8];
+      const s=(e.prop===`staff`?Math.min(.9,(157-hand[1])/65):.72)*(pose===`raise`?.8:1);
+      anchor=e.prop===`staff`?[hand[0],hand[1],s]:[hand[0]-grip[0]*s,hand[1]-grip[1]*s,s];
+    }
+    const raised=e.propMode===`held`&&(pose===`raise`||(['dagger','sword','blade'].includes(e.prop)&&['clutch','guard','hold','fold'].includes(pose)));
+    const pivot=e.prop===`staff`?[0,0]:['fan','bloodfan','dagger','sword','blade'].includes(e.prop)?[0,23]:e.prop===`mirror`?[0,28]:[0,8];
+    body+=`<g data-figure-prop="${e.prop}" transform="translate(${anchor[0]} ${anchor[1]}) scale(${anchor[2]})${raised?` rotate(45 ${pivot[0]} ${pivot[1]})`:``}">${object}</g>`;
   }
+  if(e.lean)body=`<g transform="rotate(${Math.max(-6,Math.min(6,e.lean))} 0 156)">${body}</g>`;
   if(e.kid)body=`<g transform="translate(0 34) scale(.78)">${body}</g>`;
   return `<g data-figure-v39="${type}" data-pose="${pose}" data-costume="${e.costume||'plain'}">${body}</g>`;
+}
+
+function figParadeV50(rec){
+  const figure=figBodyV39(rec);
+  if(rec.propMode!==`emblem`||rec.prop===`none`)return figure;
+  const emblem=figV39Object(rec.prop,rec.cloth,L,`#efe6d4`,z);
+  return `<g transform="translate(-11 4) scale(.96)">${figure}</g><g transform="translate(56 83) scale(.59)"><g class="parade-emblem">${emblem}</g></g>`;
 }
 
 if(typeof module!==`undefined`&&module.exports)module.exports={figBodyV39,figV39Object,FIGURE_FEATURES_V39,FIGURE_POSES_V39,FIGURE_COSTUMES_V39};
