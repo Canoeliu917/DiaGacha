@@ -1,0 +1,920 @@
+TAP version 13
+# v39 semantic profiles: 777 names, 260 role sources, 100 active play casts and 21 figure shapes validated
+# Subtest: C:\\Users\\Administrator\\Documents\\Codex\\2026-11-14\\da\\work\\DiaGacha\\scripts\\art-profiles-v39.test.cjs
+ok 1 - C:\\Users\\Administrator\\Documents\\Codex\\2026-11-14\\da\\work\\DiaGacha\\scripts\\art-profiles-v39.test.cjs
+  ---
+  duration_ms: 150.3674
+  type: 'test'
+  ...
+# Subtest: 500张常驻卡详情保留全部核心释义与看点，低星不按字数或句数截断
+ok 2 - 500张常驻卡详情保留全部核心释义与看点，低星不按字数或句数截断
+  ---
+  duration_ms: 11.0547
+  type: 'test'
+  ...
+# Subtest: 所有常驻主配角在详情中保留原作来源，低星人物不只剩抽象性格
+ok 3 - 所有常驻主配角在详情中保留原作来源，低星人物不只剩抽象性格
+  ---
+  duration_ms: 2.6974
+  type: 'test'
+  ...
+# Subtest: 基础空间先说明其实际用途，再说明戏剧作用，不用隐喻代替定义
+ok 4 - 基础空间先说明其实际用途，再说明戏剧作用，不用隐喻代替定义
+  ---
+  duration_ms: 0.6977
+  type: 'test'
+  ...
+# Subtest: ATK与DEF各自作为原生展开入口，分数条和概念提示始终在summary中
+ok 5 - ATK与DEF各自作为原生展开入口，分数条和概念提示始终在summary中
+  ---
+  duration_ms: 2.4645
+  type: 'test'
+  ...
+# Subtest: 两个轴共享一次来源和编辑说明，内容转义且不改写原分数
+ok 6 - 两个轴共享一次来源和编辑说明，内容转义且不改写原分数
+  ---
+  duration_ms: 0.8453
+  type: 'test'
+  ...
+# Subtest: 所有图鉴编号使用四位，数字含义不变
+ok 7 - 所有图鉴编号使用四位，数字含义不变
+  ---
+  duration_ms: 2.0001
+  type: 'test'
+  ...
+# Subtest: 129人工槽位全为常驻，迁移只改编号并保留非特殊卡相对顺序且可重跑
+ok 8 - 129人工槽位全为常驻，迁移只改编号并保留非特殊卡相对顺序且可重跑
+  ---
+  duration_ms: 279.7973
+  type: 'test'
+  ...
+# Subtest: 图鉴显式选择稀有度和分数排序仍按原分支运行，收藏继续使用ID
+ok 9 - 图鉴显式选择稀有度和分数排序仍按原分支运行，收藏继续使用ID
+  ---
+  duration_ms: 12.5977
+  type: 'test'
+  ...
+# Subtest: 实际总图鉴缩略分支显示四位编号，未收集卡的可访问名称不泄露卡名
+ok 10 - 实际总图鉴缩略分支显示四位编号，未收集卡的可访问名称不泄露卡名
+  ---
+  duration_ms: 12.5713
+  type: 'test'
+  ...
+# Subtest: 显式文案覆盖不改777张身份、分值、收藏或羁绊字段，覆盖卡ID全部存在
+ok 11 - 显式文案覆盖不改777张身份、分值、收藏或羁绊字段，覆盖卡ID全部存在
+  ---
+  duration_ms: 19.7815
+  type: 'test'
+  ...
+# Subtest: 500张卡均能生成完整故事联想，旧五卡不补配角，输入顺序自由
+ok 12 - 500张卡均能生成完整故事联想，旧五卡不补配角，输入顺序自由
+  ---
+  duration_ms: 28.0409
+  type: 'test'
+  ...
+# Subtest: 同名不同作品不编造原作关系，长句保留完整且不会用字数补套话
+ok 13 - 同名不同作品不编造原作关系，长句保留完整且不会用字数补套话
+  ---
+  duration_ms: 0.4857
+  type: 'test'
+  ...
+# Subtest: beard has a small separate mouth and chin hair, without a filled black grin
+ok 14 - beard has a small separate mouth and chin hair, without a filled black grin
+  ---
+  duration_ms: 1.0424
+  type: 'test'
+  ...
+# Subtest: smile and sly use short, shallow unfilled mouth curves
+ok 15 - smile and sly use short, shallow unfilled mouth curves
+  ---
+  duration_ms: 0.2238
+  type: 'test'
+  ...
+# Subtest: all three adjusted faces retain the two original dot eyes
+ok 16 - all three adjusted faces retain the two original dot eyes
+  ---
+  duration_ms: 0.6637
+  type: 'test'
+  ...
+# Subtest: subtle smile, sly expression and beard stay distinct from neutral faces
+ok 17 - subtle smile, sly expression and beard stay distinct from neutral faces
+  ---
+  duration_ms: 1.0019
+  type: 'test'
+  ...
+# Subtest: 实际启动校验接受完整问句、感叹句和引号，拒绝残句与非文本
+ok 18 - 实际启动校验接受完整问句、感叹句和引号，拒绝残句与非文本
+  ---
+  duration_ms: 6.7396
+  type: 'test'
+  ...
+# Subtest: 四类审计恰好覆盖500张常驻卡，阅读与外部核验范围分别记录
+ok 19 - 四类审计恰好覆盖500张常驻卡，阅读与外部核验范围分别记录
+  ---
+  duration_ms: 5.928
+  type: 'test'
+  ...
+# Subtest: 六剧复评分、稀有度和来源落到运行数据，未只修改审计文件
+ok 20 - 六剧复评分、稀有度和来源落到运行数据，未只修改审计文件
+  ---
+  duration_ms: 1.1639
+  type: 'test'
+  ...
+# Subtest: 已发布的正文覆盖和高星扩写都保留经过核实的主创、人物及版本区别
+ok 21 - 已发布的正文覆盖和高星扩写都保留经过核实的主创、人物及版本区别
+  ---
+  duration_ms: 3.4569
+  type: 'test'
+  ...
+# Subtest: 车站经过不停、五号病人和女医生的关键事实在正文及别名中不倒退
+ok 22 - 车站经过不停、五号病人和女医生的关键事实在正文及别名中不倒退
+  ---
+  duration_ms: 1.2021
+  type: 'test'
+  ...
+# Subtest: 补正明确升官图两个职务、波莉之父和哥本哈根第三位人物
+ok 23 - 补正明确升官图两个职务、波莉之父和哥本哈根第三位人物
+  ---
+  duration_ms: 0.3026
+  type: 'test'
+  ...
+# Subtest: 咫言咫语保留车站核心科普，只汇总当前六卡的已核来源并去重
+ok 24 - 咫言咫语保留车站核心科普，只汇总当前六卡的已核来源并去重
+  ---
+  duration_ms: 9.2292
+  type: 'test'
+  ...
+# Subtest: V49逐卡核心事实记录精确覆盖500张常驻卡，每张保留具体事实和外部来源
+ok 25 - V49逐卡核心事实记录精确覆盖500张常驻卡，每张保留具体事实和外部来源
+  ---
+  duration_ms: 3.2228
+  type: 'test'
+  ...
+# Subtest: V49所有修订进入实际卡片、别名与高星介绍
+ok 26 - V49所有修订进入实际卡片、别名与高星介绍
+  ---
+  duration_ms: 0.5308
+  type: 'test'
+  ...
+# Subtest: 版本、人物排行与契约事件不再使用已发现的错误表述
+ok 27 - 版本、人物排行与契约事件不再使用已发现的错误表述
+  ---
+  duration_ms: 0.3419
+  type: 'test'
+  ...
+# Subtest: 事实修订不调整分数、稀有度、卡片编号或常驻数量
+ok 28 - 事实修订不调整分数、稀有度、卡片编号或常驻数量
+  ---
+  duration_ms: 3.8376
+  type: 'test'
+  ...
+# Subtest: 500常驻中的全部高星全覆盖，正文按五星六星七星逐层增加
+ok 29 - 500常驻中的全部高星全覆盖，正文按五星六星七星逐层增加
+  ---
+  duration_ms: 8.762
+  type: 'test'
+  ...
+# Subtest: 额外段落不复读note或observe，不靠跨卡相同套句填充
+ok 30 - 额外段落不复读note或observe，不靠跨卡相同套句填充
+  ---
+  duration_ms: 3.5188
+  type: 'test'
+  ...
+# Subtest: 阿伽门农剧目以七星三段介绍紫毯、卡珊德拉和开放结尾，来源与同名角色分开
+ok 31 - 阿伽门农剧目以七星三段介绍紫毯、卡珊德拉和开放结尾，来源与同名角色分开
+  ---
+  duration_ms: 0.7768
+  type: 'test'
+  ...
+# Subtest: 艾尔西诺明确城垛内室厅堂的可见性，并区别现实Kronborg
+ok 32 - 艾尔西诺明确城垛内室厅堂的可见性，并区别现实Kronborg
+  ---
+  duration_ms: 0.5159
+  type: 'test'
+  ...
+# Subtest: 新事实有独立来源，方法分析与排演建议保持区分
+ok 33 - 新事实有独立来源，方法分析与排演建议保持区分
+  ---
+  duration_ms: 2.2533
+  type: 'test'
+  ...
+# Subtest: 接口只返回独立纯文本段落，低星不扩写且不会修改输入
+ok 34 - 接口只返回独立纯文本段落，低星不扩写且不会修改输入
+  ---
+  duration_ms: 1.1805
+  type: 'test'
+  ...
+# Subtest: 揭晓介绍可读新增正文，七星无需再用标签句填空
+ok 35 - 揭晓介绍可读新增正文，七星无需再用标签句填空
+  ---
+  duration_ms: 9.4294
+  type: 'test'
+  ...
+# Subtest: 快速鼠标移动合并到单一 RAF，保留 Logo 幅度，十人分层并在稳定后停帧
+ok 36 - 快速鼠标移动合并到单一 RAF，保留 Logo 幅度，十人分层并在稳定后停帧
+  ---
+  duration_ms: 8.2193
+  type: 'test'
+  ...
+# Subtest: 靠近者上浮更明显，移开柔和回弹，位移与倾角有界
+ok 37 - 靠近者上浮更明显，移开柔和回弹，位移与倾角有界
+  ---
+  duration_ms: 16.7017
+  type: 'test'
+  ...
+# Subtest: 手机点按仅招呼选中人物；滑动、长按、取消不触发，不拦截滚动
+ok 38 - 手机点按仅招呼选中人物；滑动、长按、取消不触发，不拦截滚动
+  ---
+  duration_ms: 6.554
+  type: 'test'
+  ...
+# Subtest: 键盘触发招呼，60 Hz 与 120 Hz 动作接近且不另开定时器
+ok 39 - 键盘触发招呼，60 Hz 与 120 Hz 动作接近且不另开定时器
+  ---
+  duration_ms: 14.3147
+  type: 'test'
+  ...
+# Subtest: 取消、滚动、变更窗口、减动及页面隐藏清除动画和待触发招呼
+ok 40 - 取消、滚动、变更窗口、减动及页面隐藏清除动画和待触发招呼
+  ---
+  duration_ms: 3.2496
+  type: 'test'
+  ...
+# Subtest: 重绘先移除旧监听；离开首页或打开弹层后没有遗留帧和响应
+ok 41 - 重绘先移除旧监听；离开首页或打开弹层后没有遗留帧和响应
+  ---
+  duration_ms: 1.3526
+  type: 'test'
+  ...
+# Subtest: 首页双箭头禁用，前后翻页保留页面与滚动位置
+ok 42 - 首页双箭头禁用，前后翻页保留页面与滚动位置
+  ---
+  duration_ms: 1.5641
+  type: 'test'
+  ...
+# Subtest: 同页过滤、详情及抽卡进度更新当前页，不生成伪页；新分支清除前进页
+ok 43 - 同页过滤、详情及抽卡进度更新当前页，不生成伪页；新分支清除前进页
+  ---
+  duration_ms: 2.1251
+  type: 'test'
+  ...
+# Subtest: 真实下一张与演后谈流程能继续使用快照卡组，不重新抽卡、不重复奖励
+ok 44 - 真实下一张与演后谈流程能继续使用快照卡组，不重新抽卡、不重复奖励
+  ---
+  duration_ms: 18.5774
+  type: 'test'
+  ...
+# Subtest: 返回保留已抽卡组及分享地址，不回滚收藏、次数、保底或再次触发揭晓
+ok 45 - 返回保留已抽卡组及分享地址，不回滚收藏、次数、保底或再次触发揭晓
+  ---
+  duration_ms: 1.1425
+  type: 'test'
+  ...
+# Subtest: 首页边界不调用渲染，已展开详情也不会作为返回目标
+ok 46 - 首页边界不调用渲染，已展开详情也不会作为返回目标
+  ---
+  duration_ms: 1.0096
+  type: 'test'
+  ...
+# Subtest: 长图在测量前将折叠参考变为普通区块，标题、链接与顺序完整保留
+ok 47 - 长图在测量前将折叠参考变为普通区块，标题、链接与顺序完整保留
+  ---
+  duration_ms: 2.1117
+  type: 'test'
+  ...
+# Subtest: 生成长图使用当前卡组的完整正文，先展开参考再渲染，并显示可长按的原图
+ok 48 - 生成长图使用当前卡组的完整正文，先展开参考再渲染，并显示可长按的原图
+  ---
+  duration_ms: 2.4751
+  type: 'test'
+  ...
+# Subtest: 生成失败会恢复保存入口并移除临时长图，不残留遮挡页面的导出节点
+ok 49 - 生成失败会恢复保存入口并移除临时长图，不残留遮挡页面的导出节点
+  ---
+  duration_ms: 1.0864
+  type: 'test'
+  ...
+# Subtest: 每个星级的二至六卡都有独立戏剧短评与准确关联卡
+ok 50 - 每个星级的二至六卡都有独立戏剧短评与准确关联卡
+  ---
+  duration_ms: 10.5644
+  type: 'test'
+  ...
+# Subtest: 总览评语关闭分值时连无障碍名称也不报加分数，仍保留准确关联卡
+ok 51 - 总览评语关闭分值时连无障碍名称也不报加分数，仍保留准确关联卡
+  ---
+  duration_ms: 0.5362
+  type: 'test'
+  ...
+# Subtest: 真实哈姆雷特卡组的四种同作羁绊与演法羁绊各有对应短评
+ok 52 - 真实哈姆雷特卡组的四种同作羁绊与演法羁绊各有对应短评
+  ---
+  duration_ms: 4.5299
+  type: 'test'
+  ...
+# Subtest: 多组同星与羁绊同时触发，累计分不穿透类别帽或总分帽
+ok 53 - 多组同星与羁绊同时触发，累计分不穿透类别帽或总分帽
+  ---
+  duration_ms: 0.641
+  type: 'test'
+  ...
+# Subtest: 长卡名不挤占单行短评，十五种羁绊文案均完整简短
+ok 54 - 长卡名不挤占单行短评，十五种羁绊文案均完整简短
+  ---
+  duration_ms: 1.1355
+  type: 'test'
+  ...
+# Subtest: 无奖励的混搭只保留普通短评，不显示大称号或重复总分
+ok 55 - 无奖励的混搭只保留普通短评，不显示大称号或重复总分
+  ---
+  duration_ms: 0.3736
+  type: 'test'
+  ...
+# Subtest: 五卡旧局只回看存在的卡，不虚构配角事件
+ok 56 - 五卡旧局只回看存在的卡，不虚构配角事件
+  ---
+  duration_ms: 0.5729
+  type: 'test'
+  ...
+# Subtest: 每组只有一个加分词条，文本与事件属性均转义
+ok 57 - 每组只有一个加分词条，文本与事件属性均转义
+  ---
+  duration_ms: 0.4712
+  type: 'test'
+  ...
+# Subtest: 总览与演后谈按实际卡ID同时点亮，重排不串卡，重播不会重复加分
+ok 58 - 总览与演后谈按实际卡ID同时点亮，重排不串卡，重播不会重复加分
+  ---
+  duration_ms: 12.8235
+  type: 'test'
+  ...
+# Subtest: 自动计分的每一帧都是整数，奖励封顶后仍点亮但不会超过100分
+ok 59 - 自动计分的每一帧都是整数，奖励封顶后仍点亮但不会超过100分
+  ---
+  duration_ms: 8.6124
+  type: 'test'
+  ...
+# Subtest: 卡与角按实际ID同步，一次仅一个维度，760ms呈现及180ms停顿后才轮到下一维
+ok 60 - 卡与角按实际ID同步，一次仅一个维度，760ms呈现及180ms停顿后才轮到下一维
+  ---
+  duration_ms: 3.5284
+  type: 'test'
+  ...
+# Subtest: 图表进入视野才启动六角和计分，重复交叉通知不会重复播放
+ok 61 - 图表进入视野才启动六角和计分，重复交叉通知不会重复播放
+  ---
+  duration_ms: 2.5513
+  type: 'test'
+  ...
+# Subtest: 图表尚未进入视野时离开或点击完成，旧观察回调不能重新启动动画
+ok 62 - 图表尚未进入视野时离开或点击完成，旧观察回调不能重新启动动画
+  ---
+  duration_ms: 2.8649
+  type: 'test'
+  ...
+# Subtest: 无IntersectionObserver时立即启动序列，减动及详情不等待可见性
+ok 63 - 无IntersectionObserver时立即启动序列，减动及详情不等待可见性
+  ---
+  duration_ms: 5.2415
+  type: 'test'
+  ...
+# Subtest: 加分卡面仅作560ms一像素柔和回弹，缓慢归位且连续点选不叠加
+ok 64 - 加分卡面仅作560ms一像素柔和回弹，缓慢归位且连续点选不叠加
+  ---
+  duration_ms: 3.9943
+  type: 'test'
+  ...
+# Subtest: 点击完成立即终止计分，展开及详情返回不会重新从基础分播放
+ok 65 - 点击完成立即终止计分，展开及详情返回不会重新从基础分播放
+  ---
+  duration_ms: 1.7308
+  type: 'test'
+  ...
+# Subtest: 切路由清理待执行计时、RAF、观察器与卡牌动画，旧回调不改新画面
+ok 66 - 切路由清理待执行计时、RAF、观察器与卡牌动画，旧回调不改新画面
+  ---
+  duration_ms: 1.6812
+  type: 'test'
+  ...
+# Subtest: 减动和打开详情直接显示最终分，旧五卡只联动存在卡
+ok 67 - 减动和打开详情直接显示最终分，旧五卡只联动存在卡
+  ---
+  duration_ms: 3.1236
+  type: 'test'
+  ...
+# Subtest: 咫言咫语只在进入视野时渐显完整句，未展开的全文不提前播放
+ok 68 - 咫言咫语只在进入视野时渐显完整句，未展开的全文不提前播放
+  ---
+  duration_ms: 0.8653
+  type: 'test'
+  ...
+# Subtest: 咫言咫语的名称和连续正文完整保留，含引号、标点和转义字符也不丢失
+ok 69 - 咫言咫语的名称和连续正文完整保留，含引号、标点和转义字符也不丢失
+  ---
+  duration_ms: 1.0374
+  type: 'test'
+  ...
+# Subtest: 实际内联总览与节目单模板把所有事件关联到页面上的卡片，五卡分享不补卡
+ok 70 - 实际内联总览与节目单模板把所有事件关联到页面上的卡片，五卡分享不补卡
+  ---
+  duration_ms: 100.1881
+  type: 'test'
+  ...
+# Subtest: 截图样例保持六个原分，常见分差的视觉距离放大两倍
+ok 71 - 截图样例保持六个原分，常见分差的视觉距离放大两倍
+  ---
+  duration_ms: 2.2974
+  type: 'test'
+  ...
+# Subtest: 同分跨卡组半径一致，0至100严格单调，不作局内归一或随机变形
+ok 72 - 同分跨卡组半径一致，0至100严格单调，不作局内归一或随机变形
+  ---
+  duration_ms: 16.4978
+  type: 'test'
+  ...
+# Subtest: 同均分的不同分布保留不同形状，射线、圆点与导出底图使用同一组坐标
+ok 73 - 同均分的不同分布保留不同形状，射线、圆点与导出底图使用同一组坐标
+  ---
+  duration_ms: 0.6459
+  type: 'test'
+  ...
+# Subtest: 旧五卡仍使用相同尺度并只显示实际五维
+ok 74 - 旧五卡仍使用相同尺度并只显示实际五维
+  ---
+  duration_ms: 0.2509
+  type: 'test'
+  ...
+# {"previous":{"five":35.375,"six":16.305,"fiveOrSix":46.675,"atLeastFive":50.29,"atLeastSix":21.55,"seven":5.92},"current":{"five":46.845,"six":26.34,"fiveOrSix":62.21,"atLeastFive":64.875,"atLeastSix":31.07,"seven":5.92},"gift":{"five":69.65,"six":43.055,"fiveOrSix":84.71,"atLeastFive":89.235,"atLeastSix":56.48,"seven":21.55}}
+# Subtest: 普通五星七到十、六星三到五，总和100；七星与赠礼概率不变
+ok 75 - 普通五星七到十、六星三到五，总和100；七星与赠礼概率不变
+  ---
+  duration_ms: 8.2358
+  type: 'test'
+  ...
+# Subtest: 实际每维出率使用真实缺档回退，五星六星均存在，不扩充500卡池
+ok 76 - 实际每维出率使用真实缺档回退，五星六星均存在，不扩充500卡池
+  ---
+  duration_ms: 3.1397
+  type: 'test'
+  ...
+# Subtest: 30包五星以上、60包六星以上保底与一次性赠礼保持兼容
+ok 77 - 30包五星以上、60包六星以上保底与一次性赠礼保持兼容
+  ---
+  duration_ms: 18.7669
+  type: 'test'
+  ...
+# Subtest: 帮助表直接复用抽率配置与真实fallback，各维普通和赠礼展示正确
+ok 78 - 帮助表直接复用抽率配置与真实fallback，各维普通和赠礼展示正确
+  ---
+  duration_ms: 3.9453
+  type: 'test'
+  ...
+# Subtest: 缺档始终选最近星级，同距离取较低档，说明与抽卡使用同一解析
+ok 79 - 缺档始终选最近星级，同距离取较低档，说明与抽卡使用同一解析
+  ---
+  duration_ms: 0.2602
+  type: 'test'
+  ...
+# Subtest: 每模式两万包真实抽卡模拟符合理论，五星六星命中显著提升
+ok 80 - 每模式两万包真实抽卡模拟符合理论，五星六星命中显著提升
+  ---
+  duration_ms: 4460.0961
+  type: 'test'
+  ...
+# Subtest: 500张常驻四至七星分别提供三至六句介绍，277张预留兼容卡完整保留已有实卡句
+ok 81 - 500张常驻四至七星分别提供三至六句介绍，277张预留兼容卡完整保留已有实卡句
+  ---
+  duration_ms: 15.856
+  type: 'test'
+  ...
+# Subtest: 跳过泛短句时仍保留有意义的简短看点，不拿类别占用介绍句数
+ok 82 - 跳过泛短句时仍保留有意义的简短看点，不拿类别占用介绍句数
+  ---
+  duration_ms: 0.1453
+  type: 'test'
+  ...
+# Subtest: 只有五星至七星等待揭幕，纸幕移除后的完成时刻才逐颗亮星
+ok 83 - 只有五星至七星等待揭幕，纸幕移除后的完成时刻才逐颗亮星
+  ---
+  duration_ms: 5.616
+  type: 'test'
+  ...
+# Subtest: 末张高星完成后停留1500ms，七颗星全部亮起后仍有480ms才自动进入总览
+ok 84 - 末张高星完成后停留1500ms，七颗星全部亮起后仍有480ms才自动进入总览
+  ---
+  duration_ms: 2.0176
+  type: 'test'
+  ...
+# Subtest: 高星跳过及减动立即全亮，详情返回不重播，清理可取消pending及自动总览
+ok 85 - 高星跳过及减动立即全亮，详情返回不重播，清理可取消pending及自动总览
+  ---
+  duration_ms: 10.7501
+  type: 'test'
+  ...
+# Subtest: 卡面均分后一次只显一句，前句淡出才显后句，最后裂开并露出完整卡面
+ok 86 - 卡面均分后一次只显一句，前句淡出才显后句，最后裂开并露出完整卡面
+  ---
+  duration_ms: 3.9083
+  type: 'test'
+  ...
+# Subtest: 减少动态或跳过时立即露出完整卡面，无文字遮挡或等待计时
+ok 87 - 减少动态或跳过时立即露出完整卡面，无文字遮挡或等待计时
+  ---
+  duration_ms: 1.3815
+  type: 'test'
+  ...
+# Subtest: 下一张关闭或重绘均可清理计时，旧回调不改变新一张状态
+ok 88 - 下一张关闭或重绘均可清理计时，旧回调不改变新一张状态
+  ---
+  duration_ms: 1.2283
+  type: 'test'
+  ...
+# Subtest: 一至三星快速完成，四星起有完整介绍且保留跳过与减动
+ok 89 - 一至三星快速完成，四星起有完整介绍且保留跳过与减动
+  ---
+  duration_ms: 6.8207
+  type: 'test'
+  ...
+# Subtest: 完成揭晓后详情返回只显示卡面，不恢复遮挡文字或重播
+ok 90 - 完成揭晓后详情返回只显示卡面，不恢复遮挡文字或重播
+  ---
+  duration_ms: 0.7807
+  type: 'test'
+  ...
+# Subtest: 最后一张高星跳过或减动后卡面停留，交给现有下一步按钮继续
+ok 91 - 最后一张高星跳过或减动后卡面停留，交给现有下一步按钮继续
+  ---
+  duration_ms: 1.2813
+  type: 'test'
+  ...
+# Subtest: 只有七星启用暗场，切卡清理，详情返回恢复
+ok 92 - 只有七星启用暗场，切卡清理，详情返回恢复
+  ---
+  duration_ms: 1.3652
+  type: 'test'
+  ...
+# Subtest: 777张数据与运行页攻防档位同步，500常驻及277预留完整分区
+ok 93 - 777张数据与运行页攻防档位同步，500常驻及277预留完整分区
+  ---
+  duration_ms: 4.3728
+  type: 'test'
+  ...
+# Subtest: 历史锚点和逐版复核清单完整生效，复评按最新记录覆盖且均能算回当前两轴
+ok 94 - 历史锚点和逐版复核清单完整生效，复评按最新记录覆盖且均能算回当前两轴
+  ---
+  duration_ms: 7.3845
+  type: 'test'
+  ...
+# Subtest: 新复评短理由与展开子项、来源同卡一致，500常驻介绍及全部角色来源保留
+ok 95 - 新复评短理由与展开子项、来源同卡一致，500常驻介绍及全部角色来源保留
+  ---
+  duration_ms: 4.9732
+  type: 'test'
+  ...
+# Subtest: 卡池仍为777/500；185常驻人物与持久卡片的ID、名字、维度完全一致
+ok 96 - 卡池仍为777/500；185常驻人物与持久卡片的ID、名字、维度完全一致
+  ---
+  duration_ms: 3.105
+  type: 'test'
+  ...
+# Subtest: 两份逐卡设计恰好覆盖185常驻人物，真实卡面使用v50构图与源文件字段
+ok 97 - 两份逐卡设计恰好覆盖185常驻人物，真实卡面使用v50构图与源文件字段
+  ---
+  duration_ms: 9.6898
+  type: 'test'
+  ...
+# Subtest: 独立标志物不重复出现在手上；手持模式实际包含所选道具的SVG图形
+ok 98 - 独立标志物不重复出现在手上；手持模式实际包含所选道具的SVG图形
+  ---
+  duration_ms: 6.1995
+  type: 'test'
+  ...
+# Subtest: 实际777张SVG有效，185人物去除颜色与标注后没有完全重复的几何
+ok 99 - 实际777张SVG有效，185人物去除颜色与标注后没有完全重复的几何
+  ---
+  duration_ms: 27.088
+  type: 'test'
+  ...
+# Subtest: 75张预留人物仍为预留，不冒充已逐卡设计的v50常驻人物
+ok 100 - 75张预留人物仍为预留，不冒充已逐卡设计的v50常驻人物
+  ---
+  duration_ms: 1.9063
+  type: 'test'
+  ...
+# Subtest: 真实ft.body在人物卡范围内；输出不含背景矩形和印章的边界报告
+ok 101 - 真实ft.body在人物卡范围内；输出不含背景矩形和印章的边界报告
+  ---
+  duration_ms: 22.5346
+  type: 'test'
+  ...
+# Subtest: 18个唯一角色简称在运行页及持久数据一致，15常驻3预留且出处未省略
+ok 102 - 18个唯一角色简称在运行页及持久数据一致，15常驻3预留且出处未省略
+  ---
+  duration_ms: 8.6255
+  type: 'test'
+  ...
+# Subtest: 实际演后谈以金枝和凯瑟琳简称叙事，独立来源行完整保留两部作品
+ok 103 - 实际演后谈以金枝和凯瑟琳简称叙事，独立来源行完整保留两部作品
+  ---
+  duration_ms: 19.8743
+  type: 'test'
+  ...
+# Subtest: 实际同作羁绊和卡组总览使用简称，关联卡仍由原ID与作品ID确定
+ok 104 - 实际同作羁绊和卡组总览使用简称，关联卡仍由原ID与作品ID确定
+  ---
+  duration_ms: 2.8755
+  type: 'test'
+  ...
+# Subtest: Python简称规则保留重名和人物关系括注，只去除精确作品后缀且兼容中英文括号
+ok 105 - Python简称规则保留重名和人物关系括注，只去除精确作品后缀且兼容中英文括号
+  ---
+  duration_ms: 168.7762
+  type: 'test'
+  ...
+# Subtest: 单卡只由两轴均分决定，名气和稀有度不会重复抬分
+ok 106 - 单卡只由两轴均分决定，名气和稀有度不会重复抬分
+  ---
+  duration_ms: 1.8393
+  type: 'test'
+  ...
+# Subtest: 六维按指定权重计分，输入顺序不影响结果且不会修改输入
+ok 107 - 六维按指定权重计分，输入顺序不影响结果且不会修改输入
+  ---
+  duration_ms: 2.5468
+  type: 'test'
+  ...
+# Subtest: 各卡两轴提高时整台分单调不降
+ok 108 - 各卡两轴提高时整台分单调不降
+  ---
+  duration_ms: 15.6608
+  type: 'test'
+  ...
+# Subtest: 同星覆盖每个等级的二至六张，低星两张至少一分，奖励按星级与人数单调不降
+ok 109 - 同星覆盖每个等级的二至六张，低星两张至少一分，奖励按星级与人数单调不降
+  ---
+  duration_ms: 0.8816
+  type: 'test'
+  ...
+# Subtest: 多个同色组可累加，低星同色也有收益
+ok 110 - 多个同色组可累加，低星同色也有收益
+  ---
+  duration_ms: 0.1818
+  type: 'test'
+  ...
+# Subtest: 基础分先四舍五入，半分边界及旧五卡都只给整数得分
+ok 111 - 基础分先四舍五入，半分边界及旧五卡都只给整数得分
+  ---
+  duration_ms: 0.1898
+  type: 'test'
+  ...
+# Subtest: 剧组称号与整场评价分开，人数优先，同人数取高星且顺序不影响称号
+ok 112 - 剧组称号与整场评价分开，人数优先，同人数取高星且顺序不影响称号
+  ---
+  duration_ms: 0.3118
+  type: 'test'
+  ...
+# Subtest: 卡片不再渲染评分教程，结果显示整数且首页折叠表与引擎一致
+ok 113 - 卡片不再渲染评分教程，结果显示整数且首页折叠表与引擎一致
+  ---
+  duration_ms: 3.4105
+  type: 'test'
+  ...
+# Subtest: 同名不同作或相似标签不能触发同作羁绊
+ok 114 - 同名不同作或相似标签不能触发同作羁绊
+  ---
+  duration_ms: 0.5274
+  type: 'test'
+  ...
+# Subtest: 明确俄狄浦斯对应能触发主角、配角、主配、原作空间，重复来源不重复计分
+ok 115 - 明确俄狄浦斯对应能触发主角、配角、主配、原作空间，重复来源不重复计分
+  ---
+  duration_ms: 0.4922
+  type: 'test'
+  ...
+# Subtest: 显式来源映射补充每卡 workIds，兼容只由显式布尔标记开启
+ok 116 - 显式来源映射补充每卡 workIds，兼容只由显式布尔标记开启
+  ---
+  duration_ms: 0.9499
+  type: 'test'
+  ...
+# Subtest: 五卡旧局按实际权重归一，不补配角且保留旧链接所需顺序自由
+ok 117 - 五卡旧局按实际权重归一，不补配角且保留旧链接所需顺序自由
+  ---
+  duration_ms: 0.2652
+  type: 'test'
+  ...
+# Subtest: 无羁绊不折扣基础分，最低零分，基础与奖励相加后封顶一百分
+ok 118 - 无羁绊不折扣基础分，最低零分，基础与奖励相加后封顶一百分
+  ---
+  duration_ms: 0.2808
+  type: 'test'
+  ...
+# Subtest: 重复 id、重复维度和非法缺维度无法刷同色或羁绊
+ok 119 - 重复 id、重复维度和非法缺维度无法刷同色或羁绊
+  ---
+  duration_ms: 0.502
+  type: 'test'
+  ...
+# Subtest: 独白直给保留六星88分，分别说明内心行动与方法成熟，不把独白当成静止或自动满分
+ok 120 - 独白直给保留六星88分，分别说明内心行动与方法成熟，不把独白当成静止或自动满分
+  ---
+  duration_ms: 1.9947
+  type: 'test'
+  ...
+# Subtest: 克拉普与蒋公分别用录音回听、双重时间框架解释冲突与结构，不从星级倒推
+ok 121 - 克拉普与蒋公分别用录音回听、双重时间框架解释冲突与结构，不从星级倒推
+  ---
+  duration_ms: 1.4317
+  type: 'test'
+  ...
+# Subtest: 桑树坪纪事以简短专属理由说明群像冲突与结构，正文保留人物、事件和来源
+ok 122 - 桑树坪纪事以简短专属理由说明群像冲突与结构，正文保留人物、事件和来源
+  ---
+  duration_ms: 3.0203
+  type: 'test'
+  ...
+# Subtest: 高低悬殊的风格、手法、人物和空间均有各自解释
+ok 123 - 高低悬殊的风格、手法、人物和空间均有各自解释
+  ---
+  duration_ms: 1.2135
+  type: 'test'
+  ...
+# Subtest: 不足以支持历史低分时保留不确定，不编造作品结构缺陷
+ok 124 - 不足以支持历史低分时保留不确定，不编造作品结构缺陷
+  ---
+  duration_ms: 0.204
+  type: 'test'
+  ...
+# Subtest: 新档位的一星卡保留自身功能解释，不以星级倒推低分
+ok 125 - 新档位的一星卡保留自身功能解释，不以星级倒推低分
+  ---
+  duration_ms: 0.5404
+  type: 'test'
+  ...
+# Subtest: 低星手法解释适用条件与限制，金枝和凯瑟琳分别保留具体处境
+ok 126 - 低星手法解释适用条件与限制，金枝和凯瑟琳分别保留具体处境
+  ---
+  duration_ms: 0.2306
+  type: 'test'
+  ...
+# Subtest: 全部已复核锚点只展示能算回当前分值的子项，来源逐项复用记录
+ok 127 - 全部已复核锚点只展示能算回当前分值的子项，来源逐项复用记录
+  ---
+  duration_ms: 1.7326
+  type: 'test'
+  ...
+# Subtest: 阿伽门农剧目按六项复评为94，不将剧本锚点或理由误套给同名配角
+ok 128 - 阿伽门农剧目按六项复评为94，不将剧本锚点或理由误套给同名配角
+  ---
+  duration_ms: 0.3748
+  type: 'test'
+  ...
+# Subtest: 500活跃及777全部旧卡都有完整依据，输出不修改任何卡字段
+ok 129 - 500活跃及777全部旧卡都有完整依据，输出不修改任何卡字段
+  ---
+  duration_ms: 11.3536
+  type: 'test'
+  ...
+# Subtest: 普通卡的轴解释不再复述小注、看点或排演文案，证据仍完整保留
+ok 130 - 普通卡的轴解释不再复述小注、看点或排演文案，证据仍完整保留
+  ---
+  duration_ms: 0.3982
+  type: 'test'
+  ...
+# Subtest: 不依赖星级、参考分、攻防反推的子项或无依据的来源数量
+ok 131 - 不依赖星级、参考分、攻防反推的子项或无依据的来源数量
+  ---
+  duration_ms: 0.2311
+  type: 'test'
+  ...
+# Subtest: 低于新量表范围的旧分与99原样保留，缺资料或缺数值时不补写事实
+ok 132 - 低于新量表范围的旧分与99原样保留，缺资料或缺数值时不补写事实
+  ---
+  duration_ms: 0.3248
+  type: 'test'
+  ...
+# Subtest: 独立浏览器脚本可直接inline调用，不依赖CommonJS或外部资源
+ok 133 - 独立浏览器脚本可直接inline调用，不依赖CommonJS或外部资源
+  ---
+  duration_ms: 3.0631
+  type: 'test'
+  ...
+# Subtest: 餐车里的交接具有具体欲望、限制、事件与后果，不再夹入排练说明
+ok 134 - 餐车里的交接具有具体欲望、限制、事件与后果，不再夹入排练说明
+  ---
+  duration_ms: 2.993
+  type: 'test'
+  ...
+# Subtest: 用户华伦夫人组合从展览资助推进到工钱责任，声音改变信息而非空泛换位
+ok 135 - 用户华伦夫人组合从展览资助推进到工钱责任，声音改变信息而非空泛换位
+  ---
+  duration_ms: 0.8186
+  type: 'test'
+  ...
+# Subtest: 5卡旧局是一个人的故事，不编造第二张人物或原作关系
+ok 136 - 5卡旧局是一个人的故事，不编造第二张人物或原作关系
+  ---
+  duration_ms: 0.8446
+  type: 'test'
+  ...
+# Subtest: 777历史卡与500常驻均可生成完整故事，人物来源不丢失
+ok 137 - 777历史卡与500常驻均可生成完整故事，人物来源不丢失
+  ---
+  duration_ms: 43.5933
+  type: 'test'
+  ...
+# Subtest: 1200组交叉抽样不变更数据，不把卡片排练字段抄进故事
+ok 138 - 1200组交叉抽样不变更数据，不把卡片排练字段抄进故事
+  ---
+  duration_ms: 50.5111
+  type: 'test'
+  ...
+# Subtest: 六维改变故事或专业解读，单人故事同样接纳演法与手段
+ok 139 - 六维改变故事或专业解读，单人故事同样接纳演法与手段
+  ---
+  duration_ms: 0.3683
+  type: 'test'
+  ...
+# Subtest: 原作与写作方法参考明确分开，只列已核实且与抽卡有关的资料
+ok 140 - 原作与写作方法参考明确分开，只列已核实且与抽卡有关的资料
+  ---
+  duration_ms: 0.4855
+  type: 'test'
+  ...
+# {"types":21,"combinations":2688,"props":64,"fixtures":2754,"outDir":"C:\\\\Users\\\\Administrator\\\\Documents\\\\Codex\\\\2026-11-14\\\\da\\\\work\\\\figure-check-v39"}
+# Subtest: C:\\Users\\Administrator\\Documents\\Codex\\2026-11-14\\da\\work\\DiaGacha\\scripts\\test-art-figures-v39.cjs
+ok 24 - C:\\Users\\Administrator\\Documents\\Codex\\2026-11-14\\da\\work\\DiaGacha\\scripts\\test-art-figures-v39.cjs
+  ---
+  duration_ms: 145.0031
+  type: 'test'
+  ...
+# PASS 公开图鉴只显示500张，旧收藏中预留卡ID仍保留
+# PASS 所有主配角有明确来源行；塞尔吉出自艺术，同名亨利四世不串作
+# PASS 500张释义保持完整句，没有旧补长残句或重复段落
+# PASS 字数限制只省略完整句，不截断句子也不插入垫话
+# PASS 六芒星以统一尺度放大分差，角分保持原值且没有刻度数字
+# PASS 整场及奖励只显示整数，卡面教程集中到首页玩法
+# {"presentationChecks":6,"activeCards":500,"roleSources":260}
+# Subtest: C:\\Users\\Administrator\\Documents\\Codex\\2026-11-14\\da\\work\\DiaGacha\\scripts\\test-presentation-v39.cjs
+ok 25 - C:\\Users\\Administrator\\Documents\\Codex\\2026-11-14\\da\\work\\DiaGacha\\scripts\\test-presentation-v39.cjs
+  ---
+  duration_ms: 216.532
+  type: 'test'
+  ...
+# Subtest: 500张常驻卡都能生成完整短标题，重排与重复渲染不变且不修改卡片
+ok 143 - 500张常驻卡都能生成完整短标题，重排与重复渲染不变且不修改卡片
+  ---
+  duration_ms: 14.1957
+  type: 'test'
+  ...
+# Subtest: 2000组常驻卡抽样产生至少50种主标题，不把地点差异算作标题丰富度
+ok 144 - 2000组常驻卡抽样产生至少50种主标题，不把地点差异算作标题丰富度
+  ---
+  duration_ms: 13.7131
+  type: 'test'
+  ...
+# Subtest: 更换六个维度中任一维度，都能改变主标题而不只是地点前缀
+ok 145 - 更换六个维度中任一维度，都能改变主标题而不只是地点前缀
+  ---
+  duration_ms: 2.8851
+  type: 'test'
+  ...
+# Subtest: 28条故事分支各有至少8个不同标题，标题始终来自当前故事的候选
+ok 146 - 28条故事分支各有至少8个不同标题，标题始终来自当前故事的候选
+  ---
+  duration_ms: 18.2344
+  type: 'test'
+  ...
+# Subtest: 旧五卡与华伦夫人使用各自故事标题，长地点不会退回不相干的通用标题
+ok 147 - 旧五卡与华伦夫人使用各自故事标题，长地点不会退回不相干的通用标题
+  ---
+  duration_ms: 1.5517
+  type: 'test'
+  ...
+# Subtest: 游戏页面内嵌的标题及故事实现与通过测试的源文件一致
+ok 148 - 游戏页面内嵌的标题及故事实现与通过测试的源文件一致
+  ---
+  duration_ms: 5.1252
+  type: 'test'
+  ...
+# Subtest: 综合分按同一整数边界决定七档，四舍五入先于分档，参考分不参与
+ok 149 - 综合分按同一整数边界决定七档，四舍五入先于分档，参考分不参与
+  ---
+  duration_ms: 191.686
+  type: 'test'
+  ...
+# Subtest: 迁移只应用已记录复评，保留其他当前分值、卡序和编号，不按旧分或名气重新生成
+ok 150 - 迁移只应用已记录复评，保留其他当前分值、卡序和编号，不按旧分或名气重新生成
+  ---
+  duration_ms: 232.2764
+  type: 'test'
+  ...
+1..150
+# tests 150
+# suites 0
+# pass 150
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4974.363

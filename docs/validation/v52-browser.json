@@ -1,0 +1,106 @@
+[
+  {
+    "name": "current",
+    "width": 390,
+    "title": "曾家花厅｜无辜的人还在替谁承担",
+    "bounds": {
+      "left": 18,
+      "right": 372,
+      "width": 390,
+      "scroll": 354,
+      "client": 354,
+      "page": 390
+    }
+  },
+  {
+    "name": "cherry",
+    "width": 390,
+    "title": "餐车｜盛情款待到了交钥匙的时候",
+    "bounds": {
+      "left": 18,
+      "right": 372,
+      "width": 390,
+      "scroll": 354,
+      "client": 354,
+      "page": 390
+    }
+  },
+  {
+    "name": "warren",
+    "width": 390,
+    "title": "媚香楼｜拒绝这笔钱，谁来缩小愿望",
+    "bounds": {
+      "left": 18,
+      "right": 372,
+      "width": 390,
+      "scroll": 354,
+      "client": 354,
+      "page": 390
+    }
+  },
+  {
+    "name": "solo",
+    "width": 390,
+    "title": "乡间小路｜等不到回信，先读懂自己的信",
+    "bounds": {
+      "left": 18,
+      "right": 372,
+      "width": 390,
+      "scroll": 354,
+      "client": 354,
+      "page": 390
+    }
+  },
+  {
+    "name": "current",
+    "width": 1280,
+    "title": "曾家花厅｜无辜的人还在替谁承担",
+    "bounds": {
+      "left": 272.5,
+      "right": 992.5,
+      "width": 1280,
+      "scroll": 720,
+      "client": 720,
+      "page": 1265
+    }
+  },
+  {
+    "name": "cherry",
+    "width": 1280,
+    "title": "餐车｜盛情款待到了交钥匙的时候",
+    "bounds": {
+      "left": 272.5,
+      "right": 992.5,
+      "width": 1280,
+      "scroll": 720,
+      "client": 720,
+      "page": 1265
+    }
+  },
+  {
+    "name": "warren",
+    "width": 1280,
+    "title": "媚香楼｜拒绝这笔钱，谁来缩小愿望",
+    "bounds": {
+      "left": 272.5,
+      "right": 992.5,
+      "width": 1280,
+      "scroll": 720,
+      "client": 720,
+      "page": 1265
+    }
+  },
+  {
+    "name": "solo",
+    "width": 1280,
+    "title": "乡间小路｜等不到回信，先读懂自己的信",
+    "bounds": {
+      "left": 272.5,
+      "right": 992.5,
+      "width": 1280,
+      "scroll": 720,
+      "client": 720,
+      "page": 1265
+    }
+  }
+]
