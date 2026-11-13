@@ -26,7 +26,8 @@ const old = vm.createContext({});
 palette(original,old);
 vm.runInContext(original.slice(original.indexOf('function figHash('),original.indexOf('function bt(')),old);
 const sameHead = headCode(current).replace(/\r/g,'') === headCode(original).replace(/\r/g,'');
-assert(sameHead,'The original and current head renderers differ; revise the continuity note.');
+const sameFace = scope.figFace.toString().replace(/\r/g,'') === old.figFace.toString().replace(/\r/g,'');
+assert(sameFace,'The facial drawing changed; revise the continuity note.');
 const baseline = {id:'comparison',n:0,head:'crop',hair:'crop',face:'quiet',skin:'fair',cloth:'#485766',prop:'none',costume:'plain'};
 const features = {
   lipao:['宽袖直身','交领金线','对称长摆'],
@@ -64,7 +65,7 @@ const font={loadSystemFonts:false,fontFiles:['C:/Windows/Fonts/msyh.ttc','C:/Win
 let svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><rect width="${W}" height="${H}" fill="${paper}"/><g font-family="Microsoft YaHei">`;
 svg+=text(M,64,'DIAGACHA  /  咫牌 · 造型核对',21,muted,500,'letter-spacing="2"');
 svg+=text(M,144,'21 种小人，逐一看清',58,ink,700);
-svg+=text(W-M,137,'现版造型对照  ·  v39',24,muted,400,'text-anchor="end"');
+svg+=text(W-M,137,'现版造型对照  ·  v49',24,muted,400,'text-anchor="end"');
 svg+=line(M,178,W-M,178,ink);
 svg+=text(M,222,'原版 / 现版小样',26,ink,700);
 svg+=text(365,222,'相同头部与主衣色，直接比较剪影、衣领和衣摆。',24,muted);
@@ -79,7 +80,7 @@ pairs.forEach(([fig,name],i)=>{
   svg+=text(x+498,508,'现版',23,red,700,'text-anchor="middle"');
   svg+=text(x+388,398,'→',28,muted,400,'text-anchor="middle"');
 });
-svg+=text(M,578,'画风核对：圆脸、点眼、短发及平面纸片感沿用；现版加强衣装结构与动作。',25,ink);
+svg+=text(M,578,'画风核对：圆脸、点眼与纸片感沿用；现版整理发型位置、衣装结构与动作。',25,ink);
 svg+=text(M,618,'统一短发、表情、肤色与主衣色；保留类型默认姿态，无额外持物或服装叠层。',23,muted);
 const bounds=[],rowStarts=[];
 entries.forEach(([fig,feature],i)=>{
