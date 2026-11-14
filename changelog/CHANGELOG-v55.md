@@ -4,6 +4,8 @@
 
 [固定试玩入口](https://canoeliu917.github.io/DiaGacha/releases/v55/index.html) · [500卡碰撞学习图鉴](https://canoeliu917.github.io/DiaGacha/docs/collision-explorer-v55.html) · [全部规则与来源](../docs/COLLISION_GUIDE_V55.md) · [112条新增标题](../docs/STORY_TITLES_V55.md)
 
+固定源码：[162bf48](https://github.com/Canoeliu917/DiaGacha/tree/162bf48ef8973444d213be8fda59ad02a2922cef)。[Pages构建与部署成功记录](https://github.com/Canoeliu917/DiaGacha/actions/runs/43652359825)。
+
 ## 玩家看到的变化
 
 六张卡各有同维“替换”入口，候选显示原卡面、名称、星级、单卡分。自有收藏点击即替换，可反复比较；六芒星、卡组分、故事、羁绊和分享一起更新。评分图移到六张卡下面。首场两张试选仍可分别看短剧情预览，只有明确领取的一张入藏。移除旧大段改写说明和升降分比较账单。
@@ -54,5 +56,7 @@
 ## 发布与后续验收
 
 v55游戏文件SHA-256：`ed6942deed45e61c53cbdd5eaa359c67cf4cf11a0c12ea4181db0f13af5aff5d`。根入口与`releases/v55/index.html`保持相同；v54归档不改。以后修改故事或规则须发布新版本，以保持既有分享结果。
+
+线上复验：固定游戏、学习图鉴、17.16MB完整CSV均HTTP 200，并与Git提交内容逐字节相同。空白浏览器从分享二维码地址打开，标题、95分与完整故事同本地快照一致，未获得收藏；图鉴可查500张卡，未发现JavaScript异常或横向溢出。[线上核验记录](../docs/validation/v55/live-release.json)
 
 本轮可交付小范围邀请试玩。仍沿用[10—15位普通朋友、1—2位戏剧背景朋友及微信真机清单](../docs/INVITE_PLAYTEST_V54.md)，不预填这些外部验收已通过。
