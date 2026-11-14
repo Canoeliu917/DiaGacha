@@ -1,0 +1,26 @@
+{
+  "url": "https://canoeliu917.github.io/DiaGacha/releases/v54/index.html#m=xplay-miser.style-v21-epistolary.v23-dir-soundfirst.yrole-bawang.role2-fang-dasheng.yplace-jindian",
+  "title": "金殿｜慷慨的人也曾靠这笔钱生活",
+  "score": "卡组分76/ 100成台",
+  "full": "故事联想：取意于《吝啬鬼》，以下跨作品相遇与事件均为虚构。埃利夫与方达生在金殿相遇。台阶把来客与高处的座位分开，站在下面的人够不到递来的东西。埃利夫带来一笔钱，想修好一栋年久失修的房子，却要求不留下姓名。方达生拿出收支账簿，请埃利夫先写清来路，再决定这笔钱能不能收。埃利夫把数目加大，以为只是价钱没谈拢。方达生却翻出修缮房屋时压下的木工工钱：这次准备花的钱，也是别人等着过日子的报酬。埃利夫把收支账簿放稳，请方达生把对这次安排的异议写具体，才肯继续往下谈：“不能让奖赏过的行动突然被改判。”方达生先把能歇脚的位置让给埃利夫，再将自己的条件放到收支账簿旁：“帮助必须真的抵达对方的处境。”未寄出的信使对话变成书信体戏剧。埃利夫早写下对收支账簿的顾虑，方达生读到“怕再无选择”时，先收起催促。声音先行，门外的脚步还没带来面孔。方达生想借来者作证，埃利夫却先指向未写清的约定，不能把自己的责任推给门外。埃利夫承认自己也曾靠这笔钱过日子。方达生翻出亲自签收的旧账，才发现自己也曾从中受益，不能把责任全推给出资的人。执事开始收起台阶旁的踏凳，要完成交接，就得有一方先走下自己的位置。埃利夫争来了具体的评价，也必须把不愿听的反对理由看完。两人没有把账簿烧掉，也没有替彼此写下清白的结论。他们先把欠款列出来，再讨论剩下的钱能做什么；原先准备花钱办成的计划，被推迟到债还清以后。",
+  "owned": 0,
+  "progress": null,
+  "overflow": false,
+  "sameFullStory": true,
+  "sameTitle": true,
+  "pageErrors": [],
+  "networkFailures": [
+    {
+      "type": "Document",
+      "error": "net::ERR_TIMED_OUT"
+    }
+  ],
+  "checkedAt": "2026-11-14T15:42:19.294Z",
+  "commit": "91d2623155e6fa48abadf976c6da99b9352cef8a",
+  "httpStatus": 200,
+  "sha256": "1ba713cc32fcec1ee8479dd9b6a1da4bc950618fa5e8e93ee350fe61258345c4",
+  "bytes": 4775161,
+  "deployment": "https://github.com/Canoeliu917/DiaGacha/actions/runs/43611350795",
+  "deploymentConclusion": "success",
+  "note": "One initial document request timed out; the subsequent successful load is verified. No real WeChat device test."
+}

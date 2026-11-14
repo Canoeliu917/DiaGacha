@@ -10,7 +10,7 @@
 
 ## v54
 
-[首局选择、七枚印记、重复卡补抽、固定故事分享与本机存档](changelog/CHANGELOG-v54.md) · [固定试玩入口](https://canoeliu917.github.io/DiaGacha/releases/v54/index.html) · [真实朋友与微信真机验收清单](docs/INVITE_PLAYTEST_V54.md)
+[首局选择、七枚印记、重复卡补抽、固定故事分享与本机存档](changelog/CHANGELOG-v54.md) · [源码快照 91d2623](https://github.com/Canoeliu917/DiaGacha/tree/91d2623155e6fa48abadf976c6da99b9352cef8a) · [固定试玩入口](https://canoeliu917.github.io/DiaGacha/releases/v54/index.html) · [真实朋友与微信真机验收清单](docs/INVITE_PLAYTEST_V54.md)
 
 ## v53
 

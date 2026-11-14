@@ -2,6 +2,8 @@
 
 2026-11-14。定位：免费、免登录的小范围 H5 邀请试玩。
 
+固定提交：[91d2623](https://github.com/Canoeliu917/DiaGacha/commit/91d2623155e6fa48abadf976c6da99b9352cef8a) · [源码快照](https://github.com/Canoeliu917/DiaGacha/tree/91d2623155e6fa48abadf976c6da99b9352cef8a)
+
 [固定游戏入口](https://canoeliu917.github.io/DiaGacha/releases/v54/index.html) · [最终分享图](../docs/validation/v54-share.png) · [微信真机与朋友试玩清单](../docs/INVITE_PLAYTEST_V54.md)
 
 ## 内部评分：9.1 / 10
@@ -62,3 +64,9 @@
 `node scripts/integrate-v54.cjs` 将独立源码嵌入根目录页面；`--archive` 只允许首次写入或写入完全相同的 v54。若内容不同，构建会拒绝覆盖归档。下一版改用新的版本目录，保留旧目录的卡片数据、绘图、评分与故事实现。
 
 单 HTML 的未压缩体积约 4.78 MB，gzip 约 1.95 MB。桌面检查不能推断国内移动网络的真实加载速度，应在邀请试玩中记录。完成两端微信与普通朋友反馈后，再决定扩大传播。
+
+## 发布核验
+
+[GitHub Pages 构建 43611350795](https://github.com/Canoeliu917/DiaGacha/actions/runs/43611350795) 已成功。固定入口返回 HTTP 200，4775161 字节及 SHA-256 与本地归档完全一致；隔离访客打开二维码中的真实地址后，标题、全文和 76 分结果一致，收藏仍为 0、没有发放首局成就。[线上核验记录](../docs/validation/v54-published.json)。
+
+本次首次文档请求出现一次网络超时，后续加载成功，未发现游戏脚本异常。保留这项事实，不能据后续成功推断所有地区或微信网络都稳定；真机首屏速度仍需实际记录。

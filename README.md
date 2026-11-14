@@ -7,7 +7,7 @@
 - **[手机／电脑打开 v54 邀请试玩版](https://canoeliu917.github.io/DiaGacha/releases/v54/index.html)**
 - **[全部版本更新记录：v21–v54](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/CHANGELOG.md)**
 - [v54 本次改动与验收](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/changelog/CHANGELOG-v54.md)
-- [最新版完整源码](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38) · [此前 v53 固定源码快照](https://github.com/Canoeliu917/DiaGacha/tree/0c746437565add57807c474d7a43b736c180cc3e)
+- [最新版完整源码](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38) · [v54 固定源码快照](https://github.com/Canoeliu917/DiaGacha/tree/91d2623155e6fa48abadf976c6da99b9352cef8a)
 
 当前游戏由 `codex/scoring-v38` 分支根目录发布。仓库默认首页也提供上述导航；查看或下载完整最新版时，请使用“最新版完整源码”。下载后直接在浏览器打开其中的 `index.html` 即可游玩。
 
