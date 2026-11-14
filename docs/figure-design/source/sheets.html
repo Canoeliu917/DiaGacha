@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<title>咫牌小人 · 最原始结构</title>
+<style>
+    :root { --ink:#1c1916; --gold:#c6a15a; --paper:#efe6d4; --cream:#f3eee4; --soft:#8a7a62; }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; background:#f3eee4; }
+    body { font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; color:#1c1916; -webkit-font-smoothing: antialiased; }
+    .sheet {
+      width: 1080px; background: #f3eee4;
+      position: relative; overflow: hidden;
+    }
+    .inner { padding: 64px 72px 56px; }
+    h1 {
+      font-weight: 400; font-size: 42px; letter-spacing: 0.12em;
+      margin: 0 0 8px; text-align: center;
+    }
+    .sub {
+      text-align: center; font-size: 22px; color: #8a7a62;
+      letter-spacing: 0.08em; margin: 0 0 36px;
+    }
+    .rule {
+      width: 120px; height: 1px; background: #c6a15a; margin: 0 auto 28px; border:0;
+    }
+    .caption {
+      text-align: center; font-size: 20px; color: #8a7a62; line-height: 1.7;
+      margin: 28px auto 0; max-width: 860px;
+    }
+    .notes {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 18px 40px;
+      margin-top: 36px; font-size: 20px; line-height: 1.65; color: #1c1916;
+    }
+    .notes b { font-weight: 500; color: #1c1916; }
+    .label { font-size: 18px; fill: #8a7a62; font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; }
+    .label-ink { font-size: 18px; fill: #1c1916; font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; }
+    .k { font-size: 16px; fill: #c6a15a; font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; letter-spacing: 0.04em; }
+    
+  #stack { width:1080px; }
+  .sheet + .sheet { border-top: 24px solid #e8dfd0; }
+</style>
+</head>
+<body>
+<div id="stack">
+
+    <section class="sheet" id="structure" style="height:1680px">
+      <div class="inner">
+        <h1>咫牌小人 · 最原始结构</h1>
+        <div class="sub">全部服饰与姿态，都长在这一套骨架上</div>
+        <hr class="rule"/>
+      </div>
+      <svg width="1080" height="1060" viewBox="0 0 1080 1060" style="margin-top:-20px">
+        
+    <g transform="translate(540 184.5) scale(2.55)">
+      <!-- ground -->
+      <ellipse cx="0" cy="164" rx="48" ry="6" fill="#e0d5c2"/>
+
+      <!-- 4-head proportion boxes -->
+      <rect x="-28" y="10" width="56" height="36" fill="none" stroke="#c6a15a" stroke-width="0.7" opacity=".45"/><text x="-52" y="32" class="k" font-size="7" text-anchor="end">1</text><rect x="-28" y="46" width="56" height="36" fill="none" stroke="#c6a15a" stroke-width="0.7" opacity=".45"/><text x="-52" y="68" class="k" font-size="7" text-anchor="end">2</text><rect x="-28" y="82" width="56" height="36" fill="none" stroke="#c6a15a" stroke-width="0.7" opacity=".45"/><text x="-52" y="104" class="k" font-size="7" text-anchor="end">3</text><rect x="-28" y="118" width="56" height="36" fill="none" stroke="#c6a15a" stroke-width="0.7" opacity=".45"/><text x="-52" y="140" class="k" font-size="7" text-anchor="end">4</text>
+
+      <!-- center axis -->
+      <line x1="0" y1="8" x2="0" y2="157" stroke="#c6a15a" stroke-width="0.6" stroke-dasharray="2 2" opacity=".8"/>
+
+      <!-- implied torso volume (最原始体块，尚未穿衣) -->
+      <path d="M-16 48 L-22 58 L-16 108 H16 L22 58 L16 48 Z" fill="#efe6d4" stroke="#1c1916" stroke-width="1.2" stroke-linejoin="round" opacity=".95"/>
+      <path d="M-14 108 H-3 L-5 150 L-13 157 H-23 L-16 146 Z M3 108 H14 L16 148 L24 157 H4 Z" fill="#efe6d4" stroke="#1c1916" stroke-width="1.2" stroke-linejoin="round"/>
+
+      <!-- skeleton -->
+      <g fill="none" stroke="#b0853a" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="0" y1="46" x2="0" y2="108"/>
+        <line x1="-20" y1="58" x2="20" y2="58"/>
+        <line x1="-10" y1="108" x2="10" y2="108"/>
+        <path d="M-20 58 L-29 83 L-25 107"/>
+        <path d="M20 58 L29 83 L27 107"/>
+        <line x1="-8" y1="108" x2="-18" y2="157"/>
+        <line x1="8" y1="108" x2="14" y2="157"/>
+      </g>
+
+      <!-- joints -->
+      <g fill="#b0853a" stroke="none">
+        <circle cx="0" cy="28" r="2.3"/>
+        <circle cx="-20" cy="58" r="2.3"/>
+        <circle cx="20" cy="58" r="2.3"/>
+        <circle cx="-29" cy="83" r="2.0"/>
+        <circle cx="29" cy="83" r="2.0"/>
+        <circle cx="-25" cy="107" r="2.0"/>
+        <circle cx="27" cy="107" r="2.0"/>
+        <circle cx="-8" cy="108" r="2.0"/>
+        <circle cx="8" cy="108" r="2.0"/>
+        <circle cx="-18" cy="157" r="2.0"/>
+        <circle cx="14" cy="157" r="2.0"/>
+      </g>
+
+      <!-- hands as official circles, outlined so structure is visible -->
+      <circle cx="-25" cy="107" r="3.4" fill="none" stroke="#b0853a" stroke-width="0.9"/>
+      <circle cx="27" cy="107" r="3.4" fill="none" stroke="#b0853a" stroke-width="0.9"/>
+
+      <!-- head circle (no hair: 最原始) -->
+      <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      
+      
+          <circle cx="-6" cy="-1" r="2.2" fill="#1c1916"/>
+          <circle cx="6" cy="-1" r="2.2" fill="#1c1916"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+      <circle cx="0" cy="28" r="18" fill="none" stroke="#b0853a" stroke-width="1.15"/>
+
+      <!-- shoulder-to-head gap: 无独立脖子，头直接落在肩线之上 -->
+    </g>
+    
+        
+    <g font-family="Noto Sans CJK SC", "Noto Sans CJK", sans-serif>
+      
+        <g>
+          <line x1="540.0" y1="210.0" x2="250" y2="202.0" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="540.0" cy="210.0" r="3" fill="#c6a15a"/>
+          <text x="250" y="207.0" text-anchor="end" class="label-ink" font-size="20">头顶  y = 10</text>
+        </g>
+      
+        <g>
+          <line x1="585.9" y1="255.89999999999998" x2="830" y2="259.9" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="585.9" cy="255.89999999999998" r="3" fill="#c6a15a"/>
+          <text x="830" y="264.9" text-anchor="start" class="label-ink" font-size="20">头圆  r = 18　头心 (0, 28)</text>
+        </g>
+      
+        <g>
+          <line x1="489.0" y1="332.4" x2="230" y2="338.4" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="489.0" cy="332.4" r="3" fill="#c6a15a"/>
+          <text x="230" y="343.4" text-anchor="end" class="label-ink" font-size="20">肩点  (±20, 58)</text>
+        </g>
+      
+        <g>
+          <line x1="466.05" y1="396.15" x2="220" y2="402.15" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="466.05" cy="396.15" r="3" fill="#c6a15a"/>
+          <text x="220" y="407.15" text-anchor="end" class="label-ink" font-size="20">肘　两节臂</text>
+        </g>
+      
+        <g>
+          <line x1="476.25" y1="457.34999999999997" x2="210" y2="465.34999999999997" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="476.25" cy="457.34999999999997" r="3" fill="#c6a15a"/>
+          <text x="210" y="470.34999999999997" text-anchor="end" class="label-ink" font-size="20">手圆  r = 3.4</text>
+        </g>
+      
+        <g>
+          <line x1="560.4" y1="459.9" x2="830" y2="463.9" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="560.4" cy="459.9" r="3" fill="#c6a15a"/>
+          <text x="830" y="468.9" text-anchor="start" class="label-ink" font-size="20">髋线  y = 108</text>
+        </g>
+      
+        <g>
+          <line x1="575.7" y1="584.8499999999999" x2="830" y2="590.8499999999999" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="575.7" cy="584.8499999999999" r="3" fill="#c6a15a"/>
+          <text x="830" y="595.8499999999999" text-anchor="start" class="label-ink" font-size="20">脚底  y = 157</text>
+        </g>
+      <text x="392.1" y="393.6" class="label" font-size="18" text-anchor="end">4 头身</text>
+      <text x="392.1" y="415.6" class="label" font-size="16" text-anchor="end">全高 147</text>
+    </g>
+    
+        
+    <g transform="translate(170, 700)">
+      <rect x="-130" y="-130" width="360" height="322" rx="16" fill="#faf6ee" stroke="#c6a15a" stroke-width="1.2"/>
+      <text x="50" y="-98" text-anchor="middle" class="label-ink" font-size="20" letter-spacing="0.12em">脸部定位</text>
+      <g transform="translate(50, 20) scale(4.2)">
+        <!-- construction -->
+        <line x1="-22" y1="-1" x2="22" y2="-1" stroke="#c6a15a" stroke-width="0.35" stroke-dasharray="1 0.8"/>
+        <line x1="-22" y1="8" x2="22" y2="8" stroke="#c6a15a" stroke-width="0.35" stroke-dasharray="1 0.8"/>
+        <line x1="0" y1="-20" x2="0" y2="18" stroke="#c6a15a" stroke-width="0.3" stroke-dasharray="1 0.8"/>
+        <circle cx="0" cy="0" r="18" fill="#e8c4a0" stroke="#b0853a" stroke-width="0.45"/>
+        
+          <circle cx="-6" cy="-1" r="2.2" fill="#1c1916"/>
+          <circle cx="6" cy="-1" r="2.2" fill="#1c1916"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+        <circle cx="-6" cy="-1" r="0.7" fill="#c6a15a"/>
+        <circle cx="6" cy="-1" r="0.7" fill="#c6a15a"/>
+      </g>
+      <text x="50" y="148" text-anchor="middle" class="label" font-size="17">眼点 (±6, −1) r = 2.2</text>
+      <text x="50" y="172" text-anchor="middle" class="label" font-size="17">嘴线 y = 8　长 6　无鼻无眉</text>
+    </g>
+    
+        
+    <g transform="translate(600, 700)">
+      
+        <g transform="translate(0 0)">
+          <rect x="-96" y="-20" width="192" height="210" rx="14" fill="#faf6ee" stroke="#e4d8c4" stroke-width="1"/>
+          <text x="0" y="8" text-anchor="middle" class="label-ink" font-size="18">鞠躬</text>
+          <g transform="translate(0, 36) scale(1.15)">
+            <line x1="0" y1="10" x2="0" y2="90" stroke="#c6a15a" stroke-width="0.7" stroke-dasharray="2 2"/>
+            <!-- stand ghost head -->
+            <circle cx="0" cy="28" r="18" fill="none" stroke="#d8c8a8" stroke-width="1.1" stroke-dasharray="2 2"/>
+            <g transform="translate(0 34) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      
+      
+          <circle cx="-6" cy="-1" r="2.2" fill="#1c1916"/>
+          <circle cx="6" cy="-1" r="2.2" fill="#1c1916"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+            <circle cx="0" cy="34" r="18" fill="none" stroke="#b0853a" stroke-width="0.9"/>
+          </g>
+          <text x="0" y="178" text-anchor="middle" class="label" font-size="15">头心下移到 (0, 34)</text>
+        </g>
+      
+        <g transform="translate(185 0)">
+          <rect x="-96" y="-20" width="192" height="210" rx="14" fill="#faf6ee" stroke="#e4d8c4" stroke-width="1"/>
+          <text x="0" y="8" text-anchor="middle" class="label-ink" font-size="18">坐姿</text>
+          <g transform="translate(0, 36) scale(1.15)">
+            <line x1="0" y1="10" x2="0" y2="90" stroke="#c6a15a" stroke-width="0.7" stroke-dasharray="2 2"/>
+            <!-- stand ghost head -->
+            <circle cx="0" cy="28" r="18" fill="none" stroke="#d8c8a8" stroke-width="1.1" stroke-dasharray="2 2"/>
+            <g transform="translate(0 45) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      
+      
+          <circle cx="-6" cy="-1" r="2.2" fill="#1c1916"/>
+          <circle cx="6" cy="-1" r="2.2" fill="#1c1916"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+            <circle cx="0" cy="45" r="18" fill="none" stroke="#b0853a" stroke-width="0.9"/>
+          </g>
+          <text x="0" y="178" text-anchor="middle" class="label" font-size="15">头心下移到 (0, 45)</text>
+        </g>
+      
+        <g transform="translate(370 0)">
+          <rect x="-96" y="-20" width="192" height="210" rx="14" fill="#faf6ee" stroke="#e4d8c4" stroke-width="1"/>
+          <text x="0" y="8" text-anchor="middle" class="label-ink" font-size="18">佝偻</text>
+          <g transform="translate(0, 36) scale(1.15)">
+            <line x1="0" y1="10" x2="0" y2="90" stroke="#c6a15a" stroke-width="0.7" stroke-dasharray="2 2"/>
+            <!-- stand ghost head -->
+            <circle cx="0" cy="28" r="18" fill="none" stroke="#d8c8a8" stroke-width="1.1" stroke-dasharray="2 2"/>
+            <g transform="translate(14 42) scale(0.95)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      
+      
+          <circle cx="-6" cy="-1" r="2.2" fill="#1c1916"/>
+          <circle cx="6" cy="-1" r="2.2" fill="#1c1916"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+            <circle cx="14" cy="42" r="17.099999999999998" fill="none" stroke="#b0853a" stroke-width="0.9"/>
+          </g>
+          <text x="0" y="178" text-anchor="middle" class="label" font-size="15">头心 (14, 42) · 0.95</text>
+        </g>
+    </g>
+    
+      </svg>
+      <div class="inner" style="padding-top:0">
+        
+    <div class="notes">
+      <div>肩宽 40，只比头径 36 略宽。头与肩之间没有独立的脖子，头圆下沿落到约 y = 46，衣服从 y ≈ 50 起笔。</div>
+      <div>手臂永远是「肩–肘–手」两节折线；手永远是圆。腿在原始结构里是髋到脚的体块，具体轮廓由服饰决定。</div>
+    </div>
+    
+      </div>
+    </section>
+    
+
+    <section class="sheet" id="prototype" style="height:1680px">
+      <div class="inner">
+        <h1>咫人 · 标志性原型</h1>
+        <div class="sub">所有改变都从这里出发：先换姿态，再覆服饰</div>
+        <hr class="rule"/>
+      </div>
+      <svg width="1080" height="880" viewBox="0 0 1080 880">
+        
+    <g transform="translate(540 168.5) scale(3.15)">
+      
+      <ellipse cx="0" cy="165" rx="50" ry="7" fill="#d9cbb3" opacity=".85"/>
+      <path d="M-46 160 L46 160 L40 168 L-40 168 Z" fill="#c6a15a" opacity=".92"/>
+    
+      <!-- 中衣：直身底袍，同一肩髋锚点 -->
+      <path d="M-16 48 L-22 58 L-20 148 L-8 157 L0 149 L8 157 L20 148 L22 58 L16 48 Z" fill="#efe6d4" stroke="#1c1916" stroke-width="1.15" stroke-linejoin="round"/>
+      <path d="M0 68 V149" fill="none" stroke="#c6a15a" stroke-width="2"/>
+      <path d="M-11 90 H11" fill="none" stroke="#c6a15a" stroke-width="1.5"/>
+      <path d="M-8 50 L0 70 L8 50" fill="none" stroke="#c6a15a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <path d="M-20 58 L-24 88 L12 91" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 58 L24 82 L-7 92" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="12" cy="91" r="3.4" fill="#e8c4a0"/>
+      <circle cx="-7" cy="92" r="3.4" fill="#e8c4a0"/>
+    
+      <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+    </g>
+    
+      </svg>
+      <div class="inner" style="padding-top:8px">
+        <div class="notes">
+          <div><b>圆头定点。</b>头是直径 36 的正圆，站姿头心永远在 (0, 28)。这是所有变体的锚。</div>
+          <div><b>咫脸三笔。</b>两短横眼、一短横嘴，位置锁死。无鼻无眉是底稿；愁、怒、笑只在这三笔上加减。</div>
+          <div><b>无脖、圆手、四头身。</b>头直接落在肩线之上；手永远是圆；从头顶到脚约四个头高。</div>
+          <div><b>金线中衣，亮相默认。</b>未穿戏服时只留纸色中衣和一条金中缝。默认不是垂手直立，而是抱袖折臂，脚下是一块短金台板。</div>
+        </div>
+        <p class="caption">现行卡面用的是圆点眼；原型把眼改成短横笔，是为了让「咫脸」更不容易和常见扁平小人撞脸。骨架坐标与现在完全一致，二十一型服饰可以原样套上。</p>
+      </div>
+    </section>
+    
+
+    <section class="sheet" id="variants" style="height:1680px">
+      <div class="inner">
+        <h1>同一骨架上的变化</h1>
+        <div class="sub">先换姿态，再覆服饰。金色线是没变的原始结构</div>
+        <hr class="rule"/>
+      </div>
+      <svg width="1080" height="940" viewBox="0 0 1080 940">
+        
+        <g transform="translate(118 70) scale(1.62)">
+          <ellipse cx="0" cy="164" rx="44" ry="6" fill="#e0d5c2"/>
+          
+          <path d="M-17 50 L-35 58 L-40 136 L-23 145 L-19 92 L-21 156 H21 L19 92 L23 145 L40 136 L35 58 L17 50 Z" fill="#3a3a48"/>
+          <path d="M-13 50 L10 81 L16 53 M-19 102 H19 M0 81 V155" fill="none" stroke="#c6a15a" stroke-width="2.2" stroke-linecap="round"/>
+          
+      <path d="M-20 58 L-24 88 L12 91" fill="none" stroke="var(--cloth, #3a3a48)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 58 L24 82 L-7 92" fill="none" stroke="var(--cloth, #3a3a48)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="12" cy="91" r="3.4" fill="#e8c4a0"/>
+      <circle cx="-7" cy="92" r="3.4" fill="#e8c4a0"/>
+    
+          <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+          <g fill="none" stroke="#c6a15a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity="0.4">
+      <line x1="0" y1="46" x2="0" y2="108"/>
+      <line x1="-20" y1="58" x2="20" y2="58"/>
+      <line x1="-10" y1="108" x2="10" y2="108"/>
+      <path d="M-20 58 L-24 88 L12 91"/>
+      <path d="M20 58 L24 82 L-7 92"/>
+      <line x1="-8" y1="108" x2="-18" y2="157"/>
+      <line x1="8" y1="108" x2="14" y2="157"/>
+      <circle cx="0" cy="28" r="18" stroke-width="1.4"/>
+      <circle cx="0" cy="28" r="2.1" fill="#c6a15a" stroke="none"/>
+      <circle cx="-20" cy="58" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="20" cy="58" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="12" cy="91" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="-7" cy="92" r="2.2" fill="#c6a15a" stroke="none"/>
+    </g>
+        </g>
+        <text x="118" y="430" text-anchor="middle" class="label-ink" font-size="22">礼袍 · 抱袖</text>
+        
+        <g transform="translate(310 70) scale(1.62)">
+          <ellipse cx="0" cy="164" rx="44" ry="6" fill="#e0d5c2"/>
+          
+          <path d="M-6 43 H6 V51 L17 55 L13 83 L10 96 L22 154 H6 L13 117 L3 154 H-19 L-10 96 L-13 83 L-17 55 L-6 51 Z" fill="#6b2b33"/>
+          <path d="M-6 49 Q10 60 13 77 M-4 56 H5 M3 64 H11 M-14 80 H14" fill="none" stroke="#c6a15a" stroke-width="2" stroke-linecap="round"/>
+          
+      <path d="M-20 58 L-29 83 L-25 107" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 58 L29 83 L27 107" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="-25" cy="107" r="3.4" fill="#e8c4a0"/>
+      <circle cx="27" cy="107" r="3.4" fill="#e8c4a0"/>
+    
+          <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+          <g fill="none" stroke="#c6a15a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity="0.4">
+      <line x1="0" y1="46" x2="0" y2="108"/>
+      <line x1="-20" y1="58" x2="20" y2="58"/>
+      <line x1="-10" y1="108" x2="10" y2="108"/>
+      <path d="M-20 58 L-29 83 L-25 107"/>
+      <path d="M20 58 L29 83 L27 107"/>
+      <line x1="-8" y1="108" x2="-18" y2="157"/>
+      <line x1="8" y1="108" x2="14" y2="157"/>
+      <circle cx="0" cy="28" r="18" stroke-width="1.4"/>
+      <circle cx="0" cy="28" r="2.1" fill="#c6a15a" stroke="none"/>
+      <circle cx="-20" cy="58" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="20" cy="58" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="-25" cy="107" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="27" cy="107" r="2.2" fill="#c6a15a" stroke="none"/>
+    </g>
+        </g>
+        <text x="310" y="430" text-anchor="middle" class="label-ink" font-size="22">旗袍 · 直立</text>
+        
+        <g transform="translate(520 70) scale(1.62)">
+          <ellipse cx="0" cy="164" rx="44" ry="6" fill="#e0d5c2"/>
+          <path d="M-20 120 H-3 L-5 154 H-29 L-25 147 Z M3 120 H20 L25 147 L30 154 H5 Z" fill="#1c1916"/>
+          <path d="M-40 54 L-26 41 L-10 48 H10 L26 41 L40 54 L34 74 L23 68 L20 99 L30 119 L10 128 L0 111 L-10 128 L-30 119 L-20 99 L-23 68 L-34 74 Z" fill="#4a463c"/>
+          <path d="M-23 70 H23 M-20 84 H20 M-20 98 H20 M-12 48 V103 M12 48 V103" fill="none" stroke="#c6a15a" stroke-width="2.2"/>
+          
+      <path d="M-20 58 L-30 83 L8 84" fill="none" stroke="var(--cloth, #3a3a48)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 58 L30 75 L5 99" fill="none" stroke="var(--cloth, #3a3a48)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="8" cy="84" r="3.4" fill="#e8c4a0"/>
+      <circle cx="5" cy="99" r="3.4" fill="#e8c4a0"/>
+    
+          <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+          <g fill="none" stroke="#c6a15a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity="0.4">
+      <line x1="0" y1="46" x2="0" y2="108"/>
+      <line x1="-20" y1="58" x2="20" y2="58"/>
+      <line x1="-10" y1="108" x2="10" y2="108"/>
+      <path d="M-20 58 L-30 83 L8 84"/>
+      <path d="M20 58 L30 75 L5 99"/>
+      <line x1="-8" y1="108" x2="-18" y2="157"/>
+      <line x1="8" y1="108" x2="14" y2="157"/>
+      <circle cx="0" cy="28" r="18" stroke-width="1.4"/>
+      <circle cx="0" cy="28" r="2.1" fill="#c6a15a" stroke="none"/>
+      <circle cx="-20" cy="58" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="20" cy="58" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="8" cy="84" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="5" cy="99" r="2.2" fill="#c6a15a" stroke="none"/>
+    </g>
+        </g>
+        <text x="520" y="430" text-anchor="middle" class="label-ink" font-size="22">甲胄 · 戒备</text>
+        
+        <g transform="translate(745 70) scale(1.62)">
+          <ellipse cx="0" cy="164" rx="44" ry="6" fill="#e0d5c2"/>
+          <path d="M-14 118 H-3 L-5 150 L-13 157 H-23 L-16 146 Z M3 118 H14 L16 148 L24 157 H4 Z" fill="#1c1916"/>
+          <path d="M-9 44 L-21 53 Q-54 83 -64 146 L-32 140 L-8 158 L22 142 L67 154 Q41 102 32 66 L13 44 L17 65 L-12 66 Z" fill="#2c3a48"/>
+          <path d="M-5 63 L15 68 L23 141 L-7 153 Z" fill="#1c1916"/><path d="M-11 59 L11 59" fill="none" stroke="#c6a15a" stroke-width="3"/>
+          
+      <path d="M-20 58 L-28 86 L-15 103" fill="none" stroke="var(--cloth, #3a3a48)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 58 L39 76 L61 76" fill="none" stroke="var(--cloth, #3a3a48)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="-15" cy="103" r="3.4" fill="#e8c4a0"/>
+      <circle cx="61" cy="76" r="3.4" fill="#e8c4a0"/>
+    
+          <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+          <g fill="none" stroke="#c6a15a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" opacity="0.4">
+      <line x1="0" y1="46" x2="0" y2="108"/>
+      <line x1="-20" y1="58" x2="20" y2="58"/>
+      <line x1="-10" y1="108" x2="10" y2="108"/>
+      <path d="M-20 58 L-28 86 L-15 103"/>
+      <path d="M20 58 L39 76 L61 76"/>
+      <line x1="-8" y1="108" x2="-18" y2="157"/>
+      <line x1="8" y1="108" x2="14" y2="157"/>
+      <circle cx="0" cy="28" r="18" stroke-width="1.4"/>
+      <circle cx="0" cy="28" r="2.1" fill="#c6a15a" stroke="none"/>
+      <circle cx="-20" cy="58" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="20" cy="58" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="-15" cy="103" r="2.2" fill="#c6a15a" stroke="none"/>
+      <circle cx="61" cy="76" r="2.2" fill="#c6a15a" stroke="none"/>
+    </g>
+        </g>
+        <text x="745" y="430" text-anchor="middle" class="label-ink" font-size="22">斗篷 · 探身</text>
+        
+        <g transform="translate(955 70) scale(1.62)">
+          <ellipse cx="0" cy="164" rx="44" ry="6" fill="#e0d5c2"/>
+          
+          <path d="M-18 66 H18 L25 115 L36 126 L28 139 L9 125 L-8 128 L-31 147 L-43 138 L-23 116 Z" fill="#5c4a3a"/>
+          <path d="M-31 74 H-24 V156 H-31 Z M24 74 H31 V156 H24 Z M-31 74 H31 V84 H-31 Z M-33 119 H33 V128 H-33 Z" fill="#c6a15a"/><path d="M25 136 L28 155 H16 L12 133 M-31 139 L-43 155 H-54 L-41 132" fill="#1c1916"/><path d="M-13 71 L0 91 L13 71" fill="none" stroke="#efe6d4" stroke-width="3"/><path d="M-19 75 L-30 100 M19 75 L30 100" fill="none" stroke="#5c4a3a" stroke-width="7" stroke-linecap="round"/><path d="M-30 100 L-8 105 M30 100 L8 105" fill="none" stroke="#e8c4a0" stroke-width="4.5" stroke-linecap="round"/><circle cx="-8" cy="105" r="3.4" fill="#e8c4a0"/><circle cx="8" cy="105" r="3.4" fill="#e8c4a0"/>
+          
+          <g transform="translate(0 45) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+          <g fill="none" stroke="#c6a15a" stroke-width="1.6" stroke-linecap="round" opacity="0.4">
+          <line x1="0" y1="63" x2="0" y2="110"/>
+          <line x1="-16" y1="78" x2="16" y2="78"/>
+          <circle cx="0" cy="45" r="18" stroke-width="1.4"/>
+          <circle cx="0" cy="45" r="2.2" fill="#c6a15a" stroke="none"/>
+        </g>
+        </g>
+        <text x="955" y="430" text-anchor="middle" class="label-ink" font-size="22">坐姿 · 搭膝</text>
+        
+        <text x="540" y="500" text-anchor="middle" class="label" font-size="20" letter-spacing="0.14em">只改姿态 · 中衣不变</text>
+        
+        <g transform="translate(118 520) scale(1.62)">
+          <ellipse cx="0" cy="164" rx="40" ry="6" fill="#e0d5c2"/>
+          <path d="M-16 48 L-22 58 L-20 148 L-8 157 L0 149 L8 157 L20 148 L22 58 L16 48 Z" fill="#efe6d4" stroke="#1c1916" stroke-width="1.05" stroke-linejoin="round"/>
+          <path d="M0 68 V149" fill="none" stroke="#c6a15a" stroke-width="1.7"/>
+          <path d="M-8 50 L0 70 L8 50" fill="none" stroke="#c6a15a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          
+      <path d="M-20 58 L-24 88 L12 91" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 58 L24 82 L-7 92" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="12" cy="91" r="3.4" fill="#e8c4a0"/>
+      <circle cx="-7" cy="92" r="3.4" fill="#e8c4a0"/>
+    
+          <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+        </g>
+        <text x="118" y="880" text-anchor="middle" class="label-ink" font-size="22">抱袖</text>
+        
+        <g transform="translate(310 520) scale(1.62)">
+          <ellipse cx="0" cy="164" rx="40" ry="6" fill="#e0d5c2"/>
+          <path d="M-16 48 L-22 58 L-20 148 L-8 157 L0 149 L8 157 L20 148 L22 58 L16 48 Z" fill="#efe6d4" stroke="#1c1916" stroke-width="1.05" stroke-linejoin="round"/>
+          <path d="M0 68 V149" fill="none" stroke="#c6a15a" stroke-width="1.7"/>
+          <path d="M-8 50 L0 70 L8 50" fill="none" stroke="#c6a15a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          
+      <path d="M-20 58 L-29 83 L-25 107" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 58 L29 83 L27 107" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="-25" cy="107" r="3.4" fill="#e8c4a0"/>
+      <circle cx="27" cy="107" r="3.4" fill="#e8c4a0"/>
+    
+          <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+        </g>
+        <text x="310" y="880" text-anchor="middle" class="label-ink" font-size="22">直立</text>
+        
+        <g transform="translate(520 520) scale(1.62)">
+          <ellipse cx="0" cy="164" rx="40" ry="6" fill="#e0d5c2"/>
+          <path d="M-16 48 L-22 58 L-20 148 L-8 157 L0 149 L8 157 L20 148 L22 58 L16 48 Z" fill="#efe6d4" stroke="#1c1916" stroke-width="1.05" stroke-linejoin="round"/>
+          <path d="M0 68 V149" fill="none" stroke="#c6a15a" stroke-width="1.7"/>
+          <path d="M-8 50 L0 70 L8 50" fill="none" stroke="#c6a15a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          
+      <path d="M-20 58 L-30 83 L-26 104" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 58 L38 50 L46 27" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="-26" cy="104" r="3.4" fill="#e8c4a0"/>
+      <circle cx="46" cy="27" r="3.4" fill="#e8c4a0"/>
+    
+          <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+        </g>
+        <text x="520" y="880" text-anchor="middle" class="label-ink" font-size="22">举手</text>
+        
+        <g transform="translate(745 520) scale(1.62)">
+          <ellipse cx="0" cy="164" rx="40" ry="6" fill="#e0d5c2"/>
+          <path d="M-16 48 L-22 58 L-20 148 L-8 157 L0 149 L8 157 L20 148 L22 58 L16 48 Z" fill="#efe6d4" stroke="#1c1916" stroke-width="1.05" stroke-linejoin="round"/>
+          <path d="M0 68 V149" fill="none" stroke="#c6a15a" stroke-width="1.7"/>
+          <path d="M-8 50 L0 70 L8 50" fill="none" stroke="#c6a15a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          
+      <path d="M-20 58 L-28 86 L-15 103" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 58 L39 76 L61 76" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="-15" cy="103" r="3.4" fill="#e8c4a0"/>
+      <circle cx="61" cy="76" r="3.4" fill="#e8c4a0"/>
+    
+          <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+        </g>
+        <text x="745" y="880" text-anchor="middle" class="label-ink" font-size="22">探身</text>
+        
+        <g transform="translate(955 520) scale(1.62)">
+          <ellipse cx="0" cy="164" rx="40" ry="6" fill="#e0d5c2"/>
+          <path d="M-16 48 L-22 58 L-20 148 L-8 157 L0 149 L8 157 L20 148 L22 58 L16 48 Z" fill="#efe6d4" stroke="#1c1916" stroke-width="1.05" stroke-linejoin="round"/>
+          <path d="M0 68 V149" fill="none" stroke="#c6a15a" stroke-width="1.7"/>
+          <path d="M-8 50 L0 70 L8 50" fill="none" stroke="#c6a15a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          
+      <path d="M-20 58 L-41 69 L-62 58" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 58 L41 69 L62 58" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="-62" cy="58" r="3.4" fill="#e8c4a0"/>
+      <circle cx="62" cy="58" r="3.4" fill="#e8c4a0"/>
+    
+          <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+        </g>
+        <text x="955" y="880" text-anchor="middle" class="label-ink" font-size="22">开臂</text>
+        
+      </svg>
+      <div class="inner" style="padding-top:12px">
+        <p class="caption">上排是五种体态服饰套在同一套骨头上：礼袍、旗袍、甲胄、斗篷、坐姿。下排是原型中衣只改姿态，骨架不动。其余十六种服饰（短打、西装、长衫、制服、大衣等）也按同一锚点覆上即可。</p>
+      </div>
+    </section>
+    
+</div>
+</body>
+</html>

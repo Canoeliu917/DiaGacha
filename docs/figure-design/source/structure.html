@@ -1,0 +1,256 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"/><style>
+    :root { --ink:#1c1916; --gold:#c6a15a; --paper:#efe6d4; --cream:#f3eee4; --soft:#8a7a62; }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; background:#f3eee4; }
+    body { font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; color:#1c1916; -webkit-font-smoothing: antialiased; }
+    .sheet {
+      width: 1080px; background: #f3eee4;
+      position: relative; overflow: hidden;
+    }
+    .inner { padding: 64px 72px 56px; }
+    h1 {
+      font-weight: 400; font-size: 42px; letter-spacing: 0.12em;
+      margin: 0 0 8px; text-align: center;
+    }
+    .sub {
+      text-align: center; font-size: 22px; color: #8a7a62;
+      letter-spacing: 0.08em; margin: 0 0 36px;
+    }
+    .rule {
+      width: 120px; height: 1px; background: #c6a15a; margin: 0 auto 28px; border:0;
+    }
+    .caption {
+      text-align: center; font-size: 20px; color: #8a7a62; line-height: 1.7;
+      margin: 28px auto 0; max-width: 860px;
+    }
+    .notes {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 18px 40px;
+      margin-top: 36px; font-size: 20px; line-height: 1.65; color: #1c1916;
+    }
+    .notes b { font-weight: 500; color: #1c1916; }
+    .label { font-size: 18px; fill: #8a7a62; font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; }
+    .label-ink { font-size: 18px; fill: #1c1916; font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; }
+    .k { font-size: 16px; fill: #c6a15a; font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; letter-spacing: 0.04em; }
+    
+  #stack { width:1080px; }
+  .sheet + .sheet { border-top: 24px solid #e8dfd0; }
+</style>
+<style>html,body,.sheet{width:1080px;height:1680px;background:#f3eee4;margin:0;padding:0;overflow:hidden}</style>
+</head><body><section class="sheet" id="structure" style="height:1680px">
+      <div class="inner">
+        <h1>咫牌小人 · 最原始结构</h1>
+        <div class="sub">全部服饰与姿态，都长在这一套骨架上</div>
+        <hr class="rule"/>
+      </div>
+      <svg width="1080" height="1060" viewBox="0 0 1080 1060" style="margin-top:-20px">
+        
+    <g transform="translate(540 184.5) scale(2.55)">
+      <!-- ground -->
+      <ellipse cx="0" cy="164" rx="48" ry="6" fill="#e0d5c2"/>
+
+      <!-- 4-head proportion boxes -->
+      <rect x="-28" y="10" width="56" height="36" fill="none" stroke="#c6a15a" stroke-width="0.7" opacity=".45"/><text x="-52" y="32" class="k" font-size="7" text-anchor="end">1</text><rect x="-28" y="46" width="56" height="36" fill="none" stroke="#c6a15a" stroke-width="0.7" opacity=".45"/><text x="-52" y="68" class="k" font-size="7" text-anchor="end">2</text><rect x="-28" y="82" width="56" height="36" fill="none" stroke="#c6a15a" stroke-width="0.7" opacity=".45"/><text x="-52" y="104" class="k" font-size="7" text-anchor="end">3</text><rect x="-28" y="118" width="56" height="36" fill="none" stroke="#c6a15a" stroke-width="0.7" opacity=".45"/><text x="-52" y="140" class="k" font-size="7" text-anchor="end">4</text>
+
+      <!-- center axis -->
+      <line x1="0" y1="8" x2="0" y2="157" stroke="#c6a15a" stroke-width="0.6" stroke-dasharray="2 2" opacity=".8"/>
+
+      <!-- implied torso volume (最原始体块，尚未穿衣) -->
+      <path d="M-16 48 L-22 58 L-16 108 H16 L22 58 L16 48 Z" fill="#efe6d4" stroke="#1c1916" stroke-width="1.2" stroke-linejoin="round" opacity=".95"/>
+      <path d="M-14 108 H-3 L-5 150 L-13 157 H-23 L-16 146 Z M3 108 H14 L16 148 L24 157 H4 Z" fill="#efe6d4" stroke="#1c1916" stroke-width="1.2" stroke-linejoin="round"/>
+
+      <!-- skeleton -->
+      <g fill="none" stroke="#b0853a" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="0" y1="46" x2="0" y2="108"/>
+        <line x1="-20" y1="58" x2="20" y2="58"/>
+        <line x1="-10" y1="108" x2="10" y2="108"/>
+        <path d="M-20 58 L-29 83 L-25 107"/>
+        <path d="M20 58 L29 83 L27 107"/>
+        <line x1="-8" y1="108" x2="-18" y2="157"/>
+        <line x1="8" y1="108" x2="14" y2="157"/>
+      </g>
+
+      <!-- joints -->
+      <g fill="#b0853a" stroke="none">
+        <circle cx="0" cy="28" r="2.3"/>
+        <circle cx="-20" cy="58" r="2.3"/>
+        <circle cx="20" cy="58" r="2.3"/>
+        <circle cx="-29" cy="83" r="2.0"/>
+        <circle cx="29" cy="83" r="2.0"/>
+        <circle cx="-25" cy="107" r="2.0"/>
+        <circle cx="27" cy="107" r="2.0"/>
+        <circle cx="-8" cy="108" r="2.0"/>
+        <circle cx="8" cy="108" r="2.0"/>
+        <circle cx="-18" cy="157" r="2.0"/>
+        <circle cx="14" cy="157" r="2.0"/>
+      </g>
+
+      <!-- hands as official circles, outlined so structure is visible -->
+      <circle cx="-25" cy="107" r="3.4" fill="none" stroke="#b0853a" stroke-width="0.9"/>
+      <circle cx="27" cy="107" r="3.4" fill="none" stroke="#b0853a" stroke-width="0.9"/>
+
+      <!-- head circle (no hair: 最原始) -->
+      <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      
+      
+          <circle cx="-6" cy="-1" r="2.2" fill="#1c1916"/>
+          <circle cx="6" cy="-1" r="2.2" fill="#1c1916"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+      <circle cx="0" cy="28" r="18" fill="none" stroke="#b0853a" stroke-width="1.15"/>
+
+      <!-- shoulder-to-head gap: 无独立脖子，头直接落在肩线之上 -->
+    </g>
+    
+        
+    <g font-family="Noto Sans CJK SC", "Noto Sans CJK", sans-serif>
+      
+        <g>
+          <line x1="540.0" y1="210.0" x2="250" y2="202.0" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="540.0" cy="210.0" r="3" fill="#c6a15a"/>
+          <text x="250" y="207.0" text-anchor="end" class="label-ink" font-size="20">头顶  y = 10</text>
+        </g>
+      
+        <g>
+          <line x1="585.9" y1="255.89999999999998" x2="830" y2="259.9" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="585.9" cy="255.89999999999998" r="3" fill="#c6a15a"/>
+          <text x="830" y="264.9" text-anchor="start" class="label-ink" font-size="20">头圆  r = 18　头心 (0, 28)</text>
+        </g>
+      
+        <g>
+          <line x1="489.0" y1="332.4" x2="230" y2="338.4" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="489.0" cy="332.4" r="3" fill="#c6a15a"/>
+          <text x="230" y="343.4" text-anchor="end" class="label-ink" font-size="20">肩点  (±20, 58)</text>
+        </g>
+      
+        <g>
+          <line x1="466.05" y1="396.15" x2="220" y2="402.15" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="466.05" cy="396.15" r="3" fill="#c6a15a"/>
+          <text x="220" y="407.15" text-anchor="end" class="label-ink" font-size="20">肘　两节臂</text>
+        </g>
+      
+        <g>
+          <line x1="476.25" y1="457.34999999999997" x2="210" y2="465.34999999999997" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="476.25" cy="457.34999999999997" r="3" fill="#c6a15a"/>
+          <text x="210" y="470.34999999999997" text-anchor="end" class="label-ink" font-size="20">手圆  r = 3.4</text>
+        </g>
+      
+        <g>
+          <line x1="560.4" y1="459.9" x2="830" y2="463.9" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="560.4" cy="459.9" r="3" fill="#c6a15a"/>
+          <text x="830" y="468.9" text-anchor="start" class="label-ink" font-size="20">髋线  y = 108</text>
+        </g>
+      
+        <g>
+          <line x1="575.7" y1="584.8499999999999" x2="830" y2="590.8499999999999" stroke="#c6a15a" stroke-width="1.1"/>
+          <circle cx="575.7" cy="584.8499999999999" r="3" fill="#c6a15a"/>
+          <text x="830" y="595.8499999999999" text-anchor="start" class="label-ink" font-size="20">脚底  y = 157</text>
+        </g>
+      <text x="392.1" y="393.6" class="label" font-size="18" text-anchor="end">4 头身</text>
+      <text x="392.1" y="415.6" class="label" font-size="16" text-anchor="end">全高 147</text>
+    </g>
+    
+        
+    <g transform="translate(170, 700)">
+      <rect x="-130" y="-130" width="360" height="322" rx="16" fill="#faf6ee" stroke="#c6a15a" stroke-width="1.2"/>
+      <text x="50" y="-98" text-anchor="middle" class="label-ink" font-size="20" letter-spacing="0.12em">脸部定位</text>
+      <g transform="translate(50, 20) scale(4.2)">
+        <!-- construction -->
+        <line x1="-22" y1="-1" x2="22" y2="-1" stroke="#c6a15a" stroke-width="0.35" stroke-dasharray="1 0.8"/>
+        <line x1="-22" y1="8" x2="22" y2="8" stroke="#c6a15a" stroke-width="0.35" stroke-dasharray="1 0.8"/>
+        <line x1="0" y1="-20" x2="0" y2="18" stroke="#c6a15a" stroke-width="0.3" stroke-dasharray="1 0.8"/>
+        <circle cx="0" cy="0" r="18" fill="#e8c4a0" stroke="#b0853a" stroke-width="0.45"/>
+        
+          <circle cx="-6" cy="-1" r="2.2" fill="#1c1916"/>
+          <circle cx="6" cy="-1" r="2.2" fill="#1c1916"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+        <circle cx="-6" cy="-1" r="0.7" fill="#c6a15a"/>
+        <circle cx="6" cy="-1" r="0.7" fill="#c6a15a"/>
+      </g>
+      <text x="50" y="148" text-anchor="middle" class="label" font-size="17">眼点 (±6, −1) r = 2.2</text>
+      <text x="50" y="172" text-anchor="middle" class="label" font-size="17">嘴线 y = 8　长 6　无鼻无眉</text>
+    </g>
+    
+        
+    <g transform="translate(600, 700)">
+      
+        <g transform="translate(0 0)">
+          <rect x="-96" y="-20" width="192" height="210" rx="14" fill="#faf6ee" stroke="#e4d8c4" stroke-width="1"/>
+          <text x="0" y="8" text-anchor="middle" class="label-ink" font-size="18">鞠躬</text>
+          <g transform="translate(0, 36) scale(1.15)">
+            <line x1="0" y1="10" x2="0" y2="90" stroke="#c6a15a" stroke-width="0.7" stroke-dasharray="2 2"/>
+            <!-- stand ghost head -->
+            <circle cx="0" cy="28" r="18" fill="none" stroke="#d8c8a8" stroke-width="1.1" stroke-dasharray="2 2"/>
+            <g transform="translate(0 34) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      
+      
+          <circle cx="-6" cy="-1" r="2.2" fill="#1c1916"/>
+          <circle cx="6" cy="-1" r="2.2" fill="#1c1916"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+            <circle cx="0" cy="34" r="18" fill="none" stroke="#b0853a" stroke-width="0.9"/>
+          </g>
+          <text x="0" y="178" text-anchor="middle" class="label" font-size="15">头心下移到 (0, 34)</text>
+        </g>
+      
+        <g transform="translate(185 0)">
+          <rect x="-96" y="-20" width="192" height="210" rx="14" fill="#faf6ee" stroke="#e4d8c4" stroke-width="1"/>
+          <text x="0" y="8" text-anchor="middle" class="label-ink" font-size="18">坐姿</text>
+          <g transform="translate(0, 36) scale(1.15)">
+            <line x1="0" y1="10" x2="0" y2="90" stroke="#c6a15a" stroke-width="0.7" stroke-dasharray="2 2"/>
+            <!-- stand ghost head -->
+            <circle cx="0" cy="28" r="18" fill="none" stroke="#d8c8a8" stroke-width="1.1" stroke-dasharray="2 2"/>
+            <g transform="translate(0 45) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      
+      
+          <circle cx="-6" cy="-1" r="2.2" fill="#1c1916"/>
+          <circle cx="6" cy="-1" r="2.2" fill="#1c1916"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+            <circle cx="0" cy="45" r="18" fill="none" stroke="#b0853a" stroke-width="0.9"/>
+          </g>
+          <text x="0" y="178" text-anchor="middle" class="label" font-size="15">头心下移到 (0, 45)</text>
+        </g>
+      
+        <g transform="translate(370 0)">
+          <rect x="-96" y="-20" width="192" height="210" rx="14" fill="#faf6ee" stroke="#e4d8c4" stroke-width="1"/>
+          <text x="0" y="8" text-anchor="middle" class="label-ink" font-size="18">佝偻</text>
+          <g transform="translate(0, 36) scale(1.15)">
+            <line x1="0" y1="10" x2="0" y2="90" stroke="#c6a15a" stroke-width="0.7" stroke-dasharray="2 2"/>
+            <!-- stand ghost head -->
+            <circle cx="0" cy="28" r="18" fill="none" stroke="#d8c8a8" stroke-width="1.1" stroke-dasharray="2 2"/>
+            <g transform="translate(14 42) scale(0.95)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      
+      
+          <circle cx="-6" cy="-1" r="2.2" fill="#1c1916"/>
+          <circle cx="6" cy="-1" r="2.2" fill="#1c1916"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+            <circle cx="14" cy="42" r="17.099999999999998" fill="none" stroke="#b0853a" stroke-width="0.9"/>
+          </g>
+          <text x="0" y="178" text-anchor="middle" class="label" font-size="15">头心 (14, 42) · 0.95</text>
+        </g>
+    </g>
+    
+      </svg>
+      <div class="inner" style="padding-top:0">
+        
+    <div class="notes">
+      <div>肩宽 40，只比头径 36 略宽。头与肩之间没有独立的脖子，头圆下沿落到约 y = 46，衣服从 y ≈ 50 起笔。</div>
+      <div>手臂永远是「肩–肘–手」两节折线；手永远是圆。腿在原始结构里是髋到脚的体块，具体轮廓由服饰决定。</div>
+    </div>
+    
+      </div>
+    </section></body></html>
