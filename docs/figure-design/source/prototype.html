@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"/><style>
+    :root { --ink:#1c1916; --gold:#c6a15a; --paper:#efe6d4; --cream:#f3eee4; --soft:#8a7a62; }
+    * { box-sizing: border-box; }
+    html, body { margin:0; padding:0; background:#f3eee4; }
+    body { font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; color:#1c1916; -webkit-font-smoothing: antialiased; }
+    .sheet {
+      width: 1080px; background: #f3eee4;
+      position: relative; overflow: hidden;
+    }
+    .inner { padding: 64px 72px 56px; }
+    h1 {
+      font-weight: 400; font-size: 42px; letter-spacing: 0.12em;
+      margin: 0 0 8px; text-align: center;
+    }
+    .sub {
+      text-align: center; font-size: 22px; color: #8a7a62;
+      letter-spacing: 0.08em; margin: 0 0 36px;
+    }
+    .rule {
+      width: 120px; height: 1px; background: #c6a15a; margin: 0 auto 28px; border:0;
+    }
+    .caption {
+      text-align: center; font-size: 20px; color: #8a7a62; line-height: 1.7;
+      margin: 28px auto 0; max-width: 860px;
+    }
+    .notes {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 18px 40px;
+      margin-top: 36px; font-size: 20px; line-height: 1.65; color: #1c1916;
+    }
+    .notes b { font-weight: 500; color: #1c1916; }
+    .label { font-size: 18px; fill: #8a7a62; font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; }
+    .label-ink { font-size: 18px; fill: #1c1916; font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; }
+    .k { font-size: 16px; fill: #c6a15a; font-family: "Noto Sans CJK SC", "Noto Sans CJK", sans-serif; letter-spacing: 0.04em; }
+    
+  #stack { width:1080px; }
+  .sheet + .sheet { border-top: 24px solid #e8dfd0; }
+</style>
+<style>html,body,.sheet{width:1080px;height:1680px;background:#f3eee4;margin:0;padding:0;overflow:hidden}</style>
+</head><body><section class="sheet" id="prototype" style="height:1680px">
+      <div class="inner">
+        <h1>咫人 · 标志性原型</h1>
+        <div class="sub">所有改变都从这里出发：先换姿态，再覆服饰</div>
+        <hr class="rule"/>
+      </div>
+      <svg width="1080" height="880" viewBox="0 0 1080 880">
+        
+    <g transform="translate(540 168.5) scale(3.15)">
+      
+      <ellipse cx="0" cy="165" rx="50" ry="7" fill="#d9cbb3" opacity=".85"/>
+      <path d="M-46 160 L46 160 L40 168 L-40 168 Z" fill="#c6a15a" opacity=".92"/>
+    
+      <!-- 中衣：直身底袍，同一肩髋锚点 -->
+      <path d="M-16 48 L-22 58 L-20 148 L-8 157 L0 149 L8 157 L20 148 L22 58 L16 48 Z" fill="#efe6d4" stroke="#1c1916" stroke-width="1.15" stroke-linejoin="round"/>
+      <path d="M0 68 V149" fill="none" stroke="#c6a15a" stroke-width="2"/>
+      <path d="M-11 90 H11" fill="none" stroke="#c6a15a" stroke-width="1.5"/>
+      <path d="M-8 50 L0 70 L8 50" fill="none" stroke="#c6a15a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <path d="M-20 58 L-24 88 L12 91" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M20 58 L24 82 L-7 92" fill="none" stroke="#e8c4a0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="12" cy="91" r="3.4" fill="#e8c4a0"/>
+      <circle cx="-7" cy="92" r="3.4" fill="#e8c4a0"/>
+    
+      <g transform="translate(0 28) scale(1)">
+      <circle cx="0" cy="0" r="18" fill="#e8c4a0"/>
+      <path d="M-16 -9 Q0 -24 16 -9 L6 -13 L0 -17 L-6 -13 Z" fill="#1c1916"/>
+      
+          <path d="M-8.5 -1 H-3.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M3.5 -1 H8.5" fill="none" stroke="#1c1916" stroke-width="2.3" stroke-linecap="round"/>
+          <path d="M-3 8 H3" fill="none" stroke="#1c1916" stroke-width="1.8" stroke-linecap="round"/>
+        
+      
+    </g>
+    </g>
+    
+      </svg>
+      <div class="inner" style="padding-top:8px">
+        <div class="notes">
+          <div><b>圆头定点。</b>头是直径 36 的正圆，站姿头心永远在 (0, 28)。这是所有变体的锚。</div>
+          <div><b>咫脸三笔。</b>两短横眼、一短横嘴，位置锁死。无鼻无眉是底稿；愁、怒、笑只在这三笔上加减。</div>
+          <div><b>无脖、圆手、四头身。</b>头直接落在肩线之上；手永远是圆；从头顶到脚约四个头高。</div>
+          <div><b>金线中衣，亮相默认。</b>未穿戏服时只留纸色中衣和一条金中缝。默认不是垂手直立，而是抱袖折臂，脚下是一块短金台板。</div>
+        </div>
+        <p class="caption">现行卡面用的是圆点眼；原型把眼改成短横笔，是为了让「咫脸」更不容易和常见扁平小人撞脸。骨架坐标与现在完全一致，二十一型服饰可以原样套上。</p>
+      </div>
+    </section></body></html>
