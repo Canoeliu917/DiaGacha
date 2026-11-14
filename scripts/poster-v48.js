@@ -72,6 +72,7 @@ async function sharePoster(button,mode=`long`){
     poster.querySelector('.result-share-actions-v53')?.remove();
     poster.querySelector('.result-share-note-v53')?.remove();
     poster.querySelector('.rewrite-panel')?.remove();
+    poster.querySelectorAll('.rewrite-entry-v55,.rewrite-record-v55,.collision-more-v55,.collision-recipes-v55,.collision-study-v55 details').forEach(node=>node.remove());
     const scoringDetails=poster.querySelector('.score-explanation details');
     if(scoringDetails){
       if(mode===`short`)scoringDetails.remove();

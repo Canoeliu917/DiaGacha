@@ -1,0 +1,5 @@
+﻿"rule_id","card_ids","title","bonus","absorbs_pair_rule_ids","source_refs"
+"evolution-nora-door","role-nora;place-parlor;dir-v21-proptransfer","钥匙易手，去留仍须自决","3","nora-parlor","V55_DOLL"
+"evolution-hamlet-witness","play-hamlet;role2-claudius;dir-v21-selectivereplay","重演逼近观看者","3","hamlet-replay","V55_HAMLET"
+"evolution-antigone-boundary","role-anti;xplace-grave;dir-ritual","界线前完成最后一次覆土","3","antigone-grave","V55_ANTIGONE"
+"evolution-godot-repeat","play-godot;style-absurd;dir-v21-endingloop","离开的决定又回到原位","3","godot-endingloop;godot-absurd","V55_GODOT"

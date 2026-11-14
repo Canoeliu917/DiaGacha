@@ -1,0 +1,89 @@
+{
+  "before": {
+    "rects": [
+      {
+        "id": "xplay-miser",
+        "y": 294.78125
+      },
+      {
+        "id": "v23-role-danton",
+        "y": 294.78125
+      },
+      {
+        "id": "xdir-voiceover",
+        "y": 294.78125
+      },
+      {
+        "id": "role2-xiao-fuzi",
+        "y": 502.390625
+      },
+      {
+        "id": "ystyle-install",
+        "y": 502.390625
+      },
+      {
+        "id": "place-baihua",
+        "y": 502.390625
+      }
+    ],
+    "animations": [],
+    "story": "咫言咫语\n\n故事联想：取意于《吝啬鬼》，在花亭虚构一次跨作品相遇。催促的画外音传来，小福子以为有人替自己撑腰。箱子像装置剧场般改变去路。侍者来问多出的席位留给谁，双方不能继续把沉默算作对方同意。丹东先保留维持生活和休息的时间，账簿揭开丹东的出资背后还有未付的工钱，小福子也曾从中受益。双方先列清欠款，决定还债以后再继续原先的计划。\n\n展开这场戏\n\n丹东：《丹东之死》；小福子：《骆驼祥子》\n\n读剧参考"
+  },
+  "after": {
+    "rects": [
+      {
+        "id": "xplay-miser",
+        "y": -1218.21875
+      },
+      {
+        "id": "v23-role-danton",
+        "y": -1218.21875
+      },
+      {
+        "id": "xdir-voiceover",
+        "y": -1218.21875
+      },
+      {
+        "id": "role2-xiao-fuzi",
+        "y": -1010.609375
+      },
+      {
+        "id": "ystyle-install",
+        "y": -1010.609375
+      },
+      {
+        "id": "place-baihua",
+        "y": -1010.609375
+      }
+    ],
+    "highlighted": [
+      "xplay-miser",
+      "ystyle-install",
+      "place-baihua"
+    ],
+    "animations": [
+      {
+        "name": "",
+        "iterations": 1
+      },
+      {
+        "name": "",
+        "iterations": 1
+      },
+      {
+        "name": "",
+        "iterations": 1
+      },
+      {
+        "name": "",
+        "iterations": 1
+      },
+      {
+        "name": "",
+        "iterations": 1
+      }
+    ],
+    "score": "我的卡组评分\n81\n/ 100\n出彩",
+    "scrollY": 1513
+  }
+}

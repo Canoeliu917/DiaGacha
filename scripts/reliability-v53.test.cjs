@@ -112,7 +112,7 @@ test('最近节目单限5个不同卡组，刷新可找回旧五卡和改写状�
   assert.deepEqual(plain(next.Y.drawn.map(card=>card.id)),plain(changed.map(card=>card.id)));
   assert.deepEqual(plain(next.Y.rehearsal),plain(game.Y.rehearsal));
   assert.deepEqual(plain({task:next.Y.task,loop:next.Y.loop,owned:next.Y.owned}),before);
-  assert.equal(next.urls.at(-1),'/DiaGacha/releases/v54/index.html#m='+next.w(changed));
+  assert.equal(next.urls.at(-1),'/DiaGacha/releases/v55/index.html#m='+next.w(changed));
   next.Y.drawn=base.filter(card=>card.dimension!=='配角');next.Y.rehearsal=null;next.saveSessionV53();
   const legacy=harness(next.stored);legacy.restoreProgramV53(0);
   assert.equal(legacy.Y.drawn.length,5);assert.doesNotMatch(legacy.renderResumeV53(),/undefined/);
@@ -128,20 +128,20 @@ test('打开其它旧节目单保留当前未完成包，损坏或失效卡组�
   }
 });
 
-test('当前改写版与同场初始版都保留已用次数，其它新卡组不受影响',()=>{
+test('改写版保留最近替换与初始卡组，初始hash和其它卡组不再被次数锁定',()=>{
   const game=harness(),base=lineup(game),replacement=game.activeCards.filter(card=>card.dimension==='剧目')[1];
   const changed=base.map(card=>card.dimension==='剧目'?replacement:card);
   const rehearsal={originalIds:base.map(card=>card.id),change:{fromId:base[0].id,toId:replacement.id,dimension:'剧目'}};
   Object.assign(game.Y,{view:'result',drawn:changed,rehearsal});game.saveSessionV53();
   const next=harness(game.stored);
   assert.deepEqual(plain(next.savedRehearsalForCardsV53(changed.slice().reverse())),plain(rehearsal));
-  assert.equal(next.savedRehearsalForCardsV53(base).locked,true);
+  assert.equal(next.savedRehearsalForCardsV53(base),null);
   assert.equal(next.savedRehearsalForCardsV53(base.map(card=>card.dimension==='剧目'?game.activeCards.filter(item=>item.dimension==='剧目')[2]:card)),null);
   next.setHash('#m='+next.w(changed));next.wr();
   assert.deepEqual(plain(next.Y.rehearsal),plain(rehearsal));
 });
 
-test('从最近节目单、原始hash、真实翻页恢复初始卡组，都不能再确认第二次改写',()=>{
+test('从最近节目单、原始hash、真实翻页恢复初始卡组，均仍可用自有收藏替换',()=>{
   const game=harness(),base=lineup(game),replacement=game.activeCards.filter(card=>card.dimension==='剧目')[1];
   const original={originalIds:base.map(card=>card.id),change:null};
   Object.assign(game.Y,{view:'result',drawn:base,rehearsal:original});game.saveSessionV53();
@@ -150,17 +150,17 @@ test('从最近节目单、原始hash、真实翻页恢复初始卡组，都不�
   Object.assign(game.Y,{drawn:changed,rehearsal:used});game.saveSessionV53();
   const next=harness(game.stored);
   next.restoreProgramV53(1);
-  assert.equal(next.Y.rehearsal.locked,true);assert.equal(next.Y.rehearsal.change,null);
+  assert.equal(next.Y.rehearsal.locked,undefined);assert.equal(next.Y.rehearsal.change,null);
   assert.deepEqual(plain(next.Y.drawn.map(card=>card.id)),plain(base.map(card=>card.id)));
-  assert.equal(next.applyRewriteV53(next.Y.drawn,next.e,[replacement.id],next.Y.rehearsal,replacement.id),null);
+  assert.ok(next.applyRewriteV53(next.Y.drawn,next.e,[replacement.id],next.Y.rehearsal,replacement.id));
   const rendered=next.renderRehearsalV53(next.Y);
-  assert.match(rendered,/已经改写过一次/);assert.doesNotMatch(rendered,/rewrite-confirm|<select/);
-  const hash=harness(game.stored);hash.setHash('#m='+hash.w(base));hash.wr();assert.equal(hash.Y.rehearsal.locked,true);
+  assert.doesNotMatch(rendered,/已经改写过一次|rewrite-confirm|<select/);
+  const hash=harness(game.stored);hash.setHash('#m='+hash.w(base));hash.wr();assert.equal(hash.Y.rehearsal.locked,undefined);
   Object.assign(hash.Y,{view:'result',drawn:changed,rehearsal:used});
   const old={...plain(hash.Y),drawn:plain(base),rehearsal:plain(original)};
   hash.setHistory([{state:old,url:'#m='+hash.w(base),scroll:0},{state:plain(hash.Y),url:'#m='+hash.w(changed),scroll:0}],1);
   hash.useActualRender();hash.turnPageV42(-1);
-  assert.equal(hash.Y.rehearsal.locked,true,'actual Z reconciles history state before render');
+  assert.equal(hash.Y.rehearsal.locked,undefined,'actual Z reconciles history without reintroducing the v54 one-use lock');
   assert.deepEqual(plain(hash.Y.drawn.map(card=>card.id)),plain(base.map(card=>card.id)));
 });
 

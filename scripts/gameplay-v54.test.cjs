@@ -16,7 +16,7 @@ const escape=value=>String(value).replaceAll('&','&amp;').replaceAll('<','&lt;')
 function harness(stored=new Map()){
   const events=[],owned=JSON.parse(stored.get('test.owned')||JSON.stringify(base.map(card=>card.id)));
   const sandbox={e:all,activeCards:pool,K:escape,copyDimension:dim=>dim,Ct:card=>`<svg data-art="${card.id}"></svg>`,
-    productionScore:cards=>scoring.production(cards),shortScene:talk.shortScene,dramaticTitleV40:talk.dramaticTitleV40,
+    productionScore:cards=>scoring.production(cards),shortScene:talk.shortScene,dramaticTitleV40:talk.dramaticTitleV40,shareStoryBeatV54:talk.shareStoryBeatV54,
     localStorage:{getItem:key=>stored.get(key)||null,setItem:(key,value)=>stored.set(key,String(value))},
     Y:{view:'result',drawn:base.slice(),owned,rehearsal:{originalIds:base.map(card=>card.id),change:null},rehearsalPreview:'',fromShare:false},
     Z:()=>events.push('render'),Q:message=>events.push(message),finishProductionV40(){},lastSharePoster:null,
@@ -64,7 +64,8 @@ test('刷新保持候选与比较进度，确认后回到原始卡组或新局�
   const reloaded=harness(first.stored);
   assert.ok(reloaded.api.exportProgressV54().unlocked.includes('compare'));
   assert.equal(reloaded.api.starterCandidateIdsV54(base,reloaded.context.Y.rehearsal).length,0);
-  assert.equal(reloaded.api.previewRewriteV53(base,all,pool.map(card=>card.id),reloaded.context.Y.rehearsal,starter.candidates[0]),null);
+  assert.equal(reloaded.api.previewRewriteV53(base,all,reloaded.context.Y.owned,reloaded.context.Y.rehearsal,starter.candidates[0]),null,'Unclaimed gift stays unavailable');
+  assert.ok(reloaded.api.previewRewriteV53(base,all,pool.map(card=>card.id),reloaded.context.Y.rehearsal,starter.candidates[0]),'An independently owned copy remains usable');
   const other=base.map(card=>card.dimension==='剧目'?pool.find(next=>next.dimension==='剧目'&&next.id!==card.id):card);
   reloaded.api.recordOwnProgramV54(other);
   assert.deepEqual(plain(reloaded.api.exportProgressV54().starter.ids),starter.ids);
@@ -128,18 +129,21 @@ test('浏览好友节目单、渲染称号、同一候选重复预览均不伪�
   assert.ok(game.api.exportProgressV54().unlocked.includes('rewrite'));
   assert.ok(!game.api.exportProgressV54().unlocked.includes('compare'));
   assert.ok(!game.api.exportProgressV54().unlocked.includes('opening'));
+  assert.equal(game.context.Y.fromShare,false,'Applying a genuinely owned card creates an own programme');
 });
 
-test('候选卡面分页、完整名称与当前候选对照齐全，分项说明已计入总分',()=>{
+test('单维候选保留卡面分页名称星级单卡分，点击收藏同步正文，不再重复分项账单',()=>{
   const game=harness();game.context.Y.owned=pool.map(card=>card.id);
+  game.api.handleRehearsalV53('rewrite-open',{dataset:{dimension:'主演'}});
   let markup=game.api.renderRehearsalV53(game.context.Y,all);
   assert.equal((markup.match(/data-action="rewrite-preview"/g)||[]).length,12);
   assert.match(markup,/data-art=/);assert.match(markup,/单卡 \d+ 分/);assert.match(markup,/\d 星/);
   const candidate=pool.find(card=>card.dimension==='主演'&&card.id!==base[3].id);
-  preview(game,candidate.id);markup=game.api.renderRehearsalV53(game.context.Y,all);
   assert.ok(markup.includes(escape(candidate.name)));
-  assert.match(markup,/rewrite-comparison-v54/);assert.match(markup,/对照原来的故事/);
-  assert.match(markup,/均已计入整台总分/);assert.match(markup,/data-action="rewrite-confirm"/);
+  preview(game,candidate.id);markup=game.api.renderRehearsalV53(game.context.Y,all);
+  assert.equal(game.context.Y.drawn[3].id,candidate.id);
+  assert.doesNotMatch(markup,/rewrite-comparison-v54|对照原来的故事|同星奖励|羁绊奖励|分数升降|data-action="rewrite-confirm"/);
+  assert.match(markup,/查看初始卡组/);
 });
 
 test('七枚印记以真实换前后结果判定，不依赖升分高星或转发，导入导出保留完整小集合',()=>{

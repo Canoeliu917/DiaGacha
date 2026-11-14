@@ -1,0 +1,2041 @@
+{
+  "version": 55,
+  "activeCards": 500,
+  "crossDimensionPairs": 103650,
+  "dimensionPairs": {
+    "剧目|风格体系": 7500,
+    "剧目|导演手法": 7500,
+    "剧目|主演": 10000,
+    "剧目|环境": 6500,
+    "剧目|配角": 8500,
+    "风格体系|导演手法": 5625,
+    "风格体系|主演": 7500,
+    "风格体系|环境": 4875,
+    "风格体系|配角": 6375,
+    "导演手法|主演": 7500,
+    "导演手法|环境": 4875,
+    "导演手法|配角": 6375,
+    "主演|环境": 6500,
+    "主演|配角": 8500,
+    "配角|环境": 5525
+  },
+  "levels": {
+    "exploration": 102510,
+    "original-work": 286,
+    "curated": 44,
+    "curated-rule": 810
+  },
+  "curatedPairs": 47,
+  "curatedFamilies": 10,
+  "evolutions": 4,
+  "boundary": "来源支持卡牌定义与原作事实；跨卡舞台事件、意象及游戏奖励均为编辑创作，不声称是原作已有场面或专业机构评分。",
+  "coverage": {
+    "play-oedipus": {
+      "candidatePairs": 400,
+      "rewardedPairs": 8
+    },
+    "play-teahouse": {
+      "candidatePairs": 400,
+      "rewardedPairs": 11
+    },
+    "play-hamlet": {
+      "candidatePairs": 400,
+      "rewardedPairs": 15
+    },
+    "play-thunder": {
+      "candidatePairs": 400,
+      "rewardedPairs": 11
+    },
+    "play-macbeth": {
+      "candidatePairs": 400,
+      "rewardedPairs": 10
+    },
+    "play-godot": {
+      "candidatePairs": 400,
+      "rewardedPairs": 6
+    },
+    "play-peony": {
+      "candidatePairs": 400,
+      "rewardedPairs": 8
+    },
+    "play-doll": {
+      "candidatePairs": 400,
+      "rewardedPairs": 16
+    },
+    "play-salesman": {
+      "candidatePairs": 400,
+      "rewardedPairs": 6
+    },
+    "play-doue": {
+      "candidatePairs": 400,
+      "rewardedPairs": 8
+    },
+    "play-goodperson": {
+      "candidatePairs": 400,
+      "rewardedPairs": 8
+    },
+    "play-cherry": {
+      "candidatePairs": 400,
+      "rewardedPairs": 12
+    },
+    "play-xixiang": {
+      "candidatePairs": 400,
+      "rewardedPairs": 5
+    },
+    "play-visit": {
+      "candidatePairs": 400,
+      "rewardedPairs": 6
+    },
+    "play-sunrise": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "play-yuanye": {
+      "candidatePairs": 400,
+      "rewardedPairs": 5
+    },
+    "play-rhino": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "play-glass": {
+      "candidatePairs": 400,
+      "rewardedPairs": 7
+    },
+    "style-stan": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "style-epic": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "style-absurd": {
+      "candidatePairs": 425,
+      "rewardedPairs": 2
+    },
+    "style-real": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "style-xieyi": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "style-poor": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "dir-wall": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "dir-alien": {
+      "candidatePairs": 425,
+      "rewardedPairs": 2
+    },
+    "dir-ritual": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "dir-montage": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "dir-body": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "role-oedipus": {
+      "candidatePairs": 400,
+      "rewardedPairs": 10
+    },
+    "role-nora": {
+      "candidatePairs": 400,
+      "rewardedPairs": 23
+    },
+    "role-hamlet": {
+      "candidatePairs": 400,
+      "rewardedPairs": 13
+    },
+    "role-fanyi": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "role-macbeth": {
+      "candidatePairs": 400,
+      "rewardedPairs": 5
+    },
+    "role-doue": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "role-liniang": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "role-ladym": {
+      "candidatePairs": 400,
+      "rewardedPairs": 5
+    },
+    "role-wang": {
+      "candidatePairs": 400,
+      "rewardedPairs": 4
+    },
+    "role-shen": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "role-zhou": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "role-willy": {
+      "candidatePairs": 400,
+      "rewardedPairs": 10
+    },
+    "role-anti": {
+      "candidatePairs": 400,
+      "rewardedPairs": 4
+    },
+    "role-bailu": {
+      "candidatePairs": 400,
+      "rewardedPairs": 12
+    },
+    "role-gogo": {
+      "candidatePairs": 400,
+      "rewardedPairs": 7
+    },
+    "place-tea": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-elsinore": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-zhou": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-dunsinane": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-parlor": {
+      "candidatePairs": 435,
+      "rewardedPairs": 19
+    },
+    "place-exec": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-sichuan": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-cherry": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-gullen": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-zoo": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-forest": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "play-lear": {
+      "candidatePairs": 400,
+      "rewardedPairs": 10
+    },
+    "play-antigone": {
+      "candidatePairs": 400,
+      "rewardedPairs": 5
+    },
+    "play-orphan": {
+      "candidatePairs": 400,
+      "rewardedPairs": 7
+    },
+    "play-peach": {
+      "candidatePairs": 400,
+      "rewardedPairs": 3
+    },
+    "play-palace": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "play-secret": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "play-beijing": {
+      "candidatePairs": 400,
+      "rewardedPairs": 10
+    },
+    "play-baimao": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "play-street": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "play-sisters": {
+      "candidatePairs": 400,
+      "rewardedPairs": 10
+    },
+    "play-butterfly": {
+      "candidatePairs": 400,
+      "rewardedPairs": 3
+    },
+    "style-kabuki": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "style-black": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "style-physical": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "dir-solo": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "dir-convention": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "dir-call": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "role-shiping": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "role-xiangjun": {
+      "candidatePairs": 400,
+      "rewardedPairs": 21
+    },
+    "role-chengying": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "role-yuji": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "role-lear": {
+      "candidatePairs": 400,
+      "rewardedPairs": 8
+    },
+    "role-courage": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "role-blanche": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "role-mengmei": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "role-zhu": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "role-vladimir": {
+      "candidatePairs": 400,
+      "rewardedPairs": 7
+    },
+    "place-heath": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-meixiang": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-baihua": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "place-stella": {
+      "candidatePairs": 435,
+      "rewardedPairs": 19
+    },
+    "place-blackbox": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "place-proscenium": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "place-island": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-zeng": {
+      "candidatePairs": 435,
+      "rewardedPairs": 19
+    },
+    "xplay-faust": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xplay-seagull": {
+      "candidatePairs": 400,
+      "rewardedPairs": 6
+    },
+    "xplay-vanya": {
+      "candidatePairs": 400,
+      "rewardedPairs": 5
+    },
+    "xplay-tartuffe": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "xplay-miser": {
+      "candidatePairs": 400,
+      "rewardedPairs": 6
+    },
+    "xplay-figaro": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xplay-galileo": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "xplay-rhino": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "xplay-bald": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xplay-chairs": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "xplay-longday": {
+      "candidatePairs": 400,
+      "rewardedPairs": 6
+    },
+    "xplay-pygmalion": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xplay-merchant": {
+      "candidatePairs": 400,
+      "rewardedPairs": 5
+    },
+    "xplay-romeo": {
+      "candidatePairs": 400,
+      "rewardedPairs": 3
+    },
+    "xplay-jia": {
+      "candidatePairs": 400,
+      "rewardedPairs": 8
+    },
+    "xplay-quyuan": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xplay-guantheplay": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xplay-camel": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "xplay-lou": {
+      "candidatePairs": 400,
+      "rewardedPairs": 12
+    },
+    "xplay-sang": {
+      "candidatePairs": 400,
+      "rewardedPairs": 6
+    },
+    "xplay-doggy": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "xplay-shangyang": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xplay-caoyang": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "xplay-liqiu": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "xstyle-kunqu": {
+      "candidatePairs": 425,
+      "rewardedPairs": 10
+    },
+    "xstyle-chuanju": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-yuju": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-huangmei": {
+      "candidatePairs": 425,
+      "rewardedPairs": 10
+    },
+    "xstyle-shadow": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-puppetry": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-forum": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-site": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-walk": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-soundth": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-political": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-comedy": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-danceplay": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-nanxi": {
+      "candidatePairs": 425,
+      "rewardedPairs": 10
+    },
+    "xstyle-zaju": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-lab": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xstyle-bunraku": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-toplight": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-spot": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-backturn": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-changeset": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-enter": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-repeat": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "xdir-bang": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-drum": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-zoubian": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-sleeve": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-facechange": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-nian": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-mirror": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-group": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "xdir-improvbit": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xdir-voiceover": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "xrole-ophelia": {
+      "candidatePairs": 400,
+      "rewardedPairs": 13
+    },
+    "xrole-juliet": {
+      "candidatePairs": 400,
+      "rewardedPairs": 23
+    },
+    "xrole-eliza": {
+      "candidatePairs": 400,
+      "rewardedPairs": 29
+    },
+    "xrole-hedda": {
+      "candidatePairs": 400,
+      "rewardedPairs": 13
+    },
+    "xrole-harpagon": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xrole-tartuffe": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xrole-figaro": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xrole-mephisto": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xrole-cordelia": {
+      "candidatePairs": 400,
+      "rewardedPairs": 8
+    },
+    "xrole-pozzo": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xrole-lucky": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "xrole-chunxiang": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xrole-hongniang": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xrole-xiangzi": {
+      "candidatePairs": 400,
+      "rewardedPairs": 3
+    },
+    "xrole-huniu": {
+      "candidatePairs": 400,
+      "rewardedPairs": 22
+    },
+    "xrole-sifeng": {
+      "candidatePairs": 400,
+      "rewardedPairs": 21
+    },
+    "xrole-juexin": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xrole-chanjuan": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "xrole-zhulian": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xrole-cao": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xrole-yangxiu": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "xrole-gouer": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "xrole-shang": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "xplace-dock": {
+      "candidatePairs": 435,
+      "rewardedPairs": 10
+    },
+    "xplace-attic": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "xplace-balcony": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "xplace-market": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "xplace-factory": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "xplace-ancestral": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "xplace-grave": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "xplace-shrine": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "xplace-carriage": {
+      "candidatePairs": 435,
+      "rewardedPairs": 10
+    },
+    "xplace-rooftop": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "xplace-kitchen": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "xplace-convent": {
+      "candidatePairs": 435,
+      "rewardedPairs": 18
+    },
+    "xplace-snowfield": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "xplace-mine": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplay-prometheus": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "yplay-agamemnon": {
+      "candidatePairs": 400,
+      "rewardedPairs": 4
+    },
+    "yplay-birds": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "yplay-phedre": {
+      "candidatePairs": 400,
+      "rewardedPairs": 4
+    },
+    "yplay-threepenny": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yplay-endgame": {
+      "candidatePairs": 400,
+      "rewardedPairs": 4
+    },
+    "yplay-krapp": {
+      "candidatePairs": 400,
+      "rewardedPairs": 4
+    },
+    "yplay-enemy": {
+      "candidatePairs": 400,
+      "rewardedPairs": 7
+    },
+    "yplay-peer": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yplay-inspector": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "yplay-mrswarren": {
+      "candidatePairs": 400,
+      "rewardedPairs": 5
+    },
+    "yplay-tempest": {
+      "candidatePairs": 400,
+      "rewardedPairs": 4
+    },
+    "yplay-richard": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yplay-caesar": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yplay-caiwenji": {
+      "candidatePairs": 400,
+      "rewardedPairs": 4
+    },
+    "yplay-eaves": {
+      "candidatePairs": 400,
+      "rewardedPairs": 10
+    },
+    "yplay-promotion": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "yplay-wotu": {
+      "candidatePairs": 400,
+      "rewardedPairs": 6
+    },
+    "yplay-jiang": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "yplay-pipa": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yplay-whitesnake": {
+      "candidatePairs": 400,
+      "rewardedPairs": 7
+    },
+    "yplay-fifteen": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yplay-farewell": {
+      "candidatePairs": 400,
+      "rewardedPairs": 3
+    },
+    "yplay-drunken": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yplay-redlantern": {
+      "candidatePairs": 400,
+      "rewardedPairs": 7
+    },
+    "ystyle-qinqiang": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-yueopera": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-errenzhuan": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-zangxi": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-budaixi": {
+      "candidatePairs": 425,
+      "rewardedPairs": 10
+    },
+    "ystyle-kyogen": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-takarazuka": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-waterpuppet": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-wenmingxi": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-livingnews": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-street": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-mystery": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-passion": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-lightopera": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-object": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "ystyle-install": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-image": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-magicreal": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-criticalreal": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-poeticreal": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-ritualstyle": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-manner": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-drawingroom": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-shinkoku": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-sanskrit": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ystyle-huagu": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-lingzi": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-fanwork": {
+      "candidatePairs": 425,
+      "rewardedPairs": 10
+    },
+    "ydir-handkerchief": {
+      "candidatePairs": 425,
+      "rewardedPairs": 10
+    },
+    "ydir-dachushou": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-diaomao": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-jiangshi": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-qiangbei": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-darkchange": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-qieguang": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-backlight": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "ydir-gauze": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-liftstage": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-wagontage": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-jijifeng": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-shoujiu": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-chujiang": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-duetline": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-bansing": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-qichang": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-coldstage": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-footlight": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-facelight": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-smoke": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-legdrop": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-paoyuan": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "ydir-rankou": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "yrole-clytemnestra": {
+      "candidatePairs": 400,
+      "rewardedPairs": 4
+    },
+    "yrole-witches": {
+      "candidatePairs": 400,
+      "rewardedPairs": 5
+    },
+    "yrole-horatio": {
+      "candidatePairs": 400,
+      "rewardedPairs": 12
+    },
+    "yrole-prospero": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yrole-ariel": {
+      "candidatePairs": 400,
+      "rewardedPairs": 21
+    },
+    "yrole-richardiii": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yrole-falstaff": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "yrole-helmer": {
+      "candidatePairs": 400,
+      "rewardedPairs": 3
+    },
+    "yrole-stockmann": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "yrole-khlestakov": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "yrole-qiuhu": {
+      "candidatePairs": 400,
+      "rewardedPairs": 5
+    },
+    "yrole-juehui": {
+      "candidatePairs": 400,
+      "rewardedPairs": 21
+    },
+    "yrole-baisuzhen": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "yrole-guifei": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yrole-bawang": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yrole-liangshanbo": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yrole-tietmei": {
+      "candidatePairs": 400,
+      "rewardedPairs": 13
+    },
+    "yrole-aqing": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "yrole-zijirong": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yrole-malu": {
+      "candidatePairs": 400,
+      "rewardedPairs": 7
+    },
+    "yrole-houfangyu": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yrole-dorine": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yrole-mackheath": {
+      "candidatePairs": 400,
+      "rewardedPairs": 21
+    },
+    "yrole-hamm": {
+      "candidatePairs": 400,
+      "rewardedPairs": 10
+    },
+    "yrole-linda": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "yrole-brutus": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "yrole-solveig": {
+      "candidatePairs": 400,
+      "rewardedPairs": 7
+    },
+    "yrole-wukong": {
+      "candidatePairs": 400,
+      "rewardedPairs": 21
+    },
+    "yrole-kuangzhong": {
+      "candidatePairs": 400,
+      "rewardedPairs": 9
+    },
+    "yplace-crossroad": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-globe": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-huafang": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-well": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-gongtang": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-jindian": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-zhongjun": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-shikumen": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-chengmen": {
+      "candidatePairs": 435,
+      "rewardedPairs": 28
+    },
+    "yplace-fachang": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-cafe": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "yplace-deck": {
+      "candidatePairs": 435,
+      "rewardedPairs": 10
+    },
+    "yplace-cliff": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-altar": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-dungeon": {
+      "candidatePairs": 435,
+      "rewardedPairs": 18
+    },
+    "yplace-stable": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-ballroom": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-office": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "yplace-workshop": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "role2-creon": {
+      "candidatePairs": 415,
+      "rewardedPairs": 18
+    },
+    "role2-ismene": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "role2-juliet-nurse": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "role2-mercutio": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "role2-banquo": {
+      "candidatePairs": 415,
+      "rewardedPairs": 4
+    },
+    "role2-macduff": {
+      "candidatePairs": 415,
+      "rewardedPairs": 4
+    },
+    "role2-laertes": {
+      "candidatePairs": 415,
+      "rewardedPairs": 4
+    },
+    "role2-polonius": {
+      "candidatePairs": 415,
+      "rewardedPairs": 20
+    },
+    "role2-gertrude": {
+      "candidatePairs": 415,
+      "rewardedPairs": 5
+    },
+    "role2-claudius": {
+      "candidatePairs": 415,
+      "rewardedPairs": 28
+    },
+    "role2-goneril": {
+      "candidatePairs": 415,
+      "rewardedPairs": 19
+    },
+    "role2-regan": {
+      "candidatePairs": 415,
+      "rewardedPairs": 19
+    },
+    "role2-edmund": {
+      "candidatePairs": 415,
+      "rewardedPairs": 3
+    },
+    "role2-kent": {
+      "candidatePairs": 415,
+      "rewardedPairs": 3
+    },
+    "role2-fool-lear": {
+      "candidatePairs": 415,
+      "rewardedPairs": 11
+    },
+    "role2-gloucester": {
+      "candidatePairs": 415,
+      "rewardedPairs": 3
+    },
+    "role2-edgar": {
+      "candidatePairs": 415,
+      "rewardedPairs": 3
+    },
+    "role2-malcolm": {
+      "candidatePairs": 415,
+      "rewardedPairs": 12
+    },
+    "role2-duncan": {
+      "candidatePairs": 415,
+      "rewardedPairs": 4
+    },
+    "role2-cassandra": {
+      "candidatePairs": 415,
+      "rewardedPairs": 3
+    },
+    "role2-agamemnon": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "role2-aegisthus": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "role2-martha-misunderstanding": {
+      "candidatePairs": 415,
+      "rewardedPairs": 9
+    },
+    "role2-kristine-linde": {
+      "candidatePairs": 415,
+      "rewardedPairs": 11
+    },
+    "role2-krogstad": {
+      "candidatePairs": 415,
+      "rewardedPairs": 21
+    },
+    "role2-lopakhin": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-gayev": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-varya": {
+      "candidatePairs": 415,
+      "rewardedPairs": 9
+    },
+    "role2-anya-cherry": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-trofimov": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-serebryakov": {
+      "candidatePairs": 415,
+      "rewardedPairs": 3
+    },
+    "role2-sonya": {
+      "candidatePairs": 415,
+      "rewardedPairs": 11
+    },
+    "role2-yelena": {
+      "candidatePairs": 415,
+      "rewardedPairs": 11
+    },
+    "role2-tuzenbach": {
+      "candidatePairs": 415,
+      "rewardedPairs": 9
+    },
+    "role2-solyony": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-vershinin": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-andrei-three-sisters": {
+      "candidatePairs": 415,
+      "rewardedPairs": 11
+    },
+    "role2-treplev": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-arkadina": {
+      "candidatePairs": 415,
+      "rewardedPairs": 11
+    },
+    "role2-nina": {
+      "candidatePairs": 415,
+      "rewardedPairs": 9
+    },
+    "role2-trigorin": {
+      "candidatePairs": 415,
+      "rewardedPairs": 9
+    },
+    "role2-mayor-inspector": {
+      "candidatePairs": 415,
+      "rewardedPairs": 12
+    },
+    "role2-hippolytus": {
+      "candidatePairs": 415,
+      "rewardedPairs": 12
+    },
+    "role2-oenone": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "role2-theseus": {
+      "candidatePairs": 415,
+      "rewardedPairs": 18
+    },
+    "role2-clov": {
+      "candidatePairs": 415,
+      "rewardedPairs": 10
+    },
+    "role2-nagg": {
+      "candidatePairs": 415,
+      "rewardedPairs": 8
+    },
+    "role2-nell": {
+      "candidatePairs": 415,
+      "rewardedPairs": 8
+    },
+    "role2-jean-rhinoceros": {
+      "candidatePairs": 415,
+      "rewardedPairs": 17
+    },
+    "role2-fire-chief": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-claire-maids": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-solange": {
+      "candidatePairs": 415,
+      "rewardedPairs": 17
+    },
+    "role2-li-shiqing": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "role2-huang-shengsan": {
+      "candidatePairs": 415,
+      "rewardedPairs": 9
+    },
+    "role2-fang-dasheng": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "role2-jiao-mother": {
+      "candidatePairs": 415,
+      "rewardedPairs": 18
+    },
+    "role2-jiao-daxing": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "role2-bai-shazi": {
+      "candidatePairs": 415,
+      "rewardedPairs": 10
+    },
+    "role2-zeng-siyi": {
+      "candidatePairs": 415,
+      "rewardedPairs": 17
+    },
+    "role2-zeng-hao": {
+      "candidatePairs": 415,
+      "rewardedPairs": 11
+    },
+    "role2-ruizhen": {
+      "candidatePairs": 415,
+      "rewardedPairs": 9
+    },
+    "role2-liu-mazi": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "role2-kang-shunzi": {
+      "candidatePairs": 415,
+      "rewardedPairs": 10
+    },
+    "role2-liu-siye": {
+      "candidatePairs": 415,
+      "rewardedPairs": 18
+    },
+    "role2-xiao-fuzi": {
+      "candidatePairs": 415,
+      "rewardedPairs": 3
+    },
+    "role2-kuang-fu": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-yang-caiyu": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-lin-zhicheng": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-huang-jiamei": {
+      "candidatePairs": 415,
+      "rewardedPairs": 11
+    },
+    "role2-qi-yongnian": {
+      "candidatePairs": 415,
+      "rewardedPairs": 18
+    },
+    "role2-xiu-dingxin": {
+      "candidatePairs": 415,
+      "rewardedPairs": 9
+    },
+    "role2-xia-professor": {
+      "candidatePairs": 415,
+      "rewardedPairs": 1
+    },
+    "role2-shi-professor": {
+      "candidatePairs": 415,
+      "rewardedPairs": 9
+    },
+    "role2-mifeng": {
+      "candidatePairs": 415,
+      "rewardedPairs": 0
+    },
+    "play-v21-justes": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "play-v21-caligula": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "play-v21-malentendu": {
+      "candidatePairs": 400,
+      "rewardedPairs": 7
+    },
+    "play-v21-maids": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "play-v21-happydays": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "play-v21-heartbreak": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "play-v21-majorbarbara": {
+      "candidatePairs": 400,
+      "rewardedPairs": 5
+    },
+    "play-v21-henryiv": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "play-v21-unburied": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "play-v21-americandream": {
+      "candidatePairs": 400,
+      "rewardedPairs": 0
+    },
+    "style-v21-epistolary": {
+      "candidatePairs": 425,
+      "rewardedPairs": 11
+    },
+    "style-v21-courtroom": {
+      "candidatePairs": 425,
+      "rewardedPairs": 2
+    },
+    "style-v21-mystery": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "style-v21-fable": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "style-v21-family": {
+      "candidatePairs": 425,
+      "rewardedPairs": 10
+    },
+    "style-v21-psychothriller": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "style-v21-metatheatre": {
+      "candidatePairs": 425,
+      "rewardedPairs": 2
+    },
+    "style-v21-autobiographical": {
+      "candidatePairs": 425,
+      "rewardedPairs": 10
+    },
+    "style-v21-polyphonic": {
+      "candidatePairs": 425,
+      "rewardedPairs": 10
+    },
+    "style-v21-maximalist": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "style-v21-rehearsaldrama": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "style-v21-radiodrama": {
+      "candidatePairs": 425,
+      "rewardedPairs": 11
+    },
+    "style-v21-stagedreading": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "style-v21-signedtheatre": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "style-v21-sensory": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "dir-v21-testimony": {
+      "candidatePairs": 425,
+      "rewardedPairs": 13
+    },
+    "dir-v21-samewords": {
+      "candidatePairs": 425,
+      "rewardedPairs": 12
+    },
+    "dir-v21-livefoley": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "dir-v21-timecut": {
+      "candidatePairs": 425,
+      "rewardedPairs": 2
+    },
+    "dir-v21-soundimage": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "dir-v21-livesubtitles": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "dir-v21-linerelay": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "dir-v21-proptransfer": {
+      "candidatePairs": 425,
+      "rewardedPairs": 11
+    },
+    "dir-v21-emptychair": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "dir-v21-unreliable": {
+      "candidatePairs": 425,
+      "rewardedPairs": 12
+    },
+    "dir-v21-selectivereplay": {
+      "candidatePairs": 425,
+      "rewardedPairs": 12
+    },
+    "dir-v21-simultaneoussolos": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "dir-v21-occlusion": {
+      "candidatePairs": 425,
+      "rewardedPairs": 12
+    },
+    "dir-v21-compression": {
+      "candidatePairs": 425,
+      "rewardedPairs": 10
+    },
+    "dir-v21-endingloop": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "role-v21-unclevanya": {
+      "candidatePairs": 400,
+      "rewardedPairs": 4
+    },
+    "role-v21-astrov": {
+      "candidatePairs": 400,
+      "rewardedPairs": 11
+    },
+    "role-v21-berenger": {
+      "candidatePairs": 400,
+      "rewardedPairs": 13
+    },
+    "role-v21-phedre": {
+      "candidatePairs": 400,
+      "rewardedPairs": 4
+    },
+    "role-v21-caligularole": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "role-v21-marytyrone": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "role-v21-edmundtyrone": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "role-v21-amanda": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "role-v21-tomglass": {
+      "candidatePairs": 400,
+      "rewardedPairs": 21
+    },
+    "role-v21-winnie": {
+      "candidatePairs": 400,
+      "rewardedPairs": 7
+    },
+    "role-v21-jimglass": {
+      "candidatePairs": 400,
+      "rewardedPairs": 1
+    },
+    "place-v21-bordercheckpoint": {
+      "candidatePairs": 435,
+      "rewardedPairs": 29
+    },
+    "place-v21-willroom": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "place-v21-publicbath": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "place-v21-funeralhome": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "place-v21-lostproperty": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "place-v21-photostudio": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-v21-diningcar": {
+      "candidatePairs": 435,
+      "rewardedPairs": 10
+    },
+    "place-v21-archive": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-v22-gallery": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "place-v22-radiobooth": {
+      "candidatePairs": 435,
+      "rewardedPairs": 1
+    },
+    "place-v22-cage": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "place-v22-embassyhall": {
+      "candidatePairs": 435,
+      "rewardedPairs": 18
+    },
+    "place-v22-observatory": {
+      "candidatePairs": 435,
+      "rewardedPairs": 0
+    },
+    "v23-play-allmysons": {
+      "candidatePairs": 400,
+      "rewardedPairs": 8
+    },
+    "v23-play-copenhagen": {
+      "candidatePairs": 400,
+      "rewardedPairs": 12
+    },
+    "v23-play-woyzeck": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-play-danton": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-play-equus": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-play-art": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-play-busstop": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-play-dreamlike": {
+      "candidatePairs": 400,
+      "rewardedPairs": 11
+    },
+    "v23-play-livefield": {
+      "candidatePairs": 400,
+      "rewardedPairs": 8
+    },
+    "v23-play-iceman": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-play-springawake": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-play-viewbridge": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-style-chamber": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "v23-style-total": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "v23-style-verbatim": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "v23-style-bourgeois-tragedy": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "v23-style-historyplay": {
+      "candidatePairs": 425,
+      "rewardedPairs": 10
+    },
+    "v23-style-intercultural": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "v23-style-visual": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "v23-style-translation": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "v23-dir-pool": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "v23-dir-readstage": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "v23-dir-allwatch": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "v23-dir-objectchain": {
+      "candidatePairs": 425,
+      "rewardedPairs": 11
+    },
+    "v23-dir-countdown": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "v23-dir-floorplan": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "v23-dir-soundfirst": {
+      "candidatePairs": 425,
+      "rewardedPairs": 1
+    },
+    "v23-dir-silentopen": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "v23-dir-revolving": {
+      "candidatePairs": 425,
+      "rewardedPairs": 0
+    },
+    "v23-dir-misremember": {
+      "candidatePairs": 425,
+      "rewardedPairs": 12
+    },
+    "v23-role-joekeller": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-role-heisenberg": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-role-woyzeck": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-role-danton": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-role-eddie": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-role-hickey": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-role-melchior": {
+      "candidatePairs": 400,
+      "rewardedPairs": 2
+    },
+    "v23-role-alan": {
+      "candidatePairs": 400,
+      "rewardedPairs": 10
+    },
+    "v23-role-dreamdoctor": {
+      "candidatePairs": 400,
+      "rewardedPairs": 17
+    },
+    "v23-role-jinzhi": {
+      "candidatePairs": 400,
+      "rewardedPairs": 22
+    },
+    "v23-role-silentman": {
+      "candidatePairs": 400,
+      "rewardedPairs": 8
+    },
+    "v23-role-serge": {
+      "candidatePairs": 400,
+      "rewardedPairs": 21
+    },
+    "v23-sup-kate": {
+      "candidatePairs": 415,
+      "rewardedPairs": 8
+    },
+    "v23-sup-bohr": {
+      "candidatePairs": 415,
+      "rewardedPairs": 10
+    },
+    "v23-sup-marie": {
+      "candidatePairs": 415,
+      "rewardedPairs": 10
+    },
+    "v23-sup-robespierre": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "v23-sup-catherine": {
+      "candidatePairs": 415,
+      "rewardedPairs": 10
+    },
+    "v23-sup-nurse": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "v23-sup-moritz": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "v23-sup-zhaosan": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "v23-sup-stationmaster": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "v23-sup-harryhope": {
+      "candidatePairs": 415,
+      "rewardedPairs": 2
+    },
+    "v23-sup-marc": {
+      "candidatePairs": 415,
+      "rewardedPairs": 9
+    }
+  },
+  "allCardsHaveLearning": true,
+  "csv": {
+    "path": "docs/COLLISION_INDEX_V55.csv",
+    "bytes": 17265216,
+    "sha256": "b2846e0d82a522dda8c6c266d6c93e183cd1d95c8d4e8bb25fafcaadf22e5a59"
+  },
+  "reviewScope": "精确精选逐条编辑；人工规则生成的卡对未逐对审读；exploration为不加分的学习比较。原作只按4类共同作品关系加分；v55不再采用旧Wt体系交集。"
+}

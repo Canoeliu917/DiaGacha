@@ -1,0 +1,786 @@
+[
+  {
+    "branch": "play-cherry",
+    "actor": "lead",
+    "strategy": "control",
+    "title": "留人吃饭的人，连留下的资格也要管",
+    "anchor": "钥匙"
+  },
+  {
+    "branch": "play-cherry",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "钥匙可以交出，去留不能代签",
+    "anchor": "钥匙"
+  },
+  {
+    "branch": "play-cherry",
+    "actor": "lead",
+    "strategy": "aid",
+    "title": "让出一个座位，还欠一个容身之处",
+    "anchor": "钥匙"
+  },
+  {
+    "branch": "play-cherry",
+    "actor": "support",
+    "strategy": "memory",
+    "title": "还留着旧日生活，已经不能替留下作主",
+    "anchor": "钥匙"
+  },
+  {
+    "branch": "play-oedipus",
+    "actor": "lead",
+    "strategy": "truth",
+    "title": "连自己的空白也不能略过",
+    "anchor": "证"
+  },
+  {
+    "branch": "play-oedipus",
+    "actor": "lead",
+    "strategy": "privacy",
+    "title": "想留下的秘密，偏在证词里有了位置",
+    "anchor": "证"
+  },
+  {
+    "branch": "play-oedipus",
+    "actor": "support",
+    "strategy": "principle",
+    "title": "换到证人的位置，还认不认同一条规矩",
+    "anchor": "证"
+  },
+  {
+    "branch": "play-oedipus",
+    "actor": "lead",
+    "strategy": "grievance",
+    "title": "追问旧责的人，被旧事叫住了",
+    "anchor": "证"
+  },
+  {
+    "branch": "play-hamlet",
+    "actor": "lead",
+    "strategy": "truth",
+    "title": "给疑心排的戏，还欠一份证据",
+    "anchor": "戏"
+  },
+  {
+    "branch": "play-hamlet",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "被试探的人，决定让戏停在哪句",
+    "anchor": "戏"
+  },
+  {
+    "branch": "play-hamlet",
+    "actor": "lead",
+    "strategy": "control",
+    "title": "连交接都要掌握，却管不住那句原话",
+    "anchor": "戏"
+  },
+  {
+    "branch": "play-hamlet",
+    "actor": "support",
+    "strategy": "recognition",
+    "title": "要我接受指控，请先留下完整的台词",
+    "anchor": "戏"
+  },
+  {
+    "branch": "play-macbeth",
+    "actor": "lead",
+    "strategy": "control",
+    "title": "席位归自己，安稳却没有一并交来",
+    "anchor": "位置"
+  },
+  {
+    "branch": "play-macbeth",
+    "actor": "support",
+    "strategy": "loyalty",
+    "title": "替你守住关系，却不能保证你安心",
+    "anchor": "位置"
+  },
+  {
+    "branch": "play-macbeth",
+    "actor": "lead",
+    "strategy": "privacy",
+    "title": "身后的事遮住了，席位仍坐不安稳",
+    "anchor": "位置"
+  },
+  {
+    "branch": "play-macbeth",
+    "actor": "support",
+    "strategy": "truth",
+    "title": "名牌能证明席位，不能证明安全",
+    "anchor": "位置"
+  },
+  {
+    "branch": "play-godot",
+    "actor": "lead",
+    "strategy": "urgency",
+    "title": "最急的是离开，最后却保留了空位",
+    "anchor": "标记"
+  },
+  {
+    "branch": "play-godot",
+    "actor": "lead",
+    "strategy": "hope",
+    "title": "把保证留空，还给未来留着地方",
+    "anchor": "标记"
+  },
+  {
+    "branch": "play-godot",
+    "actor": "support",
+    "strategy": "loyalty",
+    "title": "不愿催散相伴，也不愿替等待点头",
+    "anchor": "标记"
+  },
+  {
+    "branch": "play-godot",
+    "actor": "support",
+    "strategy": "livelihood",
+    "title": "休息的时间划好了，等候还没有结束",
+    "anchor": "标记"
+  },
+  {
+    "branch": "play-doll",
+    "actor": "lead",
+    "strategy": "autonomy",
+    "title": "行李可以暂存，生活不能交人保管",
+    "anchor": "行李"
+  },
+  {
+    "branch": "play-doll",
+    "actor": "lead",
+    "strategy": "aid",
+    "title": "先给你让座，再把自己的行李带走",
+    "anchor": "行李"
+  },
+  {
+    "branch": "play-doll",
+    "actor": "support",
+    "strategy": "control",
+    "title": "挽留写了许多条，偏没有平等这一条",
+    "anchor": "行李"
+  },
+  {
+    "branch": "play-doll",
+    "actor": "support",
+    "strategy": "memory",
+    "title": "从前的照料，不能替今天决定去留",
+    "anchor": "行李"
+  },
+  {
+    "branch": "play-teahouse",
+    "actor": "lead",
+    "strategy": "livelihood",
+    "title": "想保住明日生计，今天的杯子却空了",
+    "anchor": "杯"
+  },
+  {
+    "branch": "play-teahouse",
+    "actor": "lead",
+    "strategy": "aid",
+    "title": "位置已经让好，留下的人仍不肯入席",
+    "anchor": "杯"
+  },
+  {
+    "branch": "play-teahouse",
+    "actor": "lead",
+    "strategy": "control",
+    "title": "每条规矩都改过，生意却没有答应",
+    "anchor": "杯"
+  },
+  {
+    "branch": "play-teahouse",
+    "actor": "support",
+    "strategy": "loyalty",
+    "title": "愿意再相见，救不了今天这桌生意",
+    "anchor": "杯"
+  },
+  {
+    "branch": "play-thunder",
+    "actor": "lead",
+    "strategy": "privacy",
+    "title": "私事压在手下，旧物却认出了来客",
+    "anchor": "旧物"
+  },
+  {
+    "branch": "play-thunder",
+    "actor": "support",
+    "strategy": "grievance",
+    "title": "今天可以重逢，昨天不能一笔勾销",
+    "anchor": "旧物"
+  },
+  {
+    "branch": "play-thunder",
+    "actor": "lead",
+    "strategy": "control",
+    "title": "位置仍由你安排，记忆已经不听命令",
+    "anchor": "旧物"
+  },
+  {
+    "branch": "play-thunder",
+    "actor": "support",
+    "strategy": "memory",
+    "title": "把旧日另留一页，也给自己留个位置",
+    "anchor": "旧物"
+  },
+  {
+    "branch": "play-peony",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "空着的签名，是我亲自留下的答案",
+    "anchor": "纸"
+  },
+  {
+    "branch": "play-peony",
+    "actor": "lead",
+    "strategy": "control",
+    "title": "既要名字，也想保管这个名字的用途",
+    "anchor": "纸"
+  },
+  {
+    "branch": "play-peony",
+    "actor": "support",
+    "strategy": "truth",
+    "title": "纸上的承诺，要对得上刚才的条件",
+    "anchor": "纸"
+  },
+  {
+    "branch": "play-peony",
+    "actor": "support",
+    "strategy": "principle",
+    "title": "换你来签，也肯留下这个名字吗",
+    "anchor": "纸"
+  },
+  {
+    "branch": "play-salesman",
+    "actor": "lead",
+    "strategy": "recognition",
+    "title": "想被认真对待，却只肯收下好成绩",
+    "anchor": "本子"
+  },
+  {
+    "branch": "play-salesman",
+    "actor": "support",
+    "strategy": "loyalty",
+    "title": "成绩可以认输，来往不该跟着作废",
+    "anchor": "本子"
+  },
+  {
+    "branch": "play-salesman",
+    "actor": "lead",
+    "strategy": "memory",
+    "title": "过去另铺一页，今天却写不进那本册子",
+    "anchor": "本子"
+  },
+  {
+    "branch": "play-salesman",
+    "actor": "support",
+    "strategy": "livelihood",
+    "title": "没有成功的消息，只有必须过下去的日子",
+    "anchor": "本子"
+  },
+  {
+    "branch": "play-goodperson",
+    "actor": "lead",
+    "strategy": "aid",
+    "title": "愿意先让一回，也得留住明天的一份",
+    "anchor": "物资"
+  },
+  {
+    "branch": "play-goodperson",
+    "actor": "lead",
+    "strategy": "livelihood",
+    "title": "生计只剩一份，答应过的话却有两种",
+    "anchor": "物资"
+  },
+  {
+    "branch": "play-goodperson",
+    "actor": "support",
+    "strategy": "truth",
+    "title": "换了面孔，同一句承诺仍认得出来",
+    "anchor": "物资"
+  },
+  {
+    "branch": "play-goodperson",
+    "actor": "lead",
+    "strategy": "privacy",
+    "title": "另藏一页私事，也藏不住同一个人",
+    "anchor": "物资"
+  },
+  {
+    "branch": "play-lear",
+    "actor": "lead",
+    "strategy": "control",
+    "title": "分配都经自己确认，自己却没有份额",
+    "anchor": "图"
+  },
+  {
+    "branch": "play-lear",
+    "actor": "support",
+    "strategy": "aid",
+    "title": "先给人一点方便，最后却要接住无处容身",
+    "anchor": "图"
+  },
+  {
+    "branch": "play-lear",
+    "actor": "lead",
+    "strategy": "recognition",
+    "title": "要过那么多认可，最后只求一个地方",
+    "anchor": "图"
+  },
+  {
+    "branch": "play-lear",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "分给我的地方，不等于替我答应收留",
+    "anchor": "图"
+  },
+  {
+    "branch": "secret",
+    "actor": "lead",
+    "strategy": "privacy",
+    "title": "留给自己的秘密，正好堵住别人的清白",
+    "anchor": "记录"
+  },
+  {
+    "branch": "secret",
+    "actor": "lead",
+    "strategy": "urgency",
+    "title": "急着洗清嫌疑，也得把不利的那页留下",
+    "anchor": "记录"
+  },
+  {
+    "branch": "identity",
+    "actor": "lead",
+    "strategy": "memory",
+    "title": "另留一页自己的往事，才知道假名借走了什么",
+    "anchor": "名牌"
+  },
+  {
+    "branch": "identity",
+    "actor": "support",
+    "strategy": "loyalty",
+    "title": "不愿断了来往，也不替假名留下位置",
+    "anchor": "名牌"
+  },
+  {
+    "branch": "play-antigone",
+    "actor": "lead",
+    "strategy": "loyalty",
+    "title": "不能替告别点头，也不能让禁令代答",
+    "anchor": "土"
+  },
+  {
+    "branch": "play-antigone",
+    "actor": "support",
+    "strategy": "control",
+    "title": "规矩留在纸上，土已经留在地上",
+    "anchor": "土"
+  },
+  {
+    "branch": "play-antigone",
+    "actor": "lead",
+    "strategy": "principle",
+    "title": "同一条责任，不能只要求别人承担",
+    "anchor": "土"
+  },
+  {
+    "branch": "play-antigone",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "要求别人服从以后，轮到自己选择",
+    "anchor": "土"
+  },
+  {
+    "branch": "play-xixiang",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "我可以递信，却不替你承担答复",
+    "anchor": "信"
+  },
+  {
+    "branch": "play-xixiang",
+    "actor": "lead",
+    "strategy": "privacy",
+    "title": "想把私语藏好，来信却要人亲自到场",
+    "anchor": "信"
+  },
+  {
+    "branch": "play-xixiang",
+    "actor": "support",
+    "strategy": "care",
+    "title": "替你送信以前，得给照料的人留出时间",
+    "anchor": "信"
+  },
+  {
+    "branch": "play-xixiang",
+    "actor": "lead",
+    "strategy": "urgency",
+    "title": "最急的一封信，最后仍要自己回答",
+    "anchor": "信"
+  },
+  {
+    "branch": "play-visit",
+    "actor": "support",
+    "strategy": "privacy",
+    "title": "可以藏起私事，藏不起已经安排的好处",
+    "anchor": "许诺"
+  },
+  {
+    "branch": "play-visit",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "谁也不能替我同意，包括我借来的沉默",
+    "anchor": "许诺"
+  },
+  {
+    "branch": "play-visit",
+    "actor": "lead",
+    "strategy": "principle",
+    "title": "要求按自己的规矩，也得承担同一份代价",
+    "anchor": "许诺"
+  },
+  {
+    "branch": "play-visit",
+    "actor": "support",
+    "strategy": "hope",
+    "title": "期待还没算作答应，日子已经照它安排",
+    "anchor": "许诺"
+  },
+  {
+    "branch": "play-glass",
+    "actor": "lead",
+    "strategy": "recognition",
+    "title": "愿意把珍藏给你，也得接住离开的理由",
+    "anchor": "小兽"
+  },
+  {
+    "branch": "play-glass",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "靠近过一回，不等于答应一直留下",
+    "anchor": "小兽"
+  },
+  {
+    "branch": "play-glass",
+    "actor": "lead",
+    "strategy": "aid",
+    "title": "把方便先让给来客，把破损留给自己整理",
+    "anchor": "小兽"
+  },
+  {
+    "branch": "play-glass",
+    "actor": "lead",
+    "strategy": "memory",
+    "title": "旧日可以留一页，小兽得另找一个位置",
+    "anchor": "小兽"
+  },
+  {
+    "branch": "xplay-seagull",
+    "actor": "lead",
+    "strategy": "recognition",
+    "title": "要的是作品的评价，舍不得的却是来客",
+    "anchor": "戏"
+  },
+  {
+    "branch": "xplay-seagull",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "给作品留一句答复，给去留另留一行",
+    "anchor": "戏"
+  },
+  {
+    "branch": "xplay-seagull",
+    "actor": "lead",
+    "strategy": "hope",
+    "title": "期待还没有填满，戏已经到了散场时刻",
+    "anchor": "戏"
+  },
+  {
+    "branch": "xplay-seagull",
+    "actor": "support",
+    "strategy": "loyalty",
+    "title": "愿意认真相待，也可以不答应陪伴",
+    "anchor": "戏"
+  },
+  {
+    "branch": "play-rhino",
+    "actor": "lead",
+    "strategy": "control",
+    "title": "礼物的去向能登记，人的去留不能",
+    "anchor": "礼物"
+  },
+  {
+    "branch": "play-rhino",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "给礼物一个位置，给拒绝留一条通路",
+    "anchor": "礼物"
+  },
+  {
+    "branch": "play-rhino",
+    "actor": "lead",
+    "strategy": "aid",
+    "title": "能让出歇脚处，能不能也让出拒绝的余地",
+    "anchor": "礼物"
+  },
+  {
+    "branch": "play-rhino",
+    "actor": "support",
+    "strategy": "loyalty",
+    "title": "不收下这份安排，也不该被迫断了来往",
+    "anchor": "礼物"
+  },
+  {
+    "branch": "choice",
+    "actor": "lead",
+    "strategy": "memory",
+    "title": "过去另存一页，别把对方的未来也写完",
+    "anchor": "约定"
+  },
+  {
+    "branch": "choice",
+    "actor": "support",
+    "strategy": "urgency",
+    "title": "先处理眼前的拒绝，别拿明天的好处催人",
+    "anchor": "约定"
+  },
+  {
+    "branch": "shelter",
+    "actor": "lead",
+    "strategy": "livelihood",
+    "title": "守住休息的时间，才愿意分出今夜的水",
+    "anchor": "水"
+  },
+  {
+    "branch": "shelter",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "求一份水，也要给自己的答复留一行",
+    "anchor": "水"
+  },
+  {
+    "branch": "money",
+    "actor": "lead",
+    "strategy": "truth",
+    "title": "出钱的人，也得把自己的旧账翻完",
+    "anchor": "账"
+  },
+  {
+    "branch": "money",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "要不要收钱，不能只听出钱的人",
+    "anchor": "账"
+  },
+  {
+    "branch": "money",
+    "actor": "support",
+    "strategy": "aid",
+    "title": "给出资的人让座，仍要把欠款算清",
+    "anchor": "账"
+  },
+  {
+    "branch": "money",
+    "actor": "lead",
+    "strategy": "privacy",
+    "title": "可以不留姓名，不能不交代来路",
+    "anchor": "账"
+  },
+  {
+    "branch": "secret",
+    "actor": "lead",
+    "strategy": "truth",
+    "title": "给自己留的空白，最后也得由自己补上",
+    "anchor": "记录"
+  },
+  {
+    "branch": "secret",
+    "actor": "support",
+    "strategy": "privacy",
+    "title": "私事可以遮住，少掉的那页不能",
+    "anchor": "记录"
+  },
+  {
+    "branch": "secret",
+    "actor": "lead",
+    "strategy": "grievance",
+    "title": "旧责不能抵消，新证据也不能只留一半",
+    "anchor": "记录"
+  },
+  {
+    "branch": "secret",
+    "actor": "support",
+    "strategy": "principle",
+    "title": "把标准换到自己，藏着的那页也该交出",
+    "anchor": "记录"
+  },
+  {
+    "branch": "choice",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "最好的条件，也不能占掉我的答复",
+    "anchor": "约定"
+  },
+  {
+    "branch": "choice",
+    "actor": "lead",
+    "strategy": "control",
+    "title": "未来排好了次序，却还没有获得同意",
+    "anchor": "约定"
+  },
+  {
+    "branch": "choice",
+    "actor": "lead",
+    "strategy": "aid",
+    "title": "好意可以先给，答应必须等对方自己来",
+    "anchor": "约定"
+  },
+  {
+    "branch": "choice",
+    "actor": "support",
+    "strategy": "loyalty",
+    "title": "拒绝这份安排，还想保留下一次相见",
+    "anchor": "约定"
+  },
+  {
+    "branch": "shelter",
+    "actor": "lead",
+    "strategy": "aid",
+    "title": "先让你歇一会儿，才知道今夜能轮流守",
+    "anchor": "水"
+  },
+  {
+    "branch": "shelter",
+    "actor": "lead",
+    "strategy": "grievance",
+    "title": "旧日不能一笔勾销，今夜却可以一起守",
+    "anchor": "水"
+  },
+  {
+    "branch": "shelter",
+    "actor": "support",
+    "strategy": "care",
+    "title": "求来一夜安稳，也要给照料的人留出时间",
+    "anchor": "水"
+  },
+  {
+    "branch": "shelter",
+    "actor": "lead",
+    "strategy": "control",
+    "title": "水和干粮能归我，守夜不能永远只靠我",
+    "anchor": "水"
+  },
+  {
+    "branch": "identity",
+    "actor": "lead",
+    "strategy": "control",
+    "title": "想规定名字的用途，先得解释自己的假名",
+    "anchor": "名牌"
+  },
+  {
+    "branch": "identity",
+    "actor": "lead",
+    "strategy": "privacy",
+    "title": "可以留下隐私，不能再借别人的过去",
+    "anchor": "名牌"
+  },
+  {
+    "branch": "identity",
+    "actor": "support",
+    "strategy": "truth",
+    "title": "不急着揭穿你，先把假名后面的空白核清",
+    "anchor": "名牌"
+  },
+  {
+    "branch": "identity",
+    "actor": "lead",
+    "strategy": "recognition",
+    "title": "想听一个具体理由，最后得拿出真正的自己",
+    "anchor": "名牌"
+  },
+  {
+    "branch": "waiting",
+    "actor": "lead",
+    "strategy": "hope",
+    "title": "期待那一栏还空着，信已经给出了答案",
+    "anchor": "信"
+  },
+  {
+    "branch": "waiting",
+    "actor": "support",
+    "strategy": "autonomy",
+    "title": "回信没有许诺，去留仍各有一行答复",
+    "anchor": "信"
+  },
+  {
+    "branch": "waiting",
+    "actor": "lead",
+    "strategy": "memory",
+    "title": "过去另留一页，未来不能替来信续写",
+    "anchor": "信"
+  },
+  {
+    "branch": "waiting",
+    "actor": "support",
+    "strategy": "urgency",
+    "title": "该当场处理的，是不再替等待找借口",
+    "anchor": "信"
+  },
+  {
+    "branch": "warren",
+    "actor": "lead",
+    "strategy": "autonomy",
+    "title": "展览可以缩小，自己的判断不能挂牌出售",
+    "anchor": "展览"
+  },
+  {
+    "branch": "warren",
+    "actor": "support",
+    "strategy": "control",
+    "title": "可以争一个挂名，不能把欠薪也交给别人",
+    "anchor": "展览"
+  },
+  {
+    "branch": "warren",
+    "actor": "lead",
+    "strategy": "recognition",
+    "title": "想让作品被认真对待，先别拿工钱换认可",
+    "anchor": "展览"
+  },
+  {
+    "branch": "warren",
+    "actor": "support",
+    "strategy": "privacy",
+    "title": "账外可以留私事，账上的工钱必须留下",
+    "anchor": "展览"
+  },
+  {
+    "branch": "solo",
+    "actor": "lead",
+    "strategy": "truth",
+    "title": "等别人给答案，先把自己的信补完整",
+    "anchor": "信"
+  },
+  {
+    "branch": "solo",
+    "actor": "lead",
+    "strategy": "autonomy",
+    "title": "没有回信，也不能替别人填下同意",
+    "anchor": "信"
+  },
+  {
+    "branch": "solo",
+    "actor": "lead",
+    "strategy": "hope",
+    "title": "把希望留在信里，把保证留成空白",
+    "anchor": "信"
+  },
+  {
+    "branch": "solo",
+    "actor": "lead",
+    "strategy": "memory",
+    "title": "旧信能留下过去，不能代签今天的选择",
+    "anchor": "信"
+  }
+]

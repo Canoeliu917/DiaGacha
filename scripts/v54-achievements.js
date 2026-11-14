@@ -2,7 +2,7 @@ const progressKeyV54='diamasha.progress.v54';
 const achievementListV54=[
   ['opening','开幕人','自己完成第一包，生成节目单。'],
   ['rewrite','改写者','确认一次换卡，让故事采用你的选择。'],
-  ['compare','两案之间','同场预览两张不同候选，再确认其中一张。'],
+  ['compare','两案之间','同场试过两张不同候选，并采用其中一张。'],
   ['persona','变调的人','换一张演法或手段，让本场戏格改变。'],
   ['perspectives','换个角度','改写过三个维度，其中有人物或空间，也有演法或手段。'],
   ['reunion','旧识重逢','亲手换卡，新增一条原作羁绊。需要对应的收藏。'],
@@ -114,7 +114,7 @@ function recordPreviewV54(cards,rehearsal,candidateId){
 }
 function recordRewriteV54(beforeCards,result){
   syncProgressV54();
-  if(starterSpentV54(beforeCards,result.rehearsal))return null;
+  if(result.claimStarter&&(!starterMatchesV54(beforeCards,result.rehearsal)||progressV54.starter.claimedId||!progressV54.starter.candidates.includes(result.change.toId)))return null;
   const earned=[],unlock=id=>{if(!progressV54.unlocked.includes(id)){progressV54.unlocked.push(id);earned.push(id);}};
   const key=lineupKeyV54(result.rehearsal.originalIds);
   const viewed=progressV54.previews.find(row=>lineupKeyV54(row.ids)===key)?.candidates||[];
@@ -124,10 +124,9 @@ function recordRewriteV54(beforeCards,result){
   if(!progressV54.dimensions.includes(result.change.dimension))progressV54.dimensions.push(result.change.dimension);
   const dims=progressV54.dimensions;
   if(dims.length>=3&&dims.some(dim=>['主演','配角','环境'].includes(dim))&&dims.some(dim=>['风格体系','导演手法'].includes(dim)))unlock('perspectives');
-  if(result.after.bondDetails.some(bond=>bond.id!=='style-method'&&!result.before.bondDetails.some(old=>old.id===bond.id)))unlock('reunion');
+  if(result.after.bondDetails.some(bond=>['play-lead','play-support','lead-support','play-place'].includes(bond.id)&&bond.workIds?.length&&!result.before.bondDetails.some(old=>old.id===bond.id)))unlock('reunion');
   if(dims.length===6&&['compare','persona','reunion'].every(id=>progressV54.unlocked.includes(id)))unlock('weaver');
-  if(starterMatchesV54(beforeCards,result.rehearsal)&&!progressV54.starter.claimedId)progressV54.starter.claimedId=result.change.toId;
-  progressV54.previews=progressV54.previews.filter(row=>lineupKeyV54(row.ids)!==key);
+  if(result.claimStarter)progressV54.starter.claimedId=result.change.toId;
   saveProgressV54();
   return earned.map(id=>achievementListV54.find(row=>row[0]===id)[1]);
 }

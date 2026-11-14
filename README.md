@@ -1,13 +1,14 @@
 # DiaGacha · 咫牌
 
-戏剧混搭抽卡网页游戏。当前版本 **v54**（2026-11-14）面向小范围邀请试玩：500 张常驻卡，777 张长期总图鉴。
+戏剧混搭抽卡网页游戏。当前版本 **v55**（2026-11-15）面向小范围邀请试玩：500 张常驻卡，777 张长期总图鉴。
 
 ## 打开游戏与版本记录
 
-- **[手机／电脑打开 v54 邀请试玩版](https://canoeliu917.github.io/DiaGacha/releases/v54/index.html)**
-- **[全部版本更新记录：v21–v54](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/CHANGELOG.md)**
-- [v54 本次改动与验收](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/changelog/CHANGELOG-v54.md)
-- [最新版完整源码](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38) · [v54 固定源码快照](https://github.com/Canoeliu917/DiaGacha/tree/91d2623155e6fa48abadf976c6da99b9352cef8a)
+- **[手机／电脑打开 v55 邀请试玩版](https://canoeliu917.github.io/DiaGacha/releases/v55/index.html)**
+- **[500张卡的碰撞学习图鉴](https://canoeliu917.github.io/DiaGacha/docs/collision-explorer-v55.html)**
+- **[全部版本更新记录：v21–v55](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/CHANGELOG.md)**
+- [v55 本次改动与验收](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/changelog/CHANGELOG-v55.md)
+- [最新版完整源码](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38) · [v54 固定试玩归档](https://canoeliu917.github.io/DiaGacha/releases/v54/index.html)
 
 当前游戏由 `codex/scoring-v38` 分支根目录发布。仓库默认首页也提供上述导航；查看或下载完整最新版时，请使用“最新版完整源码”。下载后直接在浏览器打开其中的 `index.html` 即可游玩。
 
@@ -15,7 +16,17 @@
 
 [原 Sites 入口](https://diagacha-v38.whole-elk-7752.chatgpt.site)为旧入口；请使用上方 GitHub Pages 入口。同一浏览器中同一域名的根目录和版本目录共用收藏；不同浏览器、域名和设备不自动同步，可通过「我的存档」导出／导入。
 
-## v54 更新
+## v55 更新
+
+- 六张卡下分别替换同维收藏，六芒星与卡组分紧随其后。自有卡可以反复换，故事、奖励和分享同步更新；首场试选仍只领取一张。
+- 倒数第二页解释同星奖励、原作关系、创意碰撞及实际计入分数。取消自动轮流跳动，特殊进化仅柔和亮一次。
+- 47组精选双卡、10类人工行动规则、4组三卡进化；500张卡都有知识和探索路径，103,650组跨维双卡已索引。精选、规则生成与探索提问分别标示，不把索引冒称逐对人工审读。
+- 新增112条按剧情及人物行动匹配的标题。人物×空间反馈优先显示，碰撞片段明确是主故事之外的可能展开。
+- 综合包空间低星单卡上限从8%降为5%；高星出率、保底、原小人和卡牌数值保留。
+
+[完整规则与范围](docs/COLLISION_GUIDE_V55.md) · [全部双卡索引CSV](docs/COLLISION_INDEX_V55.csv) · [新增标题清单](docs/STORY_TITLES_V55.md)
+
+## v54 历史更新
 
 - 首场给出两张同维候选，预览卡面、星级、单卡分、组合奖励与故事，再选一张永久收入收藏。以后从已有收藏改写，每场可确认一次。
 - 七枚称号印记记录逐步增加的组合探索，不改变卡牌数值和抽率，不要求签到或传播。

@@ -1,0 +1,438 @@
+{
+  "testedIndexSha256": "982197024f439e06a7052f75b4eddc23394dc2d2e6f29d311eaa793da88866bd",
+  "snapshot": "isolated modules pending root integration",
+  "results": [
+    {
+      "name": "320-result",
+      "width": 320,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.34375
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.34375
+        }
+      ],
+      "visibleCandidates": 0
+    },
+    {
+      "name": "320-picker",
+      "width": 320,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.34375
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.34375
+        }
+      ],
+      "visibleCandidates": 12
+    },
+    {
+      "name": "320-instant-replacement",
+      "id": "role-bailu",
+      "focus": "rewrite-open-v55-3",
+      "titleSynchronized": true
+    },
+    {
+      "name": "320-long-name",
+      "width": 320,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.34375
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.34375
+        }
+      ],
+      "visibleCandidates": 12
+    },
+    {
+      "name": "320-legacy-five",
+      "width": 320,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.34375
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        }
+      ],
+      "visibleCandidates": 0
+    },
+    {
+      "name": "390-result",
+      "width": 390,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.671875
+        },
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.671875
+        },
+        {
+          "height": 44,
+          "width": 112.65625
+        }
+      ],
+      "visibleCandidates": 0
+    },
+    {
+      "name": "390-picker",
+      "width": 390,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.671875
+        },
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.671875
+        },
+        {
+          "height": 44,
+          "width": 112.65625
+        }
+      ],
+      "visibleCandidates": 12
+    },
+    {
+      "name": "390-instant-replacement",
+      "id": "role-anti",
+      "focus": "rewrite-open-v55-3",
+      "titleSynchronized": true
+    },
+    {
+      "name": "390-long-name",
+      "width": 390,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.671875
+        },
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.671875
+        },
+        {
+          "height": 44,
+          "width": 112.65625
+        }
+      ],
+      "visibleCandidates": 12
+    },
+    {
+      "name": "390-legacy-five",
+      "width": 390,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.671875
+        },
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.65625
+        },
+        {
+          "height": 44,
+          "width": 112.671875
+        }
+      ],
+      "visibleCandidates": 0
+    },
+    {
+      "name": "768-result",
+      "width": 768,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 234.65625
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        },
+        {
+          "height": 44,
+          "width": 234.65625
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        }
+      ],
+      "visibleCandidates": 0
+    },
+    {
+      "name": "768-picker",
+      "width": 768,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 234.65625
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        },
+        {
+          "height": 44,
+          "width": 234.65625
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        }
+      ],
+      "visibleCandidates": 12
+    },
+    {
+      "name": "768-instant-replacement",
+      "id": "role-bailu",
+      "focus": "rewrite-open-v55-3",
+      "titleSynchronized": true
+    },
+    {
+      "name": "768-long-name",
+      "width": 768,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 234.65625
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        },
+        {
+          "height": 44,
+          "width": 234.65625
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        }
+      ],
+      "visibleCandidates": 12
+    },
+    {
+      "name": "768-legacy-five",
+      "width": 768,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 234.65625
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        },
+        {
+          "height": 44,
+          "width": 234.65625
+        },
+        {
+          "height": 44,
+          "width": 234.671875
+        }
+      ],
+      "visibleCandidates": 0
+    },
+    {
+      "name": "320-gift-preview",
+      "width": 320,
+      "overflow": false,
+      "buttons": [
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.34375
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.328125
+        },
+        {
+          "height": 44,
+          "width": 89.34375
+        }
+      ],
+      "visibleCandidates": 2
+    },
+    {
+      "name": "gift-two-previews-one-claim",
+      "owned": 7
+    },
+    {
+      "name": "shared-result-to-own-programme",
+      "originalShareUnchanged": true,
+      "viewingGivesNoCardsOrAchievements": true
+    }
+  ],
+  "errors": []
+}

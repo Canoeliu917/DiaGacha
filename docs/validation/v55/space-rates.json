@@ -1,0 +1,830 @@
+{
+  "standard": {
+    "before": {
+      "maximum": 0.08,
+      "consecutiveRepeat": 0.043245786815523685,
+      "expectedUnique": {
+        "10": 8.35022010481018,
+        "25": 16.50325853077235,
+        "50": 24.894115538240996,
+        "100": 34.09144756259398
+      }
+    },
+    "after": {
+      "maximum": 0.05,
+      "consecutiveRepeat": 0.031877365762892164,
+      "expectedUnique": {
+        "10": 8.700051697355796,
+        "25": 17.68022167488679,
+        "50": 26.550474933187044,
+        "100": 35.07720161850066
+      }
+    },
+    "probabilities": [
+      {
+        "id": "xplace-carriage",
+        "name": "车厢",
+        "rarity": "UC",
+        "p": 0.05
+      },
+      {
+        "id": "yplace-gongtang",
+        "name": "公堂",
+        "rarity": "UC",
+        "p": 0.05
+      },
+      {
+        "id": "place-v21-archive",
+        "name": "档案室",
+        "rarity": "UC",
+        "p": 0.05
+      },
+      {
+        "id": "place-baihua",
+        "name": "花亭",
+        "rarity": "R",
+        "p": 0.05
+      },
+      {
+        "id": "place-zeng",
+        "name": "曾家花厅",
+        "rarity": "R",
+        "p": 0.05
+      },
+      {
+        "id": "place-sichuan",
+        "name": "四川某城",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "place-gullen",
+        "name": "居伦城",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "place-zoo",
+        "name": "城市动物园",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "place-forest",
+        "name": "黑林子",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "place-meixiang",
+        "name": "媚香楼",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "xplace-dock",
+        "name": "码头",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "xplace-attic",
+        "name": "阁楼",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "xplace-grave",
+        "name": "墓地",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "xplace-shrine",
+        "name": "神庙",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "xplace-kitchen",
+        "name": "厨房",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "yplace-crossroad",
+        "name": "十字路口",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "yplace-huafang",
+        "name": "画舫",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "yplace-jindian",
+        "name": "金殿",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "yplace-chengmen",
+        "name": "城门",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "yplace-cafe",
+        "name": "咖啡馆",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "yplace-cliff",
+        "name": "悬崖",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "yplace-dungeon",
+        "name": "地牢",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "yplace-ballroom",
+        "name": "舞厅",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "place-v21-diningcar",
+        "name": "餐车",
+        "rarity": "SR",
+        "p": 0.031052631578947408
+      },
+      {
+        "id": "place-dunsinane",
+        "name": "邓西嫩城堡",
+        "rarity": "SSR",
+        "p": 0.009090909090909092
+      },
+      {
+        "id": "place-exec",
+        "name": "窦娥刑场",
+        "rarity": "SSR",
+        "p": 0.009090909090909092
+      },
+      {
+        "id": "place-heath",
+        "name": "李尔的荒原",
+        "rarity": "SSR",
+        "p": 0.009090909090909092
+      },
+      {
+        "id": "place-island",
+        "name": "普洛斯彼罗的岛",
+        "rarity": "SSR",
+        "p": 0.009090909090909092
+      },
+      {
+        "id": "xplace-factory",
+        "name": "工厂",
+        "rarity": "SSR",
+        "p": 0.009090909090909092
+      },
+      {
+        "id": "xplace-ancestral",
+        "name": "祠堂",
+        "rarity": "SSR",
+        "p": 0.009090909090909092
+      },
+      {
+        "id": "xplace-rooftop",
+        "name": "屋顶",
+        "rarity": "SSR",
+        "p": 0.009090909090909092
+      },
+      {
+        "id": "xplace-mine",
+        "name": "矿井",
+        "rarity": "SSR",
+        "p": 0.009090909090909092
+      },
+      {
+        "id": "yplace-fachang",
+        "name": "法场",
+        "rarity": "SSR",
+        "p": 0.009090909090909092
+      },
+      {
+        "id": "yplace-deck",
+        "name": "甲板",
+        "rarity": "SSR",
+        "p": 0.009090909090909092
+      },
+      {
+        "id": "place-v21-photostudio",
+        "name": "旧照相馆",
+        "rarity": "SSR",
+        "p": 0.009090909090909092
+      },
+      {
+        "id": "place-elsinore",
+        "name": "艾尔西诺城堡",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "place-cherry",
+        "name": "樱桃园",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "place-blackbox",
+        "name": "黑匣子",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "place-proscenium",
+        "name": "镜框式舞台",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "xplace-balcony",
+        "name": "阳台",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "xplace-market",
+        "name": "集市",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "xplace-convent",
+        "name": "修道院",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "xplace-snowfield",
+        "name": "雪原",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "yplace-well",
+        "name": "井台",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "yplace-zhongjun",
+        "name": "中军帐",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "yplace-shikumen",
+        "name": "石库门",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "yplace-altar",
+        "name": "祭坛",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "yplace-stable",
+        "name": "马厩",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "yplace-office",
+        "name": "办公室",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "yplace-workshop",
+        "name": "车间",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "place-v21-publicbath",
+        "name": "公共浴室",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "place-v21-funeralhome",
+        "name": "殡仪馆",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "place-v21-lostproperty",
+        "name": "失物招领处",
+        "rarity": "UR",
+        "p": 0.002777777777777778
+      },
+      {
+        "id": "place-tea",
+        "name": "裕泰茶馆",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      },
+      {
+        "id": "place-zhou",
+        "name": "周公馆",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      },
+      {
+        "id": "place-parlor",
+        "name": "娜拉的客厅",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      },
+      {
+        "id": "place-stella",
+        "name": "斯特拉的公寓",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      },
+      {
+        "id": "yplace-globe",
+        "name": "环球剧场",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      },
+      {
+        "id": "place-v21-bordercheckpoint",
+        "name": "边境检查站",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      },
+      {
+        "id": "place-v21-willroom",
+        "name": "遗嘱宣读室",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      },
+      {
+        "id": "place-v22-gallery",
+        "name": "议会旁听席",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      },
+      {
+        "id": "place-v22-radiobooth",
+        "name": "广播控制室",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      },
+      {
+        "id": "place-v22-cage",
+        "name": "矿井吊笼",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      },
+      {
+        "id": "place-v22-embassyhall",
+        "name": "大使馆避难厅",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      },
+      {
+        "id": "place-v22-observatory",
+        "name": "天文台圆顶",
+        "rarity": "LR",
+        "p": 0.0008333333333333334
+      }
+    ]
+  },
+  "gift": {
+    "before": {
+      "maximum": 0.08,
+      "consecutiveRepeat": 0.03995510366826163,
+      "expectedUnique": {
+        "10": 8.483914638730294,
+        "25": 17.242353892437357,
+        "50": 27.13158169830109,
+        "100": 39.307532955392475
+      }
+    },
+    "after": {
+      "maximum": 0.05,
+      "consecutiveRepeat": 0.026218261562998425,
+      "expectedUnique": {
+        "10": 8.922135341299207,
+        "25": 18.834975167912994,
+        "50": 29.74181087057287,
+        "100": 41.53548283280446
+      }
+    },
+    "probabilities": [
+      {
+        "id": "xplace-carriage",
+        "name": "车厢",
+        "rarity": "UC",
+        "p": 0.05
+      },
+      {
+        "id": "yplace-gongtang",
+        "name": "公堂",
+        "rarity": "UC",
+        "p": 0.05
+      },
+      {
+        "id": "place-v21-archive",
+        "name": "档案室",
+        "rarity": "UC",
+        "p": 0.05
+      },
+      {
+        "id": "place-baihua",
+        "name": "花亭",
+        "rarity": "R",
+        "p": 0.05
+      },
+      {
+        "id": "place-zeng",
+        "name": "曾家花厅",
+        "rarity": "R",
+        "p": 0.05
+      },
+      {
+        "id": "place-sichuan",
+        "name": "四川某城",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "place-gullen",
+        "name": "居伦城",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "place-zoo",
+        "name": "城市动物园",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "place-forest",
+        "name": "黑林子",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "place-meixiang",
+        "name": "媚香楼",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "xplace-dock",
+        "name": "码头",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "xplace-attic",
+        "name": "阁楼",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "xplace-grave",
+        "name": "墓地",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "xplace-shrine",
+        "name": "神庙",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "xplace-kitchen",
+        "name": "厨房",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "yplace-crossroad",
+        "name": "十字路口",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "yplace-huafang",
+        "name": "画舫",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "yplace-jindian",
+        "name": "金殿",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "yplace-chengmen",
+        "name": "城门",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "yplace-cafe",
+        "name": "咖啡馆",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "yplace-cliff",
+        "name": "悬崖",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "yplace-dungeon",
+        "name": "地牢",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "yplace-ballroom",
+        "name": "舞厅",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "place-v21-diningcar",
+        "name": "餐车",
+        "rarity": "SR",
+        "p": 0.023157894736842113
+      },
+      {
+        "id": "place-dunsinane",
+        "name": "邓西嫩城堡",
+        "rarity": "SSR",
+        "p": 0.01636363636363636
+      },
+      {
+        "id": "place-exec",
+        "name": "窦娥刑场",
+        "rarity": "SSR",
+        "p": 0.01636363636363636
+      },
+      {
+        "id": "place-heath",
+        "name": "李尔的荒原",
+        "rarity": "SSR",
+        "p": 0.01636363636363636
+      },
+      {
+        "id": "place-island",
+        "name": "普洛斯彼罗的岛",
+        "rarity": "SSR",
+        "p": 0.01636363636363636
+      },
+      {
+        "id": "xplace-factory",
+        "name": "工厂",
+        "rarity": "SSR",
+        "p": 0.01636363636363636
+      },
+      {
+        "id": "xplace-ancestral",
+        "name": "祠堂",
+        "rarity": "SSR",
+        "p": 0.01636363636363636
+      },
+      {
+        "id": "xplace-rooftop",
+        "name": "屋顶",
+        "rarity": "SSR",
+        "p": 0.01636363636363636
+      },
+      {
+        "id": "xplace-mine",
+        "name": "矿井",
+        "rarity": "SSR",
+        "p": 0.01636363636363636
+      },
+      {
+        "id": "yplace-fachang",
+        "name": "法场",
+        "rarity": "SSR",
+        "p": 0.01636363636363636
+      },
+      {
+        "id": "yplace-deck",
+        "name": "甲板",
+        "rarity": "SSR",
+        "p": 0.01636363636363636
+      },
+      {
+        "id": "place-v21-photostudio",
+        "name": "旧照相馆",
+        "rarity": "SSR",
+        "p": 0.01636363636363636
+      },
+      {
+        "id": "place-elsinore",
+        "name": "艾尔西诺城堡",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "place-cherry",
+        "name": "樱桃园",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "place-blackbox",
+        "name": "黑匣子",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "place-proscenium",
+        "name": "镜框式舞台",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "xplace-balcony",
+        "name": "阳台",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "xplace-market",
+        "name": "集市",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "xplace-convent",
+        "name": "修道院",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "xplace-snowfield",
+        "name": "雪原",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "yplace-well",
+        "name": "井台",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "yplace-zhongjun",
+        "name": "中军帐",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "yplace-shikumen",
+        "name": "石库门",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "yplace-altar",
+        "name": "祭坛",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "yplace-stable",
+        "name": "马厩",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "yplace-office",
+        "name": "办公室",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "yplace-workshop",
+        "name": "车间",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "place-v21-publicbath",
+        "name": "公共浴室",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "place-v21-funeralhome",
+        "name": "殡仪馆",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "place-v21-lostproperty",
+        "name": "失物招领处",
+        "rarity": "UR",
+        "p": 0.005
+      },
+      {
+        "id": "place-tea",
+        "name": "裕泰茶馆",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      },
+      {
+        "id": "place-zhou",
+        "name": "周公馆",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      },
+      {
+        "id": "place-parlor",
+        "name": "娜拉的客厅",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      },
+      {
+        "id": "place-stella",
+        "name": "斯特拉的公寓",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      },
+      {
+        "id": "yplace-globe",
+        "name": "环球剧场",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      },
+      {
+        "id": "place-v21-bordercheckpoint",
+        "name": "边境检查站",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      },
+      {
+        "id": "place-v21-willroom",
+        "name": "遗嘱宣读室",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      },
+      {
+        "id": "place-v22-gallery",
+        "name": "议会旁听席",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      },
+      {
+        "id": "place-v22-radiobooth",
+        "name": "广播控制室",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      },
+      {
+        "id": "place-v22-cage",
+        "name": "矿井吊笼",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      },
+      {
+        "id": "place-v22-embassyhall",
+        "name": "大使馆避难厅",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      },
+      {
+        "id": "place-v22-observatory",
+        "name": "天文台圆顶",
+        "rarity": "LR",
+        "p": 0.0033333333333333335
+      }
+    ]
+  }
+}

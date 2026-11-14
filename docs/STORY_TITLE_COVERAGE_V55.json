@@ -1,0 +1,2141 @@
+{
+  "sampleSeed": "0x55d1a",
+  "sampleKind": "5000组常驻卡按维均匀抽样；不等同线上加权概率",
+  "sampleCount": 5000,
+  "oldCatalog": 224,
+  "oldConditionalCharacterTitles": 0,
+  "newCatalog": 112,
+  "newUniqueCores": 112,
+  "newOverlapOld": 0,
+  "oldObservedCoreTitles": 200,
+  "v55ObservedCoreTitles": 298,
+  "newConditionMatches": 1746,
+  "newObservedCoreTitles": 103,
+  "individuallyReachable": 112,
+  "witnesses": [
+    {
+      "id": 1,
+      "branch": "play-cherry",
+      "actor": "lead",
+      "strategy": "control",
+      "title": "留人吃饭的人，连留下的资格也要管",
+      "anchor": "钥匙",
+      "condition": "主演的行动取向为「确认保管与处置权限」",
+      "exampleActor": "麦克白",
+      "exampleIds": [
+        "play-cherry",
+        "style-stan",
+        "dir-wall",
+        "role-macbeth",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜留人吃饭的人，连留下的资格也要管"
+    },
+    {
+      "id": 2,
+      "branch": "play-cherry",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "钥匙可以交出，去留不能代签",
+      "anchor": "钥匙",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-cherry",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜钥匙可以交出，去留不能代签"
+    },
+    {
+      "id": 3,
+      "branch": "play-cherry",
+      "actor": "lead",
+      "strategy": "aid",
+      "title": "让出一个座位，还欠一个容身之处",
+      "anchor": "钥匙",
+      "condition": "主演的行动取向为「先给对方实际便利」",
+      "exampleActor": "沈黛",
+      "exampleIds": [
+        "play-cherry",
+        "style-stan",
+        "dir-wall",
+        "role-shen",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜让出一个座位，还欠一个容身之处"
+    },
+    {
+      "id": 4,
+      "branch": "play-cherry",
+      "actor": "support",
+      "strategy": "memory",
+      "title": "还留着旧日生活，已经不能替留下作主",
+      "anchor": "钥匙",
+      "condition": "配角的行动取向为「将往事与今天分开」",
+      "exampleActor": "加耶夫",
+      "exampleIds": [
+        "play-cherry",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-gayev",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜还留着旧日生活，已经不能替留下作主"
+    },
+    {
+      "id": 5,
+      "branch": "play-oedipus",
+      "actor": "lead",
+      "strategy": "truth",
+      "title": "连自己的空白也不能略过",
+      "anchor": "证",
+      "condition": "主演的行动取向为「区分已知与猜测」",
+      "exampleActor": "俄狄浦斯",
+      "exampleIds": [
+        "play-oedipus",
+        "style-stan",
+        "dir-alien",
+        "role-oedipus",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜连自己的空白也不能略过"
+    },
+    {
+      "id": 6,
+      "branch": "play-oedipus",
+      "actor": "lead",
+      "strategy": "privacy",
+      "title": "想留下的秘密，偏在证词里有了位置",
+      "anchor": "证",
+      "condition": "主演的行动取向为「保留不愿公开的私事」",
+      "exampleActor": "麦克白夫人",
+      "exampleIds": [
+        "play-oedipus",
+        "style-stan",
+        "dir-alien",
+        "role-ladym",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜想留下的秘密，偏在证词里有了位置"
+    },
+    {
+      "id": 7,
+      "branch": "play-oedipus",
+      "actor": "support",
+      "strategy": "principle",
+      "title": "换到证人的位置，还认不认同一条规矩",
+      "anchor": "证",
+      "condition": "配角的行动取向为「同一标准约束双方」",
+      "exampleActor": "克瑞翁",
+      "exampleIds": [
+        "play-oedipus",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜换到证人的位置，还认不认同一条规矩"
+    },
+    {
+      "id": 8,
+      "branch": "play-oedipus",
+      "actor": "lead",
+      "strategy": "grievance",
+      "title": "追问旧责的人，被旧事叫住了",
+      "anchor": "证",
+      "condition": "主演的行动取向为「旧责不能被当前交易抵消」",
+      "exampleActor": "鲁侍萍",
+      "exampleIds": [
+        "play-oedipus",
+        "style-stan",
+        "dir-alien",
+        "role-shiping",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜追问旧责的人，被旧事叫住了"
+    },
+    {
+      "id": 9,
+      "branch": "play-hamlet",
+      "actor": "lead",
+      "strategy": "truth",
+      "title": "给疑心排的戏，还欠一份证据",
+      "anchor": "戏",
+      "condition": "主演的行动取向为「区分已知与猜测」",
+      "exampleActor": "俄狄浦斯",
+      "exampleIds": [
+        "play-hamlet",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜给疑心排的戏，还欠一份证据"
+    },
+    {
+      "id": 10,
+      "branch": "play-hamlet",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "被试探的人，决定让戏停在哪句",
+      "anchor": "戏",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-hamlet",
+        "style-stan",
+        "dir-alien",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜被试探的人，决定让戏停在哪句"
+    },
+    {
+      "id": 11,
+      "branch": "play-hamlet",
+      "actor": "lead",
+      "strategy": "control",
+      "title": "连交接都要掌握，却管不住那句原话",
+      "anchor": "戏",
+      "condition": "主演的行动取向为「确认保管与处置权限」",
+      "exampleActor": "麦克白",
+      "exampleIds": [
+        "play-hamlet",
+        "style-stan",
+        "dir-wall",
+        "role-macbeth",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜连交接都要掌握，却管不住那句原话"
+    },
+    {
+      "id": 12,
+      "branch": "play-hamlet",
+      "actor": "support",
+      "strategy": "recognition",
+      "title": "要我接受指控，请先留下完整的台词",
+      "anchor": "戏",
+      "condition": "配角的行动取向为「要求具体的评价理由」",
+      "exampleActor": "爱德蒙",
+      "exampleIds": [
+        "play-hamlet",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-edmund",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜要我接受指控，请先留下完整的台词"
+    },
+    {
+      "id": 13,
+      "branch": "play-macbeth",
+      "actor": "lead",
+      "strategy": "control",
+      "title": "席位归自己，安稳却没有一并交来",
+      "anchor": "位置",
+      "condition": "主演的行动取向为「确认保管与处置权限」",
+      "exampleActor": "麦克白",
+      "exampleIds": [
+        "play-macbeth",
+        "style-stan",
+        "dir-wall",
+        "role-macbeth",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜席位归自己，安稳却没有一并交来"
+    },
+    {
+      "id": 14,
+      "branch": "play-macbeth",
+      "actor": "support",
+      "strategy": "loyalty",
+      "title": "替你守住关系，却不能保证你安心",
+      "anchor": "位置",
+      "condition": "配角的行动取向为「来往不能以接受条件交换」",
+      "exampleActor": "伊斯墨涅",
+      "exampleIds": [
+        "play-macbeth",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-ismene",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜替你守住关系，却不能保证你安心"
+    },
+    {
+      "id": 15,
+      "branch": "play-macbeth",
+      "actor": "lead",
+      "strategy": "privacy",
+      "title": "身后的事遮住了，席位仍坐不安稳",
+      "anchor": "位置",
+      "condition": "主演的行动取向为「保留不愿公开的私事」",
+      "exampleActor": "麦克白夫人",
+      "exampleIds": [
+        "play-macbeth",
+        "style-stan",
+        "dir-wall",
+        "role-ladym",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜身后的事遮住了，席位仍坐不安稳"
+    },
+    {
+      "id": 16,
+      "branch": "play-macbeth",
+      "actor": "support",
+      "strategy": "truth",
+      "title": "名牌能证明席位，不能证明安全",
+      "anchor": "位置",
+      "condition": "配角的行动取向为「区分已知与猜测」",
+      "exampleActor": "弄人",
+      "exampleIds": [
+        "play-macbeth",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-fool-lear",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜名牌能证明席位，不能证明安全"
+    },
+    {
+      "id": 17,
+      "branch": "play-godot",
+      "actor": "lead",
+      "strategy": "urgency",
+      "title": "最急的是离开，最后却保留了空位",
+      "anchor": "标记",
+      "condition": "主演的行动取向为「当场处理不能再拖的一项」",
+      "exampleActor": "爱斯特拉冈",
+      "exampleIds": [
+        "play-godot",
+        "style-stan",
+        "dir-wall",
+        "role-gogo",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜最急的是离开，最后却保留了空位"
+    },
+    {
+      "id": 18,
+      "branch": "play-godot",
+      "actor": "lead",
+      "strategy": "hope",
+      "title": "把保证留空，还给未来留着地方",
+      "anchor": "标记",
+      "condition": "主演的行动取向为「区分期待与已获答复」",
+      "exampleActor": "弗拉季米尔",
+      "exampleIds": [
+        "play-godot",
+        "style-stan",
+        "dir-wall",
+        "role-vladimir",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜把保证留空，还给未来留着地方"
+    },
+    {
+      "id": 19,
+      "branch": "play-godot",
+      "actor": "support",
+      "strategy": "loyalty",
+      "title": "不愿催散相伴，也不愿替等待点头",
+      "anchor": "标记",
+      "condition": "配角的行动取向为「来往不能以接受条件交换」",
+      "exampleActor": "伊斯墨涅",
+      "exampleIds": [
+        "play-godot",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-ismene",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜不愿催散相伴，也不愿替等待点头"
+    },
+    {
+      "id": 20,
+      "branch": "play-godot",
+      "actor": "support",
+      "strategy": "livelihood",
+      "title": "休息的时间划好了，等候还没有结束",
+      "anchor": "标记",
+      "condition": "配角的行动取向为「保留生活与休息所需」",
+      "exampleActor": "玛尔塔",
+      "exampleIds": [
+        "play-godot",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-martha-misunderstanding",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜休息的时间划好了，等候还没有结束"
+    },
+    {
+      "id": 21,
+      "branch": "play-doll",
+      "actor": "lead",
+      "strategy": "autonomy",
+      "title": "行李可以暂存，生活不能交人保管",
+      "anchor": "行李",
+      "condition": "主演的行动取向为「各自保留决定权」",
+      "exampleActor": "娜拉",
+      "exampleIds": [
+        "play-doll",
+        "style-stan",
+        "dir-wall",
+        "role-nora",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜行李可以暂存，生活不能交人保管"
+    },
+    {
+      "id": 22,
+      "branch": "play-doll",
+      "actor": "lead",
+      "strategy": "aid",
+      "title": "先给你让座，再把自己的行李带走",
+      "anchor": "行李",
+      "condition": "主演的行动取向为「先给对方实际便利」",
+      "exampleActor": "沈黛",
+      "exampleIds": [
+        "play-doll",
+        "style-stan",
+        "dir-wall",
+        "role-shen",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜先给你让座，再把自己的行李带走"
+    },
+    {
+      "id": 23,
+      "branch": "play-doll",
+      "actor": "support",
+      "strategy": "control",
+      "title": "挽留写了许多条，偏没有平等这一条",
+      "anchor": "行李",
+      "condition": "配角的行动取向为「确认保管与处置权限」",
+      "exampleActor": "波洛涅斯",
+      "exampleIds": [
+        "play-doll",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-polonius",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜挽留写了许多条，偏没有平等这一条"
+    },
+    {
+      "id": 24,
+      "branch": "play-doll",
+      "actor": "support",
+      "strategy": "memory",
+      "title": "从前的照料，不能替今天决定去留",
+      "anchor": "行李",
+      "condition": "配角的行动取向为「将往事与今天分开」",
+      "exampleActor": "加耶夫",
+      "exampleIds": [
+        "play-doll",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-gayev",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜从前的照料，不能替今天决定去留"
+    },
+    {
+      "id": 25,
+      "branch": "play-teahouse",
+      "actor": "lead",
+      "strategy": "livelihood",
+      "title": "想保住明日生计，今天的杯子却空了",
+      "anchor": "杯",
+      "condition": "主演的行动取向为「保留生活与休息所需」",
+      "exampleActor": "王利发",
+      "exampleIds": [
+        "play-teahouse",
+        "style-stan",
+        "dir-wall",
+        "role-wang",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜想保住明日生计，今天的杯子却空了"
+    },
+    {
+      "id": 26,
+      "branch": "play-teahouse",
+      "actor": "lead",
+      "strategy": "aid",
+      "title": "位置已经让好，留下的人仍不肯入席",
+      "anchor": "杯",
+      "condition": "主演的行动取向为「先给对方实际便利」",
+      "exampleActor": "沈黛",
+      "exampleIds": [
+        "play-teahouse",
+        "style-stan",
+        "dir-wall",
+        "role-shen",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜位置已经让好，留下的人仍不肯入席"
+    },
+    {
+      "id": 27,
+      "branch": "play-teahouse",
+      "actor": "lead",
+      "strategy": "control",
+      "title": "每条规矩都改过，生意却没有答应",
+      "anchor": "杯",
+      "condition": "主演的行动取向为「确认保管与处置权限」",
+      "exampleActor": "麦克白",
+      "exampleIds": [
+        "play-teahouse",
+        "style-stan",
+        "dir-wall",
+        "role-macbeth",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜每条规矩都改过，生意却没有答应"
+    },
+    {
+      "id": 28,
+      "branch": "play-teahouse",
+      "actor": "support",
+      "strategy": "loyalty",
+      "title": "愿意再相见，救不了今天这桌生意",
+      "anchor": "杯",
+      "condition": "配角的行动取向为「来往不能以接受条件交换」",
+      "exampleActor": "伊斯墨涅",
+      "exampleIds": [
+        "play-teahouse",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-ismene",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜愿意再相见，救不了今天这桌生意"
+    },
+    {
+      "id": 29,
+      "branch": "play-thunder",
+      "actor": "lead",
+      "strategy": "privacy",
+      "title": "私事压在手下，旧物却认出了来客",
+      "anchor": "旧物",
+      "condition": "主演的行动取向为「保留不愿公开的私事」",
+      "exampleActor": "麦克白夫人",
+      "exampleIds": [
+        "play-thunder",
+        "style-stan",
+        "dir-wall",
+        "role-ladym",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜私事压在手下，旧物却认出了来客"
+    },
+    {
+      "id": 30,
+      "branch": "play-thunder",
+      "actor": "support",
+      "strategy": "grievance",
+      "title": "今天可以重逢，昨天不能一笔勾销",
+      "anchor": "旧物",
+      "condition": "配角的行动取向为「旧责不能被当前交易抵消」",
+      "exampleActor": "麦克德夫",
+      "exampleIds": [
+        "play-thunder",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-macduff",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜今天可以重逢，昨天不能一笔勾销"
+    },
+    {
+      "id": 31,
+      "branch": "play-thunder",
+      "actor": "lead",
+      "strategy": "control",
+      "title": "位置仍由你安排，记忆已经不听命令",
+      "anchor": "旧物",
+      "condition": "主演的行动取向为「确认保管与处置权限」",
+      "exampleActor": "麦克白",
+      "exampleIds": [
+        "play-thunder",
+        "style-stan",
+        "dir-wall",
+        "role-macbeth",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜位置仍由你安排，记忆已经不听命令"
+    },
+    {
+      "id": 32,
+      "branch": "play-thunder",
+      "actor": "support",
+      "strategy": "memory",
+      "title": "把旧日另留一页，也给自己留个位置",
+      "anchor": "旧物",
+      "condition": "配角的行动取向为「将往事与今天分开」",
+      "exampleActor": "加耶夫",
+      "exampleIds": [
+        "play-thunder",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-gayev",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜把旧日另留一页，也给自己留个位置"
+    },
+    {
+      "id": 33,
+      "branch": "play-peony",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "空着的签名，是我亲自留下的答案",
+      "anchor": "纸",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-peony",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜空着的签名，是我亲自留下的答案"
+    },
+    {
+      "id": 34,
+      "branch": "play-peony",
+      "actor": "lead",
+      "strategy": "control",
+      "title": "既要名字，也想保管这个名字的用途",
+      "anchor": "纸",
+      "condition": "主演的行动取向为「确认保管与处置权限」",
+      "exampleActor": "麦克白",
+      "exampleIds": [
+        "play-peony",
+        "style-stan",
+        "dir-wall",
+        "role-macbeth",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜既要名字，也想保管这个名字的用途"
+    },
+    {
+      "id": 35,
+      "branch": "play-peony",
+      "actor": "support",
+      "strategy": "truth",
+      "title": "纸上的承诺，要对得上刚才的条件",
+      "anchor": "纸",
+      "condition": "配角的行动取向为「区分已知与猜测」",
+      "exampleActor": "弄人",
+      "exampleIds": [
+        "play-peony",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-fool-lear",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜纸上的承诺，要对得上刚才的条件"
+    },
+    {
+      "id": 36,
+      "branch": "play-peony",
+      "actor": "support",
+      "strategy": "principle",
+      "title": "换你来签，也肯留下这个名字吗",
+      "anchor": "纸",
+      "condition": "配角的行动取向为「同一标准约束双方」",
+      "exampleActor": "克瑞翁",
+      "exampleIds": [
+        "play-peony",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜换你来签，也肯留下这个名字吗"
+    },
+    {
+      "id": 37,
+      "branch": "play-salesman",
+      "actor": "lead",
+      "strategy": "recognition",
+      "title": "想被认真对待，却只肯收下好成绩",
+      "anchor": "本子",
+      "condition": "主演的行动取向为「要求具体的评价理由」",
+      "exampleActor": "繁漪",
+      "exampleIds": [
+        "play-salesman",
+        "style-stan",
+        "dir-wall",
+        "role-fanyi",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜想被认真对待，却只肯收下好成绩"
+    },
+    {
+      "id": 38,
+      "branch": "play-salesman",
+      "actor": "support",
+      "strategy": "loyalty",
+      "title": "成绩可以认输，来往不该跟着作废",
+      "anchor": "本子",
+      "condition": "配角的行动取向为「来往不能以接受条件交换」",
+      "exampleActor": "伊斯墨涅",
+      "exampleIds": [
+        "play-salesman",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-ismene",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜成绩可以认输，来往不该跟着作废"
+    },
+    {
+      "id": 39,
+      "branch": "play-salesman",
+      "actor": "lead",
+      "strategy": "memory",
+      "title": "过去另铺一页，今天却写不进那本册子",
+      "anchor": "本子",
+      "condition": "主演的行动取向为「将往事与今天分开」",
+      "exampleActor": "厄勒克特拉",
+      "exampleIds": [
+        "play-salesman",
+        "style-stan",
+        "dir-wall",
+        "yrole-guifei",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜过去另铺一页，今天却写不进那本册子"
+    },
+    {
+      "id": 40,
+      "branch": "play-salesman",
+      "actor": "support",
+      "strategy": "livelihood",
+      "title": "没有成功的消息，只有必须过下去的日子",
+      "anchor": "本子",
+      "condition": "配角的行动取向为「保留生活与休息所需」",
+      "exampleActor": "玛尔塔",
+      "exampleIds": [
+        "play-salesman",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-martha-misunderstanding",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜没有成功的消息，只有必须过下去的日子"
+    },
+    {
+      "id": 41,
+      "branch": "play-goodperson",
+      "actor": "lead",
+      "strategy": "aid",
+      "title": "愿意先让一回，也得留住明天的一份",
+      "anchor": "物资",
+      "condition": "主演的行动取向为「先给对方实际便利」",
+      "exampleActor": "沈黛",
+      "exampleIds": [
+        "play-goodperson",
+        "style-stan",
+        "dir-wall",
+        "role-shen",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜愿意先让一回，也得留住明天的一份"
+    },
+    {
+      "id": 42,
+      "branch": "play-goodperson",
+      "actor": "lead",
+      "strategy": "livelihood",
+      "title": "生计只剩一份，答应过的话却有两种",
+      "anchor": "物资",
+      "condition": "主演的行动取向为「保留生活与休息所需」",
+      "exampleActor": "王利发",
+      "exampleIds": [
+        "play-goodperson",
+        "style-stan",
+        "dir-wall",
+        "role-wang",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜生计只剩一份，答应过的话却有两种"
+    },
+    {
+      "id": 43,
+      "branch": "play-goodperson",
+      "actor": "support",
+      "strategy": "truth",
+      "title": "换了面孔，同一句承诺仍认得出来",
+      "anchor": "物资",
+      "condition": "配角的行动取向为「区分已知与猜测」",
+      "exampleActor": "弄人",
+      "exampleIds": [
+        "play-goodperson",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-fool-lear",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜换了面孔，同一句承诺仍认得出来"
+    },
+    {
+      "id": 44,
+      "branch": "play-goodperson",
+      "actor": "lead",
+      "strategy": "privacy",
+      "title": "另藏一页私事，也藏不住同一个人",
+      "anchor": "物资",
+      "condition": "主演的行动取向为「保留不愿公开的私事」",
+      "exampleActor": "麦克白夫人",
+      "exampleIds": [
+        "play-goodperson",
+        "style-stan",
+        "dir-wall",
+        "role-ladym",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜另藏一页私事，也藏不住同一个人"
+    },
+    {
+      "id": 45,
+      "branch": "play-lear",
+      "actor": "lead",
+      "strategy": "control",
+      "title": "分配都经自己确认，自己却没有份额",
+      "anchor": "图",
+      "condition": "主演的行动取向为「确认保管与处置权限」",
+      "exampleActor": "麦克白",
+      "exampleIds": [
+        "play-lear",
+        "style-stan",
+        "dir-wall",
+        "role-macbeth",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜分配都经自己确认，自己却没有份额"
+    },
+    {
+      "id": 46,
+      "branch": "play-lear",
+      "actor": "support",
+      "strategy": "aid",
+      "title": "先给人一点方便，最后却要接住无处容身",
+      "anchor": "图",
+      "condition": "配角的行动取向为「先给对方实际便利」",
+      "exampleActor": "爱德伽",
+      "exampleIds": [
+        "play-lear",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-edgar",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜先给人一点方便，最后却要接住无处容身"
+    },
+    {
+      "id": 47,
+      "branch": "play-lear",
+      "actor": "lead",
+      "strategy": "recognition",
+      "title": "要过那么多认可，最后只求一个地方",
+      "anchor": "图",
+      "condition": "主演的行动取向为「要求具体的评价理由」",
+      "exampleActor": "繁漪",
+      "exampleIds": [
+        "play-lear",
+        "style-stan",
+        "dir-wall",
+        "role-fanyi",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜要过那么多认可，最后只求一个地方"
+    },
+    {
+      "id": 48,
+      "branch": "play-lear",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "分给我的地方，不等于替我答应收留",
+      "anchor": "图",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-lear",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜分给我的地方，不等于替我答应收留"
+    },
+    {
+      "id": 49,
+      "branch": "secret",
+      "actor": "lead",
+      "strategy": "privacy",
+      "title": "留给自己的秘密，正好堵住别人的清白",
+      "anchor": "记录",
+      "condition": "主演的行动取向为「保留不愿公开的私事」",
+      "exampleActor": "麦克白夫人",
+      "exampleIds": [
+        "play-doue",
+        "style-stan",
+        "dir-alien",
+        "role-ladym",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜留给自己的秘密，正好堵住别人的清白"
+    },
+    {
+      "id": 50,
+      "branch": "secret",
+      "actor": "lead",
+      "strategy": "urgency",
+      "title": "急着洗清嫌疑，也得把不利的那页留下",
+      "anchor": "记录",
+      "condition": "主演的行动取向为「当场处理不能再拖的一项」",
+      "exampleActor": "爱斯特拉冈",
+      "exampleIds": [
+        "play-doue",
+        "style-stan",
+        "dir-wall",
+        "role-gogo",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜急着洗清嫌疑，也得把不利的那页留下"
+    },
+    {
+      "id": 51,
+      "branch": "identity",
+      "actor": "lead",
+      "strategy": "memory",
+      "title": "另留一页自己的往事，才知道假名借走了什么",
+      "anchor": "名牌",
+      "condition": "主演的行动取向为「将往事与今天分开」",
+      "exampleActor": "厄勒克特拉",
+      "exampleIds": [
+        "play-secret",
+        "style-stan",
+        "dir-wall",
+        "yrole-guifei",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜另留一页自己的往事，才知道假名借走了什么"
+    },
+    {
+      "id": 52,
+      "branch": "identity",
+      "actor": "support",
+      "strategy": "loyalty",
+      "title": "不愿断了来往，也不替假名留下位置",
+      "anchor": "名牌",
+      "condition": "配角的行动取向为「来往不能以接受条件交换」",
+      "exampleActor": "伊斯墨涅",
+      "exampleIds": [
+        "play-secret",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-ismene",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜不愿断了来往，也不替假名留下位置"
+    },
+    {
+      "id": 53,
+      "branch": "play-antigone",
+      "actor": "lead",
+      "strategy": "loyalty",
+      "title": "不能替告别点头，也不能让禁令代答",
+      "anchor": "土",
+      "condition": "主演的行动取向为「来往不能以接受条件交换」",
+      "exampleActor": "安提戈涅",
+      "exampleIds": [
+        "play-antigone",
+        "style-stan",
+        "dir-wall",
+        "role-anti",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜不能替告别点头，也不能让禁令代答"
+    },
+    {
+      "id": 54,
+      "branch": "play-antigone",
+      "actor": "support",
+      "strategy": "control",
+      "title": "规矩留在纸上，土已经留在地上",
+      "anchor": "土",
+      "condition": "配角的行动取向为「确认保管与处置权限」",
+      "exampleActor": "波洛涅斯",
+      "exampleIds": [
+        "play-antigone",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-polonius",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜规矩留在纸上，土已经留在地上"
+    },
+    {
+      "id": 55,
+      "branch": "play-antigone",
+      "actor": "lead",
+      "strategy": "principle",
+      "title": "同一条责任，不能只要求别人承担",
+      "anchor": "土",
+      "condition": "主演的行动取向为「同一标准约束双方」",
+      "exampleActor": "窦娥",
+      "exampleIds": [
+        "play-antigone",
+        "style-stan",
+        "dir-wall",
+        "role-doue",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜同一条责任，不能只要求别人承担"
+    },
+    {
+      "id": 56,
+      "branch": "play-antigone",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "要求别人服从以后，轮到自己选择",
+      "anchor": "土",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-antigone",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜要求别人服从以后，轮到自己选择"
+    },
+    {
+      "id": 57,
+      "branch": "play-xixiang",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "我可以递信，却不替你承担答复",
+      "anchor": "信",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-xixiang",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜我可以递信，却不替你承担答复"
+    },
+    {
+      "id": 58,
+      "branch": "play-xixiang",
+      "actor": "lead",
+      "strategy": "privacy",
+      "title": "想把私语藏好，来信却要人亲自到场",
+      "anchor": "信",
+      "condition": "主演的行动取向为「保留不愿公开的私事」",
+      "exampleActor": "麦克白夫人",
+      "exampleIds": [
+        "play-xixiang",
+        "style-stan",
+        "dir-wall",
+        "role-ladym",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜想把私语藏好，来信却要人亲自到场"
+    },
+    {
+      "id": 59,
+      "branch": "play-xixiang",
+      "actor": "support",
+      "strategy": "care",
+      "title": "替你送信以前，得给照料的人留出时间",
+      "anchor": "信",
+      "condition": "配角的行动取向为「为照料他人留出时间」",
+      "exampleActor": "乳母（朱丽叶）",
+      "exampleIds": [
+        "play-xixiang",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-juliet-nurse",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜替你送信以前，得给照料的人留出时间"
+    },
+    {
+      "id": 60,
+      "branch": "play-xixiang",
+      "actor": "lead",
+      "strategy": "urgency",
+      "title": "最急的一封信，最后仍要自己回答",
+      "anchor": "信",
+      "condition": "主演的行动取向为「当场处理不能再拖的一项」",
+      "exampleActor": "爱斯特拉冈",
+      "exampleIds": [
+        "play-xixiang",
+        "style-stan",
+        "dir-wall",
+        "role-gogo",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜最急的一封信，最后仍要自己回答"
+    },
+    {
+      "id": 61,
+      "branch": "play-visit",
+      "actor": "support",
+      "strategy": "privacy",
+      "title": "可以藏起私事，藏不起已经安排的好处",
+      "anchor": "许诺",
+      "condition": "配角的行动取向为「保留不愿公开的私事」",
+      "exampleActor": "特里戈林",
+      "exampleIds": [
+        "play-visit",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-trigorin",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜可以藏起私事，藏不起已经安排的好处"
+    },
+    {
+      "id": 62,
+      "branch": "play-visit",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "谁也不能替我同意，包括我借来的沉默",
+      "anchor": "许诺",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-visit",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜谁也不能替我同意，包括我借来的沉默"
+    },
+    {
+      "id": 63,
+      "branch": "play-visit",
+      "actor": "lead",
+      "strategy": "principle",
+      "title": "要求按自己的规矩，也得承担同一份代价",
+      "anchor": "许诺",
+      "condition": "主演的行动取向为「同一标准约束双方」",
+      "exampleActor": "窦娥",
+      "exampleIds": [
+        "play-visit",
+        "style-stan",
+        "dir-wall",
+        "role-doue",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜要求按自己的规矩，也得承担同一份代价"
+    },
+    {
+      "id": 64,
+      "branch": "play-visit",
+      "actor": "support",
+      "strategy": "hope",
+      "title": "期待还没算作答应，日子已经照它安排",
+      "anchor": "许诺",
+      "condition": "配角的行动取向为「区分期待与已获答复」",
+      "exampleActor": "安妮娅",
+      "exampleIds": [
+        "play-visit",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-anya-cherry",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜期待还没算作答应，日子已经照它安排"
+    },
+    {
+      "id": 65,
+      "branch": "play-glass",
+      "actor": "lead",
+      "strategy": "recognition",
+      "title": "愿意把珍藏给你，也得接住离开的理由",
+      "anchor": "小兽",
+      "condition": "主演的行动取向为「要求具体的评价理由」",
+      "exampleActor": "繁漪",
+      "exampleIds": [
+        "play-glass",
+        "style-stan",
+        "dir-wall",
+        "role-fanyi",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜愿意把珍藏给你，也得接住离开的理由"
+    },
+    {
+      "id": 66,
+      "branch": "play-glass",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "靠近过一回，不等于答应一直留下",
+      "anchor": "小兽",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-glass",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜靠近过一回，不等于答应一直留下"
+    },
+    {
+      "id": 67,
+      "branch": "play-glass",
+      "actor": "lead",
+      "strategy": "aid",
+      "title": "把方便先让给来客，把破损留给自己整理",
+      "anchor": "小兽",
+      "condition": "主演的行动取向为「先给对方实际便利」",
+      "exampleActor": "沈黛",
+      "exampleIds": [
+        "play-glass",
+        "style-stan",
+        "dir-wall",
+        "role-shen",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜把方便先让给来客，把破损留给自己整理"
+    },
+    {
+      "id": 68,
+      "branch": "play-glass",
+      "actor": "lead",
+      "strategy": "memory",
+      "title": "旧日可以留一页，小兽得另找一个位置",
+      "anchor": "小兽",
+      "condition": "主演的行动取向为「将往事与今天分开」",
+      "exampleActor": "厄勒克特拉",
+      "exampleIds": [
+        "play-glass",
+        "style-stan",
+        "dir-wall",
+        "yrole-guifei",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜旧日可以留一页，小兽得另找一个位置"
+    },
+    {
+      "id": 69,
+      "branch": "xplay-seagull",
+      "actor": "lead",
+      "strategy": "recognition",
+      "title": "要的是作品的评价，舍不得的却是来客",
+      "anchor": "戏",
+      "condition": "主演的行动取向为「要求具体的评价理由」",
+      "exampleActor": "繁漪",
+      "exampleIds": [
+        "xplay-seagull",
+        "style-stan",
+        "dir-wall",
+        "role-fanyi",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜要的是作品的评价，舍不得的却是来客"
+    },
+    {
+      "id": 70,
+      "branch": "xplay-seagull",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "给作品留一句答复，给去留另留一行",
+      "anchor": "戏",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "xplay-seagull",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜给作品留一句答复，给去留另留一行"
+    },
+    {
+      "id": 71,
+      "branch": "xplay-seagull",
+      "actor": "lead",
+      "strategy": "hope",
+      "title": "期待还没有填满，戏已经到了散场时刻",
+      "anchor": "戏",
+      "condition": "主演的行动取向为「区分期待与已获答复」",
+      "exampleActor": "弗拉季米尔",
+      "exampleIds": [
+        "xplay-seagull",
+        "style-stan",
+        "dir-wall",
+        "role-vladimir",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜期待还没有填满，戏已经到了散场时刻"
+    },
+    {
+      "id": 72,
+      "branch": "xplay-seagull",
+      "actor": "support",
+      "strategy": "loyalty",
+      "title": "愿意认真相待，也可以不答应陪伴",
+      "anchor": "戏",
+      "condition": "配角的行动取向为「来往不能以接受条件交换」",
+      "exampleActor": "伊斯墨涅",
+      "exampleIds": [
+        "xplay-seagull",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-ismene",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜愿意认真相待，也可以不答应陪伴"
+    },
+    {
+      "id": 73,
+      "branch": "play-rhino",
+      "actor": "lead",
+      "strategy": "control",
+      "title": "礼物的去向能登记，人的去留不能",
+      "anchor": "礼物",
+      "condition": "主演的行动取向为「确认保管与处置权限」",
+      "exampleActor": "麦克白",
+      "exampleIds": [
+        "play-rhino",
+        "style-stan",
+        "dir-wall",
+        "role-macbeth",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜礼物的去向能登记，人的去留不能"
+    },
+    {
+      "id": 74,
+      "branch": "play-rhino",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "给礼物一个位置，给拒绝留一条通路",
+      "anchor": "礼物",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-rhino",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜给礼物一个位置，给拒绝留一条通路"
+    },
+    {
+      "id": 75,
+      "branch": "play-rhino",
+      "actor": "lead",
+      "strategy": "aid",
+      "title": "能让出歇脚处，能不能也让出拒绝的余地",
+      "anchor": "礼物",
+      "condition": "主演的行动取向为「先给对方实际便利」",
+      "exampleActor": "沈黛",
+      "exampleIds": [
+        "play-rhino",
+        "style-stan",
+        "dir-wall",
+        "role-shen",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜能让出歇脚处，能不能也让出拒绝的余地"
+    },
+    {
+      "id": 76,
+      "branch": "play-rhino",
+      "actor": "support",
+      "strategy": "loyalty",
+      "title": "不收下这份安排，也不该被迫断了来往",
+      "anchor": "礼物",
+      "condition": "配角的行动取向为「来往不能以接受条件交换」",
+      "exampleActor": "伊斯墨涅",
+      "exampleIds": [
+        "play-rhino",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-ismene",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜不收下这份安排，也不该被迫断了来往"
+    },
+    {
+      "id": 77,
+      "branch": "choice",
+      "actor": "lead",
+      "strategy": "memory",
+      "title": "过去另存一页，别把对方的未来也写完",
+      "anchor": "约定",
+      "condition": "主演的行动取向为「将往事与今天分开」",
+      "exampleActor": "厄勒克特拉",
+      "exampleIds": [
+        "play-palace",
+        "style-stan",
+        "dir-wall",
+        "yrole-guifei",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜过去另存一页，别把对方的未来也写完"
+    },
+    {
+      "id": 78,
+      "branch": "choice",
+      "actor": "support",
+      "strategy": "urgency",
+      "title": "先处理眼前的拒绝，别拿明天的好处催人",
+      "anchor": "约定",
+      "condition": "配角的行动取向为「当场处理不能再拖的一项」",
+      "exampleActor": "洛巴辛",
+      "exampleIds": [
+        "play-palace",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-lopakhin",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜先处理眼前的拒绝，别拿明天的好处催人"
+    },
+    {
+      "id": 79,
+      "branch": "shelter",
+      "actor": "lead",
+      "strategy": "livelihood",
+      "title": "守住休息的时间，才愿意分出今夜的水",
+      "anchor": "水",
+      "condition": "主演的行动取向为「保留生活与休息所需」",
+      "exampleActor": "王利发",
+      "exampleIds": [
+        "play-peach",
+        "style-stan",
+        "dir-wall",
+        "role-wang",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜守住休息的时间，才愿意分出今夜的水"
+    },
+    {
+      "id": 80,
+      "branch": "shelter",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "求一份水，也要给自己的答复留一行",
+      "anchor": "水",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-peach",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜求一份水，也要给自己的答复留一行"
+    },
+    {
+      "id": 81,
+      "branch": "money",
+      "actor": "lead",
+      "strategy": "truth",
+      "title": "出钱的人，也得把自己的旧账翻完",
+      "anchor": "账",
+      "condition": "主演的行动取向为「区分已知与猜测」",
+      "exampleActor": "俄狄浦斯",
+      "exampleIds": [
+        "play-sunrise",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜出钱的人，也得把自己的旧账翻完"
+    },
+    {
+      "id": 82,
+      "branch": "money",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "要不要收钱，不能只听出钱的人",
+      "anchor": "账",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-sunrise",
+        "style-stan",
+        "dir-alien",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜要不要收钱，不能只听出钱的人"
+    },
+    {
+      "id": 83,
+      "branch": "money",
+      "actor": "support",
+      "strategy": "aid",
+      "title": "给出资的人让座，仍要把欠款算清",
+      "anchor": "账",
+      "condition": "配角的行动取向为「先给对方实际便利」",
+      "exampleActor": "爱德伽",
+      "exampleIds": [
+        "play-sunrise",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-edgar",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜给出资的人让座，仍要把欠款算清"
+    },
+    {
+      "id": 84,
+      "branch": "money",
+      "actor": "lead",
+      "strategy": "privacy",
+      "title": "可以不留姓名，不能不交代来路",
+      "anchor": "账",
+      "condition": "主演的行动取向为「保留不愿公开的私事」",
+      "exampleActor": "麦克白夫人",
+      "exampleIds": [
+        "play-sunrise",
+        "style-stan",
+        "dir-wall",
+        "role-ladym",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜可以不留姓名，不能不交代来路"
+    },
+    {
+      "id": 85,
+      "branch": "secret",
+      "actor": "lead",
+      "strategy": "truth",
+      "title": "给自己留的空白，最后也得由自己补上",
+      "anchor": "记录",
+      "condition": "主演的行动取向为「区分已知与猜测」",
+      "exampleActor": "俄狄浦斯",
+      "exampleIds": [
+        "play-doue",
+        "style-stan",
+        "dir-alien",
+        "role-oedipus",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜给自己留的空白，最后也得由自己补上"
+    },
+    {
+      "id": 86,
+      "branch": "secret",
+      "actor": "support",
+      "strategy": "privacy",
+      "title": "私事可以遮住，少掉的那页不能",
+      "anchor": "记录",
+      "condition": "配角的行动取向为「保留不愿公开的私事」",
+      "exampleActor": "特里戈林",
+      "exampleIds": [
+        "play-doue",
+        "style-stan",
+        "dir-alien",
+        "role-oedipus",
+        "role2-trigorin",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜私事可以遮住，少掉的那页不能"
+    },
+    {
+      "id": 87,
+      "branch": "secret",
+      "actor": "lead",
+      "strategy": "grievance",
+      "title": "旧责不能抵消，新证据也不能只留一半",
+      "anchor": "记录",
+      "condition": "主演的行动取向为「旧责不能被当前交易抵消」",
+      "exampleActor": "鲁侍萍",
+      "exampleIds": [
+        "play-doue",
+        "style-stan",
+        "dir-wall",
+        "role-shiping",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜旧责不能抵消，新证据也不能只留一半"
+    },
+    {
+      "id": 88,
+      "branch": "secret",
+      "actor": "support",
+      "strategy": "principle",
+      "title": "把标准换到自己，藏着的那页也该交出",
+      "anchor": "记录",
+      "condition": "配角的行动取向为「同一标准约束双方」",
+      "exampleActor": "克瑞翁",
+      "exampleIds": [
+        "play-doue",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜把标准换到自己，藏着的那页也该交出"
+    },
+    {
+      "id": 89,
+      "branch": "choice",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "最好的条件，也不能占掉我的答复",
+      "anchor": "约定",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-palace",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜最好的条件，也不能占掉我的答复"
+    },
+    {
+      "id": 90,
+      "branch": "choice",
+      "actor": "lead",
+      "strategy": "control",
+      "title": "未来排好了次序，却还没有获得同意",
+      "anchor": "约定",
+      "condition": "主演的行动取向为「确认保管与处置权限」",
+      "exampleActor": "麦克白",
+      "exampleIds": [
+        "play-palace",
+        "style-stan",
+        "dir-wall",
+        "role-macbeth",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜未来排好了次序，却还没有获得同意"
+    },
+    {
+      "id": 91,
+      "branch": "choice",
+      "actor": "lead",
+      "strategy": "aid",
+      "title": "好意可以先给，答应必须等对方自己来",
+      "anchor": "约定",
+      "condition": "主演的行动取向为「先给对方实际便利」",
+      "exampleActor": "沈黛",
+      "exampleIds": [
+        "play-palace",
+        "style-stan",
+        "dir-wall",
+        "role-shen",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜好意可以先给，答应必须等对方自己来"
+    },
+    {
+      "id": 92,
+      "branch": "choice",
+      "actor": "support",
+      "strategy": "loyalty",
+      "title": "拒绝这份安排，还想保留下一次相见",
+      "anchor": "约定",
+      "condition": "配角的行动取向为「来往不能以接受条件交换」",
+      "exampleActor": "伊斯墨涅",
+      "exampleIds": [
+        "play-palace",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-ismene",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜拒绝这份安排，还想保留下一次相见"
+    },
+    {
+      "id": 93,
+      "branch": "shelter",
+      "actor": "lead",
+      "strategy": "aid",
+      "title": "先让你歇一会儿，才知道今夜能轮流守",
+      "anchor": "水",
+      "condition": "主演的行动取向为「先给对方实际便利」",
+      "exampleActor": "沈黛",
+      "exampleIds": [
+        "play-peach",
+        "style-stan",
+        "dir-wall",
+        "role-shen",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜先让你歇一会儿，才知道今夜能轮流守"
+    },
+    {
+      "id": 94,
+      "branch": "shelter",
+      "actor": "lead",
+      "strategy": "grievance",
+      "title": "旧日不能一笔勾销，今夜却可以一起守",
+      "anchor": "水",
+      "condition": "主演的行动取向为「旧责不能被当前交易抵消」",
+      "exampleActor": "鲁侍萍",
+      "exampleIds": [
+        "play-peach",
+        "style-stan",
+        "dir-wall",
+        "role-shiping",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜旧日不能一笔勾销，今夜却可以一起守"
+    },
+    {
+      "id": 95,
+      "branch": "shelter",
+      "actor": "support",
+      "strategy": "care",
+      "title": "求来一夜安稳，也要给照料的人留出时间",
+      "anchor": "水",
+      "condition": "配角的行动取向为「为照料他人留出时间」",
+      "exampleActor": "乳母（朱丽叶）",
+      "exampleIds": [
+        "play-peach",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-juliet-nurse",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜求来一夜安稳，也要给照料的人留出时间"
+    },
+    {
+      "id": 96,
+      "branch": "shelter",
+      "actor": "lead",
+      "strategy": "control",
+      "title": "水和干粮能归我，守夜不能永远只靠我",
+      "anchor": "水",
+      "condition": "主演的行动取向为「确认保管与处置权限」",
+      "exampleActor": "麦克白",
+      "exampleIds": [
+        "play-peach",
+        "style-stan",
+        "dir-wall",
+        "role-macbeth",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜水和干粮能归我，守夜不能永远只靠我"
+    },
+    {
+      "id": 97,
+      "branch": "identity",
+      "actor": "lead",
+      "strategy": "control",
+      "title": "想规定名字的用途，先得解释自己的假名",
+      "anchor": "名牌",
+      "condition": "主演的行动取向为「确认保管与处置权限」",
+      "exampleActor": "麦克白",
+      "exampleIds": [
+        "play-secret",
+        "style-stan",
+        "dir-wall",
+        "role-macbeth",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜想规定名字的用途，先得解释自己的假名"
+    },
+    {
+      "id": 98,
+      "branch": "identity",
+      "actor": "lead",
+      "strategy": "privacy",
+      "title": "可以留下隐私，不能再借别人的过去",
+      "anchor": "名牌",
+      "condition": "主演的行动取向为「保留不愿公开的私事」",
+      "exampleActor": "麦克白夫人",
+      "exampleIds": [
+        "play-secret",
+        "style-stan",
+        "dir-wall",
+        "role-ladym",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜可以留下隐私，不能再借别人的过去"
+    },
+    {
+      "id": 99,
+      "branch": "identity",
+      "actor": "support",
+      "strategy": "truth",
+      "title": "不急着揭穿你，先把假名后面的空白核清",
+      "anchor": "名牌",
+      "condition": "配角的行动取向为「区分已知与猜测」",
+      "exampleActor": "弄人",
+      "exampleIds": [
+        "play-secret",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-fool-lear",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜不急着揭穿你，先把假名后面的空白核清"
+    },
+    {
+      "id": 100,
+      "branch": "identity",
+      "actor": "lead",
+      "strategy": "recognition",
+      "title": "想听一个具体理由，最后得拿出真正的自己",
+      "anchor": "名牌",
+      "condition": "主演的行动取向为「要求具体的评价理由」",
+      "exampleActor": "繁漪",
+      "exampleIds": [
+        "play-secret",
+        "style-stan",
+        "dir-wall",
+        "role-fanyi",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜想听一个具体理由，最后得拿出真正的自己"
+    },
+    {
+      "id": 101,
+      "branch": "waiting",
+      "actor": "lead",
+      "strategy": "hope",
+      "title": "期待那一栏还空着，信已经给出了答案",
+      "anchor": "信",
+      "condition": "主演的行动取向为「区分期待与已获答复」",
+      "exampleActor": "弗拉季米尔",
+      "exampleIds": [
+        "play-sisters",
+        "style-stan",
+        "dir-wall",
+        "role-vladimir",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜期待那一栏还空着，信已经给出了答案"
+    },
+    {
+      "id": 102,
+      "branch": "waiting",
+      "actor": "support",
+      "strategy": "autonomy",
+      "title": "回信没有许诺，去留仍各有一行答复",
+      "anchor": "信",
+      "condition": "配角的行动取向为「各自保留决定权」",
+      "exampleActor": "叶列娜",
+      "exampleIds": [
+        "play-sisters",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-yelena",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜回信没有许诺，去留仍各有一行答复"
+    },
+    {
+      "id": 103,
+      "branch": "waiting",
+      "actor": "lead",
+      "strategy": "memory",
+      "title": "过去另留一页，未来不能替来信续写",
+      "anchor": "信",
+      "condition": "主演的行动取向为「将往事与今天分开」",
+      "exampleActor": "厄勒克特拉",
+      "exampleIds": [
+        "play-sisters",
+        "style-stan",
+        "dir-wall",
+        "yrole-guifei",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜过去另留一页，未来不能替来信续写"
+    },
+    {
+      "id": 104,
+      "branch": "waiting",
+      "actor": "support",
+      "strategy": "urgency",
+      "title": "该当场处理的，是不再替等待找借口",
+      "anchor": "信",
+      "condition": "配角的行动取向为「当场处理不能再拖的一项」",
+      "exampleActor": "洛巴辛",
+      "exampleIds": [
+        "play-sisters",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-lopakhin",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜该当场处理的，是不再替等待找借口"
+    },
+    {
+      "id": 105,
+      "branch": "warren",
+      "actor": "lead",
+      "strategy": "autonomy",
+      "title": "展览可以缩小，自己的判断不能挂牌出售",
+      "anchor": "展览",
+      "condition": "主演的行动取向为「各自保留决定权」",
+      "exampleActor": "娜拉",
+      "exampleIds": [
+        "yplay-mrswarren",
+        "style-stan",
+        "dir-wall",
+        "role-nora",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜展览可以缩小，自己的判断不能挂牌出售"
+    },
+    {
+      "id": 106,
+      "branch": "warren",
+      "actor": "support",
+      "strategy": "control",
+      "title": "可以争一个挂名，不能把欠薪也交给别人",
+      "anchor": "展览",
+      "condition": "配角的行动取向为「确认保管与处置权限」",
+      "exampleActor": "波洛涅斯",
+      "exampleIds": [
+        "yplay-mrswarren",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-polonius",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜可以争一个挂名，不能把欠薪也交给别人"
+    },
+    {
+      "id": 107,
+      "branch": "warren",
+      "actor": "lead",
+      "strategy": "recognition",
+      "title": "想让作品被认真对待，先别拿工钱换认可",
+      "anchor": "展览",
+      "condition": "主演的行动取向为「要求具体的评价理由」",
+      "exampleActor": "繁漪",
+      "exampleIds": [
+        "yplay-mrswarren",
+        "style-stan",
+        "dir-wall",
+        "role-fanyi",
+        "role2-creon",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜想让作品被认真对待，先别拿工钱换认可"
+    },
+    {
+      "id": 108,
+      "branch": "warren",
+      "actor": "support",
+      "strategy": "privacy",
+      "title": "账外可以留私事，账上的工钱必须留下",
+      "anchor": "展览",
+      "condition": "配角的行动取向为「保留不愿公开的私事」",
+      "exampleActor": "特里戈林",
+      "exampleIds": [
+        "yplay-mrswarren",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "role2-trigorin",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜账外可以留私事，账上的工钱必须留下"
+    },
+    {
+      "id": 109,
+      "branch": "solo",
+      "actor": "lead",
+      "strategy": "truth",
+      "title": "等别人给答案，先把自己的信补完整",
+      "anchor": "信",
+      "condition": "主演的行动取向为「区分已知与猜测」",
+      "exampleActor": "俄狄浦斯",
+      "exampleIds": [
+        "play-godot",
+        "style-stan",
+        "dir-wall",
+        "role-oedipus",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜等别人给答案，先把自己的信补完整"
+    },
+    {
+      "id": 110,
+      "branch": "solo",
+      "actor": "lead",
+      "strategy": "autonomy",
+      "title": "没有回信，也不能替别人填下同意",
+      "anchor": "信",
+      "condition": "主演的行动取向为「各自保留决定权」",
+      "exampleActor": "娜拉",
+      "exampleIds": [
+        "play-godot",
+        "style-stan",
+        "dir-wall",
+        "role-nora",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜没有回信，也不能替别人填下同意"
+    },
+    {
+      "id": 111,
+      "branch": "solo",
+      "actor": "lead",
+      "strategy": "hope",
+      "title": "把希望留在信里，把保证留成空白",
+      "anchor": "信",
+      "condition": "主演的行动取向为「区分期待与已获答复」",
+      "exampleActor": "弗拉季米尔",
+      "exampleIds": [
+        "play-godot",
+        "style-stan",
+        "dir-wall",
+        "role-vladimir",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜把希望留在信里，把保证留成空白"
+    },
+    {
+      "id": 112,
+      "branch": "solo",
+      "actor": "lead",
+      "strategy": "memory",
+      "title": "旧信能留下过去，不能代签今天的选择",
+      "anchor": "信",
+      "condition": "主演的行动取向为「将往事与今天分开」",
+      "exampleActor": "厄勒克特拉",
+      "exampleIds": [
+        "play-godot",
+        "style-stan",
+        "dir-wall",
+        "yrole-guifei",
+        "place-tea"
+      ],
+      "actualTitle": "裕泰茶馆｜旧信能留下过去，不能代签今天的选择"
+    }
+  ]
+}

@@ -9,18 +9,15 @@ function cardsFromIdsV53(ids){
 }
 function savedRehearsalV53(value,cards){
   const original=cardsFromIdsV53(value?.originalIds);
-  if(!original||!re(e,value.originalIds))return null;
+  if(!original||original.length!==cards.length||!re(e,value.originalIds))return null;
   const change=value.change;
-  if(change&&(!original.some(card=>card.id===change.fromId&&card.dimension===change.dimension)||!cards.some(card=>card.id===change.toId&&card.dimension===change.dimension)))return null;
-  return {originalIds:original.map(card=>card.id),change:change?{fromId:change.fromId,toId:change.toId,dimension:change.dimension}:null,...(value.locked?{locked:true}:{})};
+  if(change&&(!e.some(card=>card.id===change.fromId&&card.dimension===change.dimension)||!cards.some(card=>card.id===change.toId&&card.dimension===change.dimension)||change.fromId===change.toId))return null;
+  return {originalIds:original.map(card=>card.id),change:change?{fromId:change.fromId,toId:change.toId,dimension:change.dimension}:null};
 }
-function reconcileRehearsalV53(cards=Y.drawn,rehearsal=Y.rehearsal,records=sessionV53.recent){
+function reconcileRehearsalV53(cards=Y.drawn,rehearsal=Y.rehearsal){
   const ordered=(cards||[]).slice().sort((a,b)=>x.findIndex(dim=>dim.key===a.dimension)-x.findIndex(dim=>dim.key===b.dimension));
   if(!re(e,ordered.map(card=>card.id)))return null;
-  const state=savedRehearsalV53(rehearsal,cards)||{originalIds:cards.map(card=>card.id),change:null};
-  const originalKey=state.originalIds.slice().sort().join('.');
-  if(!state.change&&records.some(row=>(row.rehearsal?.change||row.rehearsal?.locked)&&row.rehearsal.originalIds.slice().sort().join('.')===originalKey))state.locked=true;
-  return state;
+  return savedRehearsalV53(rehearsal,cards)||{originalIds:cards.map(card=>card.id),change:null};
 }
 function readSessionV53(){
   const empty={draft:null,recent:[]};
@@ -82,7 +79,7 @@ function savedRehearsalForCardsV53(cards){
   const key=cards.map(card=>card.id).sort().join('.');
   const saved=[...sessionV53.recent,sessionV53.draft].find(row=>row&&row.ids.slice().sort().join('.')===key);
   const state=reconcileRehearsalV53(cards,saved?.rehearsal);
-  return saved||state?.locked?state:null;
+  return saved?state:null;
 }
 function renderResumeV53(){
   if(!sessionV53.draft&&!sessionV53.recent.length)return '';

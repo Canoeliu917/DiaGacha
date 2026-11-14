@@ -1,0 +1,394 @@
+{
+  "version": 55,
+  "seed": 2026111501,
+  "count": 30000,
+  "method": "执行当前index的drawMixPack，包括真实低星单卡上限、v55空间5%上限及连续保底；普通包，无每日赠礼或指定维度。仅注入最新collisionDetailsV55，未用均匀卡池抽样。",
+  "sourceHashes": {
+    "index.html": "d06641f12b5732b2c55a79a41af1652a0952bdb4f18e9d4540139cb0794e210d",
+    "scripts/collisions-v55.js": "74697bd2866e6476808c9b4266fb304cea8e413ef7215020aa704b14088f5425",
+    "scripts/collision-data-v55.json": "1598cea13c194e8cb0f965c7acc1d49a03592f4a25b50a43c1bb1a0ea0f72a33",
+    "scripts/space-rates-v55.js": "80848b232bc0a17ad92fda0cf565a70badc13fa12515e77ee4cefc3ef652e1de"
+  },
+  "percentages": {
+    "creativeMatched": 11.623,
+    "creativeActuallyAdded": 11.623,
+    "evolutionMatched": 0,
+    "newRewardIncludesOneToFourStar": 11.477,
+    "bondsAtEight": 0,
+    "scoreAtHundred": 0
+  },
+  "meanScores": {
+    "v55": 77.8614,
+    "sameDrawsFourOriginalRulesOnly": 77.7354,
+    "sameDrawsV54FormulaIncludingLegacyCompatibility": 77.7355
+  },
+  "scoreBins": {
+    "60": 52,
+    "70": 21893,
+    "80": 8049,
+    "90": 6
+  },
+  "newBonusBins": {
+    "0": 26513,
+    "1": 3208,
+    "2": 264,
+    "3": 15
+  },
+  "ruleCounts": {
+    "family-threshold-choice": 810,
+    "family-choice-command": 100,
+    "family-recognition-reasons": 188,
+    "family-inquiry-reserve": 82,
+    "family-resource-transfer": 655,
+    "family-waiting-deadline": 1071,
+    "family-aid-livelihood": 178,
+    "family-multiple-voices": 328,
+    "family-letter-time": 242,
+    "hamm-diningcar": 1,
+    "godot-endingloop": 2,
+    "absurd-repeat": 4,
+    "family-record-reveal": 49,
+    "object-transferchain": 23,
+    "bailu-photostudio": 13,
+    "hamlet-replay": 1,
+    "letters-timecut": 10,
+    "doll-letters": 4,
+    "courtroom-testimony": 3,
+    "godot-absurd": 1,
+    "poor-convention": 3,
+    "qiuhu-border": 1,
+    "goodperson-distance": 1,
+    "visual-backlight": 2,
+    "warren-objectchain": 1,
+    "seagull-allwatch": 1,
+    "cherry-timecut": 1,
+    "antigone-grave": 1,
+    "antigone-courtroom": 1
+  },
+  "samples": [
+    {
+      "ids": [
+        "xplay-guantheplay",
+        "ystyle-object",
+        "ydir-fanwork",
+        "xrole-hedda",
+        "v23-sup-catherine",
+        "place-zeng"
+      ],
+      "names": [
+        "关汉卿",
+        "物体剧场",
+        "道具延展",
+        "海达",
+        "凯瑟琳",
+        "曾家花厅"
+      ],
+      "score": 82,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-threshold-choice:place-zeng|v23-sup-catherine",
+          "bonus": 1,
+          "title": "跨过门槛以前"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "play-yuanye",
+        "xstyle-danceplay",
+        "ydir-jiangshi",
+        "xrole-sifeng",
+        "v23-sup-marc",
+        "place-v21-bordercheckpoint"
+      ],
+      "names": [
+        "原野",
+        "舞剧",
+        "直体后倒",
+        "四凤",
+        "马克",
+        "边境检查站"
+      ],
+      "score": 82,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-threshold-choice:place-v21-bordercheckpoint|xrole-sifeng",
+          "bonus": 1,
+          "title": "跨过门槛以前"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "yplay-tempest",
+        "xstyle-yuju",
+        "ydir-rankou",
+        "v23-role-serge",
+        "role2-zeng-siyi",
+        "place-meixiang"
+      ],
+      "names": [
+        "暴风雨",
+        "独幕剧",
+        "年龄妆",
+        "塞尔吉",
+        "曾思懿",
+        "媚香楼"
+      ],
+      "score": 81,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-choice-command:role2-zeng-siyi|v23-role-serge",
+          "bonus": 1,
+          "title": "谁来作最后决定"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "v23-play-art",
+        "v23-style-chamber",
+        "dir-v21-endingloop",
+        "xrole-chunxiang",
+        "v23-sup-catherine",
+        "yplace-dungeon"
+      ],
+      "names": [
+        "艺术",
+        "室内剧",
+        "结尾回环",
+        "克里斯汀",
+        "凯瑟琳",
+        "地牢"
+      ],
+      "score": 77,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-threshold-choice:v23-sup-catherine|yplace-dungeon",
+          "bonus": 1,
+          "title": "跨过门槛以前"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "yplay-tempest",
+        "style-black",
+        "ydir-chujiang",
+        "v23-role-alan",
+        "role2-bai-shazi",
+        "xplace-dock"
+      ],
+      "names": [
+        "暴风雨",
+        "黑色幽默",
+        "双侧上下场",
+        "艾伦",
+        "白傻子",
+        "码头"
+      ],
+      "score": 80,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-recognition-reasons:role2-bai-shazi|v23-role-alan",
+          "bonus": 1,
+          "title": "认可不能只剩一句夸奖"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "v23-play-art",
+        "xstyle-nanxi",
+        "dir-v21-unreliable",
+        "xrole-yangxiu",
+        "role2-andrei-three-sisters",
+        "place-sichuan"
+      ],
+      "names": [
+        "艺术",
+        "多线情节",
+        "不可靠叙述",
+        "杨修",
+        "安德烈",
+        "四川某城"
+      ],
+      "score": 81,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-inquiry-reserve:role2-andrei-three-sisters|xrole-yangxiu",
+          "bonus": 1,
+          "title": "追问遇到保留"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "xplay-miser",
+        "v23-style-chamber",
+        "ydir-fanwork",
+        "role-v21-winnie",
+        "role2-ismene",
+        "yplace-cliff"
+      ],
+      "names": [
+        "吝啬鬼",
+        "室内剧",
+        "道具延展",
+        "温妮",
+        "伊斯墨涅",
+        "悬崖"
+      ],
+      "score": 79,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-resource-transfer:xplay-miser|ydir-fanwork",
+          "bonus": 1,
+          "title": "资源经过谁的手"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "play-v21-americandream",
+        "ystyle-errenzhuan",
+        "dir-v21-selectivereplay",
+        "v23-role-jinzhi",
+        "role2-bai-shazi",
+        "place-zeng"
+      ],
+      "names": [
+        "美国梦",
+        "双人剧",
+        "选择性重演",
+        "金枝",
+        "白傻子",
+        "曾家花厅"
+      ],
+      "score": 76,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-threshold-choice:place-zeng|v23-role-jinzhi",
+          "bonus": 1,
+          "title": "跨过门槛以前"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "v23-play-equus",
+        "style-v21-courtroom",
+        "ydir-legdrop",
+        "role-v21-winnie",
+        "v23-sup-zhaosan",
+        "yplace-deck"
+      ],
+      "names": [
+        "恋马狂",
+        "法庭剧",
+        "边幕",
+        "温妮",
+        "赵三",
+        "甲板"
+      ],
+      "score": 75,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-waiting-deadline:role-v21-winnie|yplace-deck",
+          "bonus": 1,
+          "title": "等待遇到不能延后的时刻"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "yplay-inspector",
+        "v23-style-translation",
+        "ydir-facelight",
+        "yrole-tietmei",
+        "role2-nell",
+        "yplace-chengmen"
+      ],
+      "names": [
+        "钦差大臣",
+        "翻译剧场",
+        "面光",
+        "玛莎",
+        "奈尔",
+        "城门"
+      ],
+      "score": 79,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-waiting-deadline:role2-nell|yplace-chengmen",
+          "bonus": 1,
+          "title": "等待遇到不能延后的时刻"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "v23-play-iceman",
+        "ystyle-qinqiang",
+        "xdir-spot",
+        "xrole-chanjuan",
+        "role2-xiu-dingxin",
+        "yplace-chengmen"
+      ],
+      "names": [
+        "送冰的人来了",
+        "人物弧光",
+        "追光",
+        "婵娟",
+        "修鼎新",
+        "城门"
+      ],
+      "score": 80,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-aid-livelihood:role2-xiu-dingxin|xrole-chanjuan",
+          "bonus": 1,
+          "title": "帮助也要留下明天"
+        }
+      ]
+    },
+    {
+      "ids": [
+        "xplay-miser",
+        "ystyle-errenzhuan",
+        "ydir-fanwork",
+        "v23-role-danton",
+        "role2-huang-shengsan",
+        "yplace-cafe"
+      ],
+      "names": [
+        "吝啬鬼",
+        "双人剧",
+        "道具延展",
+        "丹东",
+        "黄省三",
+        "咖啡馆"
+      ],
+      "score": 80,
+      "applied": 1,
+      "creative": [
+        {
+          "id": "family-resource-transfer:xplay-miser|ydir-fanwork",
+          "bonus": 1,
+          "title": "资源经过谁的手"
+        }
+      ]
+    }
+  ]
+}

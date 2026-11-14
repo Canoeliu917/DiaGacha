@@ -1,0 +1,130 @@
+[
+  {
+    "label": "ordinary-1",
+    "ids": [
+      "v23-play-art",
+      "ystyle-ritualstyle",
+      "xdir-backturn",
+      "xrole-cao",
+      "role2-nell",
+      "place-v21-diningcar"
+    ],
+    "title": "餐车｜没有借来的经历，还剩什么理由",
+    "storySha256": "c0b4d73b07e0ce4034cd218a9133387d146cdcb0b3102800f12c14e3c07414ab"
+  },
+  {
+    "label": "ordinary-2",
+    "ids": [
+      "v23-play-springawake",
+      "style-v21-metatheatre",
+      "xdir-toplight",
+      "role-v21-marytyrone",
+      "role2-bai-shazi",
+      "place-sichuan"
+    ],
+    "title": "四川某城｜宁肯失去好处，也要自己决定",
+    "storySha256": "8afc091dd8a23421b7b74477059ff5a3cb4a2d73b01bcacd5a2736c70c86ccb8"
+  },
+  {
+    "label": "silent",
+    "ids": [
+      "play-godot",
+      "style-absurd",
+      "dir-v21-endingloop",
+      "v23-role-silentman",
+      "role2-nell",
+      "place-road"
+    ],
+    "title": "乡间小路｜两个人同意了，谁也没有走",
+    "storySha256": "1f391d492e3f342aeb61aa0803032066fc514407afc4f9585075be3a851bc45e"
+  },
+  {
+    "label": "group",
+    "ids": [
+      "v23-play-iceman",
+      "ystyle-sanskrit",
+      "dir-v21-endingloop",
+      "yrole-witches",
+      "role2-fire-chief",
+      "yplace-ballroom"
+    ],
+    "title": "舞厅｜等到了回信，没等到承诺",
+    "storySha256": "0a9dd55b3386808ca3e6d90db3867ef8ca4e6778feb89970b6769bef1a561142"
+  },
+  {
+    "label": "luggage",
+    "ids": [
+      "play-doll",
+      "style-stan",
+      "dir-v21-proptransfer",
+      "role-shen",
+      "role2-kristine-linde",
+      "place-parlor"
+    ],
+    "title": "娜拉的客厅｜挽留的话落在了空位上",
+    "storySha256": "67bd54a51319712f1b843cf64cf2be2165cecce7e91c6248bd259f693b476624"
+  },
+  {
+    "label": "white_painting",
+    "ids": [
+      "yplay-mrswarren",
+      "style-v21-radiodrama",
+      "dir-body",
+      "v23-role-serge",
+      "role2-liu-siye",
+      "place-meixiang"
+    ],
+    "title": "媚香楼｜拒绝这笔钱，谁来缩小愿望",
+    "storySha256": "361cfbeee58eb46dbf97d6c1b39a8669a368a1c052736ce0d0c5f5ad3598f236"
+  },
+  {
+    "label": "white_painting_solo",
+    "ids": [
+      "yplay-mrswarren",
+      "style-v21-radiodrama",
+      "dir-body",
+      "v23-role-serge",
+      "place-meixiang"
+    ],
+    "title": "媚香楼｜第二封信不再替对方作答",
+    "storySha256": "fdfc42ecacb4fc4e14b1636529121da27fd8c83f188296a48d63bf2c9f0cc893"
+  },
+  {
+    "label": "legacy_freeze",
+    "ids": [
+      "play-godot",
+      "style-absurd",
+      "dir-freeze",
+      "role-vladimir",
+      "place-road"
+    ],
+    "title": "乡间小路｜等不到回信，先读懂自己的信",
+    "storySha256": "f3da830a2c7f4a589e1cae6add7aaa7c977b1b132540c589fbc1045fa483c033"
+  },
+  {
+    "label": "qiuhu",
+    "ids": [
+      "yplay-birds",
+      "ystyle-errenzhuan",
+      "xdir-enter",
+      "yrole-qiuhu",
+      "role2-xiao-fuzi",
+      "yplace-gongtang"
+    ],
+    "title": "公堂｜求收留的人先担起了危险",
+    "storySha256": "8f6770dedc0cc66bbcd2aa9245d14ff5dd1d0c6b3b3d43ad014efbd77b1b4c80"
+  },
+  {
+    "label": "bailu",
+    "ids": [
+      "yplay-birds",
+      "ystyle-errenzhuan",
+      "xdir-enter",
+      "role-bailu",
+      "role2-xiao-fuzi",
+      "yplace-gongtang"
+    ],
+    "title": "公堂｜拿不出交换的东西，却肯担起危险",
+    "storySha256": "1f432de9246490742b1b1c07cefb0420706d29d78dafa5a6d9e201307911c7da"
+  }
+]

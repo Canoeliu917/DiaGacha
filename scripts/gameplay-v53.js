@@ -45,7 +45,7 @@ function ratesHelpV53(pool){
 }
 
 function createRehearsalV53(cards){return {originalIds:cards.map(card=>card.id),change:null};}
-let rewriteGalleryV54={key:'',dimension:'',page:0};
+let rewriteGalleryV54={key:'',dimension:'',page:0,open:false};
 function rewriteEligibleIdsV54(cards,ownedIds,rehearsal){
   return [...ownedIds,...(typeof starterCandidateIdsV54==='function'?starterCandidateIdsV54(cards,rehearsal):[])];
 }
@@ -56,13 +56,12 @@ function rewriteOptionsV53(cards,pool,ownedIds){
 }
 function previewRewriteV53(cards,pool,ownedIds,rehearsal,replacementId,score=productionScore){
   if(typeof syncProgressV54==='function')syncProgressV54();
-  if(rehearsal?.change||rehearsal?.locked||(typeof starterSpentV54==='function'&&starterSpentV54(cards,rehearsal)))return null;
   const candidate=rewriteOptionsV53(cards,pool,rewriteEligibleIdsV54(cards,ownedIds,rehearsal)).find(card=>card.id===replacementId);
   if(!candidate)return null;
   const original=cards.find(card=>card.dimension===candidate.dimension);
   const drawn=cards.map(card=>card.dimension===candidate.dimension?candidate:card);
   const before=score(cards),after=score(drawn);
-  return {drawn,before,after,delta:after.score-before.score,change:{fromId:original.id,toId:candidate.id,dimension:candidate.dimension}};
+  return {drawn,before,after,delta:after.score-before.score,claimStarter:!ownedIds.includes(candidate.id),change:{fromId:original.id,toId:candidate.id,dimension:candidate.dimension}};
 }
 function applyRewriteV53(cards,pool,ownedIds,rehearsal,replacementId,score=productionScore){
   const preview=previewRewriteV53(cards,pool,ownedIds,rehearsal,replacementId,score);
@@ -71,71 +70,91 @@ function applyRewriteV53(cards,pool,ownedIds,rehearsal,replacementId,score=produ
 }
 function rewriteCardV54(card,label=''){
   const stars=['C','UC','R','SR','SSR','UR','LR'].indexOf(card.rarity)+1;
-  return `<span class="rewrite-card-v54 rarity-${K(card.rarity)}">${label?`<small class="rewrite-card-label-v54">${K(label)}</small>`:''}<span class="rewrite-card-art-v54">${typeof Ct==='function'?Ct(card):''}</span><strong>${K(card.name)}</strong><span>${K(copyDimension(card.dimension))} · ${stars} 星</span><small>单卡 ${Math.round((card.atk+card.def)/2)} 分</small></span>`;
+  return `<span class="rewrite-card-v54 rarity-${K(card.rarity)}">${label?`<small class="rewrite-card-label-v54">${K(label)}</small>`:''}<span class="rewrite-card-art-v54" aria-hidden="true">${typeof Ct==='function'?Ct(card):''}</span><strong>${K(card.name)}</strong><span class="rewrite-card-meta-v55"><span class="rewrite-stars-v55" aria-label="${stars} 星">${'★'.repeat(stars)}</span><span>单卡 ${Math.round((card.atk+card.def)/2)} 分</span></span></span>`;
+}
+function syncRewriteGalleryV55(state){
+  const key=(state.rehearsal?.originalIds||state.drawn.map(card=>card.id)).slice().sort().join('.');
+  if(rewriteGalleryV54.key!==key)rewriteGalleryV54={key,dimension:'',page:0,open:false};
+}
+function rewriteEntryIdV55(dimension){return 'rewrite-open-v55-'+['剧目','风格体系','导演手法','主演','配角','环境'].indexOf(dimension);}
+function renderRewriteEntryV55(state,card,pool=e){
+  syncRewriteGalleryV55(state);
+  const rehearsal=state.rehearsal||createRehearsalV53(state.drawn);
+  const choices=rewriteOptionsV53(state.drawn,pool,rewriteEligibleIdsV54(state.drawn,state.owned||[],rehearsal)).filter(choice=>choice.dimension===card.dimension);
+  return `<button type="button" id="${rewriteEntryIdV55(card.dimension)}" class="rewrite-entry-v55" data-action="rewrite-open" data-dimension="${K(card.dimension)}" aria-expanded="${rewriteGalleryV54.open&&rewriteGalleryV54.dimension===card.dimension}" aria-controls="rewrite-picker-v55" aria-label="替换${K(copyDimension(card.dimension))}，${choices.length} 张候选">替换<span>${choices.length}张</span></button>`;
 }
 function renderRehearsalV53(state,pool=e,score=productionScore){
   if(typeof syncProgressV54==='function')syncProgressV54();
   const cards=state.drawn;
   if(![5,6].includes(cards?.length))return '';
+  syncRewriteGalleryV55(state);
   const rehearsal=state.rehearsal||createRehearsalV53(cards);
   const originals=rehearsal.originalIds.map(id=>pool.find(card=>card.id===id));
-  const originalScore=score(originals).score;
-  const record=`<details><summary>查看初始卡组 · ${originalScore} 分</summary><ul>${originals.map(card=>`<li>${K(copyDimension(card.dimension))}：${K(card.name)}</li>`).join('')}</ul></details>`;
-  if(rehearsal.change){
-    const from=pool.find(card=>card.id===rehearsal.change.fromId),to=pool.find(card=>card.id===rehearsal.change.toId);
-    return `<section class="rewrite-panel" tabindex="-1"><h2>这一幕，经过你的选择</h2><p>${K(copyDimension(to.dimension))}：${K(from.name)} → ${K(to.name)}</p><p>初始卡组 ${originalScore} 分 → 改写后 ${score(cards).score} 分。本场换卡已用，故事与分享内容均采用当前卡组。</p>${record}</section>`;
-  }
-  if(rehearsal.locked||(typeof starterSpentV54==='function'&&starterSpentV54(cards,rehearsal)))return `<section class="rewrite-panel" tabindex="-1"><h2>改写这一幕</h2><p>这台戏已经改写过一次，当前查看初始卡组。本场换卡已用，可以在最近节目单中继续查看改写后的版本。</p>${record}</section>`;
+  const record=rehearsal.change||rehearsal.locked?`<details class="rewrite-record-v55"><summary>查看初始卡组 · ${score(originals).score} 分</summary><ul>${originals.map(card=>`<li>${K(copyDimension(card.dimension))}：${K(card.name)}</li>`).join('')}</ul></details>`:'';
+  if(!rewriteGalleryV54.open)return record;
+  const dimension=rewriteGalleryV54.dimension;
+  const current=cards.find(card=>card.dimension===dimension);
+  if(!current)return record;
   const giftIds=typeof starterCandidateIdsV54==='function'?starterCandidateIdsV54(cards,rehearsal):[];
-  const options=rewriteOptionsV53(cards,pool,rewriteEligibleIdsV54(cards,state.owned||[],rehearsal));
-  if(!options.length)return `<section class="rewrite-panel"><h2>改写这一幕</h2><p>本场可以用已收藏的同维卡换一张。现在还没有可替换的收藏，继续收集后，就能试试不同人物或情境。</p>${record}</section>`;
-  const selected=state.rehearsalPreview||'';
-  const preview=previewRewriteV53(cards,pool,state.owned||[],rehearsal,selected,score);
-  const signed=value=>value>0?'+'+value:String(value);
-  const key=rehearsal.originalIds.slice().sort().join('.');
-  if(rewriteGalleryV54.key!==key)rewriteGalleryV54={key,dimension:pool.find(card=>giftIds.includes(card.id))?.dimension||options[0].dimension,page:0};
-  const dimensions=cards.map(card=>card.dimension).filter(dim=>options.some(card=>card.dimension===dim));
-  if(!dimensions.includes(rewriteGalleryV54.dimension))rewriteGalleryV54.dimension=dimensions[0];
-  const choices=options.filter(card=>card.dimension===rewriteGalleryV54.dimension).sort((a,b)=>Number(giftIds.includes(b.id))-Number(giftIds.includes(a.id)));
-  const pages=Math.ceil(choices.length/12),page=Math.max(0,Math.min(pages-1,rewriteGalleryV54.page));
-  const selector=`<div class="rewrite-dimensions-v54" aria-label="选择改写维度">${dimensions.map(dim=>`<button type="button" class="text-btn" data-action="rewrite-dimension" data-dimension="${K(dim)}" aria-pressed="${dim===rewriteGalleryV54.dimension}">${K(copyDimension(dim))}</button>`).join('')}</div><div id="rewrite-choice-v53" class="rewrite-choices-v54" tabindex="-1" aria-label="选择候选卡，先预览故事">${choices.slice(page*12,(page+1)*12).map(card=>`<button type="button" class="rewrite-choice-v54${selected===card.id?' is-selected':''}" data-action="rewrite-preview" data-card-id="${K(card.id)}" aria-pressed="${selected===card.id}">${rewriteCardV54(card,giftIds.includes(card.id)&&!(state.owned||[]).includes(card.id)?'首场试选 · 确认才入藏':'已收藏')}</button>`).join('')}</div>${pages>1?`<nav class="rewrite-pages-v54" aria-label="候选分页"><button type="button" class="text-btn" data-action="rewrite-page" data-page="${page-1}"${page===0?' disabled':''}>上一页</button><span>${page+1} / ${pages}</span><button type="button" class="text-btn" data-action="rewrite-page" data-page="${page+1}"${page+1===pages?' disabled':''}>下一页</button></nav>`:''}`;
-  const comparison=preview?`<div class="rewrite-preview" aria-live="polite"><div class="rewrite-comparison-v54">${rewriteCardV54(pool.find(card=>card.id===preview.change.fromId),'当前')}${rewriteCardV54(pool.find(card=>card.id===preview.change.toId),'候选')}</div><h3>${K(dramaticTitleV40(preview.drawn))}</h3><p>${K(shortScene(preview.drawn))}</p><details class="rewrite-before-v54"><summary>对照原来的故事</summary><h4>${K(dramaticTitleV40(cards))}</h4><p>${K(shortScene(cards))}</p></details><p class="rewrite-score-v54">整台 ${preview.before.score} → ${preview.after.score} 分（${signed(preview.delta)}）</p><p>同星奖励 ${preview.before.resonance} → ${preview.after.resonance}；羁绊奖励 ${preview.before.bonds} → ${preview.after.bonds}。两项均已计入整台总分，不额外叠加。</p><p>分数升降都可以选择；确认后，这一幕会采用上面的故事。${giftIds.includes(preview.change.toId)&&!(state.owned||[]).includes(preview.change.toId)?'这张试选卡也会永久加入你的收藏。':''}</p><button type="button" class="btn primary" data-action="rewrite-confirm">就用这张，改写这一幕</button></div>`:'';
-  return `<section class="rewrite-panel"><h2>改写这一幕</h2><p>换一张，故事会怎么变？点候选卡自由预览，比较故事再决定。本场只可确认一次。</p>${giftIds.length?'<p class="rewrite-gift-v54">首场有两张同维试选卡。可以都看看，确认的一张才入藏；另一张不会因预览获得。</p>':''}${selector}${comparison}${record}</section>`;
+  const owned=state.owned||[],selected=state.rehearsalPreview||'';
+  const choices=rewriteOptionsV53(cards,pool,rewriteEligibleIdsV54(cards,owned,rehearsal)).filter(card=>card.dimension===dimension).sort((a,b)=>Number(giftIds.includes(b.id))-Number(giftIds.includes(a.id)));
+  const preview=previewRewriteV53(cards,pool,owned,rehearsal,selected,score);
+  const selectedHere=preview?.change.dimension===dimension?pool.find(card=>card.id===selected):null;
+  const pages=Math.max(1,Math.ceil(choices.length/12)),page=Math.max(0,Math.min(pages-1,rewriteGalleryV54.page));
+  const giftChoices=choices.some(card=>giftIds.includes(card.id)&&!owned.includes(card.id));
+  const grid=choices.length?`<div id="rewrite-choice-v53" class="rewrite-choices-v54" tabindex="-1" aria-label="${K(copyDimension(dimension))}候选">${choices.slice(page*12,(page+1)*12).map(card=>`<button type="button" class="rewrite-choice-v54${selected===card.id?' is-selected':''}" data-action="rewrite-preview" data-card-id="${K(card.id)}" aria-pressed="${selected===card.id}">${rewriteCardV54(card,giftIds.includes(card.id)&&!owned.includes(card.id)?'首场试选':'点击替换')}</button>`).join('')}</div>`:'<p class="rewrite-note-v55">这个维度还没有可替换的收藏。</p>';
+  const pager=pages>1?`<nav class="rewrite-pages-v54" aria-label="候选分页"><button type="button" class="text-btn" data-action="rewrite-page" data-page="${page-1}"${page===0?' disabled':''}>上一页</button><span>${page+1} / ${pages}</span><button type="button" class="text-btn" data-action="rewrite-page" data-page="${page+1}"${page+1===pages?' disabled':''}>下一页</button></nav>`:'';
+  const selection=selectedHere?`<div class="rewrite-selection-v55" aria-live="polite"><div><p>${K(current.name)} → <strong>${K(selectedHere.name)}</strong></p>${preview.claimStarter?`<h3>${K(dramaticTitleV40(preview.drawn))}</h3><p>${K(shareStoryBeatV54(preview.drawn))}</p>`:''}</div><button type="button" class="btn primary" data-action="rewrite-confirm">${preview.claimStarter?'选这张入藏并替换':'确认替换'}</button></div>`:'';
+  return `<section id="rewrite-picker-v55" class="rewrite-panel rewrite-panel-v55" tabindex="-1" aria-label="替换${K(copyDimension(dimension))}"><div class="rewrite-header-v55"><h2>${K(copyDimension(dimension))} · 选择一张</h2><button type="button" class="text-btn" data-action="rewrite-close" aria-label="收起替换候选">收起</button></div>${giftChoices?'<p class="rewrite-note-v55">首场两张试选，确认的一张才入藏。</p>':''}${grid}${pager}${selection}</section>${record}`;
 }
+
 function handleRehearsalV53(action,target){
-  if(!['rewrite-preview','rewrite-confirm','rewrite-dimension','rewrite-page'].includes(action))return false;
+  if(!['rewrite-open','rewrite-close','rewrite-preview','rewrite-confirm','rewrite-dimension','rewrite-page'].includes(action))return false;
   if(Y.view!=='result')return true;
   Y.rehearsal ||= createRehearsalV53(Y.drawn);
-  if(action==='rewrite-dimension'||action==='rewrite-page'){
-    if(action==='rewrite-dimension'){rewriteGalleryV54.dimension=target.dataset.dimension;rewriteGalleryV54.page=0;}
+  syncRewriteGalleryV55(Y);
+  if(action==='rewrite-close'){
+    rewriteGalleryV54.open=false;Y.rehearsalPreview='';
+    Z({preserveScroll:true});document.getElementById(rewriteEntryIdV55(rewriteGalleryV54.dimension))?.focus({preventScroll:true});return true;
+  }
+  if(action==='rewrite-open'||action==='rewrite-dimension'||action==='rewrite-page'){
+    if(action!=='rewrite-page'){
+      if(!Y.drawn.some(card=>card.dimension===target.dataset.dimension))return true;
+      rewriteGalleryV54.dimension=target.dataset.dimension;rewriteGalleryV54.page=0;Y.rehearsalPreview='';
+    }
     else rewriteGalleryV54.page=Number(target.dataset.page)||0;
-    Z({preserveScroll:true});document.getElementById('rewrite-choice-v53')?.focus({preventScroll:true});return true;
+    rewriteGalleryV54.open=true;
+    Z({preserveScroll:true});
+    const panel=document.getElementById('rewrite-picker-v55');
+    panel?.focus({preventScroll:true});panel?.scrollIntoView?.({behavior:typeof J!=='undefined'&&J?'instant':'smooth',block:'start'});return true;
   }
   if(action==='rewrite-preview'){
     const id=target.value||target.dataset?.cardId||'';
     const preview=previewRewriteV53(Y.drawn,e,Y.owned,Y.rehearsal,id);
     Y.rehearsalPreview=preview?id:'';
     if(preview&&typeof recordPreviewV54==='function')recordPreviewV54(Y.drawn,Y.rehearsal,id);
+    if(preview&&!preview.claimStarter)return handleRehearsalV53('rewrite-confirm',target);
     Z({preserveScroll:true});
     document.getElementById('rewrite-choice-v53')?.focus({preventScroll:true});
     return true;
   }
   const result=applyRewriteV53(Y.drawn,e,Y.owned,Y.rehearsal,Y.rehearsalPreview);
-  if(!result){Q('请先选择一张已收藏的同维卡；本场只能确认一次。');return true;}
+  if(!result){Q('请选择可替换的同维卡。');return true;}
   finishProductionV40();
-  const giftIds=typeof starterCandidateIdsV54==='function'?starterCandidateIdsV54(Y.drawn,Y.rehearsal):[];
   const earned=typeof recordRewriteV54==='function'?recordRewriteV54(Y.drawn,result):[];
   if(earned===null){Y.rehearsalPreview='';Z({preserveScroll:true});Q('这场试选已在另一个页面确认，请查看最近节目单。');return true;}
-  if(giftIds.includes(result.change.toId)&&!Y.owned.includes(result.change.toId))er(result.change.toId);
+  if(result.claimStarter&&!Y.owned.includes(result.change.toId))er(result.change.toId);
   Y.drawn=result.drawn;Y.rehearsal=result.rehearsal;Y.rehearsalPreview='';Y.fromShare=false;
+  rewriteGalleryV54.open=false;
   lastSharePoster=null;
   const lineup=w(Y.drawn);
   try{sessionStorage.setItem('diamasha.owner',lineup);}catch{}
   history.replaceState({...history.state,lineup},'',programLocationV54(lineup));
   Z({preserveScroll:true});
-  document.querySelector('.rewrite-panel')?.focus({preventScroll:true});
-  Q(earned.length?`已改写这一幕，获得印记：${earned.join('、')}。`:'已改写这一幕，分享与长图也会使用这组卡。');
+  const trigger=document.getElementById(rewriteEntryIdV55(result.change.dimension));
+  trigger?.focus({preventScroll:true});trigger?.scrollIntoView?.({behavior:typeof J!=='undefined'&&J?'instant':'smooth',block:'nearest'});
+  Q(earned.length?`已替换，获得印记：${earned.join('、')}。`:'已替换，故事与分享已更新。');
   return true;
 }
 
-if(typeof module!=='undefined'&&module.exports)module.exports={balancedWeightsV53,drawBalancedV53,actualRatesV53,createRehearsalV53,rewriteOptionsV53,previewRewriteV53,applyRewriteV53,renderRehearsalV53,handleRehearsalV53};
+if(typeof module!=='undefined'&&module.exports)module.exports={balancedWeightsV53,drawBalancedV53,actualRatesV53,createRehearsalV53,rewriteOptionsV53,previewRewriteV53,applyRewriteV53,renderRewriteEntryV55,renderRehearsalV53,handleRehearsalV53};
