@@ -76,7 +76,7 @@ function restoreProgramV53(index){
   if(!cards)return;
   Object.assign(Y,{view:'result',drawn:cards,index:cards.length-1,sheet:null,booster:null,fromPack:false,fromShare:saved.fromShare,keptShare:null,talkOpen:false,rehearsal:reconcileRehearsalV53(cards,saved.rehearsal),rehearsalPreview:null});
   lastSharePoster=null;
-  history.pushState({lineup:w(cards)},'','#m='+w(cards));Z();
+  history.pushState({lineup:w(cards)},'',programLocationV54(w(cards)));Z();
 }
 function savedRehearsalForCardsV53(cards){
   const key=cards.map(card=>card.id).sort().join('.');

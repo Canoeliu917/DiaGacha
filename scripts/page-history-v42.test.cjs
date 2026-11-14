@@ -61,8 +61,9 @@ test('真实下一张与演后谈流程能继续使用快照卡组，不重新�
   const economy=JSON.stringify([h.state.owned,h.state.task,h.state.loop]);
   const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
   const extract=(name,next)=>{const start=html.lastIndexOf('function '+name+'(');return html.slice(start,html.indexOf(next,start));};
-  let rewards=0,draws=0,reveals=0;
-  Object.assign(h.context,{lastSharePoster:null,x:dimensions.map(key=>({key})),pe:()=>false,ue:()=>false,dr:()=>draws++,$:()=>reveals++,w:items=>items.map(card=>card.id).join('.'),Re:()=>rewards++,O:()=>{},Q:()=>{},sessionStorage:{setItem:()=>{}}});
+  let rewards=0,draws=0,reveals=0,programs=0;
+  Object.assign(h.context,{lastSharePoster:null,recordOwnProgramV54:()=>programs++,x:dimensions.map(key=>({key})),pe:()=>false,ue:()=>false,dr:()=>draws++,$:()=>reveals++,w:items=>items.map(card=>card.id).join('.'),Re:()=>rewards++,O:()=>{},Q:()=>{},sessionStorage:{setItem:()=>{}}});
+  h.context.programLocationV54=ids=>'/releases/v54/index.html#m='+ids;
   h.context.history.pushState=(_state,_title,url)=>{h.location.hash=url;};
   vm.runInContext(extract('fr','function enterSpread')+extract('enterSpread','function pr')+extract('pr','function mr')+extract('hr','function gr')+extract('xr','async function Sr'),h.context);
   h.context.turnPageV42(-1);
@@ -71,6 +72,7 @@ test('真实下一张与演后谈流程能继续使用快照卡组，不重新�
   assert.deepEqual(JSON.parse(JSON.stringify(h.state.drawn)),cards);
   h.context.pr();assert.equal(h.state.view,'result');assert.equal(h.state.booster,null);
   assert.equal(draws,0);assert.equal(rewards,0);
+  assert.equal(programs,1);
   assert.equal(JSON.stringify([h.state.owned,h.state.task,h.state.loop]),economy);
 });
 

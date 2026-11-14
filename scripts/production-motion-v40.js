@@ -65,7 +65,7 @@ function showProductionCueV40(cue,{replay=false}={}){
     if(animation)state.cueAnimations.push(animation);
   });
   const status=screen.querySelector('.production-cue-status');
-  if(status){status.textContent=`${cue.title} · ${cue.cardIds.map(id=>state.cards.find(card=>card.id===id).name).join(' × ')}${screen.classList.contains('result-screen')&&cue.points?' · +'+cue.points:''}`;status.style.setProperty('--cue-color',color);}
+  if(status){status.textContent=`${cue.kind==='resonance'?'同星合演':'组合羁绊'} · ${cue.title} · ${cue.cardIds.map(id=>state.cards.find(card=>card.id===id).name).join(' × ')}${screen.classList.contains('result-screen')&&cue.points?' · +'+cue.points+'（已计入卡组分）':''}`;status.style.setProperty('--cue-color',color);}
   if(replay){
     const row=screen.querySelector('.cast-row,.pack-spread');
     if(row){const box=row.getBoundingClientRect();if(box.top<0||box.bottom>innerHeight)row.scrollIntoView({behavior:motionReducedV40()?'instant':'smooth',block:'center'});}

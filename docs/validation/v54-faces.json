@@ -1,0 +1,52 @@
+{
+  "activeCards": 500,
+  "changed": [
+    "play-v21-heartbreak",
+    "role2-huang-jiamei",
+    "role2-ismene",
+    "role2-jiao-daxing",
+    "role2-xiao-fuzi",
+    "xplay-sang",
+    "xrole-sifeng",
+    "yplay-caiwenji",
+    "yplay-eaves",
+    "yplay-redlantern",
+    "yrole-zijirong"
+  ],
+  "smileUnchanged": 32,
+  "makeupUsage": {
+    "blood": 0,
+    "scar": 0,
+    "wet": 0,
+    "rouge": 0,
+    "whitepaint": 0
+  },
+  "renders": [
+    {
+      "name": "shy-before-after.html",
+      "height": 1124,
+      "overflow": false
+    },
+    {
+      "name": "smile-before-after.html",
+      "height": 2825,
+      "overflow": false
+    },
+    {
+      "name": "makeup-before-after.html",
+      "height": 1000,
+      "overflow": false
+    },
+    {
+      "name": "makeup-stress.html",
+      "height": 1109,
+      "overflow": false
+    },
+    {
+      "name": "small-size.html",
+      "height": 1000,
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

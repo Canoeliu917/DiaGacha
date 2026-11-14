@@ -3,13 +3,35 @@ function showPosterDialog(url,mode,button){
   const dialog=document.createElement('dialog');
   dialog.className='poster-dialog';
   const title=mode===`short`?`朋友圈分享图`:`长按保存长图`;
-  const alt=mode===`short`?`本局分享图：剧名、真实得分、卡组、故事摘要与游戏二维码`:`本局节目单：卡组、六芒星、这台分数、综评和咫言咫语`;
+  const alt=mode===`short`?`本局分享图：故事标题、转折、原卡面、卡组搭配分与游戏二维码`:`本局节目单：卡组、六芒星、卡组搭配分、综评和咫言咫语`;
   dialog.setAttribute('aria-label',title);
   dialog.innerHTML=`<h2>${title}</h2><p>长按下方图片，选择“存储图像”或“保存到相册”。也可以下载原图。</p><img class="poster-save-image" alt="${alt}" src="${url}"><div class="dock"><a class="btn primary" href="${url}" download="DiaGacha-${mode===`short`?`朋友圈分享图`:`节目单`}.png">${mode===`short`?`下载分享图`:`下载长图`}</a><button type="button" class="btn ghost">关闭</button></div>`;
   dialog.querySelector('button').onclick=()=>dialog.close();
-  dialog.addEventListener('close',()=>{dialog.remove();button?.focus?.({preventScroll:true});},{once:true});
-  document.body.append(dialog);
-  dialog.showModal();
+  if(typeof dialog.showModal==='function'&&typeof dialog.close==='function'){
+    dialog.addEventListener('close',()=>{dialog.remove();button?.focus?.({preventScroll:true});},{once:true});
+    document.body.append(dialog);
+    dialog.showModal();
+    return;
+  }
+  // Older embedded browsers can still save the same image without the dialog API.
+  const backdrop=document.createElement('div'),overflow=document.body.style.overflow;
+  backdrop.className='poster-backdrop-v54';
+  dialog.setAttribute('open','');dialog.setAttribute('role','dialog');dialog.setAttribute('aria-modal','true');dialog.setAttribute('tabindex','-1');
+  const onKey=event=>{
+    if(event.key==='Escape'){event.preventDefault();event.stopPropagation();dialog.close();return;}
+    if(event.key!=='Tab')return;
+    const controls=[...dialog.querySelectorAll('a,button')],first=controls[0],last=controls[controls.length-1];
+    if(event.shiftKey&&(document.activeElement===first||!controls.includes(document.activeElement))){event.preventDefault();last?.focus();}
+    else if(!event.shiftKey&&(document.activeElement===last||!controls.includes(document.activeElement))){event.preventDefault();first?.focus();}
+  };
+  let closed=false;
+  dialog.close=()=>{
+    if(closed)return;
+    closed=true;document.removeEventListener('keydown',onKey,true);
+    document.body.style.overflow=overflow;backdrop.remove();button?.focus?.({preventScroll:true});
+  };
+  backdrop.append(dialog);document.body.append(backdrop);document.body.style.overflow='hidden';
+  document.addEventListener('keydown',onKey,true);dialog.focus({preventScroll:true});
 }
 function expandPosterDetailsV48(poster){
   // A normal section has the same measured height in the page and the canvas clone.
@@ -80,7 +102,7 @@ async function sharePoster(button,mode=`long`){
     const canvas=await loadPosterRenderer()(poster,{scale:mode===`short`?3:2,backgroundColor:'#f3efe6',logging:false,windowWidth:390,windowHeight:844,scrollX:0,scrollY:0});
     if(!stillCurrent())return;
     const url=canvas.toDataURL('image/png');
-    lastSharePoster={url,mode};
+    lastSharePoster={url,mode,key};
     showPosterDialog(url,mode,button);
   }catch(error){
     console.error('Poster generation failed',error);
@@ -91,6 +113,6 @@ async function sharePoster(button,mode=`long`){
   }
 }
 function savePoster(button){
-  if(lastSharePoster){showPosterDialog(lastSharePoster.url,lastSharePoster.mode,button);return;}
+  if(lastSharePoster?.key===productionCardsV40().map(card=>card.id).join('.')){showPosterDialog(lastSharePoster.url,lastSharePoster.mode,button);return;}
   sharePoster(button,`long`);
 }

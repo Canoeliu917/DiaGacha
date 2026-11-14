@@ -26,19 +26,30 @@ function stagePersonaMarkupV53(cards){
 
 function shareUrlV53(cards){
   const ordered=['剧目','风格体系','导演手法','主演','配角','环境'].map(dimension=>cards.find(card=>card.dimension===dimension)).filter(Boolean);
-  return `https://canoeliu917.github.io/DiaGacha/?v=53#m=${w(ordered)}`;
+  return `https://canoeliu917.github.io/DiaGacha/releases/v54/index.html#m=${w(ordered)}`;
+}
+
+function programLocationV54(ids,locationInfo=location){
+  if(locationInfo.protocol==='file:')return `#m=${ids}`;
+  const pathname=locationInfo.pathname,release=pathname.indexOf('/releases/');
+  let base;
+  if(release>=0)base=pathname.slice(0,release+1);
+  else if(pathname.endsWith('/'))base=pathname;
+  else if(pathname.slice(pathname.lastIndexOf('/')+1).includes('.'))base=pathname.slice(0,pathname.lastIndexOf('/')+1);
+  else base=pathname+'/';
+  return `${base}releases/v54/index.html#m=${ids}`;
 }
 
 function shareTextV53(cards){
   const result=Xt(cards),count=cards.length===6?'六':'五';
   const persona=stagePersonaV53(cards);
-  return `今晚的戏格：${persona.name}。\n“${persona.line}”\n我这台戏，${result.score} 分 · ${result.scoring.grade}。\n《${dramaticTitleV40(cards)}》\n${shortScene(cards)}\n${count}张卡，开出你的意外好戏。`;
+  return `《${dramaticTitleV40(cards)}》\n${shortScene(cards)}\n本场戏格：${persona.name} · 卡组趣味解读\n卡组搭配分 ${result.score}/100 · ${result.scoring.grade}（不是人格或艺术能力评分）\n${count}张卡，开出你的意外好戏。`;
 }
 
 function socialPosterV53(cards){
   const result=Xt(cards),context=talkCardsV39(cards),count=cards.length===6?'六':'五';
   const title=dramaticTitleV40(cards).replace(`${context.place.name}｜`,'');
-  const story=shortScene(cards).replace(/^故事联想：/,'').replace(/^取意于《[^》]*》[，。](?:在[^。]*虚构一次相遇。)?/,'').replace(/此为借《[^》]*》展开的虚构故事。$/,'');
+  const story=shareStoryBeatV54(cards),persona=stagePersonaV53(cards);
   const cast=['剧目','主演','导演手法','配角','风格体系','环境'].map(dimension=>cards.find(card=>card.dimension===dimension)).filter(Boolean);
   const qr=qrcode(0,'M');
   qr.addData(shareUrlV53(cards));
@@ -46,14 +57,14 @@ function socialPosterV53(cards){
   return `<section class="social-poster-v53" aria-label="本局朋友圈节目单">
     <header class="social-header-v53"><span class="social-brand-v53">DiaGacha<span>· 咫牌</span></span><span class="social-edition-v53">我的节目单</span></header>
     <p class="social-tagline-v53">${count}张卡，开出你的意外好戏。</p>
-    ${stagePersonaMarkupV53(cards)}
     <div class="social-hero-v53">
       <h1 class="social-title-v53">${K(title)}</h1>
-      <div class="social-rating-v53" aria-label="这台 ${K(result.score)} 分，${K(result.scoring.grade)}"><span>这台</span><div><b class="social-score-v53">${K(result.score)}</b><small>/ 100</small></div><strong>${K(result.scoring.grade)}</strong></div>
     </div>
     <p class="social-setting-v53">取意《${K(context.play.name.replace(/^《|》$/g,''))}》<span>·</span>${K(context.place.name)}</p>
-    <div class="social-cast-v53${cards.length===5?' social-five-v53':''}">${cast.map(card=>`<article class="social-card-v53 rarity-${K(card.rarity)}" data-card-id="${K(card.id)}"><div class="social-slot-v53"><span>${K(copyDimension(card.dimension))}</span>${starPips(card.rarity)}</div><div class="social-art-v53">${Ct(card)}</div><p class="social-card-name-v53">${K(card.name)}</p></article>`).join('')}</div>
     <div class="social-story-v53"><span class="social-story-label-v53">这一场 · 虚构故事</span><p>${K(story)}</p></div>
+    <div class="social-cast-v53${cards.length===5?' social-five-v53':''}">${cast.map(card=>`<article class="social-card-v53 rarity-${K(card.rarity)}" data-card-id="${K(card.id)}"><div class="social-slot-v53"><span>${K(copyDimension(card.dimension))}</span>${starPips(card.rarity)}</div><div class="social-art-v53">${Ct(card)}</div><p class="social-card-name-v53">${K(card.name)}</p></article>`).join('')}</div>
+    <div class="social-assessment-v54"><div class="social-persona-v54"><span>本场戏格 ${K(persona.number)}</span><strong>${K(persona.name)}</strong><small>由本场卡组生成的趣味解读</small></div><div class="social-rating-v53" aria-label="卡组搭配分 ${K(result.score)} 分，${K(result.scoring.grade)}"><span>卡组搭配分</span><div><b class="social-score-v53">${K(result.score)}</b><small>/ 100</small></div><strong>${K(result.scoring.grade)}</strong></div></div>
+    <p class="social-score-note-v54">分数评价本场卡牌的搭配，不代表人格或艺术能力。</p>
     <footer class="social-footer-v53"><div class="social-invite-v53"><p>你的下一台，<br>会是什么好戏？</p><span>长按识别二维码 · 看这台，也开一台</span><small>500 张常驻卡 · 戏剧混搭抽卡</small>${cards.length===5?'<small>旧五卡节目单</small>':''}</div><div class="social-qr-v53">${qr.createSvgTag({cellSize:2,margin:8,scalable:true})}</div></footer>
   </section>`;
 }

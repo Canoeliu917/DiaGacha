@@ -102,7 +102,7 @@ test('六剧复评分、稀有度和来源落到运行数据，未只修改审�
 
 test('已发布的正文覆盖和高星扩写都保留经过核实的主创、人物及版本区别', () => {
   const source = fs.readFileSync(path.join(root, 'scripts/copy-overrides-v39.js'), 'utf8');
-  assert.ok(html.includes(source.trim()), 'index里的后置覆盖必须与已测试模块同步');
+  assert.ok(html.replace(/\r/g, '').includes(source.replace(/\r/g, '').trim()), 'index里的后置覆盖必须与已测试模块同步');
   assert.match(get('play-rhino').note, /廖一梅.*孟京辉.*1999/);
   assert.match(get('play-secret').note, /赖声川.*共同构思/);
   assert.match(get('v23-play-livefield').note, /萧红.*田沁鑫/);

@@ -39,10 +39,11 @@ function harness(extra={}){
     lastSharePoster:'old image',w:drawn=>drawn.map(card=>card.id).join('.'),
     sessionStorage:{setItem:(key,value)=>events.push({key,value})},
     history:{state:{existing:true},replaceState:(state,unused,url)=>events.push({state,url})},
+    location:{protocol:'https:',pathname:'/DiaGacha/'},
     document:{getElementById:id=>({focus:()=>events.push('focus:'+id)}),querySelector:selector=>({focus:()=>events.push('focus:'+selector)})},
     ...extra,
   };
-  vm.createContext(context);vm.runInContext(source,context);
+  vm.createContext(context);vm.runInContext(fs.readFileSync(path.join(__dirname,'share-v53.js'),'utf8'),context);vm.runInContext(source,context);
   return {game:context.module.exports,context,events};
 }
 const {game}=harness();
@@ -160,7 +161,7 @@ test('确认改写后分享hash使用新卡、海报缓存失效、重渲染保�
   assert.equal(context.lastSharePoster,null);
   assert.equal(context.Y.fromShare,false);
   const history=events.find(event=>event.url);
-  assert.equal(history.url,'#m='+context.Y.drawn.map(card=>card.id).join('.'));
+  assert.equal(history.url,'/DiaGacha/releases/v54/index.html#m='+context.Y.drawn.map(card=>card.id).join('.'));
   assert.equal(history.state.existing,true);
   assert.ok(events.includes('focus:.rewrite-panel'));
   const after=JSON.stringify(context.Y.drawn);

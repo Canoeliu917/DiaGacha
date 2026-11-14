@@ -1,0 +1,11 @@
+{
+  "version": 54,
+  "sha256": "1ba713cc32fcec1ee8479dd9b6a1da4bc950618fa5e8e93ee350fe61258345c4",
+  "bytes": 4775161,
+  "gzipBytes": 1954228,
+  "rootEqualsArchive": true,
+  "repeatedBuildIdentical": true,
+  "storySha256": "a34cb41505ebe181262fd4c147a8f448f72ea0064f68a3c31a0695e52e38ce46",
+  "testsPassed": 231,
+  "testsFailed": 0
+}

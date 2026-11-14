@@ -5,20 +5,22 @@ const vm=require('node:vm');
 const source=fs.readFileSync(require.resolve('./poster-v48.js'),'utf8');
 
 class Element{
-  constructor(tag,text=''){this.tag=tag;this._text=text;this.childNodes=[];this.className='';this.attributes={};this.style={};this.hidden=false;this.classList={add:name=>this.className+=' '+name};}
+  constructor(tag,text=''){this.tag=tag;this._text=text;this.childNodes=[];this.className='';this.attributes={};this.style={};this.hidden=false;this.listeners={};this.classList={add:name=>this.className+=' '+name};}
   append(...nodes){for(const node of nodes){node.remove();node.parent=this;this.childNodes.push(node);}}
   remove(){if(this.parent){this.parent.childNodes=this.parent.childNodes.filter(node=>node!==this);this.parent=null;}}
   replaceWith(node){const parent=this.parent,index=parent.childNodes.indexOf(this);node.remove();parent.childNodes[index]=node;node.parent=parent;this.parent=null;}
-  matches(selector){if(selector.startsWith('.'))return this.className.split(/\s+/).includes(selector.slice(1));if(selector==='[data-action]')return 'data-action' in this.attributes;return this.tag===selector;}
+  matches(selector){if(selector.includes(','))return selector.split(',').some(part=>this.matches(part));if(selector.startsWith('.'))return this.className.split(/\s+/).includes(selector.slice(1));if(selector==='[data-action]')return 'data-action' in this.attributes;return this.tag===selector;}
   querySelectorAll(selector){const nodes=[];for(const child of this.childNodes){if(child.matches(selector))nodes.push(child);nodes.push(...child.querySelectorAll(selector));}return nodes;}
   querySelector(selector){if(selector.includes(' ')){const [parent,child]=selector.split(' ');return this.querySelector(parent)?.querySelector(child)||null;}return this.querySelectorAll(selector)[0]||null;}
   setAttribute(key,value){this.attributes[key]=value;}
   removeAttribute(key){delete this.attributes[key];}
-  addEventListener(){}
+  addEventListener(type,listener){this.listeners[type]=listener;}
   showModal(){this.open=true;}
+  close(){this.open=false;this.listeners.close?.();}
+  focus(){if(this.document)this.document.activeElement=this;}
   get textContent(){return this._text+this.childNodes.map(node=>node.textContent).join('');}
   set textContent(text){this._text=text;this.childNodes=[];}
-  set innerHTML(html){this.html=html;if(this.tag==='dialog')this.append(new Element('button'));}
+  set innerHTML(html){this.html=html;if(this.tag==='dialog'){const link=new Element('a'),button=new Element('button');link.document=button.document=this.document;this.append(link,button);}}
 }
 function element(tag,cls,text=''){const node=new Element(tag,text);node.className=cls;return node;}
 function fixture(){
@@ -28,13 +30,40 @@ function fixture(){
   talk.append(element('div','talk-short','摘要'),full,element('button','talk-toggle','展开'),details);wrap.append(talk,element('section','share-block'));poster.append(wrap);
   return {poster,details,list,link,full};
 }
-function harness(render){
+function harness(render,{dialogApi=true}={}){
   const data=fixture(),body=new Element('body'),state={cards:[{id:'current-card'}]},button={textContent:'长按保存长图',disabled:false};
-  const document={body,fonts:{ready:Promise.resolve()},createElement(tag){if(tag==='template')return {content:{firstElementChild:data.poster},set innerHTML(value){}};return new Element(tag);}};
+  const listeners=new Map();
+  const document={body,fonts:{ready:Promise.resolve()},addEventListener(type,listener){listeners.set(type,listener);},removeEventListener(type,listener){if(listeners.get(type)===listener)listeners.delete(type);},createElement(tag){if(tag==='template')return {content:{firstElementChild:data.poster},set innerHTML(value){}};const node=new Element(tag);node.document=document;if(tag==='dialog'&&!dialogApi){node.showModal=undefined;node.close=undefined;}return node;}};
   const ctx={document,console:{error(){}},Un(input){state.input=input;return '<section></section>';},ar:()=>({drawn:[{id:'old-card'}]}),productionCardsV40:()=>state.cards,finishProductionV40(){state.finished=true;},posterSealText:()=> '咫牌',Y:{loop:{}},Q:text=>state.toast=text,loadPosterRenderer:()=>async(poster,options)=>{state.options=options;state.rendered=poster;await render?.(poster);return {toDataURL:()=> 'data:image/png;base64,aW1hZ2U='};}};
   vm.createContext(ctx);vm.runInContext(source,ctx);
-  return {...data,body,state,button,ctx};
+  return {...data,body,state,button,ctx,listeners,document};
 }
+
+test('旧WebView缺少dialog API仍显示原图和下载，Tab循环且Escape恢复焦点与滚动',()=>{
+  const h=harness(null,{dialogApi:false});h.body.style.overflow='auto';h.button.focus=()=>{h.state.focusRestored=true;};
+  h.ctx.showPosterDialog('data:image/png;base64,aW1hZ2U=','short',h.button);
+  const dialog=h.body.querySelector('dialog'),controls=dialog.querySelectorAll('a,button');
+  assert.equal(dialog.attributes.open,'');assert.equal(dialog.attributes.role,'dialog');assert.equal(dialog.attributes['aria-modal'],'true');
+  assert.match(dialog.html,/download="DiaGacha-朋友圈分享图.png"/);assert.match(dialog.html,/poster-save-image/);
+  assert.equal(h.body.style.overflow,'hidden');assert.equal(h.document.activeElement,dialog);
+  const key=(value,shiftKey=false)=>{let prevented=false;h.listeners.get('keydown')({key:value,shiftKey,preventDefault(){prevented=true;},stopPropagation(){}});assert.equal(prevented,true);};
+  key('Tab');assert.equal(h.document.activeElement,controls[0]);
+  key('Tab',true);assert.equal(h.document.activeElement,controls[1]);
+  key('Tab');assert.equal(h.document.activeElement,controls[0]);
+  key('Escape');assert.equal(h.body.querySelector('dialog'),null);assert.equal(h.body.style.overflow,'auto');
+  assert.equal(h.listeners.size,0);assert.equal(h.state.focusRestored,true);
+});
+
+test('旧WebView关闭按钮与页面重绘的.close调用均清理降级弹层，不残留滚动锁',()=>{
+  for(const useButton of [true,false]){
+    const h=harness(null,{dialogApi:false});h.body.style.overflow='';
+    h.ctx.showPosterDialog('data:image/png;base64,aW1hZ2U=','short',h.button);
+    const dialog=h.body.querySelector('dialog');
+    if(useButton)dialog.querySelector('button').onclick();else dialog.close();
+    dialog.close();
+    assert.equal(h.body.childNodes.length,0);assert.equal(h.body.style.overflow,'');assert.equal(h.listeners.size,0);
+  }
+});
 
 test('长图在测量前将折叠参考变为普通区块，标题、链接与顺序完整保留',()=>{
   const h=harness();h.ctx.expandPosterDetailsV48(h.poster);
@@ -65,6 +94,32 @@ test('生成失败会恢复保存入口并移除临时长图，不残留遮挡�
   const h=harness(()=>{throw Error('render failed');});await h.ctx.sharePoster(h.button,'long');
   assert.equal(h.button.disabled,false);assert.equal(h.button.textContent,'长按保存长图');
   assert.equal(h.poster.parent,null);assert.equal(h.body.childNodes.length,0);assert.match(h.state.toast,/生成失败/);
+});
+
+test('渲染异常后可再次生成原图，失败不会永久锁住保存入口',async()=>{
+  let attempts=0;
+  const h=harness(()=>{if(++attempts===1)throw Error('transient renderer failure');});
+  await h.ctx.sharePoster(h.button,'long');
+  assert.equal(h.body.querySelector('dialog'),null);
+  assert.equal(h.button.disabled,false);
+  await h.ctx.sharePoster(h.button,'long');
+  assert.equal(attempts,2);
+  assert.ok(h.body.querySelector('dialog')?.open);
+  assert.equal(h.button.disabled,false);
+  assert.equal(vm.runInContext('lastSharePoster.key',h.ctx),'current-card');
+});
+
+test('保存入口只复用同一卡组的图片，改换卡组后重新渲染',async()=>{
+  let attempts=0;
+  const h=harness(()=>{attempts++;});
+  await h.ctx.sharePoster(h.button,'long');
+  h.ctx.savePoster(h.button);
+  assert.equal(attempts,1);
+  h.state.cards=[{id:'another-card'}];
+  h.ctx.savePoster(h.button);
+  await new Promise(resolve=>setImmediate(resolve));
+  assert.equal(attempts,2);
+  assert.equal(vm.runInContext('lastSharePoster.key',h.ctx),'another-card');
 });
 
 test('导出途中改写卡组或离开结果页，不弹出旧图也不覆盖分享缓存',async()=>{

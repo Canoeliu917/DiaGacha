@@ -28,7 +28,7 @@ function harness(){
       qr.addData=function(payload,...args){qrPayloadsV53.push(payload);return add.call(this,payload,...args);};
       return qr;
     };
-    globalThis.testShare={e,activeCards,ar,Un,Xt,w,K,dramaticTitleV40,shortScene,socialPosterV53,shareTextV53,shareOrCopy,Y,qrPayloads:qrPayloadsV53,
+    globalThis.testShare={e,activeCards,ar,Un,Xt,w,K,dramaticTitleV40,shortScene,shareStoryBeatV54,socialPosterV53,shareTextV53,shareUrlV53,shareOrCopy,Y,qrPayloads:qrPayloadsV53,
     dispatchPosterAction(action){
       const calls=[],original=sharePoster;
       sharePoster=(button,mode='long')=>calls.push({mode});
@@ -64,13 +64,38 @@ function checkPoster(cards){
   for(const card of cards)assert.ok(poster.includes(game.K(card.name)),card.id+' name');
   const title=game.dramaticTitleV40(cards).split('｜').at(-1);
   assert.ok(poster.includes(game.K(title)),title);
-  assert.equal(game.qrPayloads.at(-1),'https://canoeliu917.github.io/DiaGacha/?v=53#m='+game.w(cards));
+  assert.equal(game.qrPayloads.at(-1),'https://canoeliu917.github.io/DiaGacha/releases/v54/index.html#m='+game.w(cards));
   assert.match(poster,/class="social-qr-v53"[\s\S]*?<svg\b/);
   return poster;
 }
 
 test('朋友圈图保留真实六卡、整台评分、故事标题及可复现组合的二维码',()=>{
   for(const ids of examples.slice(0,3))checkPoster(draw(ids));
+});
+
+test('分享图先展示故事与原卡面，戏格和卡组分作为辅助信息',()=>{
+  const cards=draw(examples[0]),poster=checkPoster(cards);
+  const title=poster.indexOf('class="social-title-v53"'),story=poster.indexOf('class="social-story-v53"');
+  const cast=poster.indexOf('class="social-cast-v53'),score=poster.indexOf('class="social-score-v53"');
+  assert.ok(title<story&&story<cast&&cast<score);
+  assert.ok(poster.includes(game.K(game.shareStoryBeatV54(cards))));
+  assert.match(poster,/不代表人格或艺术能力/);
+  assert.ok(game.shareTextV53(cards).startsWith('《'+game.dramaticTitleV40(cards)+'》'));
+});
+
+test('同一卡组重复和换序仍返回固定版本链接及一致的故事、标题、分数',()=>{
+  for(const ids of examples){
+    const cards=draw(ids),reversed=cards.slice().reverse(),url=game.shareUrlV53(cards);
+    assert.equal(game.shareUrlV53(reversed),url);
+    assert.equal(new URL(url).pathname,'/DiaGacha/releases/v54/index.html');
+    assert.equal(new URL(url).search,'');
+    for(let i=0;i<3;i++){
+      assert.equal(game.dramaticTitleV40(reversed),game.dramaticTitleV40(cards));
+      assert.equal(game.shortScene(reversed),game.shortScene(cards));
+      assert.equal(game.shareStoryBeatV54(reversed),game.shareStoryBeatV54(cards));
+      assert.equal(game.Xt(reversed).score,game.Xt(cards).score);
+    }
+  }
 });
 
 test('旧五卡分享不补造配角，并保留真实分数、独角故事和旧链接组合',()=>{

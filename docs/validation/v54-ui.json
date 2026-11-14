@@ -1,0 +1,82 @@
+{
+  "viewports": [
+    320,
+    390,
+    768
+  ],
+  "layoutChecks": 32,
+  "overflow": [],
+  "firstGame": {
+    "ownedBeforePreview": 6,
+    "ownedAfterBothPreviews": 6,
+    "ownedAfterConfirmation": 7,
+    "unlocked": [
+      "opening",
+      "rewrite",
+      "compare",
+      "persona"
+    ],
+    "allAchievementRows": 7
+  },
+  "save": {
+    "downloaded": "咫牌存档-2026-11-14.json",
+    "importRetainedCards": 7,
+    "importRetainedCredits": 0,
+    "importRetainedAchievements": 4
+  },
+  "duplicateFixtures": {
+    "newCard": {
+      "before": 1,
+      "after": 0,
+      "newCards": 1
+    },
+    "repeatCard": {
+      "before": 1,
+      "after": 1,
+      "owned": 500
+    }
+  },
+  "share": {
+    "generated": true,
+    "closedWithFocusRestore": true,
+    "hashUnchanged": true
+  },
+  "browserErrors": [],
+  "foundIssue": "Missing dialog API throws inside showPosterDialog. Fixed in source; fallback browser regression is in ../v54-share-qa/checks.json.",
+  "notes": [
+    "Uses isolated Chrome profile, not user browser.",
+    "No actual WeChat post or native WeChat success was tested.",
+    "First full test snapshot: 203 tests, 192 passed, 11 failed; root owns final unified rerun."
+  ],
+  "integratedFixedUrl": {
+    "before": "http://127.0.0.1:8784/releases/v54/index.html#m=play-xixiang.v23-style-historyplay.xdir-bang.xrole-chanjuan.role2-fire-chief.place-v21-archive",
+    "afterRewrite": "http://127.0.0.1:8784/releases/v54/index.html#m=xplay-longday.v23-style-historyplay.xdir-bang.xrole-chanjuan.role2-fire-chief.place-v21-archive",
+    "refreshSameTitleStoryScore": true,
+    "personaAfterStory": true
+  },
+  "integratedFallback": {
+    "tabFirst": "A",
+    "shiftTabLast": "BUTTON",
+    "afterEscape": {
+      "dialog": false,
+      "overflow": "",
+      "focus": "poster-short"
+    },
+    "afterAppRerender": {
+      "dialog": false,
+      "overflow": "",
+      "expanded": true
+    }
+  },
+  "jumpFinal": {
+    "focus": "rewrite-panel",
+    "tabIndex": -1,
+    "rewriteTop": 0.0625
+  },
+  "internalScores": {
+    "operation": 1.9,
+    "sharing": 1.8,
+    "maxEach": 2,
+    "note": "Chrome isolated QA only; actual WeChat WebView/share preview and real friend testing remain unverified. Immutable URL behavior tested against QA archive alias; final archived file requires deployment verification."
+  }
+}

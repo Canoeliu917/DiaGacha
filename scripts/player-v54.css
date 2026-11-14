@@ -1,0 +1,9 @@
+.draw-receipt-v54{padding:10px 12px;border-left:3px solid #9c2f2f;background:#eee6d8;font-size:14px;line-height:1.6}
+.player-tools-v54{margin:18px 0;display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.player-tools-v54 .btn{font-size:13px;min-height:44px;white-space:normal}
+.single-reveal-v54{max-width:340px;margin:18px auto;animation:single-in-v54 .28s ease-out}
+.single-reveal-v54 .draw-receipt-v54{margin-top:12px}
+.save-note-v54{font-size:13px;line-height:1.65;color:#75634e}
+.save-preview-v54{padding:14px;border:1px solid #ccbda6;border-radius:8px;margin:12px 0}
+@keyframes single-in-v54{from{opacity:.25;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.single-reveal-v54{animation:none}}
