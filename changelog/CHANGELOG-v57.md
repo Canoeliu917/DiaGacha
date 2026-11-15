@@ -2,7 +2,7 @@
 
 提交日期：2026-11-16（UTC+8）。
 
-固定提交：见本分支提交 · [源码快照](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38)
+固定提交：[a4d5e01](https://github.com/Canoeliu917/DiaGacha/commit/a4d5e0146c80e246d6c5e24b03aa8201eb541788) · [源码快照](https://github.com/Canoeliu917/DiaGacha/tree/a4d5e0146c80e246d6c5e24b03aa8201eb541788)
 
 [打开 v57](https://canoeliu917.github.io/DiaGacha/?v=57) · [固定分享入口](https://canoeliu917.github.io/DiaGacha/releases/v57/index.html)
 
