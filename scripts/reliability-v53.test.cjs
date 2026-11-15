@@ -112,7 +112,7 @@ test('最近节目单限5个不同卡组，刷新可找回旧五卡和改写状�
   assert.deepEqual(plain(next.Y.drawn.map(card=>card.id)),plain(changed.map(card=>card.id)));
   assert.deepEqual(plain(next.Y.rehearsal),plain(game.Y.rehearsal));
   assert.deepEqual(plain({task:next.Y.task,loop:next.Y.loop,owned:next.Y.owned}),before);
-  assert.equal(next.urls.at(-1),'/DiaGacha/releases/v56/index.html#m='+next.w(changed));
+  assert.equal(next.urls.at(-1),'/DiaGacha/releases/v57/index.html#m='+next.w(changed));
   next.Y.drawn=base.filter(card=>card.dimension!=='配角');next.Y.rehearsal=null;next.saveSessionV53();
   const legacy=harness(next.stored);legacy.restoreProgramV53(0);
   assert.equal(legacy.Y.drawn.length,5);assert.doesNotMatch(legacy.renderResumeV53(),/undefined/);

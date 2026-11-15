@@ -41,7 +41,7 @@ test('实际组合总分、奖励明细、预算及标题稳定，逆序卡组�
   assert.equal(inverse.score,result.score);
   assert.equal(g.dramaticTitleV40(lineup),g.dramaticTitleV55(lineup));
   assert.equal(g.dramaticTitleV55(lineup),g.dramaticTitleV55([...lineup].reverse()));
-  assert.match(g.shareUrlV53(lineup),/releases\/v56\/index.html/);
+  assert.match(g.shareUrlV53(lineup),/releases\/v57\/index.html/);
  }
 });
 test('结果页替换入口紧跟原卡，评分在六卡之后和故事之前，不再有长改写账单',()=>{
