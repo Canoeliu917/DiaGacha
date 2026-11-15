@@ -6,6 +6,10 @@ test('v54分享归档字节完全不变',()=>{
  const hash=crypto.createHash('sha256').update(fs.readFileSync(path.join(__dirname,'../releases/v54/index.html'))).digest('hex');
  assert.equal(hash,'1ba713cc32fcec1ee8479dd9b6a1da4bc950618fa5e8e93ee350fe61258345c4');
 });
+test('v55分享归档字节完全不变',()=>{
+ const hash=crypto.createHash('sha256').update(fs.readFileSync(path.join(__dirname,'../releases/v55/index.html'))).digest('hex');
+ assert.equal(hash,'ed6942deed45e61c53cbdd5eaa359c67cf4cf11a0c12ea4181db0f13af5aff5d');
+});
 test('500张原卡插画、小人和攻防星级与v54逐张相同',()=>{
  let harness=fs.readFileSync(path.join(__dirname,'check-balance.cjs'),'utf8').split('const originalOwned')[0];
  harness=harness.replace("path.join(root, 'index.html')","path.join(root, 'releases/v54/index.html')").replace('scoring:DiaScoring}','scoring:DiaScoring,Ct}');
@@ -37,7 +41,7 @@ test('实际组合总分、奖励明细、预算及标题稳定，逆序卡组�
   assert.equal(inverse.score,result.score);
   assert.equal(g.dramaticTitleV40(lineup),g.dramaticTitleV55(lineup));
   assert.equal(g.dramaticTitleV55(lineup),g.dramaticTitleV55([...lineup].reverse()));
-  assert.match(g.shareUrlV53(lineup),/releases\/v55\/index.html/);
+  assert.match(g.shareUrlV53(lineup),/releases\/v56\/index.html/);
  }
 });
 test('结果页替换入口紧跟原卡，评分在六卡之后和故事之前，不再有长改写账单',()=>{

@@ -8,6 +8,12 @@ const factAudits = [48,49].flatMap(version => ['PLAYS', 'ROLES', 'CRAFT', 'SPACE
 for (const correction of factAudits.flatMap(audit => audit.corrections)) {
   if (correction.highStar) copy[correction.id] = correction.highStar;
 }
+const supplementName = 'ssr-essays-33.json';
+if (fs.existsSync(path.join(__dirname, supplementName))) {
+  for (const [id, paragraphs] of Object.entries(read(supplementName))) {
+    if (!copy[id]) copy[id] = paragraphs;
+  }
+}
 const sources = Object.assign({}, ...groups.map(group => {
   const name = `high-star-${group}-sources-v40.json`;
   return fs.existsSync(path.join(__dirname, name)) ? read(name) : {};
