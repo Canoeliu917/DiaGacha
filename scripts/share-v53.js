@@ -26,7 +26,7 @@ function stagePersonaMarkupV53(cards){
 
 function shareUrlV53(cards){
   const ordered=['剧目','风格体系','导演手法','主演','配角','环境'].map(dimension=>cards.find(card=>card.dimension===dimension)).filter(Boolean);
-  return `https://canoeliu917.github.io/DiaGacha/releases/v55/index.html#m=${w(ordered)}`;
+  return `https://canoeliu917.github.io/DiaGacha/releases/v56/index.html#m=${w(ordered)}`;
 }
 
 function programLocationV54(ids,locationInfo=location){
@@ -37,7 +37,7 @@ function programLocationV54(ids,locationInfo=location){
   else if(pathname.endsWith('/'))base=pathname;
   else if(pathname.slice(pathname.lastIndexOf('/')+1).includes('.'))base=pathname.slice(0,pathname.lastIndexOf('/')+1);
   else base=pathname+'/';
-  return `${base}releases/v55/index.html#m=${ids}`;
+  return `${base}releases/v56/index.html#m=${ids}`;
 }
 
 function shareTextV53(cards){

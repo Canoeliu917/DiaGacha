@@ -1,20 +1,28 @@
 # DiaGacha · 咫牌
 
-戏剧混搭抽卡网页游戏。当前版本 **v55**（2026-11-15）面向小范围邀请试玩：500 张常驻卡，777 张长期总图鉴。
+戏剧混搭抽卡网页游戏。当前版本 **v56**（2026-11-15）面向小范围邀请试玩：500 张常驻卡，777 张长期总图鉴。
 
 ## 打开游戏与版本记录
 
-- **[手机／电脑打开 v55 邀请试玩版](https://canoeliu917.github.io/DiaGacha/releases/v55/index.html)**
+- **[手机／电脑打开 v56](https://canoeliu917.github.io/DiaGacha/?v=56)**
+- **[固定分享入口 v56](https://canoeliu917.github.io/DiaGacha/releases/v56/index.html)**
 - **[500张卡的碰撞学习图鉴](https://canoeliu917.github.io/DiaGacha/docs/collision-explorer-v55.html)**
-- **[全部版本更新记录：v21–v55](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/CHANGELOG.md)**
-- [v55 本次改动与验收](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/changelog/CHANGELOG-v55.md)
-- [最新版完整源码](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38) · [v54 固定试玩归档](https://canoeliu917.github.io/DiaGacha/releases/v54/index.html)
+- **[全部版本更新记录：v21–v56](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/CHANGELOG.md)**
+- [v56 本次改动与验收](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/changelog/CHANGELOG-v56.md)
+- [最新版完整源码](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38) · [v55 固定试玩归档](https://canoeliu917.github.io/DiaGacha/releases/v55/index.html) · [v54 固定试玩归档](https://canoeliu917.github.io/DiaGacha/releases/v54/index.html)
 
 当前游戏由 `codex/scoring-v38` 分支根目录发布。仓库默认首页也提供上述导航；查看或下载完整最新版时，请使用“最新版完整源码”。下载后直接在浏览器打开其中的 `index.html` 即可游玩。
 
 根目录游戏入口指向最近发布版，网址中的 `?v=数字` 仅用于刷新缓存。v54 起使用 `releases/v54/index.html` 固定版本路径分享结果；以后的更新必须保留该文件，保证旧卡组继续显示当时的故事和分数。更早版本请通过更新记录中的固定提交和源码快照查看。
 
 [原 Sites 入口](https://diagacha-v38.whole-elk-7752.chatgpt.site)为旧入口；请使用上方 GitHub Pages 入口。同一浏览器中同一域名的根目录和版本目录共用收藏；不同浏览器、域名和设备不自动同步，可通过「我的存档」导出／导入。
+
+## v56 更新
+
+- 500 张正式卡的小注、看点、简介和标签换成已审核文案；编号、名称、稀有度、攻防、名气和评分不变。
+- 146 条名词解释换成带例子的审核稿。33 张原先缺少压轴短文的卡补入短文，原有高星短文保留。
+- 卡面详情增加「在咫台检索」。点开标签仍先看游戏内名词解释，解释下可再检索该术语。
+- 新分享指向 `releases/v56/index.html`。v54、v55 归档不改。
 
 ## v55 更新
 

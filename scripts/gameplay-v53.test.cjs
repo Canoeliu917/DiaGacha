@@ -161,7 +161,7 @@ test('点击收藏立即替换，分享hash使用新卡、海报缓存失效且�
   assert.equal(context.lastSharePoster,null);
   assert.equal(context.Y.fromShare,false);
   const history=events.find(event=>event.url);
-  assert.equal(history.url,'/DiaGacha/releases/v55/index.html#m='+context.Y.drawn.map(card=>card.id).join('.'));
+  assert.equal(history.url,'/DiaGacha/releases/v56/index.html#m='+context.Y.drawn.map(card=>card.id).join('.'));
   assert.equal(history.state.existing,true);
   assert.ok(events.includes('focus:rewrite-open-v55-3'));
   const after=JSON.stringify(context.Y.drawn);

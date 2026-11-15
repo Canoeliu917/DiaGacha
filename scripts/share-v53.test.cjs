@@ -64,7 +64,7 @@ function checkPoster(cards){
   for(const card of cards)assert.ok(poster.includes(game.K(card.name)),card.id+' name');
   const title=game.dramaticTitleV40(cards).split('｜').at(-1);
   assert.ok(poster.includes(game.K(title)),title);
-  assert.equal(game.qrPayloads.at(-1),'https://canoeliu917.github.io/DiaGacha/releases/v55/index.html#m='+game.w(cards));
+  assert.equal(game.qrPayloads.at(-1),'https://canoeliu917.github.io/DiaGacha/releases/v56/index.html#m='+game.w(cards));
   assert.match(poster,/class="social-qr-v53"[\s\S]*?<svg\b/);
   return poster;
 }
@@ -87,7 +87,7 @@ test('同一卡组重复和换序仍返回固定版本链接及一致的故事�
   for(const ids of examples){
     const cards=draw(ids),reversed=cards.slice().reverse(),url=game.shareUrlV53(cards);
     assert.equal(game.shareUrlV53(reversed),url);
-    assert.equal(new URL(url).pathname,'/DiaGacha/releases/v55/index.html');
+    assert.equal(new URL(url).pathname,'/DiaGacha/releases/v56/index.html');
     assert.equal(new URL(url).search,'');
     for(let i=0;i<3;i++){
       assert.equal(game.dramaticTitleV40(reversed),game.dramaticTitleV40(cards));

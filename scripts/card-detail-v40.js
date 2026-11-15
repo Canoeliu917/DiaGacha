@@ -15,6 +15,12 @@ function statAxesMarkupV40(card){
   </div></div>`;
 }
 
+function diaStageSourceLinkV56(card){
+  const url=card&&card.diastageSearchUrl;
+  if(!url)return '';
+  return `<p class="card-diastage"><a href="${K(url)}" target="_blank" rel="noopener noreferrer">在咫台检索</a></p>`;
+}
+
 function xn(card){
   const high=['SSR','UR','LR'].includes(card.rarity);
   const notes=high&&typeof highStarNotesV40==='function'?highStarNotesV40(card):[cardEssays[card.id]||''];
@@ -24,6 +30,7 @@ function xn(card){
     <p><b>看点：</b>${K(card.observe)}</p>
     ${notes.filter(Boolean).map(text=>`<p class="card-essay">${K(text)}</p>`).join('')}
     ${sources.length?`<p class="card-sources">阅读参考：${sources.map(source=>`<a href="${K(source.url)}" target="_blank" rel="noopener noreferrer">${K(source.title)}</a>`).join('；')}</p>`:''}
+    ${diaStageSourceLinkV56(card)}
     <details class="rehearsal-note"><summary>排演参考（可选）</summary><p>${K(card.stage)}</p></details>
   </article>`;
 }
