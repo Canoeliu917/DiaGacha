@@ -1,21 +1,27 @@
 # DiaGacha · 咫牌
 
-戏剧混搭抽卡网页游戏。当前版本 **v56**（2026-11-15）面向小范围邀请试玩：500 张常驻卡，777 张长期总图鉴。
+戏剧混搭抽卡网页游戏。当前版本 **v57**（2026-11-16）面向小范围邀请试玩：500 张常驻卡，777 张长期总图鉴。
 
 ## 打开游戏与版本记录
 
-- **[手机／电脑打开 v56](https://canoeliu917.github.io/DiaGacha/?v=56)**
-- **[固定分享入口 v56](https://canoeliu917.github.io/DiaGacha/releases/v56/index.html)**
+- **[手机／电脑打开 v57](https://canoeliu917.github.io/DiaGacha/?v=57)**
+- **[固定分享入口 v57](https://canoeliu917.github.io/DiaGacha/releases/v57/index.html)**
 - **[500张卡的碰撞学习图鉴](https://canoeliu917.github.io/DiaGacha/docs/collision-explorer-v55.html)**
-- **[全部版本更新记录：v21–v56](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/CHANGELOG.md)**
-- [v56 本次改动与验收](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/changelog/CHANGELOG-v56.md)
-- [最新版完整源码](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38) · [v55 固定试玩归档](https://canoeliu917.github.io/DiaGacha/releases/v55/index.html) · [v54 固定试玩归档](https://canoeliu917.github.io/DiaGacha/releases/v54/index.html)
+- **[全部版本更新记录：v21–v57](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/CHANGELOG.md)**
+- [v57 本次改动与验收](https://github.com/Canoeliu917/DiaGacha/blob/codex/scoring-v38/changelog/CHANGELOG-v57.md)
+- [最新版完整源码](https://github.com/Canoeliu917/DiaGacha/tree/codex/scoring-v38) · [v56 固定试玩归档](https://canoeliu917.github.io/DiaGacha/releases/v56/index.html) · [v55 固定试玩归档](https://canoeliu917.github.io/DiaGacha/releases/v55/index.html) · [v54 固定试玩归档](https://canoeliu917.github.io/DiaGacha/releases/v54/index.html)
 
 当前游戏由 `codex/scoring-v38` 分支根目录发布。仓库默认首页也提供上述导航；查看或下载完整最新版时，请使用“最新版完整源码”。下载后直接在浏览器打开其中的 `index.html` 即可游玩。
 
 根目录游戏入口指向最近发布版，网址中的 `?v=数字` 仅用于刷新缓存。v54 起使用 `releases/v54/index.html` 固定版本路径分享结果；以后的更新必须保留该文件，保证旧卡组继续显示当时的故事和分数。更早版本请通过更新记录中的固定提交和源码快照查看。
 
 [原 Sites 入口](https://diagacha-v38.whole-elk-7752.chatgpt.site)为旧入口；请使用上方 GitHub Pages 入口。同一浏览器中同一域名的根目录和版本目录共用收藏；不同浏览器、域名和设备不自动同步，可通过「我的存档」导出／导入。
+
+## v57 更新
+
+- 500 张正式卡的「在咫台检索」对齐到已核对的 https://diastage.art 检索地址和分类。这是深链对齐，不是重写卡面文案。
+- 编号、名称、维度、稀有度、攻防、名气、评分、小注、看点和标签都不改。277 张预留卡不改。
+- 新分享指向 `releases/v57/index.html`。公开入口使用 `?v=57`。v54、v55、v56 归档不改。
 
 ## v56 更新
 
