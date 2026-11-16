@@ -1,0 +1,37 @@
+咫台500张咫牌第三轮后续最终交接
+时间：2026-11-15T20:45:15.381Z；触发：220项全部复查完成
+冻结基线：DETAILED 279 / METADATA_ONLY 1 / MISS 219 / BLOCKED 1
+当前：DETAILED 322 / METADATA_ONLY 1 / MISS 176 / BLOCKED 1
+本轮处理：220/220；本批新增升级：0；累计新增升级：43
+本批新公开id：无
+累计新公开资源：
+owner-ocr-20261116-cont-xplace-balcony | 阳台｜西哈诺 | 西哈诺CYRANO.pdf；王文融译
+owner-ocr-20261116-cont-xplace-convent | 修道院｜西哈诺 | 西哈诺CYRANO.pdf；王文融译
+owner-ocr-20261116-cont-xplace-snowfield | 雪原｜大雪地 | 大雪地-87杨利民-20170823号重修.pdf
+owner-ocr-20261116-cont-yplace-zhongjun | 中军帐｜裘力斯·凯撒 | MIT The Complete Works of William Shakespeare / Complete Moby Shakespeare HTML；英文原文；Julius Caesar
+owner-ocr-20261116-cont-place-v21-publicbath | 公共浴室｜命运的拨弄_或_蒸得舒服_埃_布拉金斯基-3 | 命运的拨弄_或_蒸得舒服_埃_布拉金斯基-3.pdf
+owner-ocr-20261116-cont-xplace-factory | 工厂｜巴巴拉少校 | Gutenberg #3790（2015更新），Major Barbara英文原作，三幕完整；GITenberg保存版，无译者
+owner-ocr-20261116-cont-yplace-deck | 甲板｜培尔·金特 | Gutenberg #66239 The Collected Works of Henrik Ibsen Vol. IV；William及Charles Archer英译；所取GITenberg 2021电子版题头为William Heinemann 1912重印（1907全集初印），五幕全剧
+owner-ocr-20261116-cont-place-v21-photostudio | 旧照相馆｜野鸭 | Project Gutenberg #70577；The Collected Works of Henrik Ibsen, Vol. VIII，William Heinemann 1910重印（初版1907）所收本剧；Frances E. Archer；William Archer修订／编辑 英译；英文全文
+owner-ocr-20261116-cont-eb1911-passion | 受难剧｜Oberammergau（1911历史词条节录） | Encyclopaedia Britannica, Eleventh Edition, Volume 19 (1911), Oberammergau；Wikisource固定版本14165539；原英语历史词条第2至5段节录
+owner-ocr-20261116-cont-xplace-dock | 码头｜阮玲玉 | 阮玲玉-56刘锦云-20200225号20修.pdf
+owner-ocr-20261116-cont-xplace-grave | 墓地｜哈姆雷特 | 哈姆雷特-128朱生豪译-20160511号精修.pdf；朱生豪译
+owner-ocr-20261116-cont-xplace-kitchen | 厨房｜朱莉小姐 | Plays by August Strindberg, Second Series，Edwin Björkman英译Authorized Edition；Gutenberg #14347（2004电子版）；所收Miss Julia全剧，附译者导言与作者序
+owner-ocr-20261116-cont-yplace-cliff | 悬崖｜李尔王 | MIT The Complete Works of William Shakespeare / Complete Moby Shakespeare HTML；英文原文；King Lear
+owner-ocr-20261116-cont-yplace-dungeon | 地牢｜浮士德 | Gutenberg #2229（2010更新）与#2230（2012更新），德文第一部及第二部完整原文；Michael Pullen电子转录；GITenberg保存版，无译者
+owner-ocr-20261116-cont-yplace-ballroom | 舞厅｜樱桃园 | 樱桃园-童道明译.pdf；童道明译
+owner-ocr-20261116-cont-pd-woyzeck-franzos1879 | 沃伊采克（1879年Franzos版残篇） | Georg Büchner’s Sämmtliche Werke und handschriftlicher Nachlaß，Karl Emil Franzos 编，J. D. Sauerländischer Verlag，Frankfurt am Main，1879，pp.161–201；Wozzeck: Ein Trauerspiel-Fragment，德文残篇历史编订本，场次依该版，不是作者定稿或现代通行编排。
+本批升级卡：无
+田汉《关汉卿》：METADATA_ONLY；详见scripts-review及audit。
+未改正式500张卡id、名称、稀有度或分数；未改游戏代码。冻结20261116终稿哈希不变；映射仍为 https://diastage.art/?q=…&category=scripts|knowledge。
+运行索引沿用应用既有导入文件diagacha-search-index-20261115.json，仅追加本轮已核映射；新交接索引全部使用20261116-cont前缀。
+PDF原件保持hosting=private-local-pdf；机器识别、首遍稿与公版电子转录不等于人工终校，〔〕及疑读保留。
+西厢记WXJ-S01及红娘仍不发布，不开回校／续遍；长生殿CSD-S01、梧桐雨BP-S01不开回校／二遍／核审。未操作app-server PID22360或exec-server PID21700。
+文件：DiaMotif/records/diagacha-remaining-coverage-20261116-cont-audit.json；DiaMotif/records/diagacha-remaining-coverage-20261116-cont-gaps.md；DiaMotif/records/diagacha-remaining-coverage-20261116-cont-verification.json；DiaMotif/records/diagacha-remaining-coverage-20261116-cont-link-evidence.json；knowledge/diagacha-search-index-20261116-cont.json
+独立复核纠正：复调剧场原升级撤回，现为MISS；历史批次原样保留，本交接数字已扣除。详见 DiaMotif/records/diagacha-remaining-coverage-20261116-cont-corrections.json。
+最终本机回归：第三轮279张DETAILED全部卡名与映射查询命中；97个既有正文精确核验；本轮43张升级终验通过。PDF未登录下载HTTP 401。
+本轮新资源16项：14个既有正文场景摘录、1篇1911历史知识词条节录、1部1879历史残篇版本；不把残篇称为作者完整定稿。
+逐项复查：知识114张（40升级／74 MISS）；剧目人物含关汉卿106项（3升级／102 MISS／1 METADATA_ONLY）；原BLOCKED 1不动。
+独立来源审查：DiaMotif/records/diagacha-remaining-coverage-20261116-cont-independent-knowledge-qa.json；DiaMotif/records/diagacha-remaining-coverage-20261116-cont-independent-woyzeck-qa.json；保留性审查：DiaMotif/records/diagacha-remaining-coverage-20261116-cont-independent-preservation-qa.json。
+既有授权目录215件本轮哈希全部一致；田汉《关汉卿》未获可核完整正文；Iceman电子候选缺可核印本底本，未收入。
+验收范围为本机4318；未部署远端，全部检索映射仍指向https://diastage.art。

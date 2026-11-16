@@ -1,0 +1,57 @@
+咫台500张咫牌第三轮最终交付
+时间：2026-11-15T19:50:20.190Z；触发：276张剩余名单已按指定顺序全部处理
+第二轮基线：223 / 1 / 275 / 1（DETAILED / METADATA_ONLY / MISS / BLOCKED）
+当前：279 / 1 / 219 / 1
+净变化：DETAILED +56；METADATA_ONLY +0；MISS -56；BLOCKED +0
+顺序处理：276/276；全名单逐卡处理完成
+本轮新增升级：56张，均经本机API核验；本轮新公开18部完整作品正文、5个原文场景关联资源。
+本轮新公开资源（截至本批）：
+浮士德 | owner-ocr-20261116-pd-faust | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg2229.txt | Gutenberg #2229（2010更新）与#2230（2012更新），德文第一部及第二部完整原文；Michael Pullen电子转录；GITenberg保存版，无译者
+皮格马利翁 | owner-ocr-20261116-pd-pygmalion | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg3825.txt | Gutenberg #3825，1912英文原作，2009电子版；GITenberg保存，原文件说明恢复了缩写撇号；五幕及作者后记
+阿伽门农 | owner-ocr-20261116-pd-agamemnon | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg8604.txt | Gutenberg #8604 The House of Atreus（2014电子版）；E. D. A. Morshead历史英译，《俄瑞斯忒亚》第一部《阿伽门农》完整正文
+华伦夫人的职业 | owner-ocr-20261116-pd-mrswarren | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg1097.txt | Gutenberg #1097，1894英文原作及The Author’s Apology（1902），2011电子版；GITenberg保存；四幕完整
+被缚的普罗米修斯 | owner-ocr-20261116-pd-prometheus | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg8714.txt | Gutenberg #8714 Four Plays of Aeschylus（2013电子版）；E. D. A. Morshead历史英译，所收Prometheus Bound全剧
+费德尔 | owner-ocr-20261116-pd-phedre | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg1977.txt | Gutenberg #1977 Phaedra（2008电子版）；Robert Bruce Boswell历史英译，拉辛《费德尔》五幕完整正文
+伤心之家 | owner-ocr-20261116-pd-heartbreak | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg3543.txt | Gutenberg #3543 Heartbreak House（2009电子版）；英文原作，1913–1916，三幕及作者序
+费加罗的婚礼 | owner-ocr-20261116-pd-figaro | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg20577.txt | Gutenberg #20577 La Folle Journée ou le Mariage de Figaro（2007电子版）；法国国家图书馆BnF/Gallica扫描底本转录，1785批准印行本，五幕法文原作
+伪君子 | owner-ocr-20261116-pd-tartuffe | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg2027.txt | Gutenberg #2027 Tartuffe; Or, The Hypocrite（2008电子版）；Curtis Hidden Page历史英译，五幕完整正文
+厄勒克特拉 | owner-ocr-20261116-pd-electra | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg14484.txt | Gutenberg #14484 The Seven Plays in English Verse（2004电子版）；Lewis Campbell英译，Oxford University Press修订版所收Electra全剧
+造谣学校 | owner-ocr-20261116-pd-scandal | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg1929.txt | Gutenberg #1929 The School for Scandal（2013电子版）；谢立丹英文原作，据Fraser Rae《Sheridan’s Plays Now Printed as He Wrote Them》手稿整理文本（原转录说明），五幕及尾声
+培尔·金特 | owner-ocr-20261116-pd-peer | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg66239.txt | Gutenberg #66239 The Collected Works of Henrik Ibsen Vol. IV；William及Charles Archer英译；所取GITenberg 2021电子版题头为William Heinemann 1912重印（1907全集初印），五幕全剧
+吝啬鬼 | owner-ocr-20261116-pd-miser | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg6923.txt | The Miser (L’Avare)，Charles Heron Wall历史英译，含简短导言与注释；Gutenberg #6923（2009更新），五幕完整
+石库门｜上海屋檐下 | owner-ocr-20261115-37c3a7507c4a7269-round3-yplace-shikumen | F:\中国现代多幕剧独幕剧\上海屋檐下-74夏衍-20230408号21修.pdf | 上海屋檐下-74夏衍-20230408号21修.pdf
+巴巴拉少校 | owner-ocr-20261116-pd-majorbarbara | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg3790.txt | Gutenberg #3790（2015更新），Major Barbara英文原作，三幕完整；GITenberg保存版，无译者
+丹东之死 | owner-ocr-20261116-pd-danton | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg5072.txt | Gutenberg #5072，Dantons Tod德文原作，2002电子文本Edition 10；GITenberg保存版，四幕完整，无译者
+春醒 | owner-ocr-20261116-pd-springawake | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg45091.txt | Frühlings Erwachen. Eine Kindertragödie，Albert Langen München 1907年第11–15版，Gutenberg #45091（2014电子版），德文三幕原作，无译者
+窦娥刑场／法场｜窦娥冤第三折 | owner-ocr-20261116-doueyuan-execution | DiaMotif/private/intake-pd-authors-20261101/guanhanqing-yuan/GHQ-S01-DouEYuan/deliverables/GHQ-S01-DouEYuan-keshen-simplified.txt | 单一底本核审稿 GHQ-S01-DouEYuan；第三折原文关联，扫描209–214页，保留疑读
+鸟 | owner-ocr-20261116-pd-birds | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg20664.txt | Aristophane, Traduction nouvelle, Tome II，Eugène Talbot法译，Alphonse Lemerre巴黎1897年版；Gutenberg #20664（2007），BNF/Gallica扫描转录所收Les Oiseaux全剧
+朱莉小姐 | owner-ocr-20261116-pd-missjulia | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg14347.txt | Plays by August Strindberg, Second Series，Edwin Björkman英译Authorized Edition；Gutenberg #14347（2004电子版）；所收Miss Julia全剧，附译者导言与作者序
+阁楼｜野鸭 | owner-ocr-20261115-pd-duck-round3-xplace-attic | D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261115\gutenberg\pg70577.txt | Project Gutenberg #70577；The Collected Works of Henrik Ibsen, Vol. VIII，William Heinemann 1910重印（初版1907）所收本剧；Frances E. Archer；William Archer修订／编辑 英译；英文全文
+车厢｜绝对信号 | owner-ocr-20261115-8c32a0181555bd10-round3-xplace-carriage | F:\中国现代多幕剧独幕剧\绝对信号-60刘会远-20210218号20修.pdf | 绝对信号-60刘会远-20210218号20修.pdf
+公堂｜窦娥冤第二折 | owner-ocr-20261116-doueyuan-court | DiaMotif/private/intake-pd-authors-20261101/guanhanqing-yuan/GHQ-S01-DouEYuan/deliverables/GHQ-S01-DouEYuan-keshen-simplified.txt | 单一底本核审稿 GHQ-S01-DouEYuan；第二折公堂场面；扫描206–209／印196–199
+田汉《关汉卿》查找位置与结果：DiaMotif/records/diagacha-remaining-coverage-20261116-local-review.json；当前 METADATA_ONLY。
+API scripts 田汉 关汉卿：total=1；ids=pd-script-20261108-ghq-s01-doueyuan；自身正文=无；《窦娥冤》或元代作者关汉卿的作品不计田汉《关汉卿》正文。
+API scripts 关汉卿：total=0；ids=无；自身正文=无；《窦娥冤》或元代作者关汉卿的作品不计田汉《关汉卿》正文。
+API scripts 西厢记：total=0；ids=无；自身正文=无；他篇提及不计WXJ-S01公开。
+西厢记 WXJ-S01 仍未公开，也未开回校／续遍；长生殿／梧桐雨未开回校／二遍／核审。
+机器识别／首遍校勘不等于人工终校；低文字量页及〔〕疑读保留。
+PDF原件保持 hosting=private-local-pdf，未开放未登录整本下载。未改500张正式卡身份、名称、稀有度或分数，未改DiaGacha游戏代码。检索映射仍为 https://diastage.art。
+现有正文运行数据包仅追加来源和关联；20261115 ready/audit/gaps/verification/link-evidence/night索引哈希不变。未操作app-server/exec-server等常驻进程。
+双向API：伊莉莎 → 皮格马利翁 (owner-ocr-20261116-pd-pygmalion) → 正文反链 伊莉莎；正查total=1，反查total=1，正文SHA及id见verification；通过=true
+双向API：卡珊德拉 → 阿伽门农 (owner-ocr-20261116-pd-agamemnon) → 正文反链 卡珊德拉；正查total=1，反查total=1，正文SHA及id见verification；通过=true
+双向API：费德尔 → 费德尔 (owner-ocr-20261116-pd-phedre) → 正文反链 费德尔；正查total=1，反查total=1，正文SHA及id见verification；通过=true
+双向API：曾皓 → 北京人 (owner-ocr-20261115-a0e7d368411023a8) → 正文反链 曾皓；正查total=1，反查total=2，正文SHA及id见verification；通过=true
+双向API：即兴插入 → 话剧艺术概论 (owner-ocr-20261115-ce228fb6864c23b2) → 正文反链 即兴插入；正查total=1，反查total=21，正文SHA及id见verification；通过=true
+双向API：重复段落 → 论戏剧性 (owner-ocr-20261115-c0f15eccc4864518) → 正文反链 重复段落；正查total=1，反查total=7，正文SHA及id见verification；通过=true
+双向API：黄家楣 → 上海屋檐下 (owner-ocr-20261115-37c3a7507c4a7269) → 正文反链 黄家楣；正查total=1，反查total=2，正文SHA及id见verification；通过=true
+双向API：假定性公开 → 戏剧鉴赏 (owner-ocr-20261115-30fd94146fc8f81b) → 正文反链 假定性公开；正查total=1，反查total=7，正文SHA及id见verification；通过=true
+文件：DiaMotif/records/diagacha-remaining-coverage-20261116-audit.json；DiaMotif/records/diagacha-remaining-coverage-20261116-gaps.md；DiaMotif/knowledge/diagacha-search-index-20261116.json；DiaMotif/records/diagacha-remaining-coverage-20261116-verification.json；DiaMotif/records/diagacha-remaining-coverage-20261116-link-evidence.json
+田汉《关汉卿》已查找位置：F:/中国戏剧理论（25文件）；F:/中国现代多幕剧独幕剧（37文件）；DiaMotif/private/intake-owner-approved-fdrive-20261108（127文件）；D:/Obsidian/Acthon/戏剧学习资料（11文件）；D:/Obsidian/剧本资料（15文件）；另查 DiaMotif/private 既有文稿。专包仅有阻塞证据，目录/评论/《窦娥冤》均非本剧正文。
+多文件来源 owner-ocr-20261116-pd-faust：D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg2229.txt；D:\GrokBot\DiaStage\DiaMotif\private\diagacha-remaining-coverage-20261116\public-domain\pg2230.txt
+现有相关测试与源码校验报告：DiaMotif/records/diagacha-remaining-coverage-20261116-integration-qa.json（含既有断言与本轮公开授权范围不一致的失败项）；来源独立复核：DiaMotif/records/diagacha-remaining-coverage-20261116-source-independent-qa.json。
+本轮咫台唯一代码适配为资源schema增加20261116批次日期和正文ID允许值；未改游戏代码、PDF权限或检索算法。
+最终主验收：第二轮223张DETAILED的卡名与深链在线命中全部保留；8组双向API全部通过；23个新资源正文与落盘原文逐字一致；匿名整本PDF请求HTTP 401。
+额外独立API抽检5/5通过：阿巴贡→吝啬鬼、莫里茨→春醒、罗伯斯庇尔→丹东之死、克里斯汀→朱莉小姐、重复段落→论戏剧性；目标id、正文与原书反链均核验。记录：DiaMotif/records/diagacha-remaining-coverage-20261116-independent-api-qa.json。
+独立静态审核：25批及终稿均通过；相关既有测试46/52通过，6项旧断言失败的具体文件、行号和原因见integration-qa.json；发布策略6/6及owner-ocr正文检查19/19通过，catalog.ts的Biome检查通过。未为使测试通过而修改旧断言。
+逐卡本机查找：DiaMotif/records/diagacha-remaining-coverage-20261116-local-card-scan.json；逐卡API记录：audit.json 的 queryEvidence 与 round3；审计每行保留本轮之前状态。
+此前即时交付批次：DiaMotif/records/diagacha-remaining-coverage-20261116-batch01-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch02-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch03-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch04-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch05-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch06-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch07-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch08-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch09-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch10-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch11-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch12-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch13-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch14-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch15-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch16-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch17-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch18-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch19-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch20-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch21-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch22-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch23-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch24-ready.txt；DiaMotif/records/diagacha-remaining-coverage-20261116-batch25-ready.txt

@@ -1,0 +1,1542 @@
+{
+  "at": "2026-11-15T20:45:15.381Z",
+  "base": "http://127.0.0.1:4318",
+  "reason": "220项全部复查完成",
+  "baseline": {
+    "DETAILED": 279,
+    "METADATA_ONLY": 1,
+    "MISS": 219,
+    "BLOCKED": 1
+  },
+  "totals": {
+    "DETAILED": 322,
+    "METADATA_ONLY": 1,
+    "MISS": 176,
+    "BLOCKED": 1
+  },
+  "processed": 220,
+  "remaining": 0,
+  "newCardIds": [],
+  "newResources": [],
+  "cumulativeNewCardIds": [
+    "place-stella",
+    "place-v21-willroom",
+    "xplace-balcony",
+    "xplace-market",
+    "xplace-convent",
+    "xplace-snowfield",
+    "yplace-zhongjun",
+    "yplace-altar",
+    "place-v21-publicbath",
+    "ystyle-passion",
+    "style-v21-sensory",
+    "dir-ritual",
+    "style-physical",
+    "dir-solo",
+    "dir-v21-timecut",
+    "style-kabuki",
+    "xstyle-chuanju",
+    "xdir-facechange",
+    "xplace-factory",
+    "ystyle-kyogen",
+    "ystyle-ritualstyle",
+    "ydir-lingzi",
+    "yplace-deck",
+    "place-v21-photostudio",
+    "v23-style-visual",
+    "place-gullen",
+    "xdir-bang",
+    "xplace-dock",
+    "xplace-grave",
+    "xplace-kitchen",
+    "ydir-jijifeng",
+    "yplace-chengmen",
+    "yplace-cliff",
+    "yplace-dungeon",
+    "yplace-ballroom",
+    "dir-call",
+    "place-baihua",
+    "xdir-drum",
+    "style-v21-courtroom",
+    "dir-v21-endingloop",
+    "v23-play-woyzeck",
+    "v23-role-woyzeck",
+    "v23-sup-marie"
+  ],
+  "cumulativeNewResources": [
+    {
+      "id": "owner-ocr-20261116-cont-xplace-balcony",
+      "title": "阳台｜西哈诺",
+      "edition": "西哈诺CYRANO.pdf；王文融译",
+      "sourceDocumentId": "owner-ocr-20261115-403593f2cad13b87"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-convent",
+      "title": "修道院｜西哈诺",
+      "edition": "西哈诺CYRANO.pdf；王文融译",
+      "sourceDocumentId": "owner-ocr-20261115-403593f2cad13b87"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-snowfield",
+      "title": "雪原｜大雪地",
+      "edition": "大雪地-87杨利民-20170823号重修.pdf",
+      "sourceDocumentId": "owner-ocr-20261115-20fc8c1ed1d69485"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-zhongjun",
+      "title": "中军帐｜裘力斯·凯撒",
+      "edition": "MIT The Complete Works of William Shakespeare / Complete Moby Shakespeare HTML；英文原文；Julius Caesar",
+      "sourceDocumentId": "owner-ocr-20261115-mit-julius-caesar"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-place-v21-publicbath",
+      "title": "公共浴室｜命运的拨弄_或_蒸得舒服_埃_布拉金斯基-3",
+      "edition": "命运的拨弄_或_蒸得舒服_埃_布拉金斯基-3.pdf",
+      "sourceDocumentId": "owner-ocr-20261115-3231571328435987"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-factory",
+      "title": "工厂｜巴巴拉少校",
+      "edition": "Gutenberg #3790（2015更新），Major Barbara英文原作，三幕完整；GITenberg保存版，无译者",
+      "sourceDocumentId": "owner-ocr-20261116-pd-majorbarbara"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-deck",
+      "title": "甲板｜培尔·金特",
+      "edition": "Gutenberg #66239 The Collected Works of Henrik Ibsen Vol. IV；William及Charles Archer英译；所取GITenberg 2021电子版题头为William Heinemann 1912重印（1907全集初印），五幕全剧",
+      "sourceDocumentId": "owner-ocr-20261116-pd-peer"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-place-v21-photostudio",
+      "title": "旧照相馆｜野鸭",
+      "edition": "Project Gutenberg #70577；The Collected Works of Henrik Ibsen, Vol. VIII，William Heinemann 1910重印（初版1907）所收本剧；Frances E. Archer；William Archer修订／编辑 英译；英文全文",
+      "sourceDocumentId": "owner-ocr-20261115-pd-duck"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-eb1911-passion",
+      "title": "受难剧｜Oberammergau（1911历史词条节录）",
+      "edition": "Encyclopaedia Britannica, Eleventh Edition, Volume 19 (1911), Oberammergau；Wikisource固定版本14165539；原英语历史词条第2至5段节录",
+      "sourceDocumentId": null
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-dock",
+      "title": "码头｜阮玲玉",
+      "edition": "阮玲玉-56刘锦云-20200225号20修.pdf",
+      "sourceDocumentId": "owner-ocr-20261115-1f04f7cab7f65d96"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-grave",
+      "title": "墓地｜哈姆雷特",
+      "edition": "哈姆雷特-128朱生豪译-20160511号精修.pdf；朱生豪译",
+      "sourceDocumentId": "owner-ocr-20261115-13c938216219a670"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-kitchen",
+      "title": "厨房｜朱莉小姐",
+      "edition": "Plays by August Strindberg, Second Series，Edwin Björkman英译Authorized Edition；Gutenberg #14347（2004电子版）；所收Miss Julia全剧，附译者导言与作者序",
+      "sourceDocumentId": "owner-ocr-20261116-pd-missjulia"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-cliff",
+      "title": "悬崖｜李尔王",
+      "edition": "MIT The Complete Works of William Shakespeare / Complete Moby Shakespeare HTML；英文原文；King Lear",
+      "sourceDocumentId": "owner-ocr-20261115-mit-lear"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-dungeon",
+      "title": "地牢｜浮士德",
+      "edition": "Gutenberg #2229（2010更新）与#2230（2012更新），德文第一部及第二部完整原文；Michael Pullen电子转录；GITenberg保存版，无译者",
+      "sourceDocumentId": "owner-ocr-20261116-pd-faust"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-ballroom",
+      "title": "舞厅｜樱桃园",
+      "edition": "樱桃园-童道明译.pdf；童道明译",
+      "sourceDocumentId": "owner-ocr-20261115-d3471125046fb9a2"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-pd-woyzeck-franzos1879",
+      "title": "沃伊采克（1879年Franzos版残篇）",
+      "edition": "Georg Büchner’s Sämmtliche Werke und handschriftlicher Nachlaß，Karl Emil Franzos 编，J. D. Sauerländischer Verlag，Frankfurt am Main，1879，pp.161–201；Wozzeck: Ein Trauerspiel-Fragment，德文残篇历史编订本，场次依该版，不是作者定稿或现代通行编排。",
+      "sourceDocumentId": null
+    }
+  ],
+  "baselineFilesUnchanged": true,
+  "baselineBodyTextAndPagesUnchanged": true,
+  "protected": [
+    {
+      "path": "DiaMotif/records/diagacha-remaining-coverage-20261116-ready.txt",
+      "sha256": "d4189e0ee6e1a02739429b69ee6bd0fb296edef77776e2c08f66d390aba4c126"
+    },
+    {
+      "path": "DiaMotif/records/diagacha-remaining-coverage-20261116-audit.json",
+      "sha256": "93914745f899fc122ef9327352d76364813c64acc572f2b749a491b0f43c9e73"
+    },
+    {
+      "path": "DiaMotif/records/diagacha-remaining-coverage-20261116-gaps.md",
+      "sha256": "8a812dfd3c42c4165490925e9f52f732e21eab48c67036b404ee9125bdb39713"
+    },
+    {
+      "path": "DiaMotif/records/diagacha-remaining-coverage-20261116-verification.json",
+      "sha256": "8e98fd073f59980392cd5468fde9f3902e07aede7e117a0eb3a610e6a4f76b9f"
+    },
+    {
+      "path": "DiaMotif/records/diagacha-remaining-coverage-20261116-link-evidence.json",
+      "sha256": "cbe97ee9eda59bfe392144b1a535a69f87f7cda1346c5760bc4e44df45a13bf4"
+    },
+    {
+      "path": "DiaMotif/knowledge/diagacha-search-index-20261116.json",
+      "sha256": "6256dedff6609bc224edc2a8e4d6f14d6a8ef187aabc7c4df9be9ff012df8cff"
+    },
+    {
+      "path": "_ops/diagacha-diastage-handoff-20261115/catalog-500-slim.json",
+      "sha256": "66189e4fd94f8dc8ee7759a808936907a1fe5e9966ec656aad6bfd374a3626e8"
+    }
+  ],
+  "processingOrder": [
+    "place-stella",
+    "place-v21-bordercheckpoint",
+    "place-v21-willroom",
+    "place-v22-gallery",
+    "place-v22-radiobooth",
+    "place-v22-cage",
+    "place-v22-embassyhall",
+    "place-v22-observatory",
+    "xplace-balcony",
+    "xplace-market",
+    "xplace-convent",
+    "xplace-snowfield",
+    "yplace-well",
+    "yplace-zhongjun",
+    "yplace-altar",
+    "yplace-stable",
+    "yplace-workshop",
+    "place-v21-publicbath",
+    "place-v21-funeralhome",
+    "place-v21-lostproperty",
+    "ystyle-passion",
+    "ystyle-image",
+    "ydir-diaomao",
+    "style-v21-stagedreading",
+    "style-v21-signedtheatre",
+    "style-v21-sensory",
+    "dir-v21-testimony",
+    "dir-ritual",
+    "style-physical",
+    "dir-solo",
+    "xstyle-shadow",
+    "xstyle-site",
+    "ydir-qichang",
+    "style-v21-autobiographical",
+    "style-v21-polyphonic",
+    "style-v21-maximalist",
+    "style-v21-rehearsaldrama",
+    "dir-v21-samewords",
+    "dir-v21-livefoley",
+    "dir-v21-timecut",
+    "dir-v21-soundimage",
+    "dir-v21-livesubtitles",
+    "v23-dir-misremember",
+    "style-kabuki",
+    "xstyle-chuanju",
+    "xstyle-forum",
+    "xdir-sleeve",
+    "xdir-facechange",
+    "xplace-factory",
+    "xplace-mine",
+    "ystyle-kyogen",
+    "ystyle-ritualstyle",
+    "ydir-lingzi",
+    "ydir-dachushou",
+    "ydir-qiangbei",
+    "ydir-smoke",
+    "yplace-deck",
+    "style-v21-psychothriller",
+    "dir-v21-linerelay",
+    "dir-v21-proptransfer",
+    "dir-v21-emptychair",
+    "place-v21-photostudio",
+    "v23-style-verbatim",
+    "v23-style-visual",
+    "v23-dir-readstage",
+    "v23-dir-countdown",
+    "play-godot",
+    "play-salesman",
+    "play-glass",
+    "role-willy",
+    "role-gogo",
+    "role-blanche",
+    "role-vladimir",
+    "xplay-galileo",
+    "yplay-farewell",
+    "yplay-redlantern",
+    "yrole-hamm",
+    "role2-clov",
+    "role2-claire-maids",
+    "play-v21-justes",
+    "play-v21-caligula",
+    "v23-play-dreamlike",
+    "v23-play-livefield",
+    "play-visit",
+    "role-liniang",
+    "role-shen",
+    "role-yuji",
+    "xplay-quyuan",
+    "xplay-shangyang",
+    "xrole-pozzo",
+    "xrole-lucky",
+    "xrole-hongniang",
+    "xrole-zhulian",
+    "xrole-yangxiu",
+    "yplay-endgame",
+    "yplay-caiwenji",
+    "yplay-wotu",
+    "yplay-jiang",
+    "role2-martha-misunderstanding",
+    "role2-jean-rhinoceros",
+    "role2-solange",
+    "play-v21-malentendu",
+    "play-v21-maids",
+    "play-v21-happydays",
+    "role-v21-berenger",
+    "v23-play-copenhagen",
+    "v23-play-busstop",
+    "v23-role-heisenberg",
+    "v23-role-dreamdoctor",
+    "v23-sup-bohr",
+    "play-peony",
+    "play-goodperson",
+    "play-baimao",
+    "play-street",
+    "role-courage",
+    "role-mengmei",
+    "xplay-rhino",
+    "xplay-bald",
+    "xplay-chairs",
+    "xplay-caoyang",
+    "xplay-liqiu",
+    "xrole-shang",
+    "yplay-krapp",
+    "yrole-zijirong",
+    "yrole-mackheath",
+    "role2-shi-professor",
+    "role-v21-caligularole",
+    "role-v21-marytyrone",
+    "v23-play-allmysons",
+    "v23-role-joekeller",
+    "xplay-longday",
+    "xplay-guantheplay",
+    "yplay-threepenny",
+    "yrole-bawang",
+    "role2-nagg",
+    "role2-xiu-dingxin",
+    "role2-xia-professor",
+    "play-v21-unburied",
+    "role-v21-edmundtyrone",
+    "role-v21-amanda",
+    "v23-play-equus",
+    "v23-play-art",
+    "v23-play-iceman",
+    "v23-role-eddie",
+    "v23-role-hickey",
+    "v23-role-alan",
+    "v23-sup-kate",
+    "v23-sup-harryhope",
+    "v23-sup-marc",
+    "xplay-lou",
+    "xrole-chanjuan",
+    "xrole-cao",
+    "yrole-tietmei",
+    "yrole-aqing",
+    "yrole-linda",
+    "role2-nell",
+    "role2-fire-chief",
+    "play-v21-americandream",
+    "role-v21-tomglass",
+    "role-v21-winnie",
+    "role-v21-jimglass",
+    "v23-play-viewbridge",
+    "v23-role-jinzhi",
+    "v23-role-serge",
+    "v23-sup-catherine",
+    "v23-sup-stationmaster",
+    "v23-sup-zhaosan",
+    "v23-role-silentman",
+    "v23-sup-nurse",
+    "place-sichuan",
+    "place-gullen",
+    "xdir-bang",
+    "xplace-dock",
+    "xplace-grave",
+    "xplace-shrine",
+    "xplace-kitchen",
+    "ystyle-object",
+    "ydir-jijifeng",
+    "ydir-rankou",
+    "yplace-crossroad",
+    "yplace-huafang",
+    "yplace-jindian",
+    "yplace-chengmen",
+    "yplace-cafe",
+    "yplace-cliff",
+    "yplace-dungeon",
+    "yplace-ballroom",
+    "style-v21-mystery",
+    "dir-v21-unreliable",
+    "dir-v21-selectivereplay",
+    "place-v21-diningcar",
+    "v23-style-chamber",
+    "v23-dir-allwatch",
+    "v23-dir-floorplan",
+    "v23-dir-silentopen",
+    "dir-call",
+    "place-baihua",
+    "xstyle-soundth",
+    "xdir-drum",
+    "xdir-mirror",
+    "ystyle-errenzhuan",
+    "ystyle-install",
+    "ystyle-drawingroom",
+    "ydir-fanwork",
+    "ydir-jiangshi",
+    "ydir-chujiang",
+    "style-v21-courtroom",
+    "dir-v21-simultaneoussolos",
+    "dir-v21-occlusion",
+    "dir-v21-compression",
+    "v23-style-translation",
+    "v23-dir-objectchain",
+    "v23-dir-soundfirst",
+    "v23-dir-revolving",
+    "style-v21-epistolary",
+    "dir-v21-endingloop",
+    "place-v21-archive",
+    "v23-play-woyzeck",
+    "v23-role-woyzeck",
+    "v23-sup-marie"
+  ],
+  "batches": [
+    {
+      "number": "01",
+      "reason": "新增升级达到15张",
+      "processed": 35,
+      "totals": {
+        "DETAILED": 294,
+        "METADATA_ONLY": 1,
+        "MISS": 204,
+        "BLOCKED": 1
+      },
+      "ready": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch01-ready.txt"
+    },
+    {
+      "number": "02",
+      "reason": "LR档待办全部复查完成",
+      "processed": 83,
+      "totals": {
+        "DETAILED": 305,
+        "METADATA_ONLY": 1,
+        "MISS": 193,
+        "BLOCKED": 1
+      },
+      "ready": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch02-ready.txt"
+    },
+    {
+      "number": "03",
+      "reason": "UR档待办全部复查完成",
+      "processed": 110,
+      "totals": {
+        "DETAILED": 305,
+        "METADATA_ONLY": 1,
+        "MISS": 193,
+        "BLOCKED": 1
+      },
+      "ready": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch03-ready.txt"
+    },
+    {
+      "number": "04",
+      "reason": "C档待办全部复查完成",
+      "processed": 169,
+      "totals": {
+        "DETAILED": 305,
+        "METADATA_ONLY": 1,
+        "MISS": 193,
+        "BLOCKED": 1
+      },
+      "ready": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch04-ready.txt"
+    },
+    {
+      "number": "05",
+      "reason": "R档待办全部复查完成",
+      "processed": 214,
+      "totals": {
+        "DETAILED": 319,
+        "METADATA_ONLY": 1,
+        "MISS": 179,
+        "BLOCKED": 1
+      },
+      "ready": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch05-ready.txt"
+    },
+    {
+      "number": "06",
+      "reason": "UC档待办全部复查完成",
+      "processed": 217,
+      "totals": {
+        "DETAILED": 320,
+        "METADATA_ONLY": 1,
+        "MISS": 178,
+        "BLOCKED": 1
+      },
+      "ready": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch06-ready.txt"
+    },
+    {
+      "number": "07",
+      "reason": "independent-review-correction",
+      "processed": 217,
+      "totals": {
+        "DETAILED": 319,
+        "METADATA_ONLY": 1,
+        "MISS": 179,
+        "BLOCKED": 1
+      },
+      "ready": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch07-ready.txt"
+    },
+    {
+      "number": "08",
+      "reason": "新公开完整作品或标明版本的历史残篇正文",
+      "processed": 218,
+      "totals": {
+        "DETAILED": 320,
+        "METADATA_ONLY": 1,
+        "MISS": 178,
+        "BLOCKED": 1
+      },
+      "ready": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch08-ready.txt"
+    },
+    {
+      "number": "09",
+      "reason": "SSR档待办全部复查完成",
+      "processed": 219,
+      "totals": {
+        "DETAILED": 321,
+        "METADATA_ONLY": 1,
+        "MISS": 177,
+        "BLOCKED": 1
+      },
+      "ready": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch09-ready.txt"
+    },
+    {
+      "number": "10",
+      "reason": "SR档待办全部复查完成",
+      "processed": 220,
+      "totals": {
+        "DETAILED": 322,
+        "METADATA_ONLY": 1,
+        "MISS": 176,
+        "BLOCKED": 1
+      },
+      "ready": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch10-ready.txt"
+    }
+  ],
+  "corrections": [
+    {
+      "at": "2026-11-15T20:39:13.272Z",
+      "cardId": "style-v21-polyphonic",
+      "from": "DETAILED",
+      "to": "MISS",
+      "reason": "独立复核原书122–124页：正文支持多线叙事和视听复调，但未解释本卡所需的不同人物保留独立立场、不以单一解释收束；不足以据此升级，恢复第三轮MISS。",
+      "source": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-independent-knowledge-qa.json",
+      "affectedHistoricalBatches": [
+        "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch01-ready.txt",
+        "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch02-ready.txt",
+        "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch03-ready.txt",
+        "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch04-ready.txt",
+        "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch05-ready.txt",
+        "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch06-ready.txt"
+      ],
+      "baseline279Unaffected": true,
+      "oldBatchFilesPreserved": true
+    }
+  ],
+  "newResourceBodies": [],
+  "initialLiveChecks": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-initial-live.json",
+  "baselineDetailedLivePassed": 279,
+  "baselineBodiesLivePassed": 97,
+  "independentKnowledgeQa": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-independent-knowledge-qa.json",
+  "independentWoyzeckQa": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-independent-woyzeck-qa.json",
+  "independentPreservationQa": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-independent-preservation-qa.json",
+  "codeUnchanged": true,
+  "pdfGateHttp": 401,
+  "finalNewLinkChecks": [
+    {
+      "cardId": "place-stella",
+      "probes": [
+        {
+          "q": "斯特拉的公寓",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:16.813Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-69812107a56d3d62"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "place-v21-willroom",
+      "probes": [
+        {
+          "q": "遗嘱宣读室",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:17.545Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-2de2862507b7ee86"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xplace-balcony",
+      "probes": [
+        {
+          "q": "阳台",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:18.277Z",
+          "total": 19,
+          "hitIds": [
+            "owner-ocr-20261116-cont-xplace-balcony",
+            "owner-ocr-20261115-d3471125046fb9a2-place-cherry",
+            "owner-ocr-20261115-19de3835eabedbba",
+            "owner-ocr-20261115-c0f15eccc4864518",
+            "owner-ocr-20261115-30fd94146fc8f81b",
+            "owner-ocr-20261115-ce228fb6864c23b2",
+            "owner-ocr-20261115-2bfb13e735e610fe",
+            "owner-ocr-20261115-0aa2d1aaad98b2a7",
+            "owner-ocr-20261115-37e6bc40a999fa88",
+            "owner-ocr-20261115-aa3aeda0b230c02c",
+            "owner-ocr-20261115-81ed6cbb60c2bc3c",
+            "owner-ocr-20261115-a5aed31ca8f5557c",
+            "owner-ocr-20261115-cf02e7c01262081b",
+            "owner-ocr-20261115-69812107a56d3d62",
+            "owner-ocr-20261115-a95a3d6966cee2d9",
+            "owner-ocr-20261115-2ecf45725db9a72d",
+            "owner-ocr-20261115-2dfac6a157db2369",
+            "owner-ocr-20261115-6bf889e81d90ed6f",
+            "owner-ocr-20261115-56ee58b76a782998"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xplace-market",
+      "probes": [
+        {
+          "q": "集市",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:19.013Z",
+          "total": 3,
+          "hitIds": [
+            "owner-ocr-20261115-9c5d86616b9cdc47",
+            "owner-ocr-20261115-df8fee4154059b8d",
+            "owner-ocr-20261115-2dfac6a157db2369"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xplace-convent",
+      "probes": [
+        {
+          "q": "修道院",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:19.745Z",
+          "total": 6,
+          "hitIds": [
+            "owner-ocr-20261116-cont-xplace-convent",
+            "owner-ocr-20261115-24a96a0a8cb0e9ab",
+            "owner-ocr-20261115-30fd94146fc8f81b",
+            "owner-ocr-20261115-0aa2d1aaad98b2a7",
+            "owner-ocr-20261115-aa3aeda0b230c02c",
+            "owner-ocr-20261115-69812107a56d3d62"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xplace-snowfield",
+      "probes": [
+        {
+          "q": "雪原",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:20.477Z",
+          "total": 5,
+          "hitIds": [
+            "owner-ocr-20261116-cont-xplace-snowfield",
+            "owner-ocr-20261115-2bfb13e735e610fe",
+            "owner-ocr-20261115-0aa2d1aaad98b2a7",
+            "owner-ocr-20261115-df8fee4154059b8d",
+            "owner-ocr-20261115-a95a3d6966cee2d9"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "yplace-zhongjun",
+      "probes": [
+        {
+          "q": "中军帐",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:21.211Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261116-cont-yplace-zhongjun"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "yplace-altar",
+      "probes": [
+        {
+          "q": "祭坛",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:21.953Z",
+          "total": 7,
+          "hitIds": [
+            "owner-ocr-20261115-30fd94146fc8f81b",
+            "owner-ocr-20261115-19de3835eabedbba",
+            "owner-ocr-20261115-ce228fb6864c23b2",
+            "owner-ocr-20261115-0aa2d1aaad98b2a7",
+            "owner-ocr-20261115-a95a3d6966cee2d9",
+            "owner-ocr-20261115-2dfac6a157db2369",
+            "owner-ocr-20261115-6bf889e81d90ed6f"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "place-v21-publicbath",
+      "probes": [
+        {
+          "q": "公共浴室",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:22.690Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261116-cont-place-v21-publicbath"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "ystyle-passion",
+      "probes": [
+        {
+          "q": "受难剧",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:23.424Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261116-cont-eb1911-passion"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "style-v21-sensory",
+      "probes": [
+        {
+          "q": "感官剧场",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:24.156Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-30fd94146fc8f81b"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "dir-ritual",
+      "probes": [
+        {
+          "q": "仪式调度",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:24.884Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-30fd94146fc8f81b"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "style-physical",
+      "probes": [
+        {
+          "q": "身体剧场",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:25.614Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-aa3aeda0b230c02c"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "dir-solo",
+      "probes": [
+        {
+          "q": "独白直给",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:26.351Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-2bfb13e735e610fe"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "dir-v21-timecut",
+      "probes": [
+        {
+          "q": "时间跳接",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:27.088Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-ee4634c534a9845e"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "style-kabuki",
+      "probes": [
+        {
+          "q": "夸张演技",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:27.819Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-2bfb13e735e610fe"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xstyle-chuanju",
+      "probes": [
+        {
+          "q": "开放结局",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:28.552Z",
+          "total": 2,
+          "hitIds": [
+            "owner-ocr-20261115-30fd94146fc8f81b",
+            "owner-ocr-20261115-a5aed31ca8f5557c"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xdir-facechange",
+      "probes": [
+        {
+          "q": "情绪突变",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:29.285Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-81ed6cbb60c2bc3c"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xplace-factory",
+      "probes": [
+        {
+          "q": "工厂",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:30.011Z",
+          "total": 22,
+          "hitIds": [
+            "owner-ocr-20261116-cont-xplace-factory",
+            "owner-ocr-20261115-19de3835eabedbba",
+            "owner-ocr-20261115-c0f15eccc4864518",
+            "owner-ocr-20261115-30fd94146fc8f81b",
+            "owner-ocr-20261115-ce228fb6864c23b2",
+            "owner-ocr-20261115-2bfb13e735e610fe",
+            "owner-ocr-20261115-0aa2d1aaad98b2a7",
+            "owner-ocr-20261115-37e6bc40a999fa88",
+            "owner-ocr-20261115-ee4634c534a9845e",
+            "owner-ocr-20261115-aa3aeda0b230c02c",
+            "owner-ocr-20261115-81ed6cbb60c2bc3c",
+            "owner-ocr-20261115-fb00859dc13d284b",
+            "owner-ocr-20261115-a5aed31ca8f5557c",
+            "owner-ocr-20261115-595f3ba9c64394b5",
+            "owner-ocr-20261115-cf02e7c01262081b",
+            "owner-ocr-20261115-df8fee4154059b8d",
+            "owner-ocr-20261115-2de2862507b7ee86",
+            "owner-ocr-20261115-69812107a56d3d62",
+            "owner-ocr-20261115-a95a3d6966cee2d9",
+            "owner-ocr-20261115-2ecf45725db9a72d",
+            "owner-ocr-20261115-2dfac6a157db2369",
+            "owner-ocr-20261115-6bf889e81d90ed6f"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "ystyle-kyogen",
+      "probes": [
+        {
+          "q": "讽刺短剧",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:30.745Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-2bfb13e735e610fe"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "ystyle-ritualstyle",
+      "probes": [
+        {
+          "q": "仪式戏剧",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:31.471Z",
+          "total": 2,
+          "hitIds": [
+            "owner-ocr-20261115-30fd94146fc8f81b",
+            "owner-ocr-20261115-2dfac6a157db2369"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "ydir-lingzi",
+      "probes": [
+        {
+          "q": "视线引导",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:32.199Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-6bf889e81d90ed6f"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "yplace-deck",
+      "probes": [
+        {
+          "q": "甲板",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:32.926Z",
+          "total": 2,
+          "hitIds": [
+            "owner-ocr-20261116-cont-yplace-deck",
+            "owner-ocr-20261115-df8fee4154059b8d"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "place-v21-photostudio",
+      "probes": [
+        {
+          "q": "旧照相馆",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:33.661Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261116-cont-place-v21-photostudio"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "v23-style-visual",
+      "probes": [
+        {
+          "q": "视觉戏剧",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:34.390Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-aa3aeda0b230c02c"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "place-gullen",
+      "probes": [
+        {
+          "q": "居伦城",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:35.122Z",
+          "total": 4,
+          "hitIds": [
+            "owner-ocr-20261115-19de3835eabedbba",
+            "owner-ocr-20261115-c0f15eccc4864518",
+            "owner-ocr-20261115-ce228fb6864c23b2",
+            "owner-ocr-20261115-69812107a56d3d62"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xdir-bang",
+      "probes": [
+        {
+          "q": "旁唱评论",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:35.861Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-30fd94146fc8f81b"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xplace-dock",
+      "probes": [
+        {
+          "q": "码头",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:36.593Z",
+          "total": 12,
+          "hitIds": [
+            "owner-ocr-20261116-cont-xplace-dock",
+            "owner-ocr-20261115-24a96a0a8cb0e9ab",
+            "owner-ocr-20261115-30fd94146fc8f81b",
+            "owner-ocr-20261115-ee4634c534a9845e",
+            "owner-ocr-20261115-81ed6cbb60c2bc3c",
+            "owner-ocr-20261115-fb00859dc13d284b",
+            "owner-ocr-20261115-a5aed31ca8f5557c",
+            "owner-ocr-20261115-595f3ba9c64394b5",
+            "owner-ocr-20261115-df8fee4154059b8d",
+            "owner-ocr-20261115-2de2862507b7ee86",
+            "owner-ocr-20261115-a95a3d6966cee2d9",
+            "owner-ocr-20261115-2dfac6a157db2369"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xplace-grave",
+      "probes": [
+        {
+          "q": "墓地",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:37.324Z",
+          "total": 10,
+          "hitIds": [
+            "owner-ocr-20261116-cont-xplace-grave",
+            "owner-ocr-20261115-30fd94146fc8f81b",
+            "owner-ocr-20261115-0aa2d1aaad98b2a7",
+            "owner-ocr-20261115-37e6bc40a999fa88",
+            "owner-ocr-20261115-aa3aeda0b230c02c",
+            "owner-ocr-20261115-cf02e7c01262081b",
+            "owner-ocr-20261115-69812107a56d3d62",
+            "owner-ocr-20261115-a95a3d6966cee2d9",
+            "owner-ocr-20261115-2ecf45725db9a72d",
+            "owner-ocr-20261115-2dfac6a157db2369"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xplace-kitchen",
+      "probes": [
+        {
+          "q": "厨房",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:38.057Z",
+          "total": 19,
+          "hitIds": [
+            "owner-ocr-20261116-cont-xplace-kitchen",
+            "owner-ocr-20261115-d3471125046fb9a2-place-cherry",
+            "owner-ocr-20261115-19de3835eabedbba",
+            "owner-ocr-20261115-c0f15eccc4864518",
+            "owner-ocr-20261115-ce228fb6864c23b2",
+            "owner-ocr-20261115-0aa2d1aaad98b2a7",
+            "owner-ocr-20261115-37e6bc40a999fa88",
+            "owner-ocr-20261115-ee4634c534a9845e",
+            "owner-ocr-20261115-aa3aeda0b230c02c",
+            "owner-ocr-20261115-81ed6cbb60c2bc3c",
+            "owner-ocr-20261115-9c5d86616b9cdc47",
+            "owner-ocr-20261115-fb00859dc13d284b",
+            "owner-ocr-20261115-a5aed31ca8f5557c",
+            "owner-ocr-20261115-595f3ba9c64394b5",
+            "owner-ocr-20261115-2de2862507b7ee86",
+            "owner-ocr-20261115-69812107a56d3d62",
+            "owner-ocr-20261115-2ecf45725db9a72d",
+            "owner-ocr-20261115-3062e434fb0f5aa4",
+            "owner-ocr-20261115-6bf889e81d90ed6f"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "ydir-jijifeng",
+      "probes": [
+        {
+          "q": "加速节奏",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:38.790Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-2dfac6a157db2369"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "yplace-chengmen",
+      "probes": [
+        {
+          "q": "城门",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:39.523Z",
+          "total": 7,
+          "hitIds": [
+            "owner-ocr-20261115-37e6bc40a999fa88",
+            "owner-ocr-20261115-30fd94146fc8f81b",
+            "owner-ocr-20261115-fb00859dc13d284b",
+            "owner-ocr-20261115-cf02e7c01262081b",
+            "owner-ocr-20261115-2de2862507b7ee86",
+            "owner-ocr-20261115-a95a3d6966cee2d9",
+            "owner-ocr-20261115-56ee58b76a782998"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "yplace-cliff",
+      "probes": [
+        {
+          "q": "悬崖",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:40.255Z",
+          "total": 14,
+          "hitIds": [
+            "owner-ocr-20261116-cont-yplace-cliff",
+            "owner-ocr-20261115-0aa2d1aaad98b2a7",
+            "owner-ocr-20261115-ee4634c534a9845e",
+            "owner-ocr-20261115-aa3aeda0b230c02c",
+            "owner-ocr-20261115-81ed6cbb60c2bc3c",
+            "owner-ocr-20261115-fb00859dc13d284b",
+            "owner-ocr-20261115-a5aed31ca8f5557c",
+            "owner-ocr-20261115-cf02e7c01262081b",
+            "owner-ocr-20261115-df8fee4154059b8d",
+            "owner-ocr-20261115-69812107a56d3d62",
+            "owner-ocr-20261115-a95a3d6966cee2d9",
+            "owner-ocr-20261115-2ecf45725db9a72d",
+            "owner-ocr-20261115-3062e434fb0f5aa4",
+            "owner-ocr-20261115-56ee58b76a782998"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "yplace-dungeon",
+      "probes": [
+        {
+          "q": "地牢",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:40.987Z",
+          "total": 3,
+          "hitIds": [
+            "owner-ocr-20261116-cont-yplace-dungeon",
+            "owner-ocr-20261115-fb00859dc13d284b",
+            "owner-ocr-20261115-56ee58b76a782998"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "yplace-ballroom",
+      "probes": [
+        {
+          "q": "舞厅",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:41.722Z",
+          "total": 7,
+          "hitIds": [
+            "owner-ocr-20261116-cont-yplace-ballroom",
+            "owner-ocr-20261115-24a96a0a8cb0e9ab",
+            "owner-ocr-20261115-19de3835eabedbba",
+            "owner-ocr-20261115-2bfb13e735e610fe",
+            "owner-ocr-20261115-aa3aeda0b230c02c",
+            "owner-ocr-20261115-a5aed31ca8f5557c",
+            "owner-ocr-20261115-a95a3d6966cee2d9"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "dir-call",
+      "probes": [
+        {
+          "q": "点名观众",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:42.454Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-30fd94146fc8f81b"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "place-baihua",
+      "probes": [
+        {
+          "q": "花亭",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:43.183Z",
+          "total": 2,
+          "hitIds": [
+            "owner-ocr-20261115-2dfac6a157db2369",
+            "owner-ocr-20261115-a5aed31ca8f5557c"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "xdir-drum",
+      "probes": [
+        {
+          "q": "节奏提示",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:43.916Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-2dfac6a157db2369"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "style-v21-courtroom",
+      "probes": [
+        {
+          "q": "法庭剧",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:44.652Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-ee4634c534a9845e"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "dir-v21-endingloop",
+      "probes": [
+        {
+          "q": "结尾回环",
+          "category": "knowledge",
+          "at": "2026-11-15T20:45:45.382Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261115-69812107a56d3d62"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "v23-play-woyzeck",
+      "probes": [
+        {
+          "q": "沃伊采克",
+          "category": "scripts",
+          "at": "2026-11-15T20:45:46.114Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261116-cont-pd-woyzeck-franzos1879"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "v23-role-woyzeck",
+      "probes": [
+        {
+          "q": "沃伊采克",
+          "category": "scripts",
+          "at": "2026-11-15T20:45:46.844Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261116-cont-pd-woyzeck-franzos1879"
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "cardId": "v23-sup-marie",
+      "probes": [
+        {
+          "q": "玛丽",
+          "category": "scripts",
+          "at": "2026-11-15T20:45:47.575Z",
+          "total": 1,
+          "hitIds": [
+            "owner-ocr-20261116-cont-pd-woyzeck-franzos1879"
+          ]
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "newBodies": [
+    {
+      "id": "owner-ocr-20261115-69812107a56d3d62",
+      "http": 200,
+      "characters": 348701,
+      "sha256": "365e79209c26c7375c3fd3c5e9eb7c7f0a47d5bce1280e083a1310e1e33019fe",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261115-2de2862507b7ee86",
+      "http": 200,
+      "characters": 450664,
+      "sha256": "c87e0bb90a9a5e516042b05c202f013746b7483f8f3c51ac1ec1dbc2d8b1c0b9",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-balcony",
+      "http": 200,
+      "characters": 3316,
+      "sha256": "8bfcd1d92db52ac68907f9615ab44fb3274163762a80cc16ce3ee355534a3f4a",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261115-9c5d86616b9cdc47",
+      "http": 200,
+      "characters": 99463,
+      "sha256": "a1e5e035a7c505a3e1d5f6c99cfbb56a3bb1e5c48a1d1b77b8d36d99bde63edc",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-convent",
+      "http": 200,
+      "characters": 2526,
+      "sha256": "35fabf1c49f2c43e213c3e9c62fec05e3890be7941b864b222c088f74657ee7c",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-snowfield",
+      "http": 200,
+      "characters": 1606,
+      "sha256": "ffc2b2d26de6f6930fc13020fa4daa41b9dbc62d289ff40b141ebee1822273d1",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-zhongjun",
+      "http": 200,
+      "characters": 17031,
+      "sha256": "55f0c9b815c21d7cf6d4026c2ff82ecac006aedfeaab07176a9e58f0d792127f",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261115-30fd94146fc8f81b",
+      "http": 200,
+      "characters": 255691,
+      "sha256": "a0f1355919c1d8c2d6849aec9edcac1a83ec604febb5c0c8b1d46d6a8a60b188",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-place-v21-publicbath",
+      "http": 200,
+      "characters": 5208,
+      "sha256": "74ecbcbbd8750c49c215dd95b3536acdc3492549b8409dbe2c59d76a91aceb54",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-eb1911-passion",
+      "http": 200,
+      "characters": 1779,
+      "sha256": "c7a5ec0f496ce66dd0823ee20b0aa4b29c75d1ff60688f8e2e8f8cdf633bfd25",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261115-aa3aeda0b230c02c",
+      "http": 200,
+      "characters": 390528,
+      "sha256": "fd92e3550c5c77f7fbc395988f9cb86383dc961c99987230b5ece9036e252e37",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261115-2bfb13e735e610fe",
+      "http": 200,
+      "characters": 326499,
+      "sha256": "c36d2dad0ae812134ad3aa522ed34867e1d75be64d7feeca0bb9137b2063cde0",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261115-ee4634c534a9845e",
+      "http": 200,
+      "characters": 273218,
+      "sha256": "a629d7d6af494b7d5510fd16bafbd45494edd1bf69978e4b631144526a2f1dc8",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261115-81ed6cbb60c2bc3c",
+      "http": 200,
+      "characters": 367634,
+      "sha256": "44b0370a31640f47e5f750e17d61afbd66e67af682f5cd63395ca418c0b1353e",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-factory",
+      "http": 200,
+      "characters": 9933,
+      "sha256": "ed58d3dc512fdb519d5a5d27b58b50f781dba14115d09d28e1fac50eb2680ea1",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261115-6bf889e81d90ed6f",
+      "http": 200,
+      "characters": 273228,
+      "sha256": "088f7a30dbeb70a9c59da95e19e44c69974877bfa830828cb120cd1e9bb60c5f",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-deck",
+      "http": 200,
+      "characters": 14900,
+      "sha256": "861f646a3b7db69ac370e1eaf1ec1fc378d79d803e18cc99dc5f3145d330444f",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-place-v21-photostudio",
+      "http": 200,
+      "characters": 104835,
+      "sha256": "b538e18b8c25070c190ff666cd802a4de552b5bddf515a57221959d68abf2583",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261115-19de3835eabedbba",
+      "http": 200,
+      "characters": 261928,
+      "sha256": "6836b55805ed4af81bb4c6ca3878d02f80c487820222313a7450e60cf53c1783",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-dock",
+      "http": 200,
+      "characters": 1819,
+      "sha256": "36eb8358423bfca6021cfaa9d39d22eed8369f12e9f4249ccebcad2502148e75",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-grave",
+      "http": 200,
+      "characters": 4405,
+      "sha256": "26b847add4d3658bc6f959eb7e14d4b4d3800441c3778a995e75898167b32cfb",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-kitchen",
+      "http": 200,
+      "characters": 16120,
+      "sha256": "9653f3e62905e2b8a8da75b2b8a1cf3c92ea1b50a6a55e16666c600bc900f423",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261115-2dfac6a157db2369",
+      "http": 200,
+      "characters": 370232,
+      "sha256": "91160fb5164bdb3a739d17e0a71fd11652de6aac528b0d5b7926c5d5af0b3475",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261115-37e6bc40a999fa88",
+      "http": 200,
+      "characters": 353847,
+      "sha256": "14bbb4956b507d213af09630c0fd378d80a3c38321810cf231320c0cd54a6c6a",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-cliff",
+      "http": 200,
+      "characters": 13779,
+      "sha256": "2bcba706cb8b54118dee883ce5a043ca3444c56615810101872eef7745dfb912",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-dungeon",
+      "http": 200,
+      "characters": 10127,
+      "sha256": "6375f6175f94d8686a66a2160a65058e8b4313238fef2dd289633142fecc0d08",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-ballroom",
+      "http": 200,
+      "characters": 1103,
+      "sha256": "ac125bafb3a69f04378e03f657eff8fe6b18bd37533bd498fcfd5869b772552e",
+      "exactBody": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-pd-woyzeck-franzos1879",
+      "http": 200,
+      "characters": 45653,
+      "sha256": "769ca648ac17eacc779e3774530507022fa9da1734dc36487164871e09acce3a",
+      "exactBody": true
+    }
+  ]
+}
