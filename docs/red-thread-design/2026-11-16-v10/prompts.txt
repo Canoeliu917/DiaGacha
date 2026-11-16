@@ -1,0 +1,46 @@
+DiaGacha V10 generation prompts
+Generated with the built-in image_gen tool. Inputs: approved V9 home and six-card mockups in comparison/.
+The relative stroke widths in these prompts are art-direction targets, not measured output claims.
+
+[Homepage]
+Use case: precise-object-edit / refinement. Edit this selected DiaGacha V9 homepage into V10. Keep the same portrait 1024x1536 composition and the SAME hand-lettered comic Chinese AND Latin type quality. Preserve ALL ten distinctive geometric faceless figures, poses, detached small heads, white body interiors, and existing confident vivid red marker design. Do not substitute another font, redesign layout, add realistic anatomy/shading, texture or new decoration.
+Two priorities: stronger PERSON outlines and LESS redundant text with clear small red/black drawings.
+
+FIGURE HIERARCHY: Increase the black outlines of ALL ten people by about 25–30%, including defining costume body silhouettes and their simple single-line limbs. Gentle pressure variation and round ends; remain crisp economical hand drawing. Do NOT bulk the silhouettes or fill their white interiors, no face, fingers, joints or muscular detail. Red costume/prop/gesture cues stay expressive, bright true red, same current color. No shadows.
+
+TEXT SIMPLIFICATION, with exact positions preserved:
+- Keep top-left small “DiaGacha · 咫牌”, central large “DiaGacha” and “咫牌” as their existing illustrated letter shapes.
+- Replace top-right “游戏玩法” with a SMALL handdrawn black circled question mark, keep speaker icon.
+- Navigation retains the useful short words “任务”, “单维包”, “总图鉴”, “卡包”; shorten only “我的卡包” to “卡包”. Keep existing locations and arrows.
+- At the main headline location replace the long headline with exactly “六张卡，一台戏。” in the SAME black comic handwriting. DELETE both supporting sentence lines below (“抽六张卡…” and “亲手换…”), use their space as quiet white breathing room. Do not collapse/reflow other sections.
+- The long red-thread action stays at EXACTLY its current y=930..984 band, same loose loops and path. DELETE the red phrase below and the small black hint below it. At right loop, a tiny black short curved pull-arrow/gesture cue can indicate dragging, keeping lots of white; no textual instructions or hand illustration.
+- The secondary outlined control stays at y=1090..1175. Replace its two lines of text by a small hand-drawn black play-triangle followed by only “继续”. Same handwritten style, no huge icon.
+- At the existing utility row replace the first text block with a two-card outline + small red circular return arrow + the digit “0”; second with a black folder/archive outline; third with a simple black speech-bubble outline with a red dot. Keep existing three areas/spacing. No explanatory text.
+- At the achievement area replace the heading, long explanation and disclosure sentence by a centered horizontal row of seven very small black outline stamp/medallion sketches, a restrained “0 / 7” handwritten count and a tiny handdrawn chevron. No decorative stars here. No lengthy copy.
+- Remove the bottom English word list; keep the central DiaGacha English wordmark as the main Latin typography reference. The footer can contain only one tiny red/black intersecting line mark.
+Do not move the ten people, primary red line, secondary control or utility hitboxes; exact geometry is needed by the existing interaction preview. The result is a lighter, quieter version of the SELECTED original page, not a different screen. All retained text must inherit the exact warm handwritten Chinese/English character of input. Bright red, black, white only, soft grey UI hairlines allowed.
+
+[Six-card screen]
+Use case: precise-object-edit / refinement. Edit the supplied V9 six-card page to V10 with STRONG FIGURE OUTLINES, QUIET STAGE/BUILDING LINES, and less redundant UI prose. Same exact 1024x1536 canvas and 3-column x 2-row card layout. Keep every card boundary approximately x38/360/677 and y384/779, width310 height383. Preserve full six titles, categories, rarity labels and handwritten small open star counts 5/3/2/4/4/4. Preserve exact illustrated Chinese/Latin hand-lettered COMIC texture, no new typesetting/font.
+HIERARCHY IS ESSENTIAL:
+- Make all PERSON black contour and simple limb strokes about 35–40% thicker, rich near-black, gently hand-pressure-modulated. Preserve their current silhouettes, body proportions and poses. The six cards' figures should be read first when glanced at. Do not turn them into filled silhouettes; leave their bodies white. No realistic details, faces, fingers, necks, joint anatomy, shading or extra texture.
+- Thin and lighten all secondary architecture/stage/furniture outlines (factory roofs, walls, doorway, cabinet, indoor window/table/chair, house/counter/ground lines) to a soft medium-light grey roughly #A6A6A1. Approximate stroke hierarchy: figure contour 1.0, red character cue 0.8–1.0, building line 0.35–0.45. This is relative visual guidance, not literal measurements. Remove unnecessary dark ground lines. Keep their same loose sparse design, no added details. A few main spatial edges can be slightly darker grey to preserve legibility; SPACE card's architecture may remain a little stronger than the background architecture in character cards, but noticeably quieter than the tiny person. No mechanically precise CAD or sharp drafting webs.
+- Keep character-specific RED props, cuffs, gestures, pathways and motion marks in the current clear bright red. Selected red architectural edges are thinner and less dominant than the figures' red cues. Keep the current RED hue, do not return to darker maroon. Keep small handwritten stars at their approved V9 reduced size.
+
+Per card maintain:
+Barbara: bold backward trapezoid person, vivid red bowl and serving gesture, pale factory.
+Cao: bold tilted robe person/hat, vivid red collar/cuff and gesture, quiet floor.
+Loop: bold faceless walking kite person, vivid red returning path, pale grey doorway with thin selected red edge.
+Gaev: bold long leaning body, vivid red cane/cuff, pale grey cupboard.
+Indoor: both people bold; subtle opposing red sleeve/hem; room/table/chair quiet grey.
+Sichuan: tiny entrant bold and recognizable; roof, walls, counter quiet grey but house readable; selected entry path red.
+
+SIMPLIFY ONLY REDUNDANT UI TEXT:
+- Keep top brand and “综合卡池”.
+- Remove the long two-line pity/guarantee explanatory paragraph beneath the title. In the same area put only a small handdrawn circle with “?” and the short handwritten label “规则”, aligned right. These rules are to be opened on demand, not discarded. Do not move the cards upward.
+- The status strip above cards becomes a small sketch of overlapping cards, “+6”, and a red check mark. Remove “新增…已收入收藏” prose.
+- KEEP each of the six card title/category/rarity/star information exactly.
+- Remove “六张卡，怎样碰出一场戏” and shorten the large “这一组的化学反应” heading to just “碰撞”, using the same black handwriting and a small red linking curve.
+- Condense score strip to a hand-lettered arithmetic-like “73 + 3 + 0 = 76”, with 76 in red. Remove duplicated explanatory labels and the redundant repeated bonus; keep underlying values.
+- Replace bottom primary button’s long sentence with a simple white handdrawn open-book outline plus rightward arrow on the current red surface. Secondary action contains only a black handdrawn share/export arrow. Keep button geometry and alignments.
+NO new legend paragraphs or annotation text. Keep white space. Final should visibly have much more contrast on people and less on space, with an edited-down graphic UI; this is not a redesign.

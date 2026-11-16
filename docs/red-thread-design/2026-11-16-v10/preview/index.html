@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preload" href="./assets/comic.woff2" as="font" type="font/woff2" crossorigin>
+  <title>DiaGacha · 咫牌｜牵一根红线</title>
+  <style>
+    @font-face{font-family:DiagachaComic;src:url('./assets/comic.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+    :root{--red:#d62728;--ink:#20201e;--quiet:#696966;--line:#d6d5d1;--paper:#fff}
+    *{box-sizing:border-box} [hidden]{display:none!important}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:DiagachaComic,'Comic Sans MS',cursive;font-size:18px;line-height:1.5}
+    button{font:inherit;color:inherit} button:focus-visible,a:focus-visible{outline:2px dashed var(--red);outline-offset:6px}
+    .page{width:min(960px,100%);margin:auto;padding:22px 34px 28px}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:15px;font-size:20px}
+    .brand{white-space:nowrap}
+    .preview-dialog{width:min(420px,calc(100% - 36px));margin:auto;padding:20px;border:1px solid var(--line);border-radius:8px;background:white;color:var(--ink)}
+    .preview-dialog::backdrop{background:rgba(255,255,255,.8)}
+    .dialog-head{display:flex;align-items:center;justify-content:space-between;gap:20px}.dialog-head h2{margin:0;font-size:23px;font-weight:400}
+    .preview-dialog p{margin:14px 0;font-size:16px;line-height:1.7}.preview-dialog a{color:var(--red);text-decoration-thickness:1px;text-underline-offset:4px}
+    .page.home-mode{width:min(1024px,100%);padding:0}
+    .home-mode>header,.home-mode>footer{display:none}
+    .home{position:relative;line-height:0;transition:opacity .22s,transform .3s}
+    .home.departing{opacity:0;transform:translateY(-18px)}
+    .home-image{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none}
+    .home-hotspot{position:absolute;border:0;padding:0;background:transparent;cursor:pointer;-webkit-tap-highlight-color:transparent}
+    .home-hotspot:focus-visible{outline:2px dashed var(--red);outline-offset:-3px;border-radius:8px}
+    .thread-trigger{left:3.90625%;top:60.0260417%;width:91.796875%;height:9.5052083%;cursor:grab;touch-action:pan-y;user-select:none;overflow:hidden}
+    .thread-trigger:active{cursor:grabbing}.thread-trigger:disabled{cursor:default}
+    .thread-layer{position:absolute;left:0;top:4.79452%;width:100%;height:39.72603%;background:white;display:none;pointer-events:none}
+    .thread-trigger.pulling .thread-layer{display:block}
+    .thread-layer svg{display:block;width:100%;height:100%;overflow:hidden}
+    .thread-stroke{fill:none;stroke:var(--red);stroke-width:5.5;stroke-linecap:round;stroke-linejoin:round}
+    .continue-hotspot{left:8.49609375%;top:70.9635417%;width:83.10546875%;height:5.5338542%}
+    .info-hotspot{left:81.0546875%;top:0;width:7.32421875%;height:4.5572917%;min-width:36px;min-height:36px}
+    footer{text-align:center;margin-top:24px}footer svg{width:92px;height:18px}
+    .result{padding-top:14px}.result-top{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:12px}
+    .result h1{font-size:clamp(30px,5vw,44px);font-weight:400;margin:0;line-height:1.3}
+    .icon-button{display:grid;place-items:center;width:48px;height:48px;padding:8px;background:none;border:0;cursor:pointer}
+    .icon-button svg{width:32px;height:32px;overflow:visible}
+    .icon-line{fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+    .board{position:relative;padding:12px 0 25px;isolation:isolate}
+    .draw-thread{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none;overflow:visible;opacity:0;transition:opacity .5s}
+    .draw-thread path{fill:none;stroke:var(--red);stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1}
+    .result.drawing .draw-thread{opacity:1}.result.drawing .draw-thread path{animation:thread-draw 1.75s ease-out forwards}
+    .result.revealed .draw-thread{opacity:.35}.result.revealed .draw-thread path{stroke-dashoffset:0}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px 17px;position:relative;z-index:3}
+    .card{min-width:0;perspective:1000px;opacity:0;transform:translateY(65px) rotate(-4deg);transition:opacity .3s,transform .5s cubic-bezier(.2,.8,.3,1)}
+    .card.arrived{opacity:1;transform:translateY(0) rotate(0deg)}
+    .card-inner{position:relative;aspect-ratio:310/383;transform-style:preserve-3d;transition:transform .65s cubic-bezier(.3,.1,.3,1)}
+    .card.flipped .card-inner{transform:rotateY(180deg)}
+    .card-face{position:absolute;inset:0;border:1px solid #aaa9a2;border-radius:9px;background:#fff;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+    .card-back{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:4px}
+    .card-back .back-brand{font-size:clamp(21px,3.5vw,38px);font-style:italic}.card-back .back-note{font-size:clamp(13px,2vw,19px);color:var(--quiet)}
+    .card-back svg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+    .card-front{transform:rotateY(180deg);border:0;border-radius:0}
+    .card-art{display:block;width:100%;height:100%}
+    .reaction{opacity:0;transform:translateY(9px);transition:opacity .4s,transform .4s;border-top:1px solid var(--line);padding-top:18px;margin-top:10px}
+    .revealed .reaction{opacity:1;transform:translateY(0)}
+    .reaction h2{display:inline-block;position:relative;font-size:27px;font-weight:400;margin:0 0 17px}
+    .reaction h2 svg{position:absolute;left:-4px;bottom:-8px;width:80px;height:13px}
+    .score{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid #d6d5d1;border-bottom:1px solid #d6d5d1;padding:12px 5px;font-size:18px}
+    .score strong{font-size:26px;color:var(--red);font-weight:400}.score small{font-size:15px;color:var(--quiet)}
+    .result-actions{display:flex;justify-content:center;gap:38px;margin:20px 0 7px}.result-actions button{color:var(--red)}
+    button:disabled{opacity:.5;cursor:default}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @keyframes thread-draw{to{stroke-dashoffset:0}}
+    @media(max-width:600px){
+      body{font-size:16px}.page{padding:16px 18px 24px}.topbar{font-size:15px}
+      .result-top{margin-top:7px}.cards{gap:14px 9px}
+      .reaction h2{font-size:23px}.score{font-size:14px;gap:7px}.score strong{font-size:22px}.score small{font-size:11px}.result-actions{gap:30px}
+    }
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.draw-thread path{stroke-dashoffset:0!important}}
+  </style>
+</head>
+<body>
+  <div class="page home-mode">
+    <header>
+      <div class="topbar"><span class="brand">DiaGacha · 咫牌</span><button id="info-result" class="icon-button" aria-label="查看设计预览说明" title="设计预览说明" aria-haspopup="dialog" aria-controls="preview-dialog"><svg viewBox="0 0 32 32" aria-hidden="true"><path class="icon-line" d="M16 3 C7 2 2 9 3 17 C4 26 11 30 20 28 C29 26 31 18 28 10 C26 5 21 2 16 3 M11 12 C12 7 20 7 21 12 C22 16 16 15 16 20 M16 24 L16.2 24"/></svg></button></div>
+    </header>
+    <main>
+      <section id="home" class="home" aria-label="咫牌主页">
+        <h1 class="sr-only">DiaGacha · 咫牌</h1>
+        <img class="home-image" src="./assets/home.png" width="1024" height="1536" draggable="false" alt="咫牌主页。十位无五官的几何小人，红线标记服装、道具与动作。牵动红线，开启六张卡组成的一台戏。">
+        <button id="thread-trigger" class="home-hotspot thread-trigger" aria-label="牵动红线，抽取六张示例卡" aria-describedby="thread-instruction">
+          <span class="thread-layer" aria-hidden="true"><svg viewBox="40 929 940 58" preserveAspectRatio="none"><path id="thread-body" class="thread-stroke" d="M55 966 C110 966 120 988 180 978 C205 970 244 951 240 940 C234 928 211 933 204 944 C187 964 217 992 260 984 C335 976 397 947 463 955 C550 963 580 968 644 965 C717 960 747 989 812 982 C853 979 886 967 901 948"/><path id="thread-tail" class="thread-stroke" d="M901 948 C917 925 947 934 951 944 C960 961 923 966 889 963"/></svg></span>
+        </button>
+        <p id="thread-instruction" class="sr-only" aria-live="polite">向右牵动红线，或轻点线头。交互预览，固定六张示例卡。</p>
+        <button id="continue" class="home-hotspot continue-hotspot" aria-label="继续上次开包，查看六张示例卡"></button>
+        <button id="info-home" class="home-hotspot info-hotspot" aria-label="查看设计预览说明" title="设计预览说明" aria-haspopup="dialog" aria-controls="preview-dialog"></button>
+      </section>
+      <section id="result" class="result" aria-label="六张卡的抽取结果" hidden>
+        <div class="result-top"><h1 id="result-title" tabindex="-1">这一台好戏</h1><button id="back-top" class="icon-button" aria-label="回到主页" title="回到主页"><svg viewBox="0 0 40 40" aria-hidden="true"><path class="icon-line" d="M34 20 Q23 18 7 21 M17 10 Q12 16 7 21 L18 30"/></svg></button></div>
+        <div class="board">
+          <svg class="draw-thread" viewBox="0 0 900 820" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M-40 48 C80 -10 98 92 146 170 S324 48 450 174 S671 48 752 174 Q930 280 791 386 Q685 440 748 597 Q813 721 602 728 Q510 731 450 592 Q391 454 296 616 Q151 805 146 592 Q138 531 -35 631"/></svg>
+          <div id="cards" class="cards"></div>
+        </div>
+        <div class="reaction"><h2>碰撞<svg viewBox="0 0 80 13" aria-hidden="true"><path d="M3 10 Q23 2 44 6 T77 3" fill="none" stroke="var(--red)" stroke-width="2.5" stroke-linecap="round"/></svg></h2><div class="score" aria-label="示例卡组评分"><span aria-label="基础分73">基础 73</span><span aria-label="同星加3分">同星 +3</span><span aria-label="羁绊加0分">羁绊 +0</span><span aria-label="卡组总分76"><small>总分</small> <strong>76</strong></span></div><div class="result-actions"><button id="replay" class="icon-button" aria-label="重播红线抽卡动画" title="重播"><svg viewBox="0 0 40 40" aria-hidden="true"><path class="icon-line" d="M30 12 C23 3 9 8 7 19 C4 29 17 36 27 31 C34 27 36 20 32 15 M30 5 L31 13 21 14"/></svg></button><button id="back" class="icon-button" aria-label="回到主页" title="回到主页"><svg viewBox="0 0 40 40" aria-hidden="true"><path class="icon-line" d="M34 20 Q23 18 7 21 M17 10 Q12 16 7 21 L18 30"/></svg></button></div></div>
+        <p id="status" class="sr-only" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+    <footer aria-hidden="true"><svg viewBox="0 0 92 18"><path d="M4 12 Q30 2 51 9" fill="none" stroke="var(--ink)" stroke-width="1.5" stroke-linecap="round"/><path d="M40 12 Q64 2 88 7" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round"/></svg></footer>
+  </div>
+  <dialog id="preview-dialog" class="preview-dialog" aria-labelledby="preview-dialog-title">
+    <form method="dialog" class="dialog-head"><h2 id="preview-dialog-title">设计预览</h2><button class="icon-button" aria-label="关闭说明" title="关闭"><svg viewBox="0 0 40 40" aria-hidden="true"><path class="icon-line" d="M10 9 Q21 21 30 30 M30 10 Q19 23 10 30"/></svg></button></form>
+    <p>固定六张示例卡，不代表真实抽卡概率。</p>
+    <p>点击或向右牵动红线抽卡；短拖回弹。回旋箭头重播，左箭头返回主页。</p>
+    <p>正式游戏规则见 <a href="https://canoeliu917.github.io/DiaGacha/?v=57" target="_blank" rel="noopener">DiaGacha · 咫牌 ↗</a></p>
+  </dialog>
+  <script>
+    const home = document.getElementById('home');
+    const page = document.querySelector('.page');
+    const result = document.getElementById('result');
+    const trigger = document.getElementById('thread-trigger');
+    const instruction = document.getElementById('thread-instruction');
+    const threadBody = document.getElementById('thread-body');
+    const threadTail = document.getElementById('thread-tail');
+    const status = document.getElementById('status');
+    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+    const cardsData = [
+      { title:'巴巴拉少校', type:'剧本', rarity:'压轴', stars:5, x:38, y:321 },
+      { title:'曹操', type:'主角', rarity:'当行', stars:3, x:360, y:321 },
+      { title:'结尾回环', type:'手段', rarity:'班底', stars:2, x:677, y:321 },
+      { title:'加耶夫', type:'配角', rarity:'头牌', stars:4, x:38, y:717 },
+      { title:'室内剧', type:'演法', rarity:'头牌', stars:4, x:360, y:717 },
+      { title:'四川某城', type:'空间', rarity:'头牌', stars:4, x:677, y:717 }
+    ];
+    document.getElementById('cards').innerHTML = cardsData.map((card,index) => `
+      <article class="card" aria-label="${card.rarity}，${card.stars}星，${card.type}，${card.title}" aria-hidden="true">
+        <div class="card-inner">
+          <div class="card-face card-back" aria-hidden="true"><span class="back-brand">DiaGacha</span><span class="back-note">咫牌 · ${index+1}</span><svg viewBox="0 0 310 383"><path d="M-5 285 C65 220 171 312 237 254 C263 231 246 211 226 225 C213 240 241 251 258 227 C279 195 246 140 316 87" fill="none" stroke="var(--red)" stroke-width="3.5" stroke-linecap="round"/></svg></div>
+          <div class="card-face card-front"><svg class="card-art" aria-hidden="true" viewBox="${card.x} ${card.y} 310 383"><image href="./assets/cards.png" width="1024" height="1536"/></svg></div>
+        </div>
+      </article>`).join('');
+    const cards = Array.from(document.querySelectorAll('.card'));
+    let state = 'idle';
+    let pointer = null;
+    let timers = [];
+    let pullAmount = 0;
+    let recoilFrame = 0;
+    const initialBody = threadBody.getAttribute('d');
+    const initialTail = threadTail.getAttribute('d');
+    function after(delay, action) { timers.push(setTimeout(action, delay)); }
+    function setControls(disabled) { ['replay','back','back-top','continue'].forEach(id => document.getElementById(id).disabled = disabled); }
+    function paintPull(amount) {
+      pullAmount = amount;
+      threadBody.setAttribute('d', `M55 966 C110 966 120 988 180 978 C205 970 244 951 240 940 C234 928 211 933 204 944 C187 964 217 992 260 984 C335 976 397 947 463 955 C550 963 580 968 644 965 C${717+amount*.2} 960 ${747+amount*.3} 989 ${812+amount*.5} 982 C${853+amount*.6} 979 ${886+amount*.7} 967 ${901+amount*.8} 948`);
+      threadTail.setAttribute('d', `M${901+amount*.8} 948 C${917+amount*.85} 925 ${947+amount*.95} 934 ${951+amount} 944 C${960+amount} 961 ${923+amount*.9} 966 ${889+amount*.75} 963`);
+    }
+    function resetThread(animate = false) {
+      cancelAnimationFrame(recoilFrame);
+      instruction.textContent = '向右牵动红线，或轻点线头';
+      const finish = () => {
+        pullAmount = 0;
+        trigger.classList.remove('pulling');
+        threadBody.setAttribute('d', initialBody);
+        threadTail.setAttribute('d', initialTail);
+      };
+      if (!animate || reducedMotion.matches || !pullAmount) {finish();return;}
+      const startAmount = pullAmount;
+      const startTime = performance.now();
+      function recoil(now) {
+        const progress = Math.min(1,(now-startTime)/320);
+        paintPull(startAmount * (1-progress)**3 * Math.cos(progress*Math.PI*2));
+        if (progress < 1) recoilFrame = requestAnimationFrame(recoil); else finish();
+      }
+      recoilFrame = requestAnimationFrame(recoil);
+    }
+    function finishDraw() {
+      state = 'revealed';
+      result.classList.replace('drawing','revealed');
+      result.setAttribute('aria-busy','false');
+      cards.forEach(card => {card.classList.add('arrived','flipped');card.removeAttribute('aria-hidden');});
+      status.textContent = '六张示例卡已翻开。可重播或回到主页。';
+      setControls(false);
+      document.getElementById('result-title').focus({preventScroll:true});
+    }
+    function beginDraw(skipAnimation = false) {
+      if (state === 'drawing') return;
+      timers.forEach(clearTimeout); timers = [];
+      state = 'drawing'; pointer = null; trigger.disabled = true; setControls(true);
+      instruction.textContent = '红线正在牵出你的故事…';
+      result.classList.remove('revealed','drawing');
+      cards.forEach(card => {card.classList.remove('arrived','flipped');card.setAttribute('aria-hidden','true');});
+      status.textContent = '正在抽取六张示例卡。';
+      result.setAttribute('aria-busy','true');
+      const instant = skipAnimation || reducedMotion.matches;
+      home.classList.add('departing');
+      after(instant ? 0 : 230, () => {
+        home.hidden = true; result.hidden = false;
+        page.classList.remove('home-mode');
+        window.scrollTo({top:0,behavior:'instant'});
+        result.classList.add('drawing');
+        if (instant) { finishDraw(); return; }
+        cards.forEach((card,index) => {
+          after(100 + index * 170, () => card.classList.add('arrived'));
+          after(650 + index * 210, () => card.classList.add('flipped'));
+        });
+        after(2380,finishDraw);
+      });
+    }
+    function goHome() {
+      if (state === 'drawing') return;
+      timers.forEach(clearTimeout); timers = [];
+      state = 'idle'; result.hidden = true; home.hidden = false;
+      page.classList.add('home-mode');
+      home.classList.remove('departing');trigger.disabled = false;resetThread();
+      window.scrollTo({top:0,behavior:'instant'});
+      trigger.focus({preventScroll:true});
+    }
+    trigger.addEventListener('pointerdown', event => {
+      if (state !== 'idle' || (event.pointerType === 'mouse' && event.button !== 0)) return;
+      cancelAnimationFrame(recoilFrame);
+      pointer = { id:event.pointerId, x:event.clientX, y:event.clientY, dx:0, moved:false };
+      trigger.setPointerCapture(event.pointerId);
+    });
+    trigger.addEventListener('pointermove', event => {
+      if (!pointer || pointer.id !== event.pointerId) return;
+      pointer.dx = event.clientX - pointer.x;
+      if (Math.abs(pointer.dx) > 8 || Math.abs(event.clientY - pointer.y) > 8) pointer.moved = true;
+      if (Math.abs(pointer.dx) > 1) trigger.classList.add('pulling');
+      const amount = Math.max(-20,Math.min(120,pointer.dx)) * 940 / trigger.clientWidth;
+      paintPull(amount);
+      instruction.textContent = pointer.dx >= 70 ? '松开，让故事开始' : '再牵一点点…';
+    });
+    trigger.addEventListener('pointerup', event => {
+      if (!pointer || pointer.id !== event.pointerId) return;
+      const dx = event.clientX - pointer.x;
+      const dy = event.clientY - pointer.y;
+      const isTap = !pointer.moved && Math.abs(dx) <= 8 && Math.abs(dy) <= 8;
+      const shouldDraw = dx >= 70 || isTap;
+      pointer = null;
+      if (shouldDraw) beginDraw(); else resetThread(true);
+    });
+    trigger.addEventListener('pointercancel', () => {pointer = null; resetThread(true);});
+    trigger.addEventListener('lostpointercapture', () => {if (pointer) {pointer = null; resetThread(true);}});
+    trigger.addEventListener('click', event => {if (event.detail === 0 && state === 'idle') beginDraw();});
+    document.getElementById('continue').addEventListener('click', () => beginDraw(true));
+    document.getElementById('replay').addEventListener('click', () => beginDraw());
+    document.getElementById('back').addEventListener('click', goHome);
+    document.getElementById('back-top').addEventListener('click', goHome);
+    const previewDialog = document.getElementById('preview-dialog');
+    for (const id of ['info-home','info-result']) document.getElementById(id).addEventListener('click', () => previewDialog.showModal());
+  </script>
+</body>
+</html>
