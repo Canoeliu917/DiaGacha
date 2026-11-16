@@ -13,6 +13,9 @@
 | `third-round/diagacha-remaining-coverage-20261116-gaps.md` | `8a812dfd3c42c4165490925e9f52f732e21eab48c67036b404ee9125bdb39713` | 是（74816 字节） |
 | `third-round/diagacha-remaining-coverage-20261116-verification.json` | `8e98fd073f59980392cd5468fde9f3902e07aede7e117a0eb3a610e6a4f76b9f` | 是（374124 字节） |
 | `third-round/diagacha-search-index-20261116.json` | `6256dedff6609bc224edc2a8e4d6f14d6a8ef187aabc7c4df9be9ff012df8cff` | 是（223835 字节） |
+| `diagacha-remaining-coverage-20261116-cont-independent-preservation-qa.json` | `6e957efb52c6366af18334e2d7996e9071603a18b665ae35f6c85eef937f9cf1` | 是（43113 字节） |
+| `diagacha-remaining-coverage-20261116-cont-independent-knowledge-qa.json` | `011705ec2af53e632df6556dfe507bc14a706bf00650d6eb888f766f2996fe06` | 是（32575 字节） |
+| `diagacha-remaining-coverage-20261116-cont-independent-woyzeck-qa.json` | `3a0437ee6c961285b071bc83cc3d618b88f26f0b45d8b1338f715456c7d156d9` | 是（16149 字节） |
 | 续轮审计 `diagacha-remaining-coverage-20261116-cont-audit.json` | `c20bef032e4e6a8bad14ab6a9f26cd69395373bca87a2a18582870acfa0d7e94` | 否（含约 70 万字摘录） |
 | 续轮链接证据 `diagacha-remaining-coverage-20261116-cont-link-evidence.json` | `82fd9c4b53b323f8543fdbcab994a649f3e43c45480337a70750db02d6c8bbff` | 否（含场景摘录） |
 | 第三轮审计 `diagacha-remaining-coverage-20261116-audit.json` | `93914745f899fc122ef9327352d76364813c64acc572f2b749a491b0f43c9e73` | 否 |

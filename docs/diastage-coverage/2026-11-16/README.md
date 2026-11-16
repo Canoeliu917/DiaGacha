@@ -50,9 +50,9 @@ DiaX 已对授权目录 215 件复查，哈希与第三轮一致，未漏收已�
 
 ## 收录与不收录
 
-收录 DiaX 已确认可公开的交接原件（哈希已交叉核对）：续轮 ready / gaps / verification / corrections / 搜索索引，以及第三轮终稿对应的 ready / gaps / verification / 搜索索引。也收录本说明、各轮覆盖说明、剩余名单、43 张升级名单，以及不含正文的 500 卡覆盖摘要。`gaps.md`、`corrections.json` 分别与续轮 gaps、corrections 原件字节一致。
+收录 DiaX 已确认可公开的交接原件（哈希已交叉核对）：续轮 ready / gaps / verification / corrections / 搜索索引，第三轮终稿对应的 ready / gaps / verification / 搜索索引，以及续轮三份独立审查稿（preservation / knowledge / woyzeck）。也收录本说明、各轮覆盖说明、剩余名单、43 张升级名单，以及不含正文的 500 卡覆盖摘要。`gaps.md`、`corrections.json` 分别与续轮 gaps、corrections 原件字节一致。审查稿按原件收录，未改路径或 reviewer 字段。
 
-不收录：带正文摘录的审计 JSON、链接证据、接口抽检原文、PDF 原件、未发布的《西厢记》正文，以及任何未授权保护期全文。授权目录 215 件的三份独立审查稿（preservation / knowledge / woyzeck）仍在工作机上，尚未核完公开适用性，本次不收录。也不把未发布的 v58 草稿当作正式稿。
+不收录：带正文摘录的审计 JSON、链接证据、接口抽检原文、PDF 原件、未发布的《西厢记》正文，以及任何未授权保护期全文。也不把未发布的 v58 草稿当作正式稿。
 
 公开仓库 [Canoeliu917/DiaStage](https://github.com/Canoeliu917/DiaStage) 目前没有这份覆盖交接；本次统一归档在本目录，不把含摘录的整包送进该公开仓库。
 

@@ -1,0 +1,1482 @@
+{
+  "schema": "diagacha-cont-independent-preservation-qa-v1",
+  "checkedAt": "2026-11-15T20:42:11.701Z",
+  "snapshotAt": "2026-11-15T20:42:10.465Z",
+  "reviewer": "/root/knowledge_spaces",
+  "result": "PASS",
+  "scope": "只读保留性检查；未调用API，未修改共享数据、代码或索引。本报告为代理独立核对，不是人工终校。",
+  "snapshot": {
+    "stateSha256": "22ad5df62de16b9f355f7970c82c604bf78a5e3d337093a035f80cd387b128bd",
+    "stateProcessed": 220,
+    "baselineTodo": 220,
+    "totals": {
+      "DETAILED": 322,
+      "MISS": 176,
+      "BLOCKED": 1,
+      "METADATA_ONLY": 1
+    },
+    "bodyFile": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+    "bodySha256": "48c4ed8a0703406a1dec0cad74ee63fe4ecd5ff0bf07bc1b93f974ef5062305f",
+    "bodyCardCount": 160,
+    "runningIndex": "DiaMotif/knowledge/diagacha-search-index-20261115.json",
+    "runningIndexSha256": "74c669e70a0e83df680b753c6c2a0adee0ddcfae374aa32429c532a00b77d440",
+    "note": "任务交付时state为217项；核对期间主代理已加入沃伊采克3项，报告实际快照为220项，新增历史包亦比对本地来源包。"
+  },
+  "summary": {
+    "frozenFiles": 7,
+    "codeFiles": 1882,
+    "originalBodies": 144,
+    "stoppedManuscripts": 3,
+    "formalCards": 500,
+    "baselineDetailedPreserved": 279,
+    "mappingsChecked": 1500,
+    "newPageExcerptResources": 14,
+    "newHistoricalSourceResources": 2,
+    "forbiddenPublicResources": 0,
+    "pdfRecordsPrivate": 62
+  },
+  "frozenFileChecks": [
+    {
+      "path": "DiaMotif/records/diagacha-remaining-coverage-20261116-ready.txt",
+      "exists": true,
+      "expectedSha256": "d4189e0ee6e1a02739429b69ee6bd0fb296edef77776e2c08f66d390aba4c126",
+      "actualSha256": "d4189e0ee6e1a02739429b69ee6bd0fb296edef77776e2c08f66d390aba4c126",
+      "match": true
+    },
+    {
+      "path": "DiaMotif/records/diagacha-remaining-coverage-20261116-audit.json",
+      "exists": true,
+      "expectedSha256": "93914745f899fc122ef9327352d76364813c64acc572f2b749a491b0f43c9e73",
+      "actualSha256": "93914745f899fc122ef9327352d76364813c64acc572f2b749a491b0f43c9e73",
+      "match": true
+    },
+    {
+      "path": "DiaMotif/records/diagacha-remaining-coverage-20261116-gaps.md",
+      "exists": true,
+      "expectedSha256": "8a812dfd3c42c4165490925e9f52f732e21eab48c67036b404ee9125bdb39713",
+      "actualSha256": "8a812dfd3c42c4165490925e9f52f732e21eab48c67036b404ee9125bdb39713",
+      "match": true
+    },
+    {
+      "path": "DiaMotif/records/diagacha-remaining-coverage-20261116-verification.json",
+      "exists": true,
+      "expectedSha256": "8e98fd073f59980392cd5468fde9f3902e07aede7e117a0eb3a610e6a4f76b9f",
+      "actualSha256": "8e98fd073f59980392cd5468fde9f3902e07aede7e117a0eb3a610e6a4f76b9f",
+      "match": true
+    },
+    {
+      "path": "DiaMotif/records/diagacha-remaining-coverage-20261116-link-evidence.json",
+      "exists": true,
+      "expectedSha256": "cbe97ee9eda59bfe392144b1a535a69f87f7cda1346c5760bc4e44df45a13bf4",
+      "actualSha256": "cbe97ee9eda59bfe392144b1a535a69f87f7cda1346c5760bc4e44df45a13bf4",
+      "match": true
+    },
+    {
+      "path": "DiaMotif/knowledge/diagacha-search-index-20261116.json",
+      "exists": true,
+      "expectedSha256": "6256dedff6609bc224edc2a8e4d6f14d6a8ef187aabc7c4df9be9ff012df8cff",
+      "actualSha256": "6256dedff6609bc224edc2a8e4d6f14d6a8ef187aabc7c4df9be9ff012df8cff",
+      "match": true
+    },
+    {
+      "path": "_ops/diagacha-diastage-handoff-20261115/catalog-500-slim.json",
+      "exists": true,
+      "expectedSha256": "66189e4fd94f8dc8ee7759a808936907a1fe5e9966ec656aad6bfd374a3626e8",
+      "actualSha256": "66189e4fd94f8dc8ee7759a808936907a1fe5e9966ec656aad6bfd374a3626e8",
+      "match": true
+    }
+  ],
+  "code": {
+    "allHashesMatch": true,
+    "checked": 1882,
+    "baselineFile": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-baseline.json",
+    "baselineSha256": "1cf82f963fa712139c21b29b913ade25ab05eed9b98a1f52f518507c4cc90e8a",
+    "failures": []
+  },
+  "originalBodies": {
+    "textHashAlgorithm": "SHA256 UTF-8 text",
+    "pagesHashAlgorithm": "SHA256 UTF-8 JSON.stringify(pages)",
+    "checks": [
+      {
+        "id": "owner-ocr-20261115-3fd3b0eba37ed9eb",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-8ad438bafa05eac4",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-24a96a0a8cb0e9ab",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-57a65c3c1da06699",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-28ad27e3b9e3ea8a",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-cb1f6dc994498df4",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-1f04f7cab7f65d96",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-414b9546a7b185de",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-2aef451f7cf4efeb",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-a1c4425a82104aa1",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-fdf2e823b163ec9d",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-8c32a0181555bd10",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-09da2e6119f1798c",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-f9ff07c589f74ade",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-4dccd0e19b9e592f",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-3231571328435987",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-a0954278a0ef0289",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-a4e4c410cadb4fed",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-a560e5629d4faab2",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-20fc8c1ed1d69485",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-8574b3703e7e4a31",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-1ad183161975037d",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-47586e6650b35ad6",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-47586e6650b35ad6-place-tea",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-408e1e8ccc344d3d",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-18f83e7a889ce008",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-37c3a7507c4a7269",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-1b59ac01667ae3f2",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-403593f2cad13b87",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-ef208940bb830d79",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-71ebfbf5ba8a92b3",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-3493e20544bd8155",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-a67780646c3b65d6",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-ef880dddbc0f39d1",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-ef880dddbc0f39d1-place-forest",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-c800bcf7d802a968",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-17f88288a888c843",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-4f51209c6a4ba712",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-c455e3e75a89f0b3",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-d1ed647da62831ec",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-0dfe382a121eae7d",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-d3471125046fb9a2",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-d3471125046fb9a2-place-cherry",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-430a285cb164a4a1",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-9d495d98c8f21ee2",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-15f5b9b42d29498a",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-13c938216219a670",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-19f6e4b383b2bf9d",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-49001f98b0577ab6",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-49001f98b0577ab6-place-zhou",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-a0e7d368411023a8",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-ae95bb455bf9591f",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-19de3835eabedbba",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-c0f15eccc4864518",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-30fd94146fc8f81b",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-ce228fb6864c23b2",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-2bfb13e735e610fe",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-0aa2d1aaad98b2a7",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-37e6bc40a999fa88",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-ee4634c534a9845e",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-aa3aeda0b230c02c",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-81ed6cbb60c2bc3c",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-9c5d86616b9cdc47",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-fb00859dc13d284b",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-a5aed31ca8f5557c",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-595f3ba9c64394b5",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-cf02e7c01262081b",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-df8fee4154059b8d",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-2de2862507b7ee86",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-69812107a56d3d62",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-a95a3d6966cee2d9",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-2ecf45725db9a72d",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-099f472d6ab66cbe",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-2dfac6a157db2369",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-3062e434fb0f5aa4",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-6bf889e81d90ed6f",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-56ee58b76a782998",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-21bb6a8668d59281",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-95f7300096bd2919",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-61a683b87fed5a0d",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-c3f3679f978a75d9",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-3e707f1ddff862da",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-e5dfba2b6f73a134",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-86fead0b8394f004",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-ffff36a3df996fba",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-faca098082245d6b",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-a8818ce9e7ef17cf",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-3f9e1f87d341a0f3",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-ea56a829989c3a3a",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-be1d04536fde03e9",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-780dbecd9a50ac03",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-a9d0d8a4ec1274af",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-night-csd-s01",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-night-bp-s01",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-night-kzp-s01",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-mit-macbeth",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-mit-lear",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-mit-merchant",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-mit-romeo-juliet",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-mit-tempest",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-mit-richardiii",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-mit-julius-caesar",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-mit-henryiv",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-13c938216219a670-night-place-elsinore",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-mit-macbeth-night-place-dunsinane",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-mit-lear-night-place-heath",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-mit-tempest-night-place-island",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-4f51209c6a4ba712-night-place-zoo",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-a0e7d368411023a8-night-place-zeng",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-pd-doll",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-pd-builder",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-pd-hedda",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-pd-sisters",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-pd-vanya",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-pd-inspector",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-pd-enemy",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-pd-duck",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-gutenberg31-oedipus-the-king",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-gutenberg31-antigone",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-ccddb-zhaoshi-guer",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-pd-doll-night-place-parlor",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-faust",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-pygmalion",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-agamemnon",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-mrswarren",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-prometheus",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-phedre",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-heartbreak",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-figaro",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-tartuffe",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-electra",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-scandal",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-peer",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-miser",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-37c3a7507c4a7269-round3-yplace-shikumen",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-majorbarbara",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-danton",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-springawake",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-doueyuan-execution",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-birds",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-pd-missjulia",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-pd-duck-round3-xplace-attic",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261115-8c32a0181555bd10-round3-xplace-carriage",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      },
+      {
+        "id": "owner-ocr-20261116-doueyuan-court",
+        "exists": true,
+        "textHashMatch": true,
+        "pagesHashMatch": true
+      }
+    ]
+  },
+  "stoppedManuscriptChecks": [
+    {
+      "path": "DiaMotif/private/intake-pd-authors-20261101/wangshifu/WXJ-S01-Xixiangji/status.json",
+      "exists": true,
+      "expectedSha256": "fef99695f09a40eacf2d9a52b3bb66e8ef98577d726ef59fffaa50bcb1712bc7",
+      "actualSha256": "fef99695f09a40eacf2d9a52b3bb66e8ef98577d726ef59fffaa50bcb1712bc7",
+      "match": true,
+      "expectedMtime": "2026-11-15T01:07:15.048Z",
+      "actualMtime": "2026-11-15T01:07:15.048Z"
+    },
+    {
+      "path": "DiaMotif/private/intake-pd-authors-20261101/hongsheng/CSD-S01-Changshengdian/status.json",
+      "exists": true,
+      "expectedSha256": "411433a97574c2e59d0fbe246bf768909b9482dc66203a77b5f6536e84f9fd97",
+      "actualSha256": "411433a97574c2e59d0fbe246bf768909b9482dc66203a77b5f6536e84f9fd97",
+      "match": true,
+      "expectedMtime": "2026-11-10T01:21:30.500Z",
+      "actualMtime": "2026-11-10T01:21:30.500Z"
+    },
+    {
+      "path": "DiaMotif/private/intake-pd-authors-20261101/baipu/BP-S01-Wutongyu/status.json",
+      "exists": true,
+      "expectedSha256": "7f28017790591c8377ec0d87f1fde9612b9a71276a075fa0bea60e57e539acb7",
+      "actualSha256": "7f28017790591c8377ec0d87f1fde9612b9a71276a075fa0bea60e57e539acb7",
+      "match": true,
+      "expectedMtime": "2026-11-14T01:16:39.613Z",
+      "actualMtime": "2026-11-14T01:16:39.613Z"
+    }
+  ],
+  "formalCards": {
+    "count": 500,
+    "uniqueIds": 500,
+    "formalCatalogHashUnchanged": true,
+    "stateAuditCount": 500,
+    "runningIndexCount": 500,
+    "nameAndDimensionAligned": true,
+    "note": "正式500卡精简目录整文件哈希不变，包含id/name/rarity；该目录不含atk/def/fame分数，本报告不声称单独比较了外部咫牌游戏仓的分数字段。基线列出的1882代码文件全部不变。"
+  },
+  "coverage": {
+    "baseline": {
+      "DETAILED": 279,
+      "METADATA_ONLY": 1,
+      "MISS": 219,
+      "BLOCKED": 1
+    },
+    "current": {
+      "DETAILED": 322,
+      "MISS": 176,
+      "BLOCKED": 1,
+      "METADATA_ONLY": 1
+    },
+    "oldDetailedCount": 279,
+    "regressions": [],
+    "lostOriginalResources": []
+  },
+  "mappings": {
+    "requiredOrigin": "https://diastage.art",
+    "requiredCategories": [
+      "scripts",
+      "knowledge"
+    ],
+    "checked": 1500,
+    "failures": []
+  },
+  "newExcerptSourceChecks": [
+    {
+      "id": "owner-ocr-20261116-cont-xplace-balcony",
+      "sourceDocumentId": "owner-ocr-20261115-403593f2cad13b87",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 33,
+          "sha256": "ca2dfe0c0781b4e09c895daa9e2d2c49228ce54faee8068a3e608d8fa261f1af",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 38,
+          "sha256": "1c198ea0b15832af406f7764b971a13e67a5138bcc370bb074a84946ecbf5617",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 39,
+          "sha256": "db2578cf7846596159c0dcc452747c275eb930fbf37316175aca88513b2e3062",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-convent",
+      "sourceDocumentId": "owner-ocr-20261115-403593f2cad13b87",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 54,
+          "sha256": "f0025439676b388f42b697f7befc5547e774cd654ecc1bbf66d6ed2342307b02",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 55,
+          "sha256": "39d1415b6f4745acf226d9b47c190091114925245a1fa389233a06a19e2f64a0",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-snowfield",
+      "sourceDocumentId": "owner-ocr-20261115-20fc8c1ed1d69485",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 4,
+          "sha256": "f6e2214788f5d6bf9f76562e167455244d0d395bfb49960a1d5b112dd6f3975e",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 8,
+          "sha256": "1c96dffec502194190ed0ba1429dbfde8598d11d888ab5429ea75f79bec4e076",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 16,
+          "sha256": "ccf1d1ddbb0e62682fec1c1edd977014043fa24c00cf26657b8e8a02f497958e",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-zhongjun",
+      "sourceDocumentId": "owner-ocr-20261115-mit-julius-caesar",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 16,
+          "sha256": "f9523244075282699e197817e09cd5b4425938fab21c0b8d18a4b432eaf42392",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 17,
+          "sha256": "1ff9e74a59a89f900bb7de868daf13952ae16bd336113ba70b1b0ddd87876d51",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-place-v21-publicbath",
+      "sourceDocumentId": "owner-ocr-20261115-3231571328435987",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 3,
+          "sha256": "001613e2454b9b901ba83e8748e71108fdc56c929235b24914fcdd27b891785a",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 4,
+          "sha256": "36cdaecf6cb0e7832c95f83367157475c311b9fbe79d08ebdff2d553706451a2",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-factory",
+      "sourceDocumentId": "owner-ocr-20261116-pd-majorbarbara",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 30,
+          "sha256": "317c4f4ed24dd0e072639ba90a1ddb8de4ff7692fb467b08ba94d4d663e2fb8e",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 31,
+          "sha256": "6cf8aeb5722fccf3089a381b89f59ceb834ead1f15c7479c6e38883b30601e59",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-deck",
+      "sourceDocumentId": "owner-ocr-20261116-pd-peer",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 70,
+          "sha256": "5e8d4c7acad2fb95b3a309de990ad75e53d132c37e1b2799231528f764ce6da1",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 71,
+          "sha256": "7a9db8f0c20313e8ac99715bc3a89a9d063a6d4a6e9eb0793c43ffbde8dee938",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 72,
+          "sha256": "9f08fde5c214d75bef74fa9358d5199d481175a0d0876ade975043e24afd703b",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 73,
+          "sha256": "efdaa8d5b632758312b33ab6167841a55eebcc74a6674117e774e1c8b2124969",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-place-v21-photostudio",
+      "sourceDocumentId": "owner-ocr-20261115-pd-duck",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 3,
+          "sha256": "cce6e2e95a7982749e8d73c234f7cee01de8717b096d811af82e06d22c4c53e0",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 4,
+          "sha256": "cc977a0ba58f44cd7aac2ca078b1e067e2779c410986da4df7fc3b957f7098f5",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-dock",
+      "sourceDocumentId": "owner-ocr-20261115-1f04f7cab7f65d96",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 26,
+          "sha256": "66edf11fb12c14ae73742dfb4090b8f19eb5cdde869f41ca208e854d70a2c744",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 27,
+          "sha256": "6b9d65a1b4072c841488bcf74d4592819fd2728d9ec51ccc80c05b80b427ea0b",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 28,
+          "sha256": "3e10fe732a6e510a77989c1238212db5e2a3003ea909c272fbc9be7e5236b0b1",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-grave",
+      "sourceDocumentId": "owner-ocr-20261115-13c938216219a670",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 106,
+          "sha256": "fa275571fac1843a56bfd715a8cf356052a776394c02ac1ef22e5f02ac5d33ae",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 108,
+          "sha256": "e025f4d37e6547562d562c6a7d5d8ee3dc8d4ce6fa0459996b781d99c471e29f",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 109,
+          "sha256": "17fff9d5eba27a609a293e0f801f79cc9d718c45a239e62ce88939117cb06ec9",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 110,
+          "sha256": "7a322b6d65eb12a6b9df7a32fdc61dedc5305f0188ed70fc698942ece02c9456",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 113,
+          "sha256": "cc1f3b1d645bd3802225a0c8f45432f03db94d244567f26be2963556a5b77bf3",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 114,
+          "sha256": "4345e26b76906d5bbbf742e9506ef73fc25de855175608deedb71121ec962fe3",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-xplace-kitchen",
+      "sourceDocumentId": "owner-ocr-20261116-pd-missjulia",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 6,
+          "sha256": "3bec4e7b071cff076b393389988a740918b5b0eae62ee1c0d0bc4e01923d0e4e",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 7,
+          "sha256": "3c2723b1ae862dd9b5af4387d99c8b8759f0c457cd784f7f10812c59d5d2bc8c",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 8,
+          "sha256": "fe8f3455408d422078f0a727d28f91df864ca125f979c07ac310e763ae3ddcd8",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-cliff",
+      "sourceDocumentId": "owner-ocr-20261115-mit-lear",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 26,
+          "sha256": "f8f9257d682251724b191a0291b6070219cc28e7ca355bb17be8714beb7183f4",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-dungeon",
+      "sourceDocumentId": "owner-ocr-20261116-pd-faust",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 56,
+          "sha256": "b5824cc9985aeb79a2daffebab96eca5b5051874b9d7582d3e81bf4637bb3849",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 57,
+          "sha256": "160f05e4215bc73ae5787f28fba5ba0b41e21398474171cfd254558b048a85c2",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 58,
+          "sha256": "fef9216ae8b58be4313c7d2c9ce80c109a3ffb537df89be0eb8f6022a0d18239",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    },
+    {
+      "id": "owner-ocr-20261116-cont-yplace-ballroom",
+      "sourceDocumentId": "owner-ocr-20261115-d3471125046fb9a2",
+      "sourceExists": true,
+      "pages": [
+        {
+          "page": 48,
+          "sha256": "00d83b1aa8244d16d106a486e1e1a76ec0c4c3714e28205b464cb1a0bf7980c9",
+          "sourcePageExactMatch": true
+        },
+        {
+          "page": 49,
+          "sha256": "da6e7358a7de54ede0ba54cd4a71d6be8186d3c23bf86b287c6adc9ea8d36ac8",
+          "sourcePageExactMatch": true
+        }
+      ],
+      "publishedTextExactComposition": true,
+      "proofreadFalse": true
+    }
+  ],
+  "newHistoricalSourcePackageChecks": [
+    {
+      "id": "owner-ocr-20261116-cont-eb1911-passion",
+      "packagePath": "DiaMotif/private/diagacha-remaining-coverage-20261116-cont/eb1911-passion-package.json",
+      "packageExists": true,
+      "textExactMatch": true,
+      "pagesExactMatch": true,
+      "textSha256Match": true,
+      "pages": [
+        1
+      ],
+      "hosting": "public-domain-source-text",
+      "proofreadFalse": true,
+      "sourceTextFile": "D:\\GrokBot\\DiaStage\\DiaMotif\\private\\diagacha-remaining-coverage-20261116-cont\\eb1911-oberammergau.txt",
+      "sourceTextFileExactMatch": true,
+      "workCompleteness": "historical-encyclopaedia-excerpt",
+      "pageNumberConvention": "逻辑段1，对应1911词条第2至5段；非纸本页码"
+    },
+    {
+      "id": "owner-ocr-20261116-cont-pd-woyzeck-franzos1879",
+      "packagePath": "DiaMotif/private/diagacha-remaining-coverage-20261116-cont/scripts/woyzeck-1879-package.json",
+      "packageExists": true,
+      "textExactMatch": true,
+      "pagesExactMatch": true,
+      "textSha256Match": true,
+      "pages": [
+        161,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201
+      ],
+      "hosting": "public-domain-source-text",
+      "proofreadFalse": true,
+      "sourceTextFile": "D:\\GrokBot\\DiaStage\\DiaMotif\\private\\diagacha-remaining-coverage-20261116-cont\\scripts\\woyzeck-1879-public.txt",
+      "sourceTextFileExactMatch": true,
+      "workCompleteness": "fragment",
+      "pageNumberConvention": "1879印本原页码161及163–201；162为留白，不另编现代场次。 文本末尾历史版本与转录附注不是原印本页；pages仅含40页原文，不虚构p.202。"
+    }
+  ],
+  "publicationExclusions": {
+    "searchSourceFiles": [
+      "caoyu-play-cards-20261101",
+      "classic-web-intake-20261108",
+      "domestic-discovery",
+      "high-throughput-classics-20261108",
+      "high-throughput-knowledge-20261108",
+      "owner-approved-fdrive-20261108",
+      "owner-approved-review-20261115",
+      "owner-ocr-fulltexts-20261115",
+      "pd-script-fulltexts-20261108",
+      "search-publication-reviews",
+      "theatre-regional-intake-20261030",
+      "theatre-resources"
+    ],
+    "forbiddenRows": [],
+    "status": [
+      {
+        "cardId": "play-xixiang",
+        "status": "BLOCKED",
+        "hitIds": [],
+        "resourceIds": []
+      },
+      {
+        "cardId": "xrole-hongniang",
+        "status": "MISS",
+        "hitIds": [],
+        "resourceIds": []
+      }
+    ],
+    "interpretation": "检查身份字段与正文资源，不把理论书中的普通提及视为该剧/人物公开正文。"
+  },
+  "pdfPrivacy": {
+    "records": 62,
+    "violations": [],
+    "ownerPdfRoute": "apps/editor/app/api/diamotif/owner-pdf/[id]/route.ts",
+    "routeHashUnchanged": true,
+    "staticObservation": "路由对非本机请求调用requireSceneSession，返回PDF时Cache-Control为private, no-store；既有本机访问例外保留。未执行匿名下载请求。"
+  },
+  "failures": {
+    "protected": [],
+    "code": [],
+    "bodies": [],
+    "stopped": [],
+    "formal": [],
+    "oldDetailedRegressions": [],
+    "lostOriginalResources": [],
+    "mappings": [],
+    "newSourcePages": [],
+    "newSourcePackages": [],
+    "forbiddenRows": [],
+    "forbiddenMapping": [],
+    "pdfHosting": []
+  },
+  "limitations": [
+    "不代替主代理的本机卡面词+分类API命中与正文核验。",
+    "未将机器文本/独立代理复核标称为人工逐字终校。",
+    "本报告依据审查时点的文件快照；后续变更须另核。"
+  ]
+}
