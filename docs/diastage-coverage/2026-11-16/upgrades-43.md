@@ -1,0 +1,49 @@
+# 20261116-cont 本轮由 MISS 升级为 DETAILED 的 43 张
+
+相对已核第三轮终稿（279 / 1 / 219 / 1）。正式 v57 的 URL、分类和查询无需改动，故未发 v58。
+
+| 维度 | 编号 | 名称 |
+| --- | --- | --- |
+| 主演 | `v23-role-woyzeck` | 沃伊采克 |
+| 剧目 | `v23-play-woyzeck` | 沃伊采克 |
+| 导演手法 | `dir-call` | 点名观众 |
+| 导演手法 | `dir-ritual` | 仪式调度 |
+| 导演手法 | `dir-solo` | 独白直给 |
+| 导演手法 | `dir-v21-endingloop` | 结尾回环 |
+| 导演手法 | `dir-v21-timecut` | 时间跳接 |
+| 导演手法 | `xdir-bang` | 旁唱评论 |
+| 导演手法 | `xdir-drum` | 节奏提示 |
+| 导演手法 | `xdir-facechange` | 情绪突变 |
+| 导演手法 | `ydir-jijifeng` | 加速节奏 |
+| 导演手法 | `ydir-lingzi` | 视线引导 |
+| 环境 | `place-baihua` | 花亭 |
+| 环境 | `place-gullen` | 居伦城 |
+| 环境 | `place-stella` | 斯特拉的公寓 |
+| 环境 | `place-v21-photostudio` | 旧照相馆 |
+| 环境 | `place-v21-publicbath` | 公共浴室 |
+| 环境 | `place-v21-willroom` | 遗嘱宣读室 |
+| 环境 | `xplace-balcony` | 阳台 |
+| 环境 | `xplace-convent` | 修道院 |
+| 环境 | `xplace-dock` | 码头 |
+| 环境 | `xplace-factory` | 工厂 |
+| 环境 | `xplace-grave` | 墓地 |
+| 环境 | `xplace-kitchen` | 厨房 |
+| 环境 | `xplace-market` | 集市 |
+| 环境 | `xplace-snowfield` | 雪原 |
+| 环境 | `yplace-altar` | 祭坛 |
+| 环境 | `yplace-ballroom` | 舞厅 |
+| 环境 | `yplace-chengmen` | 城门 |
+| 环境 | `yplace-cliff` | 悬崖 |
+| 环境 | `yplace-deck` | 甲板 |
+| 环境 | `yplace-dungeon` | 地牢 |
+| 环境 | `yplace-zhongjun` | 中军帐 |
+| 配角 | `v23-sup-marie` | 玛丽 |
+| 风格体系 | `style-kabuki` | 夸张演技 |
+| 风格体系 | `style-physical` | 身体剧场 |
+| 风格体系 | `style-v21-courtroom` | 法庭剧 |
+| 风格体系 | `style-v21-sensory` | 感官剧场 |
+| 风格体系 | `v23-style-visual` | 视觉戏剧 |
+| 风格体系 | `xstyle-chuanju` | 开放结局 |
+| 风格体系 | `ystyle-kyogen` | 讽刺短剧 |
+| 风格体系 | `ystyle-passion` | 受难剧 |
+| 风格体系 | `ystyle-ritualstyle` | 仪式戏剧 |

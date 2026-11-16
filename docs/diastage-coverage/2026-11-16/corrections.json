@@ -1,0 +1,20 @@
+[
+  {
+    "at": "2026-11-15T20:39:13.272Z",
+    "cardId": "style-v21-polyphonic",
+    "from": "DETAILED",
+    "to": "MISS",
+    "reason": "独立复核原书122–124页：正文支持多线叙事和视听复调，但未解释本卡所需的不同人物保留独立立场、不以单一解释收束；不足以据此升级，恢复第三轮MISS。",
+    "source": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-independent-knowledge-qa.json",
+    "affectedHistoricalBatches": [
+      "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch01-ready.txt",
+      "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch02-ready.txt",
+      "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch03-ready.txt",
+      "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch04-ready.txt",
+      "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch05-ready.txt",
+      "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-batch06-ready.txt"
+    ],
+    "baseline279Unaffected": true,
+    "oldBatchFilesPreserved": true
+  }
+]
