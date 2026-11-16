@@ -1,0 +1,545 @@
+{
+  "checkedAt": "2026-11-15T20:40:20.769Z",
+  "reviewer": "knowledge_methods（独立复核，非沃伊采克包作者）",
+  "decision": "PASS_WITH_LIMITATIONS",
+  "pass": true,
+  "resourceId": "owner-ocr-20261116-cont-pd-woyzeck-franzos1879",
+  "packagePath": "DiaMotif/private/diagacha-remaining-coverage-20261116-cont/scripts/woyzeck-1879-package.json",
+  "packageSha256": "5d606dfdb5a4d8a0558c2ddfcb83c3dd5e40091ebf0b66db5aaed662a530d036",
+  "sourceCheckPath": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-woyzeck-source-check.json",
+  "reviewMethod": "独立重新拼合四份网页切片并比对原文、40页文本和公开附注；另外在线读取原来源书目、页码索引及关键页转录。未执行原作者source-check脚本，未改包，未打本机API。",
+  "sourceSnapshotChecks": [
+    {
+      "path": "DiaMotif/private/diagacha-remaining-coverage-20261116-cont/scripts/woy-web-source.txt",
+      "sha256": "d567e509d26fc35932ad6a32d6d17da7084d9e4380113f0fbc4e2e4ed79005e8"
+    },
+    {
+      "path": "DiaMotif/private/diagacha-remaining-coverage-20261116-cont/scripts/woy2-web-source.txt",
+      "sha256": "3d18e56e59124a543e0151777f297ab21aaef3b23f9fd948186eca4cc7818e04"
+    },
+    {
+      "path": "DiaMotif/private/diagacha-remaining-coverage-20261116-cont/scripts/woy3-web-source.txt",
+      "sha256": "2fa30d2d676cfca0c65cb08a3bdfabbb09505d17e4f2045cbd6ec262d525bedb"
+    },
+    {
+      "path": "DiaMotif/private/diagacha-remaining-coverage-20261116-cont/scripts/woy4-web-source.txt",
+      "sha256": "7089b30c492806500ce4f6dd1b04d9c8df33c84f175ab7c2fe821cece0726fd4"
+    }
+  ],
+  "continuousSource": {
+    "firstLine": 130,
+    "lastLine": 953,
+    "lineCount": 824,
+    "missingLines": [],
+    "conflictingOverlapLines": [],
+    "reconstructedRawExact": true,
+    "originalBodyCharacters": 44592,
+    "publicTextCharacters": 45653,
+    "rawSha256": "db56ecfba0e0673cd9d509b4f69df625264d04cc0127431d0c86c9c63a417696",
+    "publicSha256": "769ca648ac17eacc779e3774530507022fa9da1734dc36487164871e09acce3a"
+  },
+  "pageChecks": [
+    {
+      "page": 161,
+      "sourceExact": true,
+      "sha256": "badd9cc59818aba191c9198f1ed724fd8d02f844ff258b33682d79f14bd4e510",
+      "characters": 35
+    },
+    {
+      "page": 163,
+      "sourceExact": true,
+      "sha256": "8647e6216436c9abb58458fa47886602d15705470b9b50d9b983954379fc5c80",
+      "characters": 1021
+    },
+    {
+      "page": 164,
+      "sourceExact": true,
+      "sha256": "331b4206b31a2b44b75b2bb9097e62c898098503334e387810d2a84a87e7d0e8",
+      "characters": 1394
+    },
+    {
+      "page": 165,
+      "sourceExact": true,
+      "sha256": "5d921671044c92df9f9e18905f2f314cbd97d378248925dd28834da2b096f693",
+      "characters": 1299
+    },
+    {
+      "page": 166,
+      "sourceExact": true,
+      "sha256": "430af763767860bfb395a870eba8340b235f1e28fe3fbb0a8198525968943064",
+      "characters": 1424
+    },
+    {
+      "page": 167,
+      "sourceExact": true,
+      "sha256": "b213095d941b4b3f3b863b873c389555b9c76523457dbef0d8c696b71e21b550",
+      "characters": 1239
+    },
+    {
+      "page": 168,
+      "sourceExact": true,
+      "sha256": "c62aee0f975d6e1c6e5a18aecbf6605636a51eeece957a3eae4ef25d5d2b015c",
+      "characters": 1118
+    },
+    {
+      "page": 169,
+      "sourceExact": true,
+      "sha256": "4295f6c1820f8321129f29ed902e17690365a7dc765bafa11e33f26824d27553",
+      "characters": 1113
+    },
+    {
+      "page": 170,
+      "sourceExact": true,
+      "sha256": "36c280e6a5354f801db77f37a5a14181024d3c4f990e1e5161431d043c5ea116",
+      "characters": 1429
+    },
+    {
+      "page": 171,
+      "sourceExact": true,
+      "sha256": "1496d1fab79ad8bc21df9205732c6b8d4be8b940fbb2e7853b2fd975c289d3e4",
+      "characters": 1041
+    },
+    {
+      "page": 172,
+      "sourceExact": true,
+      "sha256": "2a5b76fcc2aacbe0296c7a76b216f4b90fdfb083c60a59ea6cf0b016a0a33e9c",
+      "characters": 1092
+    },
+    {
+      "page": 173,
+      "sourceExact": true,
+      "sha256": "2a5a78b59fb3c1c2602efc95cdf352f6a850aaa1eed4e2f5595f900a7989a088",
+      "characters": 920
+    },
+    {
+      "page": 174,
+      "sourceExact": true,
+      "sha256": "81c3506ce7aba5ee984da081f7844407bc9c0320a1674dcd0893cc434461a460",
+      "characters": 1033
+    },
+    {
+      "page": 175,
+      "sourceExact": true,
+      "sha256": "c55939028b7f89cd4b0ac399c0db0574f814c21637fcd068006fb3cfaab8ac31",
+      "characters": 1022
+    },
+    {
+      "page": 176,
+      "sourceExact": true,
+      "sha256": "3fa0f8d5b78dcff72219d9cdd93ebbdc8d0d9408fe3cf0421d6b30948fd3c79f",
+      "characters": 1641
+    },
+    {
+      "page": 177,
+      "sourceExact": true,
+      "sha256": "f962fb738fa2a5f660d23ce5c4fbe3a275dd30ba6ddb6bbe4c5a9f635f275a13",
+      "characters": 1337
+    },
+    {
+      "page": 178,
+      "sourceExact": true,
+      "sha256": "43891d0e0f2fcd70d6636f69f1e300814c5c89ebb6a9f6f4685745c73656b070",
+      "characters": 1037
+    },
+    {
+      "page": 179,
+      "sourceExact": true,
+      "sha256": "720e9f53b08c4b93b194fb266646645577d69e6c830e685674e5d36fc87a5e66",
+      "characters": 909
+    },
+    {
+      "page": 180,
+      "sourceExact": true,
+      "sha256": "b99e52a341d33b59ac1d291ba578bdb3a472085844e8ebe633308926ac0d9e55",
+      "characters": 1397
+    },
+    {
+      "page": 181,
+      "sourceExact": true,
+      "sha256": "632743c40aadd8bb1527cf366774bb0989274dd8e4b07e0e6a8d6f8efba9cdb7",
+      "characters": 1453
+    },
+    {
+      "page": 182,
+      "sourceExact": true,
+      "sha256": "127e88158aebf54709301617a7fa7192388282d4f0ab6a5a8435606b1fce295d",
+      "characters": 1426
+    },
+    {
+      "page": 183,
+      "sourceExact": true,
+      "sha256": "4ecb36156c4fda882a03863094b871aca3bf994bb790ddb64f82b6e410c91de2",
+      "characters": 1071
+    },
+    {
+      "page": 184,
+      "sourceExact": true,
+      "sha256": "f49ad2974365738c9a71ad36c624b8482028ea1e8b82481c2960d10780bc2d52",
+      "characters": 1092
+    },
+    {
+      "page": 185,
+      "sourceExact": true,
+      "sha256": "7e17c3200bcc67c95d6101f7b9f419064979fb9f3d80c09d8e385814214e92f5",
+      "characters": 895
+    },
+    {
+      "page": 186,
+      "sourceExact": true,
+      "sha256": "5515529fb5c950f16d01a5d8ee29309c24de462a47e6e7f9d3f1d2ae760e0fb0",
+      "characters": 926
+    },
+    {
+      "page": 187,
+      "sourceExact": true,
+      "sha256": "894f1bc0dd381c8b238d576933ead9eb27eaa841a876142550ae0cdbe6687aaa",
+      "characters": 1472
+    },
+    {
+      "page": 188,
+      "sourceExact": true,
+      "sha256": "bebeed6e3b454f096a1627a1e138f5bbbd2674a5df7c9da0bf5e0937631b9b7c",
+      "characters": 1025
+    },
+    {
+      "page": 189,
+      "sourceExact": true,
+      "sha256": "a26fffe6776440d8db7985774f73b8740414849a1726737182aa4328ac886d51",
+      "characters": 1301
+    },
+    {
+      "page": 190,
+      "sourceExact": true,
+      "sha256": "5c8a413534a8f0c74b7beb7698c4fa551fd3c84e3b899d324694db111d3efc45",
+      "characters": 968
+    },
+    {
+      "page": 191,
+      "sourceExact": true,
+      "sha256": "b3781a0d3990c35fbf30679473e85b6760cf50544d05e729e9310d01270e2d07",
+      "characters": 1048
+    },
+    {
+      "page": 192,
+      "sourceExact": true,
+      "sha256": "3cc7a57636f5cdf266f385faee32ad50aec95e12d9efedbd8672e784f53cfbc1",
+      "characters": 1298
+    },
+    {
+      "page": 193,
+      "sourceExact": true,
+      "sha256": "40453b16e9605cecb50e49bc13590903a6001b2964492dec08268810b7fc6cff",
+      "characters": 932
+    },
+    {
+      "page": 194,
+      "sourceExact": true,
+      "sha256": "cee4af5a4cd9cd06468f9e90af31a766d9c70f2bb8fcad5fb759f98dcc2ac515",
+      "characters": 1315
+    },
+    {
+      "page": 195,
+      "sourceExact": true,
+      "sha256": "03e00570cb1ea59197ca107074e496de8abe8d701e25d451ba4f7f3860dd0d41",
+      "characters": 1073
+    },
+    {
+      "page": 196,
+      "sourceExact": true,
+      "sha256": "d7605a5aebd755a2d8b6e473994200451f353e1ba7d330289454071f4f676f05",
+      "characters": 977
+    },
+    {
+      "page": 197,
+      "sourceExact": true,
+      "sha256": "f96f529f338967cc8d4d55ab00756661a1b3dfd8ba3c8b6506f94bb07e8d8211",
+      "characters": 1089
+    },
+    {
+      "page": 198,
+      "sourceExact": true,
+      "sha256": "3ba92def6e21a50de62521a3c720affdd8359cefac555457601739b782ff0291",
+      "characters": 1133
+    },
+    {
+      "page": 199,
+      "sourceExact": true,
+      "sha256": "64588d3f4909fb2817baad703e3c4147ee8d687a03edc2444a8d8cec5c731219",
+      "characters": 1304
+    },
+    {
+      "page": 200,
+      "sourceExact": true,
+      "sha256": "551de243c411ac7e04e3cea0552cdf964a3cf2f2f5a283bc7a00fc0d0e1d7665",
+      "characters": 744
+    },
+    {
+      "page": 201,
+      "sourceExact": true,
+      "sha256": "c3c6d3e9049cecef79b877245660c030f39969d130bd1a31f4fb7f42bbe4f6cd",
+      "characters": 246
+    }
+  ],
+  "missingPage162": {
+    "status": "VERIFIED_BLANK",
+    "url": "https://de.wikisource.org/wiki/Seite:Georg_B%C3%BCchner_-_Franzos-Werkausgabe_162.jpg",
+    "evidence": "在线原页明确为 Diese Seite ist ohne Eintragungen；不是漏采正文。"
+  },
+  "sceneOrderChecks": [
+    {
+      "readingOrder": 1,
+      "page": 163,
+      "title": "Zimmer.",
+      "matched": true
+    },
+    {
+      "readingOrder": 2,
+      "page": 166,
+      "title": "Oeffentlicher Platz. Buden.",
+      "matched": true
+    },
+    {
+      "readingOrder": 3,
+      "page": 167,
+      "title": "Das Innere der Bude.",
+      "matched": true
+    },
+    {
+      "readingOrder": 4,
+      "page": 168,
+      "title": "Stube.",
+      "matched": true
+    },
+    {
+      "readingOrder": 5,
+      "page": 169,
+      "title": "Der Hof des Doctors.",
+      "matched": true
+    },
+    {
+      "readingOrder": 6,
+      "page": 171,
+      "title": "Freies Feld. Die Stadt in der Ferne.",
+      "matched": true
+    },
+    {
+      "readingOrder": 7,
+      "page": 173,
+      "title": "Die Stadt.",
+      "matched": true
+    },
+    {
+      "readingOrder": 8,
+      "page": 175,
+      "title": "Studirstube des Doctors.",
+      "matched": true
+    },
+    {
+      "readingOrder": 9,
+      "page": 178,
+      "title": "Straße.",
+      "matched": true
+    },
+    {
+      "readingOrder": 10,
+      "page": 179,
+      "title": "Straße.",
+      "matched": true
+    },
+    {
+      "readingOrder": 11,
+      "page": 183,
+      "title": "Mariens Stube.",
+      "matched": true
+    },
+    {
+      "readingOrder": 12,
+      "page": 184,
+      "title": "Wirthshaus.",
+      "matched": true
+    },
+    {
+      "readingOrder": 13,
+      "page": 185,
+      "title": "Die Wachtstube.",
+      "matched": true
+    },
+    {
+      "readingOrder": 14,
+      "page": 186,
+      "title": "Wirthshaus.",
+      "matched": true
+    },
+    {
+      "readingOrder": 15,
+      "page": 190,
+      "title": "Freies Feld.",
+      "matched": true
+    },
+    {
+      "readingOrder": 16,
+      "page": 190,
+      "title": "Kaserne.",
+      "matched": true
+    },
+    {
+      "readingOrder": 17,
+      "page": 191,
+      "title": "Kasernenhof.",
+      "matched": true
+    },
+    {
+      "readingOrder": 18,
+      "page": 192,
+      "title": "Mariens Stube.",
+      "matched": true
+    },
+    {
+      "readingOrder": 19,
+      "page": 193,
+      "title": "Kramladen.",
+      "matched": true
+    },
+    {
+      "readingOrder": 20,
+      "page": 193,
+      "title": "Straße.",
+      "matched": true
+    },
+    {
+      "readingOrder": 21,
+      "page": 195,
+      "title": "Kaserne.",
+      "matched": true
+    },
+    {
+      "readingOrder": 22,
+      "page": 196,
+      "title": "Waldweg am Teich.",
+      "matched": true
+    },
+    {
+      "readingOrder": 23,
+      "page": 197,
+      "title": "Wirthshaus.",
+      "matched": true
+    },
+    {
+      "readingOrder": 24,
+      "page": 199,
+      "title": "Waldweg am Teich.",
+      "matched": true
+    },
+    {
+      "readingOrder": 25,
+      "page": 200,
+      "title": "Früher Morgen. Vor Mariens Hausthür.",
+      "matched": true
+    },
+    {
+      "readingOrder": 26,
+      "page": 201,
+      "title": "Secirsaal.",
+      "matched": true
+    }
+  ],
+  "fragmentDisclosure": {
+    "title": true,
+    "searchSummary": true,
+    "publicTextFooter": true,
+    "originalTitlePage": true,
+    "workCompleteness": "fragment",
+    "coverageFieldMeaning": "coverage=full只表示完整收录Franzos 1879这一历史编订本；作品仍是fragment，不指毕希纳完成定稿。",
+    "endPreserved": true
+  },
+  "variantChecks": [
+    {
+      "page": 171,
+      "transcription": "Abschied",
+      "printedReadingReportedByWikisource": "Aschied",
+      "globalMarker": "WS 1",
+      "publicNotePresent": true,
+      "url": "https://de.wikisource.org/wiki/Seite:Georg_B%C3%BCchner_-_Franzos-Werkausgabe_171.jpg"
+    },
+    {
+      "page": 186,
+      "transcription": "Weibsbilder",
+      "printedReadingReportedByWikisource": "Weisbilder",
+      "globalMarker": "WS 2",
+      "pageLocalMarker": "WS 1",
+      "publicNotePresent": true,
+      "url": "https://de.wikisource.org/wiki/Seite:Georg_B%C3%BCchner_-_Franzos-Werkausgabe_186.jpg"
+    }
+  ],
+  "roleChecks": [
+    {
+      "cardId": "v23-role-woyzeck",
+      "page": 163,
+      "quote": "Wozzeck. Ja wohl, Herr Hauptmann!",
+      "meaning": "标题之后本人对白，非仅剧名出现。",
+      "found": true
+    },
+    {
+      "cardId": "v23-role-woyzeck",
+      "page": 195,
+      "quote": "Johann Franz Wozzeck, Wehrmann und Füselier",
+      "meaning": "本人读出姓名与军籍，佐证历史拼写指同一人物。",
+      "found": true
+    },
+    {
+      "cardId": "v23-sup-marie",
+      "page": 169,
+      "quote": "Marie. Gott vergelts, Franz.",
+      "meaning": "Marie与Wozzeck现场对话，非他人谈到人物。",
+      "found": true
+    },
+    {
+      "cardId": "v23-sup-marie",
+      "page": 197,
+      "quote": "Marie. Hülfe! Hülfe!",
+      "meaning": "Marie在谋杀场有本人对白，与后续遗体场分明。",
+      "found": true
+    }
+  ],
+  "onlineChecks": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Georg_B%C3%BCchner_-_Franzos-Werkausgabe_161.jpg",
+      "finding": "书目列出作者Büchner、编订Franzos、1879年、J. D. Sauerländischer Verlag、Frankfurt am Main、原作扫描，并有PD-old-100-expired公版标识。"
+    },
+    {
+      "url": "https://de.wikisource.org/wiki/Index:Wozzeck",
+      "finding": "索引列出161–201原页，说明页码依底本。"
+    },
+    {
+      "url": "https://de.wikisource.org/wiki/Wozzeck",
+      "finding": "线上转录题页同为Ein Trauerspiel-Fragment；正文首场Zimmer与包一致。"
+    },
+    {
+      "url": "https://de.wikisource.org/wiki/Seite:Georg_B%C3%BCchner_-_Franzos-Werkausgabe_161.jpg",
+      "finding": "原题页转录明确Ein Trauerspiel-Fragment。"
+    },
+    {
+      "url": "https://de.wikisource.org/wiki/Seite:Georg_B%C3%BCchner_-_Franzos-Werkausgabe_171.jpg",
+      "finding": "在线转录为Abschied，注释明确Original: Aschied。"
+    },
+    {
+      "url": "https://de.wikisource.org/wiki/Seite:Georg_B%C3%BCchner_-_Franzos-Werkausgabe_186.jpg",
+      "finding": "在线转录为Weibsbilder，注释明确Original: Weisbilder；单页注号WS 1，合并全文注号WS 2。"
+    },
+    {
+      "url": "https://de.wikisource.org/wiki/Seite:Georg_B%C3%BCchner_-_Franzos-Werkausgabe_201.jpg",
+      "finding": "末页Secirsaal及Arzt后的破折号残缺保留。"
+    }
+  ],
+  "sourceCheckIndependentAgreement": true,
+  "proofread": false,
+  "scanImagesViewed": [],
+  "apiVerificationPerformed": false,
+  "blockingFindings": [],
+  "limitations": [
+    "此核验确认与保存的Wikisource逐页转录一致，不是历史扫描逐字人工终校；两处异读通过在线转录注释核对，未目视扫描判字。",
+    "尝试下载171与186原扫描均遭Wikimedia HTTP 429，停止重试，未把转录校验称作扫图校勘。",
+    "固定oldid=2250138链接本次浏览失败；成功核对当前Wozzeck页面、原页转录、页码索引及Commons书目。历史版本判断以1879扫描书目和原页为据，不将未重取固定链接称已重取。",
+    "没有复核本机4318的搜索命中与正文端点；该项由主执行员统一执行。"
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "schema": "diagacha-cont-independent-knowledge-qa-v1",
+  "reviewedAt": "2026-11-15T20:39:17.797Z",
+  "reviewer": "/root/knowledge_spaces",
+  "scope": "独立审阅methods全部20候选的正式卡义及完整所引页文本，另核齐唱/同时独白拒绝边界。环境41卡为本代理自审，不列为独立审查。",
+  "method": "逐卡读源段与卡义，检查出处是否实质解释、是否只含词面或近义概念；逐页SHA256和现有源包精确比对。未重新人工校对PDF图像，不代替localhost检索验收。",
+  "summary": {
+    "candidateCount": 20,
+    "semanticPass": 19,
+    "reject": 1,
+    "sourceIntegrityPassed": true
+  },
+  "reviews": [
+    {
+      "cardId": "style-v21-sensory",
+      "name": "感官剧场",
+      "rarity": "LR",
+      "formalMeaning": "感官剧场把触觉、气味、声音等感知经验纳入观看，使身体的记忆与戏剧情境相互触发。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-30fd94146fc8f81b",
+      "sourceTitle": "戏剧鉴赏",
+      "pages": [
+        205,
+        206
+      ],
+      "decision": "PASS_WITH_SCOPE",
+      "reason": "205–206页将声音/身体体验与理性文本接收作具体对照，并说明观众触碰、参与、打节拍和身体异常感。足以支持感官参与的方法；并非只出现感官一词。",
+      "scope": "限于声音、触觉和身体参与，不声称此例包含气味，不声称原书采用感官剧场专名。",
+      "sourceTextIntegrity": [
+        {
+          "page": 205,
+          "sha256": "8aa83c507bc49f6aaee6528bfc2e1a331e18ec28a6f1beb7f88fffbe380bc54b",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 206,
+          "sha256": "924aa80e9d2c27db1a912b29b50c332a1c1bd53a4f12803f75d51715cda24180",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "style-physical",
+      "name": "身体剧场",
+      "rarity": "UR",
+      "formalMeaning": "以身体动作、空间和节奏为重要创作材料的剧场实践，可与语言结合，通过身体关系组织叙事和意义。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-aa3aeda0b230c02c",
+      "sourceTitle": "中国话剧艺术史第8卷",
+      "pages": [
+        340,
+        341
+      ],
+      "decision": "PASS",
+      "reason": "340页详细解释以身体动作姿势作为创作字汇、方向/身体重心训练、个体动作整合流动场面，341页说明动作和观众之间的意义协商；与身体关系组织叙事和意义吻合。",
+      "scope": "作者论述的是进念实践实例，不扩大为全部身体剧场的普遍规则。",
+      "sourceTextIntegrity": [
+        {
+          "page": 340,
+          "sha256": "9806fdad3bfea2461526c40c903356eb3f9ad2cd1fa802807e99c5eebe62b664",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 341,
+          "sha256": "428646f073d5b3bb0e67644b8d3cd51d0bdcbb46ceea817d80400d09d3bdd3ad",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "dir-ritual",
+      "name": "仪式调度",
+      "rarity": "UR",
+      "formalMeaning": "本卡用“仪式调度”称呼以重复动作、队形、节奏和共同程序组织场面的处理。程序被遵守或打破时，人物与群体的关系便有了可见的变化。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-30fd94146fc8f81b",
+      "sourceTitle": "戏剧鉴赏",
+      "pages": [
+        204,
+        205,
+        206
+      ],
+      "decision": "PASS",
+      "reason": "204–206页交代集体仪式的身份/意识转变、歌舞节拍、重生及谋杀程序和观众介入改变程序，能解释共同程序如何组织和改变演员/群体关系。",
+      "scope": "具体案例的仪式挪用说明，不声称所有仪式都具有同一程序。",
+      "sourceTextIntegrity": [
+        {
+          "page": 204,
+          "sha256": "1c3f0af1509c200337e849de360c8218ab5f225dc567dbdb73f3c21cf50dfab8",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 205,
+          "sha256": "8aa83c507bc49f6aaee6528bfc2e1a331e18ec28a6f1beb7f88fffbe380bc54b",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 206,
+          "sha256": "924aa80e9d2c27db1a912b29b50c332a1c1bd53a4f12803f75d51715cda24180",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "ystyle-ritualstyle",
+      "name": "仪式戏剧",
+      "rarity": "SSR",
+      "formalMeaning": "以仪式性结构、重复动作或集体参与组织演出的戏剧实践，具体形式可神圣、世俗或虚构。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-30fd94146fc8f81b",
+      "sourceTitle": "戏剧鉴赏",
+      "pages": [
+        203,
+        204,
+        205,
+        206
+      ],
+      "decision": "PASS",
+      "reason": "203–206页连续解释谢克纳的仪式来源、文本及表演双重作用、集体性与身体经验、角色身份、观众参与，含可引用的仪式组织实践。",
+      "scope": "源文包含作者对仪式来源及表演分类的判断，应保留为该书论述。",
+      "sourceTextIntegrity": [
+        {
+          "page": 203,
+          "sha256": "02b862616605a3815feacff2e0b4358d926f83d97b1c764c246ec6fc7d0705c2",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 204,
+          "sha256": "1c3f0af1509c200337e849de360c8218ab5f225dc567dbdb73f3c21cf50dfab8",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 205,
+          "sha256": "8aa83c507bc49f6aaee6528bfc2e1a331e18ec28a6f1beb7f88fffbe380bc54b",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 206,
+          "sha256": "924aa80e9d2c27db1a912b29b50c332a1c1bd53a4f12803f75d51715cda24180",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "v23-style-visual",
+      "name": "视觉戏剧",
+      "rarity": "SSR",
+      "formalMeaning": "以图像、构图、身体与物件变化承担重要叙事的剧场创作。作品可以减少对白，也可以让语言、声音与视觉材料协作；关键在于画面怎样形成行动与关系。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-aa3aeda0b230c02c",
+      "sourceTitle": "中国话剧艺术史第8卷",
+      "pages": [
+        340,
+        341
+      ],
+      "decision": "PASS",
+      "reason": "340–341页说明肢体动作如何组成抽象流动图案；椅阵的悬吊/并置、群体聚散、床与身体意象共同形成意义及开放诠释。属于图像、物件与行动关系的实质解释。",
+      "scope": "不是靠普通布景名词或视觉一词升级。",
+      "sourceTextIntegrity": [
+        {
+          "page": 340,
+          "sha256": "9806fdad3bfea2461526c40c903356eb3f9ad2cd1fa802807e99c5eebe62b664",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 341,
+          "sha256": "428646f073d5b3bb0e67644b8d3cd51d0bdcbb46ceea817d80400d09d3bdd3ad",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "dir-solo",
+      "name": "独白直给",
+      "rarity": "UR",
+      "formalMeaning": "本卡的“独白直给”指人物直接面向观众说出一段独白，把说明、辩护或坦白交给当下的观看者。一般的独白也可以说给同台人物听，或呈现人物的独处思绪。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-2bfb13e735e610fe",
+      "sourceTitle": "二十世纪中国戏剧整体观",
+      "pages": [
+        176
+      ],
+      "decision": "PASS",
+      "reason": "176页直接论述田汉独白以诗的语言直接向观众剖露人物内心，并解释与戏曲唱段及散文诗式台词的关系，正合人物对观看者直接披露的卡面含义。",
+      "scope": "不是将所有独白都定义为面向观众。",
+      "sourceTextIntegrity": [
+        {
+          "page": 176,
+          "sha256": "9a5e6ba847ffcd5472f9c2ac7800ca7976e37c82a9b9da7dfdbb3941052893c9",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "dir-v21-timecut",
+      "name": "时间跳接",
+      "rarity": "UR",
+      "formalMeaning": "时间跳接略去事件之间的过渡，使前后时刻的直接相邻改变观众对因果和损失的感受。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-ee4634c534a9845e",
+      "sourceTitle": "中国话剧艺术史第9卷",
+      "pages": [
+        124,
+        125
+      ],
+      "decision": "PASS",
+      "reason": "124–125页明确交代四场戏跨度16年、每场时间跳跃且地点固定，并逐段解释夫妻从抗拒孩子到离别时眷恋的变化；足以解释省略过渡的结构及情感效果。",
+      "scope": "OCR里的作者名和个别字词仍有疑读，保留首遍状态。",
+      "sourceTextIntegrity": [
+        {
+          "page": 124,
+          "sha256": "cc1ee890c8b02b5efdbe6b48b6dc30d39f7ce018cb71fa32a1ecf694cba83baa",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 125,
+          "sha256": "9795f70c56d3dd559db82801ef04cf47841cb7bf71c038da44ec3f01b8896080",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "style-kabuki",
+      "name": "夸张演技",
+      "rarity": "SSR",
+      "formalMeaning": "有意放大声音、动作或表情的表演处理，可突出性格、喜剧效果或风格。放大的幅度仍需服从角色行动，不能只追求响亮或醒目。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-2bfb13e735e610fe",
+      "sourceTitle": "二十世纪中国戏剧整体观",
+      "pages": [
+        207,
+        208
+      ],
+      "decision": "PASS",
+      "reason": "207–208页区分徒具外观的滑稽与有内容的讽刺，并具体分析《升官图》巴掌、倒地、众人伸头等夸张动作如何揭露人物交易与丑态，符合卡面夸张演技。",
+      "scope": "按正式中文卡名及note审查，不将历史id kabuki误当歌舞伎概念。",
+      "sourceTextIntegrity": [
+        {
+          "page": 207,
+          "sha256": "46bc9cc95c8b972b622ddbbba1ec011d12763589a544d2a5f8d507fd3dd43df6",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 208,
+          "sha256": "eafe61eff15608471af02bf649892b846a4ffd3596ca9a32da23a32b1fe249b9",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "ystyle-kyogen",
+      "name": "讽刺短剧",
+      "rarity": "SSR",
+      "formalMeaning": "以较短篇幅揭露或嘲讽某种观念、行为和社会关系的戏剧形式，常借夸张、反讽与错位形成判断。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-2bfb13e735e610fe",
+      "sourceTitle": "二十世纪中国戏剧整体观",
+      "pages": [
+        207,
+        208
+      ],
+      "decision": "PASS",
+      "reason": "207页明确标出《禁止小便》是独幕剧，解释革命科长一本正经训话却掉出女鞋的反讽，以及讽刺如何寓于滑稽，充分支持讽刺短剧。",
+      "scope": "按正式卡名含义审查，不将id kyogen误当日本狂言。",
+      "sourceTextIntegrity": [
+        {
+          "page": 207,
+          "sha256": "46bc9cc95c8b972b622ddbbba1ec011d12763589a544d2a5f8d507fd3dd43df6",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 208,
+          "sha256": "eafe61eff15608471af02bf649892b846a4ffd3596ca9a32da23a32b1fe249b9",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "xstyle-chuanju",
+      "name": "开放结局",
+      "rarity": "SSR",
+      "formalMeaning": "在收束处保留关键问题或人物去向的不确定性，不把可能结果全部交代给观众的叙事安排。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-30fd94146fc8f81b",
+      "sourceTitle": "戏剧鉴赏",
+      "pages": [
+        103,
+        104
+      ],
+      "decision": "PASS",
+      "reason": "103–104页对娜拉离家、双方改变后可能重聚、奇迹是否实现留下问号作具体解释，支持结尾保留关键结果而未封闭的机制。",
+      "scope": "仅是《玩偶之家》的开放结局分析，不把所有问题剧等同开放结局。",
+      "sourceTextIntegrity": [
+        {
+          "page": 103,
+          "sha256": "4906954dd6a62cc65a04db47c5fd66fb51037a59c0f3ea303cc248786aecfd22",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 104,
+          "sha256": "91d4316996b40655d494f8dda9584db033aba1cbb1bb5f85e05ee2d3a53e1f42",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "xdir-facechange",
+      "name": "情绪突变",
+      "rarity": "SSR",
+      "formalMeaning": "人物因新信息、对手行动或自身决定而迅速转变态度的表演处理。变化需要具体触发条件，表情的突然切换不能代替人物动机。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-81ed6cbb60c2bc3c",
+      "sourceTitle": "编剧理论与技巧",
+      "pages": [
+        227,
+        228
+      ],
+      "decision": "PASS",
+      "reason": "227–228页《妇女代表》分析有明确对手行动触发：丈夫阻止公事并拉扯，张桂容由先前忍让突然转为强硬抗议。原文逐句解释态度转折，符合情绪突变而不只是情节高潮。",
+      "scope": "保留剧作/表演态度分析的范围，不能用此例泛称无动机表情切换。",
+      "sourceTextIntegrity": [
+        {
+          "page": 227,
+          "sha256": "07fda30268dd8809e8edac818d659beaba8fe3b7ba1447f86af3bf0aaec476a7",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 228,
+          "sha256": "dac77f34b515e9f0895367f293a3117324b36230474cf3efc65d383210ee202e",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "ydir-lingzi",
+      "name": "视线引导",
+      "rarity": "SSR",
+      "formalMeaning": "通过演员注视的方向、集体转头或目光的先后次序，引导观众关注具体位置。视线与灯光、动作共同组织焦点，不保证观众只看被提示的地方。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-6bf889e81d90ed6f",
+      "sourceTitle": "戏剧教育教学法及实用教程 编剧导演管理 中级至高级阶段",
+      "pages": [
+        130
+      ],
+      "decision": "PASS",
+      "reason": "130页有具体二十人集体将视线投向弱区一人的练习，直接解释演员视线使观众焦点转移，并列出组织焦点的调度用途。",
+      "scope": "图中文字和理论断言按原书保留；不把吸引注意夸大成保证所有观众只能看此处。",
+      "sourceTextIntegrity": [
+        {
+          "page": 130,
+          "sha256": "26968d62d11829bc15d3616189bde92fb771b81adb0d9ff36643d0e1e239cb39",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "ydir-jijifeng",
+      "name": "加速节奏",
+      "rarity": "SR",
+      "formalMeaning": "逐渐缩短动作或语言之间的间隔，形成紧迫感的节奏处理。加速仍需保留行动因果和信息重心，音量加大并不等于速度更快。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-2dfac6a157db2369",
+      "sourceTitle": "戏剧艺术十五讲",
+      "pages": [
+        171,
+        172
+      ],
+      "decision": "PASS",
+      "reason": "171–172页连续说明周信芳《四进士》背向观众念白，节奏越来越快，肩颈动作节奏传达人物情感和性格；明确为速度推进而非单纯音量。",
+      "scope": "不是以电影剪辑或一般紧张气氛替代舞台节奏。",
+      "sourceTextIntegrity": [
+        {
+          "page": 171,
+          "sha256": "615ec85ec0b8f4bb25579995040c652e87655f356031d32ec4431967cbf2f31d",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 172,
+          "sha256": "db002013a3d4e708671fca3f8f0af80b81305e8c7c0327f359fd498fb4b7d14f",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "xdir-bang",
+      "name": "旁唱评论",
+      "rarity": "SR",
+      "formalMeaning": "本卡用“旁唱评论”描述歌唱与场内行动相互评说的处理。歌声可以概括事件、提出异议或显出人物没有说出的判断，不必只作情绪伴奏。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-30fd94146fc8f81b",
+      "sourceTitle": "戏剧鉴赏",
+      "pages": [
+        144
+      ],
+      "decision": "PASS",
+      "reason": "144页明确区分歌曲自表心声与演员对角色/剧情的评论，继而分析结尾唱词如何反驳剧情预期并形成间离，吻合歌唱与行动互相评说。",
+      "scope": "引用本页仍须保留出处为《三毛钱歌剧》分析，不变成未经来源的定义。",
+      "sourceTextIntegrity": [
+        {
+          "page": 144,
+          "sha256": "1976d15b24d4eeef4874e883c0889e146f70b63e2d093edaeb86e6d1ca514de7",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "xdir-drum",
+      "name": "节奏提示",
+      "rarity": "R",
+      "formalMeaning": "用敲击、音乐或其他可辨认的声音为动作提供时间提示，帮助组织进入、转折和衔接。声音既可供演员配合，也可以成为观众听见的场面结构。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-2dfac6a157db2369",
+      "sourceTitle": "戏剧艺术十五讲",
+      "pages": [
+        171
+      ],
+      "decision": "PASS",
+      "reason": "171页小锣与目光相碰的动作配合，凤点头如标点加强节奏、突出上下句思想逻辑，含声音组织动作/衔接和向观众传递心理的机制。",
+      "scope": "不将所有配乐都认作节奏提示。",
+      "sourceTextIntegrity": [
+        {
+          "page": 171,
+          "sha256": "615ec85ec0b8f4bb25579995040c652e87655f356031d32ec4431967cbf2f31d",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "dir-v21-endingloop",
+      "name": "结尾回环",
+      "rarity": "UC",
+      "formalMeaning": "结尾回环让终场回应开场的形象或言语。重复可以让观众比较人物已经发生的变化，也可以显出他们仍被困在原来的循环里。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-69812107a56d3d62",
+      "sourceTitle": "戏剧鉴赏",
+      "pages": [
+        231,
+        232
+      ],
+      "decision": "PASS",
+      "reason": "231–232页明确描述终场由马丁夫妇重复开场史密斯夫妇的坐姿及台词，并解释循环往复、生活无意义与交流孤独，完整对应结尾回应开场的形式与效果。",
+      "scope": "只用此两页前段解释回环；232页后半转入布莱希特传略，不作为回环论据。",
+      "sourceTextIntegrity": [
+        {
+          "page": 231,
+          "sha256": "f68dcd271c1d8fc6261c43738a29e7efcece618b373127a2d04268841f59de69",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 232,
+          "sha256": "8a6428ada9d37fbad8b33030765fc26fbc7767b9c51c9f222741124bb1a67088",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "dir-call",
+      "name": "点名观众",
+      "rarity": "R",
+      "formalMeaning": "本卡的“点名观众”是一种直接交流练习：演员向某位观众提出问题、请求或选择，并根据回应继续行动。邀请应允许拒绝，参与也不自动意味着观众决定全剧走向。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-30fd94146fc8f81b",
+      "sourceTitle": "戏剧鉴赏",
+      "pages": [
+        205,
+        206
+      ],
+      "decision": "PASS_WITH_SCOPE",
+      "reason": "205–206页演员邀请观众参与，在原演员随观众离开后导演选择一位观众即兴扮演彭透斯，具体邀约和参与回应确实改变后续行动。正式note将点名观众解释为向某位观众提出请求/选择，故不要求来源记载喊出其姓名。",
+      "scope": "只证明邀约与回应机制；拒绝权为卡面规范，本段未作专门阐释，不虚称原书已解释同意机制，也不把该演出观众影响剧情等同所有参与都决定全剧。",
+      "sourceTextIntegrity": [
+        {
+          "page": 205,
+          "sha256": "8aa83c507bc49f6aaee6528bfc2e1a331e18ec28a6f1beb7f88fffbe380bc54b",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        },
+        {
+          "page": 206,
+          "sha256": "924aa80e9d2c27db1a912b29b50c332a1c1bd53a4f12803f75d51715cda24180",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "style-v21-courtroom",
+      "name": "法庭剧",
+      "rarity": "R",
+      "formalMeaning": "法庭剧围绕证词、证据与裁决展开，让真相与说服人的能力处在同一场较量中。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-ee4634c534a9845e",
+      "sourceTitle": "中国话剧艺术史第9卷",
+      "pages": [
+        120
+      ],
+      "decision": "PASS_WITH_SCOPE",
+      "reason": "120页用《时间证人》的法庭不在场证明、伪证、判决与遗书揭示真相，解释证词/辩词创造节奏和全剧情节纠葛，属于法庭叙事的实质解释。",
+      "scope": "原书分类名为情节剧，不能声称原书把它命名法庭剧；此例支持围绕证词、证据、裁决组织叙事。",
+      "sourceTextIntegrity": [
+        {
+          "page": 120,
+          "sha256": "1c4c5031c92e07c01b934190d4f1c252fa2ef1df8c52647180b159c09ceb16e8",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "ystyle-passion",
+      "name": "受难剧",
+      "rarity": "LR",
+      "formalMeaning": "以耶稣受难、死亡及相关宗教事件为主要内容的戏剧传统，演出场地和组织形式随地区与时代而不同。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261116-cont-eb1911-passion",
+      "sourceTitle": "受难剧｜Oberammergau（1911历史词条节录）",
+      "pages": [
+        1
+      ],
+      "decision": "PASS",
+      "reason": "1911历史词条第2–5段明确解释基督受难内容、旧约活人画与基督故事交替、村民组织和宗教礼拜性质，具实质形式说明。",
+      "scope": "逻辑段1不是纸本第1页；保留1911历史说明，人数、年份与制度不是今日信息。独立联网打开当前词条，其永久版本仍为14165539，段落吻合；卷索引标1911与djvu底本。",
+      "sourceTextIntegrity": [
+        {
+          "page": 1,
+          "sha256": "c7a5ec0f496ce66dd0823ee20b0aa4b29c75d1ff60688f8e2e8f8cdf633bfd25",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/private/diagacha-remaining-coverage-20261116-cont/eb1911-passion-package.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    },
+    {
+      "cardId": "style-v21-polyphonic",
+      "name": "复调剧场",
+      "rarity": "UR",
+      "formalMeaning": "本卡以“复调剧场”描述多声部的创作方式：让不同人物保留各自的立场与节奏，不急于用单一解释收束冲突。它不是一套要求所有人同时说话的固定表演程式。",
+      "formalMeaningIsSource": false,
+      "sourceDocumentId": "owner-ocr-20261115-a95a3d6966cee2d9",
+      "sourceTitle": "中国话剧艺术史第6卷",
+      "pages": [
+        122,
+        123,
+        124
+      ],
+      "decision": "REJECT_THIS_UPGRADE",
+      "reason": "复读122–124页全部现有页文本：原书确实命名复调戏剧，但其解释是主调/复调旋律共同推进、生态调查及人际关系多线交叉和视听多声部。它没有解释正式卡面要求的不同人物独立立场与节奏、避免单一解释收束冲突。不得仅因复调词面或多线结构相近而认作同一概念。",
+      "scope": "恢复/保留第三轮MISS；拒绝仅针对当前候选映射，不否认原书关于高行健作品的论述。123页OCR存在断行缺字，不能以推测补足概念证据。原候选代理另复读121–126页未找到进一步独立立场证据，并已同步撤回其候选。",
+      "sourceTextIntegrity": [
+        {
+          "page": 122,
+          "sha256": "5af5b9dadb6b64bace1f9b3f6526e7bb088a1def0c13fd6fef6b6a34691f0335",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true,
+          "integrityCheck": "候选撤回前已逐页验证其excerpt与源页以及SHA256全部吻合；本记录据源页保存核值。"
+        },
+        {
+          "page": 123,
+          "sha256": "73ce081dcdfc4a923785118a567f3580a74c0eba0dc1742b05c477156990b846",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true,
+          "integrityCheck": "候选撤回前已逐页验证其excerpt与源页以及SHA256全部吻合；本记录据源页保存核值。"
+        },
+        {
+          "page": 124,
+          "sha256": "fd491f58fd7bf2fe3d68a9edfb4c656fd183ca3ff7e8b164df863e1b244009db",
+          "hashMatches": true,
+          "exactMatchToSourcePage": true,
+          "integrityCheck": "候选撤回前已逐页验证其excerpt与源页以及SHA256全部吻合；本记录据源页保存核值。"
+        }
+      ],
+      "sourcePublicSearch": true,
+      "sourcePackage": "DiaMotif/knowledge/owner-ocr-fulltexts-20261115.json",
+      "apiCheckPerformedByThisReview": false,
+      "humanFinalProofread": false
+    }
+  ],
+  "negativeBoundaryChecks": [
+    {
+      "cardId": "dir-v21-simultaneoussolos",
+      "name": "同时独白",
+      "decision": "KEEP_MISS",
+      "pages": [
+        {
+          "sourceDocumentId": "owner-ocr-20261115-a95a3d6966cee2d9",
+          "page": 123
+        },
+        {
+          "sourceDocumentId": "owner-ocr-20261115-30fd94146fc8f81b",
+          "page": 158
+        }
+      ],
+      "reason": "《车站》多声部同时说话/混响不自动证明各自成立的独白并行；《等待戈多》两人交替谈论死者声音也不是他们本人的并行独白；原代理保留MISS合理。"
+    },
+    {
+      "cardId": "ydir-qichang",
+      "name": "齐唱",
+      "decision": "KEEP_MISS",
+      "reason": "现有歌剧手段列举和招魂剧本的齐唱提示未提供同一旋律齐唱与独立声部合唱/重唱之区别的实质解释；不把同时发声自动升级齐唱。"
+    }
+  ],
+  "onlineProvenanceCheck": {
+    "cardId": "ystyle-passion",
+    "fixedRevision": "14165539",
+    "articleUrl": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Oberammergau",
+    "indexUrl": "https://en.wikisource.org/wiki/Index:EB1911_-_Volume_19.djvu",
+    "result": "当前词条永久版本14165539、原英语第2至5段与本地节录吻合；卷索引显示1911和djvu。固定版本URL初次工具无法直接打开，使用同修订的当前词条核对。"
+  },
+  "handoff": "父代理处理复调剧场本轮映射撤回、纠正记录及最终API验收；本报告未改任何共享正文、检索索引、正式卡或代码。",
+  "sourceRevisionNote": "落盘过程中来源代理撤回复调剧场，故当前methods候选汇总为19；本独立报告保留原20候选审查及1项否决记录。"
+}
