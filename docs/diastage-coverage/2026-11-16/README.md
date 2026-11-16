@@ -50,14 +50,16 @@ DiaX 已对授权目录 215 件复查，哈希与第三轮一致，未漏收已�
 
 ## 收录与不收录
 
-收录：本说明、各轮覆盖说明、剩余名单、43 张升级名单、不含正文的 500 卡覆盖摘要、公开核验摘要、更正记录、源文件指纹。
+收录 DiaX 已确认可公开的交接原件（哈希已交叉核对）：续轮 ready / gaps / verification / corrections / 搜索索引，以及第三轮终稿对应的 ready / gaps / verification / 搜索索引。也收录本说明、各轮覆盖说明、剩余名单、43 张升级名单，以及不含正文的 500 卡覆盖摘要。`gaps.md`、`corrections.json` 分别与续轮 gaps、corrections 原件字节一致。
 
-不收录：带正文摘录的审计 JSON、链接证据、接口抽检原文、PDF 原件、未发布的《西厢记》正文，以及任何未授权保护期全文。也不把未发布的 v58 草稿当作正式稿。
+不收录：带正文摘录的审计 JSON、链接证据、接口抽检原文、PDF 原件、未发布的《西厢记》正文，以及任何未授权保护期全文。授权目录 215 件的三份独立审查稿（preservation / knowledge / woyzeck）仍在工作机上，尚未核完公开适用性，本次不收录。也不把未发布的 v58 草稿当作正式稿。
+
+公开仓库 [Canoeliu917/DiaStage](https://github.com/Canoeliu917/DiaStage) 目前没有这份覆盖交接；本次统一归档在本目录，不把含摘录的整包送进该公开仓库。
 
 ## 源文件指纹
 
-搜索索引 SHA256：`74C669E70A0E83DF680B753C6C2A0ADEE0DDCFAE374AA32429C532A00B77D440`
+续轮搜索索引 SHA256：`74c669e70a0e83df680b753c6c2a0adee0ddcfae374aa32429c532a00b77d440`
 
-最终审计 SHA256：`C20BEF032E4E6A8BAD14AB6A9F26CD69395373BCA87A2A18582870ACFA0D7E94`（本归档不收录该文件本身）
+续轮最终审计 SHA256：`c20bef032e4e6a8bad14ab6a9f26cd69395373bca87a2a18582870acfa0d7e94`（本归档不收录该文件本身）
 
-其余指纹见 [SOURCE-HASHES.md](SOURCE-HASHES.md)。续轮最终稿与 cont-batch10 并非全部文件完全一致，只有搜索索引 SHA256 相同；覆盖以最终审计逐行复算为准。
+完整指纹见 [SOURCE-HASHES.md](SOURCE-HASHES.md)。续轮最终稿与 cont-batch10 并非全部文件完全一致，只有搜索索引 SHA256 相同；覆盖以最终审计逐行复算为准。

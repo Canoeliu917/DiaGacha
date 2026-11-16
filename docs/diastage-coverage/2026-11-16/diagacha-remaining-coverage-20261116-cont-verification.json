@@ -557,6 +557,7 @@
       "oldBatchFilesPreserved": true
     }
   ],
+  "newResourceBodies": [],
   "initialLiveChecks": "DiaMotif/records/diagacha-remaining-coverage-20261116-cont-initial-live.json",
   "baselineDetailedLivePassed": 279,
   "baselineBodiesLivePassed": 97,
